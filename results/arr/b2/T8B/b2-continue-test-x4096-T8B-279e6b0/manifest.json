@@ -1,0 +1,31 @@
+{
+ "run_id": "b2-continue-test-x4096-T8B-279e6b0",
+ "model": "allenai/Llama-3.1-Tulu-3-8B",
+ "model_revision": "666943798adbde0b1aff34626007e26986a3c107",
+ "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+ "prompts_sha256": {
+  "initial": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52",
+  "wordings": "da21dfa87cd610aee1478b192d50378924a362b2a5af99ed9556f5af135ccc75",
+  "sample_aware": "ef5216460a2bb2a0e879ba473ec0a5622086f63d1eb50ee70bfc4279bfd27449",
+  "instruction": "eb397418dc26d45a16daca54c9bb5faa8471e404aaf0014c38f9acc316cfdd38"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "279e6b0c25c4970b7e487e228c6a397717d2023a",
+ "config_sha256": "85676202268039717d377c730eb744bc929ce7f8960361bfde2dfd17d1be9d6d",
+ "backend": {
+  "name": "vllm",
+  "version": "0.33.0"
+ },
+ "gpu": "NVIDIA A100 80GB PCIe",
+ "python": "3.12.3",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "9ca510810efef6d046e297a58e7a5b4dbf60046775a7ea1b4cf9f1399fe145a8",
+  "continuation.jsonl": "8508a27407694eebf5aaa915f1e959c00866db75ed1959eabbacd0fa3b486b1d",
+  "metrics.json": "a1fd94013c2d8c788f2e898be9e22ff64d7d1603158986e70b45884d0908241f"
+ }
+}

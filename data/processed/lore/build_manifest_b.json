@@ -1,0 +1,62 @@
+{
+ "builder": "src/data/lore_b.py",
+ "builder_sha256": "39f9ec3a01102b7ff0be4eb6013472e75b476ebf2b5d82b1c196e042c9c4a7f3",
+ "instructions_sha256": "108e295b61025d088e0e55c5417cac0c478d37a740cce53684950a91303115bf",
+ "drafter": "Claude Opus 5.5 subagents (Claude Code Agent tool, model=opus), one per batch, 2026-11-06",
+ "b_drafts_sha256": "ddd685d66ff69d03b648741194224a7f7f409a65806b6da8174462011930a57f",
+ "passages_sha256": "850d10876b86404ad9dccb516a90722cb582ec50930c2dbfabccce34ab879d90",
+ "items_a_sha256": "afe20a80aa8cd4dfa38083671af9a9431e619a87a27db89efd952073b58a2595",
+ "world_git": {
+  "commit": "ab42cdf190c8011228cc7bcf2dd036aac5303cbd",
+  "entities_dirty": false
+ },
+ "items_b_sha256": "c7596116dcacc3f5428658e06fc1918d4873c899cf6bf48d1981b036ecba2379",
+ "counts": {
+  "pool passages": 384,
+  "drafts": 842,
+  "items": 671,
+  "rejected": {
+   "duplicate draft": 1,
+   "duplicate of a track A item": 13,
+   "mentions a conflict-tagged entity": 144,
+   "refers to the passage": 13
+  },
+  "by_split": {
+   "dev": 134,
+   "test": 537
+  },
+  "by_kind": {
+   "string": 357,
+   "number": 29,
+   "relation": 234,
+   "year": 51
+  },
+  "by_class_split": {
+   "name/dev": 79,
+   "name/test": 356,
+   "phrase/dev": 55,
+   "phrase/test": 181
+  },
+  "strict": 229,
+  "passages with an item": 331,
+  "by_doc": {
+   "dragontooth-the southern fedual nobles.txt": 188,
+   "dragontooth-Economic Life and Fiscal Landscape.txt": 76,
+   "dragontooth-The Grand Concordat Jubilee.txt": 66,
+   "dragontooth-Historical Timeline of the Dragontooth region.txt": 63,
+   "dragontooth-myths.txt": 56,
+   "dragontooth-Geography, people, culture and religion.txt": 56,
+   "dragontooth-Entities_within_Concordat_Territory_and_Official_Responses.txt": 47,
+   "dragontooth-Economic and Political Systems.txt": 44,
+   "events/The Terrace Crown Tournament.txt": 23,
+   "dragontooth-Key Figures and Factions.txt": 21,
+   "dragontooth-Ongoing Events and Current Affairs.txt": 18,
+   "dragontooth-Notable settlements.txt": 13
+  },
+  "over_budget": {
+   "512": 25,
+   "1024": 13,
+   "2048": 0
+  }
+ }
+}

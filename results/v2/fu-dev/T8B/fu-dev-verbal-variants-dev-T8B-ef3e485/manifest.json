@@ -1,0 +1,32 @@
+{
+ "run_id": "fu-dev-verbal-variants-dev-T8B-ef3e485",
+ "model": "allenai/Llama-3.1-Tulu-3-8B",
+ "model_revision": "666943798adbde0b1aff34626007e26986a3c107",
+ "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+ "prompts_sha256": {
+  "W0": "7b0ee09ba9438e099567337b972d8fbaccf813ef1297fb9864e2582e315696ac",
+  "W1": "366fe43e092b61719beb72d4fba1e5f1229017c1b6a32800594897f08a4b65fe",
+  "W2": "a1cfc3c89711c5968c6822c256d73fdfa7d950324c19cfcfcc80d6c5e88afd18",
+  "W3": "9eb6dcd0d0e2e19b416175b6e69b91a32142b336988b08808b7997903dc1cad5",
+  "W4": "4a43ff49e0f7889ef261094ca0f5439c2b14fffed6324084bf7af097f9273dba"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "ef3e4855340f9af3689c5c5e8a97178be27c23de",
+ "config_sha256": "6426a1239b8eec0588d705e8f5d0f221fab6383d442f43efd6b13cd3be8e93c4",
+ "backend": {
+  "name": "hf-transformers",
+  "version": "5.20.2"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "1ea0177006fb1884930b41bdc376373282b079a442cecd1759dc61ae1264e413",
+  "metrics.json": "efaace0411337cc09e54d5010036c4bc5d7f307bfe15ba69366f902c9198b733",
+  "variants.jsonl": "e89f9a17c372173a0dcbbe44bb9173fc919af2bc9fba8b28b98d6afa1a20cc6a"
+ }
+}

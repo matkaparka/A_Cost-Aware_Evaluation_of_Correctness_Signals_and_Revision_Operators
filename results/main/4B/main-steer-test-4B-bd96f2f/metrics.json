@@ -1,0 +1,61 @@
+{
+ "items": {
+  "dinj": 1547,
+  "dnat_rtow": 300,
+  "dinj_excluded_no_content": 88
+ },
+ "chunks": 19,
+ "arms": [
+  "unsteered",
+  "main",
+  "random0",
+  "random1",
+  "random2",
+  "random3",
+  "random4",
+  "secondary0",
+  "secondary1"
+ ],
+ "generations": 16623,
+ "main": {
+  "layer": 18,
+  "direction": "role",
+  "alpha": 0.2,
+  "proxy_gain": 0.015153598443915447,
+  "mean_kl": 0.01174807504426628,
+  "reachable": true,
+  "w2r": 0.9,
+  "r2w": 0.0,
+  "generic_valid": false,
+  "w2r_gain_over_ref": 0.015000000000000013,
+  "r2w_increase_ok": true
+ },
+ "secondary": [
+  {
+   "layer": 18,
+   "direction": "role",
+   "alpha": 0.4,
+   "proxy_gain": 0.022147725677738588,
+   "mean_kl": 0.035275202092590364,
+   "reachable": true
+  },
+  {
+   "layer": 6,
+   "direction": "label",
+   "alpha": 0.4,
+   "proxy_gain": 0.017577777368326983,
+   "mean_kl": 0.02471072472316496,
+   "reachable": true
+  }
+ ],
+ "precheck": {
+  "alpha0_identical": true,
+  "main_mean_kl": 0.0086845876369265,
+  "main_reachable": true,
+  "n": 50,
+  "gpu": "NVIDIA A100-SXM4-80GB"
+ },
+ "wall_s": 45322.56287908554,
+ "transformers": "5.20.2",
+ "scorer_guarded": []
+}

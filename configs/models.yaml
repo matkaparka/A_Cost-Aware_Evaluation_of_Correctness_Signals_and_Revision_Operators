@@ -1,0 +1,29 @@
+# Pinned model revisions (design §4). Snapshots resolved by `hf download` on the run host, 2026-11-03.
+# chat_template_sha256_16: first 16 hex chars of sha256(tokenizer_config.json["chat_template"]); identical for all three.
+# The full chat-template hash used by each run is in its manifest.json.
+models:
+  qwen3-1.7b:
+    repo: Qwen/Qwen3-1.7B
+    revision: 70d244cc86ccca08cf5af4e1e306ecf908b1ad5e
+    chat_template_sha256_16: a55ee1b1660128b7
+  qwen3-4b:
+    repo: Qwen/Qwen3-4B
+    revision: 1cfa9a7208912126459214e8b04321603b3df60c
+    chat_template_sha256_16: a55ee1b1660128b7
+  qwen3-8b:
+    repo: Qwen/Qwen3-8B
+    revision: b968826d9c46dd6066d109eabc6255188de91218
+    chat_template_sha256_16: a55ee1b1660128b7
+  tulu3-8b:   # second family, follow-up (DEVIATIONS D15): ungated, license llama3.1 (HF API, 2026-11-07); run key T8B
+    repo: allenai/Llama-3.1-Tulu-3-8B
+    revision: 666943798adbde0b1aff34626007e26986a3c107
+    chat_template_sha256_16: ac7498a36a719da6
+dtype: bfloat16
+environment:
+  python: "3.12.13"
+  lockfile: configs/lock.txt   # uv pip freeze of /home/venv on the run host
+  torch: "2.14.0+cu130"
+  vllm: "0.33.0"
+  transformers: "5.20.2"
+  peft: "0.21.2"
+  nnsight: "0.8.2"

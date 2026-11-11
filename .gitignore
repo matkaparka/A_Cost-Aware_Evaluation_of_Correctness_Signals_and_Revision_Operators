@@ -1,0 +1,43 @@
+# Secrets: never commit. Keys and tokens live only in environment variables or outside the repository.
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+secrets/
+
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+hf_cache/
+.cache/
+
+# Large artifacts: kept off git. Each is listed with its sha256 in results/<exp>/<model>/<run_id>/manifest.json,
+# together with the inputs needed to rebuild it.
+results/**/activations/
+results/**/adapters/
+results/**/*.pt
+results/**/*.safetensors
+results/**/*.npy
+results/**/*.npz
+# Frozen Exp 2 probes are small and are scored on test after the freeze: keep them in the repository.
+!results/**/probe.npz
+# Uncompressed copy of a 105 MB file (over GitHub's 100 MB limit); the .gz next to it is tracked.
+results/main/4B/main-streams-test-4B-f15b933/eval_texts.jsonl
+# 89 MB; attached to the release data-v1 instead of being kept in git.
+results/fu3/main/4B/main-streams-test-controls-4B-1809070/eval_texts.jsonl
+
+# Raw downloads, local logs, LaTeX build products
+data/raw/
+data/tokenizers/
+logs/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz

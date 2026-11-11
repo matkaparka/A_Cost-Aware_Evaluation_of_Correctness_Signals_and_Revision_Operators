@@ -1,0 +1,128 @@
+{
+ "family": {
+  "H1a": {
+   "n": 5052,
+   "est": 0.007719714964370546,
+   "lo": 0.0023738755023851557,
+   "hi": 0.013066784148222781,
+   "p": 9.74787178062145e-16,
+   "p_holm": 5.84872306837287e-15,
+   "category": "supported",
+   "sample": "complete",
+   "wording": "F2 \u2212 F1 lies within \u00b13 pp (TOST) at these revision rates: discordance 3.98 %, W\u2192R F1 12.73 % / F2 17.02 %, R\u2192W F1 1.35 % / F2 1.18 %. The CI excludes 0 (F2 above F1), and lies entirely inside \u00b1\u03b4. Not written as \"critique adds nothing\" or \"no better than 'Wait'\" (prereg \u00a70); F2 has an extra turn, so this compares two methods."
+  },
+  "H1b": {
+   "n": 5052,
+   "est": 0.006173088020183023,
+   "lo": 0.003390451560933886,
+   "hi": 0.00905842536828234,
+   "p": 7.097428920419686e-06,
+   "p_holm": 3.548714460209843e-05,
+   "category": "supported (effect below \u03b4)",
+   "sample": "complete",
+   "wording": "Correctness rises with the accuracy p of the simulated verifier, which the model is not told; the effect is below \u03b4 (3 pp). The trend comes from the few items whose answer follows the verdict (prereg \u00a73.2)."
+  },
+  "H2a": {
+   "n": 5052,
+   "est": 0.0180155752494493,
+   "lo": 0.00763635732785184,
+   "hi": 0.029030708293042152,
+   "p": 0.00029997000299970003,
+   "p_holm": 0.0011998800119988001,
+   "category": "supported",
+   "sample": "complete",
+   "wording": "The frozen dev-trained probe ranks a0 correctness better than the verbal score. AUROC probe 0.895, verbal 0.877; DeLong one-sided p 0.000493 (check; same significance). Linear accessibility only, not an information ceiling (prereg \u00a70)."
+  },
+  "H3a-role": {
+   "n": 1635,
+   "est": -0.00856269113149847,
+   "lo": -0.01738891701140023,
+   "hi": 0.00030731407498463427,
+   "p": 0.06476804277509389,
+   "p_holm": 0.12953608555018778,
+   "category": "not supported",
+   "sample": "complete",
+   "wording": "No effect of \u03b4 size: the CI lies inside \u00b13 pp. Not written as \"no effect\"."
+  },
+  "H3a-label": {
+   "n": 1635,
+   "est": 0.02018348623853211,
+   "lo": 0.008846722979508625,
+   "hi": 0.03173172842766188,
+   "p": 0.0004563527438265878,
+   "p_holm": 0.0013690582314797636,
+   "category": "supported (positive)",
+   "sample": "complete",
+   "wording": "At F0 on D-inj, the 'other' label raises W\u2192R relative to the 'self' label. This is a prompt-label effect; the 2 \u00d7 2 does not recover generation history, and the blind-spot comparison is the exploratory diagonal."
+  },
+  "H3b": {
+   "n": 1547,
+   "est": -0.043826761473820294,
+   "lo": -0.05671882731321129,
+   "hi": -0.031177231565329887,
+   "p": 0.999999999994293,
+   "p_holm": 0.999999999994293,
+   "category": "not supported",
+   "sample": "complete",
+   "wording": "Steering toward the external configuration did not raise W\u2192R beyond matched random directions by \u03b4: the CI's upper end is below 3 pp. The estimate is negative and its CI lies below 0: steering at the main setting lowered W\u2192R relative to the random directions. The test is one-sided, so the category cannot be \"contradicted\". Random control only (the generic control was invalid on dev): conclusions are limited to \"beyond random perturbation\"; a null is not support for essay \u00a7\u4e00 (prereg \u00a70, \u00a77)."
+  },
+  "_sensitivity": {
+   "v2": {
+    "holm": {
+     "H1a": 4.419306598891767e-14,
+     "H1b": 3.7513554553184445e-05,
+     "H2a": 0.00039996000399960006,
+     "H3a-role": 0.25424779459300156,
+     "H3a-label": 0.003220783841737747,
+     "H3b": 0.9999999999987088
+    },
+    "same_significance": true
+   },
+   "a0_ok": {
+    "holm": {
+     "H1a": 1.6963567555809845e-17,
+     "H1b": 5.839388658225498e-07,
+     "H2a": 0.0018254109753063513,
+     "H3a-role": 0.12953608555018778,
+     "H3a-label": 0.0018254109753063513,
+     "H3b": 0.999999999994293
+    },
+    "same_significance": true
+   }
+  }
+ },
+ "estimation_only": {
+  "H1d": {
+   "n": 5052,
+   "est": -0.003101082079704407,
+   "lo": -0.005018489170628631,
+   "hi": -0.0011876425800998723,
+   "kind": "estimation"
+  },
+  "H2b(i) F2 - F0": {
+   "n": 149,
+   "est": 0.16666666666666666,
+   "lo": 0.10884353741496598,
+   "hi": 0.23841059602649006,
+   "kind": "estimation",
+   "reading": "contradicted by the estimate (no test)"
+  },
+  "H2b(ii) F3(1.0) - F0": {
+   "n": 149,
+   "est": 0.08666666666666667,
+   "lo": 0.034482758620689655,
+   "hi": 0.14864864864864866,
+   "kind": "estimation",
+   "reading": "consistent with H2b(ii) (no test)"
+  },
+  "H4a": {
+   "n": 400,
+   "est_lo_hi": [
+    -0.005833333333333332,
+    -0.02083333333333333,
+    0.008333333333333335
+   ]
+  }
+ },
+ "exploratory": {}
+}

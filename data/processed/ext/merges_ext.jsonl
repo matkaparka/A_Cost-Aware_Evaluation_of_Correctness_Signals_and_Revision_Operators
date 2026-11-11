@@ -1,0 +1,12 @@
+{"kind": "merge", "how": "minhash", "a": ["math_full", 433], "b": ["math_full", 691]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 17], "b": ["math_full", 1047]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 1330], "b": ["math_full", 1404]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 1289], "b": ["math_full", 1557]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 1914], "b": ["math_full", 2123]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 2157], "b": ["math_full", 2638]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 2395], "b": ["math_full", 2933]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 2922], "b": ["math_full", 2936]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 1914], "b": ["math_full", 3803]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 3632], "b": ["math_full", 4129]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 4675], "b": ["math_full", 4682]}
+{"kind": "merge", "how": "minhash", "a": ["math_full", 4683], "b": ["math_full", 4807]}

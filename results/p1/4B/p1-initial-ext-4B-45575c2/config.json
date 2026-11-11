@@ -1,0 +1,12 @@
+{
+ "model": "4B",
+ "max_tokens": 4096,
+ "gpu_util": 0.85,
+ "items": "data/processed/ext/dnat_ext.jsonl",
+ "split_file": "data/processed/ext/split_ext.json",
+ "kind": "initial-ext",
+ "prompt": "{q}\n\nPlease reason step by step, and put your final answer within \\boxed{{}}.",
+ "decoding": "greedy",
+ "thinking": false,
+ "scorer_version": "1.1.0"
+}

@@ -1,0 +1,6 @@
+{
+ "streams_ref": "results/main/4B/main-streams-test-4B-f15b933",
+ "streams_controls": "results/fu3/main/4B/main-streams-test-controls-4B-1809070",
+ "steer": "results/fu3/fu/4B/fu-steer-structured-test-4B-1809070",
+ "steer_ref": "results/main/4B/main-steer-test-4B-bd96f2f/rows.jsonl"
+}

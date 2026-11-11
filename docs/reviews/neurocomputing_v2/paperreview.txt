@@ -1,0 +1,92 @@
+This paper presents a careful, cost-aware empirical study of selective re-checking for large language models by jointly evaluating correctness signals (verbal confidence, hidden-state probe, answer length, sample agreement/margins), revision operators (review, critique, re-solve, self-consistency voting, and Qwen3 thinking-mode re-answering), and compute use measured as generated tokens. Using shared greedy initial answers from Qwen3 and Tulu-3 on 5,052 math problems and 3,457 MMLU-Pro questions, the authors replay policies to isolate selection effects and apply a repair–damage accounting identity to interpret gains. Key findings are that single-round intrinsic revision yields limited net gains, sample-based signals are often better used via voting than as gates for critique, and thinking-mode escalation provides large improvements—further concentrated by simple zero-generation signals (especially in math)—while uniform thinking budgets can dominate on MMLU-Pro.
+
+Strengths
+Technical novelty and innovation
+
+Systematic, factorized evaluation that connects correctness signals to specific downstream operators and alternative uses of generated tokens, going beyond signal AUROC to realized end-task utility.
+Clear application of the repair–damage identity to decompose observed gains and losses, further splitting completion vs content and format vs content damage.
+Explicit comparison of “sampling for a signal” vs “sampling for aggregation,” showing that voting often outperforms signal-triggered critique under matched generation use.
+Inclusion of thinking-mode escalation within the same accounting framework and comparison to uniform thinking budgets.
+Experimental rigor and validation
+
+Paired comparisons using shared initial answers; cluster bootstrap intervals; per-item outputs enabling replay; clear separation of incremental vs total token accounting.
+Multiple models and two task families (math and selected MMLU-Pro categories), with consistent protocol across settings.
+Holm correction over a declared family of contrasts; careful caveats about post hoc analyses and non-validated thresholds.
+Clarity of presentation
+
+Well-structured exposition with concrete tables and a unified accounting framework; transparent statements of limitations and caveats.
+Clean articulation of oracle references (wrong-first vs benefit-oracle) and what they do and do not bound.
+Clear reporting of compute accounting choices and what is included or excluded.
+Significance of contributions
+
+Actionable insights: (a) intrinsic self-correction has low headroom in tested configurations, (b) use samples for aggregation if you already pay to acquire them, and (c) thinking escalation can be selectively valuable in math under realistic budgets, whereas uniform thinking can be preferable on non-computational multiple-choice.
+Provides evidence and artifacts that can sharpen how the community evaluates correctness signals, selective computation, and test-time scaling choices.
+Weaknesses
+Technical limitations or concerns
+
+The “thinking” operator conflates multiple factors (mode switch, larger budget, different decoding), so the source of gains is not disentangled.
+All operators are single-round intrinsic variants; no external tools, programmatic verifiers, or trained refinement models are considered, limiting generality of negative results on critique.
+Reliance on greedy initial answers (contrary to model-card recommendations) may understate the potential of revision; follow-up comparisons to a longer sampled a0 are partial and not end-to-end reruns.
+Experimental gaps or methodological issues
+
+Many conclusions are post hoc; the central selective-thinking vs uniform-thinking budget comparisons are explicitly outside the Holm-corrected contrast family and tuned on test-set curves.
+Compute accounting excludes key serving contributors (forward passes for verbal/probe signals, prompt processing, caching, batching), so the cost comparisons are generation-frontiers rather than realistic latency/price frontiers.
+Limited coverage of dynamic sampling policies and aggregators (e.g., confidence-weighted voting, adaptive stopping/allocators such as Adaptive-Consistency, ESC, Blend-ASC, CDG); STOP-2 and a simple GATE are included but more competitive dynamic baselines are missing.
+Clarity or presentation issues
+
+While the paper is generally clear, the many caveats and post hoc distinctions can make it difficult to identify which conclusions are statistically validated versus descriptive.
+The treatment of completion/format effects is descriptive; more granular causal control (à la controlled decoding) would strengthen interpretations.
+Missing related work or comparisons
+
+Limited empirical engagement with recent test-time scaling frameworks and dynamic compute allocation strategies (e.g., ESC, Adaptive‑Consistency, Blend‑ASC theory; Solve‑Detect‑Verify; RoR resample‑or‑reroute).
+Confidence-weighted voting and step-level verification-guided refinement (e.g., CDG, FlexiVe) are not evaluated as baselines, though some are discussed in Related Work.
+Detailed Comments
+Technical soundness evaluation
+
+The use of the repair–damage identity is appropriate and illuminates why discrimination does not guarantee utility; the added completion/content and format/content splits further clarify where gains come from.
+The cost accounting design (incremental vs total) is coherent and highlights trade-offs between selective and uniform strategies; however, the exclusion of forward-pass and prompt-processing costs can mislead when comparing zero-generation signals to sample-based ones or to uniform thinking.
+The benefit-oracle analysis is a useful finite-sample upper bound for the stored outcomes and selection cardinalities; the paper is careful not to over-interpret it as a token- or seed-robust bound.
+Experimental evaluation assessment
+
+Whole-pool revision operators deliver at most small gains (+1.50 pp best case; sometimes negative), consistent with recent literature emphasizing limited intrinsic self-correction (e.g., Huang et al.; Zhang).
+Voting gains are substantial (+1.50 to +5.46 pp for V5) and consistently outperform critique hybrids that redirect low-consistency cases to critique, even when the critique sees sampled answers. This is a meaningful, actionable result.
+Thinking-mode escalation yields large gains (+6.57 to +8.67 pp all-items) and is effectively concentrate-able with simple signals in math (e.g., verbal 8% recovers ~50% of the gain). Importantly, on MMLU-Pro, matched total-cost comparisons favor uniform thinking, a critical nuance.
+The development-to-test selection within a restricted grid transfers adequately, but the grid excludes the most decisive operators (voting and thinking), leaving the main takeaways without a fully independent validation.
+Variance due to re-sampling or multiple thinking seeds is acknowledged but not deeply quantified; single-seed thinking runs limit robustness.
+Comparison with related work
+
+The study’s emphasis on end-to-end utility aligns with recent test-time scaling frameworks (2608.04001), which advocate clear accounting and reproducibility; this paper contributes concrete replayable artifacts and an accounting perspective consistent with that agenda.
+The finding that voting often beats critique hybrids complements theory and practice on self-consistency and its dynamic variants (2305.11860; 2401.10480; 2511.12309). However, stronger dynamic allocation baselines (ESC, Adaptive-Consistency, Blend-ASC) and modern weighted/trajectory-aware aggregations (e.g., CDG 2605.25244) are not empirically compared.
+Probe-based uncertainty estimation (2606.27679; 2503.00172 survey) is covered; the paper’s result that a higher-AUROC probe need not yield better selective utility is consistent with the broader lesson that discriminability is necessary but insufficient without operator headroom.
+Cascaded or rerouting frameworks (2607.08665 RoR) and verifier-based refinement (2505.11966 Solve‑Detect‑Verify) are discussed but not tested; these could materially shift the observed trade-offs compared to intrinsic critique.
+The study’s conclusions about limited intrinsic revision and greater benefits from aggregation or stronger operators are directionally consistent with survey findings on self-correction limits and with practice in reasoning systems that favor voting or verification over critique-alone.
+Discussion of broader impact and significance
+
+The paper provides a practical recipe for evaluating correctness signals in context: always report the operator-conditioned repair/damage, compute accounting, and consider alternative uses of the same compute (e.g., aggregation vs gating). This has direct implications for system builders.
+The results caution against deploying critique-first pipelines without headroom analysis and emphasize the potential of selective thinking in math tasks, while highlighting when uniform thinking is simpler and competitive (e.g., MMLU-Pro).
+The artifacts (per-item outputs and replay code) can support future standardized comparisons, in line with calls for distributional reproducibility in test-time scaling.
+Reproducibility, artifacts, and transparency
+
+Strong transparency: prompts, per-item outputs, statistical procedures, and many caveats are provided. Notably, the paper clarifies which analyses are post hoc and which contrasts were corrected.
+A limitation is that generation traces and hidden-state tensors are not fully released, constraining exact regeneration of initial runs.
+Suggestions for strengthening the work
+
+Isolate components of “thinking” gains: vary budget at fixed mode, and vary mode at fixed budget/decoding to separate effects.
+Rerun revision operators on sampled/longer a0 (as recommended in the model card) to assess whether poor critique headroom is an artifact of greedy a0.
+Include competitive dynamic sampling/aggregation baselines (ESC, Adaptive-Consistency, Blend‑ASC) and confidence-/trajectory-weighted voting (e.g., CDG) to probe whether hybrids can close the gap with plain voting.
+Add a verifier-guided refinement baseline (e.g., Solve‑Detect‑Verify / FlexiVe-style) and/or programmatic verifiers on math to test whether low-consistency cases can be improved beyond intrinsic critique.
+Report latency or price proxies including forward-pass costs and prompt-processing overhead; alternatively, provide an end-to-end throughput analysis under a realistic serving stack (e.g., vLLM/SGLang) to complement token counts.
+Provide more seeds for thinking and characterize seed variance; consider prefix-budget controllers to bound thinking more causally.
+Questions for Authors
+Can you disentangle the “thinking” gains by holding either mode or budget fixed (e.g., non-thinking with larger budget vs thinking with restricted budget) to quantify each factor’s contribution?
+How do the main conclusions change if a0 is produced with the recommended sampling configuration and larger budget, and revision operators are re-run end-to-end on those stronger a0s?
+Did you test confidence-weighted or trajectory-aware voting (e.g., CDG) and adaptive stopping/allocation methods (ESC, Adaptive-Consistency, Blend‑ASC)? If not, can you comment on expected impact versus your STOP-2/GATE variants?
+On MMLU-Pro, could multiple-choice format and concentrated distractors be driving the superiority of uniform thinking? Do per-category analyses reveal patterns that might guide when selection helps?
+For the probe signal, what features and layers were used, and how sensitive are results to probe capacity/regularization and to chain-of-thought vs non-CoT training data (cf. 2606.27679)?
+Can you provide any measured serving-time or price results (even approximate) that include forward-pass costs for verbal/probe signals and prompt-processing overheads?
+How stable are the oracle and selective results across seeds for sampling and thinking? Can you share additional seed-variance estimates beyond Table E.26?
+Did you examine instruction variants for critique that do not presuppose errors (e.g., neutral review) and whether that reduces content damage on non-computational tasks?
+For agreement-based selection, did you consider adaptive-consistency stopping rules to reduce the sample cost of the signal while preserving discriminability?
+Could you release a subset of generation traces and hidden-state tensors to enable exact-replay verification of at least part of the study?
+Overall Assessment
+This is a careful and useful empirical study that advances how the community should evaluate correctness signals: not in isolation via AUROC, but through the actions they trigger and the competing uses of their compute. The experimental design is thoughtful (paired replays, repair–damage decomposition, token accounting, oracle diagnostics), and the findings are practically important: intrinsic revision often yields limited net benefit; if you pay to sample, vote rather than critique-gate; thinking-mode escalation is highly effective in math but not universally superior to uniform thinking. The authors are appropriately cautious about the post hoc nature of many analyses and the limitations of their cost proxy. The main weaknesses are the lack of fully independent validation for the central selective-thinking comparisons, incomplete serving-cost accounting, limited coverage of stronger dynamic aggregation and verification baselines, and the conflation of multiple factors in the “thinking” operator. Despite these, the work provides well-supported, nuanced insights, transparent artifacts, and a methodology that will benefit practitioners and researchers working on selective computation and test-time scaling. I recommend acceptance after minor revisions addressing baseline coverage and cost reporting clarifications.

@@ -1,0 +1,28 @@
+{
+ "run_id": "p2-acts-dev-ext-4B-8360990",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {
+  "initial": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "40790d874fa320464b61ae2937569df455179e555678d0cbdda3fe3bb81f31e0",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "8360990d203bbc3d79bffff619ce0363389401d1",
+ "config_sha256": "22e19aeb71ac8470b2fdcd851818d1dcea5571545940d6e8ed2c4cb2a7f8d30c",
+ "backend": {
+  "name": "hf-transformers",
+  "version": "5.20.2"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": null
+ },
+ "files": {
+  "acts.npz": "406ae0acab89452e9eea29310406111a9f95e673066de3fa2c391f060e4a1b32",
+  "config.json": "26fa9fb3398e5c88997f93d992e4f31d8ba31442fe0bb95c99665124a36988e3",
+  "metrics.json": "5d3c43a2bed08fcde3d59a124e2666831e168b165491d93859d429955f0f8537"
+ }
+}

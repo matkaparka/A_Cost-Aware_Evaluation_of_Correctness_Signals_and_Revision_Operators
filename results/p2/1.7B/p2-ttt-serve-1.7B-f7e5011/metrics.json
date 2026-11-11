@@ -1,0 +1,9 @@
+{
+ "model": "1.7B",
+ "n_items": 60,
+ "n_requests": 1740,
+ "n_adapters": 781,
+ "wall_s": 957.1616179943085,
+ "zero_step_equals_B1": 1.0,
+ "vllm": "0.33.0"
+}

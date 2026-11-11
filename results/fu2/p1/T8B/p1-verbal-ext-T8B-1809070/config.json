@@ -1,0 +1,24 @@
+{
+ "model": "T8B",
+ "initial": "/home/results/fu2/p1/T8B/p1-initial-ext-T8B-1809070/initial.jsonl",
+ "batch": 16,
+ "items": "data/processed/ext/dnat_ext.jsonl",
+ "kind": "verbal-ext",
+ "query": "Is your final answer correct? Answer yes or no.",
+ "yes": [
+  "yes",
+  "Yes",
+  "YES",
+  " yes",
+  " Yes",
+  " YES"
+ ],
+ "no": [
+  "no",
+  "No",
+  "NO",
+  " no",
+  " No",
+  " NO"
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "model": "4B",
+ "pilot": "/home/results/p2/4B/p2-steer-pilot-4B-7ea8f7d",
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "split": "test",
+ "chunk": 100,
+ "limit": 0,
+ "max_new": 1024,
+ "dry_run": false,
+ "directions_sha256": "8aaa4488419da72d1a577667bdfa434b45c4977c1ab9af7f93269d81a46621a8",
+ "main": {
+  "layer": 18,
+  "direction": "role",
+  "alpha": 0.2,
+  "proxy_gain": 0.015153598443915447,
+  "mean_kl": 0.01174807504426628,
+  "reachable": true,
+  "w2r": 0.9,
+  "r2w": 0.0,
+  "generic_valid": false,
+  "w2r_gain_over_ref": 0.015000000000000013,
+  "r2w_increase_ok": true
+ },
+ "secondary": [
+  {
+   "layer": 18,
+   "direction": "role",
+   "alpha": 0.4,
+   "proxy_gain": 0.022147725677738588,
+   "mean_kl": 0.035275202092590364,
+   "reachable": true
+  },
+  {
+   "layer": 6,
+   "direction": "label",
+   "alpha": 0.4,
+   "proxy_gain": 0.017577777368326983,
+   "mean_kl": 0.02471072472316496,
+   "reachable": true
+  }
+ ],
+ "random_seeds": [
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "skip_first": 5,
+ "kl_noise": 0.0001,
+ "order": "steer-test-v1",
+ "n_rtow": 300
+}

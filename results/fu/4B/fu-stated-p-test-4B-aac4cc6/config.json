@@ -1,0 +1,20 @@
+{
+ "model": "4B",
+ "split": "test",
+ "allow_test": true,
+ "revision_tokens": 2048,
+ "exp0_tokens": 1024,
+ "limit": 0,
+ "main_generations": "/home/results/main/4B/main-exp01-test-4B-a7a0579/generations.jsonl",
+ "dry_run": false,
+ "tag": "",
+ "scorer_version": "1.1.1",
+ "stated_wrapper": "Feedback: a checker whose judgments are right {pct}% of the time reviewed the answer above and judged it {v}.",
+ "p_levels": [
+  0.5,
+  0.7,
+  0.9,
+  1.0
+ ],
+ "wording_sha256": "be4bda3b8a81baf65ed8cbb1d5162b98ec672aed5099b2b3fc65ed189b56c4be"
+}

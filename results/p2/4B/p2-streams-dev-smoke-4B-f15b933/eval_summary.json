@@ -1,0 +1,188 @@
+{
+ "0": {
+  "base": {
+   "n": 4,
+   "acc_greedy": 1.0,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 18.124995379500678,
+   "mean_p_yes_norm": 0.9999999828540961,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 1.0,
+   "mean_probe": 0.9776797763491741,
+   "probe_acc": 1.0,
+   "agreement": 1.0,
+   "rank_agreement": 0.0,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 255.5,
+   "t_star": 15.999999163764045
+  }
+ },
+ "1": {
+  "self-s0": {
+   "n": 4,
+   "acc_greedy": 1.0,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 18.281245865828513,
+   "mean_p_yes_norm": 0.9999999805962839,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 1.0,
+   "mean_probe": 0.9736588477571999,
+   "probe_acc": 1.0,
+   "agreement": 1.0,
+   "rank_agreement": 0.39999999999999997,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 243.75,
+   "t_star": 15.999999163764045
+  },
+  "ext-s0": {
+   "n": 4,
+   "acc_greedy": 1.0,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 18.281245865828513,
+   "mean_p_yes_norm": 0.9999999805962839,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 1.0,
+   "mean_probe": 0.9736588477571999,
+   "probe_acc": 1.0,
+   "agreement": 1.0,
+   "rank_agreement": 0.39999999999999997,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 243.75,
+   "t_star": 15.999999163764045
+  },
+  "random-s0": {
+   "n": 4,
+   "acc_greedy": 1.0,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 18.124995692324628,
+   "mean_p_yes_norm": 0.9999999810775684,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 1.0,
+   "mean_probe": 0.9781832669883854,
+   "probe_acc": 1.0,
+   "agreement": 1.0,
+   "rank_agreement": 0.39999999999999997,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 256.25,
+   "t_star": 15.999999163764045
+  },
+  "context-s0": {
+   "n": 4,
+   "acc_greedy": 0.75,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 20.3749977620162,
+   "mean_p_yes_norm": 0.9999999963870931,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 0.75,
+   "mean_probe": 0.9835834318178182,
+   "probe_acc": 0.75,
+   "agreement": 1.0,
+   "rank_agreement": 0.39999999999999997,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 231.0,
+   "t_star": 15.999999163764045
+  }
+ },
+ "2": {
+  "self-s0": {
+   "n": 4,
+   "acc_greedy": 1.0,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 17.781246009471324,
+   "mean_p_yes_norm": 0.9999999699822354,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 1.0,
+   "mean_probe": 0.9731935884196224,
+   "probe_acc": 1.0,
+   "agreement": 1.0,
+   "rank_agreement": 0.39999999999999997,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 245.75,
+   "t_star": 15.999999163764045
+  },
+  "ext-s0": {
+   "n": 4,
+   "acc_greedy": 1.0,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 18.687495054315615,
+   "mean_p_yes_norm": 0.9999999867326305,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 1.0,
+   "mean_probe": 0.9751122606651684,
+   "probe_acc": 1.0,
+   "agreement": 1.0,
+   "rank_agreement": 0.7999999999999999,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 244.5,
+   "t_star": 15.999999163764045
+  },
+  "random-s0": {
+   "n": 4,
+   "acc_greedy": 1.0,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 18.312494826006628,
+   "mean_p_yes_norm": 0.9999999842820897,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 1.0,
+   "mean_probe": 0.9780890641037598,
+   "probe_acc": 1.0,
+   "agreement": 1.0,
+   "rank_agreement": -0.19999999999999998,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 251.75,
+   "t_star": 15.999999163764045
+  },
+  "context-s0": {
+   "n": 4,
+   "acc_greedy": 1.0,
+   "acc_samples": 1.0,
+   "mean_classes": 1.0,
+   "frac_one_class": 1.0,
+   "mean_s": 19.968754215235805,
+   "mean_p_yes_norm": 0.9999999967786248,
+   "frac_says_correct": 1.0,
+   "self_verdict_acc": 1.0,
+   "mean_probe": 0.973565131586888,
+   "probe_acc": 1.0,
+   "agreement": 1.0,
+   "rank_agreement": -0.39999999999999997,
+   "greedy_status": {
+    "ok": 4
+   },
+   "mean_out_tokens": 249.0,
+   "t_star": 15.999999163764045
+  }
+ }
+}

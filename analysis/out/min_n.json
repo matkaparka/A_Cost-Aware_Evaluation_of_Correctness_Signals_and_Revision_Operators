@@ -1,0 +1,116 @@
+{
+ "4B-exp0": {
+  "planned": 160,
+  "rule": "atomic",
+  "min_n": 160,
+  "blocks_yaml": 160
+ },
+ "4B-exp1a": {
+  "planned": 1455,
+  "rule": "atomic",
+  "min_n": 1455,
+  "blocks_yaml": 1455
+ },
+ "4B-exp1a-ext": {
+  "planned": 3597,
+  "rule": "atomic",
+  "min_n": 3597,
+  "blocks_yaml": 3597
+ },
+ "4B-exp1b": {
+  "planned": 3090,
+  "rule": "atomic",
+  "min_n": 3090,
+  "blocks_yaml": 3090
+ },
+ "4B-exp1b-alt": {
+  "planned": 300,
+  "rule": "atomic",
+  "min_n": 300,
+  "blocks_yaml": 300
+ },
+ "4B-exp2": {
+  "planned": 5052,
+  "rule": "atomic",
+  "min_n": 5052,
+  "blocks_yaml": 5052
+ },
+ "4B-exp3": {
+  "planned": 1547,
+  "rule": "H3b power",
+  "min_n": 283,
+  "blocks_yaml": 283
+ },
+ "4B-exp5-item": {
+  "planned": 400,
+  "rule": "half",
+  "min_n": 200,
+  "blocks_yaml": 200
+ },
+ "8B-exp1a": {
+  "planned": 1455,
+  "rule": "atomic",
+  "min_n": 1455,
+  "blocks_yaml": 1455
+ },
+ "8B-exp1b": {
+  "planned": 3090,
+  "rule": "atomic",
+  "min_n": 3090,
+  "blocks_yaml": 3090
+ },
+ "1.7B-tier1": {
+  "planned": 3090,
+  "rule": "atomic",
+  "min_n": 3090,
+  "blocks_yaml": 3090
+ },
+ "4B-thinking": {
+  "planned": 300,
+  "rule": "half",
+  "min_n": 150,
+  "blocks_yaml": 150
+ },
+ "8B-exp1a-ext": {
+  "planned": 3597,
+  "rule": "atomic",
+  "min_n": 3597,
+  "blocks_yaml": 3597
+ },
+ "1.7B-exp1a-ext": {
+  "planned": 3597,
+  "rule": "atomic",
+  "min_n": 3597,
+  "blocks_yaml": 3597
+ },
+ "8B-exp2": {
+  "planned": 1455,
+  "rule": "atomic",
+  "min_n": 1455,
+  "blocks_yaml": 1455
+ },
+ "4B-exp1c-robust": {
+  "planned": 300,
+  "rule": "half",
+  "min_n": 150,
+  "blocks_yaml": 150
+ },
+ "4B-exp4": {
+  "planned": 200,
+  "rule": "half",
+  "min_n": 100,
+  "blocks_yaml": 100
+ },
+ "4B-streams": {
+  "planned": 1,
+  "rule": "half",
+  "min_n": 1,
+  "blocks_yaml": 1
+ },
+ "8B-thinking": {
+  "planned": 300,
+  "rule": "half",
+  "min_n": 150,
+  "blocks_yaml": 150
+ }
+}

@@ -1,0 +1,503 @@
+{
+ "analysis": "b3_paraphrases",
+ "plan_sha256_lf": "b41c2ef5555f878a90be46b75e949afa4c9e17d803038092671fbadee77751c9",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "git_head": "88f05955b60f236f5d0fb8dec88ea42fb6dd8b70",
+ "code_dirty": false,
+ "scripts": {
+  "analysis/arr/a0_common_labels.py": "5fcd5ef71b2a7fab4c0c4ac6af5f973ff53d7c70855abbf085f480ed5a39cd7d",
+  "analysis/arr/a1a2_replays.py": "fe317deb9afbde5bec37a064ccd55940c69d6e6d583f8afc1d114427b0d4ecf6",
+  "analysis/arr/a3_b5.py": "4e8978a7338c616449393e22914ba398665a17c623a15f93061f444cc50180c4",
+  "analysis/arr/a3_dev_test.py": "a4c60edacaf2ef6884abb4412a612ffd99ff56026cb9ed6c19f4446e5abefe2b",
+  "analysis/arr/b1_samples.py": "5ce66c0abf3cc61d21e88422d5acb76b231e458633e12d5f3c8a06bd03fb04cf",
+  "analysis/arr/b2_keep_strength.py": "9a322a66e855056a87bf89d269f04c6031356f1e262f79dab71b108a1652695a",
+  "analysis/arr/b3_paraphrases.py": "5078a3c496d4aaf9a9d8542b2bfae1ada0a0867b74cc7d462c463d387f65e477",
+  "analysis/arr/b4_critique.py": "47c09b4257eb6e9864713228419e12334feb6c5c189f8474a1eb5c0792aa86b0",
+  "analysis/arr/b4_select.py": "edb35ae28e986fe5e041ea401302453cd335358b7b5853e2452b8eebc18387f3",
+  "analysis/arr/c1_think.py": "19d9d3eb30ff1d1a35aa571d5c63ba6e7e27e1ab12dc985e7ed958fc44284ad0",
+  "analysis/arr/check_runs_local.py": "c76c4b9c351246f32916dabef4e54dd50aa7765139d5f2e4ee3f8cc7ba84a9ce",
+  "analysis/arr/common.py": "47128dc3757d25a85fcf6fad0e1f9c3469508652816347e4bcd673ba5c733c50",
+  "analysis/arr/family_holm.py": "67126f5f1b9feaadb8382acf9b4163d90d8e17bdb730949eccd7b989fbcb8938",
+  "analysis/arr/tier_a_summary.py": "c4214e8ba128620aa7cab7443ac7f52ed51f8bdf35c6b3a3fb80a57f7fdcc344"
+ },
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "versions": {
+  "numpy": "2.5.4",
+  "sympy": "1.14.0",
+  "math-verify": "0.9.0",
+  "psutil": "7.2.2"
+ },
+ "bootstrap": {
+  "replicates": 4000,
+  "seed": 20261110,
+  "unit": "canonical problem"
+ },
+ "inputs": {
+  "analysis/arr/reviewed_guards.json": {
+   "sha256": "e61510c5a2c07444944830e1aa4cdfc438c7dda5846a74e69d7372a61b9a84ae",
+   "bytes": 24406
+  },
+  "analysis/out/arr/a0_common_labels.json": {
+   "sha256": "932a49ced5d82f14b9e71c0f14bebd3d52d43bd42c2872f13ce6fe9179665e62",
+   "bytes": 5129
+  },
+  "analysis/out/arr/b1_labels.jsonl.gz": {
+   "sha256": "aa4f2a26962f5ba34d7172afb9d1d58d8bce11ad481daf41f2e472a3f1c0156a",
+   "bytes": 1175045
+  },
+  "analysis/out/arr/math_common_labels.jsonl.gz": {
+   "sha256": "8cfc687b302d4c85c109790753a7a1426b3aab7ae0f5d6b7cf14896fc57b5005",
+   "bytes": 767301
+  },
+  "data/processed/dnat.jsonl": {
+   "sha256": "6cb7a9fbb179e9223da61970c93ad97b8dcf09776d0c5497d1cf4c7eec0cc2bf",
+   "bytes": 738235
+  },
+  "data/processed/ext/dnat_ext.jsonl": {
+   "sha256": "a5300139eeaf4e6d22161cdf7677ba4fe2abd84acfeb33c1098c83d89681e38d",
+   "bytes": 1930731
+  },
+  "paper/1区/acl2027/artifacts/math_vote/equivalence_cache.jsonl": {
+   "sha256": "ea294a707b99837f3be99bef49dc4d1291dd2d0ca4acfdbcc5e9652b9bb44582",
+   "bytes": 1331595
+  },
+  "paper/1区/acl2027/artifacts/math_vote/per_item.jsonl": {
+   "sha256": "3e3ca0a97e89ece58a9fea13c1a551902f41de8fbb136ea0be98c469230f3aa6",
+   "bytes": 17305274
+  },
+  "paper/1区/acl2027/artifacts/math_vote/same_rule_per_item.jsonl": {
+   "sha256": "e1411100ea7fd9791523f4531451e4200b12cfc8a4bea80a3ef5374b3c359554",
+   "bytes": 3755243
+  },
+  "paper/1区/artifacts/math/item_evaluations.jsonl": {
+   "sha256": "123be4ce262b43e77ec8f0394c2566b8ed04d69c5381848a76d9a284abdfde77",
+   "bytes": 62452390
+  },
+  "results/arr/b3/4B/b3-ops-test-p1-F2+F2-scratch-c0-4B-279e6b0/config.json": {
+   "sha256": "39731876a7e5d94840c342b9fe1df86a777c856b462e1cbe7d0b2fd8973e1385",
+   "bytes": 1059
+  },
+  "results/arr/b3/4B/b3-ops-test-p1-F2+F2-scratch-c0-4B-279e6b0/generations.jsonl": {
+   "sha256": "c004b954ff0df7e9efece1a406088166af77db62ea1ef4752107a70f5a1cb335",
+   "bytes": 13634966
+  },
+  "results/arr/b3/4B/b3-ops-test-p1-F2+F2-scratch-c0-4B-279e6b0/rows.jsonl": {
+   "sha256": "a0356f8aca8f9398b889b30278ad643c1d204be601e8b65bc71d259ebd4d2260",
+   "bytes": 2279767
+  },
+  "results/arr/b3/4B/b3-ops-test-p1-F2+F2-scratch-c1-4B-279e6b0/config.json": {
+   "sha256": "fcaa6a076d184192793cd2f3a6c53433b9c857a451f95b334e195e84c00b5afe",
+   "bytes": 1059
+  },
+  "results/arr/b3/4B/b3-ops-test-p1-F2+F2-scratch-c1-4B-279e6b0/generations.jsonl": {
+   "sha256": "e77fdda9a569ab33994b04bb0bfb4c9b7baf0ddaa3d72559ddd0a096dbdcda37",
+   "bytes": 15640673
+  },
+  "results/arr/b3/4B/b3-ops-test-p1-F2+F2-scratch-c1-4B-279e6b0/rows.jsonl": {
+   "sha256": "241ddf52d112e640378175ab1cd13eaec9e5dbb3dc307d79316f823e17fa7d18",
+   "bytes": 2308601
+  },
+  "results/arr/b3/4B/b3-ops-test-p2-F2+F2-scratch-c0-4B-279e6b0/config.json": {
+   "sha256": "e01396d55aac96d1ed260b8fa614aaad2932992e8754a380ba5c39948feacc87",
+   "bytes": 1059
+  },
+  "results/arr/b3/4B/b3-ops-test-p2-F2+F2-scratch-c0-4B-279e6b0/generations.jsonl": {
+   "sha256": "492543ad96b18af9613ce20ff84b01f7c45908151d3de08db223c91546054447",
+   "bytes": 13373283
+  },
+  "results/arr/b3/4B/b3-ops-test-p2-F2+F2-scratch-c0-4B-279e6b0/rows.jsonl": {
+   "sha256": "8bf2a1d1672cfc82d8964b906eb25c3a66bab87a6dec4d46d81bac1682bceb0a",
+   "bytes": 2280209
+  },
+  "results/arr/b3/4B/b3-ops-test-p2-F2+F2-scratch-c1-4B-279e6b0/config.json": {
+   "sha256": "909e1a766393799c52e9d2ac98906da8bf83605b46a3307de02e4dd9dfddbf44",
+   "bytes": 1059
+  },
+  "results/arr/b3/4B/b3-ops-test-p2-F2+F2-scratch-c1-4B-279e6b0/generations.jsonl": {
+   "sha256": "799009acf03b60759a602d43a2839bf0445ef1f6db659e00b4337dcd620dcf1b",
+   "bytes": 16018244
+  },
+  "results/arr/b3/4B/b3-ops-test-p2-F2+F2-scratch-c1-4B-279e6b0/rows.jsonl": {
+   "sha256": "0b922e2c8f6af47e1ec974c22b03385f9a2994cc78dfc6e79710f0b09112338b",
+   "bytes": 2309415
+  },
+  "results/arr/b3/8B/b3-ops-test-p1-F2+F2-scratch-c0-8B-279e6b0/config.json": {
+   "sha256": "8381600b3bf3a92f6572bf4212320cf3d8cee7016bc8d554b79a1aa3e6270857",
+   "bytes": 1059
+  },
+  "results/arr/b3/8B/b3-ops-test-p1-F2+F2-scratch-c0-8B-279e6b0/generations.jsonl": {
+   "sha256": "7dbcfd123faa42ca65a323e187de8c1e58191c6dda3a181aefb057d7c8f763c3",
+   "bytes": 15278184
+  },
+  "results/arr/b3/8B/b3-ops-test-p1-F2+F2-scratch-c0-8B-279e6b0/rows.jsonl": {
+   "sha256": "0e35596fad23e31e4627b70773feb304562b90f48ddedc1f8b24a1ada8413c32",
+   "bytes": 2281920
+  },
+  "results/arr/b3/8B/b3-ops-test-p1-F2+F2-scratch-c1-8B-279e6b0/config.json": {
+   "sha256": "1973de1bb3a62f85ed77215fe7b4387277ae14c3d2315a95a8daf0c040ff64e4",
+   "bytes": 1059
+  },
+  "results/arr/b3/8B/b3-ops-test-p1-F2+F2-scratch-c1-8B-279e6b0/generations.jsonl": {
+   "sha256": "10fd764f9f8082c50da1b9d5d1b32e062935142e1e12047ae5838f55d12db047",
+   "bytes": 17572260
+  },
+  "results/arr/b3/8B/b3-ops-test-p1-F2+F2-scratch-c1-8B-279e6b0/rows.jsonl": {
+   "sha256": "9a17a84400a0e8a98b575decb3006333633bf4a6fb949d4b5431527b1c5770c8",
+   "bytes": 2311801
+  },
+  "results/arr/b3/8B/b3-ops-test-p2-F2+F2-scratch-c0-8B-279e6b0/config.json": {
+   "sha256": "8d151b84246b2d491e5ce885aa95cda15cf47d4c84a2020041c5c69c25e268c2",
+   "bytes": 1059
+  },
+  "results/arr/b3/8B/b3-ops-test-p2-F2+F2-scratch-c0-8B-279e6b0/generations.jsonl": {
+   "sha256": "3111f8c8b4f5de35887411c163735b1b01e95f5c9dd316d13033d452fc5c9752",
+   "bytes": 13853439
+  },
+  "results/arr/b3/8B/b3-ops-test-p2-F2+F2-scratch-c0-8B-279e6b0/rows.jsonl": {
+   "sha256": "444c8b40836440c0b29dcfac3e5345e316c74771f26c695038937629f7f42413",
+   "bytes": 2281217
+  },
+  "results/arr/b3/8B/b3-ops-test-p2-F2+F2-scratch-c1-8B-279e6b0/config.json": {
+   "sha256": "ebb800fe56efd7a527835574231510729b68441ae87befcc98fff8d5552e8572",
+   "bytes": 1059
+  },
+  "results/arr/b3/8B/b3-ops-test-p2-F2+F2-scratch-c1-8B-279e6b0/generations.jsonl": {
+   "sha256": "7b304221b62f306bf365bf412073209dfbfc1af8d3bb15775c6982bbdcd90a39",
+   "bytes": 16393707
+  },
+  "results/arr/b3/8B/b3-ops-test-p2-F2+F2-scratch-c1-8B-279e6b0/rows.jsonl": {
+   "sha256": "a589c45878a57d7de19096c2935beae6fcaf3cd5c2ab02f64f9c4d37a29ee80c",
+   "bytes": 2311223
+  },
+  "results/arr/b3/T8B/b3-ops-test-p1-F2+F2-scratch-T8B-279e6b0/config.json": {
+   "sha256": "75297d8751c43dd3e4bbca3a6ebf191be638cf5b0d5dbab5838dc840dd354fda",
+   "bytes": 1069
+  },
+  "results/arr/b3/T8B/b3-ops-test-p1-F2+F2-scratch-T8B-279e6b0/generations.jsonl": {
+   "sha256": "5d1f977cdf6664b1ce587b6c187b00491b35ee4fd6d6438e92b59aaa334e7980",
+   "bytes": 25128908
+  },
+  "results/arr/b3/T8B/b3-ops-test-p1-F2+F2-scratch-T8B-279e6b0/rows.jsonl": {
+   "sha256": "e688ff47fce1ecdc569d158ce483a351a608d1c68a3f6bd344bbc5661b4cb911",
+   "bytes": 4596278
+  },
+  "results/arr/b3/T8B/b3-ops-test-p2-F2+F2-scratch-T8B-279e6b0/config.json": {
+   "sha256": "1a33a18f03d4e643f02c104d9430ba6ddeb43951cfdc41582531f8379a36dcf1",
+   "bytes": 1069
+  },
+  "results/arr/b3/T8B/b3-ops-test-p2-F2+F2-scratch-T8B-279e6b0/generations.jsonl": {
+   "sha256": "2ab580235baea5ddfd5bb390ef57a49cd1e7df323314dd21209de6d61274590a",
+   "bytes": 24181310
+  },
+  "results/arr/b3/T8B/b3-ops-test-p2-F2+F2-scratch-T8B-279e6b0/rows.jsonl": {
+   "sha256": "5c320b6030c61ce20dc1fde21680b93065d3a6539dc4c25ed7b612b27d1a811f",
+   "bytes": 4593723
+  }
+ },
+ "scorer_guards": [
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{12}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/12"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{2004!}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2004! (below 10^-5000)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (630 sqrt3)^(3^101/2), about 10^(2.3e48) versus 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "\\frac{1}{2005 \\cdot 2004}",
+   "b": "\\frac{1}{2^{2^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/(2005*2004) versus 1/2^(2^2004): positive, below 10^(-10^600)"
+  },
+  {
+   "a": "\\frac{1}{2005}",
+   "b": "\\frac{1}{2^{2^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2005 versus 1/2^(2^2004): positive, below 10^(-10^600)"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{2^{4009}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/2^4009"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{2^{2006}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/2^2006"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{4}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/4"
+  },
+  {
+   "a": "Second sum: $ \\sum_{n = 1}^{1985} (-1)^{n + 1}(n + 1)",
+   "b": "Part 2: $ \\sum_{n=1}^{1985} c_n",
+   "reason": "cpu",
+   "hand_check": "not equivalent: a sum of a sequence c_n that the answer does not define, with a text prefix; the other side is the sum sum_{n=1..1985} (-1)^(n+1)(n+1) = 994, with a text prefix"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: their ratio is 1/|bc|, so they agree only when |bc| = 1. tanA form 1: 2D/(bc sqrt(b^2c^2-4D^2)) with D = a^2-(b-c)^2; tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "reason": "cpu",
+   "hand_check": "equivalent when bc > 0, as for the sides of a triangle; opposite signs when bc < 0. tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D); tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2. The rule's 'not equivalent' differs from this hand check"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "-\\frac{1}{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus -1/2"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{(2006)^{2004}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2006^2004"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{2005}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2005"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "-2005",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus -2005"
+  },
+  {
+   "a": "1",
+   "b": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1 versus 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: both are powers of a^3-3a in the undefined symbol a, with different exponents (5050 and (3^100-1)/2), so they differ as functions of a (e.g. at a = 2)"
+  },
+  {
+   "a": "1",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2.101)^{100}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 2.101^100, about 1.7e32"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2.101)^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 2.101^100, about 1.7e32"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "1",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: 1 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(2.101)^{100}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 2.101^100, about 1.7e32 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "1",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(2.101)^{100}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 2.101^100, about 1.7e32 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (630 sqrt3)^(3^101/2), about 10^(2.3e48) versus (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(a^3 - 3a)^{5050}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: their ratio is 1/(bc), so they agree only when bc = 1. tanA form 1: 2D/(bc sqrt(b^2c^2-4D^2)) with D = a^2-(b-c)^2; tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D)"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "reason": "cpu",
+   "hand_check": "equivalent when bc > 0, as for the sides of a triangle; opposite signs when bc < 0. tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2; tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D). The rule's 'not equivalent' differs from this hand check"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "\\left( \\frac{a^3 - 3a}{3} \\right)^{\\frac{4^{101} - 4}{3} - 100}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  }
+ ],
+ "outputs": {
+  "b3_extractions.jsonl.gz": "0c3ff33a61758cf36dab2e15f8a9beb6186466bba74d111aa4d5a40013648ba2",
+  "b3_labels.jsonl.gz": "fa5afa0e2efaac9e200c6969f4ff9a073d87078ca0422c2f20932643d87b3844",
+  "b3_paraphrases.json": "aca3e25d2a8acd655f6c6e21118fce1e821fb8c80022cc3a20c12d6a47f0ca67"
+ },
+ "settings_status": {
+  "4B": "complete",
+  "8B": "complete",
+  "T8B": "complete"
+ }
+}

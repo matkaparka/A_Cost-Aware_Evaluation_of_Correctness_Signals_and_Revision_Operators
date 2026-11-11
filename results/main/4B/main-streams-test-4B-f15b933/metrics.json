@@ -1,0 +1,119 @@
+{
+ "model": "4B",
+ "split": "test",
+ "steps": 200,
+ "trajectories": [
+  "self-s0",
+  "ext-s0",
+  "random-s0",
+  "context-s0",
+  "self-s1",
+  "ext-s1",
+  "random-s1",
+  "context-s1",
+  "self-s2",
+  "ext-s2",
+  "random-s2",
+  "context-s2"
+ ],
+ "zero_step_a0_identical": true,
+ "zero_step_verbal_identical": true,
+ "realized_increment_norm_max_rel_err": 5.50359504636333e-08,
+ "anomalies": {
+  "self-s0": {
+   "c_gt_100": 2,
+   "no_answer_span": 173
+  },
+  "ext-s0": {
+   "c_gt_100": 5,
+   "no_answer_span": 1
+  },
+  "random-s0": {},
+  "self-s1": {
+   "c_gt_100": 3,
+   "no_answer_span": 161
+  },
+  "ext-s1": {
+   "c_gt_100": 3,
+   "no_answer_span": 2
+  },
+  "random-s1": {},
+  "self-s2": {
+   "c_gt_100": 1,
+   "no_answer_span": 168
+  },
+  "ext-s2": {
+   "c_gt_100": 3,
+   "no_answer_span": 34
+  },
+  "random-s2": {}
+ },
+ "final_total_norm": {
+  "self-s0": 4.048384930515292,
+  "ext-s0": 9.226951594563753,
+  "random-s0": 7.065937526456088,
+  "self-s1": 5.415184783887258,
+  "ext-s1": 8.759008474953761,
+  "random-s1": 7.0729353238962025,
+  "self-s2": 4.76870953340544,
+  "ext-s2": 8.081462351343662,
+  "random-s2": 7.068712559521678
+ },
+ "a0_status": {
+  "self-s0": {
+   "ok": 20,
+   "truncated": 180
+  },
+  "ext-s0": {
+   "ok": 199,
+   "truncated": 1
+  },
+  "random-s0": {
+   "ok": 197,
+   "truncated": 3
+  },
+  "context-s0": {
+   "ok": 198,
+   "truncated": 2
+  },
+  "self-s1": {
+   "ok": 20,
+   "truncated": 180
+  },
+  "ext-s1": {
+   "ok": 196,
+   "truncated": 4
+  },
+  "random-s1": {
+   "ok": 196,
+   "truncated": 4
+  },
+  "context-s1": {
+   "ok": 198,
+   "truncated": 2
+  },
+  "self-s2": {
+   "ok": 16,
+   "truncated": 184
+  },
+  "ext-s2": {
+   "ok": 159,
+   "truncated": 8,
+   "conflict": 1,
+   "unparsed": 32
+  },
+  "random-s2": {
+   "ok": 197,
+   "truncated": 3
+  },
+  "context-s2": {
+   "ok": 199,
+   "truncated": 1
+  }
+ },
+ "step_gen_s": 13101.040212392807,
+ "step_hf_s": 1062.5628788471222,
+ "eval_gen_s": 10564.277839422226,
+ "eval_hf_s": 2742.9381403923035,
+ "scorer_guarded": []
+}

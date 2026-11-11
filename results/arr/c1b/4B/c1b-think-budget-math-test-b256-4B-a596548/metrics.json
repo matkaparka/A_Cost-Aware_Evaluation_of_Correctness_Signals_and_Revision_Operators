@@ -1,0 +1,19 @@
+{
+ "stage": "think-budget",
+ "budget": 256,
+ "items": 5052,
+ "vllm": "0.33.0",
+ "load_s": 120.02360510826111,
+ "gen_s": 1143.5439400672913,
+ "score_s": 53.40062618255615,
+ "counts": {
+  "stop_tokens": 24,
+  "roundtrip_mismatch": 15,
+  "prompt_len_mismatch": 0,
+  "over_budget": 5051,
+  "fits": 1,
+  "forced_truncated": 222,
+  "generated_tokens": 4306328,
+  "right": 4314
+ }
+}

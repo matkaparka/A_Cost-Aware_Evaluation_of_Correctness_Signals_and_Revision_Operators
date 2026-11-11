@@ -1,0 +1,23 @@
+{
+ "select": null,
+ "model": "8B",
+ "initial": [
+  "results/p1/8B/p1-initial-8B-d2ebdea",
+  "results/p1/8B/p1-initial-ext-8B-45575c2"
+ ],
+ "items": [
+  "data/processed/dnat.jsonl",
+  "data/processed/ext/dnat_ext.jsonl"
+ ],
+ "limit": 0,
+ "batch": 16,
+ "tag": "",
+ "variants": {
+  "W0": "Is your final answer correct? Answer yes or no.",
+  "W1": "Is the final answer above correct? Answer yes or no.",
+  "W2": "Is your final answer correct? Reply with one word: yes or no.",
+  "W3": "Is your final answer wrong? Answer yes or no.",
+  "W4": "Is your final answer correct? Answer true or false."
+ },
+ "select_margin": 0.05
+}

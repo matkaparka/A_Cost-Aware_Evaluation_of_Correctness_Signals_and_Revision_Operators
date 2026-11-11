@@ -1,0 +1,26 @@
+{
+ "model": "4B",
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "verbal": "/home/results/p1/4B/p1-verbal-4B-d2ebdea/verbal.jsonl",
+ "self_threshold_s": 15.999999163764045,
+ "lr_grid": [
+  0.0001,
+  0.001
+ ],
+ "tau_grid": [
+  0.5,
+  2.0,
+  8.0
+ ],
+ "kappa": 0.05,
+ "steps": 4,
+ "n_tune": 60,
+ "rank": 8,
+ "alpha": 16,
+ "targets": [
+  "q_proj",
+  "k_proj",
+  "v_proj",
+  "o_proj"
+ ]
+}

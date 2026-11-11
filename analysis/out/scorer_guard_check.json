@@ -1,0 +1,23 @@
+{
+ "n": 69424,
+ "by_source": {
+  "a0 1.7B | dev": 1264,
+  "a0 1.7B | test": 5052,
+  "a0 4B | dev": 1264,
+  "a0 4B | test": 5052,
+  "a0 8B | dev": 1264,
+  "a0 8B | test": 5052,
+  "exp01 1.7B | dev": 21155,
+  "exp01 4B | dev": 24721,
+  "steer 4B | dev": 4600
+ },
+ "differences": 0,
+ "diff_rows": [],
+ "seconds": {
+  "old": 51.3,
+  "new": 4.2
+ },
+ "guarded_inline": [],
+ "frozen_commit": "08657caf44035d3772bb68ba6d38c823b664e304",
+ "scorer_version": "1.1.1"
+}

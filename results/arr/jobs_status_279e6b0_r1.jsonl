@@ -1,0 +1,132 @@
+{"time": "2026-11-09T10:46:20Z", "job": "-", "status": "begin", "gpus": [0, 1], "jobs": 65, "est_gpu_h": 22.77}
+{"time": "2026-11-09T10:46:20Z", "job": "b1-test-k3ext-T8B", "status": "start", "slot": 0, "est_h": 0.6321}
+{"time": "2026-11-09T10:46:20Z", "job": "b1-test-k5-8B-c1", "status": "start", "slot": 1, "est_h": 0.6071}
+{"time": "2026-11-09T11:23:20Z", "job": "b1-test-k5-8B-c1", "status": "done", "slot": 1, "hours": 0.617}
+{"time": "2026-11-09T11:23:20Z", "job": "b1-test-k5-8B-c2", "status": "start", "slot": 1, "est_h": 0.6071}
+{"time": "2026-11-09T11:29:12Z", "job": "b1-test-k3ext-T8B", "status": "done", "slot": 0, "hours": 0.714}
+{"time": "2026-11-09T11:29:12Z", "job": "b1-test-k3ext-8B-c0", "status": "start", "slot": 0, "est_h": 0.5464}
+{"time": "2026-11-09T11:55:24Z", "job": "b1-test-k3ext-8B-c0", "status": "done", "slot": 0, "hours": 0.437}
+{"time": "2026-11-09T11:55:24Z", "job": "b1-test-k3ext-8B-c1", "status": "start", "slot": 0, "est_h": 0.5464}
+{"time": "2026-11-09T12:01:06Z", "job": "b1-test-k5-8B-c2", "status": "done", "slot": 1, "hours": 0.629}
+{"time": "2026-11-09T12:01:06Z", "job": "b1-test-k5-T8B-c0", "status": "start", "slot": 1, "est_h": 0.5268}
+{"time": "2026-11-09T12:01:06Z", "job": "b4-select-math-8B", "status": "start", "slot": "cpu", "est_h": 0.05}
+{"time": "2026-11-09T12:04:04Z", "job": "b4-select-math-8B", "status": "done", "slot": "cpu", "hours": 0.049}
+{"time": "2026-11-09T12:28:43Z", "job": "b1-test-k3ext-8B-c1", "status": "done", "slot": 0, "hours": 0.555}
+{"time": "2026-11-09T12:28:43Z", "job": "b1-test-k5-T8B-c1", "status": "start", "slot": 0, "est_h": 0.5268}
+{"time": "2026-11-09T12:31:47Z", "job": "b1-test-k5-T8B-c0", "status": "done", "slot": 1, "hours": 0.511}
+{"time": "2026-11-09T12:31:47Z", "job": "b1-test-k3ext-1.7B", "status": "start", "slot": 1, "est_h": 0.4522}
+{"time": "2026-11-09T12:58:43Z", "job": "b1-test-k3ext-1.7B", "status": "done", "slot": 1, "hours": 0.449}
+{"time": "2026-11-09T12:58:43Z", "job": "b1-test-k5-1.7B-c0", "status": "start", "slot": 1, "est_h": 0.3768}
+{"time": "2026-11-09T13:08:17Z", "job": "b1-test-k5-T8B-c1", "status": "done", "slot": 0, "hours": 0.659}
+{"time": "2026-11-09T13:08:17Z", "job": "b1-test-k5-1.7B-c1", "status": "start", "slot": 0, "est_h": 0.3768}
+{"time": "2026-11-09T13:08:17Z", "job": "b4-select-math-T8B", "status": "start", "slot": "cpu", "est_h": 0.05}
+{"time": "2026-11-09T13:16:51Z", "job": "b1-test-k5-1.7B-c0", "status": "done", "slot": 1, "hours": 0.302}
+{"time": "2026-11-09T13:16:51Z", "job": "b3-p1-T8B", "status": "start", "slot": 1, "est_h": 0.675}
+{"time": "2026-11-09T13:25:21Z", "job": "b4-select-math-T8B", "status": "done", "slot": "cpu", "hours": 0.284}
+{"time": "2026-11-09T13:34:03Z", "job": "b1-test-k5-1.7B-c1", "status": "done", "slot": 0, "hours": 0.429}
+{"time": "2026-11-09T13:34:03Z", "job": "b3-p2-T8B", "status": "start", "slot": 0, "est_h": 0.675}
+{"time": "2026-11-09T13:34:03Z", "job": "b4-select-math-1.7B", "status": "start", "slot": "cpu", "est_h": 0.05}
+{"time": "2026-11-09T13:41:11Z", "job": "b4-select-math-1.7B", "status": "done", "slot": "cpu", "hours": 0.119}
+{"time": "2026-11-09T14:25:31Z", "job": "b3-p1-T8B", "status": "done", "slot": 1, "hours": 1.144}
+{"time": "2026-11-09T14:25:31Z", "job": "b3-p1-8B-c0", "status": "start", "slot": 1, "est_h": 0.5835}
+{"time": "2026-11-09T14:44:05Z", "job": "b3-p2-T8B", "status": "done", "slot": 0, "hours": 1.167}
+{"time": "2026-11-09T14:44:05Z", "job": "b3-p1-8B-c1", "status": "start", "slot": 0, "est_h": 0.5835}
+{"time": "2026-11-09T15:14:19Z", "job": "b3-p1-8B-c0", "status": "done", "slot": 1, "hours": 0.813}
+{"time": "2026-11-09T15:14:19Z", "job": "b3-p2-8B-c0", "status": "start", "slot": 1, "est_h": 0.5835}
+{"time": "2026-11-09T15:45:49Z", "job": "b3-p1-8B-c1", "status": "done", "slot": 0, "hours": 1.029}
+{"time": "2026-11-09T15:45:49Z", "job": "b3-p2-8B-c1", "status": "start", "slot": 0, "est_h": 0.5835}
+{"time": "2026-11-09T16:00:49Z", "job": "b3-p2-8B-c0", "status": "done", "slot": 1, "hours": 0.775}
+{"time": "2026-11-09T16:00:49Z", "job": "b2-test-long-8B", "status": "start", "slot": 1, "est_h": 0.4007}
+{"time": "2026-11-09T16:29:11Z", "job": "b2-test-long-8B", "status": "done", "slot": 1, "hours": 0.473}
+{"time": "2026-11-09T16:29:11Z", "job": "b3-p1-4B-c0", "status": "start", "slot": 1, "est_h": 0.3946}
+{"time": "2026-11-09T16:45:15Z", "job": "b3-p2-8B-c1", "status": "done", "slot": 0, "hours": 0.991}
+{"time": "2026-11-09T16:45:15Z", "job": "b3-p1-4B-c1", "status": "start", "slot": 0, "est_h": 0.3946}
+{"time": "2026-11-09T17:04:39Z", "job": "b3-p1-4B-c0", "status": "done", "slot": 1, "hours": 0.591}
+{"time": "2026-11-09T17:04:39Z", "job": "b3-p2-4B-c0", "status": "start", "slot": 1, "est_h": 0.3946}
+{"time": "2026-11-09T17:30:34Z", "job": "b3-p1-4B-c1", "status": "done", "slot": 0, "hours": 0.755}
+{"time": "2026-11-09T17:30:34Z", "job": "b3-p2-4B-c1", "status": "start", "slot": 0, "est_h": 0.3946}
+{"time": "2026-11-09T17:40:14Z", "job": "b3-p2-4B-c0", "status": "done", "slot": 1, "hours": 0.593}
+{"time": "2026-11-09T17:40:14Z", "job": "b2-test-long-4B", "status": "start", "slot": 1, "est_h": 0.271}
+{"time": "2026-11-09T18:04:28Z", "job": "b2-test-long-4B", "status": "done", "slot": 1, "hours": 0.404}
+{"time": "2026-11-09T18:04:28Z", "job": "b2-test-long-T8B", "status": "start", "slot": 1, "est_h": 0.2318}
+{"time": "2026-11-09T18:17:14Z", "job": "b3-p2-4B-c1", "status": "done", "slot": 0, "hours": 0.778}
+{"time": "2026-11-09T18:17:14Z", "job": "b4-critique-mc-4B", "status": "start", "slot": 0, "est_h": 0.2079}
+{"time": "2026-11-09T18:21:56Z", "job": "b4-critique-mc-4B", "status": "done", "slot": 0, "hours": 0.078}
+{"time": "2026-11-09T18:21:56Z", "job": "b4-critique-mc-T8B", "status": "start", "slot": 0, "est_h": 0.2079}
+{"time": "2026-11-09T18:24:48Z", "job": "b4-critique-mc-T8B", "status": "done", "slot": 0, "hours": 0.048}
+{"time": "2026-11-09T18:24:48Z", "job": "b2-test-long-1.7B", "status": "start", "slot": 0, "est_h": 0.1658}
+{"time": "2026-11-09T18:24:54Z", "job": "b2-test-long-T8B", "status": "done", "slot": 1, "hours": 0.341}
+{"time": "2026-11-09T18:24:54Z", "job": "b4-critique-math-8B", "status": "start", "slot": 1, "est_h": 0.0972}
+{"time": "2026-11-09T18:37:50Z", "job": "b2-test-long-1.7B", "status": "done", "slot": 0, "hours": 0.217}
+{"time": "2026-11-09T18:37:50Z", "job": "b4-critique-math-4B", "status": "start", "slot": 0, "est_h": 0.0657}
+{"time": "2026-11-09T18:40:56Z", "job": "b4-critique-math-8B", "status": "done", "slot": 1, "hours": 0.267}
+{"time": "2026-11-09T18:40:56Z", "job": "b4-critique-math-T8B", "status": "start", "slot": 1, "est_h": 0.0562}
+{"time": "2026-11-09T18:48:34Z", "job": "b4-critique-math-4B", "status": "done", "slot": 0, "hours": 0.179}
+{"time": "2026-11-09T18:48:34Z", "job": "b2-test-continue-1.7B", "status": "start", "slot": 0, "est_h": 0.05}
+{"time": "2026-11-09T18:51:02Z", "job": "b4-critique-math-T8B", "status": "done", "slot": 1, "hours": 0.168}
+{"time": "2026-11-09T18:51:02Z", "job": "b2-test-continue-4B", "status": "start", "slot": 1, "est_h": 0.05}
+{"time": "2026-11-09T18:55:02Z", "job": "b2-test-continue-1.7B", "status": "done", "slot": 0, "hours": 0.108}
+{"time": "2026-11-09T18:55:02Z", "job": "b2-test-continue-8B", "status": "start", "slot": 0, "est_h": 0.05}
+{"time": "2026-11-09T19:05:06Z", "job": "b2-test-continue-4B", "status": "done", "slot": 1, "hours": 0.234}
+{"time": "2026-11-09T19:05:06Z", "job": "b2-test-continue-T8B", "status": "start", "slot": 1, "est_h": 0.05}
+{"time": "2026-11-09T19:10:20Z", "job": "b2-test-continue-8B", "status": "done", "slot": 0, "hours": 0.255}
+{"time": "2026-11-09T19:10:20Z", "job": "b4-critique-math-1.7B", "status": "start", "slot": 0, "est_h": 0.0402}
+{"time": "2026-11-09T19:10:56Z", "job": "b2-test-continue-T8B", "status": "done", "slot": 1, "hours": 0.097}
+{"time": "2026-11-09T19:10:56Z", "job": "b1-dev-k5-8B", "status": "start", "slot": 1, "est_h": 0.4557}
+{"time": "2026-11-09T19:16:54Z", "job": "b4-critique-math-1.7B", "status": "done", "slot": 0, "hours": 0.109}
+{"time": "2026-11-09T19:16:54Z", "job": "b5-dev-8B", "status": "start", "slot": 0, "est_h": 0.438}
+{"time": "2026-11-09T19:35:10Z", "job": "b1-dev-k5-8B", "status": "done", "slot": 1, "hours": 0.404}
+{"time": "2026-11-09T19:35:10Z", "job": "b1-dev-k3ext-8B", "status": "start", "slot": 1, "est_h": 0.2734}
+{"time": "2026-11-09T19:49:32Z", "job": "b5-dev-8B", "status": "done", "slot": 0, "hours": 0.544}
+{"time": "2026-11-09T19:49:32Z", "job": "b1-dev-k5-T8B", "status": "start", "slot": 0, "est_h": 0.2636}
+{"time": "2026-11-09T19:50:48Z", "job": "b1-dev-k3ext-8B", "status": "done", "slot": 1, "hours": 0.261}
+{"time": "2026-11-09T19:50:48Z", "job": "b5-dev-T8B", "status": "start", "slot": 1, "est_h": 0.2533}
+{"time": "2026-11-09T20:07:40Z", "job": "b1-dev-k5-T8B", "status": "done", "slot": 0, "hours": 0.302}
+{"time": "2026-11-09T20:07:40Z", "job": "b1-dev-k5-1.7B", "status": "start", "slot": 0, "est_h": 0.1886}
+{"time": "2026-11-09T20:09:38Z", "job": "b5-dev-T8B", "status": "done", "slot": 1, "hours": 0.314}
+{"time": "2026-11-09T20:09:38Z", "job": "b1-dev-k3ext-4B", "status": "start", "slot": 1, "est_h": 0.1849}
+{"time": "2026-11-09T20:19:00Z", "job": "b1-dev-k5-1.7B", "status": "done", "slot": 0, "hours": 0.189}
+{"time": "2026-11-09T20:19:00Z", "job": "b1-dev-k3ext-T8B", "status": "start", "slot": 0, "est_h": 0.1582}
+{"time": "2026-11-09T20:22:40Z", "job": "b1-dev-k3ext-4B", "status": "done", "slot": 1, "hours": 0.217}
+{"time": "2026-11-09T20:22:40Z", "job": "b1-dev-k3ext-1.7B", "status": "start", "slot": 1, "est_h": 0.1131}
+{"time": "2026-11-09T20:30:02Z", "job": "b1-dev-k3ext-1.7B", "status": "done", "slot": 1, "hours": 0.123}
+{"time": "2026-11-09T20:30:02Z", "job": "b2-dev-long-8B", "status": "start", "slot": 1, "est_h": 0.1003}
+{"time": "2026-11-09T20:30:46Z", "job": "b1-dev-k3ext-T8B", "status": "done", "slot": 0, "hours": 0.196}
+{"time": "2026-11-09T20:30:46Z", "job": "b2-dev-long-4B", "status": "start", "slot": 0, "est_h": 0.0678}
+{"time": "2026-11-09T20:38:24Z", "job": "b2-dev-long-4B", "status": "done", "slot": 0, "hours": 0.127}
+{"time": "2026-11-09T20:38:24Z", "job": "b2-dev-long-T8B", "status": "start", "slot": 0, "est_h": 0.058}
+{"time": "2026-11-09T20:39:44Z", "job": "b2-dev-long-8B", "status": "done", "slot": 1, "hours": 0.162}
+{"time": "2026-11-09T20:39:44Z", "job": "b2-dev-continue-1.7B", "status": "start", "slot": 1, "est_h": 0.05}
+{"time": "2026-11-09T20:42:26Z", "job": "b2-dev-continue-1.7B", "status": "done", "slot": 1, "hours": 0.045}
+{"time": "2026-11-09T20:42:26Z", "job": "b2-dev-continue-4B", "status": "start", "slot": 1, "est_h": 0.05}
+{"time": "2026-11-09T20:46:36Z", "job": "b2-dev-continue-4B", "status": "done", "slot": 1, "hours": 0.069}
+{"time": "2026-11-09T20:46:36Z", "job": "b2-dev-continue-8B", "status": "start", "slot": 1, "est_h": 0.05}
+{"time": "2026-11-09T20:47:00Z", "job": "b2-dev-long-T8B", "status": "done", "slot": 0, "hours": 0.143}
+{"time": "2026-11-09T20:47:00Z", "job": "b2-dev-continue-T8B", "status": "start", "slot": 0, "est_h": 0.05}
+{"time": "2026-11-09T20:50:42Z", "job": "b2-dev-continue-T8B", "status": "failed", "slot": 0, "rc": 1, "hours": 0.062}
+{"time": "2026-11-09T20:50:42Z", "job": "b2-dev-long-1.7B", "status": "start", "slot": 0, "est_h": 0.0415}
+{"time": "2026-11-09T20:51:00Z", "job": "b2-dev-long-1.7B", "status": "failed", "slot": 0, "rc": 1, "hours": 0.005}
+{"time": "2026-11-09T20:51:00Z", "job": "c1-think-math-8B-c0", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-09T20:51:18Z", "job": "c1-think-math-8B-c0", "status": "failed", "slot": 0, "rc": 1, "hours": 0.005}
+{"time": "2026-11-09T20:51:18Z", "job": "c1-think-math-8B-c1", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-09T20:51:30Z", "job": "b2-dev-continue-8B", "status": "failed", "slot": 1, "rc": 1, "hours": 0.082}
+{"time": "2026-11-09T20:51:30Z", "job": "c1-think-math-8B-c2", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-09T20:51:36Z", "job": "c1-think-math-8B-c1", "status": "failed", "slot": 0, "rc": 1, "hours": 0.005}
+{"time": "2026-11-09T20:51:36Z", "job": "c1-think-math-8B-c3", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-09T20:51:48Z", "job": "c1-think-math-8B-c2", "status": "failed", "slot": 1, "rc": 1, "hours": 0.005}
+{"time": "2026-11-09T20:51:48Z", "job": "c1-think-math-8B-c4", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-09T20:51:56Z", "job": "c1-think-math-8B-c3", "status": "failed", "slot": 0, "rc": 1, "hours": 0.006}
+{"time": "2026-11-09T20:51:56Z", "job": "c1-think-math-8B-c5", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-09T20:52:08Z", "job": "c1-think-math-8B-c4", "status": "failed", "slot": 1, "rc": 1, "hours": 0.006}
+{"time": "2026-11-09T20:52:08Z", "job": "c1-think-math-8B-c6", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-09T20:52:16Z", "job": "c1-think-math-8B-c5", "status": "failed", "slot": 0, "rc": 1, "hours": 0.006}
+{"time": "2026-11-09T20:52:16Z", "job": "c1-think-math-8B-c7", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-09T20:52:28Z", "job": "c1-think-math-8B-c6", "status": "failed", "slot": 1, "rc": 1, "hours": 0.006}
+{"time": "2026-11-09T20:52:28Z", "job": "c1-think-math-8B-c8", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-09T20:52:36Z", "job": "c1-think-math-8B-c7", "status": "failed", "slot": 0, "rc": 1, "hours": 0.006}
+{"time": "2026-11-09T20:52:36Z", "job": "c1-think-math-8B-c9", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-09T20:52:48Z", "job": "c1-think-math-8B-c8", "status": "failed", "slot": 1, "rc": 1, "hours": 0.006}
+{"time": "2026-11-09T20:52:48Z", "job": "c1-think-math-8B-c10", "status": "start", "slot": 1, "est_h": 0.677}
+{"time": "2026-11-09T20:52:56Z", "job": "c1-think-math-8B-c9", "status": "failed", "slot": 0, "rc": 1, "hours": 0.006}
+{"time": "2026-11-09T20:53:06Z", "job": "c1-think-math-8B-c10", "status": "failed", "slot": 1, "rc": 1, "hours": 0.005}
+{"time": "2026-11-09T20:53:06Z", "job": "-", "status": "end", "done": 51, "failed": 14, "skipped": 0, "stopped": 0, "pending": 0, "running": 0}

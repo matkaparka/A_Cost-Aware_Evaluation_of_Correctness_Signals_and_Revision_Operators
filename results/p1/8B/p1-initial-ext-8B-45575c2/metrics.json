@@ -1,0 +1,24 @@
+{
+ "model": "8B",
+ "vllm": "0.33.0",
+ "load_s": 78.59139728546143,
+ "gen_s": 1106.5899674892426,
+ "n": 4497,
+ "output_tokens": 3888941,
+ "counts": {
+  "dev/math_full": {
+   "n": 900,
+   "wrong": 138,
+   "status_ok": 860,
+   "right": 762,
+   "status_truncated": 40
+  },
+  "test/math_full": {
+   "n": 3597,
+   "right": 3041,
+   "status_ok": 3452,
+   "wrong": 556,
+   "status_truncated": 145
+  }
+ }
+}

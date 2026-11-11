@@ -1,0 +1,45 @@
+{
+ "model": "1.7B",
+ "transformers": "5.20.2",
+ "torch": "2.14.0+cu130",
+ "load_s": 4.1431803703308105,
+ "arch": {
+  "layers": 28,
+  "hidden": 2048,
+  "kv_heads": 8,
+  "head_dim": 128
+ },
+ "teacher_forced": {
+  "n": 64,
+  "tokens": 25329,
+  "wall_s": 1.8082969188690186,
+  "tok_per_s": 14007.102337951099
+ },
+ "activations": {
+  "n": 64,
+  "wall_s": 1.8180911540985107,
+  "vectors_per_item": 29,
+  "bytes_per_position_all_layers": 118784,
+  "s_per_item": 0.02840767428278923
+ },
+ "hf_generate_batched": {
+  "n": 64,
+  "batch": 32,
+  "max_new_tokens": 512,
+  "output_tokens": 19082,
+  "wall_s": 29.633157968521118,
+  "output_tok_per_s": 643.9408186015995
+ },
+ "ttt_params": 3211264,
+ "ttt_param_dtype": "torch.float32",
+ "ttt": {
+  "n": 16,
+  "steps": 4,
+  "s_per_update_mean": 0.48193733394145966,
+  "s_per_update_max": 0.6649870872497559,
+  "reset_logits_equal": true,
+  "realized_norm_max_rel_err": 5.0524250894135037e-08,
+  "save_s_mean": null
+ },
+ "peak_vram_gb": 30.589830656
+}

@@ -1,0 +1,43 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "steps": 2,
+ "trajectories": [
+  "self-s0",
+  "ext-s0",
+  "random-s0",
+  "context-s0"
+ ],
+ "zero_step_a0_identical": true,
+ "zero_step_verbal_identical": true,
+ "realized_increment_norm_max_rel_err": 5.2670090733286656e-08,
+ "anomalies": {
+  "self-s0": {},
+  "ext-s0": {},
+  "random-s0": {}
+ },
+ "final_total_norm": {
+  "self-s0": 0.6712112837457973,
+  "ext-s0": 0.7357179445562891,
+  "random-s0": 0.7070035825088622
+ },
+ "a0_status": {
+  "self-s0": {
+   "ok": 2
+  },
+  "ext-s0": {
+   "ok": 2
+  },
+  "random-s0": {
+   "ok": 2
+  },
+  "context-s0": {
+   "ok": 2
+  }
+ },
+ "step_gen_s": 46.664007902145386,
+ "step_hf_s": 5.7009196281433105,
+ "eval_gen_s": 32.33055639266968,
+ "eval_hf_s": 5.583583116531372,
+ "scorer_guarded": []
+}

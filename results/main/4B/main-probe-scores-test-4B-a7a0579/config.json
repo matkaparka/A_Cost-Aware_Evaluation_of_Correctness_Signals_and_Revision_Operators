@@ -1,0 +1,14 @@
+{
+ "model": "4B",
+ "probe": "results/p3/4B/p3-probe-dev-ext-4B-b7cf0d6/probe.npz",
+ "acts": [
+  "/home/results/main/4B/main-acts-test-4B-a7a0579/acts.npz",
+  "/home/results/main/4B/main-acts-test-ext-4B-a7a0579/acts.npz"
+ ],
+ "split": "test",
+ "probe_sha256": "a62621d9ef55fed97f3de6a16b269715fe402b2e882c4bcae7b436172c8bc833",
+ "acts_sha256": [
+  "c5292e336b2b14c85e5f47d7a2a37807cf9b5c1293cf344eca2fd750b302d07d",
+  "f0f8037d296da5de2961b45db81cb296abf118613728fe2c27b2938d592f6b3b"
+ ]
+}

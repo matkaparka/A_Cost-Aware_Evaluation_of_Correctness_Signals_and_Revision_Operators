@@ -1,0 +1,16 @@
+{
+ "model": "T8B",
+ "split": "test",
+ "exp01_orig": "results/fu2/main/T8B/main-exp01-test-T8B-1809070",
+ "exp01_1b": "results/fu2/main/T8B/main-exp01-test-T8B-1809070",
+ "exp01_ext": "results/fu2/main/T8B/main-exp01-test-ext-T8B-1809070",
+ "initial": [
+  "results/fu2/p1/T8B/p1-initial-T8B-1809070/initial.jsonl",
+  "results/fu2/p1/T8B/p1-initial-ext-T8B-1809070/initial.jsonl"
+ ],
+ "verbal": [
+  "results/fu2/p1/T8B/p1-verbal-T8B-1809070/verbal.jsonl",
+  "results/fu2/p1/T8B/p1-verbal-ext-T8B-1809070/verbal.jsonl"
+ ],
+ "probe_scores": "results/fu2/main/T8B/main-probe-scores-test-T8B-1809070/probe_scores.jsonl"
+}

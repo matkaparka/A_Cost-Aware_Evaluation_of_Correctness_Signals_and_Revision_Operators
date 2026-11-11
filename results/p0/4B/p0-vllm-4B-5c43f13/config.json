@@ -1,0 +1,9 @@
+{
+ "model": "4B",
+ "n": 256,
+ "think_n": 64,
+ "max_tokens": 2048,
+ "think_max_tokens": 8192,
+ "gpu_util": 0.85,
+ "lora_dir": null
+}

@@ -1,0 +1,684 @@
+{
+ "plan_sha256_lf": "2edb8dbec62c629c6030c7db4f9b20b773447878434f4a14c6431ffaebabcfe5",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "extractions_sha256_before_gold": "6337827ecbbbee08f011946739253c62b4224e70723edd99119b8a87e838bf89",
+ "parity": [
+  "math 1.7B test: verbal scores and first-turn token counts rebuilt by the dev code match",
+  "math 4B test: verbal scores and first-turn token counts rebuilt by the dev code match",
+  "math 4B test: gold-blind agreement rebuilt by the dev code matches the ACL values",
+  "MMLU-Pro 4B test: verbal W0 and transferred math-probe scores equal the run files the dev code reads",
+  "MMLU-Pro T8B test: verbal W0 and transferred math-probe scores equal the run files the dev code reads"
+ ],
+ "settings": {
+  "math 1.7B": {
+   "dev_n": 1264,
+   "test_n": 5052,
+   "dev_base_acc_pct": 75.55379746835443,
+   "test_base_acc_pct": 75.21773555027713,
+   "signals": [
+    "verbal",
+    "probe",
+    "length"
+   ],
+   "grid_size": 241,
+   "rules": {
+    "R1": {
+     "policy": {
+      "operator": "F2",
+      "signal": "probe",
+      "share_pct": 20
+     },
+     "dev_delta_pp": 0.949367088607595,
+     "dev_generated_tokens": 285.3346518987342,
+     "test_delta_vs_keep": {
+      "estimate": 0.4552652414885194,
+      "lo": 0.1386687797147385,
+      "hi": 0.7721281542131644,
+      "p_boot": 0.0035
+     },
+     "test_generated_tokens": 286.8923198733175,
+     "test_rank": 72,
+     "test_regret_pp": 0.2771179730799683,
+     "test_best": {
+      "policy": [
+       "F2-scratch",
+       "probe",
+       0.55
+      ],
+      "delta_pp": 0.7323832145684878
+     },
+     "test_delta_vs_operator_all": {
+      "estimate": 0.1979414093428345,
+      "lo": -0.13850415512465375,
+      "hi": 0.5341246290801187,
+      "p_boot": 0.276
+     },
+     "threshold_transfer": {
+      "dev_threshold": 0.5831030607223511,
+      "test_selected_n": 976,
+      "test_delta_vs_keep": {
+       "estimate": 0.4552652414885194,
+       "lo": 0.1386687797147385,
+       "hi": 0.7721281542131644,
+       "p_boot": 0.0035
+      },
+      "test_generated_tokens": 278.7759303246239
+     },
+     "joint_reselection": {
+      "test_delta_ci_pp": [
+       0.11874075441397562,
+       0.793001205826169
+      ],
+      "share_of_replicates_choosing_point_policy": 0.22575,
+      "distinct_policies_chosen": 41
+     }
+    },
+    "R2": {
+     "policy": {
+      "operator": "F2",
+      "signal": "probe",
+      "share_pct": 20
+     },
+     "dev_delta_pp": 0.949367088607595,
+     "dev_generated_tokens": 285.3346518987342,
+     "test_delta_vs_keep": {
+      "estimate": 0.4552652414885194,
+      "lo": 0.1386687797147385,
+      "hi": 0.7721281542131644,
+      "p_boot": 0.0035
+     },
+     "test_generated_tokens": 286.8923198733175,
+     "test_rank": 72,
+     "test_regret_pp": 0.2771179730799683,
+     "test_best": {
+      "policy": [
+       "F2-scratch",
+       "probe",
+       0.55
+      ],
+      "delta_pp": 0.7323832145684878
+     },
+     "test_delta_vs_operator_all": {
+      "estimate": 0.1979414093428345,
+      "lo": -0.13850415512465375,
+      "hi": 0.5341246290801187,
+      "p_boot": 0.276
+     },
+     "threshold_transfer": {
+      "dev_threshold": 0.5831030607223511,
+      "test_selected_n": 976,
+      "test_delta_vs_keep": {
+       "estimate": 0.4552652414885194,
+       "lo": 0.1386687797147385,
+       "hi": 0.7721281542131644,
+       "p_boot": 0.0035
+      },
+      "test_generated_tokens": 278.7759303246239
+     },
+     "joint_reselection": {
+      "test_delta_ci_pp": [
+       0.09902951079421667,
+       0.712871287128713
+      ],
+      "share_of_replicates_choosing_point_policy": 0.465,
+      "distinct_policies_chosen": 16
+     }
+    }
+   },
+   "dev_top5": [
+    {
+     "policy": [
+      "F2",
+      "probe",
+      0.2
+     ],
+     "dev_delta_pp": 0.949367088607595,
+     "test_delta_pp": 0.4552652414885194
+    },
+    {
+     "policy": [
+      "F2",
+      "probe",
+      0.3
+     ],
+     "dev_delta_pp": 0.949367088607595,
+     "test_delta_pp": 0.49485352335708627
+    },
+    {
+     "policy": [
+      "F2",
+      "verbal",
+      0.1
+     ],
+     "dev_delta_pp": 0.7911392405063291,
+     "test_delta_pp": 0.395882818685669
+    },
+    {
+     "policy": [
+      "F2",
+      "verbal",
+      0.15
+     ],
+     "dev_delta_pp": 0.7911392405063291,
+     "test_delta_pp": 0.29691211401425177
+    },
+    {
+     "policy": [
+      "F2",
+      "verbal",
+      0.25
+     ],
+     "dev_delta_pp": 0.7911392405063291,
+     "test_delta_pp": 0.4156769596199525
+    }
+   ]
+  },
+  "math 4B": {
+   "dev_n": 1264,
+   "test_n": 5052,
+   "dev_base_acc_pct": 84.01898734177216,
+   "test_base_acc_pct": 85.19398258115598,
+   "signals": [
+    "verbal",
+    "probe",
+    "length",
+    "agreement",
+    "margin"
+   ],
+   "grid_size": 481,
+   "rules": {
+    "R1": {
+     "policy": {
+      "operator": "s1",
+      "signal": "agreement",
+      "share_pct": 15
+     },
+     "dev_delta_pp": 4.193037974683545,
+     "dev_generated_tokens": 3649.9477848101264,
+     "test_delta_vs_keep": {
+      "estimate": 2.632620744259699,
+      "lo": 1.881188118811881,
+      "hi": 3.347860538827258,
+      "p_boot": 0.0
+     },
+     "test_generated_tokens": 3723.327988915281,
+     "test_rank": 2,
+     "test_regret_pp": 0.6334125098970702,
+     "test_best": {
+      "policy": [
+       "s1",
+       "agreement",
+       0.1
+      ],
+      "delta_pp": 3.2660332541567696
+     },
+     "test_delta_vs_operator_all": {
+      "estimate": 1.6033254156769599,
+      "lo": 1.2069647803719825,
+      "hi": 2.019402098594338,
+      "p_boot": 0.0
+     },
+     "threshold_transfer": {
+      "dev_threshold": 0.4,
+      "test_selected_n": 714,
+      "test_delta_vs_keep": {
+       "estimate": 2.889944576405384,
+       "lo": 2.176903066858266,
+       "hi": 3.5841761627143103,
+       "p_boot": 0.0
+      },
+      "test_generated_tokens": 3981.1148060174187
+     },
+     "joint_reselection": {
+      "test_delta_ci_pp": [
+       1.8595450049455984,
+       3.4653636932320686
+      ],
+      "share_of_replicates_choosing_point_policy": 0.9245,
+      "distinct_policies_chosen": 12
+     }
+    },
+    "R2": {
+     "policy": {
+      "operator": "s1",
+      "signal": "agreement",
+      "share_pct": 15
+     },
+     "dev_delta_pp": 4.193037974683545,
+     "dev_generated_tokens": 3649.9477848101264,
+     "test_delta_vs_keep": {
+      "estimate": 2.632620744259699,
+      "lo": 1.881188118811881,
+      "hi": 3.347860538827258,
+      "p_boot": 0.0
+     },
+     "test_generated_tokens": 3723.327988915281,
+     "test_rank": 2,
+     "test_regret_pp": 0.6334125098970702,
+     "test_best": {
+      "policy": [
+       "s1",
+       "agreement",
+       0.1
+      ],
+      "delta_pp": 3.2660332541567696
+     },
+     "test_delta_vs_operator_all": {
+      "estimate": 1.6033254156769599,
+      "lo": 1.2069647803719825,
+      "hi": 2.019402098594338,
+      "p_boot": 0.0
+     },
+     "threshold_transfer": {
+      "dev_threshold": 0.4,
+      "test_selected_n": 714,
+      "test_delta_vs_keep": {
+       "estimate": 2.889944576405384,
+       "lo": 2.176903066858266,
+       "hi": 3.5841761627143103,
+       "p_boot": 0.0
+      },
+      "test_generated_tokens": 3981.1148060174187
+     },
+     "joint_reselection": {
+      "test_delta_ci_pp": [
+       1.8804154890033855,
+       3.466719492868463
+      ],
+      "share_of_replicates_choosing_point_policy": 0.92675,
+      "distinct_policies_chosen": 7
+     }
+    }
+   },
+   "dev_top5": [
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.15
+     ],
+     "dev_delta_pp": 4.193037974683545,
+     "test_delta_pp": 2.632620744259699
+    },
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.1
+     ],
+     "dev_delta_pp": 3.481012658227848,
+     "test_delta_pp": 3.2660332541567696
+    },
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.2
+     ],
+     "dev_delta_pp": 3.0063291139240507,
+     "test_delta_pp": 1.623119556611243
+    },
+    {
+     "policy": [
+      "s1",
+      "probe",
+      0.25
+     ],
+     "dev_delta_pp": 2.5316455696202533,
+     "test_delta_pp": 1.3460015835312746
+    },
+    {
+     "policy": [
+      "s1",
+      "probe",
+      0.3
+     ],
+     "dev_delta_pp": 2.45253164556962,
+     "test_delta_pp": 1.2866191607284245
+    }
+   ]
+  },
+  "MMLU-Pro 4B": {
+   "dev_n": 857,
+   "test_n": 3457,
+   "dev_base_acc_pct": 53.32555425904317,
+   "test_base_acc_pct": 53.19641307492046,
+   "signals": [
+    "verbal",
+    "length",
+    "agreement",
+    "margin",
+    "math_probe"
+   ],
+   "grid_size": 481,
+   "rules": {
+    "R1": {
+     "policy": {
+      "operator": "F2",
+      "signal": "agreement",
+      "share_pct": 35
+     },
+     "dev_delta_pp": 2.3337222870478413,
+     "dev_generated_tokens": 3959.2380396732788,
+     "test_delta_vs_keep": {
+      "estimate": 1.5909748336708127,
+      "lo": 0.721495517369724,
+      "hi": 2.508650519031142,
+      "p_boot": 0.001
+     },
+     "test_generated_tokens": 3964.345096904831,
+     "test_rank": 27,
+     "test_regret_pp": 0.8967312698871854,
+     "test_best": {
+      "policy": [
+       "s1",
+       "agreement",
+       0.2
+      ],
+      "delta_pp": 2.4877061035579984
+     },
+     "test_delta_vs_operator_all": {
+      "estimate": 1.7066820943014174,
+      "lo": 0.8902546484146515,
+      "hi": 2.5627183386353987,
+      "p_boot": 0.0
+     },
+     "threshold_transfer": {
+      "dev_threshold": 0.6,
+      "test_selected_n": 1204,
+      "test_delta_vs_keep": {
+       "estimate": 1.6488284639861153,
+       "lo": 0.7805498794216346,
+       "hi": 2.5597026475493574,
+       "p_boot": 0.0005
+      },
+      "test_generated_tokens": 3962.916690772346
+     },
+     "joint_reselection": {
+      "test_delta_ci_pp": [
+       0.058307339909089526,
+       2.9951947108176857
+      ],
+      "share_of_replicates_choosing_point_policy": 0.1375,
+      "distinct_policies_chosen": 66
+     }
+    },
+    "R2": {
+     "policy": {
+      "operator": "s1",
+      "signal": "agreement",
+      "share_pct": 10
+     },
+     "dev_delta_pp": 1.8669778296382729,
+     "dev_generated_tokens": 3631.301050175029,
+     "test_delta_vs_keep": {
+      "estimate": 2.458779288400347,
+      "lo": 1.7533270662901161,
+      "hi": 3.1705060326962125,
+      "p_boot": 0.0
+     },
+     "test_generated_tokens": 3628.3725773792307,
+     "test_rank": 2,
+     "test_regret_pp": 0.028926815157651053,
+     "test_best": {
+      "policy": [
+       "s1",
+       "agreement",
+       0.2
+      ],
+      "delta_pp": 2.4877061035579984
+     },
+     "test_delta_vs_operator_all": {
+      "estimate": 1.041365345675441,
+      "lo": 0.02894335068606957,
+      "hi": 2.010974238144091,
+      "p_boot": 0.046
+     },
+     "threshold_transfer": {
+      "dev_threshold": 0.2,
+      "test_selected_n": 549,
+      "test_delta_vs_keep": {
+       "estimate": 2.5166329187156493,
+       "lo": 1.6378825541217124,
+       "hi": 3.439356088085933,
+       "p_boot": 0.0
+      },
+      "test_generated_tokens": 3780.619033844374
+     },
+     "joint_reselection": {
+      "test_delta_ci_pp": [
+       0.058071587869102825,
+       3.1350693359214366
+      ],
+      "share_of_replicates_choosing_point_policy": 0.29325,
+      "distinct_policies_chosen": 34
+     }
+    }
+   },
+   "dev_top5": [
+    {
+     "policy": [
+      "F2",
+      "agreement",
+      0.35
+     ],
+     "dev_delta_pp": 2.3337222870478413,
+     "test_delta_pp": 1.5909748336708127
+    },
+    {
+     "policy": [
+      "F2",
+      "agreement",
+      0.5
+     ],
+     "dev_delta_pp": 2.2170361726954493,
+     "test_delta_pp": 1.2438530517789992
+    },
+    {
+     "policy": [
+      "F2",
+      "agreement",
+      0.55
+     ],
+     "dev_delta_pp": 2.2170361726954493,
+     "test_delta_pp": 1.041365345675441
+    },
+    {
+     "policy": [
+      "F2",
+      "agreement",
+      0.45
+     ],
+     "dev_delta_pp": 2.100350058343057,
+     "test_delta_pp": 1.5331212033555106
+    },
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.25
+     ],
+     "dev_delta_pp": 2.100350058343057,
+     "test_delta_pp": 2.28521839745444
+    }
+   ]
+  },
+  "MMLU-Pro T8B": {
+   "dev_n": 857,
+   "test_n": 3457,
+   "dev_base_acc_pct": 44.574095682613766,
+   "test_base_acc_pct": 46.36968469771478,
+   "signals": [
+    "verbal",
+    "length",
+    "agreement",
+    "margin",
+    "math_probe"
+   ],
+   "grid_size": 481,
+   "rules": {
+    "R1": {
+     "policy": {
+      "operator": "s1",
+      "signal": "agreement",
+      "share_pct": 20
+     },
+     "dev_delta_pp": 3.150525087514586,
+     "dev_generated_tokens": 1037.901983663944,
+     "test_delta_vs_keep": {
+      "estimate": 1.8223893549320218,
+      "lo": 0.9011562434527551,
+      "hi": 2.7294754874640645,
+      "p_boot": 0.0005
+     },
+     "test_generated_tokens": 1044.5004339022273,
+     "test_rank": 3,
+     "test_regret_pp": 0.20248770610355807,
+     "test_best": {
+      "policy": [
+       "s1",
+       "agreement",
+       0.15
+      ],
+      "delta_pp": 2.02487706103558
+     },
+     "test_delta_vs_operator_all": {
+      "estimate": 1.9380966155626265,
+      "lo": 1.1001657509027054,
+      "hi": 2.7705810816954344,
+      "p_boot": 0.0
+     },
+     "threshold_transfer": {
+      "dev_threshold": 0.4,
+      "test_selected_n": 868,
+      "test_delta_vs_keep": {
+       "estimate": 1.1281457911483945,
+       "lo": 0.08718332491551363,
+       "hi": 2.1518196138476626,
+       "p_boot": 0.0315
+      },
+      "test_generated_tokens": 1117.5510558287533
+     },
+     "joint_reselection": {
+      "test_delta_ci_pp": [
+       0.462661844923728,
+       2.7465579081482767
+      ],
+      "share_of_replicates_choosing_point_policy": 0.598,
+      "distinct_policies_chosen": 26
+     }
+    },
+    "R2": {
+     "policy": {
+      "operator": "s1",
+      "signal": "agreement",
+      "share_pct": 20
+     },
+     "dev_delta_pp": 3.150525087514586,
+     "dev_generated_tokens": 1037.901983663944,
+     "test_delta_vs_keep": {
+      "estimate": 1.8223893549320218,
+      "lo": 0.9011562434527551,
+      "hi": 2.7294754874640645,
+      "p_boot": 0.0005
+     },
+     "test_generated_tokens": 1044.5004339022273,
+     "test_rank": 3,
+     "test_regret_pp": 0.20248770610355807,
+     "test_best": {
+      "policy": [
+       "s1",
+       "agreement",
+       0.15
+      ],
+      "delta_pp": 2.02487706103558
+     },
+     "test_delta_vs_operator_all": {
+      "estimate": 1.9380966155626265,
+      "lo": 1.1001657509027054,
+      "hi": 2.7705810816954344,
+      "p_boot": 0.0
+     },
+     "threshold_transfer": {
+      "dev_threshold": 0.4,
+      "test_selected_n": 868,
+      "test_delta_vs_keep": {
+       "estimate": 1.1281457911483945,
+       "lo": 0.08718332491551363,
+       "hi": 2.1518196138476626,
+       "p_boot": 0.0315
+      },
+      "test_generated_tokens": 1117.5510558287533
+     },
+     "joint_reselection": {
+      "test_delta_ci_pp": [
+       0.9272607432712167,
+       2.7640384055862675
+      ],
+      "share_of_replicates_choosing_point_policy": 0.64225,
+      "distinct_policies_chosen": 9
+     }
+    }
+   },
+   "dev_top5": [
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.2
+     ],
+     "dev_delta_pp": 3.150525087514586,
+     "test_delta_pp": 1.8223893549320218
+    },
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.15
+     ],
+     "dev_delta_pp": 2.9171528588098017,
+     "test_delta_pp": 2.02487706103558
+    },
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.25
+     ],
+     "dev_delta_pp": 2.5670945157526255,
+     "test_delta_pp": 1.1281457911483945
+    },
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.1
+     ],
+     "dev_delta_pp": 2.100350058343057,
+     "test_delta_pp": 1.9091698004049755
+    },
+    {
+     "policy": [
+      "s1",
+      "agreement",
+      0.3
+     ],
+     "dev_delta_pp": 2.100350058343057,
+     "test_delta_pp": 1.0702921608330922
+    }
+   ]
+  }
+ },
+ "dev_probe_out_of_fold": {
+  "1.7B": {
+   "layer": 17,
+   "C": 0.001,
+   "dev_oof_auroc_common_labels": 0.885646995035497
+  },
+  "4B": {
+   "layer": 24,
+   "C": 0.001,
+   "dev_oof_auroc_common_labels": 0.8927113050288079
+  }
+ }
+}

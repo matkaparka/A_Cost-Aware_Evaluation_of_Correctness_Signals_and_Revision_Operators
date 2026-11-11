@@ -1,0 +1,21 @@
+{
+ "model": "1.7B",
+ "stage": "initial",
+ "budgets": [
+  1024
+ ],
+ "budget": 1024,
+ "initial": null,
+ "n": 20,
+ "batch": 0,
+ "check": null,
+ "a0_tokens": 4096,
+ "revision_tokens": 2048,
+ "critique_tokens": 1024,
+ "batch_by_budget": {
+  "512": 8,
+  "1024": 6,
+  "2048": 4
+ },
+ "n_dev_items": 171
+}

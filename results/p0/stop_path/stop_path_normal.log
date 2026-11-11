@@ -1,0 +1,9 @@
+watchdog stopped
+watchdog running (pid 764)
+armed: normal
+2026-11-03T08:13:18Z state=Running
+2026-11-03T08:13:44Z state=Running
+2026-11-03T08:14:08Z state=Running
+2026-11-03T08:14:33Z state=Running
+2026-11-03T08:14:58Z state=Paused
+RESULT normal: paused after 110 s

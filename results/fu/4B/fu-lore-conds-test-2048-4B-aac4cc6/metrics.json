@@ -1,0 +1,120 @@
+{
+ "vllm": "0.33.0",
+ "stage1_s": 1101.4719731807709,
+ "stage2_s": 187.9442925453186,
+ "stage1_prompts": 9104,
+ "stage2_prompts": 1384,
+ "t_star_s": 17.31248958656134,
+ "rows": {
+  "1A:dnat:B0": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:B1": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:F0": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:F1": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:F2": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:F2-scratch": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:F3(0.5)": {
+   "n": 692,
+   "truncated": 4,
+   "not ok": 4
+  },
+  "1A:dnat:F3(0.7)": {
+   "n": 692,
+   "truncated": 1,
+   "not ok": 1
+  },
+  "1A:dnat:F3(0.9)": {
+   "n": 692,
+   "truncated": 1,
+   "not ok": 1
+  },
+  "1A:dnat:F3(1.0)": {
+   "n": 692,
+   "truncated": 1,
+   "not ok": 1
+  },
+  "1A:dnat:F3-perm[0]": {
+   "n": 692,
+   "truncated": 2,
+   "not ok": 2
+  },
+  "1A:dnat:F3-perm[1]": {
+   "n": 692,
+   "truncated": 2,
+   "not ok": 2
+  },
+  "1A:dnat:F3-perm[2]": {
+   "n": 692,
+   "truncated": 2,
+   "not ok": 2
+  },
+  "1A:dnat:F5": {
+   "n": 692,
+   "truncated": 2,
+   "not ok": 2
+  },
+  "1B:dinj:assistant/other/F0": {
+   "n": 569,
+   "truncated": 2,
+   "not ok": 2
+  },
+  "1B:dinj:assistant/self/F0": {
+   "n": 569,
+   "truncated": 1,
+   "not ok": 1
+  },
+  "1B:dinj:user/other/F0": {
+   "n": 569,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1B:dinj:user/self/F0": {
+   "n": 569,
+   "truncated": 1,
+   "not ok": 1
+  },
+  "1B:dnat:assistant/other/F0": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1B:dnat:assistant/self/F0": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1B:dnat:user/other/F0": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1B:dnat:user/self/F0": {
+   "n": 692,
+   "truncated": 0,
+   "not ok": 0
+  }
+ }
+}

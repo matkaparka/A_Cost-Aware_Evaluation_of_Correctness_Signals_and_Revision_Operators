@@ -1,0 +1,26 @@
+{
+ "run_id": "main-probe-scores-test-4B-a7a0579",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {},
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "a7a05799493ed08a8284e839fb6ec23fef469da9",
+ "config_sha256": "c30e73db08ff247025d854d605aba99e3ffbf809507ce43c0de92cd60db07ba4",
+ "backend": {
+  "name": "numpy",
+  "version": "2.3.5"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "f1b3bc3a5ad287e9e9d05434cf977766986a1dbb6cdd7e2fd4f59b38e7757e57",
+  "metrics.json": "bae202b11e6280acfc96fbd8b838e4fa80a95f1c2d230826c2ad472138fba340",
+  "probe_scores.jsonl": "0ddfd3f328b3abb5c2a56703a9752c6494cd8cf61d7d8e8f8ab8a1fc9c414e7b"
+ }
+}

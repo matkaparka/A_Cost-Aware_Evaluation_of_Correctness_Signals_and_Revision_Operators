@@ -1,0 +1,592 @@
+{
+ "plan_sha256_lf": "8d2d531d42fd9517f2ed7f532df6c46748c1045beb9c5b5c6b3388761ef4550f",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "final": true,
+ "present": 36,
+ "expected": 36,
+ "missing": [],
+ "members": [
+  {
+   "member": 1,
+   "setting": "math 1.7B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "difference": {
+    "estimate": -1.6033254156769599,
+    "lo": -2.2781412370311784,
+    "hi": -0.9305042054809745,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 1,
+   "setting": "math 4B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "difference": {
+    "estimate": -1.7616785431512274,
+    "lo": -2.3950910530482976,
+    "hi": -1.107375914573858,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 1,
+   "setting": "math 8B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "difference": {
+    "estimate": -2.8305621536025334,
+    "lo": -3.467746536982742,
+    "hi": -2.1773447301830995,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 1,
+   "setting": "math T8B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "difference": {
+    "estimate": -0.17814726840855108,
+    "lo": -0.6929320926549198,
+    "hi": 0.3167062549485352,
+    "p_boot": 0.4925
+   },
+   "p_boot": 0.4925,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 1,
+   "setting": "MMLU-Pro 4B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "difference": {
+    "estimate": -0.11570726063060456,
+    "lo": -0.905780960635686,
+    "hi": 0.7231913221900172,
+    "p_boot": 0.804
+   },
+   "p_boot": 0.804,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 1,
+   "setting": "MMLU-Pro T8B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "difference": {
+    "estimate": -0.23141452126120912,
+    "lo": -0.954315750324611,
+    "hi": 0.5150918375914304,
+    "p_boot": 0.5765
+   },
+   "p_boot": 0.5765,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 2,
+   "setting": "math 1.7B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "difference": {
+    "estimate": 0.3760886777513856,
+    "lo": -0.13858710460236284,
+    "hi": 0.890383854372774,
+    "p_boot": 0.162
+   },
+   "p_boot": 0.162,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 2,
+   "setting": "math 4B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "difference": {
+    "estimate": 0.05938242280285036,
+    "lo": -0.3361676883527783,
+    "hi": 0.47459202434024284,
+    "p_boot": 0.7905
+   },
+   "p_boot": 0.7905,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 2,
+   "setting": "math 8B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "difference": {
+    "estimate": -0.217735550277118,
+    "lo": -0.593589236248516,
+    "hi": 0.1583531274742676,
+    "p_boot": 0.2805
+   },
+   "p_boot": 0.2805,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 2,
+   "setting": "math T8B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "difference": {
+    "estimate": 0.7323832145684878,
+    "lo": 0.07916089451810805,
+    "hi": 1.324902734616511,
+    "p_boot": 0.027
+   },
+   "p_boot": 0.027,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 0.594,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 2,
+   "setting": "MMLU-Pro 4B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "difference": {
+    "estimate": 0.0,
+    "lo": -0.7558359504020359,
+    "hi": 0.7475937567976776,
+    "p_boot": 1.0
+   },
+   "p_boot": 1.0,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 2,
+   "setting": "MMLU-Pro T8B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "difference": {
+    "estimate": 0.6363899334683252,
+    "lo": 0.0,
+    "hi": 1.3032334776985781,
+    "p_boot": 0.059
+   },
+   "p_boot": 0.059,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 3,
+   "setting": "math 1.7B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": -0.49485352335708627,
+    "lo": -1.443265339776606,
+    "hi": 0.5340216283852308,
+    "p_boot": 0.3475
+   },
+   "p_boot": 0.3475,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 3,
+   "setting": "math 4B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": -0.4750593824228029,
+    "lo": -1.3462880677313276,
+    "hi": 0.3167689566422491,
+    "p_boot": 0.2525
+   },
+   "p_boot": 0.2525,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 3,
+   "setting": "math 8B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": 0.6730007917656373,
+    "lo": -0.15832257249716739,
+    "hi": 1.504362156831671,
+    "p_boot": 0.115
+   },
+   "p_boot": 0.115,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 3,
+   "setting": "math T8B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": -0.6927949326999208,
+    "lo": -1.837263903471972,
+    "hi": 0.4362092278894698,
+    "p_boot": 0.2505
+   },
+   "p_boot": 0.2505,
+   "source": "B1 (b1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 3,
+   "setting": "MMLU-Pro 4B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": 1.5331212033555106,
+    "lo": 0.11637549413360661,
+    "hi": 2.945444313267616,
+    "p_boot": 0.035
+   },
+   "p_boot": 0.035,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 0.7000000000000001,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 3,
+   "setting": "MMLU-Pro T8B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": 1.5041943881978594,
+    "lo": 0.2004735625512841,
+    "hi": 2.870459688955743,
+    "p_boot": 0.025
+   },
+   "p_boot": 0.025,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 0.5750000000000001,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 4,
+   "setting": "math 1.7B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": 0.1583531274742676,
+    "lo": -0.2769014735790175,
+    "hi": 0.5741437339140765,
+    "p_boot": 0.5045
+   },
+   "p_boot": 0.5045,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 4,
+   "setting": "math 4B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": -0.49485352335708627,
+    "lo": -0.9316899202067584,
+    "hi": -0.0594059405940594,
+    "p_boot": 0.0275
+   },
+   "p_boot": 0.0275,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 0.594,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 4,
+   "setting": "math 8B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": -0.09897070467141725,
+    "lo": -0.5146502115476769,
+    "hi": 0.31708598105989527,
+    "p_boot": 0.685
+   },
+   "p_boot": 0.685,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 4,
+   "setting": "math T8B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": -0.1583531274742676,
+    "lo": -0.43512873423981774,
+    "hi": 0.09903000123355302,
+    "p_boot": 0.2695
+   },
+   "p_boot": 0.2695,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 4,
+   "setting": "MMLU-Pro 4B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": 0.4917558576800694,
+    "lo": -0.6701876143990237,
+    "hi": 1.7111617188225903,
+    "p_boot": 0.4505
+   },
+   "p_boot": 0.4505,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 4,
+   "setting": "MMLU-Pro T8B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "difference": {
+    "estimate": 1.6488284639861153,
+    "lo": 0.8735660112820595,
+    "hi": 2.42076672512322,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "A1 (a1_policies.json)",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 5,
+   "setting": "math 1.7B",
+   "a": "A3 R1 policy",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 0.4552652414885194,
+    "lo": 0.1386687797147385,
+    "hi": 0.7721281542131644,
+    "p_boot": 0.0035
+   },
+   "p_boot": 0.0035,
+   "source": "A3 (a3_dev_test.json)",
+   "note": "R1 policy: F2, probe, 20 %",
+   "holm_p": 0.084,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 5,
+   "setting": "math 4B",
+   "a": "A3 R1 policy",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 2.632620744259699,
+    "lo": 1.881188118811881,
+    "hi": 3.347860538827258,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "A3 (a3_dev_test.json)",
+   "note": "R1 policy: s1, agreement, 15 %",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 5,
+   "setting": "math 8B",
+   "a": "A3 R1 policy",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 3.463974663499604,
+    "lo": 2.8823030488704315,
+    "hi": 4.077593032462391,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "A3 after B5 (a3_b5.json)",
+   "note": "R1 policy: s1, agreement, 10 %",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 5,
+   "setting": "math T8B",
+   "a": "A3 R1 policy",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 3.780680918448139,
+    "lo": 2.9137760158572843,
+    "hi": 4.670515888666438,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "A3 after B5 (a3_b5.json)",
+   "note": "R1 policy: s1, agreement, 35 %",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 5,
+   "setting": "MMLU-Pro 4B",
+   "a": "A3 R1 policy",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 1.5909748336708127,
+    "lo": 0.721495517369724,
+    "hi": 2.508650519031142,
+    "p_boot": 0.001
+   },
+   "p_boot": 0.001,
+   "source": "A3 (a3_dev_test.json)",
+   "note": "R1 policy: F2, agreement, 35 %",
+   "holm_p": 0.025,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 5,
+   "setting": "MMLU-Pro T8B",
+   "a": "A3 R1 policy",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 1.8223893549320218,
+    "lo": 0.9011562434527551,
+    "hi": 2.7294754874640645,
+    "p_boot": 0.0005
+   },
+   "p_boot": 0.0005,
+   "source": "A3 (a3_dev_test.json)",
+   "note": "R1 policy: s1, agreement, 20 %",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 6,
+   "setting": "math 4B",
+   "a": "THINK by probe 20%",
+   "b": "THINK by verbal 20%",
+   "difference": {
+    "estimate": 0.0395882818685669,
+    "lo": -0.29679608653222417,
+    "hi": 0.3763121410180234,
+    "p_boot": 0.853
+   },
+   "p_boot": 0.853,
+   "source": "C1 (c1_think.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 6,
+   "setting": "math 8B",
+   "a": "THINK by probe 20%",
+   "b": "THINK by verbal 20%",
+   "difference": {
+    "estimate": 0.435471100554236,
+    "lo": 0.01981375074301565,
+    "hi": 0.8700853779571117,
+    "p_boot": 0.039
+   },
+   "p_boot": 0.039,
+   "source": "C1 (c1_think.json)",
+   "holm_p": 0.741,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 6,
+   "setting": "MMLU-Pro 4B",
+   "a": "THINK by probe 20%",
+   "b": "THINK by verbal 20%",
+   "difference": {
+    "estimate": -0.1446340757882557,
+    "lo": -0.8369468772182399,
+    "hi": 0.5787120810010937,
+    "p_boot": 0.7035
+   },
+   "p_boot": 0.7035,
+   "source": "C1 (c1_think.json)",
+   "holm_p": 1.0,
+   "holm_reject_0.05": false
+  },
+  {
+   "member": 7,
+   "setting": "math 4B",
+   "a": "THINK ALL",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 8.669833729216151,
+    "lo": 7.7227722772277225,
+    "hi": 9.580506523010365,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "C1 (c1_think.json)",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 7,
+   "setting": "math 8B",
+   "a": "THINK ALL",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 7.91765637371338,
+    "lo": 6.996957440495417,
+    "hi": 8.801511124475914,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "C1 (c1_think.json)",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  },
+  {
+   "member": 7,
+   "setting": "MMLU-Pro 4B",
+   "a": "THINK ALL",
+   "b": "KEEP",
+   "difference": {
+    "estimate": 6.56638704078681,
+    "lo": 5.185750751382252,
+    "hi": 7.9237041100605605,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "source": "C1 (c1_think.json)",
+   "holm_p": 0.018000000000000002,
+   "holm_reject_0.05": true
+  }
+ ]
+}

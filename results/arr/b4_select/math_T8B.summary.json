@@ -1,0 +1,17 @@
+{
+ "task": "math",
+ "source": [
+  "/home/results/arr/b1/T8B/b1-samples-test-k5-h2a-consistency-t4096-c0-T8B-279e6b0/samples.jsonl",
+  "/home/results/arr/b1/T8B/b1-samples-test-k5-h2a-consistency-t4096-c1-T8B-279e6b0/samples.jsonl"
+ ],
+ "source_sha256": [
+  "b9eaf2a49be917116ae19cf066a4c6bd8a2b82d0bfab332a3986648ab9a626ef",
+  "91465ecd8793864aef048601afa0f647efa448cd2f893bd9d4a2e6ccc69e71c7"
+ ],
+ "items": 5052,
+ "share": 0.2,
+ "selected": 1010,
+ "max_selected_margin": 0.4,
+ "guards": [],
+ "out_sha256": "2d55d31029de80d62e20b907c1ff5586adb56baba5b9e15f1df18bcc3386a89e"
+}

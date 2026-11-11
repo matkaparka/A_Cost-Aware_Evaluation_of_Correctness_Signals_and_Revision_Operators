@@ -1,0 +1,28 @@
+{
+ "stage": "hf",
+ "model": "4B",
+ "split": "dev",
+ "allow_test": true,
+ "initial": [
+  "/home/results/v2/fu-dev/4B/fu-dev-mc-initial-dev-4B-ef3e485",
+  "/home/results/v2/fu/4B/fu-mc-initial-test-4B-9221b24"
+ ],
+ "variant": null,
+ "limit": 0,
+ "verbal_batch": 16,
+ "dry_run": false,
+ "tag": "",
+ "C_grid": [
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "groups": "canonical stem",
+ "position": "last a0 content token",
+ "math_probe": "results/p3/4B/p3-probe-dev-ext-4B-b7cf0d6/probe.npz",
+ "math_probe_sha256": "a62621d9ef55fed97f3de6a16b269715fe402b2e882c4bcae7b436172c8bc833",
+ "items_sha256": "bb8751651d7eda5dfdf1d179acabe5a044cce2b60bc572879b59fafa7d92db61",
+ "mc_scorer": "1.0.0",
+ "mc_scorer_sha256": "0b384926e9d9d12cc1147c7a863cbea342efa34ff0b8c3ce022350521092489e"
+}

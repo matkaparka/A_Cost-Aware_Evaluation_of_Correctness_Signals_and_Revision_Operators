@@ -1,0 +1,94 @@
+{
+ "analysis": "a1a2_replays",
+ "plan_sha256_lf": "2edb8dbec62c629c6030c7db4f9b20b773447878434f4a14c6431ffaebabcfe5",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "git_head": "6b707c3d7c946a198905e8547d75b1237c8fc90c",
+ "code_dirty": true,
+ "scripts": {
+  "analysis/arr/a0_common_labels.py": "5fcd5ef71b2a7fab4c0c4ac6af5f973ff53d7c70855abbf085f480ed5a39cd7d",
+  "analysis/arr/a1a2_replays.py": "fe317deb9afbde5bec37a064ccd55940c69d6e6d583f8afc1d114427b0d4ecf6",
+  "analysis/arr/a3_dev_test.py": "a4c60edacaf2ef6884abb4412a612ffd99ff56026cb9ed6c19f4446e5abefe2b",
+  "analysis/arr/common.py": "13f81fc4e39a0bd167a708945b06fbf1846e6d9348bca1779c91566f9cde3b6f",
+  "analysis/arr/tier_a_summary.py": "e7fb61cb7307c0b3fad10eeab10eae40910e46b1ca481aba1b615b075dee3ee9"
+ },
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "versions": {
+  "numpy": "2.5.4",
+  "sympy": "1.14.0",
+  "math-verify": "0.9.0",
+  "psutil": "7.2.2"
+ },
+ "bootstrap": {
+  "replicates": 4000,
+  "seed": 20261110,
+  "unit": "canonical problem"
+ },
+ "inputs": {
+  "analysis/out/arr/a0_common_labels.json": {
+   "sha256": "932a49ced5d82f14b9e71c0f14bebd3d52d43bd42c2872f13ce6fe9179665e62",
+   "bytes": 5129
+  },
+  "analysis/out/arr/math_common_labels.jsonl.gz": {
+   "sha256": "8cfc687b302d4c85c109790753a7a1426b3aab7ae0f5d6b7cf14896fc57b5005",
+   "bytes": 767301
+  },
+  "data/processed/mmlupro/items.jsonl": {
+   "sha256": "bb8751651d7eda5dfdf1d179acabe5a044cce2b60bc572879b59fafa7d92db61",
+   "bytes": 5089177
+  },
+  "paper/1区/acl2027/artifacts/curves/baselines.csv": {
+   "sha256": "a51cbb2348f632429a9ff936569b91a684c22f6946079f1563d946ab7064127d",
+   "bytes": 1757
+  },
+  "paper/1区/acl2027/artifacts/curves/summary.json": {
+   "sha256": "2ae010b81d94ce0febf4b58b541cebabc9548d79f0fb4dea1fb687f1bf52baa5",
+   "bytes": 17102
+  },
+  "paper/1区/acl2027/artifacts/math_vote/equivalence_cache.jsonl": {
+   "sha256": "ea294a707b99837f3be99bef49dc4d1291dd2d0ca4acfdbcc5e9652b9bb44582",
+   "bytes": 1331595
+  },
+  "paper/1区/acl2027/artifacts/math_vote/per_item.jsonl": {
+   "sha256": "3e3ca0a97e89ece58a9fea13c1a551902f41de8fbb136ea0be98c469230f3aa6",
+   "bytes": 17305274
+  },
+  "paper/1区/acl2027/artifacts/math_vote/same_rule_per_item.jsonl": {
+   "sha256": "e1411100ea7fd9791523f4531451e4200b12cfc8a4bea80a3ef5374b3c359554",
+   "bytes": 3755243
+  },
+  "paper/1区/acl2027/artifacts/math_vote/same_rule_summary.json": {
+   "sha256": "519f2813e9851bc763a7bc69cd7451c808c395385bbd7f7def74095bc449955a",
+   "bytes": 6081
+  },
+  "paper/1区/artifacts/math/item_evaluations.jsonl": {
+   "sha256": "123be4ce262b43e77ec8f0394c2566b8ed04d69c5381848a76d9a284abdfde77",
+   "bytes": 62452390
+  },
+  "paper/1区/artifacts/mc/4B_items.jsonl": {
+   "sha256": "c09d508519b286d9a38f5bfa1c989e0cfd5991fd21400ac1e41ad0d144945bcf",
+   "bytes": 9430616
+  },
+  "paper/1区/artifacts/mc/T8B_items.jsonl": {
+   "sha256": "6c6eb7b8734d9026b1c1a3537bbee084a8fa10c6e55d889dbdd66abf2eff42ca",
+   "bytes": 9442418
+  },
+  "paper/1区/artifacts/mc/summary.json": {
+   "sha256": "fa4b01d2f51f8adbaf3ab5b19e14bcd8daaa5950ec68be1591fa8572cc1958a4",
+   "bytes": 240998
+  },
+  "results/v2/fu/4B/fu-mc-consist-test-4B-9221b24/consistency.jsonl": {
+   "sha256": "16d43f45600bc2d81d1715ea9644693f8c0bed52b54121f1f936a679b88e43a0",
+   "bytes": 2177721
+  },
+  "results/v2/fu/T8B/fu-mc-consist-test-T8B-9221b24/consistency.jsonl": {
+   "sha256": "a22d562c4d28cc55b3ddde3f01bc2a054f73797f741d05082b731571704a8ac1",
+   "bytes": 2170860
+  }
+ },
+ "outputs": {
+  "a1_policies.json": "0ef4078ed372a830e888bfdcd1a78b113ad66df0d7611694c388528435d3b182",
+  "a2_eq2.csv": "5155f0486bed7f951da0eefc3e78f530b3c4b5eb269cd8225ebd4c760f12b194",
+  "a2_curves.csv.gz": "eb0e6fd9bcccddd807efebe4dce7397c7c6a0ea0324e4cf8766b9472305cf832",
+  "a2_auroc.json": "0a07965616a955864507f7c4cd04bdcb8fc962685d4b52bfbb9198a68e428fae"
+ }
+}

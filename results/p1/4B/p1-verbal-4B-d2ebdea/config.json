@@ -1,0 +1,22 @@
+{
+ "model": "4B",
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "batch": 16,
+ "query": "Is your final answer correct? Answer yes or no.",
+ "yes": [
+  "yes",
+  "Yes",
+  "YES",
+  " yes",
+  " Yes",
+  " YES"
+ ],
+ "no": [
+  "no",
+  "No",
+  "NO",
+  " no",
+  " No",
+  " NO"
+ ]
+}

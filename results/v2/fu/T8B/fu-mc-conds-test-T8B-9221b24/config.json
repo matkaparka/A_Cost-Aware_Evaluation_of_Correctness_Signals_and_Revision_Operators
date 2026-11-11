@@ -1,0 +1,23 @@
+{
+ "stage": "conds",
+ "model": "T8B",
+ "split": "test",
+ "allow_test": true,
+ "initial": [
+  "/home/results/v2/fu/T8B/fu-mc-initial-test-T8B-9221b24"
+ ],
+ "variant": null,
+ "limit": 0,
+ "verbal_batch": 16,
+ "dry_run": false,
+ "tag": "",
+ "revision_tokens": 2048,
+ "critique_tokens": 1024,
+ "p_levels": [
+  1.0,
+  0.5
+ ],
+ "items_sha256": "bb8751651d7eda5dfdf1d179acabe5a044cce2b60bc572879b59fafa7d92db61",
+ "mc_scorer": "1.0.0",
+ "mc_scorer_sha256": "0b384926e9d9d12cc1147c7a863cbea342efa34ff0b8c3ce022350521092489e"
+}

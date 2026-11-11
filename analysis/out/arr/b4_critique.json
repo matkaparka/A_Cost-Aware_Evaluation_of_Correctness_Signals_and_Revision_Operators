@@ -1,0 +1,2195 @@
+{
+ "plan_sha256_lf": "b41c2ef5555f878a90be46b75e949afa4c9e17d803038092671fbadee77751c9",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "settings": {
+  "math 1.7B": {
+   "status": "complete",
+   "n": 5052,
+   "run": {
+    "run": "b4-samples-critique-math-test-1.7B-279e6b0",
+    "run_commit": "279e6b0"
+   },
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 75.21773555027713,
+     "correct": 3800,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 3.127474267616785
+    },
+    "V5": {
+     "accuracy_pct": 80.68091844813935,
+     "correct": 4076,
+     "delta_vs_keep": {
+      "estimate": 5.463182897862233,
+      "lo": 4.586434532816009,
+      "hi": 6.3737449276289215,
+      "p_boot": 0.0
+     },
+     "repairs": 424,
+     "damage": 148,
+     "repairs_completion": {
+      "estimate": 1.4251781472684086,
+      "lo": 1.107375914573858,
+      "hi": 1.7422378864297043,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.967537608867776,
+      "lo": 6.2734078303213785,
+      "hi": 7.683206359851671,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 2.929532858273951,
+      "lo": 2.4757255137278436,
+      "hi": 3.385468224114037,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3669.233174980206,
+     "prompt_tokens_per_item": 475.59679334916865,
+     "selected_n": null,
+     "final_unanswered_pct": 0.1979414093428345
+    },
+    "HYBRID-margin-B4 10%": {
+     "accuracy_pct": 80.08709422011084,
+     "correct": 4046,
+     "delta_vs_keep": {
+      "estimate": 4.86935866983373,
+      "lo": 4.052710864257945,
+      "hi": 5.663366336633664,
+      "p_boot": 0.0
+     },
+     "repairs": 348,
+     "damage": 102,
+     "repairs_completion": {
+      "estimate": 1.0292953285827395,
+      "lo": 0.7523262720253415,
+      "hi": 1.3262074425969912,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 5.859065716547902,
+      "lo": 5.222551928783383,
+      "hi": 6.509727497940118,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 2.019002375296912,
+      "lo": 1.6422635536208943,
+      "hi": 2.414885193982581,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3763.2375296912114,
+     "prompt_tokens_per_item": 690.9226049089469,
+     "selected_n": 505,
+     "final_unanswered_pct": 0.9501187648456058
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 80.10688836104512,
+     "correct": 4047,
+     "delta_vs_keep": {
+      "estimate": 4.889152810768013,
+      "lo": 4.058602256978816,
+      "hi": 5.682071288696877,
+      "p_boot": 0.0
+     },
+     "repairs": 350,
+     "damage": 103,
+     "repairs_completion": {
+      "estimate": 0.9699129057798892,
+      "lo": 0.6932065755595167,
+      "hi": 1.2472777667788557,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 5.958036421219319,
+      "lo": 5.312111362240627,
+      "hi": 6.61389413451149,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 2.0387965162311956,
+      "lo": 1.644207389610345,
+      "hi": 2.436608557844691,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3816.519794140934,
+     "prompt_tokens_per_item": 977.1617181314331,
+     "selected_n": 505,
+     "final_unanswered_pct": 0.395882818685669
+    },
+    "HYBRID-margin-B4 20%": {
+     "accuracy_pct": 79.23594615993666,
+     "correct": 4003,
+     "delta_vs_keep": {
+      "estimate": 4.0182106096595405,
+      "lo": 3.3431914747545637,
+      "hi": 4.6903294294495375,
+      "p_boot": 0.0
+     },
+     "repairs": 254,
+     "damage": 51,
+     "repairs_completion": {
+      "estimate": 0.7719714964370546,
+      "lo": 0.5345476143337953,
+      "hi": 1.0290916287354048,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 4.255740300870943,
+      "lo": 3.719807483725713,
+      "hi": 4.82979429298589,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.724
+     },
+     "damage_content": {
+      "estimate": 0.9897070467141725,
+      "lo": 0.7314999814869755,
+      "hi": 1.267333007810585,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3833.014845605701,
+     "prompt_tokens_per_item": 841.2743467933492,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.3064133016627077
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 79.07759303246239,
+     "correct": 3995,
+     "delta_vs_keep": {
+      "estimate": 3.859857482185273,
+      "lo": 3.1689286575716396,
+      "hi": 4.555380056743439,
+      "p_boot": 0.0
+     },
+     "repairs": 259,
+     "damage": 64,
+     "repairs_completion": {
+      "estimate": 0.7521773555027712,
+      "lo": 0.5148489368833934,
+      "hi": 0.9902951079421667,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 4.3745051464766425,
+      "lo": 3.820269200316706,
+      "hi": 4.965405372716502,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.2668250197941409,
+      "lo": 0.9699129057798892,
+      "hi": 1.583531274742676,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3932.341250989707,
+     "prompt_tokens_per_item": 1337.8339271575614,
+     "selected_n": 1010,
+     "final_unanswered_pct": 0.5146476642913698
+    }
+   },
+   "vs_v5": {
+    "KEEP": {
+     "estimate": -5.463182897862233,
+     "lo": -6.3737449276289215,
+     "hi": -4.586434532816008,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin-B4 10%": {
+     "estimate": -0.5938242280285035,
+     "lo": -1.0488818523649317,
+     "hi": -0.1582591493570722,
+     "p_boot": 0.0055
+    },
+    "HYBRID-margin 10%": {
+     "estimate": -0.5740300870942201,
+     "lo": -1.0288930999783772,
+     "hi": -0.11876484560570072,
+     "p_boot": 0.014
+    },
+    "HYBRID-margin-B4 20%": {
+     "estimate": -1.444972288202692,
+     "lo": -2.0796300259046134,
+     "hi": -0.7919184727497655,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin 20%": {
+     "estimate": -1.6033254156769599,
+     "lo": -2.2781412370311784,
+     "hi": -0.9305042054809745,
+     "p_boot": 0.0
+    }
+   },
+   "contrasts": [
+    {
+     "a": "HYBRID-margin-B4 20%",
+     "b": "HYBRID-margin 20%",
+     "difference": {
+      "estimate": 0.1583531274742676,
+      "lo": -0.15816528272044286,
+      "hi": 0.4747774480712166,
+      "p_boot": 0.3535
+     },
+     "token_difference": -99.32640538400634
+    },
+    {
+     "a": "HYBRID-margin-B4 10%",
+     "b": "HYBRID-margin 10%",
+     "difference": {
+      "estimate": -0.01979414093428345,
+      "lo": -0.21782178217821785,
+      "hi": 0.17832464017781016,
+      "p_boot": 0.925
+     },
+     "token_difference": -53.28226444972288
+    }
+   ],
+   "on_selected": {
+    "n": 1010,
+    "a0": 268,
+    "V5": 355,
+    "F2": 274,
+    "B4": 282,
+    "B4_unanswered": 66
+   }
+  },
+  "math 4B": {
+   "status": "complete",
+   "n": 5052,
+   "run": {
+    "run": "b4-samples-critique-math-test-4B-279e6b0",
+    "run_commit": "279e6b0"
+   },
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 85.19398258115598,
+     "correct": 4304,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 4.216152019002376
+    },
+    "V5": {
+     "accuracy_pct": 89.50910530482977,
+     "correct": 4522,
+     "delta_vs_keep": {
+      "estimate": 4.315122723673793,
+      "lo": 3.5261315102486908,
+      "hi": 5.069306930693069,
+      "p_boot": 0.0
+     },
+     "repairs": 307,
+     "damage": 89,
+     "repairs_completion": {
+      "estimate": 2.1773555027711797,
+      "lo": 1.781825381112651,
+      "hi": 2.59200633161852,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.8994457640538402,
+      "lo": 3.365670164323896,
+      "hi": 4.45191927186387,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0395882818685669,
+      "lo": 0.0,
+      "hi": 0.09900990099009901,
+      "p_boot": 0.256
+     },
+     "damage_content": {
+      "estimate": 1.72209026128266,
+      "lo": 1.3858641853098397,
+      "hi": 2.0800316957210776,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3723.327988915281,
+     "prompt_tokens_per_item": 475.59679334916865,
+     "selected_n": null,
+     "final_unanswered_pct": 0.3167062549485352
+    },
+    "HYBRID-margin-B4 10%": {
+     "accuracy_pct": 88.8756927949327,
+     "correct": 4490,
+     "delta_vs_keep": {
+      "estimate": 3.681710213776722,
+      "lo": 3.0489012076816473,
+      "hi": 4.313457806912581,
+      "p_boot": 0.0
+     },
+     "repairs": 228,
+     "damage": 42,
+     "repairs_completion": {
+      "estimate": 1.7616785431512274,
+      "lo": 1.4064976228209192,
+      "hi": 2.118822372433322,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 2.7513855898654,
+      "lo": 2.2979397781299524,
+      "hi": 3.2226495046698798,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.831353919239905,
+      "lo": 0.5938212900499362,
+      "hi": 1.0880370338621816,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3813.7733570863024,
+     "prompt_tokens_per_item": 712.166270783848,
+     "selected_n": 505,
+     "final_unanswered_pct": 1.3064133016627077
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 88.77672209026129,
+     "correct": 4485,
+     "delta_vs_keep": {
+      "estimate": 3.5827395091053047,
+      "lo": 2.9329581709657293,
+      "hi": 4.258637165863559,
+      "p_boot": 0.0
+     },
+     "repairs": 234,
+     "damage": 53,
+     "repairs_completion": {
+      "estimate": 1.6033254156769599,
+      "lo": 1.2660731948565775,
+      "hi": 1.9600079192239162,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.0285035629453683,
+      "lo": 2.571711177052423,
+      "hi": 3.524072088460083,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.7245
+     },
+     "damage_content": {
+      "estimate": 1.0292953285827395,
+      "lo": 0.7524752475247525,
+      "hi": 1.3256826276216858,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3873.9853523357087,
+     "prompt_tokens_per_item": 1027.6583531274744,
+     "selected_n": 505,
+     "final_unanswered_pct": 0.870942201108472
+    },
+    "HYBRID-margin-B4 20%": {
+     "accuracy_pct": 87.8068091844814,
+     "correct": 4436,
+     "delta_vs_keep": {
+      "estimate": 2.6128266033254155,
+      "lo": 2.13648795214664,
+      "hi": 3.1064503363672338,
+      "p_boot": 0.0
+     },
+     "repairs": 147,
+     "damage": 15,
+     "repairs_completion": {
+      "estimate": 1.4647664291369755,
+      "lo": 1.1473731594861585,
+      "hi": 1.7980902854686467,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.444972288202692,
+      "lo": 1.1284894080380123,
+      "hi": 1.781825381112651,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.29691211401425177,
+      "lo": 0.15829046299960428,
+      "hi": 0.4554455445544554,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3875.151227236738,
+     "prompt_tokens_per_item": 859.4071654790182,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.66270783847981
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 87.74742676167855,
+     "correct": 4433,
+     "delta_vs_keep": {
+      "estimate": 2.553444180522565,
+      "lo": 2.019791983157928,
+      "hi": 3.10955744463128,
+      "p_boot": 0.0
+     },
+     "repairs": 167,
+     "damage": 38,
+     "repairs_completion": {
+      "estimate": 1.2866191607284245,
+      "lo": 0.9891196834817012,
+      "hi": 1.6033333513600705,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 2.019002375296912,
+      "lo": 1.6620416416646804,
+      "hi": 2.4166708051257735,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13850415512465375,
+      "p_boot": 0.1025
+     },
+     "damage_content": {
+      "estimate": 0.6927949326999208,
+      "lo": 0.47496536710864834,
+      "hi": 0.9301405105877696,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3985.389152810768,
+     "prompt_tokens_per_item": 1393.4742676167855,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.0886777513855899
+    }
+   },
+   "vs_v5": {
+    "KEEP": {
+     "estimate": -4.315122723673793,
+     "lo": -5.069306930693069,
+     "hi": -3.5261315102486908,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin-B4 10%": {
+     "estimate": -0.6334125098970704,
+     "lo": -1.108038723053637,
+     "hi": -0.1583217890362161,
+     "p_boot": 0.012
+    },
+    "HYBRID-margin 10%": {
+     "estimate": -0.7323832145684878,
+     "lo": -1.227734932764275,
+     "hi": -0.21782070406605103,
+     "p_boot": 0.004
+    },
+    "HYBRID-margin-B4 20%": {
+     "estimate": -1.7022961203483769,
+     "lo": -2.337571008431991,
+     "hi": -1.0499155620403404,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin 20%": {
+     "estimate": -1.7616785431512274,
+     "lo": -2.3950910530482976,
+     "hi": -1.107375914573858,
+     "p_boot": 0.0
+    }
+   },
+   "contrasts": [
+    {
+     "a": "HYBRID-margin-B4 20%",
+     "b": "HYBRID-margin 20%",
+     "difference": {
+      "estimate": 0.05938242280285036,
+      "lo": -0.37579299775256986,
+      "hi": 0.4748713889988128,
+      "p_boot": 0.814
+     },
+     "token_difference": -110.23792557403009
+    },
+    {
+     "a": "HYBRID-margin-B4 10%",
+     "b": "HYBRID-margin 10%",
+     "difference": {
+      "estimate": 0.09897070467141725,
+      "lo": -0.19774667680843447,
+      "hi": 0.39596119580281136,
+      "p_boot": 0.5455
+     },
+     "token_difference": -60.21199524940618
+    }
+   ],
+   "on_selected": {
+    "n": 1010,
+    "a0": 439,
+    "V5": 579,
+    "F2": 490,
+    "B4": 493,
+    "B4_unanswered": 84
+   }
+  },
+  "math 8B": {
+   "status": "complete",
+   "n": 5052,
+   "run": {
+    "run": "b4-samples-critique-math-test-8B-279e6b0",
+    "run_commit": "279e6b0"
+   },
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 86.1243072050673,
+     "correct": 4351,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 3.5827395091053047
+    },
+    "V5": {
+     "accuracy_pct": 91.05304829770388,
+     "correct": 4600,
+     "delta_vs_keep": {
+      "estimate": 4.92874109263658,
+      "lo": 4.159239453357101,
+      "hi": 5.643564356435644,
+      "p_boot": 0.0
+     },
+     "repairs": 310,
+     "damage": 61,
+     "repairs_completion": {
+      "estimate": 1.880443388756928,
+      "lo": 1.5052485640720936,
+      "hi": 2.2565320665083135,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 4.255740300870943,
+      "lo": 3.7029519691228674,
+      "hi": 4.825949367088608,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.2074425969912905,
+      "lo": 0.9108910891089108,
+      "hi": 1.525666365965709,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3707.785827395091,
+     "prompt_tokens_per_item": 475.59679334916865,
+     "selected_n": null,
+     "final_unanswered_pct": 0.1979414093428345
+    },
+    "HYBRID-margin-B4 10%": {
+     "accuracy_pct": 89.7268408551069,
+     "correct": 4533,
+     "delta_vs_keep": {
+      "estimate": 3.602533650039588,
+      "lo": 2.9883089860850527,
+      "hi": 4.21698673529994,
+      "p_boot": 0.0
+     },
+     "repairs": 218,
+     "damage": 36,
+     "repairs_completion": {
+      "estimate": 1.3262074425969912,
+      "lo": 1.009696052755951,
+      "hi": 1.641622042813858,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 2.9889152810768014,
+      "lo": 2.516346344362988,
+      "hi": 3.4632891351672273,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.1979414093428345,
+      "lo": 0.07920752875129129,
+      "hi": 0.3360364503915091,
+      "p_boot": 0.0
+     },
+     "damage_content": {
+      "estimate": 0.5146476642913698,
+      "lo": 0.31695721077654515,
+      "hi": 0.7134399206193015,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3829.2311955661125,
+     "prompt_tokens_per_item": 709.2050673000791,
+     "selected_n": 505,
+     "final_unanswered_pct": 2.23673792557403
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 89.78622327790974,
+     "correct": 4536,
+     "delta_vs_keep": {
+      "estimate": 3.661916072842439,
+      "lo": 3.0500938329127028,
+      "hi": 4.277291283715255,
+      "p_boot": 0.0
+     },
+     "repairs": 222,
+     "damage": 37,
+     "repairs_completion": {
+      "estimate": 1.2866191607284245,
+      "lo": 0.9893105009908811,
+      "hi": 1.602381813506122,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.1076801266825016,
+      "lo": 2.6352288488210815,
+      "hi": 3.5855784469096674,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.763
+     },
+     "damage_content": {
+      "estimate": 0.7125890736342043,
+      "lo": 0.4947555907381753,
+      "hi": 0.9504950495049505,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3879.8634204275536,
+     "prompt_tokens_per_item": 1025.0257323832145,
+     "selected_n": 505,
+     "final_unanswered_pct": 1.3460015835312746
+    },
+    "HYBRID-margin-B4 20%": {
+     "accuracy_pct": 87.76722090261283,
+     "correct": 4434,
+     "delta_vs_keep": {
+      "estimate": 1.6429136975455265,
+      "lo": 1.1683110490815465,
+      "hi": 2.1162974683544302,
+      "p_boot": 0.0
+     },
+     "repairs": 116,
+     "damage": 33,
+     "repairs_completion": {
+      "estimate": 0.7719714964370546,
+      "lo": 0.5346508190712163,
+      "hi": 1.00990099009901,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.5241488519398259,
+      "lo": 1.1883423659775458,
+      "hi": 1.8621328372254848,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.3760886777513856,
+      "lo": 0.217735550277118,
+      "hi": 0.5537974683544303,
+      "p_boot": 0.0
+     },
+     "damage_content": {
+      "estimate": 0.2771179730799683,
+      "lo": 0.13858641853098397,
+      "hi": 0.43555731538309245,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3921.0423594615995,
+     "prompt_tokens_per_item": 855.8477830562153,
+     "selected_n": 1010,
+     "final_unanswered_pct": 3.008709422011085
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 88.22248614410134,
+     "correct": 4457,
+     "delta_vs_keep": {
+      "estimate": 2.098178939034046,
+      "lo": 1.6033254156769599,
+      "hi": 2.594059405940594,
+      "p_boot": 0.0
+     },
+     "repairs": 142,
+     "damage": 36,
+     "repairs_completion": {
+      "estimate": 0.8115597783056215,
+      "lo": 0.5739164852562835,
+      "hi": 1.0684606252473288,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.9992082343626285,
+      "lo": 1.6224692216250447,
+      "hi": 2.3767082590612003,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13855898653998416,
+      "p_boot": 0.107
+     },
+     "damage_content": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.4357298474945534,
+      "hi": 0.8718050326926888,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 4009.1142121931907,
+     "prompt_tokens_per_item": 1393.479809976247,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.840855106888361
+    }
+   },
+   "vs_v5": {
+    "KEEP": {
+     "estimate": -4.92874109263658,
+     "lo": -5.643564356435644,
+     "hi": -4.159239453357101,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin-B4 10%": {
+     "estimate": -1.3262074425969912,
+     "lo": -1.8199892202785581,
+     "hi": -0.8315185111859038,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin 10%": {
+     "estimate": -1.2668250197941409,
+     "lo": -1.743690163042388,
+     "hi": -0.77227340532509,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin-B4 20%": {
+     "estimate": -3.285827395091053,
+     "lo": -3.918464278646349,
+     "hi": -2.5914935707220574,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin 20%": {
+     "estimate": -2.8305621536025334,
+     "lo": -3.467746536982742,
+     "hi": -2.1773447301830995,
+     "p_boot": 0.0
+    }
+   },
+   "contrasts": [
+    {
+     "a": "HYBRID-margin-B4 20%",
+     "b": "HYBRID-margin 20%",
+     "difference": {
+      "estimate": -0.4552652414885194,
+      "lo": -0.891089108910891,
+      "hi": -0.0197901257356626,
+      "p_boot": 0.0445
+     },
+     "token_difference": -88.07185273159145
+    },
+    {
+     "a": "HYBRID-margin-B4 10%",
+     "b": "HYBRID-margin 10%",
+     "difference": {
+      "estimate": -0.05938242280285036,
+      "lo": -0.3765377358824091,
+      "hi": 0.25747672806496336,
+      "p_boot": 0.764
+     },
+     "token_difference": -50.63222486144101
+    }
+   ],
+   "on_selected": {
+    "n": 1010,
+    "a0": 455,
+    "V5": 640,
+    "F2": 497,
+    "B4": 474,
+    "B4_unanswered": 152
+   }
+  },
+  "math T8B": {
+   "status": "complete",
+   "n": 5052,
+   "run": {
+    "run": "b4-samples-critique-math-test-T8B-279e6b0",
+    "run_commit": "279e6b0"
+   },
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 56.31433095803642,
+     "correct": 2845,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 1.1678543151227236
+    },
+    "V5": {
+     "accuracy_pct": 61.65874901029296,
+     "correct": 3115,
+     "delta_vs_keep": {
+      "estimate": 5.344418052256532,
+      "lo": 4.310425553126491,
+      "hi": 6.430613702966004,
+      "p_boot": 0.0
+     },
+     "repairs": 506,
+     "damage": 236,
+     "repairs_completion": {
+      "estimate": 0.2573238321456849,
+      "lo": 0.11885895404120445,
+      "hi": 0.39611804317686666,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 9.758511480601742,
+      "lo": 8.963197467352591,
+      "hi": 10.594111862166608,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.671417260490895,
+      "lo": 4.098198376559097,
+      "hi": 5.24651181708945,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3061.1700316706256,
+     "prompt_tokens_per_item": 463.3937054631829,
+     "selected_n": null,
+     "final_unanswered_pct": 0.01979414093428345
+    },
+    "HYBRID-margin-B4 10%": {
+     "accuracy_pct": 62.07442596991291,
+     "correct": 3136,
+     "delta_vs_keep": {
+      "estimate": 5.760095011876484,
+      "lo": 4.753345950775041,
+      "hi": 6.802452046667986,
+      "p_boot": 0.0
+     },
+     "repairs": 497,
+     "damage": 206,
+     "repairs_completion": {
+      "estimate": 0.23752969121140144,
+      "lo": 0.11869436201780414,
+      "hi": 0.37623762376237624,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 9.600158353127474,
+      "lo": 8.799048751486325,
+      "hi": 10.431615554667106,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.077593032462391,
+      "lo": 3.525433131548449,
+      "hi": 4.6129479311027515,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3137.0122723673794,
+     "prompt_tokens_per_item": 601.8157165479018,
+     "selected_n": 505,
+     "final_unanswered_pct": 0.23752969121140144
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 61.975455265241486,
+     "correct": 3131,
+     "delta_vs_keep": {
+      "estimate": 5.661124307205067,
+      "lo": 4.6685987458111065,
+      "hi": 6.703612343805928,
+      "p_boot": 0.0
+     },
+     "repairs": 485,
+     "damage": 199,
+     "repairs_completion": {
+      "estimate": 0.217735550277118,
+      "lo": 0.09897070467141725,
+      "hi": 0.35629453681710216,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 9.382422802850355,
+      "lo": 8.597464342313788,
+      "hi": 10.200039611804318,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 3.939034045922407,
+      "lo": 3.402571711177053,
+      "hi": 4.474361512571768,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3132.0936262866194,
+     "prompt_tokens_per_item": 781.7414885193982,
+     "selected_n": 505,
+     "final_unanswered_pct": 0.13855898653998416
+    },
+    "HYBRID-margin-B4 20%": {
+     "accuracy_pct": 61.75771971496437,
+     "correct": 3120,
+     "delta_vs_keep": {
+      "estimate": 5.443388756927949,
+      "lo": 4.475247524752475,
+      "hi": 6.405788990147523,
+      "p_boot": 0.0
+     },
+     "repairs": 446,
+     "damage": 171,
+     "repairs_completion": {
+      "estimate": 0.23752969121140144,
+      "lo": 0.11874134177716208,
+      "hi": 0.3763121410180234,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 8.590657165479017,
+      "lo": 7.807835933057487,
+      "hi": 9.35896992864947,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 3.3847980997624703,
+      "lo": 2.888215194568606,
+      "hi": 3.8986933477427472,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3208.5330562153604,
+     "prompt_tokens_per_item": 725.1007521773555,
+     "selected_n": 1010,
+     "final_unanswered_pct": 0.5344418052256532
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 61.4806017418844,
+     "correct": 3106,
+     "delta_vs_keep": {
+      "estimate": 5.166270783847981,
+      "lo": 4.221144370150078,
+      "hi": 6.116419821855083,
+      "p_boot": 0.0
+     },
+     "repairs": 421,
+     "damage": 160,
+     "repairs_completion": {
+      "estimate": 0.1583531274742676,
+      "lo": 0.05937067088858104,
+      "hi": 0.2771179730799683,
+      "p_boot": 0.001
+     },
+     "repairs_content": {
+      "estimate": 8.174980205859066,
+      "lo": 7.4286478446250515,
+      "hi": 8.94164193867458,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 3.167062549485352,
+      "lo": 2.6920031670625493,
+      "hi": 3.6611913714624973,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3200.2874109263657,
+     "prompt_tokens_per_item": 1070.0581947743467,
+     "selected_n": 1010,
+     "final_unanswered_pct": 0.2573238321456849
+    }
+   },
+   "vs_v5": {
+    "KEEP": {
+     "estimate": -5.344418052256532,
+     "lo": -6.430613702966004,
+     "hi": -4.310425553126489,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin-B4 10%": {
+     "estimate": 0.4156769596199525,
+     "lo": 0.11885895404120445,
+     "hi": 0.7120253164556962,
+     "p_boot": 0.0025
+    },
+    "HYBRID-margin 10%": {
+     "estimate": 0.3167062549485352,
+     "lo": 0.01981757920258253,
+     "hi": 0.6137398534943576,
+     "p_boot": 0.037
+    },
+    "HYBRID-margin-B4 20%": {
+     "estimate": 0.09897070467141725,
+     "lo": -0.39619651347068147,
+     "hi": 0.5742602691641713,
+     "p_boot": 0.743
+    },
+    "HYBRID-margin 20%": {
+     "estimate": -0.17814726840855108,
+     "lo": -0.6929320926549198,
+     "hi": 0.3167062549485352,
+     "p_boot": 0.4925
+    }
+   },
+   "contrasts": [
+    {
+     "a": "HYBRID-margin-B4 20%",
+     "b": "HYBRID-margin 20%",
+     "difference": {
+      "estimate": 0.2771179730799683,
+      "lo": 0.019798059790140567,
+      "hi": 0.5345476143337953,
+      "p_boot": 0.04
+     },
+     "token_difference": 8.245645288994458
+    },
+    {
+     "a": "HYBRID-margin-B4 10%",
+     "b": "HYBRID-margin 10%",
+     "difference": {
+      "estimate": 0.09897070467141725,
+      "lo": -0.07922400098684242,
+      "hi": 0.27744748315497425,
+      "p_boot": 0.35
+     },
+     "token_difference": 4.918646080760095
+    }
+   ],
+   "on_selected": {
+    "n": 1010,
+    "a0": 108,
+    "V5": 121,
+    "F2": 112,
+    "B4": 126,
+    "B4_unanswered": 27
+   }
+  },
+  "MMLU-Pro 4B": {
+   "status": "complete",
+   "n": 3457,
+   "run": {
+    "run": "b4-samples-critique-mc-test-4B-279e6b0",
+    "run_commit": "279e6b0"
+   },
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 53.19641307492046,
+     "correct": 1839,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 1.6199016488284639
+    },
+    "V5": {
+     "accuracy_pct": 56.34943592710443,
+     "correct": 1948,
+     "delta_vs_keep": {
+      "estimate": 3.1530228521839745,
+      "lo": 2.0559902250131974,
+      "hi": 4.278704680196456,
+      "p_boot": 0.0
+     },
+     "repairs": 257,
+     "damage": 148,
+     "repairs_completion": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.37746806039488967,
+      "hi": 0.9019559369499146,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.7978015620480186,
+      "lo": 5.977476176725382,
+      "hi": 7.628131717469218,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.281168643332369,
+      "lo": 3.5837653724570013,
+      "hi": 4.965161823756146,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3628.3725773792307,
+     "prompt_tokens_per_item": 1235.3688168932601,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "HYBRID-margin-B4 10%": {
+     "accuracy_pct": 56.40728955741972,
+     "correct": 1950,
+     "delta_vs_keep": {
+      "estimate": 3.210876482499277,
+      "lo": 2.20162224797219,
+      "hi": 4.205360031510674,
+      "p_boot": 0.0
+     },
+     "repairs": 211,
+     "damage": 100,
+     "repairs_completion": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.3792298716452742,
+      "hi": 0.9017001485147511,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 5.467168064796065,
+      "lo": 4.72172961070138,
+      "hi": 6.193410710639232,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 2.8926815157651142,
+      "lo": 2.3282218034269557,
+      "hi": 3.428243580787503,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3684.815736187446,
+     "prompt_tokens_per_item": 1371.937807347411,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.23141452126120912
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 56.46514318773504,
+     "correct": 1952,
+     "delta_vs_keep": {
+      "estimate": 3.2687301128145796,
+      "lo": 2.192681964084829,
+      "hi": 4.351641665744823,
+      "p_boot": 0.0
+     },
+     "repairs": 242,
+     "damage": 129,
+     "repairs_completion": {
+      "estimate": 0.7231703789412786,
+      "lo": 0.46242106704334096,
+      "hi": 1.0156777130380652,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.277118889210298,
+      "lo": 5.490472987552427,
+      "hi": 7.0680927963269875,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 3.731559155336998,
+      "lo": 3.069224279910574,
+      "hi": 4.370367161098727,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3726.678333815447,
+     "prompt_tokens_per_item": 1577.8897888342494,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.08678044547295344
+    },
+    "HYBRID-margin-B4 20%": {
+     "accuracy_pct": 56.002314145212615,
+     "correct": 1936,
+     "delta_vs_keep": {
+      "estimate": 2.805901070292161,
+      "lo": 1.935283544637017,
+      "hi": 3.687721708596175,
+      "p_boot": 0.0
+     },
+     "repairs": 167,
+     "damage": 70,
+     "repairs_completion": {
+      "estimate": 0.5496094879953718,
+      "lo": 0.3181926663078559,
+      "hi": 0.8078476630121176,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 4.281168643332369,
+      "lo": 3.6210892236384704,
+      "hi": 4.9669824863623315,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 2.02487706103558,
+      "lo": 1.5661139379987743,
+      "hi": 2.5115654754084584,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3729.704946485392,
+     "prompt_tokens_per_item": 1494.8177610645068,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.37604859704946486
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 56.23372866647382,
+     "correct": 1944,
+     "delta_vs_keep": {
+      "estimate": 3.03731559155337,
+      "lo": 2.0443925233644857,
+      "hi": 4.098878551665782,
+      "p_boot": 0.0
+     },
+     "repairs": 225,
+     "damage": 120,
+     "repairs_completion": {
+      "estimate": 0.607463118310674,
+      "lo": 0.37496394577444475,
+      "hi": 0.872613046949759,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 5.901070292160833,
+      "lo": 5.131195335276968,
+      "hi": 6.6900217051848845,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08756695296004714,
+      "p_boot": 0.709
+     },
+     "damage_content": {
+      "estimate": 3.4422910037604857,
+      "lo": 2.8295764185219054,
+      "hi": 4.043963695014076,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3822.490309516922,
+     "prompt_tokens_per_item": 1891.204223315013,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.26034133641886026
+    }
+   },
+   "vs_v5": {
+    "KEEP": {
+     "estimate": -3.1530228521839745,
+     "lo": -4.278704680196456,
+     "hi": -2.055990225013197,
+     "p_boot": 0.0
+    },
+    "HYBRID-margin-B4 10%": {
+     "estimate": 0.05785363031530228,
+     "lo": -0.5232672321047966,
+     "hi": 0.6393583220117566,
+     "p_boot": 0.9005
+    },
+    "HYBRID-margin 10%": {
+     "estimate": 0.11570726063060456,
+     "lo": -0.46070012114521375,
+     "hi": 0.6914633316372994,
+     "p_boot": 0.7075
+    },
+    "HYBRID-margin-B4 20%": {
+     "estimate": -0.34712178189181375,
+     "lo": -1.128472222222222,
+     "hi": 0.4341565432640862,
+     "p_boot": 0.3825
+    },
+    "HYBRID-margin 20%": {
+     "estimate": -0.11570726063060456,
+     "lo": -0.905780960635686,
+     "hi": 0.7231913221900172,
+     "p_boot": 0.804
+    }
+   },
+   "contrasts": [
+    {
+     "a": "HYBRID-margin-B4 20%",
+     "b": "HYBRID-margin 20%",
+     "difference": {
+      "estimate": -0.23141452126120912,
+      "lo": -0.9275429551098616,
+      "hi": 0.43316610513823156,
+      "p_boot": 0.523
+     },
+     "token_difference": -92.78536303153022
+    },
+    {
+     "a": "HYBRID-margin-B4 10%",
+     "b": "HYBRID-margin 10%",
+     "difference": {
+      "estimate": -0.05785363031530228,
+      "lo": -0.5248004937115618,
+      "hi": 0.4047441808203209,
+      "p_boot": 0.847
+     },
+     "token_difference": -41.862597628001154
+    }
+   ],
+   "on_selected": {
+    "n": 691,
+    "a0": 174,
+    "V5": 204,
+    "F2": 200,
+    "B4": 192,
+    "B4_unanswered": 13
+   }
+  },
+  "MMLU-Pro T8B": {
+   "status": "complete",
+   "n": 3457,
+   "run": {
+    "run": "b4-samples-critique-mc-test-T8B-279e6b0",
+    "run_commit": "279e6b0"
+   },
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 46.36968469771478,
+     "correct": 1603,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 0.4917558576800694
+    },
+    "V5": {
+     "accuracy_pct": 47.87387908591264,
+     "correct": 1655,
+     "delta_vs_keep": {
+      "estimate": 1.5041943881978594,
+      "lo": 0.4896313364055299,
+      "hi": 2.579841265832376,
+      "p_boot": 0.0075
+     },
+     "repairs": 207,
+     "damage": 155,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.029002109962940267,
+      "hi": 0.2873604528960362,
+      "p_boot": 0.012
+     },
+     "repairs_content": {
+      "estimate": 5.843216661845531,
+      "lo": 5.076361789613274,
+      "hi": 6.624428506011136,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.483656349435927,
+      "lo": 3.8161318300086733,
+      "hi": 5.1644547028274665,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1044.5004339022273,
+     "prompt_tokens_per_item": 1221.9120624819207,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "HYBRID-margin-B4 10%": {
+     "accuracy_pct": 48.0763667920162,
+     "correct": 1662,
+     "delta_vs_keep": {
+      "estimate": 1.7066820943014174,
+      "lo": 0.7298950955968233,
+      "hi": 2.667497892766953,
+      "p_boot": 0.0005
+     },
+     "repairs": 182,
+     "damage": 123,
+     "repairs_completion": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028793550244745177,
+      "hi": 0.2324230098779779,
+      "p_boot": 0.032
+     },
+     "repairs_content": {
+      "estimate": 5.148973098061903,
+      "lo": 4.432195051501813,
+      "hi": 5.870544594119324,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 3.557998264391091,
+      "lo": 2.953173223825197,
+      "hi": 4.184707329868621,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1068.5059299971074,
+     "prompt_tokens_per_item": 1291.722013306335,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.2892681515765114
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 48.1920740526468,
+     "correct": 1666,
+     "delta_vs_keep": {
+      "estimate": 1.8223893549320218,
+      "lo": 0.838150289017341,
+      "hi": 2.798053188755608,
+      "p_boot": 0.0005
+     },
+     "repairs": 183,
+     "damage": 120,
+     "repairs_completion": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028793550244745177,
+      "hi": 0.2324230098779779,
+      "p_boot": 0.032
+     },
+     "repairs_content": {
+      "estimate": 5.177899913219554,
+      "lo": 4.463735779169239,
+      "hi": 5.933712541160038,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028669519341258637,
+      "hi": 0.23276451697195394,
+      "p_boot": 0.041
+     },
+     "damage_content": {
+      "estimate": 3.3555105582875324,
+      "lo": 2.7720853485869243,
+      "hi": 3.957307330120916,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1099.26236621348,
+     "prompt_tokens_per_item": 1401.1617008967312,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.7520971940989297
+    },
+    "HYBRID-margin-B4 20%": {
+     "accuracy_pct": 47.78709864043969,
+     "correct": 1652,
+     "delta_vs_keep": {
+      "estimate": 1.417413942724906,
+      "lo": 0.5179744416083005,
+      "hi": 2.3029989697906257,
+      "p_boot": 0.0025
+     },
+     "repairs": 154,
+     "damage": 105,
+     "repairs_completion": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028793550244745177,
+      "hi": 0.2324230098779779,
+      "p_boot": 0.032
+     },
+     "repairs_content": {
+      "estimate": 4.339022273647672,
+      "lo": 3.67261028445239,
+      "hi": 5.015946651203247,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08736231353468961,
+      "p_boot": 0.7255
+     },
+     "damage_content": {
+      "estimate": 3.008388776395719,
+      "lo": 2.451652000665501,
+      "hi": 3.5787849646737304,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1085.4133641886028,
+     "prompt_tokens_per_item": 1349.5918426381256,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.34712178189181375
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 47.64246456465143,
+     "correct": 1647,
+     "delta_vs_keep": {
+      "estimate": 1.2727798669366504,
+      "lo": 0.40240870676515283,
+      "hi": 2.163877668782458,
+      "p_boot": 0.0065
+     },
+     "repairs": 150,
+     "damage": 106,
+     "repairs_completion": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028793550244745177,
+      "hi": 0.2324230098779779,
+      "p_boot": 0.032
+     },
+     "repairs_content": {
+      "estimate": 4.223315013017067,
+      "lo": 3.587911083799242,
+      "hi": 4.893694393414492,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.17356089094590688,
+      "lo": 0.05753739930955121,
+      "hi": 0.3192106790481718,
+      "p_boot": 0.0075
+     },
+     "damage_content": {
+      "estimate": 2.8926815157651142,
+      "lo": 2.35666297949954,
+      "hi": 3.452319973429884,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1152.1483945617588,
+     "prompt_tokens_per_item": 1554.9791726930864,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.9545849002024878
+    }
+   },
+   "vs_v5": {
+    "KEEP": {
+     "estimate": -1.5041943881978594,
+     "lo": -2.5798412658323757,
+     "hi": -0.4896313364055299,
+     "p_boot": 0.0075
+    },
+    "HYBRID-margin-B4 10%": {
+     "estimate": 0.20248770610355799,
+     "lo": -0.31664472319126796,
+     "hi": 0.7182050850514611,
+     "p_boot": 0.4735
+    },
+    "HYBRID-margin 10%": {
+     "estimate": 0.3181949667341626,
+     "lo": -0.20349281248519868,
+     "hi": 0.8427843869751224,
+     "p_boot": 0.256
+    },
+    "HYBRID-margin-B4 20%": {
+     "estimate": -0.08678044547295344,
+     "lo": -0.7540767412336382,
+     "hi": 0.6069408028315176,
+     "p_boot": 0.8455
+    },
+    "HYBRID-margin 20%": {
+     "estimate": -0.23141452126120912,
+     "lo": -0.954315750324611,
+     "hi": 0.5150918375914304,
+     "p_boot": 0.5765
+    }
+   },
+   "contrasts": [
+    {
+     "a": "HYBRID-margin-B4 20%",
+     "b": "HYBRID-margin 20%",
+     "difference": {
+      "estimate": 0.1446340757882557,
+      "lo": -0.3464228241942702,
+      "hi": 0.6329159457244331,
+      "p_boot": 0.584
+     },
+     "token_difference": -66.73503037315592
+    },
+    {
+     "a": "HYBRID-margin-B4 10%",
+     "b": "HYBRID-margin 10%",
+     "difference": {
+      "estimate": -0.11570726063060456,
+      "lo": -0.43203387495185863,
+      "hi": 0.20161435534985736,
+      "p_boot": 0.5165
+     },
+     "token_difference": -30.756436216372578
+    }
+   ],
+   "on_selected": {
+    "n": 691,
+    "a0": 183,
+    "V5": 187,
+    "F2": 179,
+    "B4": 184,
+    "B4_unanswered": 12
+   }
+  }
+ },
+ "checks": [
+  "math 1.7B: the run's selection equals A1's HYBRID-margin(20 %) items and their margins, and the answers shown equal the first five samples' candidates",
+  "math 4B: the run's selection equals A1's HYBRID-margin(20 %) items and their margins, and the answers shown equal the first five samples' candidates",
+  "math 8B: the run's selection equals A1's HYBRID-margin(20 %) items and their margins, and the answers shown equal the first five samples' candidates",
+  "math T8B: the run's selection equals A1's HYBRID-margin(20 %) items and their margins, and the answers shown equal the first five samples' candidates",
+  "MMLU-Pro 4B: the run's selection equals A1's HYBRID-margin(20 %) items and their margins",
+  "MMLU-Pro T8B: the run's selection equals A1's HYBRID-margin(20 %) items and their margins"
+ ],
+ "scorer_guards": [
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{12}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/12"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{2004!}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2004! (below 10^-5000)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (630 sqrt3)^(3^101/2), about 10^(2.3e48) versus 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "\\frac{1}{2005 \\cdot 2004}",
+   "b": "\\frac{1}{2^{2^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/(2005*2004) versus 1/2^(2^2004): positive, below 10^(-10^600)"
+  },
+  {
+   "a": "\\frac{1}{2005}",
+   "b": "\\frac{1}{2^{2^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2005 versus 1/2^(2^2004): positive, below 10^(-10^600)"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{2^{4009}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/2^4009"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{2^{2006}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/2^2006"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{4}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/4"
+  },
+  {
+   "a": "Second sum: $ \\sum_{n = 1}^{1985} (-1)^{n + 1}(n + 1)",
+   "b": "Part 2: $ \\sum_{n=1}^{1985} c_n",
+   "reason": "cpu",
+   "hand_check": "not equivalent: a sum of a sequence c_n that the answer does not define, with a text prefix; the other side is the sum sum_{n=1..1985} (-1)^(n+1)(n+1) = 994, with a text prefix"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: their ratio is 1/|bc|, so they agree only when |bc| = 1. tanA form 1: 2D/(bc sqrt(b^2c^2-4D^2)) with D = a^2-(b-c)^2; tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "reason": "cpu",
+   "hand_check": "equivalent when bc > 0, as for the sides of a triangle; opposite signs when bc < 0. tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D); tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2. The rule's 'not equivalent' differs from this hand check"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "-\\frac{1}{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus -1/2"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{(2006)^{2004}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2006^2004"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{2005}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2005"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "-2005",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus -2005"
+  },
+  {
+   "a": "1",
+   "b": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1 versus 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: both are powers of a^3-3a in the undefined symbol a, with different exponents (5050 and (3^100-1)/2), so they differ as functions of a (e.g. at a = 2)"
+  },
+  {
+   "a": "1",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2.101)^{100}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 2.101^100, about 1.7e32"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2.101)^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 2.101^100, about 1.7e32"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "1",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: 1 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(2.101)^{100}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 2.101^100, about 1.7e32 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "1",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(2.101)^{100}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 2.101^100, about 1.7e32 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (630 sqrt3)^(3^101/2), about 10^(2.3e48) versus (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(a^3 - 3a)^{5050}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: their ratio is 1/(bc), so they agree only when bc = 1. tanA form 1: 2D/(bc sqrt(b^2c^2-4D^2)) with D = a^2-(b-c)^2; tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D)"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "reason": "cpu",
+   "hand_check": "equivalent when bc > 0, as for the sides of a triangle; opposite signs when bc < 0. tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2; tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D). The rule's 'not equivalent' differs from this hand check"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "\\left( \\frac{a^3 - 3a}{3} \\right)^{\\frac{4^{101} - 4}{3} - 100}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  }
+ ],
+ "extractions_sha256_before_gold": "a18bf7cc8bd9435de5446d024d550060b04407d0889b7df3f662d421c8804d2e"
+}

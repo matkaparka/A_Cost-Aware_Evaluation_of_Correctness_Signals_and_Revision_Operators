@@ -1,0 +1,80 @@
+# Block manifest: the single run order across models (design §10; CLAUDE.md §4). Updated for the freeze, 2026-11-05.
+# Volumes are planning counts. GPU-hours are computed by analysis/p0_compute.py from the measured P0 rates; nothing
+# here is a measured cost (actual costs: cloud/ledger.jsonl).
+#
+# Test pools (data/processed, data/processed/ext): D-nat original 1,455 (GSM8K 1,055 + MATH-500 400); D-nat expansion
+# 3,597 (MATH test outside MATH-500); D-inj 1,635; Exp 0 160 templates. The 4B D-nat estimand pools the original pool
+# and the expansion as sampled (DECISIONS 2026-11-05).
+#
+# Work units:
+#   gen       non-thinking vLLM generations (revision-length prompts)
+#   think     thinking-mode vLLM generations, counted at the P0 mean length (2,380 tokens); the dev pilot mean at the
+#             16,384 budget is 3,079 (reports/03_checks_tables.md), so the item counts below are scaled by 1.3
+#   lora_gen  vLLM generations with a per-item LoRA adapter
+#   hf_gen    HF generations (steering cannot run in vLLM)
+#   fwd       single HF forward passes over a solution-length sequence (activations, proxies, verbal P(yes))
+#   fwdbwd    HF forward + backward passes (attribution patching)
+#   ttt       TTT LoRA updates (k = 4 steps each)
+#   stream    sequential stream steps (generate a0 + verdict, then one update)
+# Exp 1A: 13 generation slots per item, an upper bound (verdict conditions that share a verdict value share a
+# generation). Exp 1B: 12 per item.
+#
+# Per block (design §10):
+#   chunk     items per complete paired chunk: every condition of those items finishes before the next chunk starts;
+#             items run in the seeded order of their split (data/processed/split.json, ext/split_ext.json)
+#   min_n     minimum complete sample (items, or templates for Exp 0). Analysis: planned n reached -> as planned;
+#             >= min_n -> pre-registered partial-sample analysis, labelled as such; < min_n -> descriptive only
+#   stop      every block stops at the session deadline or the budget allowance (CLAUDE.md §6) after the last complete
+#             chunk; a stopped block resumes from its last complete chunk at the same locked commit and GPU type
+# Atomic blocks: src/exp/runner.py generates every item of a pool in one engine call (4B-exp0, -exp1a and -exp1b are
+# one runner call on the original pool), and the Exp 2 block caches every test item; chunk = min_n = planned n, and a
+# stopped atomic block is re-run in full at its locked commit. Chunked blocks: min_n from analysis/p3_min_n.py
+# (reports/03_min_n_tables.md): the smallest n with central-scenario power >= 0.8 for the block's confirmatory test,
+# otherwise half the planned n.
+
+defaults:
+  overhead: 1.3          # retries and overhead (design §10)
+  price_per_h: 1.50      # A100-80GB, as Liam reported at creation (2026-11-03); jl gpus lists 1.49
+  load_s: {vllm: 150, hf: 60}
+
+blocks:
+  - {id: p0-bench,        model: all,  exp: P0,       tier: setup, priority: 1, status: done, units: {}}
+  - {id: p1-initial,      model: all,  exp: P1,       tier: setup, priority: 1, status: done, units: {gen: 3866}}
+  - {id: p2-pilot-1.7B,   model: 1.7B, exp: P2,       tier: setup, priority: 1, status: done, units: {gen: 25000, hf_gen: 3000, fwd: 60000, ttt: 400, fwdbwd: 400}}
+  - {id: p2-pilot-4B,     model: 4B,   exp: P2,       tier: setup, priority: 1, status: done, units: {gen: 25000, hf_gen: 3000, fwd: 60000, ttt: 400, fwdbwd: 400}}
+  - {id: p3-expansion,    model: all,  exp: P3,       tier: setup, priority: 1, status: done, units: {}}           # initial-ext, verbal-ext, dev pilots, checks (ledger sessions 14-16)
+  # 4B Tier 1 (confirmatory: H1a, H1b, H2a, H3a-role, H3a-label; estimation: H1d, H2b)
+  - {id: 4B-exp0,         model: 4B,   exp: Exp0,     tier: 1, priority: 2, chunk: 160, min_n: 160, units: {gen: 2560}}             # 160 templates x 2 worlds x 8
+  - {id: 4B-exp1a,        model: 4B,   exp: Exp1A,    tier: 1, priority: 2, chunk: 1455, min_n: 1455, units: {gen: 18915}}           # original pool 1,455 x 13
+  - {id: 4B-exp1a-ext,    model: 4B,   exp: Exp1A,    tier: 1, priority: 2, chunk: 3597, min_n: 3597, units: {gen: 46761}}            # expansion 3,597 x 13; atomic
+  - {id: 4B-exp1b,        model: 4B,   exp: Exp1B,    tier: 1, priority: 2, chunk: 3090, min_n: 3090, units: {gen: 37080}}            # (D-inj 1,635 + D-nat 1,455) x 12; one runner call with 4B-exp0 and 4B-exp1a
+  - {id: 4B-exp1b-alt,    model: 4B,   exp: Exp1B,    tier: x, priority: 2, chunk: 300, min_n: 300, units: {gen: 3600}}             # alternative wrapper set: D-inj, first 300 x 12
+  - {id: 4B-exp2,         model: 4B,   exp: Exp2,     tier: 1, priority: 2, chunk: 5052, min_n: 5052, units: {fwd: 10104}}         # test activations (original + expansion) x 2 positions; probe frozen
+  # 4B Tier 2 (H3b confirmatory, random control only; H4a estimation-only)
+  - {id: 4B-exp3,         model: 4B,   exp: Exp3,     tier: 2, priority: 3, chunk: 100, min_n: 283, units: {hf_gen: 16723}}         # 9 arms (main, 2 secondary, 5 random, unsteered) x (1,547 D-inj + 300 R->W) + 100 pre-check; no generic arm; src/steer/test.py
+  - {id: 4B-exp5-item,    model: 4B,   exp: Exp5,     tier: 2, priority: 3.5, chunk: 50, min_n: 200, units: {ttt: 2400, lora_gen: 28000, fwd: 140000}}  # natural pool 400; 50-item spillover
+  # Replications (CIs, not confirmatory)
+  - {id: 8B-exp1a,        model: 8B,   exp: Exp1A,    tier: 1, priority: 4, chunk: 1455, min_n: 1455, units: {gen: 18915}}
+  - {id: 8B-exp1b,        model: 8B,   exp: Exp1B,    tier: 1, priority: 4, chunk: 3090, min_n: 3090, units: {gen: 37080}}
+  - {id: 1.7B-tier1,      model: 1.7B, exp: Tier1,    tier: 1, priority: 5, chunk: 3090, min_n: 3090, units: {gen: 58555, fwd: 2910}}  # Exp 0 + 1A + 1B (original pool) + 2
+  - {id: 4B-thinking,     model: 4B,   exp: Thinking, tier: x, priority: 6, chunk: 150, min_n: 150, units: {think: 8580}}          # 300 x (7 + 4) x 2 seeds x 1.3; budget 16,384
+  - {id: 8B-exp1a-ext,    model: 8B,   exp: Exp1A,    tier: 1, priority: 7, chunk: 3597, min_n: 3597, units: {gen: 46761}}          # replication on the expansion
+  - {id: 1.7B-exp1a-ext,  model: 1.7B, exp: Exp1A,    tier: 1, priority: 7, chunk: 3597, min_n: 3597, units: {gen: 46761}}
+  - {id: 8B-exp2,         model: 8B,   exp: Exp2,     tier: 1, priority: 8, chunk: 1455, min_n: 1455, units: {fwd: 2910}}
+  - {id: 4B-exp1c-robust, model: 4B,   exp: Exp1C+robustness+F2-scratch, tier: x, priority: 9, chunk: 100, min_n: 150, units: {gen: 22100}}
+  - {id: 4B-exp4,         model: 4B,   exp: Exp4,     tier: x, priority: 10, chunk: 100, min_n: 100, units: {fwdbwd: 2000, fwd: 40000}}
+  - {id: 4B-streams,      model: 4B,   exp: Streams,  tier: x, priority: 11, chunk: 1, min_n: 1, units: {stream: 2400, lora_gen: 48000}}  # 4 conditions x 3 seeds x 200 steps
+  - {id: 8B-thinking,     model: 8B,   exp: Thinking, tier: x, priority: 12, chunk: 150, min_n: 150, units: {think: 8580}}
+  # Follow-ups after the first draft (docs/planning/next_experiments/plan.md; exploratory, post-freeze, DEVIATIONS D14).
+  # Group 1, one session (Liam's delegation, DECISIONS 2026-11-07). Lore gen/fwd counts are multiplied by 3.0, the
+  # prompt-length factor of 2048-token contexts against the P0 revision-length prompts (an upper bound at B <= 2048).
+  - {id: fu-lore-4B,          model: 4B, exp: Lore,      tier: x, priority: 13, chunk: 692, min_n: 692, units: {gen: 44259, fwd: 5178}}   # initial: dev 171 x 3 budgets + test 692; conds: test 692 x 16 + D-inj-lore 569 x 4 + dev smoke 200; hf: 863 x 2 (verbal + acts); all x 3.0
+  - {id: fu-stated-p-4B,      model: 4B, exp: StatedP,   tier: x, priority: 13, chunk: 5052, min_n: 5052, units: {gen: 22100}}           # F3s(p) x 4 on D-nat test 5,052 + Exp 0 160 + 320 x 4 + dev smoke
+  - {id: fu-h2a-logprob-4B,   model: 4B, exp: H2aExtra,  tier: x, priority: 13, chunk: 5052, min_n: 5052, units: {fwd: 6316}}            # teacher-forced a0, D-nat test 5,052 + dev 1,264
+  - {id: fu-h2a-consist-4B,   model: 4B, exp: H2aExtra,  tier: x, priority: 13, chunk: 5052, min_n: 5052, units: {gen: 31580}}           # 5 sampled a0 per D-nat item, test 5,052 + dev 1,264
+  - {id: fu-h3c-4B,           model: 4B, exp: H3c,       tier: x, priority: 13, chunk: 1635, min_n: 1635, units: {fwd: 6572}}            # D-inj test 1,635 x 4 role x label prompts + smoke
+  # Second family (DEVIATIONS D15): allenai/Llama-3.1-Tulu-3-8B ("T8B"), priced with the Qwen3-8B rates as a proxy.
+  - {id: fu-family2-T8B,      model: 8B, exp: Tier1-family2, tier: x, priority: 14, chunk: 5052, min_n: 5052, units: {gen: 112032, fwd: 12632}}  # P1 6,316 (orig + ext, dev + test) + runner orig test 58,555 + ext 1A 46,761 + smoke 400; verbal 6,316 + acts 6,316
+  # Group 2 (DEVIATIONS D16), in the same session as fu-family2-T8B (cloud/fu2_session.sh).
+  - {id: fu-streams-controls-4B, model: 4B, exp: Streams, tier: x, priority: 15, chunk: 1, min_n: 1, units: {stream: 1200, lora_gen: 24000}}   # nll + matched x 3 seeds x 200 steps; half of 4B-streams
+  - {id: fu-steer-structured-4B, model: 4B, exp: Exp3,    tier: x, priority: 15, chunk: 100, min_n: 100, units: {hf_gen: 9285, fwd: 1648}}   # 5 arms x (1,547 D-inj + 300 D-nat) + pre-check; dev directions 412 x 4

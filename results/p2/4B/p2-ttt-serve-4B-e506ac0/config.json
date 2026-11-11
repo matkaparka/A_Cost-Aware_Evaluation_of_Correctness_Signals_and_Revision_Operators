@@ -1,0 +1,7 @@
+{
+ "model": "4B",
+ "pilot": "/home/results/p2/4B/p2-ttt-pilot-4B-e506ac0/",
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "max_tokens": 2048,
+ "context_template_sha256": "0c0f570d8cbc60a10895a871e1992a5c0cdfd252b9b46cdc4bbd29073caa83e6"
+}

@@ -1,0 +1,26 @@
+{"time": "2026-11-10T12:28:34Z", "job": "-", "status": "begin", "gpus": [0, 1], "jobs": 12, "est_gpu_h": 9.22}
+{"time": "2026-11-10T12:28:34Z", "job": "c1b-math-4B-b256", "status": "start", "slot": 0, "est_h": 0.814}
+{"time": "2026-11-10T12:28:34Z", "job": "c1b-math-4B-b1024", "status": "start", "slot": 1, "est_h": 0.882}
+{"time": "2026-11-10T12:50:56Z", "job": "c1b-math-4B-b256", "status": "done", "slot": 0, "hours": 0.373}
+{"time": "2026-11-10T12:50:56Z", "job": "c1b-math-4B-b512", "status": "start", "slot": 0, "est_h": 0.862}
+{"time": "2026-11-10T12:59:36Z", "job": "c1b-math-4B-b1024", "status": "done", "slot": 1, "hours": 0.517}
+{"time": "2026-11-10T12:59:36Z", "job": "c1b-math-4B-b2048", "status": "start", "slot": 1, "est_h": 0.747}
+{"time": "2026-11-10T13:16:16Z", "job": "c1b-math-4B-b512", "status": "done", "slot": 0, "hours": 0.422}
+{"time": "2026-11-10T13:16:16Z", "job": "c1b-math-8B-b256", "status": "start", "slot": 0, "est_h": 1.023}
+{"time": "2026-11-10T13:35:54Z", "job": "c1b-math-4B-b2048", "status": "done", "slot": 1, "hours": 0.605}
+{"time": "2026-11-10T13:35:54Z", "job": "c1b-math-8B-b1024", "status": "start", "slot": 1, "est_h": 1.144}
+{"time": "2026-11-10T13:47:12Z", "job": "c1b-math-8B-b256", "status": "done", "slot": 0, "hours": 0.516}
+{"time": "2026-11-10T13:47:12Z", "job": "c1b-math-8B-b512", "status": "start", "slot": 0, "est_h": 1.093}
+{"time": "2026-11-10T14:19:43Z", "job": "c1b-math-8B-b512", "status": "done", "slot": 0, "hours": 0.542}
+{"time": "2026-11-10T14:19:43Z", "job": "c1b-math-8B-b2048", "status": "start", "slot": 0, "est_h": 0.995}
+{"time": "2026-11-10T14:20:01Z", "job": "c1b-math-8B-b1024", "status": "done", "slot": 1, "hours": 0.735}
+{"time": "2026-11-10T14:20:01Z", "job": "c1b-mc-4B-b256", "status": "start", "slot": 1, "est_h": 0.469}
+{"time": "2026-11-10T14:33:33Z", "job": "c1b-mc-4B-b256", "status": "done", "slot": 1, "hours": 0.226}
+{"time": "2026-11-10T14:33:33Z", "job": "c1b-mc-4B-b1024", "status": "start", "slot": 1, "est_h": 0.41}
+{"time": "2026-11-10T14:49:23Z", "job": "c1b-mc-4B-b1024", "status": "done", "slot": 1, "hours": 0.264}
+{"time": "2026-11-10T14:49:23Z", "job": "c1b-mc-4B-b512", "status": "start", "slot": 1, "est_h": 0.485}
+{"time": "2026-11-10T15:05:37Z", "job": "c1b-mc-4B-b512", "status": "done", "slot": 1, "hours": 0.271}
+{"time": "2026-11-10T15:05:37Z", "job": "c1b-mc-4B-b2048", "status": "start", "slot": 1, "est_h": 0.295}
+{"time": "2026-11-10T15:15:03Z", "job": "c1b-math-8B-b2048", "status": "done", "slot": 0, "hours": 0.922}
+{"time": "2026-11-10T15:20:59Z", "job": "c1b-mc-4B-b2048", "status": "done", "slot": 1, "hours": 0.256}
+{"time": "2026-11-10T15:20:59Z", "job": "-", "status": "end", "done": 12, "failed": 0, "skipped": 0, "stopped": 0, "pending": 0, "running": 0}

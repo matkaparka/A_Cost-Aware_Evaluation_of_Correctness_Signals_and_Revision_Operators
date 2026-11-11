@@ -1,0 +1,15 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "exp01_orig": "results/p2/4B/p2-exp01-dev-tstar-4B-6cd867e",
+ "exp01_1b": "results/p2/4B/p2-exp01-dev-4B-f7e5011",
+ "exp01_ext": "results/p2/4B/p2-exp01-dev-ext-4B-6cd867e",
+ "initial": ["results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl", "results/p1/4B/p1-initial-ext-4B-45575c2/initial.jsonl"],
+ "verbal": ["results/p1/4B/p1-verbal-4B-d2ebdea/verbal.jsonl", "results/p1/4B/p1-verbal-ext-4B-45575c2/verbal.jsonl"],
+ "probe_npz": "results/p3/4B/p3-probe-dev-ext-4B-b7cf0d6/probe.npz",
+ "probe_acts": ["results/p2/4B/p2-acts-dev-4B-f7e5011/acts.npz", "results/p2/4B/p2-acts-dev-ext-4B-8360990/acts.npz"],
+ "exp3_rows": "results/p2/4B/p2-steer-pilot-4B-7ea8f7d/confirm_rows.jsonl",
+ "exp3_texts": "results/p2/4B/p2-steer-pilot-4B-7ea8f7d/confirm_texts.jsonl",
+ "exp3_main": "top2:role",
+ "exp3_random": ["top2:random0", "top2:random1", "top2:random2", "top2:random3", "top2:random4"]
+}

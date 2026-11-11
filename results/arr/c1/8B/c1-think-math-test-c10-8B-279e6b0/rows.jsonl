@@ -1,0 +1,452 @@
+{"item_id": "dnat-mathext-2674", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "10", "correct": true, "out_tokens": 5444, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1872", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "600\\pi", "correct": true, "out_tokens": 1758, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1718", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{1}{3}", "correct": true, "out_tokens": 6601, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-437", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "575", "correct": true, "out_tokens": 5662, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2449", "cond": "B1-think", "correct0": false, "status": "truncated", "pred": null, "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-954", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 1884, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-53", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{7}{2}", "correct": true, "out_tokens": 1931, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3572", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "22", "correct": true, "out_tokens": 5376, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3267", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "111", "correct": true, "out_tokens": 2541, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3431", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "7", "correct": true, "out_tokens": 3579, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1634", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "300", "correct": true, "out_tokens": 5747, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3272", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "91", "correct": true, "out_tokens": 3694, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2704", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{5}, \\dfrac{1}{4}, \\dfrac{2}{5}, \\dfrac{1}{2}", "correct": true, "out_tokens": 9162, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4902", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-6", "correct": true, "out_tokens": 3484, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3573", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "7", "correct": true, "out_tokens": 3981, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3258", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "8", "correct": true, "out_tokens": 2375, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1266", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3110400", "correct": true, "out_tokens": 4006, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3676", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1093", "correct": true, "out_tokens": 3478, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-863", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "33840", "correct": true, "out_tokens": 7068, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-68", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{15}{2}", "correct": true, "out_tokens": 2098, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3247", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "45", "correct": true, "out_tokens": 3559, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1746", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{1}{3}", "correct": true, "out_tokens": 12222, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2248", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 9804, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3345", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "16", "correct": true, "out_tokens": 8155, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3525", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 5225, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-51", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 4181, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1654", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "28", "correct": true, "out_tokens": 9775, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2014", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "18", "correct": true, "out_tokens": 1909, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3009", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-5", "correct": true, "out_tokens": 6730, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1418", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 5086, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3736", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2.7", "correct": true, "out_tokens": 5067, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3310", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "Sunday", "correct": true, "out_tokens": 3651, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4131", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0.38", "correct": true, "out_tokens": 10098, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1493", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "8", "correct": true, "out_tokens": 6210, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3808", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{21}{2}\\pi", "correct": true, "out_tokens": 3623, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4951", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{3}{13}", "correct": true, "out_tokens": 2545, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1283", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{5}", "correct": true, "out_tokens": 1455, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-352", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 7295, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3811", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "7", "correct": true, "out_tokens": 3235, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-504", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(-\\infty, 0] \\cup [4, \\infty)", "correct": true, "out_tokens": 2452, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-103", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2x(15x^2 - 4x + 10)", "correct": true, "out_tokens": 2461, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1592", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "13", "correct": true, "out_tokens": 1845, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-845", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 2902, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-685", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-\\dfrac{49}{12}", "correct": true, "out_tokens": 2376, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1638", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{8}{81}", "correct": true, "out_tokens": 3559, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3277", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "6", "correct": true, "out_tokens": 7279, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-916", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "14", "correct": true, "out_tokens": 2201, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-478", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-15", "correct": true, "out_tokens": 4183, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1952", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "80\\sqrt{2}", "correct": false, "out_tokens": 12208, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4388", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "8", "correct": true, "out_tokens": 9407, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3654", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "563.51", "correct": true, "out_tokens": 2384, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2342", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{81}{41}", "correct": true, "out_tokens": 4105, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-606", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "93", "correct": true, "out_tokens": 2318, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1304", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{4}{9}", "correct": true, "out_tokens": 2979, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3294", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 7384, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3085", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "18", "correct": true, "out_tokens": 6203, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1159", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-7", "correct": true, "out_tokens": 2831, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-49", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "y^4 - 2y^3 + 7y^2 + y - 5", "correct": true, "out_tokens": 2987, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4033", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1\\frac{1}{4}", "correct": true, "out_tokens": 1925, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1567", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "9", "correct": true, "out_tokens": 3786, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4881", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-\\dfrac{119}{144}", "correct": true, "out_tokens": 4190, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4467", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(2, -1, 2)", "correct": true, "out_tokens": 3263, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2557", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2150", "correct": true, "out_tokens": 3575, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3491", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "119", "correct": true, "out_tokens": 2189, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4679", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{\\sqrt{6}}{3}", "correct": true, "out_tokens": 7197, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4295", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "9", "correct": true, "out_tokens": 2617, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4504", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{1}{3}", "correct": true, "out_tokens": 7288, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2153", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4", "correct": true, "out_tokens": 8115, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1785", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "36", "correct": true, "out_tokens": 2170, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1074", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "19", "correct": true, "out_tokens": 8616, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4489", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{5}{13}", "correct": true, "out_tokens": 3644, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-240", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 4870, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4018", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2.50", "correct": true, "out_tokens": 1630, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4372", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "24", "correct": true, "out_tokens": 1136, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1659", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "81", "correct": true, "out_tokens": 4096, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-855", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "z^5 - 3z^4 + 6z^3 - 14z^2 + 14z - 4", "correct": true, "out_tokens": 2851, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-963", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "12", "correct": true, "out_tokens": 2242, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1026", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "120", "correct": true, "out_tokens": 2871, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4619", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "120", "correct": true, "out_tokens": 16202, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2751", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "parabola", "correct": true, "out_tokens": 2432, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4373", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "120", "correct": true, "out_tokens": 3820, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-11", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-15", "correct": true, "out_tokens": 3297, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2969", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(-5, -7)", "correct": true, "out_tokens": 6829, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3131", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "10901", "correct": true, "out_tokens": 9028, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-509", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "17", "correct": true, "out_tokens": 3134, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3494", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "100100", "correct": true, "out_tokens": 3460, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-475", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "23", "correct": true, "out_tokens": 4175, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1167", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-8", "correct": true, "out_tokens": 2485, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3748", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "12", "correct": true, "out_tokens": 2224, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2618", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{2x - 7}{(x + 1)(x - 2)}", "correct": true, "out_tokens": 6815, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4636", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-\\dfrac{16}{65}", "correct": true, "out_tokens": 4295, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2959", "cond": "B1-think", "correct0": false, "status": "truncated", "pred": null, "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-961", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(-7, 3)", "correct": true, "out_tokens": 2551, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4355", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{3}{8}", "correct": true, "out_tokens": 2360, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1826", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "40", "correct": true, "out_tokens": 6611, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2513", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "2", "correct": true, "out_tokens": 9533, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4899", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{11}{20}", "correct": true, "out_tokens": 2487, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2762", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "0, 4", "correct": true, "out_tokens": 3685, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2136", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "210", "correct": true, "out_tokens": 4946, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2298", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-1", "correct": true, "out_tokens": 9295, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2929", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{11}{65}", "correct": true, "out_tokens": 8330, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3183", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4", "correct": true, "out_tokens": 12654, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-595", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "41", "correct": true, "out_tokens": 6802, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3853", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "107", "correct": true, "out_tokens": 3628, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3556", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "6", "correct": true, "out_tokens": 1850, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4139", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{36}", "correct": true, "out_tokens": 1636, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-376", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(-\\infty, -7) \\cup (-7, 3) \\cup (3, \\infty)", "correct": true, "out_tokens": 2225, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4575", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\left( -\\dfrac{2}{3}, -\\dfrac{7}{3}, \\dfrac{14}{9} \\right)", "correct": true, "out_tokens": 3198, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-568", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{21}{43}", "correct": true, "out_tokens": 3627, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4470", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-1", "correct": true, "out_tokens": 2993, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2100", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{10}", "correct": true, "out_tokens": 4442, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1632", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "35", "correct": true, "out_tokens": 5348, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4120", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "8\\sqrt{3}", "correct": true, "out_tokens": 1964, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1183", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-x^7 - 2x^5 + x^2", "correct": true, "out_tokens": 2821, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3296", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3032", "correct": true, "out_tokens": 3748, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "i", "correct": true, "out_tokens": 3420, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1921", "cond": "B1-think", "correct0": false, "status": "truncated", "pred": null, "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-3488", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 11648, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3686", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-13", "correct": true, "out_tokens": 2357, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-461", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "17", "correct": true, "out_tokens": 4722, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1042", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 2292, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2612", "cond": "B1-think", "correct0": false, "status": "truncated", "pred": null, "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-2754", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{4}{5}", "correct": true, "out_tokens": 5567, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-884", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-3600", "correct": false, "out_tokens": 5239, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-474", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "108", "correct": true, "out_tokens": 2748, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-880", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "52", "correct": true, "out_tokens": 2138, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4577", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{1}{5}", "correct": true, "out_tokens": 5540, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1179", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-\\dfrac{1}{2}", "correct": true, "out_tokens": 3088, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-784", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{5}{2}", "correct": true, "out_tokens": 1683, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1371", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{37}{819}", "correct": true, "out_tokens": 9059, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1142", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "9", "correct": true, "out_tokens": 5267, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3957", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "55", "correct": true, "out_tokens": 1638, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-214", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 2665, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3636", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 1574, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4374", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "868.8", "correct": true, "out_tokens": 3237, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2283", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\left[0, \\dfrac{343}{27}\\right]", "correct": true, "out_tokens": 4192, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1624", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "21", "correct": true, "out_tokens": 1560, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3179", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "42", "correct": true, "out_tokens": 1527, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-222", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "x^4 + x^2 - 10x - 24", "correct": true, "out_tokens": 5540, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2227", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 3284, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2803", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\sqrt{3}", "correct": true, "out_tokens": 5543, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-908", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-7", "correct": true, "out_tokens": 2870, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2660", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{\\sqrt{5} - 1}{2}", "correct": true, "out_tokens": 9981, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2467", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{1}{4}", "correct": true, "out_tokens": 9764, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2561", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "A", "correct": true, "out_tokens": 14910, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3261", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "5", "correct": true, "out_tokens": 4798, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4718", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(4, 5)", "correct": true, "out_tokens": 2288, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4286", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "12", "correct": true, "out_tokens": 1383, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1515", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{7}{64}", "correct": false, "out_tokens": 7124, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2766", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{10}{81}", "correct": true, "out_tokens": 2984, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3988", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "16", "correct": true, "out_tokens": 1828, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1096", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "76.80", "correct": true, "out_tokens": 1727, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2333", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-668i", "correct": true, "out_tokens": 7952, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2534", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "4014013", "correct": true, "out_tokens": 7235, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1888", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{5}{3}", "correct": true, "out_tokens": 11581, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4124", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "666000", "correct": true, "out_tokens": 4883, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3399", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 4251, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2781", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{3125}{46656}", "correct": true, "out_tokens": 8324, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1407", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "80", "correct": true, "out_tokens": 1670, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3367", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 3386, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4305", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "20", "correct": true, "out_tokens": 2026, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1293", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "165", "correct": true, "out_tokens": 4697, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1261", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "21", "correct": true, "out_tokens": 4512, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1030", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 1732, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3554", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "73", "correct": true, "out_tokens": 3963, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1582", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{80}{3}", "correct": true, "out_tokens": 3504, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3127", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "512", "correct": true, "out_tokens": 8469, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1211", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "17280", "correct": true, "out_tokens": 4009, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2167", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-1", "correct": true, "out_tokens": 4092, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4154", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "949", "correct": true, "out_tokens": 2816, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4016", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "9", "correct": true, "out_tokens": 1358, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3184", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 7678, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-164", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-11 + 27i", "correct": true, "out_tokens": 2497, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4002", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 2654, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2258", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "5", "correct": true, "out_tokens": 2230, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-8", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4, 6, 14, 15", "correct": true, "out_tokens": 7674, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1061", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "7", "correct": true, "out_tokens": 1720, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4671", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{9}{10}", "correct": true, "out_tokens": 7401, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4137", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{5}{9}", "correct": true, "out_tokens": 1704, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-522", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "28", "correct": true, "out_tokens": 1944, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2778", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 5373, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4959", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "6", "correct": true, "out_tokens": 12959, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-489", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1023", "correct": true, "out_tokens": 2432, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1236", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "26", "correct": true, "out_tokens": 9609, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3090", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "31", "correct": true, "out_tokens": 2540, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1687", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{99}{20}", "correct": true, "out_tokens": 9612, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-28", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "5", "correct": true, "out_tokens": 1742, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1698", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "13", "correct": true, "out_tokens": 5943, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1946", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "100", "correct": true, "out_tokens": 4120, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2418", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 7669, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3588", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{2}", "correct": true, "out_tokens": 4498, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2714", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "11", "correct": true, "out_tokens": 7763, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2627", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 6079, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-170", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "36", "correct": true, "out_tokens": 2360, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3771", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "18", "correct": true, "out_tokens": 2022, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-677", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "20", "correct": true, "out_tokens": 2347, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-838", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "10", "correct": true, "out_tokens": 1790, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1914", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "900\\pi", "correct": true, "out_tokens": 5000, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2123", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "1250\\pi", "correct": true, "out_tokens": 5431, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3803", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "100", "correct": true, "out_tokens": 5408, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2026", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{2}", "correct": true, "out_tokens": 5396, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2273", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "15\\pi", "correct": true, "out_tokens": 5002, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-262", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "5", "correct": true, "out_tokens": 2615, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2160", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "5", "correct": true, "out_tokens": 7870, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1578", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "-\\dfrac{1}{16}", "correct": true, "out_tokens": 9521, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2224", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "25", "correct": true, "out_tokens": 3607, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2329", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-1", "correct": true, "out_tokens": 4562, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1367", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0.03", "correct": true, "out_tokens": 10056, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-515", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4x - 5y = -50", "correct": true, "out_tokens": 7214, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-741", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-4", "correct": true, "out_tokens": 1515, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-199", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-5", "correct": true, "out_tokens": 1335, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-602", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "65", "correct": true, "out_tokens": 1844, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3190", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "321", "correct": true, "out_tokens": 2619, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1078", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "5", "correct": true, "out_tokens": 1970, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-737", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 1948, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2090", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "10", "correct": true, "out_tokens": 5474, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4258", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "12x - 34", "correct": true, "out_tokens": 2402, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3635", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "288", "correct": true, "out_tokens": 2013, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4312", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1584", "correct": true, "out_tokens": 5428, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1237", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "31", "correct": true, "out_tokens": 3239, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1361", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "840", "correct": true, "out_tokens": 2215, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1447", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{82}{147}", "correct": true, "out_tokens": 5574, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4205", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "18", "correct": true, "out_tokens": 1607, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2478", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "-3i, -1, 1", "correct": true, "out_tokens": 8148, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3788", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4", "correct": true, "out_tokens": 1841, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1289", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "48", "correct": true, "out_tokens": 6171, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1557", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "30", "correct": true, "out_tokens": 6836, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4746", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "9", "correct": true, "out_tokens": 8377, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1316", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 11365, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-465", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 2966, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4257", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{11}{13}", "correct": true, "out_tokens": 2720, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4860", "cond": "B1-think", "correct0": false, "status": "conflict", "pred": "\\dfrac{5\\pi}{4}", "correct": false, "out_tokens": 14825, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1898", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "44", "correct": true, "out_tokens": 9883, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2686", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "10", "correct": true, "out_tokens": 5819, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4907", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "270", "correct": false, "out_tokens": 14634, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4696", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(1, 2, 3)", "correct": true, "out_tokens": 3856, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4466", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3\\sqrt{2}", "correct": true, "out_tokens": 4649, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-26", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{2}", "correct": true, "out_tokens": 4885, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2632", "cond": "B1-think", "correct0": true, "status": "truncated", "pred": null, "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-1742", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "100", "correct": true, "out_tokens": 2919, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3927", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "120", "correct": true, "out_tokens": 2799, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-312", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "11", "correct": true, "out_tokens": 2063, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4984", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "120", "correct": true, "out_tokens": 4166, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-57", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{2}{5}", "correct": true, "out_tokens": 3233, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3069", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "236", "correct": true, "out_tokens": 5940, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-315", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "C", "correct": true, "out_tokens": 4197, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-872", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "30", "correct": true, "out_tokens": 1566, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-20", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "18", "correct": true, "out_tokens": 10149, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1265", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2520", "correct": true, "out_tokens": 2479, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3680", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "135", "correct": true, "out_tokens": 1182, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1117", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "7", "correct": true, "out_tokens": 2257, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4818", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{2}{3}", "correct": true, "out_tokens": 3299, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3906", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 4340, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3534", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "30", "correct": true, "out_tokens": 8333, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3384", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "10", "correct": true, "out_tokens": 3210, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4691", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0, 3a", "correct": true, "out_tokens": 5792, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3435", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 3346, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-413", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3", "correct": true, "out_tokens": 3838, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3025", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "[0, \\infty)", "correct": true, "out_tokens": 1827, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-789", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "94", "correct": false, "out_tokens": 10413, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3457", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "754", "correct": true, "out_tokens": 4478, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-922", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "50", "correct": true, "out_tokens": 1727, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1400", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{63}{8}", "correct": true, "out_tokens": 1489, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4698", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "20", "correct": true, "out_tokens": 2249, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3042", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{11}", "correct": true, "out_tokens": 2585, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3634", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-16", "correct": true, "out_tokens": 1585, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-881", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "20", "correct": true, "out_tokens": 3647, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4300", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "15", "correct": true, "out_tokens": 2522, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2761", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1 + \\sqrt{2}}{2}", "correct": true, "out_tokens": 3854, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1651", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "70", "correct": true, "out_tokens": 3198, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4097", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "12", "correct": true, "out_tokens": 6432, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-86", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 1317, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4432", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "11", "correct": true, "out_tokens": 4326, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-415", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 2544, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3512", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "15", "correct": true, "out_tokens": 3461, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4314", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "105", "correct": false, "out_tokens": 14352, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3949", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "68", "correct": true, "out_tokens": 1378, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2300", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "6", "correct": true, "out_tokens": 3210, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3559", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "10", "correct": true, "out_tokens": 11553, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2922", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(4, -7)", "correct": true, "out_tokens": 1090, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2936", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "(3, -5)", "correct": false, "out_tokens": 1279, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4505", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\begin{pmatrix} \\dfrac{3}{5} \\\\ \\dfrac{57}{5} \\end{pmatrix}", "correct": true, "out_tokens": 5024, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-714", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "6", "correct": true, "out_tokens": 5482, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3202", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "8", "correct": true, "out_tokens": 5250, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3557", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4130_5", "correct": true, "out_tokens": 3337, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-797", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3n^2 - 18", "correct": true, "out_tokens": 2256, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-707", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-\\dfrac{3}{4}", "correct": true, "out_tokens": 2828, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1221", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "47", "correct": true, "out_tokens": 11020, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2796", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "2", "correct": true, "out_tokens": 12318, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1197", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "17", "correct": true, "out_tokens": 3151, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2879", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "8", "correct": true, "out_tokens": 4557, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3599", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "-3", "correct": true, "out_tokens": 5120, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-739", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 4375, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3517", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "33", "correct": true, "out_tokens": 3367, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3330", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "14", "correct": true, "out_tokens": 4246, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4433", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "96", "correct": true, "out_tokens": 8221, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1163", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 3429, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1590", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "20", "correct": true, "out_tokens": 6855, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2341", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "327680", "correct": true, "out_tokens": 5498, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-842", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{31}{6}", "correct": true, "out_tokens": 2512, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-443", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "121", "correct": true, "out_tokens": 2614, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1280", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "500500", "correct": true, "out_tokens": 2546, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-338", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "5", "correct": true, "out_tokens": 3523, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1650", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "3", "correct": true, "out_tokens": 5779, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1027", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3.5", "correct": true, "out_tokens": 5836, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2008", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "24", "correct": true, "out_tokens": 1842, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4345", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3250", "correct": true, "out_tokens": 3537, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-371", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "17", "correct": true, "out_tokens": 4580, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4658", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-3, 1", "correct": true, "out_tokens": 5130, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1210", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "384", "correct": true, "out_tokens": 5404, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1319", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{24}", "correct": true, "out_tokens": 4746, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2603", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-\\frac{5}{4}", "correct": true, "out_tokens": 5717, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4763", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{3}{4}", "correct": true, "out_tokens": 2873, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2727", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "163", "correct": true, "out_tokens": 5044, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2949", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "15", "correct": true, "out_tokens": 4509, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2820", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "17", "correct": true, "out_tokens": 7539, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-910", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "135", "correct": true, "out_tokens": 2447, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3842", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "49", "correct": true, "out_tokens": 2320, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1045", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "10", "correct": true, "out_tokens": 1930, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2255", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "44", "correct": true, "out_tokens": 10294, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2740", "cond": "B1-think", "correct0": false, "status": "truncated", "pred": null, "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-3111", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 4722, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-613", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4", "correct": true, "out_tokens": 3522, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4285", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "18", "correct": true, "out_tokens": 2622, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-229", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-4", "correct": true, "out_tokens": 2134, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4798", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0, \\pi, 2\\pi", "correct": true, "out_tokens": 7212, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-429", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "9", "correct": true, "out_tokens": 4018, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-619", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "13", "correct": true, "out_tokens": 1429, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2296", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3x - 2", "correct": true, "out_tokens": 3575, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-798", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "Monday", "correct": true, "out_tokens": 5957, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2127", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(1, 1)", "correct": true, "out_tokens": 3072, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3056", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "12", "correct": true, "out_tokens": 7170, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-456", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "12", "correct": true, "out_tokens": 5479, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1695", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "20", "correct": true, "out_tokens": 9829, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2319", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{192\\sqrt{14}}{25}", "correct": true, "out_tokens": 7078, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-454", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 6326, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2839", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 6631, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-858", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{2}{3}", "correct": true, "out_tokens": 1710, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-723", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "-3", "correct": true, "out_tokens": 4391, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3146", "cond": "B1-think", "correct0": false, "status": "truncated", "pred": null, "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-4133", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{19}{330}", "correct": true, "out_tokens": 4150, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3690", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{2}{3}", "correct": true, "out_tokens": 1278, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-620", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "10", "correct": true, "out_tokens": 6963, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4370", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "220", "correct": true, "out_tokens": 3935, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3430", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "12", "correct": true, "out_tokens": 2753, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3499", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "42", "correct": true, "out_tokens": 4790, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1847", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "45", "correct": true, "out_tokens": 6480, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3453", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "40", "correct": true, "out_tokens": 4634, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1580", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "153", "correct": true, "out_tokens": 3068, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3343", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 2702, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-484", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 2477, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2671", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "51", "correct": true, "out_tokens": 7919, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-128", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 1825, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3049", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "18", "correct": true, "out_tokens": 4214, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4123", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "6\\sqrt{7}", "correct": true, "out_tokens": 10339, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3786", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 1874, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3731", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "240", "correct": true, "out_tokens": 3947, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4530", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{\\sqrt{5}}{5}", "correct": true, "out_tokens": 2224, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1561", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "53", "correct": false, "out_tokens": 15557, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1876", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "55", "correct": true, "out_tokens": 8826, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1353", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "220", "correct": true, "out_tokens": 3929, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1355", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1540", "correct": true, "out_tokens": 5036, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4521", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\sin 32", "correct": false, "out_tokens": 2497, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1708", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2\\sqrt{2}", "correct": true, "out_tokens": 7096, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1883", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{23}{2}", "correct": true, "out_tokens": 15059, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1090", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "5", "correct": true, "out_tokens": 3514, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2192", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "-5 - 3\\sqrt{5}", "correct": true, "out_tokens": 5200, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-846", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(2, 3)", "correct": true, "out_tokens": 2456, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-532", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "78", "correct": true, "out_tokens": 5016, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-624", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{9}", "correct": true, "out_tokens": 2279, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-277", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "23", "correct": true, "out_tokens": 10524, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4260", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "133", "correct": true, "out_tokens": 5282, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-702", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "630", "correct": true, "out_tokens": 2599, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1642", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{2}", "correct": true, "out_tokens": 4322, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3054", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 2547, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2213", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "-1, 2", "correct": true, "out_tokens": 8095, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3665", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "45", "correct": true, "out_tokens": 2570, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-91", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "161", "correct": true, "out_tokens": 13280, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2278", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "18", "correct": true, "out_tokens": 5156, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2065", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "8", "correct": true, "out_tokens": 3866, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-668", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-4", "correct": true, "out_tokens": 2639, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-298", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4", "correct": true, "out_tokens": 2398, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4346", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "20", "correct": true, "out_tokens": 1857, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3817", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "36", "correct": true, "out_tokens": 1340, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-73", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{19}{4}", "correct": true, "out_tokens": 3444, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1332", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{11}{36}", "correct": true, "out_tokens": 1780, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3865", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{7}{8}", "correct": true, "out_tokens": 1548, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3576", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "105", "correct": true, "out_tokens": 4073, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4853", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "3 + 2\\sqrt{3}", "correct": true, "out_tokens": 5567, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4147", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{23}{7}", "correct": true, "out_tokens": 3391, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4383", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "48", "correct": true, "out_tokens": 4927, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2295", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "46", "correct": true, "out_tokens": 4683, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2454", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "104", "correct": true, "out_tokens": 13834, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1357", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "24", "correct": true, "out_tokens": 4318, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{9}{7}", "correct": true, "out_tokens": 3256, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-117", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(2, 12)", "correct": true, "out_tokens": 8218, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1794", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{1}{3}", "correct": true, "out_tokens": 4049, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1506", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "330", "correct": true, "out_tokens": 5565, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4166", "cond": "B1-think", "correct0": false, "status": "truncated", "pred": null, "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-3159", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1101_4", "correct": true, "out_tokens": 3539, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2301", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2\\sqrt{13}", "correct": true, "out_tokens": 5183, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4365", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "3024", "correct": true, "out_tokens": 1466, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1347", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 5514, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2259", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0", "correct": true, "out_tokens": 4339, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1338", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "126", "correct": true, "out_tokens": 3190, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1944", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "72", "correct": true, "out_tokens": 1675, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2814", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "odd", "correct": true, "out_tokens": 2944, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4879", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "11", "correct": true, "out_tokens": 2246, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4234", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2x", "correct": true, "out_tokens": 1724, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4562", "cond": "B1-think", "correct0": false, "status": "conflict", "pred": "105", "correct": false, "out_tokens": 9920, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4558", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "0, 4", "correct": true, "out_tokens": 2796, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2071", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "72", "correct": true, "out_tokens": 13031, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-567", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "96.8", "correct": true, "out_tokens": 3735, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4350", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "7.2", "correct": true, "out_tokens": 5155, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4307", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-3969", "correct": true, "out_tokens": 3129, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3821", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "12", "correct": true, "out_tokens": 1324, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2953", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "odd", "correct": true, "out_tokens": 2860, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3005", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "1", "correct": true, "out_tokens": 5048, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1623", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "210", "correct": true, "out_tokens": 4414, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2972", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "-4, -3, -1, 1, 2, 5", "correct": true, "out_tokens": 8459, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-625", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "216", "correct": true, "out_tokens": 3142, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1460", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{2}{3}", "correct": true, "out_tokens": 8226, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-934", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-3", "correct": true, "out_tokens": 1428, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-899", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "(-7, -2)", "correct": true, "out_tokens": 2521, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1317", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "31254", "correct": true, "out_tokens": 8657, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3354", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "27", "correct": true, "out_tokens": 4817, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3129", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "6", "correct": true, "out_tokens": 3898, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2049", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "90", "correct": true, "out_tokens": 5259, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2846", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-9", "correct": true, "out_tokens": 2855, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-3948", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{4}{35}", "correct": true, "out_tokens": 3131, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-368", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "27", "correct": true, "out_tokens": 1923, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1345", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "80", "correct": true, "out_tokens": 7267, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1594", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "31", "correct": true, "out_tokens": 11443, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1198", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "7", "correct": true, "out_tokens": 3930, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2811", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "7", "correct": true, "out_tokens": 3646, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4389", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "48", "correct": true, "out_tokens": 6130, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4474", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\begin{pmatrix} 31 & 50 \\\\ -18 & -29 \\end{pmatrix}", "correct": true, "out_tokens": 7294, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2206", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "512", "correct": true, "out_tokens": 11177, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1979", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\sqrt{5}", "correct": true, "out_tokens": 4286, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1763", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "4", "correct": true, "out_tokens": 11911, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2999", "cond": "B1-think", "correct0": false, "status": "ok", "pred": "\\dfrac{32}{81}\\pi", "correct": true, "out_tokens": 12011, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4519", "cond": "B1-think", "correct0": true, "status": "truncated", "pred": "Case 2: $ \\theta \\in [\\pi/2, 3\\pi/2]", "correct": false, "out_tokens": 16384, "finish_reason": "length"}
+{"item_id": "dnat-mathext-655", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "June 20", "correct": true, "out_tokens": 2883, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-992", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "2", "correct": true, "out_tokens": 4248, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-836", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-56", "correct": true, "out_tokens": 1445, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4118", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "8\\frac{4}{7}", "correct": true, "out_tokens": 1042, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4979", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "-2", "correct": true, "out_tokens": 2293, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-32", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "105", "correct": true, "out_tokens": 3443, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2043", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "\\dfrac{4\\pi}{3}", "correct": true, "out_tokens": 5610, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-4084", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "6", "correct": true, "out_tokens": 2568, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-1024", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "920.25", "correct": true, "out_tokens": 4017, "finish_reason": "stop"}
+{"item_id": "dnat-mathext-2284", "cond": "B1-think", "correct0": true, "status": "ok", "pred": "E", "correct": true, "out_tokens": 4212, "finish_reason": "stop"}

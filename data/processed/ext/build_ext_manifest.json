@@ -1,0 +1,67 @@
+{
+ "source": {
+  "name": "math_full",
+  "repo": "EleutherAI/hendrycks_math",
+  "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+  "config": [
+   "algebra",
+   "counting_and_probability",
+   "geometry",
+   "intermediate_algebra",
+   "number_theory",
+   "prealgebra",
+   "precalculus"
+  ],
+  "split": "test",
+  "rows": 5000,
+  "columns": [
+   "problem",
+   "level",
+   "type",
+   "solution"
+  ],
+  "rows_sha256": "48d1b43f06e80b0f0c368db61e8a415bb02faf2d8a78b17192e9a9985843977e"
+ },
+ "seeds": [
+  "split-v1",
+  "order-v1"
+ ],
+ "rules": "src/data/expand.py docstring",
+ "stats": {
+  "math_test_rows": 5000,
+  "kept_items": 4497,
+  "canonical_ids": 4485,
+  "merges": 12,
+  "items_by_split": {
+   "test": 3597,
+   "dev": 900
+  },
+  "dropped_by_reason": {
+   "in existing pool": 503
+  },
+  "dropped_in_pool_by_split": {
+   "dev": 100,
+   "test": 403
+  },
+  "gold_agreement_with_math500": 1.0,
+  "gold_check_n": 500,
+  "by_level_split": {
+   "Level 1/dev": 81,
+   "Level 1/test": 312,
+   "Level 2/dev": 185,
+   "Level 2/test": 619,
+   "Level 3/dev": 185,
+   "Level 3/test": 840,
+   "Level 4/dev": 221,
+   "Level 4/test": 864,
+   "Level 5/dev": 228,
+   "Level 5/test": 962
+  }
+ },
+ "files_sha256": {
+  "dnat_ext.jsonl": "a5300139eeaf4e6d22161cdf7677ba4fe2abd84acfeb33c1098c83d89681e38d",
+  "dropped_ext.jsonl": "ae20969418fcab9b54599fe6de01925e974564d6a53439e448adf1c88b8fde6e",
+  "merges_ext.jsonl": "a71fd6ca68f6eb5affa9c585f2244f9c2a36f643641a872d97185f5793c620b8",
+  "split_ext.json": "eb942e2036b6fc84ef04d1fa9c211c642c32b1a8cb4f57b9fd08ee1940e3305b"
+ }
+}

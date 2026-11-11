@@ -1,0 +1,15 @@
+{
+ "stage": "logprob",
+ "model": "4B",
+ "initial": [
+  "results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+  "results/p1/4B/p1-initial-ext-4B-45575c2/initial.jsonl"
+ ],
+ "split": "test",
+ "allow_test": true,
+ "max_tokens": 4096,
+ "limit": 0,
+ "tag": "",
+ "context": "initial prompt + generation prefix + a0 token IDs",
+ "excluded": "end-of-turn token"
+}

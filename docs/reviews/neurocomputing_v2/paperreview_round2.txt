@@ -1,0 +1,72 @@
+PaperReview comments on paper/Neurocomputing_v2 (supplied by the author on 2026-11-11, after the v2 revision).
+Saved as received; an automated review, not a journal decision.
+
+Summary
+This paper presents a cost-aware, paired evaluation of correctness signals (verbal confidence, hidden-state probe, output length, sample agreement/margin) and revision operators (review, critique, re-solve, resampling/voting, and a thinking-mode re-answer) applied to shared initial answers from Qwen3 (1.7B/4B/8B) and Tulu-3-8B across 5,052 math problems and 3,457 MMLU-Pro questions. The study decomposes net accuracy changes into repair versus damage, completion versus format effects, and compares selective re-checking against standalone alternatives such as direct voting and uniform thinking under matched token accounting. Key findings include: (i) revising all answers helps little and is operator- and wording-sensitive; (ii) when samples are acquired, aggregation by plurality often outperforms critique hybrids; (iii) thinking-mode re-answers deliver large gains, and selective escalation guided by zero-generation signals can outperform uniform thinking in math at certain budgets but not on MMLU-Pro; and (iv) input-token costs can reverse selective advantages.
+
+Strengths
+
+* Technical novelty and innovation
+   * Joint evaluation framework that explicitly couples correctness signals with the downstream operator and alternative uses of the same budget—moving beyond AUROC-only diagnostics to realized repair/damage on shared items.
+   * Clear decomposition (repair–damage; completion vs format effects) and the use of correctness versus benefit oracles to disentangle "detecting errors" from "repairable error headroom."
+   * Careful token accounting distinguishing incremental versus total generated tokens, alongside sensitivity analyses that incorporate input tokens and measured signal overheads.
+* Experimental rigor and validation
+   * Large-scale replay across multiple open models and two distinct task families (math vs non-computational MMLU-Pro), with paired bootstrap intervals and pre-registered contrast family (Holm correction) for a subset of claims.
+   * Paired comparisons that fix selected sets or operators to isolate where value is created or destroyed by signals versus actions; fair reuse of sampled answers across scoring and aggregation.
+   * Retrospective threshold-transfer analysis and ablations contrasting direct voting, adaptive voting, hybrid critique, and selective vs uniform thinking under common total-token budgets.
+* Clarity of presentation
+   * Transparent methodology and accounting with explicit equations, detailed tables/figures, and clear narrative linking diagnostics to policy-level outcomes.
+   * Consistent use of interpretable statistics (e.g., r/d rates, headroom oracles) that make reported effects explainable.
+* Significance of contributions
+   * Practice-relevant insights: samples used to gauge uncertainty can often do more good when aggregated than when routed to critique; strong operators (thinking mode) can make even zero-generation gates valuable; selective gains are task- and budget-dependent and sensitive to input-processing cost.
+   * Reusable artifacts (per-item outputs and replay code) to facilitate replication and extension.
+
+Weaknesses
+
+* Technical limitations or concerns
+   * The "thinking" operator conflates reasoning mode and a much larger generation budget; the study does not explicitly disentangle the gains attributable to fresh-slate reasoning versus sheer token allotment or to not conditioning on a potentially misleading a0.
+   * Reliance on stored outputs and replay may limit generality for operators whose behavior is sensitive to prompt nuances, decoding randomness, or context effects beyond those captured.
+   * Some findings rest on post hoc analyses outside the pre-registered contrast family; multiple-comparison and selection effects, though acknowledged, may still confound interpretation.
+* Experimental gaps or methodological issues
+   * Limited coverage of stronger adaptive self-consistency baselines (e.g., ASC/ESC, ReASC) or activation-informed gates (e.g., ACTSC), which are natural competitors in the "sampling for signal vs aggregation" and "selective thinking" spaces.
+   * Critique/re-solve prompts explored via a few paraphrases; more structured, step-targeted or "clean-slate" re-solve prompts (that minimize contextual drag) are not systematically tested.
+   * End-to-end cost comparisons rely on token proxies; real deployment may hinge on KV-cache reuse, prefill cost, and latency throughput—only partially reflected in the sensitivity analysis.
+* Clarity or presentation issues
+   * The breadth and density of analyses can make it hard to extract deployment-ready recipes; some key trade-offs (e.g., when selective thinking overtakes uniform thinking) could benefit from more concise, decision-oriented summaries.
+* Missing related work or comparisons
+   * Limited discussion and empirical comparison against recent cost-aware adaptive sampling and gating frameworks (e.g., DSC, ReASC, ACTSC), and harm-aware selective replacement (e.g., GUARDEDREPAIR), which are highly relevant to the observed phenomena and may shift some conclusions.
+
+Detailed Comments
+
+* Technical soundness evaluation
+   * The paired-replay design with shared a0, fixed sampled banks, and consistent accounting is technically sound and well-suited to investigate "signal × operator" interactions. The repair–damage identity (Eq. 2) is used correctly and illuminates where utility arises or is lost.
+   * The correctness- vs benefit-oracle distinction is methodologically insightful and empirically informative, highlighting that error detection does not imply repairability for a chosen operator.
+   * A notable limitation is the confounding in the thinking operator: it switches both mode and budget while dropping a0 conditioning. Since critique/re-solve remain conditioned on a0, part of their damage may stem from contextual drag; more explicit "clean slate" counterparts would clarify causal mechanisms.
+   * Statistical handling is careful in parts (Holm-adjusted family) but several central comparisons (e.g., selective vs uniform thinking at matched total tokens) are post hoc without adjustment, which should temper overgeneralization.
+* Experimental evaluation assessment
+   * The experiments are comprehensive across four models and two tasks, with thousands of items and detailed ablations (e.g., hybrids, sample-aware critique, gating on a0, adaptive V5). The observed effects—little gains from "revise all," voting outperforming critique hybrids, strong utility of thinking under math—are consistent and well-supported with intervals and decompositions.
+   * The input-token sensitivity analysis is a valuable addition, showing that even modest input-charge assumptions can flip policy preferences—an important caveat for deployment.
+   * The retrospective threshold-transfer check adds robustness to the "selective vs uniform thinking" message, though it remains an in-sample procedure and does not fully substitute for a prospective held-out calibration.
+* Comparison with related work (using the summaries provided)
+   * Compared to DSC and ReASC, this paper emphasizes joint signal–operator evaluation and opportunity costs between selection and aggregation rather than proposing a new adaptive sampling policy. Still, including DSC/ReASC-style dynamic allocation or confidence-weighted aggregation would strengthen the "sampling as evidence vs selection" narrative by showing where modern adaptive methods stand relative to plain V5 and the tested hybrids.
+   * ACTSC (activation-informed gating) and other hidden-state approaches (e.g., pre-generation or step-level probes) align with this paper's probe results; extending the probe comparison to modern activation-informed gates could further validate the conclusion that "discrimination does not guarantee utility without a strong operator."
+   * Contextual drag findings in the literature reinforce the observation that critique/re-solve conditioned on flawed a0 can induce damage; an explicit "clean-slate re-solve without a0" baseline could connect the paper's empirical damage to that mechanism.
+   * GUARDEDREPAIR's harm-aware replacement perspective resonates strongly with the repair–damage accounting here, suggesting alternative verification/guarding designs that may reduce the damage rates observed for critique on MMLU-Pro.
+* Discussion of broader impact and significance
+   * The study provides practice-ready guidance on when re-checking pays: if samples are acquired, aggregate them; if a strong operator exists, zero-generation gates can concentrate its benefits; but uniform thinking can dominate on knowledge-heavy MMLU-Pro; and real-world input costs can reverse "selective" advantages. These are actionable conclusions likely to influence system design and evaluation norms.
+   * By releasing per-item outputs and replay code, the work can serve as a benchmark harness for future operator/signal innovations under consistent accounting.
+
+Questions for Authors
+
+1. Thinking operator: Can you disentangle the effect of clean-slate generation versus larger token budgets? For example, how do (i) re-solve without conditioning on a0 and (ii) critique/re-solve with matched larger budgets compare to thinking-mode re-answers?
+2. Contextual drag: Did you test re-solve prompts that explicitly ignore or mask a0 (clean-slate) to reduce inherited reasoning bias? If so, how do repair/damage rates change, especially on MMLU-Pro where critique damages many correct answers?
+3. Adaptive SC baselines: How would more advanced adaptive/self-consistency methods (ASC/ESC, ReASC) or confidence-weighted aggregation compare against your voting and critique hybrids under your accounting?
+4. Probe variants and calibration: Beyond a single residual-state probe, did you consider step-level or activation-informed probes (e.g., ACTSC-like) and/or online calibration for gates? How robust are probe-driven selections across math vs MMLU-Pro when tuned only once?
+5. Cost realism: Can you provide additional end-to-end latency/throughput measurements (with and without KV-cache reuse, and including verbal scoring passes) to ground the input-sensitivity index α in plausible deployment scenarios?
+6. Task analysis: Why does uniform thinking consistently win on MMLU-Pro? Is it mostly content damage under critique/selection, or are reasoning-mode gains inherently smaller on non-computational knowledge tasks?
+7. Critique design: Did you try structured or step-targeted critique (e.g., error localization, chain-level verification) or verifier-aided critique to reduce damage rates? If yes, please share results; if not, can you comment on expected impact given your decomposition?
+8. Transferability: Your development selection experiment excludes voting and thinking. If those were included, do you expect similar low regret, and can you provide a prospective dev→test threshold selection for selective thinking to complement the retrospective fold analysis?
+
+Overall Assessment
+This is a careful, insightful empirical study that advances the conversation on selective re-checking by evaluating signals together with the actions they trigger and by explicitly considering alternative uses of the same budget (e.g., aggregation). The repair–damage decomposition, oracle references, and cost accounting (including input-token sensitivity) are strengths that make the findings both interpretable and practically relevant. The central takeaways—that voting often beats critique when samples are available, that strong operators like thinking benefit substantially from zero-generation gates on math but not on MMLU-Pro, and that input processing can negate selective advantages—are important for the Neurocomputing community.
+The primary limitations are the conflation of reasoning mode with budget in the thinking operator, modest coverage of modern adaptive baselines, and partial reliance on post hoc analyses and replayed outputs. Nonetheless, the study's rigor, transparency, and practical relevance outweigh these weaknesses. I recommend acceptance, contingent on minor revisions that (i) clarify the role of clean-slate versus budget in thinking, (ii) situate the results more explicitly relative to recent adaptive sampling/gating literature, and (iii) add guidance or additional baselines to address contextual drag and damage-heavy critique settings.

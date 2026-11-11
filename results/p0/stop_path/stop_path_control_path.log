@@ -1,0 +1,12 @@
+watchdog stopped
+2026-11-03T08:30:40Z state=Running
+2026-11-03T08:31:05Z state=Running
+2026-11-03T08:31:28Z state=Running
+2026-11-03T08:31:57Z state=Running
+2026-11-03T08:32:21Z state=Running
+2026-11-03T08:32:45Z state=Running
+2026-11-03T08:33:09Z state=Running
+2026-11-03T08:33:34Z state=Running
+2026-11-03T08:33:57Z state=Running
+2026-11-03T08:34:25Z state=Paused
+RESULT control_path: paused after 235 s

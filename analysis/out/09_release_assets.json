@@ -1,0 +1,38 @@
+[
+ {
+  "asset": "p2__4B__p2-acts-dev-ext-4B-8360990__acts.npz",
+  "source": "results/p2/4B/p2-acts-dev-ext-4B-8360990/acts.npz",
+  "bytes": 132625927,
+  "sha256": "406ae0acab89452e9eea29310406111a9f95e673066de3fa2c391f060e4a1b32"
+ },
+ {
+  "asset": "main__4B__main-streams-test-4B-f15b933__eval_texts.jsonl",
+  "source": "results/main/4B/main-streams-test-4B-f15b933/eval_texts.jsonl",
+  "bytes": 105466969,
+  "sha256": "ad9e6773904fe9d94ddd874a1737ae4ce56b3b13f4cc2249c55e6e12e1ad027e"
+ },
+ {
+  "asset": "p2__8B__p2-acts-dev-8B-3fd21bc__acts.npz",
+  "source": "results/p2/8B/p2-acts-dev-8B-3fd21bc/acts.npz",
+  "bytes": 85500662,
+  "sha256": "ad1058b3d7e6161480c1398d2455b1ec1f9f9ab8bf725ca459546983223946b7"
+ },
+ {
+  "asset": "p2__1.7B__p2-acts-dev-ext-1.7B-8360990__acts.npz",
+  "source": "results/p2/1.7B/p2-acts-dev-ext-1.7B-8360990/acts.npz",
+  "bytes": 83442706,
+  "sha256": "a71274aed8ead87516b8d14de271a128e54839350bf54926fdd3e6d581cfc16e"
+ },
+ {
+  "asset": "p2__4B__p2-acts-dev-4B-f7e5011__acts.npz",
+  "source": "results/p2/4B/p2-acts-dev-4B-f7e5011/acts.npz",
+  "bytes": 53609915,
+  "sha256": "de8daa34e63873a9fecb36e7e9ba7590d7e863464e90caa2ff5b1e13e7ec9c2b"
+ },
+ {
+  "asset": "p2__1.7B__p2-acts-dev-1.7B-f7e5011__acts.npz",
+  "source": "results/p2/1.7B/p2-acts-dev-1.7B-f7e5011/acts.npz",
+  "bytes": 33736566,
+  "sha256": "b3247eb9d6188b7107570ca24391dfd162eb12232a46a35a58c53fd979c1ba2e"
+ }
+]

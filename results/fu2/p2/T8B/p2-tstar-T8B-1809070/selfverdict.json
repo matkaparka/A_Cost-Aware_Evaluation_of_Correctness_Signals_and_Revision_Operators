@@ -1,0 +1,9 @@
+{
+ "model": "T8B",
+ "n_dev": 364,
+ "n_unscored": 0,
+ "t_star_s": 1.3751334968221103,
+ "t_star_p_yes_norm": 0.7982082811718784,
+ "balanced_acc_t_star": 0.6013986013986015,
+ "balanced_acc_half": 0.5524475524475524
+}

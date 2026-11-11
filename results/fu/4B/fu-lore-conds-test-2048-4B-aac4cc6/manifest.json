@@ -1,0 +1,30 @@
+{
+ "run_id": "fu-lore-conds-test-2048-4B-aac4cc6",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {
+  "initial": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52",
+  "query": "7b0ee09ba9438e099567337b972d8fbaccf813ef1297fb9864e2582e315696ac"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "aac4cc6b5cddca0e6dcb45c4b0286fb9fde8fc53",
+ "config_sha256": "7596c02066b139c8ccc96662c4d589c6ca42b61bf83adb25eb3ea17d0b25b272",
+ "backend": {
+  "name": "vllm",
+  "version": "0.33.0"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "c59b75d57682d87d4c01149bfd5212fc4b0e4d307f6443a28a0560a5184475ba",
+  "generations.jsonl": "cc22685364fc0ef087bfcca0e7ef22f5491c2edf627ea0120d77f7191a045297",
+  "metrics.json": "fb5b04967b879fcd910b0b817b1cdb8b40ffd87046ce88e9247491c956b45fad",
+  "rows.jsonl": "512566e09e27dbbb1aea446ef035a8455fedef13e40d25089c70cfc014b83950"
+ }
+}

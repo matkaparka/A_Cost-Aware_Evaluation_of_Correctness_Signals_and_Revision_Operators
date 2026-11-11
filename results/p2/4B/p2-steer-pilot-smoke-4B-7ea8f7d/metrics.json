@@ -1,0 +1,222 @@
+{
+ "model": "4B",
+ "layers": [
+  2,
+  6,
+  10,
+  14,
+  18,
+  22,
+  26,
+  30
+ ],
+ "n_dir_items": 4,
+ "n_dinj_excluded_no_content": 408,
+ "generic_groups": {
+  "changed": 4,
+  "kept": 0
+ },
+ "correction_markers": [],
+ "commit_markers": [],
+ "n_reachable": 7,
+ "top3": [
+  {
+   "layer": 6,
+   "direction": "role",
+   "alpha": 0.4,
+   "proxy_gain": 0.0,
+   "mean_kl": 0.00013708344130147765,
+   "reachable": true
+  },
+  {
+   "layer": 6,
+   "direction": "label",
+   "alpha": 0.4,
+   "proxy_gain": 0.0,
+   "mean_kl": 0.00010812697496476176,
+   "reachable": true
+  },
+  {
+   "layer": 14,
+   "direction": "role",
+   "alpha": 0.1,
+   "proxy_gain": 0.0,
+   "mean_kl": 0.0001132070078266878,
+   "reachable": true
+  }
+ ],
+ "summary": {
+  "unsteered": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:role": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:generic": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random0": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random1": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random2": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random3": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random4": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:label": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:generic": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random0": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random1": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random2": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random3": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random4": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:role": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:generic": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random0": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random1": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random2": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random3": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random4": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "alpha0-identity": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  }
+ },
+ "selection": [
+  {
+   "layer": 6,
+   "direction": "role",
+   "alpha": 0.4,
+   "proxy_gain": 0.0,
+   "mean_kl": 0.00013708344130147765,
+   "reachable": true,
+   "w2r": 1.0,
+   "r2w": 0.0,
+   "generic_valid": false,
+   "w2r_gain_over_ref": 0.0,
+   "r2w_increase_ok": true
+  },
+  {
+   "layer": 6,
+   "direction": "label",
+   "alpha": 0.4,
+   "proxy_gain": 0.0,
+   "mean_kl": 0.00010812697496476176,
+   "reachable": true,
+   "w2r": 1.0,
+   "r2w": 0.0,
+   "generic_valid": false,
+   "w2r_gain_over_ref": 0.0,
+   "r2w_increase_ok": true
+  },
+  {
+   "layer": 14,
+   "direction": "role",
+   "alpha": 0.1,
+   "proxy_gain": 0.0,
+   "mean_kl": 0.0001132070078266878,
+   "reachable": true,
+   "w2r": 1.0,
+   "r2w": 0.0,
+   "generic_valid": false,
+   "w2r_gain_over_ref": 0.0,
+   "r2w_increase_ok": true
+  }
+ ],
+ "main_setting": {
+  "layer": 6,
+  "direction": "role",
+  "alpha": 0.4,
+  "proxy_gain": 0.0,
+  "mean_kl": 0.00013708344130147765,
+  "reachable": true,
+  "w2r": 1.0,
+  "r2w": 0.0,
+  "generic_valid": false,
+  "w2r_gain_over_ref": 0.0,
+  "r2w_increase_ok": true
+ },
+ "alpha0_identical": true,
+ "wall_s": 401.84248518943787,
+ "transformers": "5.20.2"
+}

@@ -1,0 +1,32 @@
+{
+ "run_id": "fu-dev-verbal-variants-dev-4B-ef3e485",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {
+  "W0": "7b0ee09ba9438e099567337b972d8fbaccf813ef1297fb9864e2582e315696ac",
+  "W1": "366fe43e092b61719beb72d4fba1e5f1229017c1b6a32800594897f08a4b65fe",
+  "W2": "a1cfc3c89711c5968c6822c256d73fdfa7d950324c19cfcfcc80d6c5e88afd18",
+  "W3": "9eb6dcd0d0e2e19b416175b6e69b91a32142b336988b08808b7997903dc1cad5",
+  "W4": "4a43ff49e0f7889ef261094ca0f5439c2b14fffed6324084bf7af097f9273dba"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "ef3e4855340f9af3689c5c5e8a97178be27c23de",
+ "config_sha256": "30400d1eb7c333655aaa640e4d9db6727bb3142682e48b4c72a31ce8100a38e3",
+ "backend": {
+  "name": "hf-transformers",
+  "version": "5.20.2"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "3084f6e7b639852e57f3d0f34dd8ef4f6174d96984f6304307aa0284bf7e0ee0",
+  "metrics.json": "b0bf7d39611c46b196fd3cd4c9770b1947688dfa70d48405851ff77e67fa7bfe",
+  "variants.jsonl": "da01b58c0fd57bce5e031f49b50a87d4c8ee5c0ea0d754b8d298cb8205ada7e9"
+ }
+}

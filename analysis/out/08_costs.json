@@ -1,0 +1,78 @@
+{
+ "line items": {
+  "P0-P3 (before the freeze)": {
+   "sessions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "hours": 17.662,
+   "compute_usd": 18.790000000000003
+  },
+  "P4-P5 main runs": {
+   "sessions": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "hours": 49.865,
+   "compute_usd": 74.89
+  },
+  "follow-ups after the first draft (D14-D16)": {
+   "sessions": [
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "hours": 21.817999999999998,
+   "compute_usd": 32.63
+  },
+  "second review (D18)": {
+   "sessions": [
+    33,
+    34
+   ],
+   "hours": 7.328,
+   "compute_usd": 11.05
+  },
+  "archive before the instance decision (no GPU work)": {
+   "sessions": [
+    35
+   ],
+   "hours": 0.08,
+   "compute_usd": 0.12
+  }
+ },
+ "compute total": 137.48000000000002,
+ "hours total": 96.753,
+ "storage accrued": 1.7657291666666666,
+ "storage accrued period": "until the instance was destroyed (confirmed absent 2026-11-08T14:15:57Z; final)",
+ "ledger compute (session.py)": 137.48,
+ "cap": 195.0,
+ "reserve": 29.25,
+ "storage reserve": 10.0,
+ "computed at": "2026-11-08T14:16Z"
+}

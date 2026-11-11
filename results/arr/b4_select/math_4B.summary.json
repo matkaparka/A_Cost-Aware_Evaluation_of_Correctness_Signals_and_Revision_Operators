@@ -1,0 +1,15 @@
+{
+ "task": "math",
+ "source": [
+  "results/fu/4B/fu-h2a-consistency-test-4B-aac4cc6/samples.jsonl"
+ ],
+ "source_sha256": [
+  "bff568cdc04297b95c59aac4704b077c30c1380595e734f62cccf78daacbbf46"
+ ],
+ "items": 5052,
+ "share": 0.2,
+ "selected": 1010,
+ "max_selected_margin": 0.8,
+ "guards": [],
+ "out_sha256": "4e399e894931abf40a66f933e8c8e02ca266cf6d276e933f56506375520f85f2"
+}

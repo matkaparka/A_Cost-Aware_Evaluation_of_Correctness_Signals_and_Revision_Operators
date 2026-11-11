@@ -1,0 +1,241 @@
+Conversation Log
+E:\research\paper\Neurocomputing\paper.pdf
+这篇能发Nerocomputing吗？给出必要的修改意见
+一、 总体结论：这篇论文能发 Neurocomputing 吗？
+
+结论：有较大希望录用（具备冲刺 Neurocomputing 的扎实实验与方法论基础，但当前版本直接投稿存在较高的 Desk-Reject 或因“自我矮化/缺乏新意”被审稿人拒稿的风险，需完成以下必要修改后再投）。
+
+匹配度分析：Neurocomputing（中科院二区 / JCR Q1）非常青睐大语言模型推理机制、不确定性估计（Uncertainty Estimation）、测试时计算扩展（Test-Time Scaling）与自我修正（Self-Correction）方向的系统性实证与方法分析研究。
+核心亮点：
+实验规模与配对设计扎实：在 5,052 道数学题与 3,457 道 MMLU-Pro 非计算类知识题上，基于固定共享初答（
+𝑎
+0
+a
+0
+	​
+
+）对 4 个开源模型（Qwen3-1.7B/4B/8B、Tulu-3-8B）、5 类正确性信号与多种修正/采样/思考算子进行了严格的配对重放评估（Paired Replay）。
+剖析维度深刻：利用修复—损伤恒等式（
+Δ
+𝐹
+(
+𝑆
+)
+=
+∣
+𝑆
+∣
+𝑛
+[
+𝑤
+𝑆
+𝑟
+−
+(
+1
+−
+𝑤
+𝑆
+)
+𝑑
+]
+Δ
+F
+	​
+
+(S)=
+n
+∣S∣
+	​
+
+[w
+S
+	​
+
+r−(1−w
+S
+	​
+
+)d]）将表面收益拆解为截断补全（Completion）与实质内容修复（Content Repair），并区分了 Correctness Oracle（识别错题） 与 Benefit Oracle（识别可被算子修好的题）。
+结论具有工程指导价值：揭示了（1）单轮内生修正（Review/Critique/Re-solve）净收益极小且对提示词高度敏感；（2）用采样信号选样本做 Critique 不如直接对样本做多数投票（
+𝑉
+5
+V
+5
+	​
+
+）；（3）算子强度决定廉价信号的价值——升级到 Qwen3 Thinking 模式时，仅对最低 8% 口头置信度（Verbal Confidence）样本开启思考即可回收 50% 的全量思考收益，且在数学任务 
+≥
+512
+≥512 token 等总成本下优于统一思考预算（Uniform Thinking Budget），但在 MMLU-Pro 上统一预算更优。
+二、 必要的修改意见（按优先级排序）
+1. 【最高优先级：格式与排版硬伤】修复直接影响编辑初审印象的问题
+
+修复全文所有 \paragraph 标题后的“双句号 (..)”编译 Bug
+
+问题位置：paper.pdf 第 2、3、6、7、12、13、14 页几乎所有段落小标题末尾都出现了两个句号（例如 The tested intrinsic revision operators leave limited gains..、Self-correction..、Correctness signals..、Use of AI assistants in the research process..）。
+原因与改法：Elsevier 的 elsarticle.cls 会自动在 \paragraph{} 标题末尾追加一个句号 .。而源码文件 introduction.tex、related.tex、design.tex、discussion.tex、limitations.tex 中又手动写了句号（如 \paragraph{Self-correction.}）。必须删掉所有 \paragraph{...} 花括号内部的末尾句号。
+
+补全 Elsevier 期刊 Frontmatter 作者信息与投稿声明块
+
+问题位置：paper.tex 的 frontmatter 中完全没有 \author、\affiliation、\cortext 等作者信息（目前仅存于外部草稿 title_page.txt），且在 limitations.tex 末尾还留有一条未清理的 \TODO{Authors: confirm the writing-use disclosure...}。
+改法：Neurocomputing 采用单盲审稿（Single-blind review）或要求在生成的 PDF 首页包含完整作者与单位信息。需在 paper.tex 中补齐 \author、\affiliation、通讯作者邮箱，并在正文末尾（References 之前）按 Neurocomputing 规范补充 CRediT authorship contribution statement、Declaration of competing interest 和 Funding 声明。
+
+解决表格浮动导致的页面大面积留白与正附比例失衡
+
+问题位置：在 design.tex 开头直接连续插入了 \input{generated/tab_settings} 和 \input{generated/tab_operators}，导致 paper.pdf 第 4 页和第 8 页变成纯表格页且上下大面积空白；此外，表 2（Whole-pool revision operators）在第 4 页就出现，却直到第 7 页第 4.1 节才首次被正文讨论。同时，正文仅 14 页（1 张图、7 张表），附录却长达 16 页（21 张表，appendix.tex）。
+改法：
+将 \input{generated/tab_operators}（Table 2）从 design.tex 移到 results.tex 的第 4.1 节开头。
+将附录中最核心的机制拆解表（如 Table E.11“Completion vs. Content Repair 拆解”或 Table E.22“剔除截断初答后的信号有效性”）提炼或合并入正文，并将次要的冗余大表（如 Table E.14、E.19 等）留作 Supplementary Material 附件，避免审稿人产生“这是一篇会议拒稿后直接把 20 页 Appendix 拼在后面的草稿”的负面印象。
+2. 【核心拒稿风险】扭转过度“防御性/自我贬低”的行文基调（Self-Deprecating Tone）
+
+当前稿件带有极其强烈的 ACL/ARR Rebuttal 防御痕迹——为了防止审稿人挑刺，作者在摘要、引言、相关工作和实验设计中反复自我否定。这在 Neurocomputing 审稿中非常危险，因为期刊审稿人极易直接引用作者自己的话以“Lack of Novelty / Post-hoc exploratory study only”为由拒稿：
+
+必须修改的典型语句：
+摘要（abstract.tex）：
+现状："These are post hoc findings: declared contrasts receive Holm correction, but the thinking policies lack an independent development-to-test validation."
+问题：摘要黄金位置花两句话强调“这是事后发现、缺乏独立验证”，直接削弱全文可信度。
+修改建议：摘要应聚焦研究方法、核心量化发现与工程启示；统计检验细节与局限性放在第 3.5 节和 Limitations 即可。
+引言与相关工作中的自我矮化（introduction.tex、introduction.tex、related.tex）：
+现状："We use an existing repair–damage accounting identity rather than propose a new theory." / "The study does not introduce a new gating algorithm or establish a universally preferred policy." / "Thus, operator comparison and budget-aware evaluation both precede this study... not claims that revision accounting, selective computation, or the operators themselves are new."
+修改建议：将消极的“我们没有提出新理论/新算法”改写为积极的方法论与评估框架贡献（Methodological & Empirical Contributions）——强调本文构建了一个统一的、成本感知的联合评估框架（Cost-Aware Joint Evaluation Framework），首次在统一的配对初始回答上贯通了零生成成本信号 vs. 采样信号、内生修正 vs. 样本聚合 vs. 思考模式升级（Thinking Escalation），并引入了区分错误检测（Correctness Oracle）与可修复性上界（Benefit Oracle）的诊断体系。
+删除正文中关于“本轮期刊修改未跑新实验”的审计式自白（design.tex）：
+现状："The present journal revision reuses the existing outputs; the clarified oracle comparison and total-cost figure are descriptive reanalyses, not new independent confirmation. No new model generation was performed for this revision."
+问题：这句话属于给内部检查或给之前审稿人看的说明，绝不应出现在首次投递给 Neurocomputing 的论文正文中！必须直接删除。同理，第 3.5 节（design.tex）关于“第一轮、第二轮、内部预注册”的历史流水账应大幅精简，细节留步 Appendix F。
+规范化 AI 辅助研究声明（design.tex）：
+现状：在 3.5 节专门设了一段讲 "LLM-based tools (Claude in Claude Code, GPT models and Codex, and Gemini in Antigravity) assisted experiment execution... Reviews written by these tools proposed the second-round analyses, which the authors approved."
+问题：向传统期刊审稿人声明“由 AI 工具撰写的审稿意见提出了第二轮分析方案”极易引发对论文学术原创性的质疑，且与文末的 Elsevier 标准 AI 写作声明重复。
+修改建议：严格遵循 Elsevier 官方指南，仅保留文末的 Declaration of generative AI and AI-assisted technologies in the writing process（limitations.tex），删除第 3.5 节中冗余且易引起误解的 AI 提议分析过程描述。
+3. 【实验与方法加固】零 GPU 成本即可补齐的 2 项关键分析（消除审稿人最大质疑）
+
+即使完全不重新运行大模型生成（只用现有的逐题存储记录），也可以通过编写简短的后处理脚本补齐以下两个审稿人最可能质疑的实验短板：
+
+补齐 Thinking Escalation（第 4.4 节 & Table 7）的 Out-of-Sample 阈值/比例迁移验证
+
+审稿人必问痛点：全文最核心的正面结论（Table 7：数学任务上选择性思考在 
+≥
+512
+≥512 token 预算下显著优于统一思考预算 
+0.89
+–
+1.58
+0.89–1.58 pp）目前是在测试集曲线上直接事后选取满足预算的最大比例（Share），作者在文中多次承认 "the thinking policies lack an independent development-to-test validation"。
+零成本解决方案：直接利用现有的 5,052 道数学题和 3,457 道 MMLU-Pro 测试集存储输出，做 5 折交叉验证（5-Fold Cross-Validation，按 canonical problem 分组）或 50/50 重复分层抽样验证！在训练折（In-fold）上根据目标 token 预算 
+𝐵
+∈
+{
+256
+,
+512
+,
+1024
+,
+2048
+}
+B∈{256,512,1024,2048} 确定置信度阈值 
+𝜏
+τ（或触发比例 
+𝑞
+q），然后在测试折（Out-of-fold）上评估实际消耗的 Total Tokens 与准确率提升 
+Δ
+Δ。这不需要跑任何新模型，却能把 Table 7 从“事后曲线描述（Post-hoc curve summary）”直接升级为具备样本外泛化验证（Out-of-sample validated）的硬核结论！
+
+利用现有 Qwen3-1.7B / 4B / 8B 共享题目输出，补充跨模型级联（Cross-Model Cascade）基线对比
+
+审稿人必问痛点：第 2 节专门讨论了 Cascades and escalation（小模型不确定时路由给大模型），但第 4.4 节只评估了单模型内部从 Non-thinking 升级到 Thinking。
+零成本解决方案：既然数据包里已经存有 Qwen3-1.7B、4B、8B 在完全相同的 5,052 道数学题上的初答、信号和 4B/8B 的 Thinking 输出，完全可以直接重放 跨尺寸级联策略（例如：Qwen3-1.7B 初答 + 1.7B Verbal/Probe 门控 -> 升级至 Qwen3-4B/8B Non-thinking 或 Thinking），并与单模型内部升级对比。这会让论文在 Test-Time Compute 领域的广度大幅提升。
+4. 【图表与可视化升级】迎合 Neurocomputing 审稿偏好的视觉改进
+
+目前全文 36 页只有 1 张图（Figure 1），其余全是密集的数字表格（共 28 张表），阅读体验较为枯燥。建议新增 2 张图（均无需跑新实验）：
+
+新增框架总览图（Overview / Pipeline Diagram，作为新的 Figure 1）：
+直观展示：Shared Initial Answer (
+𝑎
+0
+a
+0
+	​
+
+, 
+𝑐
+ˉ
+0
+c
+ˉ
+0
+	​
+
+) 
+→
+→ Correctness Signals（Zero-generation: Verbal, Probe, Length vs. Sample-based: Agreement, Margin, 
+𝑐
+s
+i
+g
+c
+sig
+	​
+
+）
+→
+→ Selection Set (
+𝑆
+S, 错误富集度 
+𝑤
+𝑆
+w
+S
+	​
+
+) 
+→
+→ Revision / Escalation Operators（Intrinsic Review/Critique/Re-solve, Voting 
+𝑉
+𝑘
+V
+k
+	​
+
+/GATE/Hybrids, Thinking Escalation, 
+𝑐
+𝐹
+c
+F
+	​
+
+）
+→
+→ Repair–Damage & Format Accounting（Completion + Content Repair 
+−
+− Format Loss 
+−
+− Content Damage）。
+将核心分解表与预算对比表可视化（新增 Figure 3）：
+左子图（堆叠柱状图）：基于 Table E.11 绘制各算子的正向收益（Completion 截断补全 vs. Content Repair 内容修复）与负向损伤（Format Loss vs. Content Damage），一眼看出“Intrinsic Critique 的微弱正收益主要靠补全截断回答，而在 MMLU-Pro 上内容损伤惨重”。
+右子图（折线/误差棒对比图）：基于 Table 7 绘制 Verbal/Probe-Selected Thinking minus Uniform Thinking Budget 随总预算 
+𝐵
+∈
+{
+256
+,
+512
+,
+1024
+,
+2048
+}
+B∈{256,512,1024,2048} 变化的曲线，直观展示数学任务（正向优势）与 MMLU-Pro（负向逆转）的任务依赖性（Task-dependent crossover）。
+5. 【参考文献细节清理】修复 refs.bib 中的年份重复等格式瑕疵
+在编译出的参考文献列表（paper.pdf 第 15–19 页）中，多处会议名称自带年份，导致与 year 字段连印出现重复年份：
+[1] (refs.bib)：Findings of the Association for Computational Linguistics: ACL 2024, 2024
+[16]：Findings of the Association for Computational Linguistics: EMNLP 2023, 2023
+[28]：Findings of the Association for Computational Linguistics: ACL 2025, 2025
+改法：统一清理 refs.bib 中 booktitle 里的冗余年份，并确保缩写（如 ICLR vs. International Conference on Learning Representations）格式前后一致。
+三、 下一步行动建议
+
+如果您希望我直接帮您推进修改，我可以立即在当前工作区为您执行以下操作：
+
+一键修复 LaTeX 源码格式问题：去掉所有 \paragraph{} 内的多余句号、调整 Table 2 浮动位置、清理 refs.bib 重复年份、移除正文中不恰当的“未跑新模型/事后分析”自贬表述与 \TODO。
+运行样本外阈值迁移验证脚本：基于 supplementary 中的现有逐题数据，补充 Thinking Escalation 的交叉验证结果并更新图表。
+
+请告诉我您希望先从哪一步开始，或者是否需要我直接为您修改 manuscript/ 下的 LaTeX 源码并重新编译 paper.pdf！

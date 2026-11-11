@@ -1,0 +1,66 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "chunk": 0,
+ "items": 2,
+ "vllm": "0.33.0",
+ "load_s": 62.57331371307373,
+ "turn1_s": 156.07192826271057,
+ "turn2_s": 17.530800819396973,
+ "turn1_requests": 40,
+ "turn2_requests": 4,
+ "out_tokens_total": 53043,
+ "rows": {
+  "1B:assistant/other/F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "1B:assistant/self/F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "1B:user/other/F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "1B:user/self/F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "B1": {
+   "n": 4,
+   "ok": 4
+  },
+  "F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "F1": {
+   "n": 4,
+   "ok": 4
+  },
+  "F2": {
+   "n": 4,
+   "ok": 4
+  },
+  "F2:turn1": {
+   "n": 4,
+   "unparsed": 1,
+   "ok": 3
+  },
+  "F3(0.7)": {
+   "n": 4,
+   "ok": 4
+  },
+  "F3(1.0)": {
+   "n": 4,
+   "ok": 4
+  },
+  "F5": {
+   "n": 4,
+   "ok": 4
+  }
+ },
+ "scorer_guarded": [],
+ "score_s": 0.3573648929595947
+}

@@ -1,0 +1,28 @@
+{
+ "run_id": "p2-ttt-pilot-4B-ea34050",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {},
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "40790d874fa320464b61ae2937569df455179e555678d0cbdda3fe3bb81f31e0",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "ea3405091778cbc780a8076d1a783fc7d50bbb0f",
+ "config_sha256": "ce031663133d1df73b35c879b6569a24b19d7feee15840740e1520f3df0cab58",
+ "backend": {
+  "name": "hf-transformers+peft",
+  "version": "5.20.2"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "adapters.jsonl": "230637a72280da2a00161ba260ec88107803741d86b49596e716fd8f0e7f22fb",
+  "config.json": "1c1c7b7483e21a593797a419380fb6cd8c3a44a42167602f3be0aefe7cdbb478",
+  "kl.jsonl": "ad11a45f955f06c23904153195fa1be11a7aa41d8be5c44741f585bd055bdf17",
+  "metrics.json": "fd296d4b4e05a4c06cd86a06b8f558a3cc0f5fe0b0463f80012b77510ebbba9b",
+  "updates.jsonl": "40f7aa8b0b1d4327ea9b2052569c0d1731660ec2294b41397c52404c4c1d616e"
+ }
+}

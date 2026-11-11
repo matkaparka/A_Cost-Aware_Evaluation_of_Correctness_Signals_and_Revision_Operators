@@ -1,0 +1,9 @@
+{
+ "model": "4B",
+ "n": 128,
+ "think_n": 0,
+ "max_tokens": 2048,
+ "think_max_tokens": 8192,
+ "gpu_util": 0.85,
+ "lora_dir": "/home/results/p0/4B/adapters"
+}

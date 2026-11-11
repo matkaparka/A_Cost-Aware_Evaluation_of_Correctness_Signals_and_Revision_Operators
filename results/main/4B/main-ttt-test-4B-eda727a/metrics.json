@@ -1,0 +1,16 @@
+{
+ "model": "4B",
+ "n_items": 400,
+ "chunks": 8,
+ "reset_logits_exact": true,
+ "zero_step_equals_B1": 1.0,
+ "realized_norm_max_rel_err": 5.52443105705791e-08,
+ "anomalies": {
+  "c_gt_100": 47,
+  "no_answer_span": 36
+ },
+ "adapters_kept": 125,
+ "serve_wall_s": 4487.809602022171,
+ "scorer_guarded": [],
+ "transformers": "5.20.2"
+}

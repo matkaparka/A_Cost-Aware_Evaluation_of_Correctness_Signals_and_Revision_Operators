@@ -1,0 +1,9 @@
+{
+ "model": "4B",
+ "max_tokens": 4096,
+ "gpu_util": 0.85,
+ "prompt": "{q}\n\nPlease reason step by step, and put your final answer within \\boxed{{}}.",
+ "decoding": "greedy",
+ "thinking": false,
+ "scorer_version": "1.0.0"
+}

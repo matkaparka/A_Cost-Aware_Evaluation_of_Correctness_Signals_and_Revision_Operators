@@ -1,0 +1,408 @@
+{
+ "4B": [
+  {
+   "name": "H1a TOST F2 vs F1",
+   "kind": "equivalence",
+   "n": 1455,
+   "pilot": {
+    "n_pilot": 364,
+    "disc": 0.04395604395604395,
+    "effect": 0.005494505494505492,
+    "concordant_right_share": 0.9166666666666666
+   },
+   "rows": [
+    {
+     "disc": 0.021978021978021976,
+     "effect": 0.0,
+     "power_holm": 1.0,
+     "power_alpha": 1.0
+    },
+    {
+     "disc": 0.021978021978021976,
+     "effect": 0.015,
+     "power_holm": 0.907,
+     "power_alpha": 0.975
+    },
+    {
+     "disc": 0.021978021978021976,
+     "effect": 0.03,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.04395604395604395,
+     "effect": 0.0,
+     "power_holm": 0.997,
+     "power_alpha": 1.0
+    },
+    {
+     "disc": 0.04395604395604395,
+     "effect": 0.015,
+     "power_holm": 0.631,
+     "power_alpha": 0.8535
+    },
+    {
+     "disc": 0.04395604395604395,
+     "effect": 0.03,
+     "power_holm": 0.0095,
+     "power_alpha": 0.053
+    },
+    {
+     "disc": 0.06593406593406592,
+     "effect": 0.0,
+     "power_holm": 0.962,
+     "power_alpha": 0.9955
+    },
+    {
+     "disc": 0.06593406593406592,
+     "effect": 0.015,
+     "power_holm": 0.435,
+     "power_alpha": 0.7145
+    },
+    {
+     "disc": 0.06593406593406592,
+     "effect": 0.03,
+     "power_holm": 0.004,
+     "power_alpha": 0.045
+    }
+   ]
+  },
+  {
+   "name": "H1d F5 vs F3-perm[0]",
+   "kind": "superiority",
+   "n": 1455,
+   "pilot": {
+    "n_pilot": 364,
+    "disc": 0.005494505494505495,
+    "effect": -0.005494505494505495,
+    "concordant_right_share": 0.8950276243093923
+   },
+   "rows": [
+    {
+     "disc": 0.0027472527472527475,
+     "effect": 0.015,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.0027472527472527475,
+     "effect": 0.03,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.0027472527472527475,
+     "effect": 0.0027472527472527475,
+     "power_holm": 0.1005,
+     "power_alpha": 0.567
+    },
+    {
+     "disc": 0.005494505494505495,
+     "effect": 0.015,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.005494505494505495,
+     "effect": 0.03,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.005494505494505495,
+     "effect": 0.0027472527472527475,
+     "power_holm": 0.087,
+     "power_alpha": 0.2785
+    },
+    {
+     "disc": 0.008241758241758242,
+     "effect": 0.015,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.008241758241758242,
+     "effect": 0.03,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.008241758241758242,
+     "effect": 0.0027472527472527475,
+     "power_holm": 0.0605,
+     "power_alpha": 0.1975
+    }
+   ]
+  },
+  {
+   "name": "H3a-role (D-inj, F0) user/self vs assistant/self",
+   "kind": "superiority",
+   "n": 1635,
+   "pilot": {
+    "n_pilot": 412,
+    "disc": 0.09223300970873785,
+    "effect": -0.014563106796116505,
+    "concordant_right_share": 0.9171122994652406
+   },
+   "rows": [
+    {
+     "disc": 0.046116504854368925,
+     "effect": 0.015,
+     "power_holm": 0.5825,
+     "power_alpha": 0.817
+    },
+    {
+     "disc": 0.046116504854368925,
+     "effect": 0.03,
+     "power_holm": 1.0,
+     "power_alpha": 1.0
+    },
+    {
+     "disc": 0.046116504854368925,
+     "effect": 0.007281553398058253,
+     "power_holm": 0.1045,
+     "power_alpha": 0.285
+    },
+    {
+     "disc": 0.09223300970873785,
+     "effect": 0.015,
+     "power_holm": 0.26,
+     "power_alpha": 0.5145
+    },
+    {
+     "disc": 0.09223300970873785,
+     "effect": 0.03,
+     "power_holm": 0.92,
+     "power_alpha": 0.987
+    },
+    {
+     "disc": 0.09223300970873785,
+     "effect": 0.007281553398058253,
+     "power_holm": 0.0415,
+     "power_alpha": 0.157
+    },
+    {
+     "disc": 0.1383495145631068,
+     "effect": 0.015,
+     "power_holm": 0.1605,
+     "power_alpha": 0.376
+    },
+    {
+     "disc": 0.1383495145631068,
+     "effect": 0.03,
+     "power_holm": 0.731,
+     "power_alpha": 0.901
+    },
+    {
+     "disc": 0.1383495145631068,
+     "effect": 0.007281553398058253,
+     "power_holm": 0.035,
+     "power_alpha": 0.1275
+    }
+   ]
+  }
+ ],
+ "1.7B": [
+  {
+   "name": "H1a TOST F2 vs F1",
+   "kind": "equivalence",
+   "n": 1455,
+   "pilot": {
+    "n_pilot": 364,
+    "disc": 0.04395604395604395,
+    "effect": -0.005494505494505492,
+    "concordant_right_share": 0.8477011494252874
+   },
+   "rows": [
+    {
+     "disc": 0.021978021978021976,
+     "effect": 0.0,
+     "power_holm": 1.0,
+     "power_alpha": 1.0
+    },
+    {
+     "disc": 0.021978021978021976,
+     "effect": 0.015,
+     "power_holm": 0.908,
+     "power_alpha": 0.9825
+    },
+    {
+     "disc": 0.021978021978021976,
+     "effect": 0.03,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.04395604395604395,
+     "effect": 0.0,
+     "power_holm": 0.995,
+     "power_alpha": 0.9995
+    },
+    {
+     "disc": 0.04395604395604395,
+     "effect": 0.015,
+     "power_holm": 0.6455,
+     "power_alpha": 0.8585
+    },
+    {
+     "disc": 0.04395604395604395,
+     "effect": 0.03,
+     "power_holm": 0.014,
+     "power_alpha": 0.0625
+    },
+    {
+     "disc": 0.06593406593406592,
+     "effect": 0.0,
+     "power_holm": 0.9575,
+     "power_alpha": 0.9935
+    },
+    {
+     "disc": 0.06593406593406592,
+     "effect": 0.015,
+     "power_holm": 0.4355,
+     "power_alpha": 0.7075
+    },
+    {
+     "disc": 0.06593406593406592,
+     "effect": 0.03,
+     "power_holm": 0.012,
+     "power_alpha": 0.0505
+    }
+   ]
+  },
+  {
+   "name": "H1d F5 vs F3-perm[0]",
+   "kind": "superiority",
+   "n": 1455,
+   "pilot": {
+    "n_pilot": 364,
+    "disc": 0.0,
+    "effect": 0.0,
+    "concordant_right_share": 0.8461538461538461
+   },
+   "rows": [
+    {
+     "disc": 0.001,
+     "effect": 0.015,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.001,
+     "effect": 0.03,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.001,
+     "effect": 0.0,
+     "power_holm": 0.0,
+     "power_alpha": 0.005
+    },
+    {
+     "disc": 0.001,
+     "effect": 0.015,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.001,
+     "effect": 0.03,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.001,
+     "effect": 0.0,
+     "power_holm": 0.0,
+     "power_alpha": 0.005
+    },
+    {
+     "disc": 0.001,
+     "effect": 0.015,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.001,
+     "effect": 0.03,
+     "power_holm": null,
+     "power_alpha": null
+    },
+    {
+     "disc": 0.001,
+     "effect": 0.0,
+     "power_holm": 0.0,
+     "power_alpha": 0.005
+    }
+   ]
+  },
+  {
+   "name": "H3a-role (D-inj, F0) user/self vs assistant/self",
+   "kind": "superiority",
+   "n": 1635,
+   "pilot": {
+    "n_pilot": 412,
+    "disc": 0.1262135922330097,
+    "effect": -0.03883495145631068,
+    "concordant_right_share": 0.7722222222222223
+   },
+   "rows": [
+    {
+     "disc": 0.06310679611650485,
+     "effect": 0.015,
+     "power_holm": 0.42,
+     "power_alpha": 0.6825
+    },
+    {
+     "disc": 0.06310679611650485,
+     "effect": 0.03,
+     "power_holm": 0.991,
+     "power_alpha": 0.999
+    },
+    {
+     "disc": 0.06310679611650485,
+     "effect": 0.01941747572815534,
+     "power_holm": 0.701,
+     "power_alpha": 0.891
+    },
+    {
+     "disc": 0.1262135922330097,
+     "effect": 0.015,
+     "power_holm": 0.1695,
+     "power_alpha": 0.4095
+    },
+    {
+     "disc": 0.1262135922330097,
+     "effect": 0.03,
+     "power_holm": 0.792,
+     "power_alpha": 0.926
+    },
+    {
+     "disc": 0.1262135922330097,
+     "effect": 0.01941747572815534,
+     "power_holm": 0.343,
+     "power_alpha": 0.623
+    },
+    {
+     "disc": 0.18932038834951456,
+     "effect": 0.015,
+     "power_holm": 0.106,
+     "power_alpha": 0.293
+    },
+    {
+     "disc": 0.18932038834951456,
+     "effect": 0.03,
+     "power_holm": 0.5835,
+     "power_alpha": 0.807
+    },
+    {
+     "disc": 0.18932038834951456,
+     "effect": 0.01941747572815534,
+     "power_holm": 0.203,
+     "power_alpha": 0.4395
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "tag": "smoke",
+ "backend": "vllm",
+ "conditions": [
+  "self",
+  "ext",
+  "random",
+  "context"
+ ],
+ "seeds": [
+  0
+ ],
+ "steps": 2,
+ "eval_every": 1,
+ "n_eval": 4,
+ "memory_tokens": 4096,
+ "max_tokens": 2048,
+ "n_samples": 4,
+ "t_sample": 0.7,
+ "train_steps": 4,
+ "tau": 0.5,
+ "lr": 0.001,
+ "tier2": {
+  "pilot": "p2-ttt-pilot-4B-ea34050",
+  "serve": "p2-ttt-serve-4B-ea34050",
+  "tau": "0.5",
+  "lr": "0.001",
+  "feasible": true,
+  "update_repeat_identical": 1.0
+ },
+ "t_star": 15.999999163764045,
+ "probe": "results/p3/4B/p3-probe-dev-ext-4B-b7cf0d6/probe.npz",
+ "probe_sha256": "a62621d9ef55fed97f3de6a16b269715fe402b2e882c4bcae7b436172c8bc833",
+ "probe_threshold": 0.5,
+ "gpu_mem": 0.6,
+ "max_loras": 16,
+ "max_model_len": 12288,
+ "scorer_version": "1.1.1",
+ "stream_items_sha256": "dc3b852d0945829e92cd19b2ac9344245f4ef0cac0fb95878ca0c035f72d4600",
+ "eval_items_sha256": "77ce75bcb62bf0177161f457de6a184939137cf2377c61f3919ce7ed3e9c11e3",
+ "orders_sha256": "21d7b819ff25249c5ce621435410c79ddcac5cef4c941e12a97ee78f68db8766",
+ "wording_sha256": "bbc6d01c865221528d27b1aa6a4fb8a15ece507f3c80f109fb387a94d8dce302",
+ "seeds_scheme": [
+  "stream-order-v1",
+  "stream-lora-A-v1",
+  "stream-random-v1",
+  "stream-sample-v1"
+ ]
+}

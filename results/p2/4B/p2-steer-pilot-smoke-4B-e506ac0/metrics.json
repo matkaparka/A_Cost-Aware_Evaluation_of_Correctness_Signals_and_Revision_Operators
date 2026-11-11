@@ -1,0 +1,226 @@
+{
+ "model": "4B",
+ "layers": [
+  2,
+  6,
+  10,
+  14,
+  18,
+  22,
+  26,
+  30
+ ],
+ "n_dir_items": 4,
+ "generic_groups": {
+  "changed": 4,
+  "kept": 360
+ },
+ "correction_markers": [
+  "We"
+ ],
+ "commit_markers": [
+  "The",
+  "Let"
+ ],
+ "n_reachable": 7,
+ "top3": [
+  {
+   "layer": 14,
+   "direction": "role",
+   "alpha": 0.4,
+   "proxy_gain": 0.00012066960334777832,
+   "mean_kl": 0.010877628261482641,
+   "reachable": true
+  },
+  {
+   "layer": 14,
+   "direction": "role",
+   "alpha": 0.2,
+   "proxy_gain": 7.832050323486328e-05,
+   "mean_kl": 0.0003304947852029727,
+   "reachable": true
+  },
+  {
+   "layer": 6,
+   "direction": "role",
+   "alpha": 0.4,
+   "proxy_gain": 2.1845102310180664e-05,
+   "mean_kl": 0.00015695547709349,
+   "reachable": true
+  }
+ ],
+ "summary": {
+  "unsteered": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:role": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:generic": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random0": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random1": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random2": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random3": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top0:random4": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:role": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:generic": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random0": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random1": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random2": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random3": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top1:random4": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:role": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:generic": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random0": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random1": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random2": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random3": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "top2:random4": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  },
+  "alpha0-identity": {
+   "w2r_dinj": 1.0,
+   "r2w_dnat": 0.0,
+   "change_rate": 1.0
+  }
+ },
+ "selection": [
+  {
+   "layer": 14,
+   "direction": "role",
+   "alpha": 0.4,
+   "proxy_gain": 0.00012066960334777832,
+   "mean_kl": 0.010877628261482641,
+   "reachable": true,
+   "w2r": 1.0,
+   "r2w": 0.0,
+   "generic_valid": false,
+   "w2r_gain_over_ref": 0.0,
+   "r2w_increase_ok": true
+  },
+  {
+   "layer": 14,
+   "direction": "role",
+   "alpha": 0.2,
+   "proxy_gain": 7.832050323486328e-05,
+   "mean_kl": 0.0003304947852029727,
+   "reachable": true,
+   "w2r": 1.0,
+   "r2w": 0.0,
+   "generic_valid": false,
+   "w2r_gain_over_ref": 0.0,
+   "r2w_increase_ok": true
+  },
+  {
+   "layer": 6,
+   "direction": "role",
+   "alpha": 0.4,
+   "proxy_gain": 2.1845102310180664e-05,
+   "mean_kl": 0.00015695547709349,
+   "reachable": true,
+   "w2r": 1.0,
+   "r2w": 0.0,
+   "generic_valid": false,
+   "w2r_gain_over_ref": 0.0,
+   "r2w_increase_ok": true
+  }
+ ],
+ "main_setting": {
+  "layer": 14,
+  "direction": "role",
+  "alpha": 0.4,
+  "proxy_gain": 0.00012066960334777832,
+  "mean_kl": 0.010877628261482641,
+  "reachable": true,
+  "w2r": 1.0,
+  "r2w": 0.0,
+  "generic_valid": false,
+  "w2r_gain_over_ref": 0.0,
+  "r2w_increase_ok": true
+ },
+ "alpha0_identical": true,
+ "wall_s": 365.28745675086975,
+ "transformers": "5.20.2"
+}

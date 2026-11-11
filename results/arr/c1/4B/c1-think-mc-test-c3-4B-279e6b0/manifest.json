@@ -1,0 +1,32 @@
+{
+ "run_id": "c1-think-mc-test-c3-4B-279e6b0",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {
+  "initial": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52",
+  "wordings": "da21dfa87cd610aee1478b192d50378924a362b2a5af99ed9556f5af135ccc75",
+  "sample_aware": "ef5216460a2bb2a0e879ba473ec0a5622086f63d1eb50ee70bfc4279bfd27449",
+  "instruction": "eb397418dc26d45a16daca54c9bb5faa8471e404aaf0014c38f9acc316cfdd38"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "279e6b0c25c4970b7e487e228c6a397717d2023a",
+ "config_sha256": "887554576923c7c786e0ed033a0fb2b3785dc97806549ad59beea27d9b555eff",
+ "backend": {
+  "name": "vllm",
+  "version": "0.33.0"
+ },
+ "gpu": "NVIDIA A100 80GB PCIe",
+ "python": "3.12.3",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "e5d5b9bbc42443fcda7916afa0770ea85ed97f598ff27c6d136a14fbcdb11f94",
+  "generations.jsonl": "293c78cdca469ae976cf72e7b782961a0c208ae2015bb51807359f8549204e43",
+  "metrics.json": "3e9055d7907ae90bb45140b30596e2578f2d52dbe4da809241bb2e5f11a9ee2b",
+  "rows.jsonl": "1e60ee9c8a809b5a61173e97d73a8eb4f9933b82ee07a405c20515392272ea55"
+ }
+}

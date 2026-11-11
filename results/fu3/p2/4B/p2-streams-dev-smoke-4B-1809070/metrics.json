@@ -1,0 +1,33 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "steps": 2,
+ "trajectories": [
+  "nll-s0",
+  "matched-s0"
+ ],
+ "zero_step_a0_identical": true,
+ "zero_step_verbal_identical": true,
+ "realized_increment_norm_max_rel_err": 3.9429046361227904e-08,
+ "anomalies": {
+  "nll-s0": {},
+  "matched-s0": {}
+ },
+ "final_total_norm": {
+  "nll-s0": 0.7357179445562891,
+  "matched-s0": 0.6712112837457973
+ },
+ "a0_status": {
+  "nll-s0": {
+   "ok": 2
+  },
+  "matched-s0": {
+   "ok": 2
+  }
+ },
+ "step_gen_s": 43.90855383872986,
+ "step_hf_s": 5.1694440841674805,
+ "eval_gen_s": 29.6739501953125,
+ "eval_hf_s": 2.652215003967285,
+ "scorer_guarded": []
+}

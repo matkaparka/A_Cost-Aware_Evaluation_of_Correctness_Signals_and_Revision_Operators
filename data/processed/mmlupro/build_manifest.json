@@ -1,0 +1,49 @@
+{
+ "dataset": "TIGER-Lab/MMLU-Pro",
+ "revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+ "split_used": "test",
+ "categories": [
+  "law",
+  "history",
+  "philosophy",
+  "psychology",
+  "biology",
+  "health"
+ ],
+ "rows_in_categories": {
+  "law": 1101,
+  "psychology": 798,
+  "biology": 717,
+  "history": 381,
+  "health": 818,
+  "philosophy": 499
+ },
+ "canonical_stems": 3951,
+ "items_sharing_a_stem_extra": 363,
+ "items": 4314,
+ "by_split": {
+  "dev": 857,
+  "test": 3457
+ },
+ "by_category_split": {
+  "law/dev": 219,
+  "law/test": 882,
+  "history/dev": 76,
+  "history/test": 305,
+  "philosophy/dev": 100,
+  "philosophy/test": 399,
+  "psychology/dev": 159,
+  "psychology/test": 639,
+  "biology/dev": 142,
+  "biology/test": 575,
+  "health/dev": 161,
+  "health/test": 657
+ },
+ "dev_fraction": 0.2,
+ "seeds": [
+  "mmlupro-canon-v1",
+  "mmlupro-split-v1",
+  "mmlupro-order-v1"
+ ],
+ "items_sha256": "bb8751651d7eda5dfdf1d179acabe5a044cce2b60bc572879b59fafa7d92db61"
+}

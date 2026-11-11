@@ -1,0 +1,32 @@
+{
+ "model": "1.7B",
+ "vllm": "0.33.0",
+ "load_s": 41.84403347969055,
+ "round1": {
+  "n": 256,
+  "wall_s": 5.724356651306152,
+  "prompt_tokens": 22318,
+  "output_tokens": 75894,
+  "output_tok_per_s": 13258.083767838421,
+  "total_tok_per_s": 17156.862505691453,
+  "mean_output_tokens": 296.4609375,
+  "max_output_tokens": 852
+ },
+ "round2": {
+  "n": 256,
+  "wall_s": 7.275207757949829,
+  "prompt_tokens": 106146,
+  "output_tokens": 68640,
+  "output_tok_per_s": 9434.782109829797,
+  "total_tok_per_s": 24024.88091271432,
+  "mean_output_tokens": 268.125,
+  "max_output_tokens": 661
+ },
+ "acc0": 0.828125,
+ "acc1": 0.8359375,
+ "unparsed0": 0.0,
+ "w2r": 2,
+ "r2w": 0,
+ "truncated0": 0,
+ "gpu_mem_used_gb_at_end": 67.8779296875
+}

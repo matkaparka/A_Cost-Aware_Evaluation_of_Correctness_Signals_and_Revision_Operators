@@ -1,0 +1,9 @@
+........................................................................ [ 52%]
+..................................................................       [100%]
+============================== warnings summary ===============================
+tests\test_stats.py:84
+  E:\research\tests\test_stats.py:84: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.slow
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+138 passed, 1 warning in 220.22s (0:03:40)

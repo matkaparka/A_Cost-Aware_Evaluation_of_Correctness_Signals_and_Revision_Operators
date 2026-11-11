@@ -1,0 +1,57 @@
+{
+ "model": "4B",
+ "split": "test",
+ "vllm": "0.33.0",
+ "load_s": 40.86252498626709,
+ "stage1_s": 3216.5084280967712,
+ "stage2_s": 86.82179665565491,
+ "stage1_prompts": 20368,
+ "stage2_prompts": 1107,
+ "rows": {
+  "0:exp0:F3s(0.5)": {
+   "n": 320,
+   "truncated": 4,
+   "not ok": 4
+  },
+  "0:exp0:F3s(0.7)": {
+   "n": 320,
+   "truncated": 7,
+   "not ok": 7
+  },
+  "0:exp0:F3s(0.9)": {
+   "n": 320,
+   "truncated": 6,
+   "not ok": 6
+  },
+  "0:exp0:F3s(1.0)": {
+   "n": 320,
+   "truncated": 2,
+   "not ok": 2
+  },
+  "1A:dnat:F3s(0.5)": {
+   "n": 5052,
+   "truncated": 108,
+   "not ok": 108
+  },
+  "1A:dnat:F3s(0.7)": {
+   "n": 5052,
+   "truncated": 105,
+   "not ok": 105
+  },
+  "1A:dnat:F3s(0.9)": {
+   "n": 5052,
+   "truncated": 118,
+   "not ok": 119
+  },
+  "1A:dnat:F3s(1.0)": {
+   "n": 5052,
+   "truncated": 120,
+   "not ok": 120
+  }
+ },
+ "exp0_first_turn_check": {
+  "first turns": 160,
+  "found in main run": 160,
+  "identical": 160
+ }
+}

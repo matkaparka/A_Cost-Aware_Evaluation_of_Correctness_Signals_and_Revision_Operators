@@ -1,0 +1,24 @@
+{
+ "run_id": "p0-determinism-bi0-4B-eddb55f",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompt_sha256": "03b92143842fdcf835ab35d1028b1dac065f6d1c81694b87ec1b5eca79112c08",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "eddb55ff73069af3ce454e857fc4baa310ff7861",
+ "config_sha256": "dec6a823caffbfe8fcda59cd16249d8afa864228d36f4c318fda2675b519f867",
+ "backend": {
+  "name": "vllm",
+  "version": "0.33.0"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "seeds": {
+  "fixtures": 0,
+  "sampling": 0
+ },
+ "files": {
+  "config.json": "6574c539e0165787748d0ae7d08c888fa9f1b3cb202e93f71103bb87f1377a3f",
+  "metrics.json": "939ef8b1a9ddf498513ce6b49b9c6d243f4582ff299313511ea6b47d712191b7"
+ }
+}

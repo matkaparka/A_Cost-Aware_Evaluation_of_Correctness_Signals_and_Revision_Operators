@@ -1,0 +1,24 @@
+{
+ "model": "1.7B",
+ "vllm": "0.33.0",
+ "load_s": 42.93408513069153,
+ "gen_s": 534.8422322273254,
+ "n": 4497,
+ "output_tokens": 3932654,
+ "counts": {
+  "dev/math_full": {
+   "n": 900,
+   "wrong": 249,
+   "status_ok": 868,
+   "right": 651,
+   "status_truncated": 32
+  },
+  "test/math_full": {
+   "n": 3597,
+   "right": 2639,
+   "status_ok": 3458,
+   "wrong": 958,
+   "status_truncated": 139
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "model": "8B",
+ "split": "test",
+ "initial": "/home/results/p1/8B/p1-initial-ext-8B-45575c2/initial.jsonl",
+ "items": "data/processed/ext/dnat_ext.jsonl",
+ "kind_suffix": "-ext",
+ "position": "last token of a0",
+ "context": "initial prompt + generation prefix + a0"
+}

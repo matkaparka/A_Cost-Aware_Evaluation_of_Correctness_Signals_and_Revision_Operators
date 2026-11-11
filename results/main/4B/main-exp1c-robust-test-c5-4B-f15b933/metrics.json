@@ -1,0 +1,43 @@
+{
+ "model": "4B",
+ "split": "test",
+ "chunk": 5,
+ "items": 100,
+ "subset_items": 0,
+ "vllm": "0.33.0",
+ "stage1_s": 69.53863883018494,
+ "stage2_s": 1.1920928955078125e-06,
+ "stage1_greedy": 324,
+ "stage1_sampled": 0,
+ "stage2_sampled": 0,
+ "generations": 324,
+ "sampling_params": {
+  "greedy": "SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, watermarking=None, top_p=1.0, top_k=0, min_p=0.0, seed=0, stop=[], stop_token_ids=[], bad_words=[], thinking_token_budget=None, include_stop_str_in_output=False, ignore_eos=False, max_tokens=2048, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, structured_outputs=None, extra_args=None)",
+  "sampled": "SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.7, watermarking=None, top_p=0.8, top_k=0, min_p=0.0, seed=0, stop=[], stop_token_ids=[], bad_words=[], thinking_token_budget=None, include_stop_str_in_output=False, ignore_eos=False, max_tokens=2048, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, structured_outputs=None, extra_args=None)"
+ },
+ "out_tokens_total": 78988,
+ "solution_tokens_identical": "100/100",
+ "rows": {
+  "1C:F3(0.7):user": {
+   "n": 100,
+   "ok": 99,
+   "truncated": 1
+  },
+  "1C:F3(0.9):assistant": {
+   "n": 100,
+   "ok": 99,
+   "truncated": 1
+  },
+  "1C:F3(0.9):tool": {
+   "n": 100,
+   "ok": 100
+  },
+  "1C:F3(0.9):user": {
+   "n": 100,
+   "ok": 99,
+   "truncated": 1
+  }
+ },
+ "scorer_guarded": [],
+ "score_s": 0.22264432907104492
+}

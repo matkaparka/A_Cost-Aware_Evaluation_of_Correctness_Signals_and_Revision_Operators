@@ -1,0 +1,37 @@
+{
+ "model": "4B",
+ "vllm": "0.33.0",
+ "load_s": 101.87830209732056,
+ "gen_s": 167.7776584625244,
+ "n": 1819,
+ "output_tokens": 789809,
+ "counts": {
+  "dev/gsm8k": {
+   "n": 264,
+   "right": 239,
+   "status_ok": 264,
+   "wrong": 25
+  },
+  "dev/math500": {
+   "n": 100,
+   "right": 81,
+   "status_ok": 90,
+   "wrong": 19,
+   "status_truncated": 10
+  },
+  "test/gsm8k": {
+   "n": 1055,
+   "right": 976,
+   "status_ok": 1054,
+   "wrong": 79,
+   "status_truncated": 1
+  },
+  "test/math500": {
+   "n": 400,
+   "right": 321,
+   "status_ok": 356,
+   "wrong": 79,
+   "status_truncated": 44
+  }
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "4B": {
+  "probe": {
+   "layer": 24,
+   "C": 0.001,
+   "cv_auroc": 0.8911322971221034
+  },
+  "dev_n": 1264,
+  "dev_auroc_probe_oof": 0.8911322971221035,
+  "dev_auroc_verbal": 0.882277230966522,
+  "test_counts": {
+   "orig/right": 1306,
+   "orig/wrong": 149,
+   "ext/right": 3000,
+   "ext/wrong": 597
+  },
+  "scopes": {
+   "original pool": {
+    "dev_n": 364,
+    "dev_auroc_probe_oof": 0.8475303164744159,
+    "dev_auroc_verbal": 0.8189145223306714,
+    "half_effect_noise_sigma": 0.30998225789517164,
+    "central_noise": [
+     "verbal",
+     0.0484325410798192
+    ],
+    "scenarios": {
+     "dev effect": {
+      "6": 0.2855,
+      "9": 0.2395
+     },
+     "half effect": {
+      "6": 0.085,
+      "9": 0.063
+     },
+     "central (\u0394 AUROC = 0.03, noise on verbal)": {
+      "6": 0.3285,
+      "9": 0.2695
+     }
+    }
+   },
+   "original + expansion": {
+    "dev_n": 1264,
+    "dev_auroc_probe_oof": 0.8911322971221035,
+    "dev_auroc_verbal": 0.882277230966522,
+    "half_effect_noise_sigma": 0.14892568346112967,
+    "central_noise": [
+     "verbal",
+     0.26120185386389494
+    ],
+    "scenarios": {
+     "dev effect": {
+      "6": 0.179,
+      "9": 0.1365
+     },
+     "half effect": {
+      "6": 0.0335,
+      "9": 0.023
+     },
+     "central (\u0394 AUROC = 0.03, noise on verbal)": {
+      "6": 0.99,
+      "9": 0.988
+     }
+    }
+   }
+  }
+ },
+ "1.7B": {
+  "probe": {
+   "layer": 17,
+   "C": 0.001,
+   "cv_auroc": 0.8863145766617531
+  },
+  "dev_n": 1264,
+  "dev_auroc_probe_oof": 0.886314576661753,
+  "dev_auroc_verbal": 0.8221216896253749,
+  "test_counts": {
+   "orig/right": 1163,
+   "orig/wrong": 292,
+   "ext/right": 2639,
+   "ext/wrong": 958
+  },
+  "scopes": {
+   "original pool": {
+    "dev_n": 364,
+    "dev_auroc_probe_oof": 0.8496710526315789,
+    "dev_auroc_verbal": 0.7425986842105263,
+    "half_effect_noise_sigma": 0.6214367272332311,
+    "central_noise": [
+     "probe",
+     0.776593373157084
+    ],
+    "scenarios": {
+     "dev effect": {
+      "6": 1.0,
+      "9": 1.0
+     },
+     "half effect": {
+      "6": 0.851,
+      "9": 0.81
+     },
+     "central (\u0394 AUROC = 0.03, noise on probe)": {
+      "6": 0.361,
+      "9": 0.3005
+     }
+    }
+   },
+   "original + expansion": {
+    "dev_n": 1264,
+    "dev_auroc_probe_oof": 0.886314576661753,
+    "dev_auroc_verbal": 0.8221216896253749,
+    "half_effect_noise_sigma": 0.42470638174563646,
+    "central_noise": [
+     "probe",
+     0.42961090337485075
+    ],
+    "scenarios": {
+     "dev effect": {
+      "6": 1.0,
+      "9": 1.0
+     },
+     "half effect": {
+      "6": 1.0,
+      "9": 1.0
+     },
+     "central (\u0394 AUROC = 0.03, noise on probe)": {
+      "6": 1.0,
+      "9": 1.0
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "run_id": "p2-ttt-serve-1.7B-e506ac0",
+ "model": "Qwen/Qwen3-1.7B",
+ "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {
+  "context": "0c0f570d8cbc60a10895a871e1992a5c0cdfd252b9b46cdc4bbd29073caa83e6"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "40790d874fa320464b61ae2937569df455179e555678d0cbdda3fe3bb81f31e0",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "e506ac012b0e131c224dc0c7b7448610b4e8ebf5",
+ "config_sha256": "eec0054d87815cd6fbb8a6250e47aa8b89f9b971bb752b9b7ac8619dceecc8bd",
+ "backend": {
+  "name": "vllm",
+  "version": "0.33.0"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "e3a35225ff99af93069492bf3a9da8a4d57dddd056ccd1aa35bf036b00615ff6",
+  "metrics.json": "9f9b5a6d14319e9262a3c2f8fa44c9d0fdf607b09911e5da8b05168b04c04605",
+  "rows.jsonl": "3b46a5501184adb30892d5d42fc95778767c4cf2ebc2f914697d0d04a07fb087"
+ }
+}

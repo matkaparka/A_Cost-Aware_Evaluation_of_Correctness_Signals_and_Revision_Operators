@@ -1,0 +1,62 @@
+{
+ "model": "4B",
+ "split": "test",
+ "vllm": "0.33.0",
+ "load_s": 38.84219455718994,
+ "stage1_s": 284.0925877094269,
+ "stage2_s": 2.86102294921875e-06,
+ "stage1_prompts": 3600,
+ "stage2_prompts": 0,
+ "rows": {
+  "1B:dinj:assistant/other/F0": {
+   "n": 300,
+   "truncated": 3
+  },
+  "1B:dinj:assistant/other/F1": {
+   "n": 300,
+   "truncated": 2
+  },
+  "1B:dinj:assistant/other/F3(1.0)": {
+   "n": 300,
+   "truncated": 3
+  },
+  "1B:dinj:assistant/self/F0": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:assistant/self/F1": {
+   "n": 300,
+   "truncated": 3
+  },
+  "1B:dinj:assistant/self/F3(1.0)": {
+   "n": 300,
+   "truncated": 5
+  },
+  "1B:dinj:user/other/F0": {
+   "n": 300,
+   "truncated": 3
+  },
+  "1B:dinj:user/other/F1": {
+   "n": 300,
+   "truncated": 5
+  },
+  "1B:dinj:user/other/F3(1.0)": {
+   "n": 300,
+   "truncated": 3
+  },
+  "1B:dinj:user/self/F0": {
+   "n": 300,
+   "truncated": 0
+  },
+  "1B:dinj:user/self/F1": {
+   "n": 300,
+   "truncated": 4
+  },
+  "1B:dinj:user/self/F3(1.0)": {
+   "n": 300,
+   "truncated": 5
+  }
+ },
+ "scorer_guarded": [],
+ "score_s": 4.4265100955963135
+}

@@ -1,0 +1,93 @@
+{
+ "analysis": "c1_budget_total",
+ "plan_sha256_lf": "58c4369c429d4f9d39d866916226cac478a83cc6818210b859dcbfcc7604f7fe",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "git_head": "73a1ac12cfabea110e0bccf5d6e4d6cc671921c6",
+ "code_dirty": false,
+ "scripts": {
+  "analysis/arr/a0_common_labels.py": "5fcd5ef71b2a7fab4c0c4ac6af5f973ff53d7c70855abbf085f480ed5a39cd7d",
+  "analysis/arr/a1a2_replays.py": "5e1f8cc845ed67da9033f3ece792cc8063cac2b8b03ed2ebdd5bcf66ac3b7f57",
+  "analysis/arr/a3_b5.py": "4e8978a7338c616449393e22914ba398665a17c623a15f93061f444cc50180c4",
+  "analysis/arr/a3_dev_test.py": "a4c60edacaf2ef6884abb4412a612ffd99ff56026cb9ed6c19f4446e5abefe2b",
+  "analysis/arr/acl_v2_tex.py": "7fa547004fe69fd176ad71a38df8fdcd50f7a3bc2d247be29b3229a22562d93f",
+  "analysis/arr/b1_samples.py": "5ce66c0abf3cc61d21e88422d5acb76b231e458633e12d5f3c8a06bd03fb04cf",
+  "analysis/arr/b2_keep_strength.py": "9a322a66e855056a87bf89d269f04c6031356f1e262f79dab71b108a1652695a",
+  "analysis/arr/b3_paraphrases.py": "5078a3c496d4aaf9a9d8542b2bfae1ada0a0867b74cc7d462c463d387f65e477",
+  "analysis/arr/b4_critique.py": "47c09b4257eb6e9864713228419e12334feb6c5c189f8474a1eb5c0792aa86b0",
+  "analysis/arr/b4_select.py": "edb35ae28e986fe5e041ea401302453cd335358b7b5853e2452b8eebc18387f3",
+  "analysis/arr/c1_budget.py": "92a4fe7fde1be9eead427edb8bbe204aa6e637f8aad345af392dfdc8afe71f1c",
+  "analysis/arr/c1_budget_total.py": "bc61fdb1e89983dcd28105b1bbd6d7a139c0eb5eec806f61206427a5a4fdbf4b",
+  "analysis/arr/c1_think.py": "19d9d3eb30ff1d1a35aa571d5c63ba6e7e27e1ab12dc985e7ed958fc44284ad0",
+  "analysis/arr/check_runs_local.py": "c76c4b9c351246f32916dabef4e54dd50aa7765139d5f2e4ee3f8cc7ba84a9ce",
+  "analysis/arr/common.py": "47128dc3757d25a85fcf6fad0e1f9c3469508652816347e4bcd673ba5c733c50",
+  "analysis/arr/family_holm.py": "67126f5f1b9feaadb8382acf9b4163d90d8e17bdb730949eccd7b989fbcb8938",
+  "analysis/arr/tier_a_summary.py": "c4214e8ba128620aa7cab7443ac7f52ed51f8bdf35c6b3a3fb80a57f7fdcc344",
+  "analysis/arr/v2_review.py": "9cb0b28d2cf1cc2d8f64196aec65a823d9443cd89b5169fa7142a2c8ad589914"
+ },
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "versions": {
+  "numpy": "2.5.4",
+  "sympy": "1.14.0",
+  "math-verify": "0.9.0",
+  "psutil": "7.2.2"
+ },
+ "bootstrap": {
+  "replicates": 4000,
+  "seed": 20261110,
+  "unit": "canonical problem"
+ },
+ "inputs": {
+  "analysis/out/arr/a0_common_labels.json": {
+   "sha256": "932a49ced5d82f14b9e71c0f14bebd3d52d43bd42c2872f13ce6fe9179665e62",
+   "bytes": 5129
+  },
+  "analysis/out/arr/b2_keep_strength.json": {
+   "sha256": "b843a9ca790efeef3a23b75da61058ee659c0bb2ff6df625ea1b40cb4ef2f828",
+   "bytes": 242771
+  },
+  "analysis/out/arr/c1_labels.jsonl.gz": {
+   "sha256": "afefc47df5e84d157a960f0d06e18804383c06b1dffa4c45dc6f71df8721d5c3",
+   "bytes": 171509
+  },
+  "analysis/out/arr/c1_think.json": {
+   "sha256": "cb304cb9cdd198aac08f0e2668e604f324fc108519cdd338e2b2baa3e4e1ecc8",
+   "bytes": 201623
+  },
+  "analysis/out/arr/c1b_budget.json": {
+   "sha256": "4a17c67e711405c2d1867a4fc3f9d9d6e522d45486876c1dfc54174eeffc1359",
+   "bytes": 42703
+  },
+  "analysis/out/arr/c1b_labels.jsonl.gz": {
+   "sha256": "929301055ae4fd430c3fd5f1d0bdecd577c1a7fa2af02260be411a602775a790",
+   "bytes": 534879
+  },
+  "analysis/out/arr/math_common_labels.jsonl.gz": {
+   "sha256": "8cfc687b302d4c85c109790753a7a1426b3aab7ae0f5d6b7cf14896fc57b5005",
+   "bytes": 767301
+  },
+  "data/processed/mmlupro/items.jsonl": {
+   "sha256": "bb8751651d7eda5dfdf1d179acabe5a044cce2b60bc572879b59fafa7d92db61",
+   "bytes": 5089177
+  },
+  "paper/1区/artifacts/math/item_evaluations.jsonl": {
+   "sha256": "123be4ce262b43e77ec8f0394c2566b8ed04d69c5381848a76d9a284abdfde77",
+   "bytes": 62452390
+  },
+  "paper/1区/artifacts/mc/4B_items.jsonl": {
+   "sha256": "c09d508519b286d9a38f5bfa1c989e0cfd5991fd21400ac1e41ad0d144945bcf",
+   "bytes": 9430616
+  },
+  "paper/1区/artifacts/mc/summary.json": {
+   "sha256": "fa4b01d2f51f8adbaf3ab5b19e14bcd8daaa5950ec68be1591fa8572cc1958a4",
+   "bytes": 240998
+  },
+  "results/v2/fu/4B/fu-mc-consist-test-4B-9221b24/consistency.jsonl": {
+   "sha256": "16d43f45600bc2d81d1715ea9644693f8c0bed52b54121f1f936a679b88e43a0",
+   "bytes": 2177721
+  }
+ },
+ "scorer_guards": [],
+ "outputs": {
+  "c1b_total.json": "cc92374facd384b00824271dc1600f68794875777f91c222fc00154a8bb32d87"
+ }
+}

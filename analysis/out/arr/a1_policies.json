@@ -1,0 +1,5584 @@
+{
+ "plan_sha256_lf": "2edb8dbec62c629c6030c7db4f9b20b773447878434f4a14c6431ffaebabcfe5",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "settings": {
+  "math 1.7B": {
+   "n": 5052,
+   "a0_unanswered_pct": 3.127474267616785,
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 75.21773555027713,
+     "correct": 3800,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 3.127474267616785
+    },
+    "F0 ALL": {
+     "accuracy_pct": 75.55423594615995,
+     "correct": 3817,
+     "delta_vs_keep": {
+      "estimate": 0.33650039588281866,
+      "lo": 0.0791765637371338,
+      "hi": 0.5939417937042171,
+      "p_boot": 0.0125
+     },
+     "repairs": 30,
+     "damage": 13,
+     "repairs_completion": {
+      "estimate": 0.217735550277118,
+      "lo": 0.09897070467141725,
+      "hi": 0.3562240253314862,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.3760886777513856,
+      "lo": 0.21764938662445585,
+      "hi": 0.5541290037400859,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05945303210463733,
+      "p_boot": 0.7155
+     },
+     "damage_content": {
+      "estimate": 0.23752969121140144,
+      "lo": 0.11869436201780414,
+      "hi": 0.3763866877971474,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 468.16587490102927,
+     "prompt_tokens_per_item": 893.1421219319082,
+     "selected_n": null,
+     "final_unanswered_pct": 1.405384006334125
+    },
+    "F2 ALL": {
+     "accuracy_pct": 75.4750593824228,
+     "correct": 3813,
+     "delta_vs_keep": {
+      "estimate": 0.2573238321456849,
+      "lo": -0.19774765497267843,
+      "hi": 0.7320933913731698,
+      "p_boot": 0.292
+     },
+     "repairs": 75,
+     "damage": 62,
+     "repairs_completion": {
+      "estimate": 0.4156769596199525,
+      "lo": 0.2563922367575533,
+      "hi": 0.5941770647653001,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.0688836104513064,
+      "lo": 0.7926992430338194,
+      "hi": 1.3666072489601901,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.227236737925574,
+      "lo": 0.9301405105877696,
+      "hi": 1.5427215189873418,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 894.8248218527316,
+     "prompt_tokens_per_item": 2343.7745447347584,
+     "selected_n": null,
+     "final_unanswered_pct": 0.5542359461599367
+    },
+    "F2-scratch ALL": {
+     "accuracy_pct": 75.93032462391133,
+     "correct": 3836,
+     "delta_vs_keep": {
+      "estimate": 0.7125890736342043,
+      "lo": 0.3561517803567172,
+      "hi": 1.0688889009067135,
+      "p_boot": 0.0
+     },
+     "repairs": 59,
+     "damage": 23,
+     "repairs_completion": {
+      "estimate": 0.35629453681710216,
+      "lo": 0.19798059790140568,
+      "hi": 0.5345476143337953,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.8115597783056215,
+      "lo": 0.5740300870942201,
+      "hi": 1.0686773643558798,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.09897070467141725,
+      "lo": 0.019805902158843335,
+      "hi": 0.1979414093428345,
+      "p_boot": 0.011
+     },
+     "damage_content": {
+      "estimate": 0.35629453681710216,
+      "lo": 0.19801882187822822,
+      "hi": 0.5346534653465347,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1012.1660728424387,
+     "prompt_tokens_per_item": 2331.684085510689,
+     "selected_n": null,
+     "final_unanswered_pct": 1.5043547110055424
+    },
+    "ANSWERLESS->F2": {
+     "accuracy_pct": 75.63341250989707,
+     "correct": 3821,
+     "delta_vs_keep": {
+      "estimate": 0.4156769596199525,
+      "lo": 0.2563922367575533,
+      "hi": 0.5941770647653001,
+      "p_boot": 0.0
+     },
+     "repairs": 21,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.4156769596199525,
+      "lo": 0.2563922367575533,
+      "hi": 0.5941770647653001,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 64.2375296912114,
+     "prompt_tokens_per_item": 293.27236737925574,
+     "selected_n": 158,
+     "final_unanswered_pct": 0.4750593824228029
+    },
+    "ANSWERLESS->F2-scratch": {
+     "accuracy_pct": 75.57403008709423,
+     "correct": 3818,
+     "delta_vs_keep": {
+      "estimate": 0.35629453681710216,
+      "lo": 0.19798059790140568,
+      "hi": 0.5345476143337953,
+      "p_boot": 0.0
+     },
+     "repairs": 18,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.35629453681710216,
+      "lo": 0.19798059790140568,
+      "hi": 0.5345476143337953,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 80.7541567695962,
+     "prompt_tokens_per_item": 295.3853919239905,
+     "selected_n": 158,
+     "final_unanswered_pct": 1.3262074425969912
+    },
+    "REF DETECT->F2 10%": {
+     "accuracy_pct": 75.79176563737133,
+     "correct": 3829,
+     "delta_vs_keep": {
+      "estimate": 0.5740300870942201,
+      "lo": 0.37623762376237624,
+      "hi": 0.7927110229103349,
+      "p_boot": 0.0
+     },
+     "repairs": 29,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.13855898653998416,
+      "lo": 0.039603960396039604,
+      "hi": 0.23776618690374687,
+      "p_boot": 0.003
+     },
+     "repairs_content": {
+      "estimate": 0.435471100554236,
+      "lo": 0.27689736528887143,
+      "hi": 0.6331618519984171,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 128.8562945368171,
+     "prompt_tokens_per_item": 416.242478226445,
+     "selected_n": 505,
+     "final_unanswered_pct": 2.0783847980997625
+    },
+    "REF BENEFIT->F2 10%": {
+     "accuracy_pct": 76.70229612034838,
+     "correct": 3875,
+     "delta_vs_keep": {
+      "estimate": 1.4845605700712587,
+      "lo": 1.1687797147385102,
+      "hi": 1.840499905279571,
+      "p_boot": 0.0
+     },
+     "repairs": 75,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.4156769596199525,
+      "lo": 0.2563922367575533,
+      "hi": 0.5941770647653001,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.0688836104513064,
+      "lo": 0.7926992430338194,
+      "hi": 1.3666072489601901,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 96.36777513855898,
+     "prompt_tokens_per_item": 266.56927949327,
+     "selected_n": 505,
+     "final_unanswered_pct": 2.494061757719715
+    },
+    "REF DETECT->F2 20%": {
+     "accuracy_pct": 76.50435471100553,
+     "correct": 3865,
+     "delta_vs_keep": {
+      "estimate": 1.2866191607284245,
+      "lo": 0.9899029895070284,
+      "hi": 1.603960396039604,
+      "p_boot": 0.0
+     },
+     "repairs": 65,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.33650039588281866,
+      "lo": 0.19774569903104605,
+      "hi": 0.4953486778297876,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.9501187648456058,
+      "lo": 0.6932065755595167,
+      "hi": 1.227965933848287,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 253.35787806809185,
+     "prompt_tokens_per_item": 824.3232383214569,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.1678543151227236
+    },
+    "REF BENEFIT->F2 20%": {
+     "accuracy_pct": 76.70229612034838,
+     "correct": 3875,
+     "delta_vs_keep": {
+      "estimate": 1.4845605700712587,
+      "lo": 1.1687797147385102,
+      "hi": 1.840499905279571,
+      "p_boot": 0.0
+     },
+     "repairs": 75,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.4156769596199525,
+      "lo": 0.2563922367575533,
+      "hi": 0.5941770647653001,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.0688836104513064,
+      "lo": 0.7926992430338194,
+      "hi": 1.3666072489601901,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 188.14034045922406,
+     "prompt_tokens_per_item": 512.0067300079177,
+     "selected_n": 1010,
+     "final_unanswered_pct": 2.197149643705463
+    }
+   },
+   "contrasts": [
+    {
+     "setting": "math 1.7B",
+     "a": "ANSWERLESS->F2",
+     "b": "F2 ALL",
+     "family_member": 4,
+     "difference": {
+      "estimate": 0.1583531274742676,
+      "lo": -0.2769014735790175,
+      "hi": 0.5741437339140765,
+      "p_boot": 0.5045
+     },
+     "token_difference": -830.5872921615202
+    },
+    {
+     "setting": "math 1.7B",
+     "a": "ANSWERLESS->F2",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.4156769596199525,
+      "lo": 0.2563922367575533,
+      "hi": 0.5941770647653001,
+      "p_boot": 0.0
+     },
+     "token_difference": 64.2375296912114
+    },
+    {
+     "setting": "math 1.7B",
+     "a": "ANSWERLESS->F2-scratch",
+     "b": "F2-scratch ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.35629453681710216,
+      "lo": -0.6730007917656373,
+      "hi": -0.0395882818685669,
+      "p_boot": 0.035
+     },
+     "token_difference": -931.4119160728425
+    }
+   ],
+   "mean_samples_drawn": null
+  },
+  "math 4B": {
+   "n": 5052,
+   "a0_unanswered_pct": 4.216152019002376,
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 85.19398258115598,
+     "correct": 4304,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 4.216152019002376
+    },
+    "F0 ALL": {
+     "accuracy_pct": 86.08471892319874,
+     "correct": 4349,
+     "delta_vs_keep": {
+      "estimate": 0.8907363420427553,
+      "lo": 0.6127693220003954,
+      "hi": 1.189484383059014,
+      "p_boot": 0.0
+     },
+     "repairs": 52,
+     "damage": 7,
+     "repairs_completion": {
+      "estimate": 0.8115597783056215,
+      "lo": 0.5739164852562835,
+      "hi": 1.0688836104513064,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.217735550277118,
+      "lo": 0.09895111814763506,
+      "hi": 0.35636507622253016,
+      "p_boot": 0.0005
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.13855898653998416,
+      "lo": 0.03961180431768667,
+      "hi": 0.23785926660059467,
+      "p_boot": 0.0015
+     },
+     "generated_tokens_per_item": 354.2842438638163,
+     "prompt_tokens_per_item": 911.3950910530483,
+     "selected_n": null,
+     "final_unanswered_pct": 1.801266825019794
+    },
+    "F2 ALL": {
+     "accuracy_pct": 86.69833729216153,
+     "correct": 4380,
+     "delta_vs_keep": {
+      "estimate": 1.5043547110055424,
+      "lo": 1.008257065064696,
+      "hi": 2.0379897111199052,
+      "p_boot": 0.0
+     },
+     "repairs": 127,
+     "damage": 51,
+     "repairs_completion": {
+      "estimate": 1.009501187648456,
+      "lo": 0.7515822784810127,
+      "hi": 1.2866191607284245,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.5043547110055424,
+      "lo": 1.1869436201780417,
+      "hi": 1.8606492478226444,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.09897070467141725,
+      "lo": 0.019798059790140567,
+      "hi": 0.19786307874950534,
+      "p_boot": 0.0125
+     },
+     "damage_content": {
+      "estimate": 0.9105304829770388,
+      "lo": 0.6530773797743914,
+      "hi": 1.1864741941862764,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 835.7790973871734,
+     "prompt_tokens_per_item": 2462.0635391923993,
+     "selected_n": null,
+     "final_unanswered_pct": 1.3064133016627077
+    },
+    "F2-scratch ALL": {
+     "accuracy_pct": 86.16389548693587,
+     "correct": 4353,
+     "delta_vs_keep": {
+      "estimate": 0.9699129057798892,
+      "lo": 0.6535947712418301,
+      "hi": 1.2871350860576252,
+      "p_boot": 0.0
+     },
+     "repairs": 59,
+     "damage": 10,
+     "repairs_completion": {
+      "estimate": 0.9501187648456058,
+      "lo": 0.6923837784371909,
+      "hi": 1.2083993660855785,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.217735550277118,
+      "lo": 0.09900941093911411,
+      "hi": 0.35636507622253016,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.13855898653998416,
+      "lo": 0.039619651347068144,
+      "hi": 0.25717111770524237,
+      "p_boot": 0.002
+     },
+     "damage_content": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13847675568743817,
+      "p_boot": 0.0995
+     },
+     "generated_tokens_per_item": 921.4224069675377,
+     "prompt_tokens_per_item": 2389.5019794140935,
+     "selected_n": null,
+     "final_unanswered_pct": 1.8606492478226444
+    },
+    "ANSWERLESS->F2": {
+     "accuracy_pct": 86.20348376880443,
+     "correct": 4355,
+     "delta_vs_keep": {
+      "estimate": 1.009501187648456,
+      "lo": 0.7515822784810127,
+      "hi": 1.2866191607284245,
+      "p_boot": 0.0
+     },
+     "repairs": 51,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 1.009501187648456,
+      "lo": 0.7515822784810127,
+      "hi": 1.2866191607284245,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 89.5647268408551,
+     "prompt_tokens_per_item": 399.52929532858275,
+     "selected_n": 213,
+     "final_unanswered_pct": 1.0292953285827395
+    },
+    "ANSWERLESS->F2-scratch": {
+     "accuracy_pct": 86.14410134600158,
+     "correct": 4352,
+     "delta_vs_keep": {
+      "estimate": 0.9501187648456058,
+      "lo": 0.6923837784371909,
+      "hi": 1.2083993660855785,
+      "p_boot": 0.0
+     },
+     "repairs": 48,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.9501187648456058,
+      "lo": 0.6923837784371909,
+      "hi": 1.2083993660855785,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 101.28147268408551,
+     "prompt_tokens_per_item": 402.28444180522564,
+     "selected_n": 213,
+     "final_unanswered_pct": 1.623119556611243
+    },
+    "REF DETECT->F2 10%": {
+     "accuracy_pct": 86.93586698337292,
+     "correct": 4392,
+     "delta_vs_keep": {
+      "estimate": 1.741884402216944,
+      "lo": 1.385315654066891,
+      "hi": 2.118402884636118,
+      "p_boot": 0.0
+     },
+     "repairs": 88,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.7125890736342043,
+      "lo": 0.49485352335708627,
+      "hi": 0.949367088607595,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.0292953285827395,
+      "lo": 0.77060242263647,
+      "hi": 1.324117215278684,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 147.8992478226445,
+     "prompt_tokens_per_item": 538.2264449722882,
+     "selected_n": 505,
+     "final_unanswered_pct": 1.9002375296912115
+    },
+    "REF BENEFIT->F2 10%": {
+     "accuracy_pct": 87.70783847980998,
+     "correct": 4431,
+     "delta_vs_keep": {
+      "estimate": 2.5138558986539983,
+      "lo": 2.096508622901455,
+      "hi": 2.9499255122502945,
+      "p_boot": 0.0
+     },
+     "repairs": 127,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 1.009501187648456,
+      "lo": 0.7515822784810127,
+      "hi": 1.2866191607284245,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.5043547110055424,
+      "lo": 1.1869436201780417,
+      "hi": 1.8606492478226444,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 95.8095803642122,
+     "prompt_tokens_per_item": 314.097585114806,
+     "selected_n": 505,
+     "final_unanswered_pct": 3.0878859857482186
+    },
+    "REF DETECT->F2 20%": {
+     "accuracy_pct": 87.6682501979414,
+     "correct": 4429,
+     "delta_vs_keep": {
+      "estimate": 2.4742676167854314,
+      "lo": 2.040806219476697,
+      "hi": 2.9255516992875448,
+      "p_boot": 0.0
+     },
+     "repairs": 127,
+     "damage": 2,
+     "repairs_completion": {
+      "estimate": 1.009501187648456,
+      "lo": 0.7515822784810127,
+      "hi": 1.2866191607284245,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.5043547110055424,
+      "lo": 1.1869436201780417,
+      "hi": 1.8606492478226444,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0395882818685669,
+      "lo": 0.0,
+      "hi": 0.09900990099009901,
+      "p_boot": 0.2985
+     },
+     "generated_tokens_per_item": 253.71041171813144,
+     "prompt_tokens_per_item": 880.305423594616,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.2074425969912905
+    },
+    "REF BENEFIT->F2 20%": {
+     "accuracy_pct": 87.70783847980998,
+     "correct": 4431,
+     "delta_vs_keep": {
+      "estimate": 2.5138558986539983,
+      "lo": 2.096508622901455,
+      "hi": 2.9499255122502945,
+      "p_boot": 0.0
+     },
+     "repairs": 127,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 1.009501187648456,
+      "lo": 0.7515822784810127,
+      "hi": 1.2866191607284245,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.5043547110055424,
+      "lo": 1.1869436201780417,
+      "hi": 1.8606492478226444,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 180.55067300079176,
+     "prompt_tokens_per_item": 564.7359461599367,
+     "selected_n": 1010,
+     "final_unanswered_pct": 2.7909738717339665
+    },
+    "V1": {
+     "accuracy_pct": 86.22327790973871,
+     "correct": 4356,
+     "delta_vs_keep": {
+      "estimate": 1.0292953285827395,
+      "lo": 0.1780758901783586,
+      "hi": 1.840509016619439,
+      "p_boot": 0.019
+     },
+     "repairs": 259,
+     "damage": 207,
+     "repairs_completion": {
+      "estimate": 1.623119556611243,
+      "lo": 1.2861100118717848,
+      "hi": 1.9802078247040393,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.503562945368171,
+      "lo": 3.006923837784372,
+      "hi": 4.015845779527688,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.4750593824228029,
+      "lo": 0.296794618124258,
+      "hi": 0.6727344677483181,
+      "p_boot": 0.0
+     },
+     "damage_content": {
+      "estimate": 3.622327790973872,
+      "lo": 3.1228679970794575,
+      "hi": 4.157592555929519,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 745.4212193190815,
+     "prompt_tokens_per_item": 95.11935866983373,
+     "selected_n": null,
+     "final_unanswered_pct": 2.23673792557403
+    },
+    "V3": {
+     "accuracy_pct": 88.44022169437847,
+     "correct": 4468,
+     "delta_vs_keep": {
+      "estimate": 3.246239113222486,
+      "lo": 2.437562241917651,
+      "hi": 4.03245734346966,
+      "p_boot": 0.0
+     },
+     "repairs": 293,
+     "damage": 129,
+     "repairs_completion": {
+      "estimate": 1.9992082343626285,
+      "lo": 1.623416811365387,
+      "hi": 2.3965141612200433,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.800475059382423,
+      "lo": 3.2660332541567696,
+      "hi": 4.355573153830925,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.09897070467141725,
+      "lo": 0.019797961818744138,
+      "hi": 0.19778578829082624,
+      "p_boot": 0.0135
+     },
+     "damage_content": {
+      "estimate": 2.454473475851148,
+      "lo": 2.056138514520356,
+      "hi": 2.8712871287128716,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2228.9774346793347,
+     "prompt_tokens_per_item": 285.3580760095012,
+     "selected_n": null,
+     "final_unanswered_pct": 0.49485352335708627
+    },
+    "V5": {
+     "accuracy_pct": 89.50910530482977,
+     "correct": 4522,
+     "delta_vs_keep": {
+      "estimate": 4.315122723673793,
+      "lo": 3.5261315102486908,
+      "hi": 5.069306930693069,
+      "p_boot": 0.0
+     },
+     "repairs": 307,
+     "damage": 89,
+     "repairs_completion": {
+      "estimate": 2.1773555027711797,
+      "lo": 1.781825381112651,
+      "hi": 2.59200633161852,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.8994457640538402,
+      "lo": 3.365670164323896,
+      "hi": 4.45191927186387,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0395882818685669,
+      "lo": 0.0,
+      "hi": 0.09900990099009901,
+      "p_boot": 0.256
+     },
+     "damage_content": {
+      "estimate": 1.72209026128266,
+      "lo": 1.3858641853098397,
+      "hi": 2.0800316957210776,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3723.327988915281,
+     "prompt_tokens_per_item": 475.59679334916865,
+     "selected_n": null,
+     "final_unanswered_pct": 0.3167062549485352
+    },
+    "ANSWERLESS->s1": {
+     "accuracy_pct": 86.81710213776722,
+     "correct": 4386,
+     "delta_vs_keep": {
+      "estimate": 1.623119556611243,
+      "lo": 1.2861100118717848,
+      "hi": 1.9802078247040393,
+      "p_boot": 0.0
+     },
+     "repairs": 82,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 1.623119556611243,
+      "lo": 1.2861100118717848,
+      "hi": 1.9802078247040393,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 109.41092636579573,
+     "prompt_tokens_per_item": 5.6191607284243865,
+     "selected_n": 213,
+     "final_unanswered_pct": 1.227236737925574
+    },
+    "VOTE+a0 k3": {
+     "accuracy_pct": 89.09342834520982,
+     "correct": 4501,
+     "delta_vs_keep": {
+      "estimate": 3.8994457640538402,
+      "lo": 3.3003463670010826,
+      "hi": 4.511300515289808,
+      "p_boot": 0.0
+     },
+     "repairs": 223,
+     "damage": 26,
+     "repairs_completion": {
+      "estimate": 1.9992082343626285,
+      "lo": 1.623416811365387,
+      "hi": 2.3965141612200433,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 2.414885193982581,
+      "lo": 2.0007923930269413,
+      "hi": 2.849228333992877,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.5146476642913698,
+      "lo": 0.33643380170195925,
+      "hi": 0.7130160088815817,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2228.9774346793347,
+     "prompt_tokens_per_item": 285.3580760095012,
+     "selected_n": null,
+     "final_unanswered_pct": 0.3760886777513856
+    },
+    "VOTE+a0 k5": {
+     "accuracy_pct": 89.56848772763261,
+     "correct": 4525,
+     "delta_vs_keep": {
+      "estimate": 4.3745051464766425,
+      "lo": 3.7271637021872994,
+      "hi": 5.0257470652789955,
+      "p_boot": 0.0
+     },
+     "repairs": 255,
+     "damage": 34,
+     "repairs_completion": {
+      "estimate": 2.1773555027711797,
+      "lo": 1.781825381112651,
+      "hi": 2.59200633161852,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 2.8701504354711007,
+      "lo": 2.416798732171157,
+      "hi": 3.3459052385415253,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.6730007917656373,
+      "lo": 0.45535312183111515,
+      "hi": 0.9105304829770388,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3723.327988915281,
+     "prompt_tokens_per_item": 475.59679334916865,
+     "selected_n": null,
+     "final_unanswered_pct": 0.2573238321456849
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 88.77672209026129,
+     "correct": 4485,
+     "delta_vs_keep": {
+      "estimate": 3.5827395091053047,
+      "lo": 2.9329581709657293,
+      "hi": 4.258637165863559,
+      "p_boot": 0.0
+     },
+     "repairs": 234,
+     "damage": 53,
+     "repairs_completion": {
+      "estimate": 1.6033254156769599,
+      "lo": 1.2660731948565775,
+      "hi": 1.9600079192239162,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.0285035629453683,
+      "lo": 2.571711177052423,
+      "hi": 3.524072088460083,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.7245
+     },
+     "damage_content": {
+      "estimate": 1.0292953285827395,
+      "lo": 0.7524752475247525,
+      "hi": 1.3256826276216858,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3873.9853523357087,
+     "prompt_tokens_per_item": 1027.6583531274744,
+     "selected_n": 505,
+     "final_unanswered_pct": 0.870942201108472
+    },
+    "HYBRID-agree 10%": {
+     "accuracy_pct": 86.79730799683294,
+     "correct": 4385,
+     "delta_vs_keep": {
+      "estimate": 1.6033254156769599,
+      "lo": 1.06973058637084,
+      "hi": 2.1567395823385014,
+      "p_boot": 0.0
+     },
+     "repairs": 143,
+     "damage": 62,
+     "repairs_completion": {
+      "estimate": 1.049089469517023,
+      "lo": 0.7727324520348658,
+      "hi": 1.327258320126783,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.7814726840855106,
+      "lo": 1.4428556396935295,
+      "hi": 2.1571343756184445,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.7245
+     },
+     "damage_content": {
+      "estimate": 1.2074425969912905,
+      "lo": 0.9110669890518462,
+      "hi": 1.5068169325311491,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3886.846793349169,
+     "prompt_tokens_per_item": 1104.1793349168647,
+     "selected_n": 505,
+     "final_unanswered_pct": 1.187648456057007
+    },
+    "AGREE->F2 10%": {
+     "accuracy_pct": 86.73792557403009,
+     "correct": 4382,
+     "delta_vs_keep": {
+      "estimate": 1.5439429928741093,
+      "lo": 1.1876425800998724,
+      "hi": 1.9173749752915594,
+      "p_boot": 0.0
+     },
+     "repairs": 85,
+     "damage": 7,
+     "repairs_completion": {
+      "estimate": 0.9699129057798892,
+      "lo": 0.7123070834982193,
+      "hi": 1.2284586323360256,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.7125890736342043,
+      "lo": 0.49485352335708627,
+      "hi": 0.9501187648456058,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.7245
+     },
+     "damage_content": {
+      "estimate": 0.11876484560570072,
+      "lo": 0.03956478733926805,
+      "hi": 0.2178649237472767,
+      "p_boot": 0.004
+     },
+     "generated_tokens_per_item": 3886.846793349169,
+     "prompt_tokens_per_item": 1104.1793349168647,
+     "selected_n": 505,
+     "final_unanswered_pct": 1.2866191607284245
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 87.74742676167855,
+     "correct": 4433,
+     "delta_vs_keep": {
+      "estimate": 2.553444180522565,
+      "lo": 2.019791983157928,
+      "hi": 3.10955744463128,
+      "p_boot": 0.0
+     },
+     "repairs": 167,
+     "damage": 38,
+     "repairs_completion": {
+      "estimate": 1.2866191607284245,
+      "lo": 0.9891196834817012,
+      "hi": 1.6033333513600705,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 2.019002375296912,
+      "lo": 1.6620416416646804,
+      "hi": 2.4166708051257735,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13850415512465375,
+      "p_boot": 0.1025
+     },
+     "damage_content": {
+      "estimate": 0.6927949326999208,
+      "lo": 0.47496536710864834,
+      "hi": 0.9301405105877696,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3985.389152810768,
+     "prompt_tokens_per_item": 1393.4742676167855,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.0886777513855899
+    },
+    "HYBRID-agree 20%": {
+     "accuracy_pct": 87.03483768804435,
+     "correct": 4397,
+     "delta_vs_keep": {
+      "estimate": 1.840855106888361,
+      "lo": 1.3861317531475976,
+      "hi": 2.3168316831683167,
+      "p_boot": 0.0
+     },
+     "repairs": 119,
+     "damage": 26,
+     "repairs_completion": {
+      "estimate": 1.009501187648456,
+      "lo": 0.7515822784810127,
+      "hi": 1.2866191607284245,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.3460015835312746,
+      "lo": 1.048669131050334,
+      "hi": 1.6821773327824034,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13850415512465375,
+      "p_boot": 0.1025
+     },
+     "damage_content": {
+      "estimate": 0.4552652414885194,
+      "lo": 0.27717283706196794,
+      "hi": 0.6530773797743914,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3994.9574425969913,
+     "prompt_tokens_per_item": 1441.6759699129059,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.2668250197941409
+    },
+    "AGREE->F2 20%": {
+     "accuracy_pct": 86.99524940617577,
+     "correct": 4395,
+     "delta_vs_keep": {
+      "estimate": 1.801266825019794,
+      "lo": 1.3646949578830558,
+      "hi": 2.2758757173956066,
+      "p_boot": 0.0
+     },
+     "repairs": 117,
+     "damage": 26,
+     "repairs_completion": {
+      "estimate": 0.9897070467141725,
+      "lo": 0.7316482416655659,
+      "hi": 1.2663299692041565,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.3262074425969912,
+      "lo": 1.0288829210305164,
+      "hi": 1.661721068249258,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13850415512465375,
+      "p_boot": 0.1025
+     },
+     "damage_content": {
+      "estimate": 0.4552652414885194,
+      "lo": 0.27717283706196794,
+      "hi": 0.6530773797743914,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3994.9574425969913,
+     "prompt_tokens_per_item": 1441.6759699129059,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.2866191607284245
+    },
+    "STOP-decided": {
+     "accuracy_pct": 89.50910530482977,
+     "correct": 4522,
+     "delta_vs_keep": {
+      "estimate": 4.315122723673793,
+      "lo": 3.5261315102486908,
+      "hi": 5.069306930693069,
+      "p_boot": 0.0
+     },
+     "repairs": 307,
+     "damage": 89,
+     "repairs_completion": {
+      "estimate": 2.1773555027711797,
+      "lo": 1.781825381112651,
+      "hi": 2.59200633161852,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.8994457640538402,
+      "lo": 3.365670164323896,
+      "hi": 4.45191927186387,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0395882818685669,
+      "lo": 0.0,
+      "hi": 0.09900990099009901,
+      "p_boot": 0.256
+     },
+     "damage_content": {
+      "estimate": 1.72209026128266,
+      "lo": 1.3858641853098397,
+      "hi": 2.0800316957210776,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2731.1462787015043,
+     "prompt_tokens_per_item": 327.36421219319084,
+     "selected_n": null,
+     "final_unanswered_pct": 0.3167062549485352
+    },
+    "STOP-2": {
+     "accuracy_pct": 89.54869358669833,
+     "correct": 4524,
+     "delta_vs_keep": {
+      "estimate": 4.3547110055423595,
+      "lo": 3.562187411538953,
+      "hi": 5.126682501979414,
+      "p_boot": 0.0
+     },
+     "repairs": 309,
+     "damage": 89,
+     "repairs_completion": {
+      "estimate": 2.1575613618368963,
+      "lo": 1.7623675147162308,
+      "hi": 2.5722327499459428,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.95882818685669,
+      "lo": 3.42369175226963,
+      "hi": 4.524909337881642,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0395882818685669,
+      "lo": 0.0,
+      "hi": 0.09900990099009901,
+      "p_boot": 0.256
+     },
+     "damage_content": {
+      "estimate": 1.72209026128266,
+      "lo": 1.3858641853098397,
+      "hi": 2.0788065690354425,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2263.3661916072842,
+     "prompt_tokens_per_item": 253.87173396674584,
+     "selected_n": null,
+     "final_unanswered_pct": 0.3167062549485352
+    },
+    "GATE-a0": {
+     "accuracy_pct": 89.62787015043547,
+     "correct": 4528,
+     "delta_vs_keep": {
+      "estimate": 4.433887569279493,
+      "lo": 3.800475059382423,
+      "hi": 5.085106282585442,
+      "p_boot": 0.0
+     },
+     "repairs": 254,
+     "damage": 30,
+     "repairs_completion": {
+      "estimate": 2.1773555027711797,
+      "lo": 1.781825381112651,
+      "hi": 2.59200633161852,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 2.8503562945368173,
+      "lo": 2.397451966569712,
+      "hi": 3.3247575697605383,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.5938242280285035,
+      "lo": 0.3957261574990107,
+      "hi": 0.8117204513957633,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1829.9206254948535,
+     "prompt_tokens_per_item": 180.45190023752969,
+     "selected_n": null,
+     "final_unanswered_pct": 0.2573238321456849
+    },
+    "REF BEST(a0,V5)": {
+     "accuracy_pct": 91.270783847981,
+     "correct": 4611,
+     "delta_vs_keep": {
+      "estimate": 6.0768012668250195,
+      "lo": 5.409153952843273,
+      "hi": 6.751138388437933,
+      "p_boot": 0.0
+     },
+     "repairs": 307,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 2.1773555027711797,
+      "lo": 1.781825381112651,
+      "hi": 2.59200633161852,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.8994457640538402,
+      "lo": 3.365670164323896,
+      "hi": 4.45191927186387,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 3723.327988915281,
+     "prompt_tokens_per_item": 475.59679334916865,
+     "selected_n": null,
+     "final_unanswered_pct": 0.2573238321456849
+    }
+   },
+   "contrasts": [
+    {
+     "setting": "math 4B",
+     "a": "HYBRID-margin 20%",
+     "b": "V5",
+     "family_member": 1,
+     "difference": {
+      "estimate": -1.7616785431512274,
+      "lo": -2.3950910530482976,
+      "hi": -1.107375914573858,
+      "p_boot": 0.0
+     },
+     "token_difference": 262.0611638954869
+    },
+    {
+     "setting": "math 4B",
+     "a": "VOTE+a0 k5",
+     "b": "V5",
+     "family_member": 2,
+     "difference": {
+      "estimate": 0.05938242280285036,
+      "lo": -0.3361676883527783,
+      "hi": 0.47459202434024284,
+      "p_boot": 0.7905
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "math 4B",
+     "a": "V1",
+     "b": "F2 ALL",
+     "family_member": 3,
+     "difference": {
+      "estimate": -0.4750593824228029,
+      "lo": -1.3462880677313276,
+      "hi": 0.3167689566422491,
+      "p_boot": 0.2525
+     },
+     "token_difference": -90.35787806809185
+    },
+    {
+     "setting": "math 4B",
+     "a": "ANSWERLESS->F2",
+     "b": "F2 ALL",
+     "family_member": 4,
+     "difference": {
+      "estimate": -0.49485352335708627,
+      "lo": -0.9316899202067584,
+      "hi": -0.0594059405940594,
+      "p_boot": 0.0275
+     },
+     "token_difference": -746.2143705463183
+    },
+    {
+     "setting": "math 4B",
+     "a": "HYBRID-margin 10%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.7323832145684878,
+      "lo": -1.227734932764275,
+      "hi": -0.21782070406605103,
+      "p_boot": 0.004
+     },
+     "token_difference": 150.65736342042754
+    },
+    {
+     "setting": "math 4B",
+     "a": "HYBRID-agree 10%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -2.711797307996833,
+      "lo": -3.285193379316224,
+      "hi": -2.1390268438608566,
+      "p_boot": 0.0
+     },
+     "token_difference": 163.51880443388757
+    },
+    {
+     "setting": "math 4B",
+     "a": "HYBRID-agree 20%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -2.4742676167854314,
+      "lo": -3.1621335272477054,
+      "hi": -1.779295371121041,
+      "p_boot": 0.0
+     },
+     "token_difference": 271.62945368171023
+    },
+    {
+     "setting": "math 4B",
+     "a": "V5",
+     "b": "AGREE->F2 10%",
+     "family_member": null,
+     "difference": {
+      "estimate": 2.771179730799683,
+      "lo": 2.0577760189948555,
+      "hi": 3.4619188921859543,
+      "p_boot": 0.0
+     },
+     "token_difference": -163.51880443388757
+    },
+    {
+     "setting": "math 4B",
+     "a": "V5",
+     "b": "AGREE->F2 20%",
+     "family_member": null,
+     "difference": {
+      "estimate": 2.5138558986539983,
+      "lo": 1.8019356386677243,
+      "hi": 3.206016227983376,
+      "p_boot": 0.0
+     },
+     "token_difference": -271.62945368171023
+    },
+    {
+     "setting": "math 4B",
+     "a": "STOP-decided",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "token_difference": -992.1817102137767
+    },
+    {
+     "setting": "math 4B",
+     "a": "STOP-2",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.0395882818685669,
+      "lo": -0.07927070947284978,
+      "hi": 0.1780767708745548,
+      "p_boot": 0.6525
+     },
+     "token_difference": -1459.961797307997
+    },
+    {
+     "setting": "math 4B",
+     "a": "GATE-a0",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.11876484560570072,
+      "lo": -0.27700968076340926,
+      "hi": 0.5335019544237776,
+      "p_boot": 0.5885
+     },
+     "token_difference": -1893.4073634204276
+    },
+    {
+     "setting": "math 4B",
+     "a": "VOTE+a0 k3",
+     "b": "V3",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.1583531274742676,
+      "hi": 1.1676231941420938,
+      "p_boot": 0.014
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "math 4B",
+     "a": "ANSWERLESS->s1",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.623119556611243,
+      "lo": 1.2861100118717848,
+      "hi": 1.9802078247040393,
+      "p_boot": 0.0
+     },
+     "token_difference": 109.41092636579573
+    },
+    {
+     "setting": "math 4B",
+     "a": "ANSWERLESS->F2",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.009501187648456,
+      "lo": 0.7515822784810127,
+      "hi": 1.2866191607284245,
+      "p_boot": 0.0
+     },
+     "token_difference": 89.5647268408551
+    },
+    {
+     "setting": "math 4B",
+     "a": "ANSWERLESS->F2-scratch",
+     "b": "F2-scratch ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.01979414093428345,
+      "lo": -0.19801980198019803,
+      "hi": 0.1583217890362161,
+      "p_boot": 0.889
+     },
+     "token_difference": -820.1409342834521
+    },
+    {
+     "setting": "math 4B",
+     "a": "V1",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.0292953285827395,
+      "lo": 0.1780758901783586,
+      "hi": 1.840509016619439,
+      "p_boot": 0.019
+     },
+     "token_difference": 745.4212193190815
+    },
+    {
+     "setting": "math 4B",
+     "a": "V5",
+     "b": "V1",
+     "family_member": null,
+     "difference": {
+      "estimate": 3.285827395091053,
+      "lo": 2.6935893589358937,
+      "hi": 3.9002370866664964,
+      "p_boot": 0.0
+     },
+     "token_difference": 2977.9067695961994
+    },
+    {
+     "setting": "math 4B",
+     "a": "V3",
+     "b": "V1",
+     "family_member": null,
+     "difference": {
+      "estimate": 2.2169437846397466,
+      "lo": 1.699940699743032,
+      "hi": 2.7524752475247527,
+      "p_boot": 0.0
+     },
+     "token_difference": 1483.5562153602534
+    },
+    {
+     "setting": "math 4B",
+     "a": "V5",
+     "b": "V3",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.0688836104513064,
+      "lo": 0.6724650299872592,
+      "hi": 1.4831074122950882,
+      "p_boot": 0.0
+     },
+     "token_difference": 1494.3505542359462
+    },
+    {
+     "setting": "math 4B",
+     "a": "REF BEST(a0,V5)",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.7616785431512274,
+      "lo": 1.4243112242204081,
+      "hi": 2.136498516320475,
+      "p_boot": 0.0
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "math 4B",
+     "a": "V1",
+     "b": "F0 ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.13855898653998416,
+      "lo": -0.712596128971567,
+      "hi": 0.9308820115953983,
+      "p_boot": 0.767
+     },
+     "token_difference": 391.13697545526526
+    }
+   ],
+   "mean_samples_drawn": {
+    "STOP-decided": 3.293151227236738,
+    "STOP-2": 2.445961995249406,
+    "GATE-a0": 1.6167854315122723
+   }
+  },
+  "math 8B": {
+   "n": 5052,
+   "a0_unanswered_pct": 3.5827395091053047,
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 86.1243072050673,
+     "correct": 4351,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 3.5827395091053047
+    },
+    "F0 ALL": {
+     "accuracy_pct": 86.06492478226446,
+     "correct": 4348,
+     "delta_vs_keep": {
+      "estimate": -0.05938242280285036,
+      "lo": -0.29697236700506324,
+      "hi": 0.1780767708745548,
+      "p_boot": 0.6575
+     },
+     "repairs": 18,
+     "damage": 21,
+     "repairs_completion": {
+      "estimate": 0.29691211401425177,
+      "lo": 0.1583531274742676,
+      "hi": 0.4552652414885194,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13845005180357836,
+      "p_boot": 0.1015
+     },
+     "damage_format_loss": {
+      "estimate": 0.33650039588281866,
+      "lo": 0.19778481012658228,
+      "hi": 0.4955401387512388,
+      "p_boot": 0.0
+     },
+     "damage_content": {
+      "estimate": 0.0791765637371338,
+      "lo": 0.01977848101265823,
+      "hi": 0.1584793904021689,
+      "p_boot": 0.034
+     },
+     "generated_tokens_per_item": 482.4689231987332,
+     "prompt_tokens_per_item": 894.7343626286619,
+     "selected_n": null,
+     "final_unanswered_pct": 2.8503562945368173
+    },
+    "F2 ALL": {
+     "accuracy_pct": 86.87648456057006,
+     "correct": 4389,
+     "delta_vs_keep": {
+      "estimate": 0.7521773555027712,
+      "lo": 0.2770069402774467,
+      "hi": 1.2095345136162845,
+      "p_boot": 0.0005
+     },
+     "repairs": 95,
+     "damage": 57,
+     "repairs_completion": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.43581400688466976,
+      "hi": 0.8716323296354992,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.227236737925574,
+      "lo": 0.9306930693069306,
+      "hi": 1.5223483720931323,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.13855898653998416,
+      "lo": 0.039603960396039604,
+      "hi": 0.25722200237435694,
+      "p_boot": 0.003
+     },
+     "damage_content": {
+      "estimate": 0.9897070467141725,
+      "lo": 0.7316590864148704,
+      "hi": 1.2665805799773393,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 915.5963974663499,
+     "prompt_tokens_per_item": 2460.7682106096595,
+     "selected_n": null,
+     "final_unanswered_pct": 2.0387965162311956
+    },
+    "F2-scratch ALL": {
+     "accuracy_pct": 85.86698337292161,
+     "correct": 4338,
+     "delta_vs_keep": {
+      "estimate": -0.2573238321456849,
+      "lo": -0.5935921730644483,
+      "hi": 0.05938242280285036,
+      "p_boot": 0.1175
+     },
+     "repairs": 28,
+     "damage": 41,
+     "repairs_completion": {
+      "estimate": 0.217735550277118,
+      "lo": 0.09895111814763506,
+      "hi": 0.3562240253314862,
+      "p_boot": 0.0005
+     },
+     "repairs_content": {
+      "estimate": 0.33650039588281866,
+      "lo": 0.1977056263961881,
+      "hi": 0.49505195617600983,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.7521773555027712,
+      "lo": 0.5151575193184069,
+      "hi": 0.9900990099009901,
+      "p_boot": 0.0
+     },
+     "damage_content": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13850415512465375,
+      "p_boot": 0.103
+     },
+     "generated_tokens_per_item": 1052.1712193190815,
+     "prompt_tokens_per_item": 2398.1019398258118,
+     "selected_n": null,
+     "final_unanswered_pct": 3.95882818685669
+    },
+    "ANSWERLESS->F2": {
+     "accuracy_pct": 86.77751385589866,
+     "correct": 4384,
+     "delta_vs_keep": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.43581400688466976,
+      "hi": 0.8716323296354992,
+      "p_boot": 0.0
+     },
+     "repairs": 33,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.43581400688466976,
+      "hi": 0.8716323296354992,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 90.11084718923199,
+     "prompt_tokens_per_item": 341.95071258907365,
+     "selected_n": 181,
+     "final_unanswered_pct": 1.66270783847981
+    },
+    "ANSWERLESS->F2-scratch": {
+     "accuracy_pct": 86.34204275534442,
+     "correct": 4362,
+     "delta_vs_keep": {
+      "estimate": 0.217735550277118,
+      "lo": 0.09895111814763506,
+      "hi": 0.3562240253314862,
+      "p_boot": 0.0005
+     },
+     "repairs": 11,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.217735550277118,
+      "lo": 0.09895111814763506,
+      "hi": 0.3562240253314862,
+      "p_boot": 0.0005
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 102.48119556611243,
+     "prompt_tokens_per_item": 343.88836104513064,
+     "selected_n": 181,
+     "final_unanswered_pct": 2.5336500395882817
+    },
+    "REF DETECT->F2 10%": {
+     "accuracy_pct": 87.3317498020586,
+     "correct": 4412,
+     "delta_vs_keep": {
+      "estimate": 1.2074425969912905,
+      "lo": 0.9112519809825673,
+      "hi": 1.5052485640720936,
+      "p_boot": 0.0
+     },
+     "repairs": 61,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.4156769596199525,
+      "lo": 0.2569677801937142,
+      "hi": 0.613132911392405,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.791765637371338,
+      "lo": 0.5732358173552086,
+      "hi": 1.0297080688461004,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 167.18745051464765,
+     "prompt_tokens_per_item": 522.1029295328583,
+     "selected_n": 505,
+     "final_unanswered_pct": 2.315914489311164
+    },
+    "REF BENEFIT->F2 10%": {
+     "accuracy_pct": 88.00475059382423,
+     "correct": 4446,
+     "delta_vs_keep": {
+      "estimate": 1.880443388756928,
+      "lo": 1.5241413111281696,
+      "hi": 2.2551928783382786,
+      "p_boot": 0.0
+     },
+     "repairs": 95,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.43581400688466976,
+      "hi": 0.8716323296354992,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.227236737925574,
+      "lo": 0.9306930693069306,
+      "hi": 1.5223483720931323,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 100.96634996041172,
+     "prompt_tokens_per_item": 293.3016627078385,
+     "selected_n": 505,
+     "final_unanswered_pct": 2.8701504354711007
+    },
+    "REF DETECT->F2 20%": {
+     "accuracy_pct": 87.92557403008709,
+     "correct": 4442,
+     "delta_vs_keep": {
+      "estimate": 1.801266825019794,
+      "lo": 1.4260249554367201,
+      "hi": 2.176935371836052,
+      "p_boot": 0.0
+     },
+     "repairs": 95,
+     "damage": 4,
+     "repairs_completion": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.43581400688466976,
+      "hi": 0.8716323296354992,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.227236737925574,
+      "lo": 0.9306930693069306,
+      "hi": 1.5223483720931323,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0791765637371338,
+      "lo": 0.019774569903104607,
+      "hi": 0.17783222585231084,
+      "p_boot": 0.0405
+     },
+     "generated_tokens_per_item": 276.40914489311166,
+     "prompt_tokens_per_item": 839.9010292953286,
+     "selected_n": 1010,
+     "final_unanswered_pct": 1.9002375296912115
+    },
+    "REF BENEFIT->F2 20%": {
+     "accuracy_pct": 88.00475059382423,
+     "correct": 4446,
+     "delta_vs_keep": {
+      "estimate": 1.880443388756928,
+      "lo": 1.5241413111281696,
+      "hi": 2.2551928783382786,
+      "p_boot": 0.0
+     },
+     "repairs": 95,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.43581400688466976,
+      "hi": 0.8716323296354992,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.227236737925574,
+      "lo": 0.9306930693069306,
+      "hi": 1.5223483720931323,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 194.22149643705464,
+     "prompt_tokens_per_item": 544.1439034045923,
+     "selected_n": 1010,
+     "final_unanswered_pct": 2.7513855898654
+    }
+   },
+   "contrasts": [
+    {
+     "setting": "math 8B",
+     "a": "ANSWERLESS->F2",
+     "b": "F2 ALL",
+     "family_member": 4,
+     "difference": {
+      "estimate": -0.09897070467141725,
+      "lo": -0.5146502115476769,
+      "hi": 0.31708598105989527,
+      "p_boot": 0.685
+     },
+     "token_difference": -825.485550277118
+    },
+    {
+     "setting": "math 8B",
+     "a": "ANSWERLESS->F2",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.6532066508313539,
+      "lo": 0.43581400688466976,
+      "hi": 0.8716323296354992,
+      "p_boot": 0.0
+     },
+     "token_difference": 90.11084718923199
+    },
+    {
+     "setting": "math 8B",
+     "a": "ANSWERLESS->F2-scratch",
+     "b": "F2-scratch ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.4750593824228029,
+      "lo": 0.17828754827100127,
+      "hi": 0.7719714964370546,
+      "p_boot": 0.002
+     },
+     "token_difference": -949.6900237529691
+    }
+   ],
+   "mean_samples_drawn": null
+  },
+  "math T8B": {
+   "n": 5052,
+   "a0_unanswered_pct": 1.1678543151227236,
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 56.31433095803642,
+     "correct": 2845,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 1.1678543151227236
+    },
+    "F0 ALL": {
+     "accuracy_pct": 56.37371338083928,
+     "correct": 2848,
+     "delta_vs_keep": {
+      "estimate": 0.05938242280285036,
+      "lo": -0.07922360863537334,
+      "hi": 0.21764938662445585,
+      "p_boot": 0.501
+     },
+     "repairs": 9,
+     "damage": 6,
+     "repairs_completion": {
+      "estimate": 0.05938242280285036,
+      "lo": 0.0,
+      "hi": 0.13850415512465375,
+      "p_boot": 0.0975
+     },
+     "repairs_content": {
+      "estimate": 0.11876484560570072,
+      "lo": 0.03956478733926805,
+      "hi": 0.21777865769154622,
+      "p_boot": 0.006
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.11876484560570072,
+      "lo": 0.03955696202531646,
+      "hi": 0.21782178217821785,
+      "p_boot": 0.0035
+     },
+     "generated_tokens_per_item": 66.56631037212985,
+     "prompt_tokens_per_item": 753.0041567695962,
+     "selected_n": null,
+     "final_unanswered_pct": 0.6532066508313539
+    },
+    "F2 ALL": {
+     "accuracy_pct": 56.49247822644497,
+     "correct": 2854,
+     "delta_vs_keep": {
+      "estimate": 0.17814726840855108,
+      "lo": -0.07924008786360413,
+      "hi": 0.4552652414885194,
+      "p_boot": 0.2105
+     },
+     "repairs": 28,
+     "damage": 19,
+     "repairs_completion": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.741
+     },
+     "repairs_content": {
+      "estimate": 0.5344418052256532,
+      "lo": 0.33656535091865036,
+      "hi": 0.7334030403607815,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.3760886777513856,
+      "lo": 0.21769245992479713,
+      "hi": 0.5542359461599367,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 489.43171021377674,
+     "prompt_tokens_per_item": 1922.5607680126682,
+     "selected_n": null,
+     "final_unanswered_pct": 0.435471100554236
+    },
+    "F2-scratch ALL": {
+     "accuracy_pct": 57.64053840063341,
+     "correct": 2912,
+     "delta_vs_keep": {
+      "estimate": 1.3262074425969912,
+      "lo": 0.8894000627396024,
+      "hi": 1.7603022248951827,
+      "p_boot": 0.0
+     },
+     "repairs": 97,
+     "damage": 30,
+     "repairs_completion": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.7255
+     },
+     "repairs_content": {
+      "estimate": 1.9002375296912115,
+      "lo": 1.5442486636309642,
+      "hi": 2.294769016872965,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.5938242280285035,
+      "lo": 0.3957261574990107,
+      "hi": 0.8117204513957633,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 688.3287806809185,
+     "prompt_tokens_per_item": 2112.585510688836,
+     "selected_n": null,
+     "final_unanswered_pct": 0.8511480601741884
+    },
+    "ANSWERLESS->F2": {
+     "accuracy_pct": 56.3341250989707,
+     "correct": 2846,
+     "delta_vs_keep": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.741
+     },
+     "repairs": 1,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.741
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 19.478622327790973,
+     "prompt_tokens_per_item": 105.78167062549485,
+     "selected_n": 59,
+     "final_unanswered_pct": 0.3760886777513856
+    },
+    "ANSWERLESS->F2-scratch": {
+     "accuracy_pct": 56.3341250989707,
+     "correct": 2846,
+     "delta_vs_keep": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.7255
+     },
+     "repairs": 1,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.7255
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 27.94952494061758,
+     "prompt_tokens_per_item": 111.69853523357087,
+     "selected_n": 59,
+     "final_unanswered_pct": 0.6334125098970704
+    },
+    "REF DETECT->F2 10%": {
+     "accuracy_pct": 56.49247822644497,
+     "correct": 2854,
+     "delta_vs_keep": {
+      "estimate": 0.17814726840855108,
+      "lo": 0.0790670092903736,
+      "hi": 0.2971473851030111,
+      "p_boot": 0.0
+     },
+     "repairs": 9,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.17814726840855108,
+      "lo": 0.0790670092903736,
+      "hi": 0.2971473851030111,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 63.46159936658749,
+     "prompt_tokens_per_item": 268.96001583531273,
+     "selected_n": 505,
+     "final_unanswered_pct": 1.009501187648456
+    },
+    "REF BENEFIT->F2 10%": {
+     "accuracy_pct": 56.86856690419636,
+     "correct": 2873,
+     "delta_vs_keep": {
+      "estimate": 0.5542359461599367,
+      "lo": 0.35629453681710216,
+      "hi": 0.7715171694659106,
+      "p_boot": 0.0
+     },
+     "repairs": 28,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.741
+     },
+     "repairs_content": {
+      "estimate": 0.5344418052256532,
+      "lo": 0.33656535091865036,
+      "hi": 0.7334030403607815,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 49.52553444180523,
+     "prompt_tokens_per_item": 197.7759303246239,
+     "selected_n": 505,
+     "final_unanswered_pct": 1.1084718923198733
+    },
+    "REF DETECT->F2 20%": {
+     "accuracy_pct": 56.61124307205068,
+     "correct": 2860,
+     "delta_vs_keep": {
+      "estimate": 0.29691211401425177,
+      "lo": 0.1583217890362161,
+      "hi": 0.4554455445544554,
+      "p_boot": 0.0
+     },
+     "repairs": 15,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.29691211401425177,
+      "lo": 0.1583217890362161,
+      "hi": 0.4554455445544554,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 125.3313539192399,
+     "prompt_tokens_per_item": 529.26504354711,
+     "selected_n": 1010,
+     "final_unanswered_pct": 0.870942201108472
+    },
+    "REF BENEFIT->F2 20%": {
+     "accuracy_pct": 56.86856690419636,
+     "correct": 2873,
+     "delta_vs_keep": {
+      "estimate": 0.5542359461599367,
+      "lo": 0.35629453681710216,
+      "hi": 0.7715171694659106,
+      "p_boot": 0.0
+     },
+     "repairs": 28,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.741
+     },
+     "repairs_content": {
+      "estimate": 0.5344418052256532,
+      "lo": 0.33656535091865036,
+      "hi": 0.7334030403607815,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 99.88479809976248,
+     "prompt_tokens_per_item": 397.13281868566906,
+     "selected_n": 1010,
+     "final_unanswered_pct": 0.9897070467141725
+    }
+   },
+   "contrasts": [
+    {
+     "setting": "math T8B",
+     "a": "ANSWERLESS->F2",
+     "b": "F2 ALL",
+     "family_member": 4,
+     "difference": {
+      "estimate": -0.1583531274742676,
+      "lo": -0.43512873423981774,
+      "hi": 0.09903000123355302,
+      "p_boot": 0.2695
+     },
+     "token_difference": -469.9530878859857
+    },
+    {
+     "setting": "math T8B",
+     "a": "ANSWERLESS->F2",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.01979414093428345,
+      "lo": 0.0,
+      "hi": 0.05942947702060222,
+      "p_boot": 0.741
+     },
+     "token_difference": 19.478622327790973
+    },
+    {
+     "setting": "math T8B",
+     "a": "ANSWERLESS->F2-scratch",
+     "b": "F2-scratch ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": -1.3064133016627077,
+      "lo": -1.7418930236998296,
+      "hi": -0.8700767752172486,
+      "p_boot": 0.0
+     },
+     "token_difference": -660.3792557403009
+    }
+   ],
+   "mean_samples_drawn": null
+  },
+  "MMLU-Pro 4B": {
+   "n": 3457,
+   "a0_unanswered_pct": 1.6199016488284639,
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 53.19641307492046,
+     "correct": 1839,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 1.6199016488284639
+    },
+    "F0 ALL": {
+     "accuracy_pct": 53.601388487127565,
+     "correct": 1853,
+     "delta_vs_keep": {
+      "estimate": 0.40497541220711597,
+      "lo": 0.17331022530329288,
+      "hi": 0.6607439234328671,
+      "p_boot": 0.0
+     },
+     "repairs": 16,
+     "damage": 2,
+     "repairs_completion": {
+      "estimate": 0.34712178189181375,
+      "lo": 0.1729106628242075,
+      "hi": 0.5494545229141701,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028768492804763707,
+      "hi": 0.2331681725444477,
+      "p_boot": 0.0335
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.05785363031530228,
+      "lo": 0.0,
+      "hi": 0.14496955639315745,
+      "p_boot": 0.279
+     },
+     "generated_tokens_per_item": 173.43245588660687,
+     "prompt_tokens_per_item": 1045.4286954006363,
+     "selected_n": null,
+     "final_unanswered_pct": 0.3181949667341626
+    },
+    "F2 ALL": {
+     "accuracy_pct": 53.08070581428984,
+     "correct": 1835,
+     "delta_vs_keep": {
+      "estimate": -0.11570726063060456,
+      "lo": -1.3572833004517886,
+      "hi": 1.0907552401924803,
+      "p_boot": 0.8765
+     },
+     "repairs": 229,
+     "damage": 233,
+     "repairs_completion": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.248192074052647,
+      "lo": 5.433806420762036,
+      "hi": 7.054580554667581,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.20248770610355799,
+      "lo": 0.05820679430819104,
+      "hi": 0.37572254335260113,
+      "p_boot": 0.001
+     },
+     "damage_content": {
+      "estimate": 6.537460225629159,
+      "lo": 5.710165414802937,
+      "hi": 7.394771650103856,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 862.1310384726642,
+     "prompt_tokens_per_item": 2782.0060746311833,
+     "selected_n": null,
+     "final_unanswered_pct": 0.5785363031530228
+    },
+    "F2-scratch ALL": {
+     "accuracy_pct": 53.65924211744287,
+     "correct": 1855,
+     "delta_vs_keep": {
+      "estimate": 0.46282904252241824,
+      "lo": 0.17396220706695073,
+      "hi": 0.7600750624644117,
+      "p_boot": 0.0015
+     },
+     "repairs": 22,
+     "damage": 6,
+     "repairs_completion": {
+      "estimate": 0.4339022273647671,
+      "lo": 0.23141284822389518,
+      "hi": 0.6664783154641167,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.20248770610355799,
+      "lo": 0.057954216169226316,
+      "hi": 0.374321545232295,
+      "p_boot": 0.002
+     },
+     "damage_format_loss": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08728542333430317,
+      "p_boot": 0.7525
+     },
+     "damage_content": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.02893497593449683,
+      "hi": 0.2891865910074579,
+      "p_boot": 0.0165
+     },
+     "generated_tokens_per_item": 788.8623083598496,
+     "prompt_tokens_per_item": 2779.99450390512,
+     "selected_n": null,
+     "final_unanswered_pct": 0.37604859704946486
+    },
+    "ANSWERLESS->F2": {
+     "accuracy_pct": 53.57246167196992,
+     "correct": 1852,
+     "delta_vs_keep": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs": 13,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 18.824703500144633,
+     "prompt_tokens_per_item": 153.7020538038762,
+     "selected_n": 56,
+     "final_unanswered_pct": 0.11570726063060456
+    },
+    "ANSWERLESS->F2-scratch": {
+     "accuracy_pct": 53.63031530228521,
+     "correct": 1854,
+     "delta_vs_keep": {
+      "estimate": 0.4339022273647671,
+      "lo": 0.23141284822389518,
+      "hi": 0.6664783154641167,
+      "p_boot": 0.0
+     },
+     "repairs": 15,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.4339022273647671,
+      "lo": 0.23141284822389518,
+      "hi": 0.6664783154641167,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 24.551923633207984,
+     "prompt_tokens_per_item": 158.12727798669366,
+     "selected_n": 56,
+     "final_unanswered_pct": 0.26034133641886026
+    },
+    "REF DETECT->F2 10%": {
+     "accuracy_pct": 54.58490020248771,
+     "correct": 1887,
+     "delta_vs_keep": {
+      "estimate": 1.388487127567255,
+      "lo": 1.0118458256671463,
+      "hi": 1.798665506237308,
+      "p_boot": 0.0
+     },
+     "repairs": 48,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.05785363031530228,
+      "lo": 0.0,
+      "hi": 0.1452643811737362,
+      "p_boot": 0.253
+     },
+     "repairs_content": {
+      "estimate": 1.3306334972519527,
+      "lo": 0.9587379541948455,
+      "hi": 1.725141788567706,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 92.60254555973387,
+     "prompt_tokens_per_item": 310.62134798958635,
+     "selected_n": 346,
+     "final_unanswered_pct": 1.3017066820943013
+    },
+    "REF BENEFIT->F2 10%": {
+     "accuracy_pct": 59.820653746022565,
+     "correct": 2068,
+     "delta_vs_keep": {
+      "estimate": 6.624240671102112,
+      "lo": 5.810523942249734,
+      "hi": 7.4610250115083625,
+      "p_boot": 0.0
+     },
+     "repairs": 229,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.248192074052647,
+      "lo": 5.433806420762036,
+      "hi": 7.054580554667581,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 88.93867515186578,
+     "prompt_tokens_per_item": 302.37113103847264,
+     "selected_n": 346,
+     "final_unanswered_pct": 1.2727798669366504
+    },
+    "REF DETECT->F2 20%": {
+     "accuracy_pct": 56.11802140584322,
+     "correct": 1940,
+     "delta_vs_keep": {
+      "estimate": 2.9216083309227656,
+      "lo": 2.3563143166636578,
+      "hi": 3.500169953409079,
+      "p_boot": 0.0
+     },
+     "repairs": 101,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.02868596759934983,
+      "hi": 0.23296447291788003,
+      "p_boot": 0.04
+     },
+     "repairs_content": {
+      "estimate": 2.805901070292161,
+      "lo": 2.2543189762723523,
+      "hi": 3.378583374710928,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 186.63986115128725,
+     "prompt_tokens_per_item": 629.56696557709,
+     "selected_n": 691,
+     "final_unanswered_pct": 1.041365345675441
+    },
+    "REF BENEFIT->F2 20%": {
+     "accuracy_pct": 59.820653746022565,
+     "correct": 2068,
+     "delta_vs_keep": {
+      "estimate": 6.624240671102112,
+      "lo": 5.810523942249734,
+      "hi": 7.4610250115083625,
+      "p_boot": 0.0
+     },
+     "repairs": 229,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.248192074052647,
+      "lo": 5.433806420762036,
+      "hi": 7.054580554667581,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 172.00404975412206,
+     "prompt_tokens_per_item": 570.6387040786809,
+     "selected_n": 691,
+     "final_unanswered_pct": 1.0702921608330922
+    },
+    "V1": {
+     "accuracy_pct": 54.613827017645356,
+     "correct": 1888,
+     "delta_vs_keep": {
+      "estimate": 1.417413942724906,
+      "lo": 0.22999419687289835,
+      "hi": 2.629292198811508,
+      "p_boot": 0.024
+     },
+     "repairs": 262,
+     "damage": 213,
+     "repairs_completion": {
+      "estimate": 0.5206826728377205,
+      "lo": 0.2896032435563278,
+      "hi": 0.7571510875777687,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 7.05814289846688,
+      "lo": 6.217482464336327,
+      "hi": 7.896291259950308,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028727377190462512,
+      "hi": 0.25780763305396853,
+      "p_boot": 0.0395
+     },
+     "damage_content": {
+      "estimate": 6.045704367949089,
+      "lo": 5.263043212330652,
+      "hi": 6.843856408051316,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 727.5727509401215,
+     "prompt_tokens_per_item": 247.07376337865202,
+     "selected_n": null,
+     "final_unanswered_pct": 0.46282904252241824
+    },
+    "V3": {
+     "accuracy_pct": 56.175875036158516,
+     "correct": 1942,
+     "delta_vs_keep": {
+      "estimate": 2.9794619612380675,
+      "lo": 1.829215239658197,
+      "hi": 4.157103918091906,
+      "p_boot": 0.0
+     },
+     "repairs": 269,
+     "damage": 166,
+     "repairs_completion": {
+      "estimate": 0.5785363031530228,
+      "lo": 0.34421683297748684,
+      "hi": 0.8393632416787264,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 7.202776974255134,
+      "lo": 6.357769326607117,
+      "hi": 8.070110061562747,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.801851316170089,
+      "lo": 4.099307159353349,
+      "hi": 5.544363236813017,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2177.220422331501,
+     "prompt_tokens_per_item": 741.221290135956,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "V5": {
+     "accuracy_pct": 56.34943592710443,
+     "correct": 1948,
+     "delta_vs_keep": {
+      "estimate": 3.1530228521839745,
+      "lo": 2.0559902250131974,
+      "hi": 4.278704680196456,
+      "p_boot": 0.0
+     },
+     "repairs": 257,
+     "damage": 148,
+     "repairs_completion": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.37746806039488967,
+      "hi": 0.9019559369499146,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.7978015620480186,
+      "lo": 5.977476176725382,
+      "hi": 7.628131717469218,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.281168643332369,
+      "lo": 3.5837653724570013,
+      "hi": 4.965161823756146,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3628.3725773792307,
+     "prompt_tokens_per_item": 1235.3688168932601,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "ANSWERLESS->s1": {
+     "accuracy_pct": 53.71709574775817,
+     "correct": 1857,
+     "delta_vs_keep": {
+      "estimate": 0.5206826728377205,
+      "lo": 0.2896032435563278,
+      "hi": 0.7571510875777687,
+      "p_boot": 0.0
+     },
+     "repairs": 18,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.5206826728377205,
+      "lo": 0.2896032435563278,
+      "hi": 0.7571510875777687,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 24.86144055539485,
+     "prompt_tokens_per_item": 4.300260341336418,
+     "selected_n": 56,
+     "final_unanswered_pct": 0.11570726063060456
+    },
+    "VOTE+a0 k3": {
+     "accuracy_pct": 55.65519236332079,
+     "correct": 1924,
+     "delta_vs_keep": {
+      "estimate": 2.458779288400347,
+      "lo": 1.6440608335836753,
+      "hi": 3.2968156587788497,
+      "p_boot": 0.0
+     },
+     "repairs": 147,
+     "damage": 62,
+     "repairs_completion": {
+      "estimate": 0.5785363031530228,
+      "lo": 0.34421683297748684,
+      "hi": 0.8393632416787264,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.673705525021695,
+      "lo": 3.0398877247627776,
+      "hi": 4.294843374372833,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.7934625397743709,
+      "lo": 1.3650687729294035,
+      "hi": 2.2537164834872936,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2177.220422331501,
+     "prompt_tokens_per_item": 741.221290135956,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "VOTE+a0 k5": {
+     "accuracy_pct": 56.34943592710443,
+     "correct": 1948,
+     "delta_vs_keep": {
+      "estimate": 3.1530228521839745,
+      "lo": 2.275984764148501,
+      "hi": 4.046272018876785,
+      "p_boot": 0.0
+     },
+     "repairs": 172,
+     "damage": 63,
+     "repairs_completion": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.37746806039488967,
+      "hi": 0.9019559369499146,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 4.339022273647672,
+      "lo": 3.6683394691977256,
+      "hi": 5.025996533795494,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.8223893549320218,
+      "lo": 1.3686563172114796,
+      "hi": 2.2839466438196654,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3628.3725773792307,
+     "prompt_tokens_per_item": 1235.3688168932601,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 56.46514318773504,
+     "correct": 1952,
+     "delta_vs_keep": {
+      "estimate": 3.2687301128145796,
+      "lo": 2.192681964084829,
+      "hi": 4.351641665744823,
+      "p_boot": 0.0
+     },
+     "repairs": 242,
+     "damage": 129,
+     "repairs_completion": {
+      "estimate": 0.7231703789412786,
+      "lo": 0.46242106704334096,
+      "hi": 1.0156777130380652,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.277118889210298,
+      "lo": 5.490472987552427,
+      "hi": 7.0680927963269875,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 3.731559155336998,
+      "lo": 3.069224279910574,
+      "hi": 4.370367161098727,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3726.678333815447,
+     "prompt_tokens_per_item": 1577.8897888342494,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.08678044547295344
+    },
+    "HYBRID-agree 10%": {
+     "accuracy_pct": 55.10558287532543,
+     "correct": 1905,
+     "delta_vs_keep": {
+      "estimate": 1.9091698004049755,
+      "lo": 0.9232278652567303,
+      "hi": 2.949913821877446,
+      "p_boot": 0.0
+     },
+     "repairs": 193,
+     "damage": 127,
+     "repairs_completion": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 5.206826728377205,
+      "lo": 4.511224551103787,
+      "hi": 5.9810168215624335,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 3.673705525021695,
+      "lo": 3.0268080396768857,
+      "hi": 4.3163960468652425,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3728.740526468036,
+     "prompt_tokens_per_item": 1647.2635232860862,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.17356089094590688
+    },
+    "AGREE->F2 10%": {
+     "accuracy_pct": 54.58490020248771,
+     "correct": 1887,
+     "delta_vs_keep": {
+      "estimate": 1.388487127567255,
+      "lo": 0.8949062586205289,
+      "hi": 1.9392466040771612,
+      "p_boot": 0.0
+     },
+     "repairs": 64,
+     "damage": 16,
+     "repairs_completion": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 1.4752675730402083,
+      "lo": 1.0727436494055913,
+      "hi": 1.9113952500369975,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.46282904252241824,
+      "lo": 0.25884197030911915,
+      "hi": 0.6976794903872813,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3728.740526468036,
+     "prompt_tokens_per_item": 1647.2635232860862,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.17356089094590688
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 56.23372866647382,
+     "correct": 1944,
+     "delta_vs_keep": {
+      "estimate": 3.03731559155337,
+      "lo": 2.0443925233644857,
+      "hi": 4.098878551665782,
+      "p_boot": 0.0
+     },
+     "repairs": 225,
+     "damage": 120,
+     "repairs_completion": {
+      "estimate": 0.607463118310674,
+      "lo": 0.37496394577444475,
+      "hi": 0.872613046949759,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 5.901070292160833,
+      "lo": 5.131195335276968,
+      "hi": 6.6900217051848845,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08756695296004714,
+      "p_boot": 0.709
+     },
+     "damage_content": {
+      "estimate": 3.4422910037604857,
+      "lo": 2.8295764185219054,
+      "hi": 4.043963695014076,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3822.490309516922,
+     "prompt_tokens_per_item": 1891.204223315013,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.26034133641886026
+    },
+    "HYBRID-agree 20%": {
+     "accuracy_pct": 54.87416835406421,
+     "correct": 1897,
+     "delta_vs_keep": {
+      "estimate": 1.6777552791437662,
+      "lo": 0.841268659386602,
+      "hi": 2.5411676428191194,
+      "p_boot": 0.0
+     },
+     "repairs": 142,
+     "damage": 84,
+     "repairs_completion": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.731559155336998,
+      "lo": 3.125,
+      "hi": 4.3769386055666315,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 2.429852473242696,
+      "lo": 1.9058207288691484,
+      "hi": 2.9632187123414906,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3825.375759328898,
+     "prompt_tokens_per_item": 1950.0367370552501,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.26034133641886026
+    },
+    "AGREE->F2 20%": {
+     "accuracy_pct": 55.07665606016777,
+     "correct": 1904,
+     "delta_vs_keep": {
+      "estimate": 1.8802429852473244,
+      "lo": 1.1883734362327032,
+      "hi": 2.636916835699797,
+      "p_boot": 0.0
+     },
+     "repairs": 115,
+     "damage": 50,
+     "repairs_completion": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 2.9505351460804166,
+      "lo": 2.3953169192445527,
+      "hi": 3.544668587896253,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.4463407578825571,
+      "lo": 1.0492414945278408,
+      "hi": 1.850299288460356,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 3825.375759328898,
+     "prompt_tokens_per_item": 1950.0367370552501,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.26034133641886026
+    },
+    "STOP-decided": {
+     "accuracy_pct": 56.34943592710443,
+     "correct": 1948,
+     "delta_vs_keep": {
+      "estimate": 3.1530228521839745,
+      "lo": 2.0559902250131974,
+      "hi": 4.278704680196456,
+      "p_boot": 0.0
+     },
+     "repairs": 257,
+     "damage": 148,
+     "repairs_completion": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.37746806039488967,
+      "hi": 0.9019559369499146,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.7978015620480186,
+      "lo": 5.977476176725382,
+      "hi": 7.628131717469218,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.281168643332369,
+      "lo": 3.5837653724570013,
+      "hi": 4.965161823756146,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2654.887185420885,
+     "prompt_tokens_per_item": 896.1044258027191,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "STOP-2": {
+     "accuracy_pct": 56.26265548163148,
+     "correct": 1945,
+     "delta_vs_keep": {
+      "estimate": 3.066242406711021,
+      "lo": 1.951691093818491,
+      "hi": 4.202678496389866,
+      "p_boot": 0.0
+     },
+     "repairs": 260,
+     "damage": 154,
+     "repairs_completion": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.37746806039488967,
+      "hi": 0.9019559369499146,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.884582007520971,
+      "lo": 6.064139099804767,
+      "hi": 7.721379689996113,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.454729534278276,
+      "lo": 3.747821034282394,
+      "hi": 5.166425632232304,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2123.6103557998263,
+     "prompt_tokens_per_item": 716.1509979751229,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "GATE-a0": {
+     "accuracy_pct": 56.23372866647382,
+     "correct": 1944,
+     "delta_vs_keep": {
+      "estimate": 3.03731559155337,
+      "lo": 2.2118922747552103,
+      "hi": 3.8674231031043704,
+      "p_boot": 0.0
+     },
+     "repairs": 159,
+     "damage": 54,
+     "repairs_completion": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.37746806039488967,
+      "hi": 0.9019559369499146,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 3.9629736765982067,
+      "lo": 3.3122073792966797,
+      "hi": 4.620304805125673,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.5620480185131618,
+      "lo": 1.1543928277915583,
+      "hi": 1.9900820572462365,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1649.2562915822969,
+     "prompt_tokens_per_item": 538.1272779866937,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "REF BEST(a0,V5)": {
+     "accuracy_pct": 60.630604570436795,
+     "correct": 2096,
+     "delta_vs_keep": {
+      "estimate": 7.434191495516345,
+      "lo": 6.595622119815668,
+      "hi": 8.304498269896193,
+      "p_boot": 0.0
+     },
+     "repairs": 257,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.37746806039488967,
+      "hi": 0.9019559369499146,
+      "p_boot": 0.0
+     },
+     "repairs_content": {
+      "estimate": 6.7978015620480186,
+      "lo": 5.977476176725382,
+      "hi": 7.628131717469218,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 3628.3725773792307,
+     "prompt_tokens_per_item": 1235.3688168932601,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    }
+   },
+   "contrasts": [
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "HYBRID-margin 20%",
+     "b": "V5",
+     "family_member": 1,
+     "difference": {
+      "estimate": -0.11570726063060456,
+      "lo": -0.905780960635686,
+      "hi": 0.7231913221900172,
+      "p_boot": 0.804
+     },
+     "token_difference": 194.11773213769163
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "VOTE+a0 k5",
+     "b": "V5",
+     "family_member": 2,
+     "difference": {
+      "estimate": 0.0,
+      "lo": -0.7558359504020359,
+      "hi": 0.7475937567976776,
+      "p_boot": 1.0
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "V1",
+     "b": "F2 ALL",
+     "family_member": 3,
+     "difference": {
+      "estimate": 1.5331212033555106,
+      "lo": 0.11637549413360661,
+      "hi": 2.945444313267616,
+      "p_boot": 0.035
+     },
+     "token_difference": -134.55828753254266
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "ANSWERLESS->F2",
+     "b": "F2 ALL",
+     "family_member": 4,
+     "difference": {
+      "estimate": 0.4917558576800694,
+      "lo": -0.6701876143990237,
+      "hi": 1.7111617188225903,
+      "p_boot": 0.4505
+     },
+     "token_difference": -843.3063349725195
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "HYBRID-margin 10%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.11570726063060456,
+      "lo": -0.46070012114521375,
+      "hi": 0.6914633316372994,
+      "p_boot": 0.7075
+     },
+     "token_difference": 98.30575643621637
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "HYBRID-agree 10%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -1.2438530517789992,
+      "lo": -1.8775410028157278,
+      "hi": -0.6046645551396488,
+      "p_boot": 0.0
+     },
+     "token_difference": 100.36794908880532
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "HYBRID-agree 20%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -1.4752675730402083,
+      "lo": -2.3588229340879248,
+      "hi": -0.5792022948248219,
+      "p_boot": 0.002
+     },
+     "token_difference": 197.00318194966735
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "V5",
+     "b": "AGREE->F2 10%",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.76453572461672,
+      "lo": 0.6691590912682381,
+      "hi": 2.8546712802768166,
+      "p_boot": 0.0025
+     },
+     "token_difference": -100.36794908880532
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "V5",
+     "b": "AGREE->F2 20%",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.2727798669366504,
+      "lo": 0.2613164628083139,
+      "hi": 2.25959242279208,
+      "p_boot": 0.0145
+     },
+     "token_difference": -197.00318194966735
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "STOP-decided",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "token_difference": -973.4853919583454
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "STOP-2",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.08678044547295344,
+      "lo": -0.37260761508137946,
+      "hi": 0.1737166737997533,
+      "p_boot": 0.573
+     },
+     "token_difference": -1504.762221579404
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "GATE-a0",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.11570726063060456,
+      "lo": -0.9281146907789811,
+      "hi": 0.6916676023304267,
+      "p_boot": 0.7905
+     },
+     "token_difference": -1979.1162857969337
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "VOTE+a0 k3",
+     "b": "V3",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.5206826728377205,
+      "lo": -1.3650985004733012,
+      "hi": 0.29037060039939494,
+      "p_boot": 0.2375
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "ANSWERLESS->s1",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.5206826728377205,
+      "lo": 0.2896032435563278,
+      "hi": 0.7571510875777687,
+      "p_boot": 0.0
+     },
+     "token_difference": 24.86144055539485
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "ANSWERLESS->F2",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.37604859704946486,
+      "lo": 0.17381228273464658,
+      "hi": 0.5849706430060494,
+      "p_boot": 0.0
+     },
+     "token_difference": 18.824703500144633
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "ANSWERLESS->F2-scratch",
+     "b": "F2-scratch ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.02892681515765114,
+      "lo": -0.23330757422465467,
+      "hi": 0.17391556541914657,
+      "p_boot": 0.9005
+     },
+     "token_difference": -764.3103847266416
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "V1",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.417413942724906,
+      "lo": 0.22999419687289835,
+      "hi": 2.629292198811508,
+      "p_boot": 0.024
+     },
+     "token_difference": 727.5727509401215
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "V5",
+     "b": "V1",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.7356089094590683,
+      "lo": 0.8425272930803187,
+      "hi": 2.609724968757511,
+      "p_boot": 0.0
+     },
+     "token_difference": 2900.799826439109
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "V3",
+     "b": "V1",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.5620480185131618,
+      "lo": 0.7778626127073378,
+      "hi": 2.3580957697619236,
+      "p_boot": 0.0
+     },
+     "token_difference": 1449.6476713913798
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "V5",
+     "b": "V3",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.17356089094590688,
+      "lo": -0.46176046176046176,
+      "hi": 0.8127721335268505,
+      "p_boot": 0.6135
+     },
+     "token_difference": 1451.1521550477291
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "REF BEST(a0,V5)",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 4.281168643332369,
+      "lo": 3.5837653724570013,
+      "hi": 4.965161823756146,
+      "p_boot": 0.0
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "MMLU-Pro 4B",
+     "a": "V1",
+     "b": "F0 ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.01243853051779,
+      "lo": -0.20284564112250944,
+      "hi": 2.24857744324844,
+      "p_boot": 0.104
+     },
+     "token_difference": 554.1402950535146
+    }
+   ],
+   "mean_samples_drawn": {
+    "STOP-decided": 3.5539485102690196,
+    "STOP-2": 2.7879664448944173,
+    "GATE-a0": 2.05640728955742
+   }
+  },
+  "MMLU-Pro T8B": {
+   "n": 3457,
+   "a0_unanswered_pct": 0.4917558576800694,
+   "policies": {
+    "KEEP": {
+     "accuracy_pct": 46.36968469771478,
+     "correct": 1603,
+     "delta_vs_keep": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs": 0,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 0.0,
+     "prompt_tokens_per_item": 0.0,
+     "selected_n": null,
+     "final_unanswered_pct": 0.4917558576800694
+    },
+    "F0 ALL": {
+     "accuracy_pct": 46.456465143187735,
+     "correct": 1606,
+     "delta_vs_keep": {
+      "estimate": 0.08678044547295344,
+      "lo": -0.028993911278631487,
+      "hi": 0.2306805074971165,
+      "p_boot": 0.242
+     },
+     "repairs": 4,
+     "damage": 1,
+     "repairs_completion": {
+      "estimate": 0.05785363031530228,
+      "lo": 0.0,
+      "hi": 0.14530765292674522,
+      "p_boot": 0.268
+     },
+     "repairs_content": {
+      "estimate": 0.05785363031530228,
+      "lo": 0.0,
+      "hi": 0.14526649257462534,
+      "p_boot": 0.27
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08728542333430317,
+      "p_boot": 0.741
+     },
+     "generated_tokens_per_item": 8.80937228811108,
+     "prompt_tokens_per_item": 489.99218975990743,
+     "selected_n": null,
+     "final_unanswered_pct": 0.4339022273647671
+    },
+    "F2 ALL": {
+     "accuracy_pct": 44.749783048886314,
+     "correct": 1547,
+     "delta_vs_keep": {
+      "estimate": -1.6199016488284639,
+      "lo": -2.3926375995262705,
+      "hi": -0.8444593903644808,
+      "p_boot": 0.0
+     },
+     "repairs": 63,
+     "damage": 119,
+     "repairs_completion": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs_content": {
+      "estimate": 1.7934625397743709,
+      "lo": 1.3517400057520852,
+      "hi": 2.2356669549481096,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 1.214926236621348,
+      "lo": 0.8633031434461177,
+      "hi": 1.5965166908563133,
+      "p_boot": 0.0
+     },
+     "damage_content": {
+      "estimate": 2.227364767139138,
+      "lo": 1.7558883463177644,
+      "hi": 2.7262314165385813,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 496.9028059010703,
+     "prompt_tokens_per_item": 1397.4746890367371,
+     "selected_n": null,
+     "final_unanswered_pct": 3.6447787098640436
+    },
+    "F2-scratch ALL": {
+     "accuracy_pct": 47.208562337286665,
+     "correct": 1632,
+     "delta_vs_keep": {
+      "estimate": 0.8388776395718831,
+      "lo": 0.40544160637737536,
+      "hi": 1.28032649815745,
+      "p_boot": 0.0
+     },
+     "repairs": 42,
+     "damage": 13,
+     "repairs_completion": {
+      "estimate": 0.08678044547295344,
+      "lo": 0.0,
+      "hi": 0.20196337290970873,
+      "p_boot": 0.098
+     },
+     "repairs_content": {
+      "estimate": 1.1281457911483945,
+      "lo": 0.7810240092565809,
+      "hi": 1.5042161565681662,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08746419452670458,
+      "p_boot": 0.7345
+     },
+     "damage_content": {
+      "estimate": 0.34712178189181375,
+      "lo": 0.17306028266512835,
+      "hi": 0.5508843142939983,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 516.9571883135667,
+     "prompt_tokens_per_item": 1514.8724327451548,
+     "selected_n": null,
+     "final_unanswered_pct": 0.5496094879953718
+    },
+    "ANSWERLESS->F2": {
+     "accuracy_pct": 46.398611512872435,
+     "correct": 1604,
+     "delta_vs_keep": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs": 1,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 2.177610645067978,
+     "prompt_tokens_per_item": 7.988140005785363,
+     "selected_n": 17,
+     "final_unanswered_pct": 0.4339022273647671
+    },
+    "ANSWERLESS->F2-scratch": {
+     "accuracy_pct": 46.456465143187735,
+     "correct": 1606,
+     "delta_vs_keep": {
+      "estimate": 0.08678044547295344,
+      "lo": 0.0,
+      "hi": 0.20196337290970873,
+      "p_boot": 0.098
+     },
+     "repairs": 3,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.08678044547295344,
+      "lo": 0.0,
+      "hi": 0.20196337290970873,
+      "p_boot": 0.098
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 3.058142898466879,
+     "prompt_tokens_per_item": 8.869540063638993,
+     "selected_n": 17,
+     "final_unanswered_pct": 0.40497541220711597
+    },
+    "REF DETECT->F2 10%": {
+     "accuracy_pct": 46.8325137402372,
+     "correct": 1619,
+     "delta_vs_keep": {
+      "estimate": 0.46282904252241824,
+      "lo": 0.2589928057553957,
+      "hi": 0.6944494693680656,
+      "p_boot": 0.0
+     },
+     "repairs": 16,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.46282904252241824,
+      "lo": 0.2589928057553957,
+      "hi": 0.6944494693680656,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 50.15736187445762,
+     "prompt_tokens_per_item": 141.97512293896443,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.6653167486259763
+    },
+    "REF BENEFIT->F2 10%": {
+     "accuracy_pct": 48.1920740526468,
+     "correct": 1666,
+     "delta_vs_keep": {
+      "estimate": 1.8223893549320218,
+      "lo": 1.380480590928785,
+      "hi": 2.2628372497824194,
+      "p_boot": 0.0
+     },
+     "repairs": 63,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs_content": {
+      "estimate": 1.7934625397743709,
+      "lo": 1.3517400057520852,
+      "hi": 2.2356669549481096,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 48.78275961816604,
+     "prompt_tokens_per_item": 134.38617298235465,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.5206826728377205
+    },
+    "REF DETECT->F2 20%": {
+     "accuracy_pct": 47.06392826149841,
+     "correct": 1627,
+     "delta_vs_keep": {
+      "estimate": 0.6942435637836275,
+      "lo": 0.43327556325823224,
+      "hi": 0.9823892363918972,
+      "p_boot": 0.0
+     },
+     "repairs": 24,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "repairs_content": {
+      "estimate": 0.6942435637836275,
+      "lo": 0.43327556325823224,
+      "hi": 0.9823892363918972,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 102.71449233439398,
+     "prompt_tokens_per_item": 295.2369106161412,
+     "selected_n": 691,
+     "final_unanswered_pct": 1.2438530517789992
+    },
+    "REF BENEFIT->F2 20%": {
+     "accuracy_pct": 48.1920740526468,
+     "correct": 1666,
+     "delta_vs_keep": {
+      "estimate": 1.8223893549320218,
+      "lo": 1.380480590928785,
+      "hi": 2.2628372497824194,
+      "p_boot": 0.0
+     },
+     "repairs": 63,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs_content": {
+      "estimate": 1.7934625397743709,
+      "lo": 1.3517400057520852,
+      "hi": 2.2356669549481096,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 97.1255423777842,
+     "prompt_tokens_per_item": 270.4570436794909,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.6363899334683252
+    },
+    "V1": {
+     "accuracy_pct": 46.253977437084174,
+     "correct": 1599,
+     "delta_vs_keep": {
+      "estimate": -0.11570726063060456,
+      "lo": -1.361164834611365,
+      "hi": 1.129501799245217,
+      "p_boot": 0.8785
+     },
+     "repairs": 240,
+     "damage": 244,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.02897689822722552,
+      "hi": 0.2881014116969173,
+      "p_boot": 0.014
+     },
+     "repairs_content": {
+      "estimate": 6.7978015620480186,
+      "lo": 5.972140477125104,
+      "hi": 7.656795616081145,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.23141452126120912,
+      "lo": 0.08683068017366136,
+      "hi": 0.40346112085387,
+      "p_boot": 0.0025
+     },
+     "damage_content": {
+      "estimate": 6.8267283772056695,
+      "lo": 5.998261373514923,
+      "hi": 7.683474226726101,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 209.41683540642174,
+     "prompt_tokens_per_item": 244.38241249638415,
+     "selected_n": null,
+     "final_unanswered_pct": 0.9256580850448365
+    },
+    "V3": {
+     "accuracy_pct": 47.324269597917265,
+     "correct": 1636,
+     "delta_vs_keep": {
+      "estimate": 0.9545849002024878,
+      "lo": -0.2020216600181958,
+      "hi": 2.144952416495615,
+      "p_boot": 0.1115
+     },
+     "repairs": 219,
+     "damage": 186,
+     "repairs_completion": {
+      "estimate": 0.20248770610355799,
+      "lo": 0.058325617461082675,
+      "hi": 0.3496528973795077,
+      "p_boot": 0.0025
+     },
+     "repairs_content": {
+      "estimate": 6.132484813422042,
+      "lo": 5.317919075144509,
+      "hi": 6.919563705251311,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 5.380387619323113,
+      "lo": 4.632310364794441,
+      "hi": 6.154347209018598,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 627.9152444315881,
+     "prompt_tokens_per_item": 733.1472374891524,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "V5": {
+     "accuracy_pct": 47.87387908591264,
+     "correct": 1655,
+     "delta_vs_keep": {
+      "estimate": 1.5041943881978594,
+      "lo": 0.4896313364055299,
+      "hi": 2.579841265832376,
+      "p_boot": 0.0075
+     },
+     "repairs": 207,
+     "damage": 155,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.029002109962940267,
+      "hi": 0.2873604528960362,
+      "p_boot": 0.012
+     },
+     "repairs_content": {
+      "estimate": 5.843216661845531,
+      "lo": 5.076361789613274,
+      "hi": 6.624428506011136,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.483656349435927,
+      "lo": 3.8161318300086733,
+      "hi": 5.1644547028274665,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1044.5004339022273,
+     "prompt_tokens_per_item": 1221.9120624819207,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "ANSWERLESS->s1": {
+     "accuracy_pct": 46.514318773503035,
+     "correct": 1608,
+     "delta_vs_keep": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.02897689822722552,
+      "hi": 0.2881014116969173,
+      "p_boot": 0.014
+     },
+     "repairs": 5,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.02897689822722552,
+      "hi": 0.2881014116969173,
+      "p_boot": 0.014
+     },
+     "repairs_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 1.8351171536013884,
+     "prompt_tokens_per_item": 0.8834249349146659,
+     "selected_n": 17,
+     "final_unanswered_pct": 0.17356089094590688
+    },
+    "VOTE+a0 k3": {
+     "accuracy_pct": 48.0763667920162,
+     "correct": 1662,
+     "delta_vs_keep": {
+      "estimate": 1.7066820943014174,
+      "lo": 0.986071738739969,
+      "hi": 2.4616385557511946,
+      "p_boot": 0.0
+     },
+     "repairs": 114,
+     "damage": 55,
+     "repairs_completion": {
+      "estimate": 0.20248770610355799,
+      "lo": 0.058325617461082675,
+      "hi": 0.3496528973795077,
+      "p_boot": 0.0025
+     },
+     "repairs_content": {
+      "estimate": 3.095169221868672,
+      "lo": 2.5438469729236384,
+      "hi": 3.6983120593106955,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.5909748336708127,
+      "lo": 1.1764621511255104,
+      "hi": 2.007488200089415,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 627.9152444315881,
+     "prompt_tokens_per_item": 733.1472374891524,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "VOTE+a0 k5": {
+     "accuracy_pct": 48.510269019380964,
+     "correct": 1677,
+     "delta_vs_keep": {
+      "estimate": 2.1405843216661844,
+      "lo": 1.3434187532034154,
+      "hi": 2.946316406367398,
+      "p_boot": 0.0
+     },
+     "repairs": 147,
+     "damage": 73,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.029002109962940267,
+      "hi": 0.2873604528960362,
+      "p_boot": 0.012
+     },
+     "repairs_content": {
+      "estimate": 4.107607752386462,
+      "lo": 3.4651567275139112,
+      "hi": 4.764673167955715,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 2.1116575065085335,
+      "lo": 1.6497352279273978,
+      "hi": 2.5966906830990326,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1044.5004339022273,
+     "prompt_tokens_per_item": 1221.9120624819207,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "HYBRID-margin 10%": {
+     "accuracy_pct": 48.1920740526468,
+     "correct": 1666,
+     "delta_vs_keep": {
+      "estimate": 1.8223893549320218,
+      "lo": 0.838150289017341,
+      "hi": 2.798053188755608,
+      "p_boot": 0.0005
+     },
+     "repairs": 183,
+     "damage": 120,
+     "repairs_completion": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028793550244745177,
+      "hi": 0.2324230098779779,
+      "p_boot": 0.032
+     },
+     "repairs_content": {
+      "estimate": 5.177899913219554,
+      "lo": 4.463735779169239,
+      "hi": 5.933712541160038,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028669519341258637,
+      "hi": 0.23276451697195394,
+      "p_boot": 0.041
+     },
+     "damage_content": {
+      "estimate": 3.3555105582875324,
+      "lo": 2.7720853485869243,
+      "hi": 3.957307330120916,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1099.26236621348,
+     "prompt_tokens_per_item": 1401.1617008967312,
+     "selected_n": 346,
+     "final_unanswered_pct": 0.7520971940989297
+    },
+    "HYBRID-agree 10%": {
+     "accuracy_pct": 46.08041654613827,
+     "correct": 1593,
+     "delta_vs_keep": {
+      "estimate": -0.2892681515765114,
+      "lo": -1.1020881670533642,
+      "hi": 0.5520126717835763,
+      "p_boot": 0.4905
+     },
+     "repairs": 105,
+     "damage": 115,
+     "repairs_completion": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs_content": {
+      "estimate": 3.008388776395719,
+      "lo": 2.466610084791152,
+      "hi": 3.584928909286563,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.08678044547295344,
+      "lo": 0.0,
+      "hi": 0.20202166001819585,
+      "p_boot": 0.0945
+     },
+     "damage_content": {
+      "estimate": 3.2398032976569278,
+      "lo": 2.6747120613199025,
+      "hi": 3.8251603706343547,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1098.748047439977,
+     "prompt_tokens_per_item": 1390.9415678333814,
+     "selected_n": 346,
+     "final_unanswered_pct": 1.01243853051779
+    },
+    "AGREE->F2 10%": {
+     "accuracy_pct": 46.54324558866069,
+     "correct": 1609,
+     "delta_vs_keep": {
+      "estimate": 0.17356089094590688,
+      "lo": -0.08733688036155272,
+      "hi": 0.46269519953730476,
+      "p_boot": 0.252
+     },
+     "repairs": 15,
+     "damage": 9,
+     "repairs_completion": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs_content": {
+      "estimate": 0.40497541220711597,
+      "lo": 0.2029573789504204,
+      "hi": 0.6300204807057966,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.08678044547295344,
+      "lo": 0.0,
+      "hi": 0.20202166001819585,
+      "p_boot": 0.0945
+     },
+     "damage_content": {
+      "estimate": 0.17356089094590688,
+      "lo": 0.05757052389176742,
+      "hi": 0.31903246744500086,
+      "p_boot": 0.004
+     },
+     "generated_tokens_per_item": 1098.748047439977,
+     "prompt_tokens_per_item": 1390.9415678333814,
+     "selected_n": 346,
+     "final_unanswered_pct": 1.01243853051779
+    },
+    "HYBRID-margin 20%": {
+     "accuracy_pct": 47.64246456465143,
+     "correct": 1647,
+     "delta_vs_keep": {
+      "estimate": 1.2727798669366504,
+      "lo": 0.40240870676515283,
+      "hi": 2.163877668782458,
+      "p_boot": 0.0065
+     },
+     "repairs": 150,
+     "damage": 106,
+     "repairs_completion": {
+      "estimate": 0.11570726063060456,
+      "lo": 0.028793550244745177,
+      "hi": 0.2324230098779779,
+      "p_boot": 0.032
+     },
+     "repairs_content": {
+      "estimate": 4.223315013017067,
+      "lo": 3.587911083799242,
+      "hi": 4.893694393414492,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.17356089094590688,
+      "lo": 0.05753739930955121,
+      "hi": 0.3192106790481718,
+      "p_boot": 0.0075
+     },
+     "damage_content": {
+      "estimate": 2.8926815157651142,
+      "lo": 2.35666297949954,
+      "hi": 3.452319973429884,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1152.1483945617588,
+     "prompt_tokens_per_item": 1554.9791726930864,
+     "selected_n": 691,
+     "final_unanswered_pct": 0.9545849002024878
+    },
+    "HYBRID-agree 20%": {
+     "accuracy_pct": 46.10934336129592,
+     "correct": 1594,
+     "delta_vs_keep": {
+      "estimate": -0.26034133641886026,
+      "lo": -0.8668265762627775,
+      "hi": 0.3456320858514184,
+      "p_boot": 0.425
+     },
+     "repairs": 52,
+     "damage": 61,
+     "repairs_completion": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs_content": {
+      "estimate": 1.4752675730402083,
+      "lo": 1.0957324106113033,
+      "hi": 1.8895486197988869,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.20248770610355799,
+      "lo": 0.057954216169226316,
+      "hi": 0.3751830828909351,
+      "p_boot": 0.003
+     },
+     "damage_content": {
+      "estimate": 1.5620480185131618,
+      "lo": 1.1533859178524775,
+      "hi": 1.9971056439942112,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1151.663870407868,
+     "prompt_tokens_per_item": 1551.6884582007522,
+     "selected_n": 691,
+     "final_unanswered_pct": 1.3595603124096036
+    },
+    "AGREE->F2 20%": {
+     "accuracy_pct": 46.60109921897599,
+     "correct": 1611,
+     "delta_vs_keep": {
+      "estimate": 0.23141452126120912,
+      "lo": -0.17467376072310545,
+      "hi": 0.6668696324569636,
+      "p_boot": 0.3095
+     },
+     "repairs": 31,
+     "damage": 23,
+     "repairs_completion": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "repairs_content": {
+      "estimate": 0.8678044547295342,
+      "lo": 0.576863450380237,
+      "hi": 1.1682413683859796,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.20248770610355799,
+      "lo": 0.057954216169226316,
+      "hi": 0.3751830828909351,
+      "p_boot": 0.003
+     },
+     "damage_content": {
+      "estimate": 0.46282904252241824,
+      "lo": 0.2333024698443307,
+      "hi": 0.6972740955234255,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1151.663870407868,
+     "prompt_tokens_per_item": 1551.6884582007522,
+     "selected_n": 691,
+     "final_unanswered_pct": 1.3595603124096036
+    },
+    "STOP-decided": {
+     "accuracy_pct": 47.87387908591264,
+     "correct": 1655,
+     "delta_vs_keep": {
+      "estimate": 1.5041943881978594,
+      "lo": 0.4896313364055299,
+      "hi": 2.579841265832376,
+      "p_boot": 0.0075
+     },
+     "repairs": 207,
+     "damage": 155,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.029002109962940267,
+      "hi": 0.2873604528960362,
+      "p_boot": 0.012
+     },
+     "repairs_content": {
+      "estimate": 5.843216661845531,
+      "lo": 5.076361789613274,
+      "hi": 6.624428506011136,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.483656349435927,
+      "lo": 3.8161318300086733,
+      "hi": 5.1644547028274665,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 799.1657506508534,
+     "prompt_tokens_per_item": 902.7451547584611,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "STOP-2": {
+     "accuracy_pct": 47.960659531385595,
+     "correct": 1658,
+     "delta_vs_keep": {
+      "estimate": 1.5909748336708127,
+      "lo": 0.5472310838316917,
+      "hi": 2.6536745835079025,
+      "p_boot": 0.0035
+     },
+     "repairs": 208,
+     "damage": 153,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.029002109962940267,
+      "hi": 0.2873604528960362,
+      "p_boot": 0.012
+     },
+     "repairs_content": {
+      "estimate": 5.872143477003182,
+      "lo": 5.122032499842751,
+      "hi": 6.626371831721975,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 4.425802719120625,
+      "lo": 3.7423033261437166,
+      "hi": 5.100879171365326,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 657.4075788255712,
+     "prompt_tokens_per_item": 728.0445472953428,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "GATE-a0": {
+     "accuracy_pct": 48.394561758750356,
+     "correct": 1673,
+     "delta_vs_keep": {
+      "estimate": 2.02487706103558,
+      "lo": 1.268724509637725,
+      "hi": 2.7947755559191068,
+      "p_boot": 0.0
+     },
+     "repairs": 135,
+     "damage": 65,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.029002109962940267,
+      "hi": 0.2873604528960362,
+      "p_boot": 0.012
+     },
+     "repairs_content": {
+      "estimate": 3.7604859704946487,
+      "lo": 3.1474964307764033,
+      "hi": 4.387266308977073,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 1.8802429852473244,
+      "lo": 1.449685058891256,
+      "hi": 2.3316081053122777,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 515.7306913508822,
+     "prompt_tokens_per_item": 551.1952560023142,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    },
+    "REF BEST(a0,V5)": {
+     "accuracy_pct": 52.35753543534857,
+     "correct": 1810,
+     "delta_vs_keep": {
+      "estimate": 5.987850737633787,
+      "lo": 5.209515667442763,
+      "hi": 6.759098786828423,
+      "p_boot": 0.0
+     },
+     "repairs": 207,
+     "damage": 0,
+     "repairs_completion": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.029002109962940267,
+      "hi": 0.2873604528960362,
+      "p_boot": 0.012
+     },
+     "repairs_content": {
+      "estimate": 5.843216661845531,
+      "lo": 5.076361789613274,
+      "hi": 6.624428506011136,
+      "p_boot": 0.0
+     },
+     "damage_format_loss": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "damage_content": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "generated_tokens_per_item": 1044.5004339022273,
+     "prompt_tokens_per_item": 1221.9120624819207,
+     "selected_n": null,
+     "final_unanswered_pct": 0.0
+    }
+   },
+   "contrasts": [
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "HYBRID-margin 20%",
+     "b": "V5",
+     "family_member": 1,
+     "difference": {
+      "estimate": -0.23141452126120912,
+      "lo": -0.954315750324611,
+      "hi": 0.5150918375914304,
+      "p_boot": 0.5765
+     },
+     "token_difference": 107.64796065953139
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "VOTE+a0 k5",
+     "b": "V5",
+     "family_member": 2,
+     "difference": {
+      "estimate": 0.6363899334683252,
+      "lo": 0.0,
+      "hi": 1.3032334776985781,
+      "p_boot": 0.059
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "V1",
+     "b": "F2 ALL",
+     "family_member": 3,
+     "difference": {
+      "estimate": 1.5041943881978594,
+      "lo": 0.2004735625512841,
+      "hi": 2.870459688955743,
+      "p_boot": 0.025
+     },
+     "token_difference": -287.48597049464854
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "ANSWERLESS->F2",
+     "b": "F2 ALL",
+     "family_member": 4,
+     "difference": {
+      "estimate": 1.6488284639861153,
+      "lo": 0.8735660112820595,
+      "hi": 2.42076672512322,
+      "p_boot": 0.0
+     },
+     "token_difference": -494.72519525600234
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "HYBRID-margin 10%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.3181949667341626,
+      "lo": -0.20349281248519868,
+      "hi": 0.8427843869751224,
+      "p_boot": 0.256
+     },
+     "token_difference": 54.76193231125253
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "HYBRID-agree 10%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -1.7934625397743709,
+      "lo": -2.503001548233951,
+      "hi": -1.1049723756906076,
+      "p_boot": 0.0
+     },
+     "token_difference": 54.247613537749494
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "HYBRID-agree 20%",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": -1.76453572461672,
+      "lo": -2.699564586357039,
+      "hi": -0.8118001357526151,
+      "p_boot": 0.0
+     },
+     "token_difference": 107.16343650564073
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "V5",
+     "b": "AGREE->F2 10%",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.3306334972519527,
+      "lo": 0.3153197887607489,
+      "hi": 2.3693259751182585,
+      "p_boot": 0.0115
+     },
+     "token_difference": -54.247613537749494
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "V5",
+     "b": "AGREE->F2 20%",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.2727798669366504,
+      "lo": 0.26039788300634736,
+      "hi": 2.3263745735020014,
+      "p_boot": 0.012
+     },
+     "token_difference": -107.16343650564073
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "STOP-decided",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "p_boot": 1.0
+     },
+     "token_difference": -245.33468325137403
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "STOP-2",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.08678044547295344,
+      "lo": -0.17351195460447474,
+      "hi": 0.3479294580156729,
+      "p_boot": 0.5725
+     },
+     "token_difference": -387.09285507665606
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "GATE-a0",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.5206826728377205,
+      "lo": -0.2009343936808901,
+      "hi": 1.2202296671659947,
+      "p_boot": 0.1655
+     },
+     "token_difference": -528.7697425513451
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "VOTE+a0 k3",
+     "b": "V3",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.7520971940989297,
+      "lo": -0.11554098478866016,
+      "hi": 1.6180762756905183,
+      "p_boot": 0.09
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "ANSWERLESS->s1",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.1446340757882557,
+      "lo": 0.02897689822722552,
+      "hi": 0.2881014116969173,
+      "p_boot": 0.014
+     },
+     "token_difference": 1.8351171536013884
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "ANSWERLESS->F2",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.02892681515765114,
+      "lo": 0.0,
+      "hi": 0.08720993629841016,
+      "p_boot": 0.734
+     },
+     "token_difference": 2.177610645067978
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "ANSWERLESS->F2-scratch",
+     "b": "F2-scratch ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.7520971940989297,
+      "lo": -1.1771630465470113,
+      "hi": -0.3467180972229803,
+      "p_boot": 0.0
+     },
+     "token_difference": -513.8990454150997
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "V1",
+     "b": "KEEP",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.11570726063060456,
+      "lo": -1.361164834611365,
+      "hi": 1.129501799245217,
+      "p_boot": 0.8785
+     },
+     "token_difference": 209.41683540642174
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "V5",
+     "b": "V1",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.6199016488284639,
+      "lo": 0.6352279248621047,
+      "hi": 2.601156069364162,
+      "p_boot": 0.0005
+     },
+     "token_difference": 835.0835984958056
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "V3",
+     "b": "V1",
+     "family_member": null,
+     "difference": {
+      "estimate": 1.0702921608330922,
+      "lo": 0.23194625073114714,
+      "hi": 1.9037043260407769,
+      "p_boot": 0.0135
+     },
+     "token_difference": 418.4984090251663
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "V5",
+     "b": "V3",
+     "family_member": null,
+     "difference": {
+      "estimate": 0.5496094879953718,
+      "lo": -0.143890075259677,
+      "hi": 1.2453029659331953,
+      "p_boot": 0.123
+     },
+     "token_difference": 416.5851894706393
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "REF BEST(a0,V5)",
+     "b": "V5",
+     "family_member": null,
+     "difference": {
+      "estimate": 4.483656349435927,
+      "lo": 3.8161318300086733,
+      "hi": 5.1644547028274665,
+      "p_boot": 0.0
+     },
+     "token_difference": 0.0
+    },
+    {
+     "setting": "MMLU-Pro T8B",
+     "a": "V1",
+     "b": "F0 ALL",
+     "family_member": null,
+     "difference": {
+      "estimate": -0.20248770610355799,
+      "lo": -1.425391671187006,
+      "hi": 1.0439636581427396,
+      "p_boot": 0.767
+     },
+     "token_difference": 200.60746311831068
+    }
+   ],
+   "mean_samples_drawn": {
+    "STOP-decided": 3.623951402950535,
+    "STOP-2": 2.8903673705525024,
+    "GATE-a0": 2.1084755568411917
+   }
+  }
+ },
+ "parity": [
+  "math ALL deltas (historical labels) equal the ACL baselines for 4 models x 3 operators",
+  "4B math same-rule KEEP, F2/F2-scratch ALL, V5 and gold-blind agreement 10/20 % equal the ACL values",
+  "MMLU-Pro plurality k=1,3,5 accuracy and cost, and agreement 10/20 % gains equal the ACL prefixes"
+ ],
+ "family_interim": [
+  {
+   "setting": "math 1.7B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "member": 4,
+   "difference": {
+    "estimate": 0.1583531274742676,
+    "lo": -0.2769014735790175,
+    "hi": 0.5741437339140765,
+    "p_boot": 0.5045
+   },
+   "p_boot": 0.5045,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "math 4B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "member": 1,
+   "difference": {
+    "estimate": -1.7616785431512274,
+    "lo": -2.3950910530482976,
+    "hi": -1.107375914573858,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "holm_interim": 0.0075
+  },
+  {
+   "setting": "math 4B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "member": 2,
+   "difference": {
+    "estimate": 0.05938242280285036,
+    "lo": -0.3361676883527783,
+    "hi": 0.47459202434024284,
+    "p_boot": 0.7905
+   },
+   "p_boot": 0.7905,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "math 4B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "member": 3,
+   "difference": {
+    "estimate": -0.4750593824228029,
+    "lo": -1.3462880677313276,
+    "hi": 0.3167689566422491,
+    "p_boot": 0.2525
+   },
+   "p_boot": 0.2525,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "math 4B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "member": 4,
+   "difference": {
+    "estimate": -0.49485352335708627,
+    "lo": -0.9316899202067584,
+    "hi": -0.0594059405940594,
+    "p_boot": 0.0275
+   },
+   "p_boot": 0.0275,
+   "holm_interim": 0.33
+  },
+  {
+   "setting": "math 8B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "member": 4,
+   "difference": {
+    "estimate": -0.09897070467141725,
+    "lo": -0.5146502115476769,
+    "hi": 0.31708598105989527,
+    "p_boot": 0.685
+   },
+   "p_boot": 0.685,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "math T8B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "member": 4,
+   "difference": {
+    "estimate": -0.1583531274742676,
+    "lo": -0.43512873423981774,
+    "hi": 0.09903000123355302,
+    "p_boot": 0.2695
+   },
+   "p_boot": 0.2695,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "MMLU-Pro 4B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "member": 1,
+   "difference": {
+    "estimate": -0.11570726063060456,
+    "lo": -0.905780960635686,
+    "hi": 0.7231913221900172,
+    "p_boot": 0.804
+   },
+   "p_boot": 0.804,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "MMLU-Pro 4B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "member": 2,
+   "difference": {
+    "estimate": 0.0,
+    "lo": -0.7558359504020359,
+    "hi": 0.7475937567976776,
+    "p_boot": 1.0
+   },
+   "p_boot": 1.0,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "MMLU-Pro 4B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "member": 3,
+   "difference": {
+    "estimate": 1.5331212033555106,
+    "lo": 0.11637549413360661,
+    "hi": 2.945444313267616,
+    "p_boot": 0.035
+   },
+   "p_boot": 0.035,
+   "holm_interim": 0.385
+  },
+  {
+   "setting": "MMLU-Pro 4B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "member": 4,
+   "difference": {
+    "estimate": 0.4917558576800694,
+    "lo": -0.6701876143990237,
+    "hi": 1.7111617188225903,
+    "p_boot": 0.4505
+   },
+   "p_boot": 0.4505,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "MMLU-Pro T8B",
+   "a": "HYBRID-margin 20%",
+   "b": "V5",
+   "member": 1,
+   "difference": {
+    "estimate": -0.23141452126120912,
+    "lo": -0.954315750324611,
+    "hi": 0.5150918375914304,
+    "p_boot": 0.5765
+   },
+   "p_boot": 0.5765,
+   "holm_interim": 1.0
+  },
+  {
+   "setting": "MMLU-Pro T8B",
+   "a": "VOTE+a0 k5",
+   "b": "V5",
+   "member": 2,
+   "difference": {
+    "estimate": 0.6363899334683252,
+    "lo": 0.0,
+    "hi": 1.3032334776985781,
+    "p_boot": 0.059
+   },
+   "p_boot": 0.059,
+   "holm_interim": 0.59
+  },
+  {
+   "setting": "MMLU-Pro T8B",
+   "a": "V1",
+   "b": "F2 ALL",
+   "member": 3,
+   "difference": {
+    "estimate": 1.5041943881978594,
+    "lo": 0.2004735625512841,
+    "hi": 2.870459688955743,
+    "p_boot": 0.025
+   },
+   "p_boot": 0.025,
+   "holm_interim": 0.325
+  },
+  {
+   "setting": "MMLU-Pro T8B",
+   "a": "ANSWERLESS->F2",
+   "b": "F2 ALL",
+   "member": 4,
+   "difference": {
+    "estimate": 1.6488284639861153,
+    "lo": 0.8735660112820595,
+    "hi": 2.42076672512322,
+    "p_boot": 0.0
+   },
+   "p_boot": 0.0,
+   "holm_interim": 0.0075
+  }
+ ]
+}

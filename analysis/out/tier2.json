@@ -1,0 +1,51 @@
+{
+ "exp5": {
+  "4B": {
+   "pilot": "p2-ttt-pilot-4B-ea34050",
+   "serve": "p2-ttt-serve-4B-ea34050",
+   "tau": "0.5",
+   "lr": "0.001",
+   "feasible": true,
+   "update_repeat_identical": 1.0
+  },
+  "1.7B": {
+   "pilot": "p2-ttt-pilot-1.7B-7ea8f7d",
+   "serve": "p2-ttt-serve-1.7B-7ea8f7d",
+   "tau": "0.5",
+   "lr": "0.0001",
+   "feasible": true,
+   "update_repeat_identical": 1.0
+  }
+ },
+ "exp3": {
+  "4B": {
+   "run": "p2-steer-pilot-4B-7ea8f7d",
+   "main_setting": {
+    "layer": 18,
+    "direction": "role",
+    "alpha": 0.2,
+    "proxy_gain": 0.015153598443915447,
+    "mean_kl": 0.01174807504426628,
+    "reachable": true,
+    "w2r": 0.9,
+    "r2w": 0.0,
+    "generic_valid": false,
+    "w2r_gain_over_ref": 0.015000000000000013,
+    "r2w_increase_ok": true
+   },
+   "main_run": "top2:role",
+   "controls": {
+    "generic": "top2:generic",
+    "random": [
+     "top2:random0",
+     "top2:random1",
+     "top2:random2",
+     "top2:random3",
+     "top2:random4"
+    ]
+   },
+   "reachable": 64,
+   "alpha0_identical": true
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "run_id": "main-probe-scores-test-T8B-1809070",
+ "model": "allenai/Llama-3.1-Tulu-3-8B",
+ "model_revision": "666943798adbde0b1aff34626007e26986a3c107",
+ "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+ "prompts_sha256": {},
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "1809070d828456d488dbfb1b446cda53fa0a6bbd",
+ "config_sha256": "ebb0c3441647b8728ac701c8e80679080b6c6114696cea1d560858c29be3d807",
+ "backend": {
+  "name": "numpy",
+  "version": "2.3.5"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "f10ddbc6f672efdb1df80b90b6773aa73c0a123f1a58111d7ffcbfc5b8ad0e1a",
+  "metrics.json": "bae202b11e6280acfc96fbd8b838e4fa80a95f1c2d230826c2ad472138fba340",
+  "probe_scores.jsonl": "a0ed6cba6d97e696139fd90c31d634cfa09bca3d3aaf29aca40e2d719f3e39fd"
+ }
+}

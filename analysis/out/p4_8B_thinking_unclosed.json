@@ -1,0 +1,74 @@
+{
+ "runs": [
+  "results/main/8B/main-thinking-test-c0-8B-3fd21bc",
+  "results/main/8B/main-thinking-test-c1-8B-3fd21bc"
+ ],
+ "conds": {
+  "1B:assistant/other/F0": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  },
+  "1B:user/other/F0": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  },
+  "1B:user/self/F0": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  },
+  "B1": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  },
+  "F0": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  },
+  "F1": {
+   "outputs": 590,
+   "stop_unclosed": 7,
+   "boxed_inside": 7,
+   "would_be_correct": 1
+  },
+  "F2": {
+   "outputs": 590,
+   "stop_unclosed": 1,
+   "boxed_inside": 1,
+   "would_be_correct": 0
+  },
+  "F2:turn1": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  },
+  "F3(0.7)": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  },
+  "F3(1.0)": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  },
+  "F5": {
+   "outputs": 590,
+   "stop_unclosed": 0,
+   "boxed_inside": 0,
+   "would_be_correct": 0
+  }
+ }
+}

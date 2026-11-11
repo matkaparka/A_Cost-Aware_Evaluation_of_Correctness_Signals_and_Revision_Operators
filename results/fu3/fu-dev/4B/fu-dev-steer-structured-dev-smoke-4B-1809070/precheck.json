@@ -1,0 +1,23 @@
+{
+ "alpha0_identical": true,
+ "mean_kl": {
+  "main": 0.010166409833066048,
+  "pc1": 0.12321778416098872,
+  "dataset": 0.012075038793364357,
+  "flip": 0.0036662584345394933
+ },
+ "reachable": {
+  "main": true,
+  "pc1": true,
+  "dataset": true,
+  "flip": true
+ },
+ "cos_with_role": {
+  "pc1": 0.06382673978805542,
+  "dataset": 0.10545337945222855,
+  "flip": -0.3488837930577579
+ },
+ "n": 8,
+ "n_dev_directions": 24,
+ "gpu": "NVIDIA A100-SXM4-80GB"
+}

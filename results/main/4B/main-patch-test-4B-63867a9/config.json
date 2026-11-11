@@ -1,0 +1,52 @@
+{
+ "stage": "test",
+ "model": "4B",
+ "split": "test",
+ "frozen": "results/p2/4B/p2-patch-dev-4B-f15b933/frozen.json",
+ "frozen_sha256": "d32eb41632ea42675eea861cf8f94bf6ccc54f2ed13210f3bfdb8034b7361a8e",
+ "n": 200,
+ "chunk": 100,
+ "limit": 0,
+ "dry_run": false,
+ "tokenizer": null,
+ "receiver": [
+  "assistant",
+  "self"
+ ],
+ "donor": [
+  "user",
+  "other"
+ ],
+ "groups": [
+  "label",
+  "turn",
+  "sol_head",
+  "sol_body",
+  "post",
+  "instr",
+  "gen",
+  "last"
+ ],
+ "metrics": [
+  "lp_gold",
+  "marker"
+ ],
+ "target": "The final answer is \\boxed{<gold>}.",
+ "markers": {
+  "correction": [
+   "Let"
+  ],
+  "commit": [
+   "The"
+  ]
+ },
+ "skip_first": 5,
+ "self_patch_tol": 0.001,
+ "n_real": 20,
+ "k_max": 5,
+ "k_min": 1,
+ "n_boot": 10000,
+ "boot_seed": 0,
+ "order": "split.json order, then item_id",
+ "wording_sha256": "aa1413e056141f17b5eac920125fa6e126f1fddf10effe4ea5680c11a00ef74a"
+}

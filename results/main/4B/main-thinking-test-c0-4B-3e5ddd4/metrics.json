@@ -1,0 +1,85 @@
+{
+ "model": "4B",
+ "split": "test",
+ "chunk": 0,
+ "items": 150,
+ "vllm": "0.33.0",
+ "load_s": 40.01152729988098,
+ "turn1_s": 5277.793629646301,
+ "turn2_s": 608.3298120498657,
+ "turn1_requests": 3000,
+ "turn2_requests": 300,
+ "out_tokens_total": 7930126,
+ "rows": {
+  "1B:assistant/other/F0": {
+   "n": 300,
+   "ok": 295,
+   "truncated": 4,
+   "conflict": 1
+  },
+  "1B:assistant/self/F0": {
+   "n": 300,
+   "ok": 297,
+   "truncated": 3
+  },
+  "1B:user/other/F0": {
+   "n": 300,
+   "ok": 296,
+   "truncated": 2,
+   "conflict": 2
+  },
+  "1B:user/self/F0": {
+   "n": 300,
+   "ok": 297,
+   "truncated": 3
+  },
+  "B1": {
+   "n": 300,
+   "ok": 290,
+   "truncated": 10
+  },
+  "F0": {
+   "n": 300,
+   "ok": 297,
+   "truncated": 3
+  },
+  "F1": {
+   "n": 300,
+   "ok": 251,
+   "unparsed": 41,
+   "truncated": 8
+  },
+  "F2": {
+   "n": 300,
+   "ok": 298,
+   "conflict": 1,
+   "truncated": 1
+  },
+  "F2:turn1": {
+   "n": 300,
+   "unparsed": 100,
+   "ok": 199,
+   "truncated": 1
+  },
+  "F3(0.7)": {
+   "n": 300,
+   "ok": 296,
+   "truncated": 3,
+   "conflict": 1
+  },
+  "F3(1.0)": {
+   "n": 300,
+   "ok": 294,
+   "truncated": 5,
+   "conflict": 1
+  },
+  "F5": {
+   "n": 300,
+   "ok": 294,
+   "truncated": 5,
+   "conflict": 1
+  }
+ },
+ "scorer_guarded": [],
+ "score_s": 16.55160665512085
+}

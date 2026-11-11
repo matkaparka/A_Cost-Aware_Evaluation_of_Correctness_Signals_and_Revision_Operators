@@ -1,0 +1,9 @@
+{
+ "model": "4B",
+ "split": "test",
+ "budget": 2048,
+ "initial_dev": "results/fu-dev/4B/fu-dev-lore-initial-dev-4B-aac4cc6",
+ "initial_test": "results/fu/4B/fu-lore-initial-test-4B-aac4cc6",
+ "hf": "results/fu/4B/fu-lore-hf-2048-4B-aac4cc6",
+ "conds": "results/fu/4B/fu-lore-conds-test-2048-4B-aac4cc6"
+}

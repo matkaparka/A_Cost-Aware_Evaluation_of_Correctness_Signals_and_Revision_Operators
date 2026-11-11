@@ -1,0 +1,7 @@
+{
+ "model": "4B",
+ "zero_adapter": "/home/results/p0/4B/adapters/zero",
+ "n": 128,
+ "max_tokens": 512,
+ "VLLM_BATCH_INVARIANT": "1"
+}

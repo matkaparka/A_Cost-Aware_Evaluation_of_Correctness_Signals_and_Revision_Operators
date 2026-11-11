@@ -1,0 +1,14 @@
+{
+ "model": "4B",
+ "items": "/home/results/p0/4B/p0-vllm-4B-5c43f13/items.jsonl",
+ "n": 64,
+ "ttt": 32,
+ "save_adapters": 16,
+ "adapter_dir": "/home/results/p0/4B/adapters",
+ "patch": 16,
+ "agree": 24,
+ "hf_gen": 64,
+ "steps": 4,
+ "lr": 0.0001,
+ "tau": 1.0
+}

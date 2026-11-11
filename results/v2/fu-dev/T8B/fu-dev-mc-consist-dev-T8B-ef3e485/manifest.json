@@ -1,0 +1,30 @@
+{
+ "run_id": "fu-dev-mc-consist-dev-T8B-ef3e485",
+ "model": "allenai/Llama-3.1-Tulu-3-8B",
+ "model_revision": "666943798adbde0b1aff34626007e26986a3c107",
+ "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+ "prompts_sha256": {
+  "initial": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52",
+  "ask": "ab48b8bd41cfacbada48790b1e40b973a9cb57bc368005761d9a3260128d1928",
+  "query": "7b0ee09ba9438e099567337b972d8fbaccf813ef1297fb9864e2582e315696ac"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "ef3e4855340f9af3689c5c5e8a97178be27c23de",
+ "config_sha256": "85dddf8fa94816a12e649f8a623b8efcf5aadada565aa1e800eb84de68f895c1",
+ "backend": {
+  "name": "vllm",
+  "version": "0.33.0"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "7c6eeeca37cec6848a20dc5a41ff770c935ce5a0f3dbbdd8d1b2af544fb09948",
+  "consistency.jsonl": "0104bab61f409bcba6d182f7ad2a3d0b6543a8fe7f160a0c533afc9fd3638e94",
+  "metrics.json": "87e74726a0489bb5c192e580793d361074df7cf82d837ca6e4ceda2e7cd1fefa"
+ }
+}

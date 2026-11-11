@@ -1,0 +1,285 @@
+{
+ "spec": "configs/p4_spec_8B_test.json",
+ "n_boot": 10000,
+ "estimates": {
+  "H1a": {
+   "n": 5052,
+   "est": 0.0,
+   "lo": -0.004949514947535142,
+   "hi": 0.0049534376857539135,
+   "kind": "equivalence",
+   "margin": 0.03,
+   "context": {
+    "discordance": 0.03285827395091053,
+    "F1 W->R": 0.07988587731811697,
+    "F2 W->R": 0.1355206847360913,
+    "F1 R->W": 0.003907147782119091,
+    "F2 R->W": 0.012870604458745105
+   }
+  },
+  "H1b": {
+   "n": 5052,
+   "est": 0.011507441255015342,
+   "lo": 0.008355411004859524,
+   "hi": 0.014817119913289042,
+   "kind": "one-sided",
+   "margin": 0.015
+  },
+  "H1d": {
+   "n": 5052,
+   "est": -0.004948535233570863,
+   "lo": -0.007058513094531301,
+   "hi": -0.0029661708246042557,
+   "kind": "estimation"
+  },
+  "H2a": {
+   "n": 5052,
+   "est": 0.00914640443717174,
+   "lo": -0.001182704252155025,
+   "hi": 0.019722083235285036,
+   "kind": "one-sided",
+   "margin": 0.03,
+   "auroc_probe": 0.8950365092255834,
+   "auroc_verbal": 0.8858901047884117
+  },
+  "H2b(i) F2 - F0": {
+   "n": 140,
+   "est": 0.15602836879432624,
+   "lo": 0.09774436090225563,
+   "hi": 0.21919508403769528,
+   "kind": "estimation"
+  },
+  "H2b(ii) F3(1.0) - F0": {
+   "n": 140,
+   "est": 0.12056737588652482,
+   "lo": 0.06975936692506461,
+   "hi": 0.176056338028169,
+   "kind": "estimation"
+  },
+  "H3a-role": {
+   "n": 1635,
+   "est": -0.0003058103975535168,
+   "lo": -0.009265264868370843,
+   "hi": 0.008594229588704727,
+   "kind": "two-sided",
+   "margin": 0.03
+  },
+  "H3a-label": {
+   "n": 1635,
+   "est": 0.003363914373088685,
+   "lo": -0.004920124893556628,
+   "hi": 0.011592611340933485,
+   "kind": "two-sided",
+   "margin": 0.03
+  }
+ },
+ "secondary": {
+  "H1a": {
+   "original pool": [
+    -0.009621993127147767,
+    -0.018543956043956044,
+    -0.0006854009595613434
+   ],
+   "reweighted to the original mix": [
+    -0.010514586971156202,
+    -0.018037052595674164,
+    -0.0033494192358975534
+   ],
+   "gsm8k": [
+    -0.016113744075829384,
+    -0.026367638419360157,
+    -0.006584981680447593
+   ],
+   "math500": [
+    0.0075,
+    -0.011963160195068089,
+    0.027160493827160494
+   ],
+   "math_ext": [
+    0.003892132332499305,
+    -0.00194664797481941,
+    0.009997431384864834
+   ],
+   "math_ext \u2212 original pool": [
+    0.013514125459647072,
+    0.0028287563096119827,
+    0.02423672424177495
+   ]
+  },
+  "H1b": {
+   "original pool": [
+    0.01473586114508677,
+    0.008580907090675823,
+    0.02157921583929452
+   ],
+   "reweighted to the original mix": [
+    0.013276149085720444,
+    0.008082506192150578,
+    0.019099339184724406
+   ],
+   "gsm8k": [
+    0.014218009478672673,
+    0.0071816995023673835,
+    0.022150461199816698
+   ],
+   "math500": [
+    0.016101694915253963,
+    0.004800868330967417,
+    0.03022286121122114
+   ],
+   "math_ext": [
+    0.010201533292809635,
+    0.006624524966192674,
+    0.013915198430470038
+   ],
+   "math_ext \u2212 original pool": [
+    -0.0045343278522771355,
+    -0.012154654353794347,
+    0.002807972294336045
+   ]
+  },
+  "H1d": {
+   "original pool": [
+    -0.0027491408934707897,
+    -0.0071412927069779515,
+    0.0013432964832853311
+   ],
+   "reweighted to the original mix": [
+    -0.002338007801383684,
+    -0.006351480830842151,
+    0.0012623895337783766
+   ],
+   "gsm8k": [
+    -0.0009478672985781986,
+    -0.006391840362144673,
+    0.003948764870907452
+   ],
+   "math500": [
+    -0.0075,
+    -0.015220700152207,
+    -0.0016181229773462782
+   ],
+   "math_ext": [
+    -0.005838198498748957,
+    -0.008210203347972133,
+    -0.003612064321918544
+   ],
+   "math_ext \u2212 original pool": [
+    -0.0030890576052781675,
+    -0.0077288139041481775,
+    0.0018425686760158127
+   ]
+  },
+  "H2a": {
+   "original pool": [
+    -0.006033166622795405,
+    -0.034354255721928996,
+    0.02214379394021556
+   ],
+   "math_ext": [
+    0.007959564607439296,
+    -0.002686065839882775,
+    0.018787718198000087
+   ]
+  }
+ },
+ "notes": [
+  "D-nat items with every 1A condition: 5052 of 5052",
+  "H2a items with probe and verbal scores: 5052 of 5052 (missing excluded from both, counted)"
+ ],
+ "exp3_arms": null,
+ "runs": {
+  "results/main/8B/main-exp01-test-8B-3e6149d": {
+   "rows": 66960,
+   "status": {
+    "ok": 61809,
+    "truncated": 1423,
+    "unparsed": 638,
+    "last_number": 747,
+    "conflict": 1,
+    "invalid": 567
+   },
+   "scorer_guarded": [
+    {
+     "fn": "_symbolic",
+     "args": [
+      "(1 + 274i)^{2^{2002}}",
+      "1+274i"
+     ],
+     "reason": "killed: exit code -24"
+    }
+   ],
+   "truncated_by_condition": {
+    "0:exp0:F0": 118,
+    "0:exp0:F3(0.5)": 83,
+    "0:exp0:F3(0.7)": 106,
+    "0:exp0:F3(0.9)": 125,
+    "0:exp0:F3(1.0)": 135,
+    "1A:dnat:B1": 52,
+    "1A:dnat:F0": 27,
+    "1A:dnat:F1": 22,
+    "1A:dnat:F2": 15,
+    "1A:dnat:F2-scratch": 34,
+    "1A:dnat:F3(0.5)": 31,
+    "1A:dnat:F3(0.7)": 34,
+    "1A:dnat:F3(0.9)": 36,
+    "1A:dnat:F3(1.0)": 37,
+    "1A:dnat:F3-perm[0]": 38,
+    "1A:dnat:F3-perm[1]": 38,
+    "1A:dnat:F3-perm[2]": 38,
+    "1A:dnat:F5": 39,
+    "1B:dinj:assistant/other/F0": 21,
+    "1B:dinj:assistant/other/F1": 21,
+    "1B:dinj:assistant/other/F3(1.0)": 22,
+    "1B:dinj:assistant/self/F0": 22,
+    "1B:dinj:assistant/self/F1": 19,
+    "1B:dinj:assistant/self/F3(1.0)": 26,
+    "1B:dinj:user/other/F0": 21,
+    "1B:dinj:user/other/F1": 23,
+    "1B:dinj:user/other/F3(1.0)": 23,
+    "1B:dinj:user/self/F0": 17,
+    "1B:dinj:user/self/F1": 21,
+    "1B:dinj:user/self/F3(1.0)": 23,
+    "1B:dnat:assistant/other/F0": 27,
+    "1B:dnat:assistant/other/F1": 23,
+    "1B:dnat:assistant/other/F3(1.0)": 36,
+    "1B:dnat:assistant/self/F0": 27,
+    "1B:dnat:assistant/self/F1": 22,
+    "1B:dnat:assistant/self/F3(1.0)": 37,
+    "1B:dnat:user/other/F0": 27,
+    "1B:dnat:user/other/F1": 25,
+    "1B:dnat:user/other/F3(1.0)": 36,
+    "1B:dnat:user/self/F0": 30,
+    "1B:dnat:user/self/F1": 28,
+    "1B:dnat:user/self/F3(1.0)": 35,
+    "tsui:dinj:external": 77,
+    "tsui:dinj:external+wait": 84,
+    "tsui:dinj:internal": 33,
+    "tsui:dinj:internal+wait": 176
+   }
+  },
+  "results/main/8B/main-exp01-test-ext-8B-3fd21bc": {
+   "rows": 50358,
+   "status": {
+    "ok": 44635,
+    "truncated": 2126
+   },
+   "scorer_guarded": [],
+   "truncated_by_condition": {
+    "1A:dnat:B1": 298,
+    "1A:dnat:F0": 117,
+    "1A:dnat:F1": 100,
+    "1A:dnat:F2": 88,
+    "1A:dnat:F2-scratch": 166,
+    "1A:dnat:F3(0.5)": 139,
+    "1A:dnat:F3(0.7)": 151,
+    "1A:dnat:F3(0.9)": 160,
+    "1A:dnat:F3(1.0)": 164,
+    "1A:dnat:F3-perm[0]": 181,
+    "1A:dnat:F3-perm[1]": 184,
+    "1A:dnat:F3-perm[2]": 180,
+    "1A:dnat:F5": 198
+   }
+  }
+ }
+}

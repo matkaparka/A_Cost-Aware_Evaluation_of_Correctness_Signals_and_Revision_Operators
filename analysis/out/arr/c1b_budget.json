@@ -1,0 +1,1295 @@
+{
+ "plan_sha256_lf": "e0fc3804d589ecb25714e4445b9d6958c5337842ef5d6a1df2795d611bf37bf3",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "extractions_sha256_before_gold": "2702b091f641d0d3985723551a8260ec28350a98818c3af832cc197bbd09ba1c",
+ "scorer_guards": [
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{12}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/12"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{2004!}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2004! (below 10^-5000)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (630 sqrt3)^(3^101/2), about 10^(2.3e48) versus 4096 sqrt2 (about 5792.6)"
+  },
+  {
+   "a": "\\frac{1}{2005 \\cdot 2004}",
+   "b": "\\frac{1}{2^{2^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/(2005*2004) versus 1/2^(2^2004): positive, below 10^(-10^600)"
+  },
+  {
+   "a": "\\frac{1}{2005}",
+   "b": "\\frac{1}{2^{2^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2005 versus 1/2^(2^2004): positive, below 10^(-10^600)"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{2^{4009}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/2^4009"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{2^{2006}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/2^2006"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{4}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/4"
+  },
+  {
+   "a": "Second sum: $ \\sum_{n = 1}^{1985} (-1)^{n + 1}(n + 1)",
+   "b": "Part 2: $ \\sum_{n=1}^{1985} c_n",
+   "reason": "cpu",
+   "hand_check": "not equivalent: a sum of a sequence c_n that the answer does not define, with a text prefix; the other side is the sum sum_{n=1..1985} (-1)^(n+1)(n+1) = 994, with a text prefix"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: their ratio is 1/|bc|, so they agree only when |bc| = 1. tanA form 1: 2D/(bc sqrt(b^2c^2-4D^2)) with D = a^2-(b-c)^2; tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "reason": "cpu",
+   "hand_check": "equivalent when bc > 0, as for the sides of a triangle; opposite signs when bc < 0. tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D); tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2. The rule's 'not equivalent' differs from this hand check"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "-\\frac{1}{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus -1/2"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{(2006)^{2004}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2006^2004"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{2005}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2005"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "-2005",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus -2005"
+  },
+  {
+   "a": "1",
+   "b": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1 versus 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "1",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: both are powers of a^3-3a in the undefined symbol a, with different exponents (5050 and (3^100-1)/2), so they differ as functions of a (e.g. at a = 2)"
+  },
+  {
+   "a": "1",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 1"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2.101)^{100}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 2.101^100, about 1.7e32"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2.101)^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 2.101^100, about 1.7e32"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "1",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: 1 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(2.101)^{100}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 2.101^100, about 1.7e32 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "1",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 1 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(2.101)^{100}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: 2.101^100, about 1.7e32 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (630 sqrt3)^(3^101/2), about 10^(2.3e48) versus (2+2^(3/4))^150, about 8.1e84"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(a^3 - 3a)^{5050}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "hand_check": "not equivalent: (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: their ratio is 1/(bc), so they agree only when bc = 1. tanA form 1: 2D/(bc sqrt(b^2c^2-4D^2)) with D = a^2-(b-c)^2; tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D)"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "reason": "cpu",
+   "hand_check": "equivalent when bc > 0, as for the sides of a triangle; opposite signs when bc < 0. tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2; tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D). The rule's 'not equivalent' differs from this hand check"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "memory",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22"
+  },
+  {
+   "a": "\\left( \\frac{a^3 - 3a}{3} \\right)^{\\frac{4^{101} - 4}{3} - 100}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)"
+  }
+ ],
+ "budgets": [
+  256,
+  512,
+  1024,
+  2048
+ ],
+ "signals": [
+  "verbal",
+  "probe"
+ ],
+ "settings": {
+  "math 4B": {
+   "status": "complete",
+   "n": 5052,
+   "keep_accuracy_pct": 85.19398258115598,
+   "think_all": {
+    "accuracy_pct": 93.86381631037213,
+    "delta_vs_keep": {
+     "estimate": 8.669833729216151,
+     "lo": 7.7227722772277225,
+     "hi": 9.580506523010365,
+     "p_boot": 0.0
+    },
+    "generated_tokens_per_item": 4330.631631037213
+   },
+   "budgets": {
+    "256": {
+     "accuracy_pct": 85.35233570863025,
+     "delta_vs_keep": {
+      "estimate": 0.1583531274742676,
+      "lo": -0.7130124777183601,
+      "hi": 1.0087025316455696,
+      "p_boot": 0.7265
+     },
+     "generated_tokens_per_item": 852.4006334125099,
+     "over_budget_pct": 99.98020585906572,
+     "forced_items": 5051,
+     "forced_truncated_pct_of_forced": 4.395169273411206,
+     "no_usable_answer_pct": 4.453681710213777,
+     "repair_rate": {
+      "estimate": 33.288770053475936,
+      "lo": 29.781609236849317,
+      "hi": 36.71596087007878,
+      "n_den": 748
+     },
+     "damage_rate": {
+      "estimate": 5.599442379182156,
+      "lo": 4.913833255705636,
+      "hi": 6.310492353234098,
+      "n_den": 4304
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 8,
+       "selected_n": 404,
+       "delta_pp": 4.47347585114806,
+       "generated_tokens_per_item": 820.3701504354711,
+       "w_S": 0.8391089108910891,
+       "repair_rate": 0.6932153392330384,
+       "damage_rate": 0.13846153846153847,
+       "delta_ci": {
+        "estimate": 4.47347585114806,
+        "lo": 3.8979026513652553,
+        "hi": 5.071609228620435,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 8,
+       "selected_n": 404,
+       "delta_pp": 4.532858273950911,
+       "generated_tokens_per_item": 824.2119952494062,
+       "w_S": 0.8589108910891089,
+       "repair_rate": 0.6945244956772334,
+       "damage_rate": 0.21052631578947367,
+       "delta_ci": {
+        "estimate": 4.532858273950911,
+        "lo": 3.956439615094158,
+        "hi": 5.149534561299267,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "512": {
+     "accuracy_pct": 86.10451306413302,
+     "delta_vs_keep": {
+      "estimate": 0.9105304829770388,
+      "lo": 0.0395882818685669,
+      "hi": 1.7422551464758356,
+      "p_boot": 0.0405
+     },
+     "generated_tokens_per_item": 1099.6217339667458,
+     "over_budget_pct": 99.48535233570863,
+     "forced_items": 5026,
+     "forced_truncated_pct_of_forced": 3.780342220453641,
+     "no_usable_answer_pct": 3.820269200316706,
+     "repair_rate": {
+      "estimate": 36.229946524064175,
+      "lo": 32.77374683218075,
+      "hi": 39.762600522154834,
+      "n_den": 748
+     },
+     "damage_rate": {
+      "estimate": 5.227695167286246,
+      "lo": 4.577376903632149,
+      "hi": 5.885090377081519,
+      "n_den": 4304
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 11,
+       "selected_n": 556,
+       "delta_pp": 5.324623911322249,
+       "generated_tokens_per_item": 1081.68072050673,
+       "w_S": 0.737410071942446,
+       "repair_rate": 0.6902439024390243,
+       "damage_rate": 0.0958904109589041,
+       "delta_ci": {
+        "estimate": 5.324623911322249,
+        "lo": 4.672342110473174,
+        "hi": 5.997654388421004,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 11,
+       "selected_n": 556,
+       "delta_pp": 4.948535233570863,
+       "generated_tokens_per_item": 1093.9002375296911,
+       "w_S": 0.7338129496402878,
+       "repair_rate": 0.6715686274509803,
+       "damage_rate": 0.16216216216216217,
+       "delta_ci": {
+        "estimate": 4.948535233570863,
+        "lo": 4.295286088392628,
+        "hi": 5.5995805475057825,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "1024": {
+     "accuracy_pct": 88.08392715756136,
+     "delta_vs_keep": {
+      "estimate": 2.889944576405384,
+      "lo": 2.0577760189948555,
+      "hi": 3.7224007296395287,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1600.3610451306413,
+     "over_budget_pct": 90.47901821060967,
+     "forced_items": 4571,
+     "forced_truncated_pct_of_forced": 3.7628527674469483,
+     "no_usable_answer_pct": 3.44418052256532,
+     "repair_rate": {
+      "estimate": 42.64705882352941,
+      "lo": 39.100270686935325,
+      "hi": 46.25584353606609,
+      "n_den": 748
+     },
+     "damage_rate": {
+      "estimate": 4.019516728624535,
+      "lo": 3.4417145006898693,
+      "hi": 4.590565455118736,
+      "n_den": 4304
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 18,
+       "selected_n": 909,
+       "delta_pp": 6.334125098970705,
+       "generated_tokens_per_item": 1615.7652414885195,
+       "w_S": 0.5511551155115512,
+       "repair_rate": 0.6966067864271457,
+       "damage_rate": 0.07107843137254902,
+       "delta_ci": {
+        "estimate": 6.334125098970704,
+        "lo": 5.586370839936609,
+        "hi": 7.0721475925562345,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 18,
+       "selected_n": 909,
+       "delta_pp": 6.353919239904988,
+       "generated_tokens_per_item": 1610.4249802058591,
+       "w_S": 0.5731573157315731,
+       "repair_rate": 0.6871401151631478,
+       "damage_rate": 0.09536082474226804,
+       "delta_ci": {
+        "estimate": 6.353919239904989,
+        "lo": 5.601714169471065,
+        "hi": 7.121696948916098,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "2048": {
+     "accuracy_pct": 90.39984164687253,
+     "delta_vs_keep": {
+      "estimate": 5.205859065716548,
+      "lo": 4.336633663366336,
+      "hi": 6.058206295783013,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2378.113816310372,
+     "over_budget_pct": 62.37133808392716,
+     "forced_items": 3151,
+     "forced_truncated_pct_of_forced": 4.030466518565535,
+     "no_usable_answer_pct": 2.6920031670625493,
+     "repair_rate": {
+      "estimate": 52.139037433155075,
+      "lo": 48.61087993786063,
+      "hi": 55.70701512023318,
+      "n_den": 748
+     },
+     "damage_rate": {
+      "estimate": 2.950743494423792,
+      "lo": 2.4588074742205,
+      "hi": 3.4698566899475036,
+      "n_den": 4304
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 32,
+       "selected_n": 1617,
+       "delta_pp": 7.521773555027711,
+       "generated_tokens_per_item": 2399.8339271575614,
+       "w_S": 0.36982065553494126,
+       "repair_rate": 0.7073578595317725,
+       "damage_rate": 0.042198233562315994,
+       "delta_ci": {
+        "estimate": 7.521773555027712,
+        "lo": 6.691744209067512,
+        "hi": 8.326781687043784,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 32,
+       "selected_n": 1617,
+       "delta_pp": 7.561361836896278,
+       "generated_tokens_per_item": 2383.514449722882,
+       "w_S": 0.38961038961038963,
+       "repair_rate": 0.692063492063492,
+       "damage_rate": 0.0547112462006079,
+       "delta_ci": {
+        "estimate": 7.561361836896278,
+        "lo": 6.720662584663032,
+        "hi": 8.386158914107387,
+        "p_boot": 0.0
+       }
+      }
+     }
+    }
+   },
+   "runs": {
+    "256": {
+     "run": "c1b-think-budget-math-test-b256-4B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 15,
+      "prompt_len_mismatch": 0,
+      "over_budget": 5051,
+      "fits": 1,
+      "forced_truncated": 222,
+      "generated_tokens": 4306328,
+      "right": 4314
+     },
+     "gen_s": 1143.5439400672913,
+     "load_s": 120.02360510826111,
+     "monitor_disagreements": 4
+    },
+    "512": {
+     "run": "c1b-think-budget-math-test-b512-4B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 15,
+      "prompt_len_mismatch": 0,
+      "over_budget": 5026,
+      "fits": 26,
+      "forced_truncated": 190,
+      "generated_tokens": 5555289,
+      "right": 4355
+     },
+     "gen_s": 1388.2214798927307,
+     "load_s": 51.59762668609619,
+     "monitor_disagreements": 5
+    },
+    "1024": {
+     "run": "c1b-think-budget-math-test-b1024-4B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 15,
+      "prompt_len_mismatch": 0,
+      "over_budget": 4571,
+      "fits": 481,
+      "forced_truncated": 172,
+      "generated_tokens": 8085024,
+      "right": 4454
+     },
+     "gen_s": 1666.373787164688,
+     "load_s": 119.71234107017517,
+     "monitor_disagreements": 4
+    },
+    "2048": {
+     "run": "c1b-think-budget-math-test-b2048-4B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 15,
+      "prompt_len_mismatch": 0,
+      "over_budget": 3151,
+      "fits": 1901,
+      "forced_truncated": 127,
+      "generated_tokens": 12014231,
+      "right": 4578
+     },
+     "gen_s": 2053.6304976940155,
+     "load_s": 50.94267511367798,
+     "monitor_disagreements": 11
+    }
+   },
+   "smoke": {
+    "run": "c1b-think-budget-math-test-b256-smoke-4B-a596548",
+    "items": 20,
+    "prefix_identical": 20,
+    "prefix_items": 20,
+    "records_identical_in_full_run": 20
+   }
+  },
+  "math 8B": {
+   "status": "complete",
+   "n": 5052,
+   "keep_accuracy_pct": 86.1243072050673,
+   "think_all": {
+    "accuracy_pct": 94.04196357878068,
+    "delta_vs_keep": {
+     "estimate": 7.91765637371338,
+     "lo": 6.996957440495417,
+     "hi": 8.801511124475914,
+     "p_boot": 0.0
+    },
+    "generated_tokens_per_item": 4494.943982581156
+   },
+   "budgets": {
+    "256": {
+     "accuracy_pct": 86.40142517814728,
+     "delta_vs_keep": {
+      "estimate": 0.2771179730799683,
+      "lo": -0.5535867028522551,
+      "hi": 1.1078140454995054,
+      "p_boot": 0.553
+     },
+     "generated_tokens_per_item": 867.6201504354711,
+     "over_budget_pct": 99.98020585906572,
+     "forced_items": 5051,
+     "forced_truncated_pct_of_forced": 4.89012076816472,
+     "no_usable_answer_pct": 4.92874109263658,
+     "repair_rate": {
+      "estimate": 34.52211126961483,
+      "lo": 31.02935876148194,
+      "hi": 38.18906246413076,
+      "n_den": 701
+     },
+     "damage_rate": {
+      "estimate": 5.240174672489083,
+      "lo": 4.6008741660915575,
+      "hi": 5.879641092555651,
+      "n_den": 4351
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 8,
+       "selected_n": 404,
+       "delta_pp": 4.077593032462391,
+       "generated_tokens_per_item": 842.5625494853523,
+       "w_S": 0.7846534653465347,
+       "repair_rate": 0.6782334384858044,
+       "damage_rate": 0.10344827586206896,
+       "delta_ci": {
+        "estimate": 4.077593032462391,
+        "lo": 3.50425658285488,
+        "hi": 4.652544050683033,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 8,
+       "selected_n": 404,
+       "delta_pp": 3.939034045922407,
+       "generated_tokens_per_item": 849.2137767220903,
+       "w_S": 0.7871287128712872,
+       "repair_rate": 0.6698113207547169,
+       "damage_rate": 0.16279069767441862,
+       "delta_ci": {
+        "estimate": 3.939034045922407,
+        "lo": 3.3465180897420574,
+        "hi": 4.532880709400692,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "512": {
+     "accuracy_pct": 87.03483768804435,
+     "delta_vs_keep": {
+      "estimate": 0.9105304829770388,
+      "lo": 0.019817481075845488,
+      "hi": 1.7415482974688412,
+      "p_boot": 0.0455
+     },
+     "generated_tokens_per_item": 1120.8167062549485,
+     "over_budget_pct": 99.66349960411718,
+     "forced_items": 5035,
+     "forced_truncated_pct_of_forced": 4.111221449851043,
+     "no_usable_answer_pct": 4.136975455265241,
+     "repair_rate": {
+      "estimate": 39.229671897289585,
+      "lo": 35.62393129551,
+      "hi": 42.775087038363516,
+      "n_den": 701
+     },
+     "damage_rate": {
+      "estimate": 5.263157894736842,
+      "lo": 4.620267448098865,
+      "hi": 5.954030018224214,
+      "n_den": 4351
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 11,
+       "selected_n": 556,
+       "delta_pp": 4.809976247030879,
+       "generated_tokens_per_item": 1114.394893111639,
+       "w_S": 0.6744604316546763,
+       "repair_rate": 0.688,
+       "damage_rate": 0.08287292817679558,
+       "delta_ci": {
+        "estimate": 4.809976247030879,
+        "lo": 4.178217821782178,
+        "hi": 5.459994679542253,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 11,
+       "selected_n": 556,
+       "delta_pp": 4.809976247030879,
+       "generated_tokens_per_item": 1116.8980601741885,
+       "w_S": 0.6906474820143885,
+       "repair_rate": 0.6848958333333334,
+       "damage_rate": 0.11627906976744186,
+       "delta_ci": {
+        "estimate": 4.809976247030879,
+        "lo": 4.174910961614563,
+        "hi": 5.448979474317454,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "1024": {
+     "accuracy_pct": 89.01425178147268,
+     "delta_vs_keep": {
+      "estimate": 2.889944576405384,
+      "lo": 2.079197629721396,
+      "hi": 3.7022555086631215,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1610.5861045130641,
+     "over_budget_pct": 91.94378463974664,
+     "forced_items": 4645,
+     "forced_truncated_pct_of_forced": 3.5091496232508073,
+     "no_usable_answer_pct": 3.285827395091053,
+     "repair_rate": {
+      "estimate": 43.65192582025678,
+      "lo": 40.0,
+      "hi": 47.24295035028222,
+      "n_den": 701
+     },
+     "damage_rate": {
+      "estimate": 3.6773155596414613,
+      "lo": 3.1365113061750898,
+      "hi": 4.228234871267583,
+      "n_den": 4351
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 18,
+       "selected_n": 909,
+       "delta_pp": 6.19556611243072,
+       "generated_tokens_per_item": 1640.6636975455265,
+       "w_S": 0.5225522552255225,
+       "repair_rate": 0.7115789473684211,
+       "damage_rate": 0.0576036866359447,
+       "delta_ci": {
+        "estimate": 6.19556611243072,
+        "lo": 5.4763106963957435,
+        "hi": 6.908155186064925,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 18,
+       "selected_n": 909,
+       "delta_pp": 6.492478226444972,
+       "generated_tokens_per_item": 1635.3303642121932,
+       "w_S": 0.5500550055005501,
+       "repair_rate": 0.714,
+       "damage_rate": 0.07090464547677261,
+       "delta_ci": {
+        "estimate": 6.492478226444972,
+        "lo": 5.756648093284002,
+        "hi": 7.243221848406887,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "2048": {
+     "accuracy_pct": 91.42913697545526,
+     "delta_vs_keep": {
+      "estimate": 5.304829770387965,
+      "lo": 4.439137741378486,
+      "hi": 6.1213672851299465,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2404.665083135392,
+     "over_budget_pct": 64.15281076801267,
+     "forced_items": 3241,
+     "forced_truncated_pct_of_forced": 3.5791422400493675,
+     "no_usable_answer_pct": 2.434679334916865,
+     "repair_rate": {
+      "estimate": 53.78031383737518,
+      "lo": 50.0,
+      "hi": 57.41269500939312,
+      "n_den": 701
+     },
+     "damage_rate": {
+      "estimate": 2.505171225005746,
+      "lo": 2.04877937545924,
+      "hi": 2.979921901423608,
+      "n_den": 4351
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 30,
+       "selected_n": 1516,
+       "delta_pp": 7.205067300079176,
+       "generated_tokens_per_item": 2382.47288202692,
+       "w_S": 0.3845646437994723,
+       "repair_rate": 0.7135506003430532,
+       "damage_rate": 0.055734190782422297,
+       "delta_ci": {
+        "estimate": 7.205067300079176,
+        "lo": 6.397274727472747,
+        "hi": 8.018214215006928,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 31,
+       "selected_n": 1566,
+       "delta_pp": 7.383214568487728,
+       "generated_tokens_per_item": 2398.213182897862,
+       "w_S": 0.38058748403575987,
+       "repair_rate": 0.7164429530201343,
+       "damage_rate": 0.05567010309278351,
+       "delta_ci": {
+        "estimate": 7.383214568487729,
+        "lo": 6.5440562337138255,
+        "hi": 8.234362628661916,
+        "p_boot": 0.0
+       }
+      }
+     }
+    }
+   },
+   "runs": {
+    "256": {
+     "run": "c1b-think-budget-math-test-b256-8B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 15,
+      "prompt_len_mismatch": 0,
+      "over_budget": 5051,
+      "fits": 1,
+      "forced_truncated": 247,
+      "generated_tokens": 4383217,
+      "right": 4369
+     },
+     "gen_s": 1685.9342143535614,
+     "load_s": 98.42861270904541,
+     "monitor_disagreements": 4
+    },
+    "512": {
+     "run": "c1b-think-budget-math-test-b512-8B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 15,
+      "prompt_len_mismatch": 0,
+      "over_budget": 5035,
+      "fits": 17,
+      "forced_truncated": 207,
+      "generated_tokens": 5662366,
+      "right": 4399
+     },
+     "gen_s": 1823.0821959972382,
+     "load_s": 55.09983706474304,
+     "monitor_disagreements": 4
+    },
+    "1024": {
+     "run": "c1b-think-budget-math-test-b1024-8B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 15,
+      "prompt_len_mismatch": 0,
+      "over_budget": 4645,
+      "fits": 407,
+      "forced_truncated": 163,
+      "generated_tokens": 8136681,
+      "right": 4502
+     },
+     "gen_s": 2478.6047191619873,
+     "load_s": 98.2900025844574,
+     "monitor_disagreements": 7
+    },
+    "2048": {
+     "run": "c1b-think-budget-math-test-b2048-8B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 15,
+      "prompt_len_mismatch": 0,
+      "over_budget": 3241,
+      "fits": 1811,
+      "forced_truncated": 116,
+      "generated_tokens": 12148368,
+      "right": 4628
+     },
+     "gen_s": 3194.2680156230927,
+     "load_s": 54.612459897994995,
+     "monitor_disagreements": 9
+    }
+   }
+  },
+  "MMLU-Pro 4B": {
+   "status": "complete",
+   "n": 3457,
+   "keep_accuracy_pct": 53.19641307492046,
+   "think_all": {
+    "accuracy_pct": 59.76280011570726,
+    "delta_vs_keep": {
+     "estimate": 6.56638704078681,
+     "lo": 5.185750751382252,
+     "hi": 7.9237041100605605,
+     "p_boot": 0.0
+    },
+    "generated_tokens_per_item": 2695.020538038762
+   },
+   "budgets": {
+    "256": {
+     "accuracy_pct": 54.81631472374892,
+     "delta_vs_keep": {
+      "estimate": 1.6199016488284639,
+      "lo": 0.26086012709998113,
+      "hi": 2.991577112982864,
+      "p_boot": 0.019
+     },
+     "generated_tokens_per_item": 776.9548741683541,
+     "over_budget_pct": 99.97107318484235,
+     "forced_items": 3456,
+     "forced_truncated_pct_of_forced": 0.2604166666666667,
+     "no_usable_answer_pct": 0.2892681515765114,
+     "repair_rate": {
+      "estimate": 18.8504326328801,
+      "lo": 16.971561036229808,
+      "hi": 20.73033241616806,
+      "n_den": 1618
+     },
+     "damage_rate": {
+      "estimate": 13.539967373572596,
+      "lo": 11.963003411567147,
+      "hi": 15.143214708935579,
+      "n_den": 1839
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 20,
+       "selected_n": 691,
+       "delta_pp": 2.7480474399768586,
+       "generated_tokens_per_item": 774.2912930286376,
+       "w_S": 0.6903039073806078,
+       "repair_rate": 0.31865828092243187,
+       "damage_rate": 0.26635514018691586,
+       "delta_ci": {
+        "estimate": 2.748047439976858,
+        "lo": 1.9386433876112878,
+        "hi": 3.571454503962491,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 21,
+       "selected_n": 726,
+       "delta_pp": 2.7480474399768586,
+       "generated_tokens_per_item": 779.7899913219554,
+       "w_S": 0.7548209366391184,
+       "repair_rate": 0.26824817518248173,
+       "damage_rate": 0.29213483146067415,
+       "delta_ci": {
+        "estimate": 2.748047439976858,
+        "lo": 1.9573274832811325,
+        "hi": 3.5631534609288633,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "512": {
+     "accuracy_pct": 55.886606884582015,
+     "delta_vs_keep": {
+      "estimate": 2.6901938096615563,
+      "lo": 1.3852614071823763,
+      "hi": 4.062699349870626,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1054.4171246745734,
+     "over_budget_pct": 95.66097772635233,
+     "forced_items": 3307,
+     "forced_truncated_pct_of_forced": 0.18143332325370426,
+     "no_usable_answer_pct": 0.23141452126120912,
+     "repair_rate": {
+      "estimate": 20.210135970333745,
+      "lo": 18.265654668075808,
+      "hi": 22.175029589187538,
+      "n_den": 1618
+     },
+     "damage_rate": {
+      "estimate": 12.72430668841762,
+      "lo": 11.147011308562197,
+      "hi": 14.293252487773689,
+      "n_den": 1839
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 28,
+       "selected_n": 968,
+       "delta_pp": 3.442291003760486,
+       "generated_tokens_per_item": 1057.884582007521,
+       "w_S": 0.6745867768595041,
+       "repair_rate": 0.30474732006125577,
+       "damage_rate": 0.25396825396825395,
+       "delta_ci": {
+        "estimate": 3.4422910037604857,
+        "lo": 2.5243354231239667,
+        "hi": 4.3817672849780145,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 30,
+       "selected_n": 1037,
+       "delta_pp": 3.384437373445184,
+       "generated_tokens_per_item": 1055.0723170378942,
+       "w_S": 0.7155255544840887,
+       "repair_rate": 0.2641509433962264,
+       "damage_rate": 0.2677966101694915,
+       "delta_ci": {
+        "estimate": 3.384437373445184,
+        "lo": 2.4580149811106793,
+        "hi": 4.339115647147488,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "1024": {
+     "accuracy_pct": 57.68006942435638,
+     "delta_vs_keep": {
+      "estimate": 4.483656349435927,
+      "lo": 3.1523065982189964,
+      "hi": 5.817705395251372,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 1505.2392247613539,
+     "over_budget_pct": 69.45328319352039,
+     "forced_items": 2401,
+     "forced_truncated_pct_of_forced": 0.3331945022907122,
+     "no_usable_answer_pct": 0.26034133641886026,
+     "repair_rate": {
+      "estimate": 22.558714462299136,
+      "lo": 20.542833034746142,
+      "hi": 24.516928879990623,
+      "n_den": 1618
+     },
+     "damage_rate": {
+      "estimate": 11.419249592169658,
+      "lo": 10.01655215605033,
+      "hi": 12.917121069379709,
+      "n_den": 1839
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 43,
+       "selected_n": 1487,
+       "delta_pp": 4.628290425224183,
+       "generated_tokens_per_item": 1522.0083887763958,
+       "w_S": 0.6381977135171486,
+       "repair_rate": 0.2971548998946259,
+       "damage_rate": 0.22676579925650558,
+       "delta_ci": {
+        "estimate": 4.628290425224183,
+        "lo": 3.476992348263875,
+        "hi": 5.7709396080133475,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 45,
+       "selected_n": 1556,
+       "delta_pp": 4.194388197859416,
+       "generated_tokens_per_item": 1499.7873879085912,
+       "w_S": 0.6709511568123393,
+       "repair_rate": 0.25766283524904215,
+       "damage_rate": 0.2421875,
+       "delta_ci": {
+        "estimate": 4.194388197859416,
+        "lo": 3.092485549132948,
+        "hi": 5.3530479930455055,
+        "p_boot": 0.0
+       }
+      }
+     }
+    },
+    "2048": {
+     "accuracy_pct": 59.618166039919004,
+     "delta_vs_keep": {
+      "estimate": 6.421752964998554,
+      "lo": 5.030527718000275,
+      "hi": 7.7787544234438455,
+      "p_boot": 0.0
+     },
+     "generated_tokens_per_item": 2057.7011859994213,
+     "over_budget_pct": 38.559444605148975,
+     "forced_items": 1333,
+     "forced_truncated_pct_of_forced": 0.15003750937734434,
+     "no_usable_answer_pct": 0.17356089094590688,
+     "repair_rate": {
+      "estimate": 25.401730531520393,
+      "lo": 23.298840818243217,
+      "hi": 27.503203196963717,
+      "n_den": 1618
+     },
+     "damage_rate": {
+      "estimate": 10.277324632952691,
+      "lo": 8.897152208429624,
+      "hi": 11.689017173102293,
+      "n_den": 1839
+     },
+     "nearest_selective": {
+      "verbal": {
+       "share_pct": 64,
+       "selected_n": 2212,
+       "delta_pp": 5.929997107318484,
+       "generated_tokens_per_item": 2054.9846687879663,
+       "w_S": 0.5845388788426763,
+       "repair_rate": 0.279969064191802,
+       "damage_rate": 0.1708378672470076,
+       "delta_ci": {
+        "estimate": 5.929997107318484,
+        "lo": 4.655221323728592,
+        "hi": 7.20908519919488,
+        "p_boot": 0.0
+       }
+      },
+      "probe": {
+       "share_pct": 67,
+       "selected_n": 2316,
+       "delta_pp": 5.814289846687879,
+       "generated_tokens_per_item": 2059.9496673416256,
+       "w_S": 0.6109671848013817,
+       "repair_rate": 0.25653710247349826,
+       "damage_rate": 0.17980022197558268,
+       "delta_ci": {
+        "estimate": 5.814289846687879,
+        "lo": 4.551971208684594,
+        "hi": 7.110007759288302,
+        "p_boot": 0.0
+       }
+      }
+     }
+    }
+   },
+   "runs": {
+    "256": {
+     "run": "c1b-think-budget-mc-test-b256-4B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 84,
+      "prompt_len_mismatch": 0,
+      "over_budget": 3456,
+      "fits": 1,
+      "forced_truncated": 9,
+      "generated_tokens": 2685933,
+      "right": 1895
+     },
+     "gen_s": 724.6083323955536,
+     "load_s": 64.33980536460876,
+     "monitor_disagreements": 0
+    },
+    "512": {
+     "run": "c1b-think-budget-mc-test-b512-4B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 84,
+      "prompt_len_mismatch": 0,
+      "over_budget": 3307,
+      "fits": 150,
+      "forced_truncated": 6,
+      "generated_tokens": 3645120,
+      "right": 1935
+     },
+     "gen_s": 897.939201593399,
+     "load_s": 51.666646242141724,
+     "monitor_disagreements": 3
+    },
+    "1024": {
+     "run": "c1b-think-budget-mc-test-b1024-4B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 84,
+      "prompt_len_mismatch": 0,
+      "over_budget": 2401,
+      "fits": 1056,
+      "forced_truncated": 8,
+      "generated_tokens": 5203612,
+      "right": 1994
+     },
+     "gen_s": 876.8700466156006,
+     "load_s": 51.477659702301025,
+     "monitor_disagreements": 0
+    },
+    "2048": {
+     "run": "c1b-think-budget-mc-test-b2048-4B-a596548",
+     "code_commit": "a596548",
+     "gpu": "NVIDIA A100-SXM4-40GB",
+     "counts": {
+      "stop_tokens": 24,
+      "roundtrip_mismatch": 84,
+      "prompt_len_mismatch": 0,
+      "over_budget": 1333,
+      "fits": 2124,
+      "forced_truncated": 2,
+      "generated_tokens": 7113473,
+      "right": 2061
+     },
+     "gen_s": 847.8678176403046,
+     "load_s": 51.78646922111511,
+     "monitor_disagreements": 0
+    }
+   }
+  }
+ },
+ "checks": [
+  "math 4B: prefix check 20 of 20 stored traces reproduced (first 64 tokens); smoke records identical in the full B = 256 run: 20 of 20.",
+  "math 4B: round-trip token-count mismatches [15] (counted, not corrected); prompt-length mismatches [0]; monitoring disagreements [4, 5, 4, 11].",
+  "math 8B: round-trip token-count mismatches [15] (counted, not corrected); prompt-length mismatches [0]; monitoring disagreements [4, 4, 7, 9].",
+  "MMLU-Pro 4B: round-trip token-count mismatches [84] (counted, not corrected); prompt-length mismatches [0]; monitoring disagreements [0, 3, 0, 0]."
+ ]
+}

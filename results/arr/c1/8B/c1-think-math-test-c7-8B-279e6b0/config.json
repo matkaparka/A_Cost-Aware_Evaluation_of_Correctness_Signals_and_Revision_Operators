@@ -1,0 +1,42 @@
+{
+ "stage": "think",
+ "task": "math",
+ "model": "8B",
+ "initial": [
+  "results/p1/8B/p1-initial-8B-d2ebdea/initial.jsonl",
+  "results/p1/8B/p1-initial-ext-8B-45575c2/initial.jsonl"
+ ],
+ "split": "test",
+ "allow_test": true,
+ "k": 5,
+ "stream": "h2a-consistency",
+ "max_tokens": 16384,
+ "extra_tokens": 4096,
+ "conds": "F0,F2,F2-scratch",
+ "wording": "main",
+ "select": null,
+ "chunk_size": 460,
+ "chunk_index": 7,
+ "limit": 0,
+ "tag": "",
+ "dry_run": false,
+ "tokenizer": null,
+ "scorer_version": "1.1.1",
+ "a0_tokens": 4096,
+ "revision_tokens": 2048,
+ "critique_tokens": 1024,
+ "sampling": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20
+ },
+ "think_sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0.0
+ },
+ "wordings_sha256": "3525f2d1ef05ab432fc2c076c816fda796beb95cfef5a74406aadd1287d5ef95",
+ "sample_aware": "Five other attempts at this {what} ended with these final answers: {answers}. Taking them into account, review your answer above and give your final answer. Put your final answer within \\boxed{{}}.",
+ "items": 460
+}

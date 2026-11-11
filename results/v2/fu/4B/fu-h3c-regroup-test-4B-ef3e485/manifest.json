@@ -1,0 +1,8 @@
+{
+ "run_id": "fu-h3c-regroup-test-4B-ef3e485",
+ "code_commit": "ef3e4855340f9af3689c5c5e8a97178be27c23de",
+ "files": {
+  "metrics.json": "9ef6b51d5a09ffa239e36b346d9ab3a8d5a3dab6fcb33721f719943fa5498ecc",
+  "config.json": "ab6700371087fdf5237ec3ff8ea2a06a97e47ccf521c20b4b59a89a611630c24"
+ }
+}

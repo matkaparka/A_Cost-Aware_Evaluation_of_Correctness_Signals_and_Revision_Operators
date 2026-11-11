@@ -1,0 +1,16 @@
+{
+ "model": "8B",
+ "split": "test",
+ "exp01_orig": "results/main/8B/main-exp01-test-8B-3e6149d",
+ "exp01_1b": "results/main/8B/main-exp01-test-8B-3e6149d",
+ "exp01_ext": "results/main/8B/main-exp01-test-ext-8B-3fd21bc",
+ "initial": [
+  "results/p1/8B/p1-initial-8B-d2ebdea/initial.jsonl",
+  "results/p1/8B/p1-initial-ext-8B-45575c2/initial.jsonl"
+ ],
+ "verbal": [
+  "results/p1/8B/p1-verbal-8B-d2ebdea/verbal.jsonl",
+  "results/p1/8B/p1-verbal-ext-8B-45575c2/verbal.jsonl"
+ ],
+ "probe_scores": "results/main/8B/main-probe-scores-test-8B-3fd21bc/probe_scores.jsonl"
+}

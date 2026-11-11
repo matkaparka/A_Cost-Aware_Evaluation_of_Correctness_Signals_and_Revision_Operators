@@ -1,0 +1,29 @@
+{
+ "run_id": "p1-verbal-ext-8B-45575c2",
+ "model": "Qwen/Qwen3-8B",
+ "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {
+  "initial": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52",
+  "verdict_query": "7b0ee09ba9438e099567337b972d8fbaccf813ef1297fb9864e2582e315696ac"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "40790d874fa320464b61ae2937569df455179e555678d0cbdda3fe3bb81f31e0",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "45575c289d825271475e04005ef92bd31f3042d6",
+ "config_sha256": "cf1d10bfdccd31eef7da0886c0c63610259443a8ec1c956d515bf7e54600e682",
+ "backend": {
+  "name": "hf-transformers",
+  "version": "5.20.2"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "4311c2eb53ec4f02a412dee5b16df08d4192fed3f5b8c3794195e4a0c215f858",
+  "metrics.json": "4d1c2a4213e2fc8996a2c53b720bb4c16e522f6906d09cdeb53b068e0990a61c",
+  "verbal.jsonl": "43930028157a1edc0ce8ed42c48f4fb2a135de42351fa9193e31946e8ed5188d"
+ }
+}

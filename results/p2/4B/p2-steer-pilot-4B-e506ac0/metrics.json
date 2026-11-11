@@ -1,0 +1,39 @@
+{
+ "model": "4B",
+ "layers": [
+  2,
+  6,
+  10,
+  14,
+  18,
+  22,
+  26,
+  30
+ ],
+ "n_dir_items": 412,
+ "generic_groups": {
+  "changed": 4,
+  "kept": 360
+ },
+ "correction_markers": [
+  "We"
+ ],
+ "commit_markers": [
+  "The",
+  "Let"
+ ],
+ "n_reachable": 0,
+ "top3": [],
+ "summary": {
+  "unsteered": {
+   "w2r_dinj": 0.875,
+   "r2w_dnat": 0.0,
+   "change_rate": 0.9083333333333333
+  }
+ },
+ "selection": [],
+ "main_setting": null,
+ "alpha0_identical": null,
+ "wall_s": 843.0512821674347,
+ "transformers": "5.20.2"
+}

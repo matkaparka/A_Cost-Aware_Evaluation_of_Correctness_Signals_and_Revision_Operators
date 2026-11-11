@@ -1,0 +1,28 @@
+{
+ "stage": "hf",
+ "model": "T8B",
+ "split": "dev",
+ "allow_test": true,
+ "initial": [
+  "/home/results/v2/fu-dev/T8B/fu-dev-mc-initial-dev-T8B-ef3e485",
+  "/home/results/v2/fu/T8B/fu-mc-initial-test-T8B-9221b24"
+ ],
+ "variant": null,
+ "limit": 0,
+ "verbal_batch": 16,
+ "dry_run": false,
+ "tag": "",
+ "C_grid": [
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "groups": "canonical stem",
+ "position": "last a0 content token",
+ "math_probe": "results/fu2/p2/T8B/p2-probe-dev-T8B-1809070/probe.npz",
+ "math_probe_sha256": "8f6b442b4fc7bd5dfc7c1fb1a92823a57d69afddda3ce46237bbee4bc916a9dd",
+ "items_sha256": "bb8751651d7eda5dfdf1d179acabe5a044cce2b60bc572879b59fafa7d92db61",
+ "mc_scorer": "1.0.0",
+ "mc_scorer_sha256": "0b384926e9d9d12cc1147c7a863cbea342efa34ff0b8c3ce022350521092489e"
+}

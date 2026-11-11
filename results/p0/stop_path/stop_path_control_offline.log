@@ -1,0 +1,10 @@
+watchdog stopped
+watchdog running (pid 215)
+armed: control_offline
+control host offline: no ssh session and no control-watchdog action expected
+2026-11-03T08:27:39Z state=Running
+2026-11-03T08:28:04Z state=Running
+2026-11-03T08:28:28Z state=Running
+2026-11-03T08:28:58Z state=Running
+2026-11-03T08:29:20Z state=Paused
+RESULT control_offline: paused after 112 s

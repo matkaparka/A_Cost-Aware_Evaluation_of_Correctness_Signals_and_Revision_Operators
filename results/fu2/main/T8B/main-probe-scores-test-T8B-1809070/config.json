@@ -1,0 +1,14 @@
+{
+ "model": "T8B",
+ "probe": "/home/results/fu2/p2/T8B/p2-probe-dev-T8B-1809070/probe.npz",
+ "acts": [
+  "/home/results/fu2/main/T8B/main-acts-test-T8B-1809070/acts.npz",
+  "/home/results/fu2/main/T8B/main-acts-test-ext-T8B-1809070/acts.npz"
+ ],
+ "split": "test",
+ "probe_sha256": "8f6b442b4fc7bd5dfc7c1fb1a92823a57d69afddda3ce46237bbee4bc916a9dd",
+ "acts_sha256": [
+  "f143c940db0faa84cc44d8b6ce808115ae0e657c84fa7bc1f288288299903fb7",
+  "e48a1b9da976dfd6feecd540c25a1e14ae59426134e4899ff0c4db783bf405b2"
+ ]
+}

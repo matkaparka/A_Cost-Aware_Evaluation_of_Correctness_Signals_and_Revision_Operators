@@ -1,0 +1,33 @@
+{
+ "run_id": "b4-samples-critique-math-test-T8B-279e6b0",
+ "model": "allenai/Llama-3.1-Tulu-3-8B",
+ "model_revision": "666943798adbde0b1aff34626007e26986a3c107",
+ "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+ "prompts_sha256": {
+  "initial": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52",
+  "wordings": "da21dfa87cd610aee1478b192d50378924a362b2a5af99ed9556f5af135ccc75",
+  "sample_aware": "ef5216460a2bb2a0e879ba473ec0a5622086f63d1eb50ee70bfc4279bfd27449",
+  "instruction": "eb397418dc26d45a16daca54c9bb5faa8471e404aaf0014c38f9acc316cfdd38"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "279e6b0c25c4970b7e487e228c6a397717d2023a",
+ "config_sha256": "d58a74bb6b3b4bf74a3e6ab66f37aa0f3bc41a74fdbe0cdcdd7505f1465763bd",
+ "backend": {
+  "name": "vllm",
+  "version": "0.33.0"
+ },
+ "gpu": "NVIDIA A100 80GB PCIe",
+ "python": "3.12.3",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "6d66b348ae64374188b585a73ffe99e20ad81f34612d780ad968e08625b9f5b0",
+  "generations.jsonl": "fe0c57570d0fcb37b49d0b32ff8aeef53a13aa45a6499198b738dced6d1fec15",
+  "metrics.json": "e3d55d5d7b76a6d2b721bfb20e9b23ca5c0b9ab20637cdf74e77e4bb791dfa36",
+  "rows.jsonl": "4e86373af7be4d1c0e55e55ef19b4f6675eaa2ba57f58a4dd2763c4dd31ddb19",
+  "selection.jsonl": "2d55d31029de80d62e20b907c1ff5586adb56baba5b9e15f1df18bcc3386a89e"
+ }
+}

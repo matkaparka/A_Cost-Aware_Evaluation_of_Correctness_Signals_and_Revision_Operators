@@ -1,0 +1,56 @@
+Gemini comments on paper/Neurocomputing_v2 (supplied by the author on 2026-11-11, after the v2 revision).
+Saved as received (formula duplicates from the paste are kept). The three detail issues in part 二 were checked
+against the PDFs and fixed on 2026-11-11; see reports/neurocomputing_v2_revision.md.
+
+整体来看，`Neurocomputing_v2` 版相比上一版有了质的飞跃，目前已经达到了可以直接投稿 Neurocomputing 的高质量水准！
+
+一、 本版修订做得非常出色的地方（核心痛点已全部解决）
+
+1. 期刊格式与元信息完全合规：
+   * 补齐了首页作者、单位、通讯邮箱（paper.tex）以及文末的 `CRediT authorship contribution statement`、`Declaration of competing interest` 和 `Funding`（paper.tex），清理了遗留的 `\TODO`。
+   * 修复了全文所有 `\paragraph{}` 标题后的“双句号 (`..`)”编译 Bug，移除了 refs.bib 中会议名称末尾的重复年份，并将 Table 2 移至第 4.1 节首次讨论处（results.tex），页面排版紧凑美观。
+2. 行文基调（Tone）大幅改善，兼顾严谨与自信：
+   * 摘要（abstract.tex）、引言（introduction.tex）和讨论（discussion.tex）删去了上一版中类似审稿回复的自我矮化表述与轮次流水账，转为清晰阐述联合评估框架、配对重放设计与实证发现，同时在 §3.5 和 Limitations 中诚实保留了统计边界。
+3. 新增的两节分析（§4.5 与 §4.6）极大增强了论文的说服力与深度：
+   * §4.5 回顾性阈值迁移（transfer_results.tex & Table 7）：通过按 canonical problem 分组的 5 折交叉校准（仅用信号和 token 数定阈值，不读标签），证明了在 B≥512B \ge 512B≥512 下数学任务的显著优势（+0.83+0.83+0.83 至 +1.54+1.54+1.54 pp）与极小的预算漂移（−0.72%-0.72\%−0.72% 至 +0.39%+0.39\%+0.39%），完美回应了审稿人关于“阈值泛化性”的潜在质疑。
+   * §4.6 输入 Token 与实测信号开销（cost_results.tex、Table 8、Figure 5）：将成本核算从单纯的输出生成量 DDD 扩展到逻辑输入量 PPP、精确前缀缓存复用分析与权重敏感性指数 Cα(π)=D(π)+αP(π)C_\alpha(\pi) = D(\pi) + \alpha P(\pi)Cα(π)=D(π)+αP(π)，指出聊天模板重渲染会打断 thinking 标签处的前缀复用，且当 α→1\alpha \to 1α→1 时选择性思考的优势会被逆转——这一发现非常有深度，直接把原来的“局限性”变成了论文的一大亮点（并体现在了更新后的 highlights.txt 第 5 条）。
+4. 新增可视化图表大幅提升可读性：
+   * 新增的框架总览图（Figure 1）、修复/损伤机制拆解图（Figure 3）与输入成本敏感性图（Figure 5）信息密度高、配色专业。
+
+二、 投稿前还需修复的 3 个细节问题（含 1 个必改图层重叠 Bug）
+
+我在逐页检查渲染出的 paper.pdf 和 supplement.pdf 时，发现了 1 个肉眼可见的图例重叠 Bug 和 2 个排版小细节，建议在最终打包上传前修掉：
+
+1. 【必改 Bug】paper.pdf 第 12 页 Figure 4 中间的子图横轴标题与图例文字完全重叠
+
+* 问题位置：打开 paper.pdf 第 12 页查看 Figure 4（fig_budget_gap.pdf）中间的子图 `Math, Qwen3-8B` 底部：横轴标签 `Uniform thinking cap` 与图例 `+ Verbal + Probe` 直接叠印在一起，无法辨认。
+* 原因分析：在绘图脚本 neurocomputing_figures_v2.py 中：
+
+    axes[1].legend(
+        loc="lower center", bbox_to_anchor=(0.5, -0.55), ncol=2, frameon=False
+    )
+    fig.tight_layout(rect=(0, 0.10, 1, 1))
+
+  `axes[1].legend` 使用的负偏移 `-0.55` 刚好落在了 `axes[1]` 的 `xlabel("Uniform thinking cap")` 位置上。
+
+* 修复方法：像上面画 Figure 3（第 92–94 行）一样，改用 `fig.legend` 并留出底部边距 `rect=(0, .14, 1, 1)`：
+
+    handles, names = axes[0].get_legend_handles_labels()
+    fig.legend(
+        handles, names, loc="lower center", ncol=2, frameon=False, fontsize=8
+    )
+    fig.tight_layout(rect=(0, 0.14, 1, 1))
+
+2. 【建议微调】主稿与独立 `supplement.pdf` 拆分后的跨文档引用提示
+
+* 问题位置：v2 将附录 A–I 拆分到了独立的 supplement.pdf，主稿 paper.pdf 在第 23 页参考文献后直接结束。但主稿正文中大量直接写了 `(prompts in Appendix B)`、`Table E.8`、`Table D.3`、`Table I.25`，直到第 17 页末尾 `Data and code availability` 才首次提到补充材料。
+* 潜在问题：
+   1. 审稿人阅读主稿到第 4 页看到 `Table E.8` 和 `Appendix B` 时，翻到主稿第 23 页末尾发现没有附录，容易误以为 PDF 编译缺失了附录页。
+   2. paper.tex 使用了 `xr-hyper` 的 `\externaldocument[][nocite]{supplement}`，这会在 `paper.pdf` 中生成指向本地文件 `supplement.pdf` 的外部超链接；而在 Elsevier Editorial Manager 投稿系统合并生成审稿 PDF 后，这类跨文件相对路径超链接通常会失效或报错。
+* 修改建议：
+   * 在第 3.1 节末尾（design.tex 首次引用 `Table E.8` 处）或第 3.2 节开头加一句说明：(Appendices A–I and their tables are provided in the Supplementary Material)；或者在初审投稿时，直接将附录包含在主稿 `paper.pdf` 末尾（Neurocomputing 初审对总页数无限制，审稿人更喜欢在一个 PDF 内直接点击跳转查看 Appendix 表格）。
+
+3. 【排版细节】Table 7 的负号格式（连字符 `-` vs. 数学减号 `−`）与 Table 8 的首字母大小写
+
+* 负号不一致：主稿其余所有表格（Table 2–6、Table 8）中的负数均使用数学减号 `−`（如 `−1.62`），但第 12 页正文（`-0.72%`）和第 13 页 Table 7（tab_crossfit.tex 中的 `[-0.31%]`、`[-1.56]` 等）使用的是普通连字符 `-`。将生成的负号统一为 `−`（LaTeX 中的 `$-$`）会让排版更加精致统一。
+* 首字母大小写：第 13 页 Table 8（tab_cost_accounting.tex）最后两行 `uniform B=1024` 和 `uniform B=2048` 首字母为小写，而同表上方所有策略首字母均为大写（`KEEP`、`Critique all`、`Standalone V5` 等），建议统一为 `Uniform B=1024` / `Uniform B=2048`。

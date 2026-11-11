@@ -1,0 +1,68 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "vllm": "0.33.0",
+ "load_s": 63.18603491783142,
+ "stage1_s": 1050.5945398807526,
+ "stage2_s": 446.40072894096375,
+ "stage1_prompts": 6187,
+ "stage2_prompts": 1800,
+ "rows": {
+  "1A:dnat:B0": {
+   "n": 900,
+   "truncated": 0
+  },
+  "1A:dnat:B1": {
+   "n": 900,
+   "truncated": 72
+  },
+  "1A:dnat:F0": {
+   "n": 900,
+   "truncated": 16
+  },
+  "1A:dnat:F1": {
+   "n": 900,
+   "truncated": 19
+  },
+  "1A:dnat:F2": {
+   "n": 900,
+   "truncated": 13
+  },
+  "1A:dnat:F2-scratch": {
+   "n": 900,
+   "truncated": 19
+  },
+  "1A:dnat:F3(0.5)": {
+   "n": 900,
+   "truncated": 20
+  },
+  "1A:dnat:F3(0.7)": {
+   "n": 900,
+   "truncated": 21
+  },
+  "1A:dnat:F3(0.9)": {
+   "n": 900,
+   "truncated": 23
+  },
+  "1A:dnat:F3(1.0)": {
+   "n": 900,
+   "truncated": 25
+  },
+  "1A:dnat:F3-perm[0]": {
+   "n": 900,
+   "truncated": 25
+  },
+  "1A:dnat:F3-perm[1]": {
+   "n": 900,
+   "truncated": 25
+  },
+  "1A:dnat:F3-perm[2]": {
+   "n": 900,
+   "truncated": 25
+  },
+  "1A:dnat:F5": {
+   "n": 900,
+   "truncated": 27
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "model": "1.7B",
+ "initial": "/home/results/p1/1.7B/p1-initial-ext-1.7B-45575c2//initial.jsonl",
+ "batch": 16,
+ "items": "data/processed/ext/dnat_ext.jsonl",
+ "kind": "verbal-ext",
+ "query": "Is your final answer correct? Answer yes or no.",
+ "yes": [
+  "yes",
+  "Yes",
+  "YES",
+  " yes",
+  " Yes",
+  " YES"
+ ],
+ "no": [
+  "no",
+  "No",
+  "NO",
+  " no",
+  " No",
+  " NO"
+ ]
+}

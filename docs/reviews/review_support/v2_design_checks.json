@@ -1,0 +1,66 @@
+{
+  "purpose": "V2 design audit; all examples are constructed, not observed model results",
+  "reviewed_commit": "4f65a56adf1fb41ca67440187d969cb97644abc0",
+  "reviewed_file_sha256": {
+    "docs/reviews/v2_review_request.md": "cfaf42ec2c7d05a524735f3acc78a3e686ba8ef8fb186f5755e9518de0bc216a",
+    "docs/research_design.md": "13060ff498bbf04a343f197b988ad7d7a859ab032a090842d1fc1216f524bfdb",
+    "CLAUDE.md": "079ee210add367abfc311f5eb8612e58772af2fa28c9f3696681f4c699f7ce24",
+    ".gitignore": "4df96786ffe2e97968dc9721e2200cb67e78c28a16413a12573dedaeedbdbf69"
+  },
+  "matched_reliability_counterexamples": [
+    {
+      "self_detects_wrong_easy": 30,
+      "self_detects_wrong_hard": 50,
+      "external_detects_wrong_easy": 40,
+      "external_detects_wrong_hard": 40,
+      "s_R_both": 0.8,
+      "s_W_both": 0.8,
+      "self_final_accuracy": 0.55,
+      "external_final_accuracy": 0.6,
+      "external_minus_self_pp": 4.999999999999993
+    },
+    {
+      "self_detects_wrong_easy": 50,
+      "self_detects_wrong_hard": 30,
+      "external_detects_wrong_easy": 40,
+      "external_detects_wrong_hard": 40,
+      "s_R_both": 0.8,
+      "s_W_both": 0.8,
+      "self_final_accuracy": 0.65,
+      "external_final_accuracy": 0.6,
+      "external_minus_self_pp": -5.000000000000004
+    }
+  ],
+  "hidden_bit_examples": {
+    "binary_valid_policy_no_feedback_expected_accuracy": 0.5,
+    "always_refuse_policy_expected_accuracy": 0,
+    "valid_binary_switch_on_incorrect_expected_accuracy": "p, if the verdict concerns that initial valid choice",
+    "no_feedback_accuracy_over_p_at_p_half": 1.0,
+    "n_for_binomial_example": 200,
+    "central_binomial_acceptance_counts": [
+      86,
+      114
+    ],
+    "false_alarm_probability_under_correct_pipeline": 0.04003719161339947
+  },
+  "git_ignore_evidence": ".gitignore:5:*token*\tresults/example/token_ids.jsonl\n.gitignore:5:*token*\tresults/example/prompt_token_spans.json\n.gitignore:5:*token*\treports/token_usage.json",
+  "compute_and_storage_arithmetic": {
+    "unexpanded_D_nat_total": 1819,
+    "approx_80pct_test": 1455.2,
+    "prior_hours_with_overhead": 35.1,
+    "compute_USD_at_stated_1_49_per_hour": 52.299,
+    "cap_if_15pct_reserved_no_storage": 61.52823529411765,
+    "200_GB_storage_USD_per_month_at_stated_rate": 20.0,
+    "adapter_parameter_count_rank8_qkvo": 5898240,
+    "adapter_MB_bf16": 11.79648,
+    "adapter_MB_fp32": 23.59296
+  },
+  "norm_example": {
+    "two_module_norms": [
+      1,
+      1
+    ],
+    "sum_of_frobenius_norms": 2,
+    "global_frobenius_norm": 1.4142135623730951
+  }
+}

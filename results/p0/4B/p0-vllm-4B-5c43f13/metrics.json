@@ -1,0 +1,44 @@
+{
+ "model": "4B",
+ "vllm": "0.33.0",
+ "load_s": 132.388916015625,
+ "round1": {
+  "n": 256,
+  "wall_s": 9.247947216033936,
+  "prompt_tokens": 22318,
+  "output_tokens": 75018,
+  "output_tok_per_s": 8111.854257768151,
+  "total_tok_per_s": 10525.14657860941,
+  "mean_output_tokens": 293.0390625,
+  "max_output_tokens": 697
+ },
+ "round2": {
+  "n": 256,
+  "wall_s": 12.734153747558594,
+  "prompt_tokens": 105272,
+  "output_tokens": 68666,
+  "output_tok_per_s": 5392.270374712943,
+  "total_tok_per_s": 13659.172289587566,
+  "mean_output_tokens": 268.2265625,
+  "max_output_tokens": 639
+ },
+ "acc0": 0.93359375,
+ "acc1": 0.93359375,
+ "unparsed0": 0.0,
+ "w2r": 0,
+ "r2w": 0,
+ "truncated0": 0,
+ "thinking": {
+  "n": 64,
+  "wall_s": 93.36824989318848,
+  "prompt_tokens": 5576,
+  "output_tokens": 152325,
+  "output_tok_per_s": 1631.4432387268364,
+  "total_tok_per_s": 1691.1637540666745,
+  "mean_output_tokens": 2380.078125,
+  "max_output_tokens": 8192,
+  "acc": 0.921875,
+  "truncated": 1
+ },
+ "gpu_mem_used_gb_at_end": 68.1142578125
+}

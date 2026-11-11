@@ -1,0 +1,308 @@
+{
+ "spec": "configs/p4_spec_4B_test.json",
+ "n_boot": 10000,
+ "estimates": {
+  "H1a": {
+   "n": 5052,
+   "est": 0.007719714964370546,
+   "lo": 0.0023738755023851557,
+   "hi": 0.013066784148222781,
+   "kind": "equivalence",
+   "margin": 0.03,
+   "context": {
+    "discordance": 0.03978622327790974,
+    "F1 W->R": 0.12734584450402145,
+    "F2 W->R": 0.17024128686327078,
+    "F1 R->W": 0.013469577333952598,
+    "F2 R->W": 0.011843938690199729
+   }
+  },
+  "H1b": {
+   "n": 5052,
+   "est": 0.006173088020183023,
+   "lo": 0.003390451560933886,
+   "hi": 0.00905842536828234,
+   "kind": "one-sided",
+   "margin": 0.015
+  },
+  "H1d": {
+   "n": 5052,
+   "est": -0.003101082079704407,
+   "lo": -0.005018489170628631,
+   "hi": -0.0011876425800998723,
+   "kind": "estimation"
+  },
+  "H2a": {
+   "n": 5052,
+   "est": 0.0180155752494493,
+   "lo": 0.00763635732785184,
+   "hi": 0.029030708293042152,
+   "kind": "one-sided",
+   "margin": 0.03,
+   "auroc_probe": 0.8948518122353123,
+   "auroc_verbal": 0.876836236985863
+  },
+  "H2b(i) F2 - F0": {
+   "n": 149,
+   "est": 0.16666666666666666,
+   "lo": 0.10884353741496598,
+   "hi": 0.23841059602649006,
+   "kind": "estimation"
+  },
+  "H2b(ii) F3(1.0) - F0": {
+   "n": 149,
+   "est": 0.08666666666666667,
+   "lo": 0.034482758620689655,
+   "hi": 0.14864864864864866,
+   "kind": "estimation"
+  },
+  "H3a-role": {
+   "n": 1635,
+   "est": -0.00856269113149847,
+   "lo": -0.01738891701140023,
+   "hi": 0.00030731407498463427,
+   "kind": "two-sided",
+   "margin": 0.03
+  },
+  "H3a-label": {
+   "n": 1635,
+   "est": 0.02018348623853211,
+   "lo": 0.008846722979508625,
+   "hi": 0.03173172842766188,
+   "kind": "two-sided",
+   "margin": 0.03
+  }
+ },
+ "secondary": {
+  "H1a": {
+   "original pool": [
+    0.008934707903780068,
+    -0.001366120218579235,
+    0.019458085172868927
+   ],
+   "reweighted to the original mix": [
+    0.00824897023282926,
+    -0.000542960400376131,
+    0.017472394432927994
+   ],
+   "gsm8k": [
+    0.008530805687203791,
+    -0.0037071362372567192,
+    0.02102130811499836
+   ],
+   "math500": [
+    0.01,
+    -0.00963913625516559,
+    0.029850746268656716
+   ],
+   "math_ext": [
+    0.007228245760355852,
+    0.000829623099300836,
+    0.01365578282912379
+   ],
+   "math_ext \u2212 original pool": [
+    -0.0017064621434242158,
+    -0.014096286197936026,
+    0.010625700589960242
+   ]
+  },
+  "H1b": {
+   "original pool": [
+    0.005009027899120205,
+    0.0008456154354080521,
+    0.009690382491896892
+   ],
+   "reweighted to the original mix": [
+    0.007701069645789284,
+    0.003869617973393101,
+    0.012185105042840478
+   ],
+   "gsm8k": [
+    0.008514740139769952,
+    0.0034475085360000535,
+    0.014659626396671836
+   ],
+   "math500": [
+    -0.004237288135593502,
+    -0.010914564917687412,
+    -2.7769143118553056e-16
+   ],
+   "math_ext": [
+    0.006643954708019109,
+    0.003250393344701575,
+    0.01028788941304015
+   ],
+   "math_ext \u2212 original pool": [
+    0.0016349268088989045,
+    -0.004082465373967175,
+    0.00721149049935865
+   ]
+  },
+  "H1d": {
+   "original pool": [
+    -0.0006872852233676971,
+    -0.004305534359676342,
+    0.0029358875637214513
+   ],
+   "reweighted to the original mix": [
+    -0.0016960601321552443,
+    -0.0045367749441701695,
+    0.0009418827968113589
+   ],
+   "gsm8k": [
+    -0.0009478672985781988,
+    -0.004708121682715056,
+    0.0025593040996112
+   ],
+   "math500": [
+    6.938893903907229e-19,
+    -0.008417508417508417,
+    0.009523809523809525
+   ],
+   "math_ext": [
+    -0.004077471967380224,
+    -0.00645103320342112,
+    -0.0018564801635367805
+   ],
+   "math_ext \u2212 original pool": [
+    -0.003390186744012527,
+    -0.007699811933645608,
+    0.000891956859924317
+   ]
+  },
+  "H2a": {
+   "original pool": [
+    0.032832461432521054,
+    0.00042830178116442526,
+    0.0653441351407154
+   ],
+   "math_ext": [
+    0.0061809045226131065,
+    -0.0037940401400323753,
+    0.015884968480358714
+   ]
+  }
+ },
+ "notes": [
+  "D-nat items with every 1A condition: 5052 of 5052",
+  "H2a items with probe and verbal scores: 5052 of 5052 (missing excluded from both, counted)"
+ ],
+ "exp3_arms": null,
+ "runs": {
+  "results/main/4B/main-exp01-test-4B-a7a0579": {
+   "rows": 66960,
+   "status": {
+    "ok": 62855,
+    "truncated": 973,
+    "unparsed": 575,
+    "last_number": 737,
+    "conflict": 8,
+    "invalid": 37
+   },
+   "scorer_guarded": [
+    {
+     "fn": "_symbolic",
+     "args": [
+      "(1 + 274i)^{2^{2002}}",
+      "1+274i"
+     ],
+     "reason": "killed: exit code -24"
+    }
+   ],
+   "truncated_by_condition": {
+    "0:exp0:F0": 4,
+    "0:exp0:F3(0.5)": 8,
+    "0:exp0:F3(0.7)": 7,
+    "0:exp0:F3(0.9)": 9,
+    "0:exp0:F3(1.0)": 9,
+    "1A:dinj:F4": 1,
+    "1A:dnat:B1": 45,
+    "1A:dnat:F0": 11,
+    "1A:dnat:F1": 16,
+    "1A:dnat:F2": 7,
+    "1A:dnat:F2-scratch": 11,
+    "1A:dnat:F3(0.5)": 11,
+    "1A:dnat:F3(0.7)": 13,
+    "1A:dnat:F3(0.9)": 16,
+    "1A:dnat:F3(1.0)": 17,
+    "1A:dnat:F3-perm[0]": 20,
+    "1A:dnat:F3-perm[1]": 19,
+    "1A:dnat:F3-perm[2]": 18,
+    "1A:dnat:F5": 19,
+    "1B:dinj:assistant/other/F0": 18,
+    "1B:dinj:assistant/other/F1": 22,
+    "1B:dinj:assistant/other/F3(1.0)": 21,
+    "1B:dinj:assistant/self/F0": 12,
+    "1B:dinj:assistant/self/F1": 15,
+    "1B:dinj:assistant/self/F3(1.0)": 21,
+    "1B:dinj:user/other/F0": 16,
+    "1B:dinj:user/other/F1": 24,
+    "1B:dinj:user/other/F3(1.0)": 31,
+    "1B:dinj:user/self/F0": 13,
+    "1B:dinj:user/self/F1": 17,
+    "1B:dinj:user/self/F3(1.0)": 18,
+    "1B:dnat:assistant/other/F0": 11,
+    "1B:dnat:assistant/other/F1": 15,
+    "1B:dnat:assistant/other/F3(1.0)": 13,
+    "1B:dnat:assistant/self/F0": 11,
+    "1B:dnat:assistant/self/F1": 16,
+    "1B:dnat:assistant/self/F3(1.0)": 17,
+    "1B:dnat:user/other/F0": 11,
+    "1B:dnat:user/other/F1": 17,
+    "1B:dnat:user/other/F3(1.0)": 13,
+    "1B:dnat:user/self/F0": 11,
+    "1B:dnat:user/self/F1": 16,
+    "1B:dnat:user/self/F3(1.0)": 14,
+    "tsui:dinj:external": 81,
+    "tsui:dinj:external+wait": 84,
+    "tsui:dinj:internal": 39,
+    "tsui:dinj:internal+wait": 152
+   }
+  },
+  "results/main/4B/main-exp01-test-ext-4B-a7a0579": {
+   "rows": 50358,
+   "status": {
+    "ok": 45288,
+    "truncated": 1472,
+    "conflict": 1
+   },
+   "scorer_guarded": [],
+   "truncated_by_condition": {
+    "1A:dnat:B1": 330,
+    "1A:dnat:F0": 79,
+    "1A:dnat:F1": 99,
+    "1A:dnat:F2": 58,
+    "1A:dnat:F2-scratch": 81,
+    "1A:dnat:F3(0.5)": 88,
+    "1A:dnat:F3(0.7)": 93,
+    "1A:dnat:F3(0.9)": 98,
+    "1A:dnat:F3(1.0)": 106,
+    "1A:dnat:F3-perm[0]": 110,
+    "1A:dnat:F3-perm[1]": 105,
+    "1A:dnat:F3-perm[2]": 111,
+    "1A:dnat:F5": 114
+   }
+  },
+  "results/main/4B/main-exp01-test-alt-4B-a7a0579": {
+   "rows": 3600,
+   "status": {
+    "ok": 3563,
+    "truncated": 37
+   },
+   "scorer_guarded": [],
+   "truncated_by_condition": {
+    "1B:dinj:assistant/other/F0": 3,
+    "1B:dinj:assistant/other/F1": 2,
+    "1B:dinj:assistant/other/F3(1.0)": 3,
+    "1B:dinj:assistant/self/F0": 1,
+    "1B:dinj:assistant/self/F1": 3,
+    "1B:dinj:assistant/self/F3(1.0)": 5,
+    "1B:dinj:user/other/F0": 3,
+    "1B:dinj:user/other/F1": 5,
+    "1B:dinj:user/other/F3(1.0)": 3,
+    "1B:dinj:user/self/F1": 4,
+    "1B:dinj:user/self/F3(1.0)": 5
+   }
+  }
+ }
+}

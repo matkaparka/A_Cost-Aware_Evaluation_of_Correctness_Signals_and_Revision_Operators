@@ -1,0 +1,36 @@
+{
+ "model": "4B",
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "verbal": "/home/results/p1/4B/p1-verbal-4B-d2ebdea/verbal.jsonl",
+ "self_threshold_s": 15.999999163764045,
+ "chunk": 50,
+ "n_items": 400,
+ "max_loras": 64,
+ "limit": 0,
+ "groundings": [
+  "self",
+  "perm0",
+  "perm1",
+  "perm2",
+  "ext",
+  "shuffled",
+  "random"
+ ],
+ "n_kl": 10,
+ "n_samples": 4,
+ "t_sample": 0.7,
+ "max_tokens": 2048,
+ "selfpred_tokens": 64,
+ "keep_fraction": 0.05,
+ "steps": 4,
+ "tier2": {
+  "pilot": "p2-ttt-pilot-4B-ea34050",
+  "serve": "p2-ttt-serve-4B-ea34050",
+  "tau": "0.5",
+  "lr": "0.001",
+  "feasible": true,
+  "update_repeat_identical": 1.0
+ },
+ "context_template_sha256": "0c0f570d8cbc60a10895a871e1992a5c0cdfd252b9b46cdc4bbd29073caa83e6",
+ "selfpred_sha256": "8b354751b05d41c5060eea7326d92a1dcf08fb3ab6e7f815e1519dbb74ccec37"
+}

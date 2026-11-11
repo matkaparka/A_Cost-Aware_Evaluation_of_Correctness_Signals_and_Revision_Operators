@@ -1,0 +1,39 @@
+{
+ "model": "8B",
+ "transformers": "5.20.2",
+ "torch": "2.14.0+cu130",
+ "load_s": 4.390340089797974,
+ "arch": {
+  "layers": 36,
+  "hidden": 4096,
+  "kv_heads": 8,
+  "head_dim": 128
+ },
+ "teacher_forced": {
+  "n": 64,
+  "tokens": 25472,
+  "wall_s": 4.236278533935547,
+  "tok_per_s": 6012.824651625597
+ },
+ "activations": {
+  "n": 64,
+  "wall_s": 3.1372897624969482,
+  "vectors_per_item": 37,
+  "bytes_per_position_all_layers": 303104,
+  "s_per_item": 0.049020152539014816
+ },
+ "hf_generate_batched": {
+  "n": 64,
+  "batch": 32,
+  "max_new_tokens": 512,
+  "output_tokens": 19552,
+  "wall_s": 47.105693340301514,
+  "output_tok_per_s": 415.06660052219604
+ },
+ "patching": {
+  "n": 8,
+  "wall_s": 1.5005948543548584,
+  "s_per_pair_fwd_bwd": 0.1875743567943573
+ },
+ "peak_vram_gb": 46.049942528
+}

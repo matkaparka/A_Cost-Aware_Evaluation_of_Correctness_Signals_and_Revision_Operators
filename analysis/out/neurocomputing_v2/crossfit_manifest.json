@@ -1,0 +1,72 @@
+{
+  "analysis_id": "neurocomputing-v2-retrospective-crossfit-v1",
+  "script": "analysis/neurocomputing_crossfit_v2.py",
+  "script_sha256": "c2f6f9f3f34eec83b1d749603c07dedfc5fc0f4943f8a98912347b1ff8314de8",
+  "runtime": "Python standard library; deterministic integer cost accumulation; no random sampler",
+  "inputs": {
+    "analysis/out/arr/b2_keep_strength.json": {
+      "sha256": "b843a9ca790efeef3a23b75da61058ee659c0bb2ff6df625ea1b40cb4ef2f828",
+      "bytes": 242771,
+      "verified_against": "analysis/out/arr/c1_budget_total_manifest.json"
+    },
+    "analysis/out/arr/c1_budget_total_manifest.json": {
+      "sha256": "c10595792c335c98d925d6e266241218b68d5549909ba6fa2530bc519852da0d",
+      "bytes": 4387
+    },
+    "analysis/out/arr/c1_labels.jsonl.gz": {
+      "sha256": "afefc47df5e84d157a960f0d06e18804383c06b1dffa4c45dc6f71df8721d5c3",
+      "bytes": 171509,
+      "verified_against": "analysis/out/arr/c1_budget_total_manifest.json"
+    },
+    "analysis/out/arr/c1_think.json": {
+      "sha256": "cb304cb9cdd198aac08f0e2668e604f324fc108519cdd338e2b2baa3e4e1ecc8",
+      "bytes": 201623,
+      "verified_against": "analysis/out/arr/c1_budget_total_manifest.json"
+    },
+    "analysis/out/arr/c1b_budget.json": {
+      "sha256": "4a17c67e711405c2d1867a4fc3f9d9d6e522d45486876c1dfc54174eeffc1359",
+      "bytes": 42703,
+      "verified_against": "analysis/out/arr/c1_budget_total_manifest.json"
+    },
+    "analysis/out/arr/c1b_labels.jsonl.gz": {
+      "sha256": "929301055ae4fd430c3fd5f1d0bdecd577c1a7fa2af02260be411a602775a790",
+      "bytes": 534879,
+      "verified_against": "analysis/out/arr/c1_budget_total_manifest.json"
+    },
+    "analysis/out/arr/math_common_labels.jsonl.gz": {
+      "sha256": "8cfc687b302d4c85c109790753a7a1426b3aab7ae0f5d6b7cf14896fc57b5005",
+      "bytes": 767301,
+      "verified_against": "analysis/out/arr/c1_budget_total_manifest.json"
+    },
+    "paper/1区/artifacts/math/item_evaluations.jsonl": {
+      "sha256": "123be4ce262b43e77ec8f0394c2566b8ed04d69c5381848a76d9a284abdfde77",
+      "bytes": 62452390,
+      "verified_against": "analysis/out/arr/c1_budget_total_manifest.json"
+    },
+    "paper/1区/artifacts/mc/4B_items.jsonl": {
+      "sha256": "c09d508519b286d9a38f5bfa1c989e0cfd5991fd21400ac1e41ad0d144945bcf",
+      "bytes": 9430616,
+      "verified_against": "analysis/out/arr/c1_budget_total_manifest.json"
+    }
+  },
+  "outputs": {
+    "crossfit.json": "d6b9a12a5003d3ab01477e22afb894133a39f54dfd8ceea71801d48ec850d93b",
+    "crossfit_folds.json": "a93647b16029704d12e3ee985f8324daf866d8da5ee170bac55e48721ee1c46d",
+    "crossfit_values.tex": "14e41c2dbff83870971aa62fa619c37a60dde2ef31fa220ca7d7620312e057d4",
+    "tab_crossfit.tex": "c2c1a638504bf0f82683b0bf171200be92f8d136e8f5c568a364efbac3d50f93",
+    "crossfit_report.md": "d4b32c2ef72ef10979fc488d5b40eec2593b302dfb1c006f07de8296121d6938"
+  },
+  "fold_assignment_sha256": "a93647b16029704d12e3ee985f8324daf866d8da5ee170bac55e48721ee1c46d",
+  "historical_plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+  "historical_plan_note": "The historical plan identifies the input studies only; this new retrospective sensitivity was not preregistered.",
+  "checks": [
+    "math 4B: reconstructed full thinking and every uniform budget reproduce historical accuracy, tokens and forced-item counts.",
+    "math 8B: reconstructed full thinking and every uniform budget reproduce historical accuracy, tokens and forced-item counts.",
+    "MMLU-Pro 4B: reconstructed full thinking and every uniform budget reproduce historical accuracy, tokens and forced-item counts.",
+    "All input files match checksums in the historical total-budget analysis manifest.",
+    "Every canonical group belongs to one fold; no calibration/held-out group overlap; mathematics models share identical item-level folds.",
+    "Every training threshold passes an independent exhaustive whole-score boundary cost check.",
+    "Every item receives exactly one out-of-fold decision; pooled selections and costs reproduce sums of held-out fold totals.",
+    "Calibration receives no correctness labels; no selection depends on held-out token counts; all budget overshoots are retained."
+  ]
+}

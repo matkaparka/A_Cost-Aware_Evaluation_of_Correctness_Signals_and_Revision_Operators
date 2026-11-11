@@ -1,0 +1,13 @@
+{
+ "stage": "samples-critique",
+ "items": 2,
+ "vllm": "0.33.0",
+ "load_s": 34.159051179885864,
+ "gen_s": 6.0058348178863525,
+ "score_s": 0.4145207405090332,
+ "counts": {
+  "rows": 2,
+  "right": 1,
+  "generated_tokens": 784
+ }
+}

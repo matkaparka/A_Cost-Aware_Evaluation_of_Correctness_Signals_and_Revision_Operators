@@ -1,0 +1,11 @@
+{
+ "8B": {
+  "model": "8B",
+  "n_dev": 364,
+  "n_unscored": 0,
+  "t_star_s": 20.99999999133909,
+  "t_star_p_yes_norm": 0.9999999992417439,
+  "balanced_acc_t_star": 0.8467914438502674,
+  "balanced_acc_half": 0.5735294117647058
+ }
+}

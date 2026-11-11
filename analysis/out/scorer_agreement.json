@@ -1,0 +1,49 @@
+{
+ "n": 37900,
+ "agree": {
+  "v1": 36797,
+  "v2": 37307
+ },
+ "rate": {
+  "v1": 0.9708970976253298,
+  "v2": 0.984353562005277
+ },
+ "amended_bound": 0.0011534895648354778,
+ "by_source": {
+  "a0 original": {
+   "n": 1092,
+   "v1": 1060,
+   "v2": 1084
+  },
+  "a0 expansion": {
+   "n": 2700,
+   "v1": 2577,
+   "v2": 2633
+  },
+  "revisions dnat": {
+   "n": 11324,
+   "v1": 11093,
+   "v2": 11242
+  },
+  "revisions dinj": {
+   "n": 10414,
+   "v1": 10269,
+   "v2": 10264
+  },
+  "revisions expansion": {
+   "n": 12370,
+   "v1": 11798,
+   "v2": 12084
+  }
+ },
+ "disagreement_counts": {
+  "v1": {
+   "main correct, second incorrect": 1103
+  },
+  "v2": {
+   "main correct, second incorrect": 592,
+   "main incorrect, second correct": 1
+  }
+ },
+ "missing": []
+}

@@ -1,0 +1,32 @@
+{
+ "model": "4B",
+ "split": "test",
+ "exp01_orig": "results/main/4B/main-exp01-test-4B-a7a0579",
+ "exp01_1b": "results/main/4B/main-exp01-test-4B-a7a0579",
+ "exp01_ext": "results/main/4B/main-exp01-test-ext-4B-a7a0579",
+ "initial": [
+  "results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+  "results/p1/4B/p1-initial-ext-4B-45575c2/initial.jsonl"
+ ],
+ "verbal": [
+  "results/p1/4B/p1-verbal-4B-d2ebdea/verbal.jsonl",
+  "results/p1/4B/p1-verbal-ext-4B-45575c2/verbal.jsonl"
+ ],
+ "probe_scores": "results/main/4B/main-probe-scores-test-4B-a7a0579/probe_scores.jsonl",
+ "exp3_rows": "results/main/4B/main-steer-test-4B-bd96f2f/rows.jsonl",
+ "exp3_texts": "results/main/4B/main-steer-test-4B-bd96f2f/texts.jsonl",
+ "exp3_main": "main",
+ "exp3_random": [
+  "random0",
+  "random1",
+  "random2",
+  "random3",
+  "random4"
+ ],
+ "stated_p": "results/fu/4B/fu-stated-p-test-4B-aac4cc6",
+ "logprob_test": "results/fu/4B/fu-h2a-logprob-test-4B-aac4cc6",
+ "logprob_dev": "results/fu-dev/4B/fu-dev-h2a-logprob-dev-4B-aac4cc6",
+ "consistency_test": "results/fu/4B/fu-h2a-consistency-test-4B-aac4cc6",
+ "consistency_dev": "results/fu-dev/4B/fu-dev-h2a-consistency-dev-4B-aac4cc6",
+ "h3c": "results/fu/4B/fu-h3c-test-4B-aac4cc6"
+}

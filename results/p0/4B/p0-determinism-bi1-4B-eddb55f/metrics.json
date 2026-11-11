@@ -1,0 +1,12 @@
+{
+ "model": "4B",
+ "VLLM_BATCH_INVARIANT": "1",
+ "load_s": 118.90603971481323,
+ "base_wall_s": 10.88318157196045,
+ "repeat_identical": 1.0,
+ "other_batch_identical": 1.0,
+ "batch1_identical_first16": 1.0,
+ "zero_adapter_wall_s": 14.544573783874512,
+ "zero_adapter_identical": 1.0,
+ "first_divergence_token_zero_adapter": []
+}

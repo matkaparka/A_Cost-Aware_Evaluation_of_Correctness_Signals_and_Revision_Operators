@@ -1,0 +1,12 @@
+{
+ "stage": "samples",
+ "items": 2526,
+ "vllm": "0.33.0",
+ "load_s": 34.4134042263031,
+ "gen_s": 1038.7527613639832,
+ "score_s": 0.22665619850158691,
+ "counts": {
+  "generated_tokens": 7897457,
+  "truncated": 185
+ }
+}

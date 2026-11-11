@@ -1,0 +1,36 @@
+{
+ "model": "4B",
+ "pilot": "/home/results/p2/4B/p2-steer-pilot-4B-7ea8f7d",
+ "initial": "results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "split": "dev",
+ "allow_test": false,
+ "ref_rows": null,
+ "chunk": 100,
+ "limit": 8,
+ "max_new": 64,
+ "directions_sha256": "8aaa4488419da72d1a577667bdfa434b45c4977c1ab9af7f93269d81a46621a8",
+ "main": {
+  "layer": 18,
+  "direction": "role",
+  "alpha": 0.2,
+  "proxy_gain": 0.015153598443915447,
+  "mean_kl": 0.01174807504426628,
+  "reachable": true,
+  "w2r": 0.9,
+  "r2w": 0.0,
+  "generic_valid": false,
+  "w2r_gain_over_ref": 0.015000000000000013,
+  "r2w_increase_ok": true
+ },
+ "arms": [
+  "unsteered",
+  "main",
+  "pc1",
+  "dataset",
+  "flip"
+ ],
+ "skip_first": 5,
+ "order": "steer-test-v1",
+ "flip_stream": "steer-flip-v1",
+ "n_rtow": 300
+}

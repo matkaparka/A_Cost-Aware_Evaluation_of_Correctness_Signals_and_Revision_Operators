@@ -1,0 +1,40 @@
+watchdog running (pid 4769)
+env ok 2.14.0+cu130 0.33.0 2 GPUs NVIDIA A100-SXM4-40GB
+gate ok
+=== 2026-11-10T12:23:19Z models
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 405.42it/s]
+revision ok Qwen/Qwen3-4B 1cfa9a7208912126459214e8b04321603b3df60c
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files: 100%|██████████| 15/15 [00:00<00:00, 892.67it/s]
+revision ok Qwen/Qwen3-8B b968826d9c46dd6066d109eabc6255188de91218
+=== 2026-11-10T12:23:20Z smoke
+(EngineCore pid=9804) INFO 11-10 12:28:27 [core.py:1573] [shutdown] EngineCore: exiting busy loop
+{"items": 20, "forced": 20, "right": 19, "forced_truncated": 1, "prefix_identical": 20, "prefix_items": 20, "gen_s": 62.0, "load_s": 223.9}
+=== 2026-11-10T12:28:34Z jobs on GPUs 0,1
+=== 2026-11-10T12:28:34Z begin    - {"gpus": [0, 1], "jobs": 12, "est_gpu_h": 9.22}
+=== 2026-11-10T12:28:34Z start    c1b-math-4B-b256 {"slot": 0, "est_h": 0.814}
+=== 2026-11-10T12:28:34Z start    c1b-math-4B-b1024 {"slot": 1, "est_h": 0.882}
+=== 2026-11-10T12:50:56Z done     c1b-math-4B-b256 {"slot": 0, "hours": 0.373}
+=== 2026-11-10T12:50:56Z start    c1b-math-4B-b512 {"slot": 0, "est_h": 0.862}
+=== 2026-11-10T12:59:36Z done     c1b-math-4B-b1024 {"slot": 1, "hours": 0.517}
+=== 2026-11-10T12:59:36Z start    c1b-math-4B-b2048 {"slot": 1, "est_h": 0.747}
+=== 2026-11-10T13:16:16Z done     c1b-math-4B-b512 {"slot": 0, "hours": 0.422}
+=== 2026-11-10T13:16:16Z start    c1b-math-8B-b256 {"slot": 0, "est_h": 1.023}
+=== 2026-11-10T13:35:54Z done     c1b-math-4B-b2048 {"slot": 1, "hours": 0.605}
+=== 2026-11-10T13:35:54Z start    c1b-math-8B-b1024 {"slot": 1, "est_h": 1.144}
+=== 2026-11-10T13:47:12Z done     c1b-math-8B-b256 {"slot": 0, "hours": 0.516}
+=== 2026-11-10T13:47:12Z start    c1b-math-8B-b512 {"slot": 0, "est_h": 1.093}
+=== 2026-11-10T14:19:43Z done     c1b-math-8B-b512 {"slot": 0, "hours": 0.542}
+=== 2026-11-10T14:19:43Z start    c1b-math-8B-b2048 {"slot": 0, "est_h": 0.995}
+=== 2026-11-10T14:20:01Z done     c1b-math-8B-b1024 {"slot": 1, "hours": 0.735}
+=== 2026-11-10T14:20:01Z start    c1b-mc-4B-b256 {"slot": 1, "est_h": 0.469}
+=== 2026-11-10T14:33:33Z done     c1b-mc-4B-b256 {"slot": 1, "hours": 0.226}
+=== 2026-11-10T14:33:33Z start    c1b-mc-4B-b1024 {"slot": 1, "est_h": 0.41}
+=== 2026-11-10T14:49:23Z done     c1b-mc-4B-b1024 {"slot": 1, "hours": 0.264}
+=== 2026-11-10T14:49:23Z start    c1b-mc-4B-b512 {"slot": 1, "est_h": 0.485}
+=== 2026-11-10T15:05:37Z done     c1b-mc-4B-b512 {"slot": 1, "hours": 0.271}
+=== 2026-11-10T15:05:37Z start    c1b-mc-4B-b2048 {"slot": 1, "est_h": 0.295}
+=== 2026-11-10T15:15:03Z done     c1b-math-8B-b2048 {"slot": 0, "hours": 0.922}
+=== 2026-11-10T15:20:59Z done     c1b-mc-4B-b2048 {"slot": 1, "hours": 0.256}
+=== 2026-11-10T15:20:59Z end      - {"done": 12, "failed": 0, "skipped": 0, "stopped": 0, "pending": 0, "running": 0}
+=== 2026-11-10T15:20:59Z c1b_sequence done
+Terminated

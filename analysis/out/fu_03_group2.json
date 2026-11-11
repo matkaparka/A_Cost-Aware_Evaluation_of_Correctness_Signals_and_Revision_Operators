@@ -1,0 +1,996 @@
+{
+ "spec": "configs/fu3_spec_4B_test.json",
+ "streams": {
+  "eval": {
+   "self": {
+    "0": {
+     "acc_greedy": [
+      0.91,
+      0.91,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "25": {
+     "acc_greedy": [
+      0.06,
+      0.08,
+      0.0
+     ],
+     "truncated": [
+      0.92,
+      0.91,
+      1.0
+     ]
+    },
+    "50": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "75": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "100": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "125": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "150": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "175": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "200": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   "ext": {
+    "0": {
+     "acc_greedy": [
+      0.91,
+      0.91,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "25": {
+     "acc_greedy": [
+      0.94,
+      0.92,
+      0.96
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.0
+     ]
+    },
+    "50": {
+     "acc_greedy": [
+      0.95,
+      0.92,
+      0.88
+     ],
+     "truncated": [
+      0.0,
+      0.01,
+      0.0
+     ]
+    },
+    "75": {
+     "acc_greedy": [
+      0.93,
+      0.94,
+      0.69
+     ],
+     "truncated": [
+      0.01,
+      0.0,
+      0.03
+     ]
+    },
+    "100": {
+     "acc_greedy": [
+      0.95,
+      0.93,
+      0.58
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.0
+     ]
+    },
+    "125": {
+     "acc_greedy": [
+      0.9,
+      0.91,
+      0.44
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "150": {
+     "acc_greedy": [
+      0.86,
+      0.89,
+      0.53
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.03
+     ]
+    },
+    "175": {
+     "acc_greedy": [
+      0.84,
+      0.92,
+      0.0
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.06
+     ]
+    },
+    "200": {
+     "acc_greedy": [
+      0.62,
+      0.92,
+      0.0
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.01
+     ]
+    }
+   },
+   "random": {
+    "0": {
+     "acc_greedy": [
+      0.91,
+      0.91,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "25": {
+     "acc_greedy": [
+      0.91,
+      0.92,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "50": {
+     "acc_greedy": [
+      0.92,
+      0.9,
+      0.94
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "75": {
+     "acc_greedy": [
+      0.91,
+      0.92,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.02,
+      0.02
+     ]
+    },
+    "100": {
+     "acc_greedy": [
+      0.92,
+      0.91,
+      0.92
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "125": {
+     "acc_greedy": [
+      0.93,
+      0.91,
+      0.92
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "150": {
+     "acc_greedy": [
+      0.92,
+      0.93,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "175": {
+     "acc_greedy": [
+      0.92,
+      0.91,
+      0.92
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "200": {
+     "acc_greedy": [
+      0.92,
+      0.92,
+      0.89
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    }
+   },
+   "context": {
+    "0": {
+     "acc_greedy": [
+      0.91,
+      0.91,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "25": {
+     "acc_greedy": [
+      0.94,
+      0.94,
+      0.95
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "50": {
+     "acc_greedy": [
+      0.93,
+      0.94,
+      0.94
+     ],
+     "truncated": [
+      0.0,
+      0.01,
+      0.02
+     ]
+    },
+    "75": {
+     "acc_greedy": [
+      0.93,
+      0.92,
+      0.94
+     ],
+     "truncated": [
+      0.01,
+      0.02,
+      0.0
+     ]
+    },
+    "100": {
+     "acc_greedy": [
+      0.95,
+      0.94,
+      0.94
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "125": {
+     "acc_greedy": [
+      0.93,
+      0.91,
+      0.94
+     ],
+     "truncated": [
+      0.01,
+      0.0,
+      0.0
+     ]
+    },
+    "150": {
+     "acc_greedy": [
+      0.92,
+      0.92,
+      0.94
+     ],
+     "truncated": [
+      0.01,
+      0.0,
+      0.01
+     ]
+    },
+    "175": {
+     "acc_greedy": [
+      0.92,
+      0.93,
+      0.93
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "200": {
+     "acc_greedy": [
+      0.93,
+      0.94,
+      0.93
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    }
+   },
+   "nll": {
+    "0": {
+     "acc_greedy": [
+      0.91,
+      0.91,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "25": {
+     "acc_greedy": [
+      0.94,
+      0.95,
+      0.93
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "50": {
+     "acc_greedy": [
+      0.93,
+      0.93,
+      0.85
+     ],
+     "truncated": [
+      0.01,
+      0.0,
+      0.0
+     ]
+    },
+    "75": {
+     "acc_greedy": [
+      0.89,
+      0.92,
+      0.58
+     ],
+     "truncated": [
+      0.01,
+      0.0,
+      0.0
+     ]
+    },
+    "100": {
+     "acc_greedy": [
+      0.8,
+      0.88,
+      0.59
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "125": {
+     "acc_greedy": [
+      0.65,
+      0.92,
+      0.5
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "150": {
+     "acc_greedy": [
+      0.18,
+      0.91,
+      0.24
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "175": {
+     "acc_greedy": [
+      0.16,
+      0.9,
+      0.23
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "200": {
+     "acc_greedy": [
+      0.24,
+      0.9,
+      0.24
+     ],
+     "truncated": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "matched": {
+    "0": {
+     "acc_greedy": [
+      0.91,
+      0.91,
+      0.91
+     ],
+     "truncated": [
+      0.01,
+      0.01,
+      0.01
+     ]
+    },
+    "25": {
+     "acc_greedy": [
+      0.05,
+      0.08,
+      0.05
+     ],
+     "truncated": [
+      0.94,
+      0.92,
+      0.95
+     ]
+    },
+    "50": {
+     "acc_greedy": [
+      0.0,
+      0.02,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      0.98,
+      1.0
+     ]
+    },
+    "75": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "100": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "125": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "150": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "175": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "200": {
+     "acc_greedy": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "truncated": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  },
+  "trajectories": {
+   "self-s0": {
+    "condition": "self",
+    "steps": 200,
+    "a0_acc": 0.09,
+    "incorrect verdicts used": 0.965,
+    "updates applied": 27,
+    "UL share of applied": 0.7407407407407407,
+    "collapse onset": 26
+   },
+   "ext-s0": {
+    "condition": "ext",
+    "steps": 200,
+    "a0_acc": 0.84,
+    "incorrect verdicts used": 0.16,
+    "updates applied": 199,
+    "UL share of applied": 0.15577889447236182,
+    "collapse onset": null
+   },
+   "random-s0": {
+    "condition": "random",
+    "steps": 200,
+    "a0_acc": 0.895,
+    "incorrect verdicts used": null,
+    "updates applied": 200,
+    "UL share of applied": null,
+    "collapse onset": null
+   },
+   "context-s0": {
+    "condition": "context",
+    "steps": 200,
+    "a0_acc": 0.9,
+    "incorrect verdicts used": null,
+    "updates applied": 0,
+    "UL share of applied": null,
+    "collapse onset": null
+   },
+   "self-s1": {
+    "condition": "self",
+    "steps": 200,
+    "a0_acc": 0.095,
+    "incorrect verdicts used": 0.965,
+    "updates applied": 39,
+    "UL share of applied": 0.8205128205128205,
+    "collapse onset": 32
+   },
+   "ext-s1": {
+    "condition": "ext",
+    "steps": 200,
+    "a0_acc": 0.83,
+    "incorrect verdicts used": 0.17,
+    "updates applied": 198,
+    "UL share of applied": 0.16161616161616163,
+    "collapse onset": null
+   },
+   "random-s1": {
+    "condition": "random",
+    "steps": 200,
+    "a0_acc": 0.905,
+    "incorrect verdicts used": null,
+    "updates applied": 200,
+    "UL share of applied": null,
+    "collapse onset": null
+   },
+   "context-s1": {
+    "condition": "context",
+    "steps": 200,
+    "a0_acc": 0.9,
+    "incorrect verdicts used": null,
+    "updates applied": 0,
+    "UL share of applied": null,
+    "collapse onset": null
+   },
+   "self-s2": {
+    "condition": "self",
+    "steps": 200,
+    "a0_acc": 0.075,
+    "incorrect verdicts used": 0.975,
+    "updates applied": 32,
+    "UL share of applied": 0.84375,
+    "collapse onset": 20
+   },
+   "ext-s2": {
+    "condition": "ext",
+    "steps": 200,
+    "a0_acc": 0.575,
+    "incorrect verdicts used": 0.425,
+    "updates applied": 166,
+    "UL share of applied": 0.3072289156626506,
+    "collapse onset": null
+   },
+   "random-s2": {
+    "condition": "random",
+    "steps": 200,
+    "a0_acc": 0.88,
+    "incorrect verdicts used": null,
+    "updates applied": 200,
+    "UL share of applied": null,
+    "collapse onset": null
+   },
+   "context-s2": {
+    "condition": "context",
+    "steps": 200,
+    "a0_acc": 0.9,
+    "incorrect verdicts used": null,
+    "updates applied": 0,
+    "UL share of applied": null,
+    "collapse onset": null
+   },
+   "nll-s0": {
+    "condition": "nll",
+    "steps": 200,
+    "a0_acc": 0.605,
+    "incorrect verdicts used": 0.0,
+    "updates applied": 200,
+    "UL share of applied": 0.0,
+    "collapse onset": null
+   },
+   "matched-s0": {
+    "condition": "matched",
+    "steps": 200,
+    "a0_acc": 0.075,
+    "incorrect verdicts used": 0.965,
+    "updates applied": 40,
+    "UL share of applied": 0.925,
+    "collapse onset": 32
+   },
+   "nll-s1": {
+    "condition": "nll",
+    "steps": 200,
+    "a0_acc": 0.86,
+    "incorrect verdicts used": 0.0,
+    "updates applied": 198,
+    "UL share of applied": 0.0,
+    "collapse onset": null
+   },
+   "matched-s1": {
+    "condition": "matched",
+    "steps": 200,
+    "a0_acc": 0.085,
+    "incorrect verdicts used": 0.965,
+    "updates applied": 44,
+    "UL share of applied": 0.9318181818181818,
+    "collapse onset": 24
+   },
+   "nll-s2": {
+    "condition": "nll",
+    "steps": 200,
+    "a0_acc": 0.535,
+    "incorrect verdicts used": 0.0,
+    "updates applied": 199,
+    "UL share of applied": 0.0,
+    "collapse onset": null
+   },
+   "matched-s2": {
+    "condition": "matched",
+    "steps": 200,
+    "a0_acc": 0.06,
+    "incorrect verdicts used": 0.975,
+    "updates applied": 40,
+    "UL share of applied": 0.95,
+    "collapse onset": 19
+   }
+  },
+  "base eval identical across runs": true
+ },
+ "steer": {
+  "n dinj": 1547,
+  "n dnat": 300,
+  "precheck": {
+   "alpha0_identical": true,
+   "mean_kl": {
+    "main": 0.0086845876369265,
+    "pc1": 0.0004467707173062951,
+    "dataset": 0.006228902172842581,
+    "flip": 0.0016530492457885694
+   },
+   "reachable": {
+    "main": true,
+    "pc1": true,
+    "dataset": true,
+    "flip": true
+   },
+   "cos_with_role": {
+    "pc1": 0.00982136745005846,
+    "dataset": 0.14087525010108948,
+    "flip": 0.3551904550020409
+   },
+   "n": 50,
+   "n_dev_directions": 396,
+   "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "reproduction": {
+   "compared": 3694,
+   "identical": 3694,
+   "ref_rows_sha256": "eada13fd8f9a0b2a7bc7f533dc5fca877cc7117e057c621a29847eaaeef9dda9"
+  },
+  "arms": {
+   "unsteered": {
+    "W->R": [
+     0.8545572074983839,
+     0.8370895041854475,
+     0.8722441948035647
+    ],
+    "R->W": [
+     0.01,
+     0.0,
+     0.022727272727272728
+    ],
+    "changed": 0.7704385489983757,
+    "unparsed": 0.0,
+    "truncated": 0.03302652950730915
+   },
+   "main": {
+    "W->R": [
+     0.8138332255979315,
+     0.7943050327588366,
+     0.8331177439951455
+    ],
+    "R->W": [
+     0.0033333333333333335,
+     0.0,
+     0.010714285714285714
+    ],
+    "changed": 0.734163508391987,
+    "unparsed": 0.0,
+    "truncated": 0.03140227395776936
+   },
+   "pc1": {
+    "W->R": [
+     0.8455074337427279,
+     0.8276085547634479,
+     0.8636069812540401
+    ],
+    "R->W": [
+     0.0033333333333333335,
+     0.0,
+     0.010714285714285714
+    ],
+    "changed": 0.7628586897671901,
+    "unparsed": 0.0,
+    "truncated": 0.03086085544125609
+   },
+   "dataset": {
+    "W->R": [
+     0.8500323206205559,
+     0.8321497740477728,
+     0.8678272082527402
+    ],
+    "R->W": [
+     0.01,
+     0.0,
+     0.02258064516129032
+    ],
+    "changed": 0.7698971304818625,
+    "unparsed": 0.0,
+    "truncated": 0.03248511099079589
+   },
+   "flip": {
+    "W->R": [
+     0.8371040723981901,
+     0.8185926404131698,
+     0.8552971576227391
+    ],
+    "R->W": [
+     0.0033333333333333335,
+     0.0,
+     0.010714285714285714
+    ],
+    "changed": 0.758527341635084,
+    "unparsed": 0.0,
+    "truncated": 0.034650785056848946
+   }
+  },
+  "main minus": {
+   "unsteered": {
+    "W->R": [
+     -0.04072398190045249,
+     -0.054945054945054944,
+     -0.02664067576348278
+    ],
+    "R->W": [
+     -0.006666666666666667,
+     -0.01730103806228374,
+     0.0
+    ]
+   },
+   "pc1": {
+    "W->R": [
+     -0.03167420814479638,
+     -0.045278137128072445,
+     -0.018673234682571455
+    ],
+    "R->W": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "dataset": {
+    "W->R": [
+     -0.03619909502262444,
+     -0.04970948999354422,
+     -0.023270846800258566
+    ],
+    "R->W": [
+     -0.006666666666666667,
+     -0.017241379310344827,
+     0.0
+    ]
+   },
+   "flip": {
+    "W->R": [
+     -0.023270846800258566,
+     -0.036797934151065206,
+     -0.009702457956015523
+    ],
+    "R->W": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "frozen run: main minus mean(random), W->R": [
+   -0.0438267614738203,
+   -0.05654993514915693,
+   -0.031570465731133514
+  ]
+ }
+}

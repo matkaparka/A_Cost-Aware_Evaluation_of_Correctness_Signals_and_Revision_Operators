@@ -1,0 +1,208 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "vllm": "0.33.0",
+ "load_s": 40.08315634727478,
+ "stage1_s": 900.8189120292664,
+ "stage2_s": 120.22474884986877,
+ "stage1_prompts": 12553,
+ "stage2_prompts": 847,
+ "rows": {
+  "0:exp0:F0": {
+   "n": 80,
+   "truncated": 8
+  },
+  "0:exp0:F3(0.5)": {
+   "n": 80,
+   "truncated": 6
+  },
+  "0:exp0:F3(0.7)": {
+   "n": 80,
+   "truncated": 5
+  },
+  "0:exp0:F3(0.9)": {
+   "n": 80,
+   "truncated": 7
+  },
+  "0:exp0:F3(1.0)": {
+   "n": 80,
+   "truncated": 7
+  },
+  "0:exp0:no-feedback": {
+   "n": 80,
+   "truncated": 0
+  },
+  "1A:dinj:F4": {
+   "n": 263,
+   "truncated": 0
+  },
+  "1A:dnat:B0": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1A:dnat:B1": {
+   "n": 364,
+   "truncated": 10
+  },
+  "1A:dnat:F0": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1A:dnat:F1": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1A:dnat:F2": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1A:dnat:F2-scratch": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1A:dnat:F3(0.5)": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1A:dnat:F3(0.7)": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1A:dnat:F3(0.9)": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1A:dnat:F3(1.0)": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1A:dnat:F3-perm[0]": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1A:dnat:F3-perm[1]": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1A:dnat:F3-perm[2]": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1A:dnat:F5": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1B:dinj:assistant/other/F0": {
+   "n": 412,
+   "truncated": 1
+  },
+  "1B:dinj:assistant/other/F1": {
+   "n": 412,
+   "truncated": 3
+  },
+  "1B:dinj:assistant/other/F3(1.0)": {
+   "n": 412,
+   "truncated": 2
+  },
+  "1B:dinj:assistant/self/F0": {
+   "n": 412,
+   "truncated": 2
+  },
+  "1B:dinj:assistant/self/F1": {
+   "n": 412,
+   "truncated": 3
+  },
+  "1B:dinj:assistant/self/F3(1.0)": {
+   "n": 412,
+   "truncated": 3
+  },
+  "1B:dinj:user/other/F0": {
+   "n": 412,
+   "truncated": 0
+  },
+  "1B:dinj:user/other/F1": {
+   "n": 412,
+   "truncated": 2
+  },
+  "1B:dinj:user/other/F3(1.0)": {
+   "n": 412,
+   "truncated": 2
+  },
+  "1B:dinj:user/self/F0": {
+   "n": 412,
+   "truncated": 0
+  },
+  "1B:dinj:user/self/F1": {
+   "n": 412,
+   "truncated": 2
+  },
+  "1B:dinj:user/self/F3(1.0)": {
+   "n": 412,
+   "truncated": 4
+  },
+  "1B:dnat:assistant/other/F0": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1B:dnat:assistant/other/F1": {
+   "n": 364,
+   "truncated": 2
+  },
+  "1B:dnat:assistant/other/F3(1.0)": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1B:dnat:assistant/self/F0": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1B:dnat:assistant/self/F1": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1B:dnat:assistant/self/F3(1.0)": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1B:dnat:user/other/F0": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1B:dnat:user/other/F1": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1B:dnat:user/other/F3(1.0)": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1B:dnat:user/self/F0": {
+   "n": 364,
+   "truncated": 0
+  },
+  "1B:dnat:user/self/F1": {
+   "n": 364,
+   "truncated": 1
+  },
+  "1B:dnat:user/self/F3(1.0)": {
+   "n": 364,
+   "truncated": 1
+  },
+  "tsui:dinj:external": {
+   "n": 412,
+   "truncated": 14
+  },
+  "tsui:dinj:external+wait": {
+   "n": 412,
+   "truncated": 17
+  },
+  "tsui:dinj:internal": {
+   "n": 412,
+   "truncated": 6
+  },
+  "tsui:dinj:internal+wait": {
+   "n": 412,
+   "truncated": 44
+  }
+ }
+}

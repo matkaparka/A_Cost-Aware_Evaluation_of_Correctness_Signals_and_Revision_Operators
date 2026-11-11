@@ -1,0 +1,2763 @@
+{
+ "n test": 5052,
+ "n dev": 1264,
+ "n wrong test": 746,
+ "missing first turns": {
+  "test": 0,
+  "dev": 0
+ },
+ "probe (frozen selection)": {
+  "layer": 24,
+  "C": 0.001,
+  "cv_auroc": 0.8911322971221034
+ },
+ "a0 cost": {
+  "generated tokens / item": 777.2341646872526,
+  "prompt tokens / item": 95.11935866983373
+ },
+ "cost per condition": {
+  "B1": {
+   "acc change": [
+    -0.01444972288202692,
+    -0.01779377027118339,
+    -0.011275852903018352
+   ],
+   "W->R": 0.0,
+   "R->W": 0.01695308871342316,
+   "generated tokens / item": 669.9712984956453,
+   "generated, relative to a0": 0.8619941440238049,
+   "processed prompt tokens / item": 95.11935866983373
+  },
+  "F0": {
+   "acc change": [
+    0.008907363420427554,
+    0.0059417706476530005,
+    0.011888250445809392
+   ],
+   "W->R": 0.06970509383378017,
+   "R->W": 0.0016256386437528692,
+   "generated tokens / item": 354.2842438638163,
+   "generated, relative to a0": 0.45582690514688706,
+   "processed prompt tokens / item": 911.3950910530483
+  },
+  "F1": {
+   "acc change": [
+    0.007323832145684877,
+    0.0025717111770524235,
+    0.01207920792079208
+   ],
+   "W->R": 0.12734584450402145,
+   "R->W": 0.013469577333952598,
+   "generated tokens / item": 415.9020190023753,
+   "generated, relative to a0": 0.5351051689418826,
+   "processed prompt tokens / item": 913.3950910530483
+  },
+  "F2": {
+   "acc change": [
+    0.015043547110055424,
+    0.009701049297168878,
+    0.020210025757875966
+   ],
+   "W->R": 0.17024128686327078,
+   "R->W": 0.011843938690199729,
+   "generated tokens / item": 835.7790973871734,
+   "generated, relative to a0": 1.075324703107304,
+   "processed prompt tokens / item": 2462.0635391923993
+  },
+  "F2-scratch": {
+   "acc change": [
+    0.009699129057798891,
+    0.0065294815987336765,
+    0.013056379821958458
+   ],
+   "W->R": 0.07908847184986595,
+   "R->W": 0.0023223409196470035,
+   "generated tokens / item": 921.4224069675377,
+   "generated, relative to a0": 1.1855145448197124,
+   "processed prompt tokens / item": 2389.5019794140935
+  },
+  "F3(0.5)": {
+   "acc change": [
+    0.009501187648456057,
+    0.00593589236248516,
+    0.013254203758654798
+   ],
+   "W->R": 0.09115281501340483,
+   "R->W": 0.004644681839294007,
+   "generated tokens / item": 425.45645288994456,
+   "generated, relative to a0": 0.5473980329482067,
+   "processed prompt tokens / item": 924.3950910530483
+  },
+  "F3(1.0)": {
+   "acc change": [
+    0.015637371338083926,
+    0.01225296442687747,
+    0.019394419156936474
+   ],
+   "W->R": 0.1126005361930295,
+   "R->W": 0.0011611704598235573,
+   "generated tokens / item": 342.9906967537609,
+   "generated, relative to a0": 0.4412964745210026,
+   "processed prompt tokens / item": 924.3950910530483
+  },
+  "F5": {
+   "acc change": [
+    0.009105304829770388,
+    0.005147495545436547,
+    0.013259449831783099
+   ],
+   "W->R": 0.10187667560321716,
+   "R->W": 0.0069670227589410105,
+   "generated tokens / item": 435.0754156769596,
+   "generated, relative to a0": 0.5597739207102759,
+   "processed prompt tokens / item": 924.3950910530483
+  }
+ },
+ "signal cost": {
+  "verbal s": {
+   "generated": 0.0,
+   "processed (no cache)": 892.3950910530483,
+   "processed (a0 cache reused)": 23.0
+  },
+  "probe": {
+   "generated": 0.0,
+   "processed (read during a0 generation)": 0.0,
+   "processed (separate prefill)": 872.3535233570863
+  },
+  "min token log-prob": {
+   "generated": 0.0,
+   "processed (read during a0 generation)": 0.0,
+   "processed (separate prefill)": 872.3535233570863
+  },
+  "agreement with a0 (5 samples)": {
+   "generated": 3723.327988915281,
+   "processed (no cache)": 475.59679334916865
+  },
+  "answer length": {
+   "generated": 0.0,
+   "processed": 0.0
+  },
+  "probe training (one-off)": {
+   "dev items": 1264,
+   "prefill tokens": 1059282.0
+  }
+ },
+ "policies": {
+  "F2": {
+   "every item": {
+    "acc change": [
+     0.015043547110055424,
+     0.009701049297168878,
+     0.020210025757875966
+    ],
+    "generated / item": 835.7790973871734
+   },
+   "budgets": {
+    "5": {
+     "verbal s": {
+      "acc change": [
+       0.009105304829770388,
+       0.0065320341905492985,
+       0.01187178472497032
+      ],
+      "fixes": 47,
+      "damages": 1,
+      "share of selected initially wrong": 0.9407114624505929,
+      "incremental generated / item": 101.86559778305622,
+      "minus verbal s": null,
+      "minus random": [
+       0.008351936377901025,
+       0.005885684677532538,
+       0.010934026055852027
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.01049089469517023,
+       0.007721205109310215,
+       0.013452027695351138
+      ],
+      "fixes": 54,
+      "damages": 1,
+      "share of selected initially wrong": 0.9683794466403162,
+      "incremental generated / item": 102.94517022961203,
+      "minus verbal s": [
+       0.0013855898653998416,
+       0.00019786307874950534,
+       0.002770083102493075
+      ],
+      "minus random": [
+       0.009737526243300867,
+       0.007102100597315882,
+       0.012500969149333577
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.010292953285827395,
+       0.007527733755942948,
+       0.013079731878020525
+      ],
+      "fixes": 52,
+      "damages": 0,
+      "share of selected initially wrong": 0.9486166007905138,
+      "incremental generated / item": 102.01148060174188,
+      "minus verbal s": [
+       0.0011876484560570072,
+       -0.00019801980198019803,
+       0.002576808721506442
+      ],
+      "minus random": [
+       0.009539584833958031,
+       0.006979293318752891,
+       0.012258630659769978
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.004552652414885194,
+       0.002374826835543242,
+       0.0069265782703344545
+      ],
+      "fixes": 28,
+      "damages": 5,
+      "share of selected initially wrong": 0.6561264822134387,
+      "incremental generated / item": 81.59105304829771,
+      "minus verbal s": [
+       -0.004552652414885194,
+       -0.007123070834982192,
+       -0.002175632911392405
+      ],
+      "minus random": [
+       0.0037992839630158312,
+       0.0016909662183666372,
+       0.006040653643078855
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.009303246239113222,
+       0.006537210103270045,
+       0.012083993660855784
+      ],
+      "fixes": 49,
+      "damages": 2,
+      "share of selected initially wrong": 0.9525691699604744,
+      "incremental generated / item": 3810.538202692003,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.002373887240356083,
+       0.002768439786434645
+      ],
+      "minus random": [
+       0.00854987778724386,
+       0.006002168090556719,
+       0.011260601150867779
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.009897070467141725,
+       0.00731510817665896,
+       0.012678288431061807
+      ],
+      "fixes": 51,
+      "damages": 1,
+      "share of selected initially wrong": 0.9604743083003953,
+      "incremental generated / item": 102.84422011084719,
+      "minus verbal s": [
+       0.000791765637371338,
+       0.00019774569903104609,
+       0.0015851000594412521
+      ],
+      "minus random": [
+       0.009143702015272363,
+       0.006610027715631484,
+       0.011870017167987582
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.009303246239113222,
+       0.006724683544303798,
+       0.012076816471985746
+      ],
+      "fixes": 48,
+      "damages": 1,
+      "share of selected initially wrong": 0.9841897233201581,
+      "incremental generated / item": 3823.911124307205,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.0009903000123355301,
+       0.001582591493570722
+      ],
+      "minus random": [
+       0.00854987778724386,
+       0.006045908263505397,
+       0.01115144509478612
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.01049089469517023,
+       0.007718187215515536,
+       0.013277843836702339
+      ],
+      "fixes": 54,
+      "damages": 1,
+      "share of selected initially wrong": 0.9565217391304348,
+      "incremental generated / item": 99.2971100554236,
+      "minus verbal s": [
+       0.0013855898653998416,
+       -0.00019798059790140566,
+       0.0029702970297029703
+      ],
+      "minus random": [
+       0.009737526243300867,
+       0.007038345911778669,
+       0.01246413934330697
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.00831353919239905,
+       0.005736894164193867,
+       0.011091360138157938
+      ],
+      "fixes": 46,
+      "damages": 4,
+      "share of selected initially wrong": 0.9486166007905138,
+      "incremental generated / item": 3804.0283056215358,
+      "minus verbal s": [
+       -0.000791765637371338,
+       -0.0035587188612099642,
+       0.0019790223629527013
+      ],
+      "minus random": [
+       0.007560170740529687,
+       0.005064462542569054,
+       0.010263485092388443
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.00791765637371338,
+       0.0055423594615993665,
+       0.010484668644906034
+      ],
+      "fixes": 40,
+      "damages": 0,
+      "share of selected initially wrong": 1.0,
+      "incremental generated / item": 74.46199524940617,
+      "minus verbal s": [
+       -0.0011876484560570072,
+       -0.004155124653739612,
+       0.0017797112912794147
+      ],
+      "minus random": [
+       0.007164287921844018,
+       0.004873681117814058,
+       0.009585500319422147
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.0007533684518693627,
+       0.0004858205606064379,
+       0.0010121014482863456
+      ],
+      "incremental generated / item": 41.855128986333106
+     }
+    },
+    "10": {
+     "verbal s": {
+      "acc change": [
+       0.012074425969912905,
+       0.008711146307661849,
+       0.015445621032691504
+      ],
+      "fixes": 68,
+      "damages": 7,
+      "share of selected initially wrong": 0.7742574257425743,
+      "incremental generated / item": 167.11678543151228,
+      "minus verbal s": null,
+      "minus random": [
+       0.01057066680709066,
+       0.007525187544296749,
+       0.013627184000594648
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.011084718923198733,
+       0.007521773555027712,
+       0.014641867827463396
+      ],
+      "fixes": 68,
+      "damages": 12,
+      "share of selected initially wrong": 0.7663366336633664,
+      "incremental generated / item": 168.48950910530482,
+      "minus verbal s": [
+       -0.0009897070467141725,
+       -0.0023767082590612004,
+       0.000395882818685669
+      ],
+      "minus random": [
+       0.009580959760376487,
+       0.00638747061975054,
+       0.012761127089713855
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.010886777513855899,
+       0.007725832012678288,
+       0.014064976228209191
+      ],
+      "fixes": 61,
+      "damages": 6,
+      "share of selected initially wrong": 0.689108910891089,
+      "incremental generated / item": 168.7703879651623,
+      "minus verbal s": [
+       -0.0011876484560570072,
+       -0.002971473851030111,
+       0.0005937067088858105
+      ],
+      "minus random": [
+       0.009383018351033652,
+       0.006572076771601756,
+       0.012300308050086719
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.00870942201108472,
+       0.005741437339140764,
+       0.011687797147385102
+      ],
+      "fixes": 52,
+      "damages": 8,
+      "share of selected initially wrong": 0.5821782178217821,
+      "incremental generated / item": 152.81710213776722,
+      "minus verbal s": [
+       -0.0033650039588281866,
+       -0.0059417706476530005,
+       -0.0007916089451810805
+      ],
+      "minus random": [
+       0.007205662848262472,
+       0.00453161477578181,
+       0.010002649019811703
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.015439429928741092,
+       0.011680855276182935,
+       0.019207920792079208
+      ],
+      "fixes": 85,
+      "damages": 7,
+      "share of selected initially wrong": 0.9306930693069307,
+      "incremental generated / item": 3886.7792953285825,
+      "minus verbal s": [
+       0.0033650039588281866,
+       0.0009891196834817012,
+       0.005934718100890208
+      ],
+      "minus random": [
+       0.013935670765918846,
+       0.010572500181356165,
+       0.01735758297969004
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.012470308788598575,
+       0.009099901088031652,
+       0.015854141894569955
+      ],
+      "fixes": 70,
+      "damages": 7,
+      "share of selected initially wrong": 0.7782178217821782,
+      "incremental generated / item": 169.81848772763263,
+      "minus verbal s": [
+       0.000395882818685669,
+       -0.0003957261574990107,
+       0.001188118811881188
+      ],
+      "minus random": [
+       0.010966549625776329,
+       0.00789994519949695,
+       0.01411670243014522
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.015637371338083926,
+       0.011867029940951634,
+       0.019603960396039604
+      ],
+      "fixes": 88,
+      "damages": 9,
+      "share of selected initially wrong": 0.9227722772277228,
+      "incremental generated / item": 3891.2123911322246,
+      "minus verbal s": [
+       0.0035629453681710215,
+       0.001188118811881188,
+       0.0059382422802850355
+      ],
+      "minus random": [
+       0.01413361217526168,
+       0.010671448353963617,
+       0.017709710003577298
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.011678543151227237,
+       0.00811078140454995,
+       0.015418143017963357
+      ],
+      "fixes": 72,
+      "damages": 13,
+      "share of selected initially wrong": 0.7584158415841584,
+      "incremental generated / item": 164.63341250989708,
+      "minus verbal s": [
+       -0.000395882818685669,
+       -0.0019813750743015654,
+       0.0011885895404120444
+      ],
+      "minus random": [
+       0.01017478398840499,
+       0.006909932591941414,
+       0.01347768875572142
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.01623119556611243,
+       0.01227236737925574,
+       0.020198119811981198
+      ],
+      "fixes": 92,
+      "damages": 10,
+      "share of selected initially wrong": 0.9128712871287129,
+      "incremental generated / item": 3888.143705463183,
+      "minus verbal s": [
+       0.004156769596199525,
+       0.001387230544180777,
+       0.006738010305192232
+      ],
+      "minus random": [
+       0.014727436403290184,
+       0.011172865442642784,
+       0.01835003265714848
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.01741884402216944,
+       0.013858641853098397,
+       0.02117564407149614
+      ],
+      "fixes": 88,
+      "damages": 0,
+      "share of selected initially wrong": 1.0,
+      "incremental generated / item": 147.8992478226445,
+      "minus verbal s": [
+       0.005344418052256532,
+       0.0019813750743015654,
+       0.008523290386521309
+      ],
+      "minus random": [
+       0.01591508485934719,
+       0.012727578855736478,
+       0.019320638171274284
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.0015037591628222467,
+       0.0009697208818428908,
+       0.0020202024955913228
+      ],
+      "incremental generated / item": 83.54482268023011
+     }
+    },
+    "20": {
+     "verbal s": {
+      "acc change": [
+       0.013064133016627079,
+       0.009098101265822785,
+       0.01720736358130188
+      ],
+      "fixes": 87,
+      "damages": 21,
+      "share of selected initially wrong": 0.5158415841584159,
+      "incremental generated / item": 279.2060570071259,
+      "minus verbal s": null,
+      "minus random": [
+       0.010056614690982586,
+       0.006771982581834625,
+       0.01342184572315059
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.012074425969912905,
+       0.007919223916056227,
+       0.016237623762376238
+      ],
+      "fixes": 86,
+      "damages": 25,
+      "share of selected initially wrong": 0.5396039603960396,
+      "incremental generated / item": 280.03127474267615,
+      "minus verbal s": [
+       -0.0009897070467141725,
+       -0.0029691211401425177,
+       0.0007922360863537334
+      ],
+      "minus random": [
+       0.009066907644268412,
+       0.005739120037247764,
+       0.012479265996731733
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.011876484560570071,
+       0.008503023030532202,
+       0.015436374431031071
+      ],
+      "fixes": 71,
+      "damages": 11,
+      "share of selected initially wrong": 0.45544554455445546,
+      "incremental generated / item": 285.3000791765637,
+      "minus verbal s": [
+       -0.0011876484560570072,
+       -0.0033663366336633663,
+       0.0009891196834817012
+      ],
+      "minus random": [
+       0.008868966234925578,
+       0.005979758438328006,
+       0.011801166110424267
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.010688836104513063,
+       0.006735340729001585,
+       0.014636075949367089
+      ],
+      "fixes": 75,
+      "damages": 21,
+      "share of selected initially wrong": 0.44752475247524753,
+      "incremental generated / item": 273.0338479809976,
+      "minus verbal s": [
+       -0.0023752969121140144,
+       -0.004951475539710834,
+       0.00019809923800271113
+      ],
+      "minus random": [
+       0.007681317778868571,
+       0.004510521353242731,
+       0.010881776100823132
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.01801266825019794,
+       0.013259449831783099,
+       0.022758869796467813
+      ],
+      "fixes": 117,
+      "damages": 26,
+      "share of selected initially wrong": 0.6465346534653466,
+      "incremental generated / item": 3994.9889152810765,
+      "minus verbal s": [
+       0.004948535233570863,
+       0.002178649237472767,
+       0.007718187215515536
+      ],
+      "minus random": [
+       0.015005149924553448,
+       0.011178254221424605,
+       0.018841844147993263
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.013657957244655582,
+       0.00948804111484483,
+       0.01782187042233635
+      ],
+      "fixes": 93,
+      "damages": 24,
+      "share of selected initially wrong": 0.5227722772277228,
+      "incremental generated / item": 280.23653998416466,
+      "minus verbal s": [
+       0.0005938242280285036,
+       -0.0005941800074013182,
+       0.001977848101265823
+      ],
+      "minus random": [
+       0.01065043891901109,
+       0.007210069330252852,
+       0.014066232967941648
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.017616785431512273,
+       0.01286364535919256,
+       0.022362952701365527
+      ],
+      "fixes": 117,
+      "damages": 28,
+      "share of selected initially wrong": 0.6584158415841584,
+      "incremental generated / item": 3996.9520981789387,
+      "minus verbal s": [
+       0.004552652414885194,
+       0.0017811201266574313,
+       0.007322382742924995
+      ],
+      "minus random": [
+       0.014609267105867779,
+       0.010755687775042138,
+       0.018438835883307393
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.01227236737925574,
+       0.00811078140454995,
+       0.01643889879183997
+      ],
+      "fixes": 90,
+      "damages": 28,
+      "share of selected initially wrong": 0.5158415841584159,
+      "incremental generated / item": 269.096991290578,
+      "minus verbal s": [
+       -0.000791765637371338,
+       -0.003162680371614944,
+       0.0013866877971473852
+      ],
+      "minus random": [
+       0.009264849053611248,
+       0.005856377960518872,
+       0.01268227000252031
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.01801266825019794,
+       0.013272583201267828,
+       0.022758757173956066
+      ],
+      "fixes": 116,
+      "damages": 25,
+      "share of selected initially wrong": 0.6445544554455446,
+      "incremental generated / item": 3992.3355106888357,
+      "minus verbal s": [
+       0.004948535233570863,
+       0.002177786576915462,
+       0.007718187215515536
+      ],
+      "minus random": [
+       0.015005149924553448,
+       0.011250339678139022,
+       0.018825213292354922
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.024742676167854315,
+       0.020400079223608637,
+       0.029132130091954807
+      ],
+      "fixes": 127,
+      "damages": 2,
+      "share of selected initially wrong": 0.7386138613861386,
+      "incremental generated / item": 253.52889944576404,
+      "minus verbal s": [
+       0.011678543151227237,
+       0.008712871287128714,
+       0.014659270998415214
+      ],
+      "minus random": [
+       0.02173515784220982,
+       0.01826566113371805,
+       0.025318317861906536
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.0030075183256444934,
+       0.0019394417636857816,
+       0.0040404049911826456
+      ],
+      "incremental generated / item": 167.08964536046022
+     }
+    },
+    "30": {
+     "verbal s": {
+      "acc change": [
+       0.01405384006334125,
+       0.009693372898120672,
+       0.018412195604830726
+      ],
+      "fixes": 97,
+      "damages": 26,
+      "share of selected initially wrong": 0.38786279683377306,
+      "incremental generated / item": 376.84778305621535,
+      "minus verbal s": null,
+      "minus random": [
+       0.009539584833958031,
+       0.006330463202604451,
+       0.012723566458407077
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.01227236737925574,
+       0.007724301841948901,
+       0.016818361693707953
+      ],
+      "fixes": 97,
+      "damages": 35,
+      "share of selected initially wrong": 0.4050131926121372,
+      "incremental generated / item": 376.1900237529691,
+      "minus verbal s": [
+       -0.0017814726840855108,
+       -0.003956478733926805,
+       0.00019798059790140566
+      ],
+      "minus random": [
+       0.007758112149872522,
+       0.004533916574555317,
+       0.010999917425910345
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.013064133016627079,
+       0.008912655971479501,
+       0.0172209026128266
+      ],
+      "fixes": 87,
+      "damages": 21,
+      "share of selected initially wrong": 0.3562005277044855,
+      "incremental generated / item": 385.4903008709422,
+      "minus verbal s": [
+       -0.0009897070467141725,
+       -0.0031702001188825043,
+       0.0011885895404120444
+      ],
+      "minus random": [
+       0.00854987778724386,
+       0.0055015881257800695,
+       0.011565414322640633
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.011480601741884403,
+       0.007319449465687564,
+       0.015652863086982365
+      ],
+      "fixes": 86,
+      "damages": 28,
+      "share of selected initially wrong": 0.35356200527704484,
+      "incremental generated / item": 370.01227236737924,
+      "minus verbal s": [
+       -0.002573238321456849,
+       -0.005145458143677024,
+       0.0
+      ],
+      "minus random": [
+       0.006966346512501183,
+       0.0038779750166838007,
+       0.010067864608256448
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.017616785431512273,
+       0.012673267326732674,
+       0.022551928783382788
+      ],
+      "fixes": 121,
+      "damages": 32,
+      "share of selected initially wrong": 0.45184696569920846,
+      "incremental generated / item": 4079.5292953285825,
+      "minus verbal s": [
+       0.0035629453681710215,
+       0.0009895111814763506,
+       0.006137398534943575
+      ],
+      "minus random": [
+       0.013102530202129054,
+       0.009642917617177395,
+       0.01657596018245266
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.014251781472684086,
+       0.009699129057798891,
+       0.01877479633604104
+      ],
+      "fixes": 102,
+      "damages": 30,
+      "share of selected initially wrong": 0.3944591029023747,
+      "incremental generated / item": 374.3345209817894,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.0013839530655392113,
+       0.0015854141894569957
+      ],
+      "minus random": [
+       0.009737526243300867,
+       0.006467766233257388,
+       0.01295860748993718
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.017022961203483768,
+       0.011885895404120444,
+       0.021967256933981973
+      ],
+      "fixes": 123,
+      "damages": 37,
+      "share of selected initially wrong": 0.4683377308707124,
+      "incremental generated / item": 4085.3806413301663,
+      "minus verbal s": [
+       0.0029691211401425177,
+       0.000395882818685669,
+       0.005539070227497527
+      ],
+      "minus random": [
+       0.01250870597410055,
+       0.008969524862224939,
+       0.01602867288475572
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.012470308788598575,
+       0.007920792079207921,
+       0.01701959232139323
+      ],
+      "fixes": 98,
+      "damages": 35,
+      "share of selected initially wrong": 0.38786279683377306,
+      "incremental generated / item": 353.65479018210607,
+      "minus verbal s": [
+       -0.001583531274742676,
+       -0.003956498304953387,
+       0.0005941770647653001
+      ],
+      "minus random": [
+       0.007956053559215356,
+       0.004764344854437022,
+       0.011223924520955142
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.01801266825019794,
+       0.013256826276216858,
+       0.02276776875866165
+      ],
+      "fixes": 119,
+      "damages": 28,
+      "share of selected initially wrong": 0.44525065963060684,
+      "incremental generated / item": 4064.3458036421216,
+      "minus verbal s": [
+       0.00395882818685669,
+       0.001385315654066891,
+       0.006533359730746387
+      ],
+      "minus random": [
+       0.013498413020814722,
+       0.010072284774915475,
+       0.01690244497604956
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.023752969121140142,
+       0.019390581717451522,
+       0.02831122549990101
+      ],
+      "fixes": 127,
+      "damages": 7,
+      "share of selected initially wrong": 0.4920844327176781,
+      "incremental generated / item": 327.007521773555,
+      "minus verbal s": [
+       0.009699129057798891,
+       0.006933438985736925,
+       0.012480190174326465
+      ],
+      "minus random": [
+       0.019238713891756923,
+       0.016094726414476134,
+       0.022487318278923345
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.004514255229383218,
+       0.002911082884898657,
+       0.006064607887755337
+      ],
+      "incremental generated / item": 250.79990333312642
+     }
+    },
+    "50": {
+     "verbal s": {
+      "acc change": [
+       0.0166270783847981,
+       0.011690112938379234,
+       0.021386244506803622
+      ],
+      "fixes": 118,
+      "damages": 34,
+      "share of selected initially wrong": 0.2688044338875693,
+      "incremental generated / item": 541.0296912114014,
+      "minus verbal s": null,
+      "minus random": [
+       0.009105304829770388,
+       0.006532066508313539,
+       0.011685482273717568
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.01444972288202692,
+       0.009495548961424332,
+       0.01940978411566647
+      ],
+      "fixes": 117,
+      "damages": 44,
+      "share of selected initially wrong": 0.27434679334916867,
+      "incremental generated / item": 539.4190419635788,
+      "minus verbal s": [
+       -0.00217735550277118,
+       -0.004155124653739612,
+       -0.00039556962025316455
+      ],
+      "minus random": [
+       0.006927949326999208,
+       0.004352126607319486,
+       0.009510600356647513
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.014251781472684086,
+       0.009699129057798891,
+       0.018796992481203006
+      ],
+      "fixes": 102,
+      "damages": 30,
+      "share of selected initially wrong": 0.2557403008709422,
+      "incremental generated / item": 548.7682106096595,
+      "minus verbal s": [
+       -0.0023752969121140144,
+       -0.004158415841584159,
+       -0.000593941793704217
+      ],
+      "minus random": [
+       0.006730007917656373,
+       0.004154302670623145,
+       0.009310618066561015
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.014251781472684086,
+       0.009691455696202531,
+       0.018826793499801823
+      ],
+      "fixes": 107,
+      "damages": 35,
+      "share of selected initially wrong": 0.26009501187648454,
+      "incremental generated / item": 537.3588677751386,
+      "minus verbal s": [
+       -0.0023752969121140144,
+       -0.004357298474945534,
+       -0.0003959611958028113
+      ],
+      "minus random": [
+       0.006730007917656373,
+       0.004157592555929519,
+       0.009308774014656367
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.01801266825019794,
+       0.013066719461492774,
+       0.022947576656775468
+      ],
+      "fixes": 123,
+      "damages": 32,
+      "share of selected initially wrong": 0.27949326999208235,
+      "incremental generated / item": 4215.518606492478,
+      "minus verbal s": [
+       0.0013855898653998416,
+       -0.0007912996609906775,
+       0.0035587188612099642
+      ],
+      "minus random": [
+       0.01049089469517023,
+       0.007911314198337262,
+       0.013071895424836602
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.01405384006334125,
+       0.009103502869582426,
+       0.018998614684345935
+      ],
+      "fixes": 114,
+      "damages": 43,
+      "share of selected initially wrong": 0.2688044338875693,
+      "incremental generated / item": 525.3018606492478,
+      "minus verbal s": [
+       -0.002573238321456849,
+       -0.004552652414885194,
+       -0.0005941770647653001
+      ],
+      "minus random": [
+       0.006532066508313539,
+       0.00395802514713252,
+       0.009198858559016627
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.015439429928741092,
+       0.010286844708209694,
+       0.02058590657165479
+      ],
+      "fixes": 124,
+      "damages": 46,
+      "share of selected initially wrong": 0.28582739509105304,
+      "incremental generated / item": 4229.329572446555,
+      "minus verbal s": [
+       -0.0011876484560570072,
+       -0.0031658092599920855,
+       0.0005942947702060222
+      ],
+      "minus random": [
+       0.00791765637371338,
+       0.005248564072093484,
+       0.0104929716887745
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.014251781472684086,
+       0.009110714993067934,
+       0.019215626086262975
+      ],
+      "fixes": 117,
+      "damages": 45,
+      "share of selected initially wrong": 0.2723673792557403,
+      "incremental generated / item": 516.7143705463183,
+      "minus verbal s": [
+       -0.0023752969121140144,
+       -0.004549050632911392,
+       -0.00039580447259054025
+      ],
+      "minus random": [
+       0.006730007917656373,
+       0.004058602256978816,
+       0.009400356224025332
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.01801266825019794,
+       0.01307442020654009,
+       0.022785813354468002
+      ],
+      "fixes": 121,
+      "damages": 30,
+      "share of selected initially wrong": 0.2735550277117973,
+      "incremental generated / item": 4192.1828978622325,
+      "minus verbal s": [
+       0.0013855898653998416,
+       -0.0007914523149980214,
+       0.0035636507622253018
+      ],
+      "minus random": [
+       0.01049089469517023,
+       0.007820233617105524,
+       0.013155291790306627
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.021971496437054632,
+       0.017408506429277944,
+       0.026706231454005934
+      ],
+      "fixes": 127,
+      "damages": 16,
+      "share of selected initially wrong": 0.2953285827395091,
+      "incremental generated / item": 471.3553048297704,
+      "minus verbal s": [
+       0.005344418052256532,
+       0.003361012257809411,
+       0.007523262720253415
+      ],
+      "minus random": [
+       0.01444972288202692,
+       0.011881188118811881,
+       0.017012858555885264
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.007521773555027712,
+       0.004850524648584439,
+       0.010105012878937983
+      ],
+      "incremental generated / item": 417.8895486935867
+     }
+    },
+    "100": {
+     "verbal s": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 835.7790973871734,
+      "minus verbal s": null,
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 835.7790973871734,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 835.7790973871734,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 835.7790973871734,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 4559.107086302454,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 835.7790973871734,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 4559.107086302454,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 835.7790973871734,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 4559.107086302454,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "fixes": 127,
+      "damages": 51,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 835.7790973871734,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.015043547110055424,
+       0.009701049297168878,
+       0.020210025757875966
+      ],
+      "incremental generated / item": 835.7790973871734
+     }
+    }
+   }
+  },
+  "F0": {
+   "every item": {
+    "acc change": [
+     0.008907363420427554,
+     0.0059417706476530005,
+     0.011888250445809392
+    ],
+    "generated / item": 354.2842438638163
+   },
+   "budgets": {
+    "5": {
+     "verbal s": {
+      "acc change": [
+       0.006927949326999208,
+       0.00455355375173233,
+       0.00949559593188813
+      ],
+      "fixes": 37,
+      "damages": 2,
+      "share of selected initially wrong": 0.9407114624505929,
+      "incremental generated / item": 64.07779097387173,
+      "minus verbal s": null,
+      "minus random": [
+       0.006481875901550243,
+       0.004228876887544297,
+       0.008889532106173725
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.008511480601741884,
+       0.006133755441234665,
+       0.011089108910891089
+      ],
+      "fixes": 43,
+      "damages": 0,
+      "share of selected initially wrong": 0.9683794466403162,
+      "incremental generated / item": 64.55205859065717,
+      "minus verbal s": [
+       0.001583531274742676,
+       0.0005937067088858105,
+       0.0027717283706196793
+      ],
+      "minus random": [
+       0.00806540717629292,
+       0.005778181207936961,
+       0.010530140950907544
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.00831353919239905,
+       0.005937067088858104,
+       0.010888932884577311
+      ],
+      "fixes": 42,
+      "damages": 0,
+      "share of selected initially wrong": 0.9486166007905138,
+      "incremental generated / item": 64.6880443388757,
+      "minus verbal s": [
+       0.0013855898653998416,
+       0.0003961180431768667,
+       0.0025701985502871063
+      ],
+      "minus random": [
+       0.007867465766950084,
+       0.005597803206764442,
+       0.01030984871467723
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.0029691211401425177,
+       0.001385308801496382,
+       0.004751534349633736
+      ],
+      "fixes": 17,
+      "damages": 2,
+      "share of selected initially wrong": 0.6561264822134387,
+      "incremental generated / item": 42.59125098970705,
+      "minus verbal s": [
+       -0.00395882818685669,
+       -0.00593941793704217,
+       -0.00217735550277118
+      ],
+      "minus random": [
+       0.0025230477146935522,
+       0.0009892710771028839,
+       0.004206191042513476
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.0059382422802850355,
+       0.003763866877971474,
+       0.008305319359303936
+      ],
+      "fixes": 31,
+      "damages": 1,
+      "share of selected initially wrong": 0.9525691699604744,
+      "incremental generated / item": 3773.2692003167062,
+      "minus verbal s": [
+       -0.0009897070467141725,
+       -0.002770631308133782,
+       0.0007916089451810805
+      ],
+      "minus random": [
+       0.00549216885483607,
+       0.0034797413866990605,
+       0.007671549014029198
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.007323832145684877,
+       0.004947531433915651,
+       0.009900990099009901
+      ],
+      "fixes": 39,
+      "damages": 2,
+      "share of selected initially wrong": 0.9604743083003953,
+      "incremental generated / item": 65.37114014251782,
+      "minus verbal s": [
+       0.000395882818685669,
+       0.0,
+       0.0009902951079421667
+      ],
+      "minus random": [
+       0.006877758720235912,
+       0.004596110254958781,
+       0.009335739987300393
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.006927949326999208,
+       0.00475057032039949,
+       0.009301405105877696
+      ],
+      "fixes": 35,
+      "damages": 0,
+      "share of selected initially wrong": 0.9841897233201581,
+      "incremental generated / item": 3786.1678543151224,
+      "minus verbal s": [
+       0.0,
+       -0.000791765637371338,
+       0.000791765637371338
+      ],
+      "minus random": [
+       0.006481875901550243,
+       0.0043881653392394936,
+       0.008731318180585403
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.007521773555027712,
+       0.005152596115735236,
+       0.010081043684522633
+      ],
+      "fixes": 38,
+      "damages": 0,
+      "share of selected initially wrong": 0.9525691699604744,
+      "incremental generated / item": 60.43962787015044,
+      "minus verbal s": [
+       0.0005938242280285036,
+       -0.0005937067088858105,
+       0.0017814726840855108
+      ],
+      "minus random": [
+       0.007075700129578746,
+       0.004893540088535228,
+       0.0094370894173867
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.007323832145684877,
+       0.005142405063291139,
+       0.009704892057833234
+      ],
+      "fixes": 37,
+      "damages": 0,
+      "share of selected initially wrong": 0.9881422924901185,
+      "incremental generated / item": 3782.9475455265238,
+      "minus verbal s": [
+       0.000395882818685669,
+       -0.0007908264136022143,
+       0.001582591493570722
+      ],
+      "minus random": [
+       0.006877758720235912,
+       0.004751824587082613,
+       0.009161202855583047
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.004156769596199525,
+       0.0023781212841854932,
+       0.0059417706476530005
+      ],
+      "fixes": 21,
+      "damages": 0,
+      "share of selected initially wrong": 1.0,
+      "incremental generated / item": 36.19813935075218,
+      "minus verbal s": [
+       -0.0027711797307996833,
+       -0.004945622881191734,
+       -0.000790670092903736
+      ],
+      "minus random": [
+       0.0037106961707505594,
+       0.00209865213563968,
+       0.00545362925228843
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.00044607342544896497,
+       0.00029755898136504534,
+       0.0005953537931096153
+      ],
+      "incremental generated / item": 17.74226320220616
+     }
+    },
+    "10": {
+     "verbal s": {
+      "acc change": [
+       0.007719714964370546,
+       0.005337023127100217,
+       0.010486743173723783
+      ],
+      "fixes": 42,
+      "damages": 3,
+      "share of selected initially wrong": 0.7742574257425743,
+      "incremental generated / item": 91.28503562945369,
+      "minus verbal s": null,
+      "minus random": [
+       0.0068293312495415846,
+       0.004592493036155353,
+       0.009258691589598265
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.00791765637371338,
+       0.0053486529318541995,
+       0.010684606252473288
+      ],
+      "fixes": 43,
+      "damages": 3,
+      "share of selected initially wrong": 0.7663366336633664,
+      "incremental generated / item": 90.29275534441805,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.0003961180431768667,
+       0.0009885330170027679
+      ],
+      "minus random": [
+       0.0070272726588844195,
+       0.004763855020522526,
+       0.009480041941813145
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.00791765637371338,
+       0.005537974683544304,
+       0.010499207606973059
+      ],
+      "fixes": 42,
+      "damages": 2,
+      "share of selected initially wrong": 0.689108910891089,
+      "incremental generated / item": 97.27019002375297,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.0003961965134706815,
+       0.0009885379039565793
+      ],
+      "minus random": [
+       0.0070272726588844195,
+       0.0047951255225019244,
+       0.009402694471147988
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.005344418052256532,
+       0.0031683011500516518,
+       0.007713645743342223
+      ],
+      "fixes": 30,
+      "damages": 3,
+      "share of selected initially wrong": 0.5821782178217821,
+      "incremental generated / item": 78.6340063341251,
+      "minus verbal s": [
+       -0.0023752969121140144,
+       -0.004154302670623145,
+       -0.0007919223916056226
+      ],
+      "minus random": [
+       0.004454034337427571,
+       0.0024968510395915913,
+       0.006536484877861669
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.009303246239113222,
+       0.006727344677483181,
+       0.01207920792079208
+      ],
+      "fixes": 48,
+      "damages": 1,
+      "share of selected initially wrong": 0.9306930693069307,
+      "incremental generated / item": 3810.862826603325,
+      "minus verbal s": [
+       0.001583531274742676,
+       0.0003961180431768667,
+       0.0029667721518987344
+      ],
+      "minus random": [
+       0.00841286252428426,
+       0.006043332187514926,
+       0.010913523291893124
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.00791765637371338,
+       0.0053486529318541995,
+       0.01068465911516007
+      ],
+      "fixes": 43,
+      "damages": 3,
+      "share of selected initially wrong": 0.7782178217821782,
+      "incremental generated / item": 92.84461599366587,
+      "minus verbal s": [
+       0.0001979414093428345,
+       0.0,
+       0.0005941770647653001
+      ],
+      "minus random": [
+       0.0070272726588844195,
+       0.004748927353251484,
+       0.009481965393216444
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.00870942201108472,
+       0.006132542037586548,
+       0.011485148514851485
+      ],
+      "fixes": 47,
+      "damages": 3,
+      "share of selected initially wrong": 0.9227722772277228,
+      "incremental generated / item": 3812.2579176563736,
+      "minus verbal s": [
+       0.0009897070467141725,
+       0.0,
+       0.002176063303659743
+      ],
+      "minus random": [
+       0.007819038296255758,
+       0.005443663022538678,
+       0.010348685502981106
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.007323832145684877,
+       0.004951475539710834,
+       0.009885379039565793
+      ],
+      "fixes": 38,
+      "damages": 1,
+      "share of selected initially wrong": 0.7247524752475247,
+      "incremental generated / item": 85.4639746634996,
+      "minus verbal s": [
+       -0.000395882818685669,
+       -0.0015822784810126582,
+       0.0005942947702060222
+      ],
+      "minus random": [
+       0.006433448430855916,
+       0.004337716123971393,
+       0.008672077097263826
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.00791765637371338,
+       0.005540138805548934,
+       0.0104929716887745
+      ],
+      "fixes": 41,
+      "damages": 1,
+      "share of selected initially wrong": 0.8930693069306931,
+      "incremental generated / item": 3807.9477434679334,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.0009904912836767037,
+       0.0013872374157748713
+      ],
+      "minus random": [
+       0.0070272726588844195,
+       0.004826231245677862,
+       0.00932724137320661
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.007719714964370546,
+       0.005345449691060917,
+       0.010286844708209694
+      ],
+      "fixes": 39,
+      "damages": 0,
+      "share of selected initially wrong": 1.0,
+      "incremental generated / item": 74.47486144101346,
+      "minus verbal s": [
+       0.0,
+       -0.001780767708745548,
+       0.001780767708745548
+      ],
+      "minus random": [
+       0.0068293312495415846,
+       0.004692398814749884,
+       0.009089510673157577
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.0008903837148289618,
+       0.0005939418402741024,
+       0.0011883544091713662
+      ],
+      "incremental generated / item": 35.41439888187396
+     }
+    },
+    "20": {
+     "verbal s": {
+      "acc change": [
+       0.00831353919239905,
+       0.0057403008709422014,
+       0.011082525232535128
+      ],
+      "fixes": 45,
+      "damages": 3,
+      "share of selected initially wrong": 0.5158415841584159,
+      "incremental generated / item": 139.35193982581157,
+      "minus verbal s": null,
+      "minus random": [
+       0.006532771762741127,
+       0.004472206895536127,
+       0.008719429215556922
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.008511480601741884,
+       0.005937067088858104,
+       0.011284894080380123
+      ],
+      "fixes": 46,
+      "damages": 3,
+      "share of selected initially wrong": 0.5396039603960396,
+      "incremental generated / item": 137.5952098178939,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.0003961180431768667,
+       0.0009893153937475267
+      ],
+      "minus random": [
+       0.006730713172083962,
+       0.004665610368747807,
+       0.008982237927355875
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.007719714964370546,
+       0.005147495545436547,
+       0.010480573870847028
+      ],
+      "fixes": 42,
+      "damages": 3,
+      "share of selected initially wrong": 0.45544554455445546,
+      "incremental generated / item": 151.2319873317498,
+      "minus verbal s": [
+       -0.0005938242280285036,
+       -0.0015829046299960427,
+       0.00019801980198019803
+      ],
+      "minus random": [
+       0.005938947534712623,
+       0.0038801531373791743,
+       0.008111759352710265
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.006927949326999208,
+       0.004549950544015826,
+       0.009504950495049505
+      ],
+      "fixes": 39,
+      "damages": 4,
+      "share of selected initially wrong": 0.44752475247524753,
+      "incremental generated / item": 133.87648456057008,
+      "minus verbal s": [
+       -0.0013855898653998416,
+       -0.002772277227722772,
+       0.0
+      ],
+      "minus random": [
+       0.005147181897341284,
+       0.0031700289137584223,
+       0.007247095676171441
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.009303246239113222,
+       0.006524317912218268,
+       0.012277227722772278
+      ],
+      "fixes": 52,
+      "damages": 5,
+      "share of selected initially wrong": 0.6465346534653466,
+      "incremental generated / item": 3854.634600158353,
+      "minus verbal s": [
+       0.0009897070467141725,
+       -0.00019774569903104609,
+       0.002177786576915462
+      ],
+      "minus random": [
+       0.0075224788094553,
+       0.005227179206561769,
+       0.0098941918271398
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.00831353919239905,
+       0.0057403008709422014,
+       0.011082525232535128
+      ],
+      "fixes": 45,
+      "damages": 3,
+      "share of selected initially wrong": 0.5227722772277228,
+      "incremental generated / item": 140.92082343626288,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.006532771762741127,
+       0.004472206895536127,
+       0.008719429215556922
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.009105304829770388,
+       0.006330365974282888,
+       0.012072096152909014
+      ],
+      "fixes": 51,
+      "damages": 5,
+      "share of selected initially wrong": 0.6584158415841584,
+      "incremental generated / item": 3854.7494061757716,
+      "minus verbal s": [
+       0.000791765637371338,
+       -0.0003959611958028113,
+       0.0019809923800271113
+      ],
+      "minus random": [
+       0.007324537400112465,
+       0.005061788009681519,
+       0.009686695554041114
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.00831353919239905,
+       0.005930025696778019,
+       0.010903800014187863
+      ],
+      "fixes": 43,
+      "damages": 1,
+      "share of selected initially wrong": 0.501980198019802,
+      "incremental generated / item": 134.87668250197942,
+      "minus verbal s": [
+       0.0,
+       -0.0007919223916056226,
+       0.0007919223916056226
+      ],
+      "minus random": [
+       0.006532771762741127,
+       0.004516136936920369,
+       0.00866575917745614
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.009501187648456057,
+       0.006734006734006734,
+       0.012277227722772278
+      ],
+      "fixes": 50,
+      "damages": 2,
+      "share of selected initially wrong": 0.601980198019802,
+      "incremental generated / item": 3858.2986935866984,
+      "minus verbal s": [
+       0.0011876484560570072,
+       0.00019790223629527012,
+       0.002374826835543242
+      ],
+      "minus random": [
+       0.0077204202187981345,
+       0.005541809080281087,
+       0.009977156025474417
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.010292953285827395,
+       0.007526242820360468,
+       0.013069306930693069
+      ],
+      "fixes": 52,
+      "damages": 0,
+      "share of selected initially wrong": 0.7386138613861386,
+      "incremental generated / item": 121.51840855106889,
+      "minus verbal s": [
+       0.001979414093428345,
+       0.0007930174818387094,
+       0.0033636723387415906
+      ],
+      "minus random": [
+       0.008512185856169472,
+       0.006333341638019417,
+       0.010775398717273805
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.0017807674296579235,
+       0.0011878836805482049,
+       0.0023767088183427325
+      ],
+      "incremental generated / item": 70.82879776374791
+     }
+    },
+    "30": {
+     "verbal s": {
+      "acc change": [
+       0.008115597783056216,
+       0.005539070227497527,
+       0.010897616899755064
+      ],
+      "fixes": 46,
+      "damages": 5,
+      "share of selected initially wrong": 0.38786279683377306,
+      "incremental generated / item": 181.61619160728424,
+      "minus verbal s": null,
+      "minus random": [
+       0.005442683502500362,
+       0.0035404514288673826,
+       0.007468864075152073
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.008115597783056216,
+       0.005539070227497527,
+       0.010895404120443741
+      ],
+      "fixes": 46,
+      "damages": 5,
+      "share of selected initially wrong": 0.4050131926121372,
+      "incremental generated / item": 177.8299683293745,
+      "minus verbal s": [
+       0.0,
+       -0.0009895111814763506,
+       0.0009897070467141725
+      ],
+      "minus random": [
+       0.005442683502500362,
+       0.003563010031619775,
+       0.007461472051152125
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.00831353919239905,
+       0.00573800090574711,
+       0.011091305208952268
+      ],
+      "fixes": 46,
+      "damages": 4,
+      "share of selected initially wrong": 0.3562005277044855,
+      "incremental generated / item": 196.326207442597,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.0005942947702060222,
+       0.0009908838684106222
+      ],
+      "minus random": [
+       0.005640624911843197,
+       0.003763377701429052,
+       0.0076381553037875305
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.007125890736342043,
+       0.004552652414885194,
+       0.009891196834817012
+      ],
+      "fixes": 41,
+      "damages": 5,
+      "share of selected initially wrong": 0.35356200527704484,
+      "incremental generated / item": 175.89904988123516,
+      "minus verbal s": [
+       -0.0009897070467141725,
+       -0.0023734177215189874,
+       0.00019809825673534074
+      ],
+      "minus random": [
+       0.00445297645578619,
+       0.002648226994804467,
+       0.00638635709644556
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.009105304829770388,
+       0.006139829669241434,
+       0.012081600316894434
+      ],
+      "fixes": 52,
+      "damages": 6,
+      "share of selected initially wrong": 0.45184696569920846,
+      "incremental generated / item": 3890.4115201900236,
+      "minus verbal s": [
+       0.0009897070467141725,
+       -0.00019782393669634025,
+       0.0021782178217821784
+      ],
+      "minus random": [
+       0.006432390549214534,
+       0.00441451274592192,
+       0.008532373083204762
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.00831353919239905,
+       0.005736894164193867,
+       0.011093502377179081
+      ],
+      "fixes": 46,
+      "damages": 4,
+      "share of selected initially wrong": 0.3944591029023747,
+      "incremental generated / item": 178.85728424386383,
+      "minus verbal s": [
+       0.0001979414093428345,
+       0.0,
+       0.0005942947702060222
+      ],
+      "minus random": [
+       0.005640624911843197,
+       0.0037761004302579613,
+       0.007641251510517398
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.009105304829770388,
+       0.006139829669241434,
+       0.012081600316894434
+      ],
+      "fixes": 52,
+      "damages": 6,
+      "share of selected initially wrong": 0.4683377308707124,
+      "incremental generated / item": 3889.8624307205064,
+      "minus verbal s": [
+       0.0009897070467141725,
+       -0.00019782393669634025,
+       0.0021782178217821784
+      ],
+      "minus random": [
+       0.006432390549214534,
+       0.00441451274592192,
+       0.008532373083204762
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.008907363420427554,
+       0.006335379132844981,
+       0.011676231941420938
+      ],
+      "fixes": 46,
+      "damages": 1,
+      "share of selected initially wrong": 0.37269129287598945,
+      "incremental generated / item": 175.11401425178147,
+      "minus verbal s": [
+       0.000791765637371338,
+       0.0,
+       0.0017821782178217822
+      ],
+      "minus random": [
+       0.006234449139871701,
+       0.004409968727462904,
+       0.008193843218264095
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.009501187648456057,
+       0.006728676034039185,
+       0.012458040638931371
+      ],
+      "fixes": 51,
+      "damages": 3,
+      "share of selected initially wrong": 0.4155672823218997,
+      "incremental generated / item": 3895.6498416468726,
+      "minus verbal s": [
+       0.0013855898653998416,
+       0.00039549139806209217,
+       0.002573760514043881
+      ],
+      "minus random": [
+       0.0068282733679002035,
+       0.0048698596977270305,
+       0.008848820331188079
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.010292953285827395,
+       0.007526242820360468,
+       0.013069306930693069
+      ],
+      "fixes": 52,
+      "damages": 0,
+      "share of selected initially wrong": 0.4920844327176781,
+      "incremental generated / item": 151.8978622327791,
+      "minus verbal s": [
+       0.00217735550277118,
+       0.0009897070467141725,
+       0.0035636507622253018
+      ],
+      "minus random": [
+       0.007620039005271541,
+       0.0056899998539391315,
+       0.009615284564265922
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.002672914280555853,
+       0.0017830016432782954,
+       0.003567416404561963
+      ],
+      "incremental generated / item": 106.31332416816024
+     }
+    },
+    "50": {
+     "verbal s": {
+      "acc change": [
+       0.008511480601741884,
+       0.0057403008709422014,
+       0.011480601741884403
+      ],
+      "fixes": 49,
+      "damages": 6,
+      "share of selected initially wrong": 0.2688044338875693,
+      "incremental generated / item": 249.99920823436264,
+      "minus verbal s": null,
+      "minus random": [
+       0.004057798891528108,
+       0.0025752773375594296,
+       0.0055434567412393585
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.00870942201108472,
+       0.005925453215278113,
+       0.011683226165753829
+      ],
+      "fixes": 51,
+      "damages": 7,
+      "share of selected initially wrong": 0.27434679334916867,
+      "incremental generated / item": 243.53523357086303,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.0003961965134706815,
+       0.0009889240506329115
+      ],
+      "minus random": [
+       0.004255740300870942,
+       0.002772277227722772,
+       0.005743740071546074
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.008907363420427554,
+       0.00613618368962787,
+       0.011876484560570071
+      ],
+      "fixes": 50,
+      "damages": 5,
+      "share of selected initially wrong": 0.2557403008709422,
+      "incremental generated / item": 259.9125098970705,
+      "minus verbal s": [
+       0.000395882818685669,
+       -0.00039556962025316455,
+       0.001188118811881188
+      ],
+      "minus random": [
+       0.004453681710213777,
+       0.003065664556962025,
+       0.0059417706476530005
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.00791765637371338,
+       0.0051444400474871385,
+       0.010880316518298714
+      ],
+      "fixes": 47,
+      "damages": 7,
+      "share of selected initially wrong": 0.26009501187648454,
+      "incremental generated / item": 247.55146476642915,
+      "minus verbal s": [
+       -0.0005938242280285036,
+       -0.001584786053882726,
+       0.000395882818685669
+      ],
+      "minus random": [
+       0.003463974663499604,
+       0.0019801980198019802,
+       0.0049504950495049506
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.009105304829770388,
+       0.006139829669241434,
+       0.012081600316894434
+      ],
+      "fixes": 52,
+      "damages": 6,
+      "share of selected initially wrong": 0.27949326999208235,
+      "incremental generated / item": 3943.038202692003,
+      "minus verbal s": [
+       0.0005938242280285036,
+       -0.00019801980198019803,
+       0.001582591493570722
+      ],
+      "minus random": [
+       0.004651623119556611,
+       0.0031683168316831685,
+       0.006141045958795562
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.008115597783056216,
+       0.005345476143337953,
+       0.011075949367088608
+      ],
+      "fixes": 47,
+      "damages": 6,
+      "share of selected initially wrong": 0.2688044338875693,
+      "incremental generated / item": 235.16389548693587,
+      "minus verbal s": [
+       -0.000395882818685669,
+       -0.0013858641853098396,
+       0.0005934747457430081
+      ],
+      "minus random": [
+       0.0036619160728424385,
+       0.0021782178217821784,
+       0.005150554675118859
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.28582739509105304,
+      "incremental generated / item": 3942.089073634204,
+      "minus verbal s": [
+       0.000395882818685669,
+       -0.0003957261574990107,
+       0.001188118811881188
+      ],
+      "minus random": [
+       0.004453681710213777,
+       0.0029708853238265003,
+       0.005944125222904696
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.00870942201108472,
+       0.006130086370848797,
+       0.011487423252129134
+      ],
+      "fixes": 47,
+      "damages": 3,
+      "share of selected initially wrong": 0.2391132224861441,
+      "incremental generated / item": 240.75890736342043,
+      "minus verbal s": [
+       0.0001979414093428345,
+       -0.000792393026941363,
+       0.001188118811881188
+      ],
+      "minus random": [
+       0.004255740300870942,
+       0.0027717283706196793,
+       0.0057414657620978886
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.009501187648456057,
+       0.006728676034039185,
+       0.012458040638931371
+      ],
+      "fixes": 51,
+      "damages": 3,
+      "share of selected initially wrong": 0.25257323832145684,
+      "incremental generated / item": 3955.157759303246,
+      "minus verbal s": [
+       0.0009897070467141725,
+       0.00019798059790140566,
+       0.0019790223629527013
+      ],
+      "minus random": [
+       0.005047505938242281,
+       0.0035650623885918,
+       0.006532066508313539
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.009699129057798891,
+       0.0069265782703344545,
+       0.012663237039968342
+      ],
+      "fixes": 52,
+      "damages": 3,
+      "share of selected initially wrong": 0.2953285827395091,
+      "incremental generated / item": 208.96615201900238,
+      "minus verbal s": [
+       0.0011876484560570072,
+       0.0003956478733926805,
+       0.0021782178217821784
+      ],
+      "minus random": [
+       0.005245447347585115,
+       0.003763866877971474,
+       0.006730007917656373
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.004453681710213777,
+       0.0029708853238265003,
+       0.005944125222904696
+      ],
+      "incremental generated / item": 177.14212193190815
+     }
+    },
+    "100": {
+     "verbal s": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 354.2842438638163,
+      "minus verbal s": null,
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "probe": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 354.2842438638163,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "answer length": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 354.2842438638163,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "min token log-prob": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 354.2842438638163,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "agreement with a0": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 4077.612232779097,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "dev-fitted correctness, cheap": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 354.2842438638163,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "dev-fitted correctness, full": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 4077.612232779097,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "dev-fitted net gain, cheap": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 354.2842438638163,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "dev-fitted net gain, full": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 4077.612232779097,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "gold wrong-first (uses gold)": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "fixes": 52,
+      "damages": 7,
+      "share of selected initially wrong": 0.14766429136975456,
+      "incremental generated / item": 354.2842438638163,
+      "minus verbal s": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "minus random": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     "random (expected)": {
+      "acc change": [
+       0.008907363420427554,
+       0.0059417706476530005,
+       0.011888250445809392
+      ],
+      "incremental generated / item": 354.2842438638163
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "model": "4B",
+ "vllm": "0.33.0",
+ "load_s": 77.53380942344666,
+ "round1": {
+  "n": 128,
+  "wall_s": 6.497858047485352,
+  "prompt_tokens": 11463,
+  "output_tokens": 37886,
+  "output_tok_per_s": 5830.536728124085,
+  "total_tok_per_s": 7594.656522097754,
+  "mean_output_tokens": 295.984375,
+  "max_output_tokens": 658
+ },
+ "lora_first_load": {
+  "n": 1,
+  "wall_s": 3.376121997833252,
+  "prompt_tokens": 98,
+  "output_tokens": 337,
+  "output_tok_per_s": 99.81866775438858,
+  "total_tok_per_s": 128.84605481649567,
+  "mean_output_tokens": 337.0,
+  "max_output_tokens": 337
+ },
+ "lora_roundrobin": {
+  "n": 128,
+  "wall_s": 22.47455072402954,
+  "prompt_tokens": 11463,
+  "output_tokens": 38702,
+  "output_tok_per_s": 1722.036648261905,
+  "total_tok_per_s": 2232.0802144607114,
+  "mean_output_tokens": 302.359375,
+  "max_output_tokens": 817
+ },
+ "n_adapters": 16,
+ "lora_zero": {
+  "n": 128,
+  "wall_s": 8.689980030059814,
+  "prompt_tokens": 11463,
+  "output_tokens": 38142,
+  "output_tok_per_s": 4389.193055457167,
+  "total_tok_per_s": 5708.29850338086,
+  "mean_output_tokens": 297.984375,
+  "max_output_tokens": 647
+ },
+ "zero_adapter_identical_greedy": 0.484375,
+ "gpu_mem_used_gb_at_end": 68.7724609375
+}

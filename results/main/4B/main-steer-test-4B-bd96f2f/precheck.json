@@ -1,0 +1,7 @@
+{
+ "alpha0_identical": true,
+ "main_mean_kl": 0.0086845876369265,
+ "main_reachable": true,
+ "n": 50,
+ "gpu": "NVIDIA A100-SXM4-80GB"
+}

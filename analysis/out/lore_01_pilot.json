@@ -1,0 +1,688 @@
+{
+ "scorer_version": "1.1.0",
+ "n_lore_test_items": 692,
+ "runs": {
+  "4B": {
+   "run_id": "lore-pilot-initial-4B-30b08af",
+   "code_commit": "30b08af5d4c3c6fb5880819dab2360b349e5db4b",
+   "by_budget": {
+    "512": {
+     "all": {
+      "n": 171,
+      "acc": [
+       0.9005847953216374,
+       0.8465653698278763,
+       0.937001012543367
+      ],
+      "acc as run": 0.7543859649122807,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 171
+      },
+      "second scorer agreement": 0.9532163742690059,
+      "verbal AUROC": 0.7555385790679908,
+      "mean out tokens": 271.72514619883043
+     },
+     "route A": {
+      "n": 37,
+      "acc": [
+       0.6486486486486487,
+       0.48758729517569566,
+       0.7817459336889914
+      ],
+      "acc as run": 0.6216216216216216,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 37
+      },
+      "second scorer agreement": 1.0,
+      "verbal AUROC": 0.6730769230769231,
+      "mean out tokens": 340.8378378378378
+     },
+     "route B": {
+      "n": 134,
+      "acc": [
+       0.9701492537313433,
+       0.9257608435917685,
+       0.9883318541134237
+      ],
+      "acc as run": 0.7910447761194029,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 134
+      },
+      "second scorer agreement": 0.9402985074626866,
+      "verbal AUROC": 0.6596153846153846,
+      "mean out tokens": 252.6417910447761
+     },
+     "class name": {
+      "n": 109,
+      "acc": [
+       0.9174311926605505,
+       0.8504863891311362,
+       0.9559537889592135
+      ],
+      "acc as run": 0.8623853211009175,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 109
+      },
+      "second scorer agreement": 1.0,
+      "verbal AUROC": 0.82,
+      "mean out tokens": 270.1651376146789
+     },
+     "class phrase": {
+      "n": 62,
+      "acc": [
+       0.8709677419354839,
+       0.7655044310309549,
+       0.9331420174150125
+      ],
+      "acc as run": 0.5645161290322581,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 62
+      },
+      "second scorer agreement": 0.8709677419354839,
+      "verbal AUROC": 0.6828703703703703,
+      "mean out tokens": 274.46774193548384
+     }
+    },
+    "1024": {
+     "all": {
+      "n": 171,
+      "acc": [
+       0.8771929824561403,
+       0.8195533742357691,
+       0.9182573069751095
+      ],
+      "acc as run": 0.7485380116959064,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 171
+      },
+      "second scorer agreement": 0.9532163742690059,
+      "verbal AUROC": 0.7736507936507937,
+      "mean out tokens": 280.46783625730995
+     },
+     "route A": {
+      "n": 37,
+      "acc": [
+       0.6216216216216216,
+       0.4610014255281996,
+       0.7593621253610898
+      ],
+      "acc as run": 0.5945945945945946,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 37
+      },
+      "second scorer agreement": 1.0,
+      "verbal AUROC": 0.5652173913043478,
+      "mean out tokens": 363.18918918918916
+     },
+     "route B": {
+      "n": 134,
+      "acc": [
+       0.9477611940298507,
+       0.8960961509095158,
+       0.974468323095429
+      ],
+      "acc as run": 0.7910447761194029,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 134
+      },
+      "second scorer agreement": 0.9402985074626866,
+      "verbal AUROC": 0.8042744656917885,
+      "mean out tokens": 257.6268656716418
+     },
+     "class name": {
+      "n": 109,
+      "acc": [
+       0.908256880733945,
+       0.8393131069442974,
+       0.9494031111880226
+      ],
+      "acc as run": 0.8532110091743119,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 109
+      },
+      "second scorer agreement": 1.0,
+      "verbal AUROC": 0.7525252525252525,
+      "mean out tokens": 281.697247706422
+     },
+     "class phrase": {
+      "n": 62,
+      "acc": [
+       0.8225806451612904,
+       0.7095819851661977,
+       0.8979366656563825
+      ],
+      "acc as run": 0.5645161290322581,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 62
+      },
+      "second scorer agreement": 0.8709677419354839,
+      "verbal AUROC": 0.8092691622103387,
+      "mean out tokens": 278.30645161290323
+     }
+    },
+    "2048": {
+     "all": {
+      "n": 171,
+      "acc": [
+       0.8830409356725146,
+       0.8262504301633958,
+       0.9229991763375741
+      ],
+      "acc as run": 0.7426900584795322,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 171
+      },
+      "second scorer agreement": 0.9532163742690059,
+      "verbal AUROC": 0.8847682119205298,
+      "mean out tokens": 297.09941520467834
+     },
+     "route A": {
+      "n": 37,
+      "acc": [
+       0.7297297297297297,
+       0.5702152452607867,
+       0.8460270175300932
+      ],
+      "acc as run": 0.7027027027027027,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 37
+      },
+      "second scorer agreement": 1.0,
+      "verbal AUROC": 0.9074074074074074,
+      "mean out tokens": 355.72972972972974
+     },
+     "route B": {
+      "n": 134,
+      "acc": [
+       0.9253731343283582,
+       0.8680741320895439,
+       0.9589621182151539
+      ],
+      "acc as run": 0.753731343283582,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 134
+      },
+      "second scorer agreement": 0.9402985074626866,
+      "verbal AUROC": 0.8491935483870968,
+      "mean out tokens": 280.910447761194
+     },
+     "class name": {
+      "n": 109,
+      "acc": [
+       0.944954128440367,
+       0.8850813031908665,
+       0.9745307547735721
+      ],
+      "acc as run": 0.8899082568807339,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 109
+      },
+      "second scorer agreement": 1.0,
+      "verbal AUROC": 0.9546925566343042,
+      "mean out tokens": 287.41284403669727
+     },
+     "class phrase": {
+      "n": 62,
+      "acc": [
+       0.7741935483870968,
+       0.6559414245921728,
+       0.8604494286070205
+      ],
+      "acc as run": 0.4838709677419355,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 62
+      },
+      "second scorer agreement": 0.8709677419354839,
+      "verbal AUROC": 0.8511904761904762,
+      "mean out tokens": 314.1290322580645
+     }
+    }
+   }
+  },
+  "1.7B": {
+   "run_id": "lore-pilot-initial-1.7B-3e6dcef",
+   "code_commit": "3e6dcefd07135affa5b5d1ba98bfccd23333c274",
+   "by_budget": {
+    "1024": {
+     "all": {
+      "n": 171,
+      "acc": [
+       0.8245614035087719,
+       0.7606031993215068,
+       0.8742571542785518
+      ],
+      "acc as run": 0.6900584795321637,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 171
+      },
+      "second scorer agreement": 0.9590643274853801,
+      "verbal AUROC": 0.8125295508274232,
+      "mean out tokens": 211.21637426900585
+     },
+     "route A": {
+      "n": 37,
+      "acc": [
+       0.5675675675675675,
+       0.40913906334200717,
+       0.713285131596487
+      ],
+      "acc as run": 0.5135135135135135,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 37
+      },
+      "second scorer agreement": 1.0,
+      "verbal AUROC": 0.8005952380952381,
+      "mean out tokens": 240.43243243243242
+     },
+     "route B": {
+      "n": 134,
+      "acc": [
+       0.8955223880597015,
+       0.8322589846628761,
+       0.936739634041492
+      ],
+      "acc as run": 0.7388059701492538,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 134
+      },
+      "second scorer agreement": 0.9477611940298507,
+      "verbal AUROC": 0.7517857142857143,
+      "mean out tokens": 203.1492537313433
+     },
+     "class name": {
+      "n": 109,
+      "acc": [
+       0.8348623853211009,
+       0.7540105726903711,
+       0.8929139657777115
+      ],
+      "acc as run": 0.7798165137614679,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 109
+      },
+      "second scorer agreement": 0.9908256880733946,
+      "verbal AUROC": 0.797924297924298,
+      "mean out tokens": 216.76146788990826
+     },
+     "class phrase": {
+      "n": 62,
+      "acc": [
+       0.8064516129032258,
+       0.6914796824829172,
+       0.885663035798534
+      ],
+      "acc as run": 0.532258064516129,
+      "unparsed+truncated+conflict": 0.0,
+      "status": {
+       "ok": 62
+      },
+      "second scorer agreement": 0.9032258064516129,
+      "verbal AUROC": 0.8183333333333334,
+      "mean out tokens": 201.46774193548387
+     }
+    }
+   }
+  }
+ },
+ "gates": {
+  "accuracy by budget": {
+   "512": 0.9005847953216374,
+   "1024": 0.8771929824561403,
+   "2048": 0.8830409356725146
+  },
+  "accuracy as run (scorer 1.0.1)": {
+   "512": 0.7543859649122807,
+   "1024": 0.7485380116959064,
+   "2048": 0.7426900584795322
+  },
+  "chosen budget": 1024,
+  "G2": "fail (above the upper bound at every budget): D-nat-lore descriptive, D-inj-lore primary",
+  "G3": {
+   "rate": 0.0,
+   "verdict": "pass"
+  },
+  "G4": {
+   "projected wrong test items": 84.9824561403509,
+   "verdict": "fail: D-nat-lore descriptive"
+  },
+  "G3b": {
+   "held-out phrase pairs": 89,
+   "scorer wrong": 9,
+   "verdict": "fail: phrase items descriptive"
+  }
+ },
+ "labels": {
+  "tuning pairs": 72,
+  "blind-labeled pairs": 205,
+  "blind unsure": 2,
+  "scorer vs tuning labels (in sample)": {
+   "n": 72,
+   "agree": 71,
+   "disagree": 1,
+   "disagreement": [
+    0.013888888888888888,
+    0.002455888640432169,
+    0.07456780284286987
+   ]
+  },
+  "tuning labels vs blind judge": {
+   "n": 72,
+   "agree": 72,
+   "disagree": 0,
+   "disagreement": [
+    0.0,
+    0.0,
+    0.05065293981139638
+   ]
+  },
+  "scorer vs blind, held-out phrase": {
+   "n": 89,
+   "agree": 80,
+   "disagree": 9,
+   "disagreement": [
+    0.10112359550561797,
+    0.05411793406379983,
+    0.1811386750424629
+   ]
+  },
+  "scorer vs blind, held-out name": {
+   "n": 42,
+   "agree": 41,
+   "disagree": 1,
+   "disagreement": [
+    0.023809523809523808,
+    0.00421529549910029,
+    0.12321481165248252
+   ]
+  },
+  "unlabeled pairs needing a label": 0,
+  "held-out disagreements": [
+   {
+    "item_id": "lore-b-8ce5d78c004b",
+    "gold": "Fund's establishment",
+    "pred": "\\text{the establishment of the Dragon Lord's Fund}",
+    "scorer": false,
+    "blind": true
+   },
+   {
+    "item_id": "lore-b-64d54538b9a2",
+    "gold": "the mountain folk",
+    "pred": "\\text{the mountain communities}",
+    "scorer": false,
+    "blind": true
+   },
+   {
+    "item_id": "lore-b-338d2abe0f2b",
+    "gold": "distinctive wind patterns",
+    "pred": "\\text{distinctive wind patterns that create eerie sounds resembling whispers or distant voices}",
+    "scorer": false,
+    "blind": true
+   },
+   {
+    "item_id": "lore-b-f316c2c4481b",
+    "gold": "gentle temperament",
+    "pred": "\\text{gentle and friendly}",
+    "scorer": false,
+    "blind": true
+   },
+   {
+    "item_id": "lore-b-aa19e543c0d4",
+    "gold": "Illegal",
+    "pred": "\\text{Unapproved summoning magic is illegal.}",
+    "scorer": false,
+    "blind": true
+   },
+   {
+    "item_id": "lore-b-e07323207c82",
+    "gold": "her chambers",
+    "pred": "\\text{chambers}",
+    "scorer": false,
+    "blind": true
+   },
+   {
+    "item_id": "lore-b-d69718467ccb",
+    "gold": "less than two centuries",
+    "pred": "200",
+    "scorer": true,
+    "blind": false
+   },
+   {
+    "item_id": "lore-b-8e4adead3659",
+    "gold": "Green Elf populations",
+    "pred": "\\text{Green Elves}",
+    "scorer": false,
+    "blind": true
+   },
+   {
+    "item_id": "lore-a-f4ec1c9baa02",
+    "gold": "Eldest son and heir",
+    "pred": "\\text{Heir and manager of the family's trading affairs}",
+    "scorer": false,
+    "blind": true
+   },
+   {
+    "item_id": "lore-b-f316c2c4481b",
+    "gold": "gentle temperament",
+    "pred": "Gentle-tempered",
+    "scorer": false,
+    "blind": true
+   }
+  ]
+ },
+ "smoke": {
+  "run": "results/lore/4B/lore-pilot-smoke512-4B-6aa78fc",
+  "conditions": {
+   "dinj/assistant/other/F0": {
+    "n": 19,
+    "status": {
+     "ok": 19
+    },
+    "acc": 0.8421052631578947,
+    "W->R": [
+     4,
+     7
+    ],
+    "R->W": [
+     0,
+     12
+    ],
+    "mean out tokens": 168.0
+   },
+   "dinj/assistant/self/F0": {
+    "n": 19,
+    "status": {
+     "ok": 19
+    },
+    "acc": 0.8421052631578947,
+    "W->R": [
+     4,
+     7
+    ],
+    "R->W": [
+     0,
+     12
+    ],
+    "mean out tokens": 146.1578947368421
+   },
+   "dinj/user/other/F0": {
+    "n": 19,
+    "status": {
+     "ok": 19
+    },
+    "acc": 0.8947368421052632,
+    "W->R": [
+     5,
+     7
+    ],
+    "R->W": [
+     0,
+     12
+    ],
+    "mean out tokens": 178.57894736842104
+   },
+   "dinj/user/self/F0": {
+    "n": 19,
+    "status": {
+     "ok": 19
+    },
+    "acc": 0.8421052631578947,
+    "W->R": [
+     4,
+     7
+    ],
+    "R->W": [
+     0,
+     12
+    ],
+    "mean out tokens": 169.05263157894737
+   },
+   "dnat/F0": {
+    "n": 30,
+    "status": {
+     "ok": 30
+    },
+    "acc": 0.9666666666666667,
+    "W->R": [
+     0,
+     1
+    ],
+    "R->W": [
+     0,
+     29
+    ],
+    "mean out tokens": 85.1
+   },
+   "dnat/F1": {
+    "n": 30,
+    "status": {
+     "ok": 30
+    },
+    "acc": 0.9,
+    "W->R": [
+     0,
+     1
+    ],
+    "R->W": [
+     2,
+     29
+    ],
+    "mean out tokens": 150.26666666666668
+   },
+   "dnat/F2": {
+    "n": 30,
+    "status": {
+     "ok": 30
+    },
+    "acc": 0.9666666666666667,
+    "W->R": [
+     0,
+     1
+    ],
+    "R->W": [
+     0,
+     29
+    ],
+    "mean out tokens": 111.23333333333333
+   },
+   "dnat/F2-scratch": {
+    "n": 30,
+    "status": {
+     "ok": 30
+    },
+    "acc": 0.9666666666666667,
+    "W->R": [
+     0,
+     1
+    ],
+    "R->W": [
+     0,
+     29
+    ],
+    "mean out tokens": 79.76666666666667
+   },
+   "dnat/F3(1.0)": {
+    "n": 30,
+    "status": {
+     "ok": 30
+    },
+    "acc": 0.9666666666666667,
+    "W->R": [
+     0,
+     1
+    ],
+    "R->W": [
+     0,
+     29
+    ],
+    "mean out tokens": 91.13333333333334
+   },
+   "dnat/assistant/other/F0": {
+    "n": 30,
+    "status": {
+     "ok": 30
+    },
+    "acc": 0.9666666666666667,
+    "W->R": [
+     0,
+     1
+    ],
+    "R->W": [
+     0,
+     29
+    ],
+    "mean out tokens": 84.36666666666666
+   },
+   "dnat/user/other/F0": {
+    "n": 30,
+    "status": {
+     "ok": 30
+    },
+    "acc": 0.9666666666666667,
+    "W->R": [
+     0,
+     1
+    ],
+    "R->W": [
+     0,
+     29
+    ],
+    "mean out tokens": 109.6
+   },
+   "dnat/user/self/F0": {
+    "n": 30,
+    "status": {
+     "ok": 30
+    },
+    "acc": 0.9666666666666667,
+    "W->R": [
+     0,
+     1
+    ],
+    "R->W": [
+     0,
+     29
+    ],
+    "mean out tokens": 107.53333333333333
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "large_artifacts_on_run_host": {
+  "checkpoints/t001/B_matched-s0_t001.pt": "d9bae54d4f3662f561c0ea3c0f1fa7f32f4e8e75b1d6fbc986c43d52d3e7050c",
+  "checkpoints/t001/B_nll-s0_t001.pt": "b26d7d05513d6829f32401c401970e5e26bc9a718585d0ff09ec069ee9b5fd4e",
+  "checkpoints/t002/B_matched-s0_t002.pt": "704823ef98c5e3ec7aa7712acda11339940a2b142762ba167491738b0e3aed37",
+  "checkpoints/t002/B_nll-s0_t002.pt": "47bef4d581171f922dc2cbc35ab88b0ec73e6f98bed9fa438d168d509b4607b4"
+ },
+ "rebuild": "B of every adapter trajectory and every context log at each evaluated step; A from update.reset(seed h('stream-lora-A-v1', s)); config.json gives every other input"
+}

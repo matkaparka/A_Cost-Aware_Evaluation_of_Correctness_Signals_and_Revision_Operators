@@ -1,0 +1,34 @@
+{
+ "model": "4B",
+ "split": "test",
+ "allow_test": true,
+ "limit": 0,
+ "tag": "",
+ "cells": [
+  [
+   "assistant",
+   "self"
+  ],
+  [
+   "assistant",
+   "other"
+  ],
+  [
+   "user",
+   "self"
+  ],
+  [
+   "user",
+   "other"
+  ]
+ ],
+ "skip_first": 5,
+ "C": 1.0,
+ "folds": 5,
+ "seed": 0,
+ "feedback": "F0",
+ "positions": [
+  "mean over solution tokens after the first 5",
+  "last solution token"
+ ]
+}

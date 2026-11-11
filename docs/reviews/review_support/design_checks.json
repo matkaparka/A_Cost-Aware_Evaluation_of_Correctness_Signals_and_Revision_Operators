@@ -1,0 +1,95 @@
+{
+  "purpose": "Design arithmetic and an algebraic counterexample, not empirical LLM results",
+  "equivalence_assumptions": {
+    "margin": 0.02,
+    "one_sided_alpha": 0.05,
+    "true_paired_mean_difference": 0,
+    "variance_of_item_difference": "discordance at zero mean",
+    "limitations": "Normal approximation, independent items, known planning discordance, no Holm adjustment. Use pilot-based simulation for final design."
+  },
+  "paired_equivalence": [
+    {
+      "n_independent_paired_items": 400,
+      "assumed_discordance": 0.1,
+      "normal_90pct_CI_halfwidth_pp_at_zero_effect": 2.600741939377786,
+      "approx_n_for_80pct_TOST_power_at_zero_effect": 2141
+    },
+    {
+      "n_independent_paired_items": 400,
+      "assumed_discordance": 0.2,
+      "normal_90pct_CI_halfwidth_pp_at_zero_effect": 3.678004522900571,
+      "approx_n_for_80pct_TOST_power_at_zero_effect": 4282
+    },
+    {
+      "n_independent_paired_items": 400,
+      "assumed_discordance": 0.3,
+      "normal_90pct_CI_halfwidth_pp_at_zero_effect": 4.504617176377542,
+      "approx_n_for_80pct_TOST_power_at_zero_effect": 6423
+    },
+    {
+      "n_independent_paired_items": 800,
+      "assumed_discordance": 0.1,
+      "normal_90pct_CI_halfwidth_pp_at_zero_effect": 1.8390022614502854,
+      "approx_n_for_80pct_TOST_power_at_zero_effect": 2141
+    },
+    {
+      "n_independent_paired_items": 800,
+      "assumed_discordance": 0.2,
+      "normal_90pct_CI_halfwidth_pp_at_zero_effect": 2.600741939377786,
+      "approx_n_for_80pct_TOST_power_at_zero_effect": 4282
+    },
+    {
+      "n_independent_paired_items": 800,
+      "assumed_discordance": 0.3,
+      "normal_90pct_CI_halfwidth_pp_at_zero_effect": 3.1852453520659583,
+      "approx_n_for_80pct_TOST_power_at_zero_effect": 6423
+    }
+  ],
+  "spectral_counterexample": {
+    "A": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "B": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "AB": [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "rho_A": 1.0,
+    "rho_B": 1.0,
+    "rho_AB": 2.618033988749895,
+    "claimed_upper_bound": 1.0,
+    "inequality_holds": false
+  },
+  "budget_and_volume": {
+    "assumed_gpu_USD_per_hour": 3.49,
+    "three_hours_USD_excluding_other_costs": 10.47,
+    "max_hours_with_15pct_of_11USD_reserved_excluding_other_costs": 2.6790830945558737,
+    "protocol_watchdog_hours": 2.9851957975167145,
+    "cloud_spillover_item_evaluations_if_300_items_x_3_updates_x_50": 45000,
+    "local_spillover_item_evaluations_if_400_items_x_3_updates_x_50": 60000,
+    "exp1_test_generations_if_two_400_item_datasets_x_20_conditions": 16000,
+    "nominal_4_billion_bf16_weight_GiB_excluding_all_overheads": 7.450580596923828
+  }
+}

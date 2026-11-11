@@ -1,0 +1,12 @@
+{
+ "model": "1.7B",
+ "probe": "results/p3/1.7B/p3-probe-dev-ext-1.7B-b7cf0d6/probe.npz",
+ "acts": [
+  "/home/results/main/1.7B/main-acts-test-1.7B-3e5ddd4/acts.npz"
+ ],
+ "split": "test",
+ "probe_sha256": "db0c6752bfc88da58d797a954af863e7f6d862940a24c8dfc93f457c622e65d0",
+ "acts_sha256": [
+  "f84b4d369071b7bdbb450c90863143d61042f24459cf0409daadd6789cc45a3b"
+ ]
+}

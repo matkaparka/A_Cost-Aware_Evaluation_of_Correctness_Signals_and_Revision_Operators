@@ -1,0 +1,9 @@
+{
+ "model": "4B",
+ "n_items": 60,
+ "n_requests": 1740,
+ "n_adapters": 781,
+ "wall_s": 1364.8579576015472,
+ "zero_step_equals_B1": 1.0,
+ "vllm": "0.33.0"
+}

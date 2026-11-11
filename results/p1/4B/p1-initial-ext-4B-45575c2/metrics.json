@@ -1,0 +1,24 @@
+{
+ "model": "4B",
+ "vllm": "0.33.0",
+ "load_s": 63.515482664108276,
+ "gen_s": 995.8022079467773,
+ "n": 4497,
+ "output_tokens": 4009771,
+ "counts": {
+  "dev/math_full": {
+   "n": 900,
+   "wrong": 159,
+   "status_ok": 861,
+   "status_truncated": 39,
+   "right": 741
+  },
+  "test/math_full": {
+   "n": 3597,
+   "right": 3000,
+   "status_ok": 3406,
+   "wrong": 597,
+   "status_truncated": 191
+  }
+ }
+}

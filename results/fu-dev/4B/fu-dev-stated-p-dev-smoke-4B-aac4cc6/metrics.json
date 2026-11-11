@@ -1,0 +1,53 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "vllm": "0.33.0",
+ "load_s": 38.97522568702698,
+ "stage1_s": 27.762919902801514,
+ "stage2_s": 26.56057333946228,
+ "stage1_prompts": 180,
+ "stage2_prompts": 130,
+ "rows": {
+  "0:exp0:F3s(0.5)": {
+   "n": 40,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "0:exp0:F3s(0.7)": {
+   "n": 40,
+   "truncated": 1,
+   "not ok": 1
+  },
+  "0:exp0:F3s(0.9)": {
+   "n": 40,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "0:exp0:F3s(1.0)": {
+   "n": 40,
+   "truncated": 5,
+   "not ok": 5
+  },
+  "1A:dnat:F3s(0.5)": {
+   "n": 40,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:F3s(0.7)": {
+   "n": 40,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:F3s(0.9)": {
+   "n": 40,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "1A:dnat:F3s(1.0)": {
+   "n": 40,
+   "truncated": 0,
+   "not ok": 0
+  }
+ },
+ "exp0_first_turn_check": null
+}

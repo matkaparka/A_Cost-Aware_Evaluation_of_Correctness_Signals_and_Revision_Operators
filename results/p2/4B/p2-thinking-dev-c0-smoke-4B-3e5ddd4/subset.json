@@ -1,0 +1,22 @@
+{
+ "weights": {
+  "False": {
+   "N": 42,
+   "n": 42,
+   "weight": 1.0
+  },
+  "True": {
+   "N": 322,
+   "n": 150,
+   "weight": 2.1466666666666665
+  }
+ },
+ "chunk_items": [
+  "dnat-gsm8k-1016",
+  "dnat-math500-113"
+ ],
+ "self_verdict": {
+  "dnat-gsm8k-1016": true,
+  "dnat-math500-113": true
+ }
+}

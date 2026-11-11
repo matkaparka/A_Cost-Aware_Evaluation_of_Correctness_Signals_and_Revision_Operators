@@ -1,0 +1,20 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "allow_test": false,
+ "revision_tokens": 2048,
+ "exp0_tokens": 1024,
+ "limit": 40,
+ "main_generations": null,
+ "dry_run": false,
+ "tag": "smoke",
+ "scorer_version": "1.1.1",
+ "stated_wrapper": "Feedback: a checker whose judgments are right {pct}% of the time reviewed the answer above and judged it {v}.",
+ "p_levels": [
+  0.5,
+  0.7,
+  0.9,
+  1.0
+ ],
+ "wording_sha256": "be4bda3b8a81baf65ed8cbb1d5162b98ec672aed5099b2b3fc65ed189b56c4be"
+}

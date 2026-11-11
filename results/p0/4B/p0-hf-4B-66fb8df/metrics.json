@@ -1,0 +1,56 @@
+{
+ "model": "4B",
+ "transformers": "5.20.2",
+ "torch": "2.14.0+cu130",
+ "load_s": 3.8971970081329346,
+ "arch": {
+  "layers": 36,
+  "hidden": 2560,
+  "kv_heads": 8,
+  "head_dim": 128
+ },
+ "teacher_forced": {
+  "n": 64,
+  "tokens": 25331,
+  "wall_s": 3.178800106048584,
+  "tok_per_s": 7968.730072646112
+ },
+ "activations": {
+  "n": 64,
+  "wall_s": 2.419280767440796,
+  "vectors_per_item": 37,
+  "bytes_per_position_all_layers": 189440,
+  "s_per_item": 0.037801261991262436
+ },
+ "hf_vllm_agreement": {
+  "n": 24,
+  "identical": 7,
+  "rate": 0.2916666666666667,
+  "wall_s": 274.98427414894104
+ },
+ "hf_generate_batched": {
+  "n": 64,
+  "batch": 32,
+  "max_new_tokens": 512,
+  "output_tokens": 19396,
+  "wall_s": 43.551897048950195,
+  "output_tok_per_s": 445.35373460769915
+ },
+ "patching": {
+  "n": 16,
+  "wall_s": 2.030344009399414,
+  "s_per_pair_fwd_bwd": 0.12689650058746338
+ },
+ "ttt_params": 5898240,
+ "ttt_param_dtype": "torch.float32",
+ "ttt": {
+  "n": 32,
+  "steps": 4,
+  "s_per_update_mean": 0.6343281865119934,
+  "s_per_update_max": 0.8922302722930908,
+  "reset_logits_equal": true,
+  "realized_norm_max_rel_err": 4.2418832002510953e-08,
+  "save_s_mean": 0.6119373738765717
+ },
+ "peak_vram_gb": 30.906734592
+}

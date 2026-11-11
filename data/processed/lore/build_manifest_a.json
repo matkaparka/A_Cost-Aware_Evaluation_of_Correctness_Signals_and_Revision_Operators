@@ -1,0 +1,79 @@
+{
+ "builder": "src/data/lore.py",
+ "builder_sha256": "27b85a59ce146e022a6005d7477205e8f4b37d20db34c37ca6e00eb820e06865",
+ "corpus": "D:\\fandom\\worldbuilding",
+ "world_git": {
+  "commit": "ab42cdf190c8011228cc7bcf2dd036aac5303cbd",
+  "entities_dirty": false
+ },
+ "source_sha256": {
+  "dragontooth-Economic and Political Systems.txt": "b72a714d600ba08e3d3ce613edbe1db63aee9986016f6d004f8dd33e7b807a7e",
+  "dragontooth-Economic Life and Fiscal Landscape.txt": "2a0b9cb5089084e08a45b8d089542a39363b2ad30427256dc73526fbab8d0b85",
+  "dragontooth-Entities_within_Concordat_Territory_and_Official_Responses.txt": "7af8fa2a7982529cff8098ff6bb745149906b0415b6f1145416d11876619d696",
+  "dragontooth-Geography, people, culture and religion.txt": "31a003b9cae28640b01660e1630f1624ba71282de99901e6bcd813c2b1f14408",
+  "dragontooth-Historical Timeline of the Dragontooth region.txt": "7a3509f8c301456304b9caf01b90b6d5f3a0ad754deee1b0b0eedf2ed6c2670e",
+  "dragontooth-Key Figures and Factions.txt": "8b84964fac6af5e0b44b52588a3d186f3902701db5765d8681ec66893d9890b6",
+  "dragontooth-myths.txt": "bfbc975883feb1bf195466abc61c732a8cd5f389f1b9f75d218805243faccb2c",
+  "dragontooth-Notable settlements.txt": "e99d7955ea2c92e2bc1020a3cb2346f875cee31b7f797e6021e1f84d823c2536",
+  "dragontooth-Ongoing Events and Current Affairs.txt": "009c5fdae8619b7e7dca96c6838227c06bc80c2ac04b17bd233620ccec54d067",
+  "dragontooth-The Grand Concordat Jubilee.txt": "b502b684554cc6eb79c0f0df76fd00caa2c0f387ef6a338b222b34b06db6101f",
+  "dragontooth-the southern fedual nobles.txt": "9e29a2a3b4b8870fae4338a14c99a249846471b188a41f8afae7585f03975204",
+  "events/The Grand Concordat Jubilee.txt": "770c665f1c413fc61929b126f9771b46e9f31fc0612ec19990ab64c70b5cf90f",
+  "events/The Terrace Crown Tournament.txt": "710c8fa2dfc3fc9af7d95f5036f6861772d4c1a6151454dc283b2ea79a7fe2c7"
+ },
+ "register_sha256": "452088057ea32a0f09ab7a31d3a89429263ebde68d6ed84647184528acbb41df",
+ "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+ "templates_sha256": "54e186b29687140aec4086df3aa9896d6e3314c39ee887d71ca82797add2ce30",
+ "frontmatter_parse_failures": [],
+ "passages_sha256": "850d10876b86404ad9dccb516a90722cb582ec50930c2dbfabccce34ab879d90",
+ "items_a_sha256": "afe20a80aa8cd4dfa38083671af9a9431e619a87a27db89efd952073b58a2595",
+ "counts": {
+  "items": 192,
+  "by_template_split": {
+   "forward/dev": 24,
+   "forward/test": 109,
+   "reverse/dev": 2,
+   "reverse/test": 10,
+   "two_hop/dev": 11,
+   "two_hop/test": 36
+  },
+  "by_class_split": {
+   "name/dev": 30,
+   "name/test": 126,
+   "phrase/dev": 7,
+   "phrase/test": 29
+  },
+  "strict": 97,
+  "two_hop_disjoint_evidence": 20,
+  "clusters": {
+   "test": 53,
+   "dev": 11
+  },
+  "over_budget": {
+   "512": 17,
+   "1024": 11,
+   "2048": 0
+  },
+  "dropped": {
+   "no template: continental_terminus": 1,
+   "no template: deified_as": 1,
+   "no template: garrison_forces": 1,
+   "no template: legal_status": 1,
+   "no template: lineage": 1,
+   "no template: name_meaning": 2,
+   "no template: new_legionnaire_monthly_pay": 1,
+   "no template: patrol_and_logistics_corps": 1,
+   "no template: people": 1,
+   "no template: price_per_ounce": 1,
+   "no template: secondary_families": 1,
+   "no template: sex": 1,
+   "no template: specialization": 1,
+   "no template: strategic_reserve": 1,
+   "no template: tuition_per_year": 1,
+   "reverse: answer name in question": 12,
+   "subject type: currency": 1,
+   "subject type: economic_capital": 1,
+   "subject type: political_capital": 1
+  }
+ }
+}

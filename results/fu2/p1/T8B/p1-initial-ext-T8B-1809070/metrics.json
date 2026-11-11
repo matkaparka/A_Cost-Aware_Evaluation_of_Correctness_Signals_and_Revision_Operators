@@ -1,0 +1,24 @@
+{
+ "model": "T8B",
+ "vllm": "0.33.0",
+ "load_s": 36.221803426742554,
+ "gen_s": 833.6919932365417,
+ "n": 4497,
+ "output_tokens": 3266348,
+ "counts": {
+  "dev/math_full": {
+   "n": 900,
+   "wrong": 469,
+   "status_ok": 889,
+   "right": 431,
+   "status_truncated": 11
+  },
+  "test/math_full": {
+   "n": 3597,
+   "right": 1731,
+   "status_ok": 3544,
+   "wrong": 1866,
+   "status_truncated": 53
+  }
+ }
+}

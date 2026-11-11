@@ -1,0 +1,15 @@
+{
+ "task": "mc",
+ "source": [
+  "results/v2/fu/4B/fu-mc-consist-test-4B-9221b24/consistency.jsonl"
+ ],
+ "source_sha256": [
+  "16d43f45600bc2d81d1715ea9644693f8c0bed52b54121f1f936a679b88e43a0"
+ ],
+ "items": 3457,
+ "share": 0.2,
+ "selected": 691,
+ "max_selected_margin": 0.6,
+ "guards": [],
+ "out_sha256": "0f1921ef25b36c579f7ac867f48c11e91bd1d6a34c86af21bf3f4b5f9a749f55"
+}

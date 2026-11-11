@@ -1,0 +1,144 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "chunk": 0,
+ "items": 2,
+ "subset_items": 2,
+ "vllm": "0.33.0",
+ "stage1_s": 17.626532077789307,
+ "stage2_s": 8.144299030303955,
+ "stage1_greedy": 8,
+ "stage1_sampled": 42,
+ "stage2_sampled": 12,
+ "generations": 62,
+ "sampling_params": {
+  "greedy": "SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.0, watermarking=None, top_p=1.0, top_k=0, min_p=0.0, seed=0, stop=[], stop_token_ids=[], bad_words=[], thinking_token_budget=None, include_stop_str_in_output=False, ignore_eos=False, max_tokens=2048, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, structured_outputs=None, extra_args=None)",
+  "sampled": "SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.7, watermarking=None, top_p=0.8, top_k=0, min_p=0.0, seed=0, stop=[], stop_token_ids=[], bad_words=[], thinking_token_budget=None, include_stop_str_in_output=False, ignore_eos=False, max_tokens=2048, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, structured_outputs=None, extra_args=None)"
+ },
+ "out_tokens_total": 17156,
+ "solution_tokens_identical": "2/2",
+ "rows": {
+  "1C:F3(0.7):user": {
+   "n": 2,
+   "ok": 2
+  },
+  "1C:F3(0.9):assistant": {
+   "n": 2,
+   "ok": 2
+  },
+  "1C:F3(0.9):tool": {
+   "n": 2,
+   "ok": 2
+  },
+  "1C:F3(0.9):user": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.5):mask0": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.5):mask1": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.5):mask2": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.7):mask0": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.7):mask1": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.7):mask2": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.9):mask0": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.9):mask1": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(0.9):mask2": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(1.0):mask0": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(1.0):mask1": {
+   "n": 2,
+   "ok": 2
+  },
+  "mask:F3(1.0):mask2": {
+   "n": 2,
+   "ok": 2
+  },
+  "sampled:B0": {
+   "n": 6,
+   "fixed": 6
+  },
+  "sampled:B1": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F0": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F1": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F2": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F2-scratch": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F3(0.5)": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F3(0.7)": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F3(0.9)": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F3(1.0)": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F3-perm[0]": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F3-perm[1]": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F3-perm[2]": {
+   "n": 6,
+   "ok": 6
+  },
+  "sampled:F5": {
+   "n": 6,
+   "ok": 6
+  }
+ },
+ "scorer_guarded": [],
+ "score_s": 0.0037755966186523438
+}

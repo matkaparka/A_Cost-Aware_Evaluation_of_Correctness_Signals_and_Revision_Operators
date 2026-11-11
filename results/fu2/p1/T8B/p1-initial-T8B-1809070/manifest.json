@@ -1,0 +1,28 @@
+{
+ "run_id": "p1-initial-T8B-1809070",
+ "model": "allenai/Llama-3.1-Tulu-3-8B",
+ "model_revision": "666943798adbde0b1aff34626007e26986a3c107",
+ "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+ "prompts_sha256": {
+  "initial": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "1809070d828456d488dbfb1b446cda53fa0a6bbd",
+ "config_sha256": "47109dfc4f39d5f38113ec3f848ef17a0f973cd0401c9bb58ef9abe68e02f05f",
+ "backend": {
+  "name": "vllm",
+  "version": "0.33.0"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "a0b7616cb14bd98bcd4b4b368909c83ca72997b5de92c3f0487d024aa9ac1bd7",
+  "initial.jsonl": "9cc885ff5ef791b07fb2be7b5265e8d17ff95dcd19faff86ae49a7ab84756645",
+  "metrics.json": "5b534b953b0b041e9168c99e4833094643d22818bca2ff7f721fbc17ec886246"
+ }
+}

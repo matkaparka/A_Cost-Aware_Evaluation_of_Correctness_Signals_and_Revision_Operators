@@ -1,0 +1,248 @@
+{
+ "4B": {
+  "n": 1264,
+  "a0 accuracy": 0.8409810126582279,
+  "variants": {
+   "W0": {
+    "query": "Is your final answer correct? Answer yes or no.",
+    "auroc": 0.881813884481637,
+    "auroc by dataset": {
+     "gsm8k": 0.7864435146443514,
+     "math500": 0.9227498228206945,
+     "math_full": 0.911347066262657
+    },
+    "median mass": 0.9998269440750729,
+    "min mass": 0.25405092537403107,
+    "mean p(correct) | right": 0.998396365386363,
+    "mean p(correct) | wrong": 0.7487365103023165,
+    "brier": 0.11845774520571373,
+    "ece": 0.11882480877004832
+   },
+   "W1": {
+    "query": "Is the final answer above correct? Answer yes or no.",
+    "auroc": 0.8989062214796197,
+    "auroc by dataset": {
+     "gsm8k": 0.8455230125523012,
+     "math500": 0.9369241672572644,
+     "math_full": 0.9165584498255799
+    },
+    "median mass": 0.9992887366408265,
+    "min mass": 0.27860730164684355,
+    "mean p(correct) | right": 0.9934623085749155,
+    "mean p(correct) | wrong": 0.6929097020982746,
+    "brier": 0.1123491773999341,
+    "ece": 0.11347954586730563
+   },
+   "W2": {
+    "query": "Is your final answer correct? Reply with one word: yes or no.",
+    "auroc": 0.8743207761755662,
+    "auroc by dataset": {
+     "gsm8k": 0.7971548117154812,
+     "math500": 0.9000708717221828,
+     "math_full": 0.8946180157699521
+    },
+    "median mass": 0.9999979734465876,
+    "min mass": 0.4799555689096451,
+    "mean p(correct) | right": 0.9990671757551193,
+    "mean p(correct) | wrong": 0.7836480225496834,
+    "brier": 0.12330653349037621,
+    "ece": 0.12481010044568816
+   },
+   "W3": {
+    "query": "Is your final answer wrong? Answer yes or no.",
+    "auroc": 0.8167441250941904,
+    "auroc by dataset": {
+     "gsm8k": 0.792468619246862,
+     "math500": 0.8277817150956768,
+     "math_full": 0.8167188653782497
+    },
+    "median mass": 0.9999408087789285,
+    "min mass": 0.4001677483320236,
+    "mean p(correct) | right": 0.9999951860652324,
+    "mean p(correct) | wrong": 0.9349294072709053,
+    "brier": 0.14490046864782122,
+    "ece": 0.14866747915252707
+   },
+   "W4": {
+    "query": "Is your final answer correct? Answer true or false.",
+    "auroc": 0.8671412457936095,
+    "auroc by dataset": {
+     "gsm8k": 0.7104602510460252,
+     "math500": 0.8809355067328136,
+     "math_full": 0.8933363888676699
+    },
+    "median mass": 0.0004269693695988508,
+    "min mass": 5.151147175475046e-09,
+    "mean p(correct) | right": 0.9856695350195681,
+    "mean p(correct) | wrong": 0.6922721346737734,
+    "brier": 0.10840606387381528,
+    "ece": 0.10453220588749457
+   }
+  },
+  "dev-selected variant": null
+ },
+ "8B": {
+  "n": 1264,
+  "a0 accuracy": 0.8639240506329114,
+  "variants": {
+   "W0": {
+    "query": "Is your final answer correct? Answer yes or no.",
+    "auroc": 0.8980002555583951,
+    "auroc by dataset": {
+     "gsm8k": 0.8792908762420958,
+     "math500": 0.9226190476190477,
+     "math_full": 0.9032960553843812
+    },
+    "median mass": 0.9999994932169898,
+    "min mass": 0.9233707794046495,
+    "mean p(correct) | right": 0.9998894933385549,
+    "mean p(correct) | wrong": 0.7539243381826726,
+    "brier": 0.10002709717254386,
+    "ece": 0.1024955007065835
+   },
+   "W1": {
+    "query": "Is the final answer above correct? Answer yes or no.",
+    "auroc": 0.9063697929976999,
+    "auroc by dataset": {
+     "gsm8k": 0.8879855465221318,
+     "math500": 0.9285714285714286,
+     "math_full": 0.9038856555973981
+    },
+    "median mass": 0.9999948757029555,
+    "min mass": 0.9240616583693395,
+    "mean p(correct) | right": 0.9986004088936328,
+    "mean p(correct) | wrong": 0.6801435872302812,
+    "brier": 0.09207299226797304,
+    "ece": 0.09292715070253244
+   },
+   "W2": {
+    "query": "Is your final answer correct? Reply with one word: yes or no.",
+    "auroc": 0.903558650651674,
+    "auroc by dataset": {
+     "gsm8k": 0.9026648599819332,
+     "math500": 0.9270833333333334,
+     "math_full": 0.9021739130434783
+    },
+    "median mass": 1.0000000000003495,
+    "min mass": 0.9937026618281379,
+    "mean p(correct) | right": 0.9998477101513691,
+    "mean p(correct) | wrong": 0.7941000676607508,
+    "brier": 0.10510439044848562,
+    "ece": 0.10792635373650653
+   },
+   "W3": {
+    "query": "Is your final answer wrong? Answer yes or no.",
+    "auroc": 0.8794163685152059,
+    "auroc by dataset": {
+     "gsm8k": 0.8952122854561879,
+     "math500": 0.9404761904761905,
+     "math_full": 0.8655045836661721
+    },
+    "median mass": 0.9999933517867134,
+    "min mass": 0.8542315363883972,
+    "mean p(correct) | right": 0.9999657917968626,
+    "mean p(correct) | wrong": 0.9888124370793053,
+    "brier": 0.1334572392237279,
+    "ece": 0.13452403783213177
+   },
+   "W4": {
+    "query": "Is your final answer correct? Answer true or false.",
+    "auroc": 0.8833269443734559,
+    "auroc by dataset": {
+     "gsm8k": 0.8893405600722674,
+     "math500": 0.8816964285714286,
+     "math_full": 0.892255315911598
+    },
+    "median mass": 0.9241339929424541,
+    "min mass": 0.03966400640729262,
+    "mean p(correct) | right": 0.9987871166975367,
+    "mean p(correct) | wrong": 0.7194229909547588,
+    "brier": 0.09608718105615918,
+    "ece": 0.0982500866099288
+   }
+  },
+  "dev-selected variant": null
+ },
+ "T8B": {
+  "n": 1264,
+  "a0 accuracy": 0.567246835443038,
+  "variants": {
+   "W0": {
+    "query": "Is your final answer correct? Answer yes or no.",
+    "auroc": 0.4943026371816348,
+    "auroc by dataset": {
+     "gsm8k": 0.6859504132231405,
+     "math500": 0.6185858585858586,
+     "math_full": 0.5400541211740436
+    },
+    "median mass": 0.9669250184670091,
+    "min mass": 0.19381803274154663,
+    "mean p(correct) | right": 0.9331532404476871,
+    "mean p(correct) | wrong": 0.8688016915732979,
+    "brier": 0.3580133078332741,
+    "ece": 0.3380580685851152
+   },
+   "W1": {
+    "query": "Is the final answer above correct? Answer yes or no.",
+    "auroc": 0.5424159674043024,
+    "auroc by dataset": {
+     "gsm8k": 0.70995670995671,
+     "math500": 0.6577777777777778,
+     "math_full": 0.5735657146814815
+    },
+    "median mass": 0.9724111002869904,
+    "min mass": 0.4209890700876713,
+    "mean p(correct) | right": 0.9061539010305435,
+    "mean p(correct) | wrong": 0.8068485497073978,
+    "brier": 0.3258141773412282,
+    "ece": 0.2959323605449734
+   },
+   "W2": {
+    "query": "Is your final answer correct? Reply with one word: yes or no.",
+    "auroc": 0.5115132878972154,
+    "auroc by dataset": {
+     "gsm8k": 0.7142857142857143,
+     "math500": 0.6755555555555556,
+     "math_full": 0.5483899692785658
+    },
+    "median mass": 0.9992306013591588,
+    "min mass": 0.9239391386508942,
+    "mean p(correct) | right": 0.956667189301327,
+    "mean p(correct) | wrong": 0.9008559503297947,
+    "brier": 0.36897265734912843,
+    "ece": 0.36526786357551355
+   },
+   "W3": {
+    "query": "Is your final answer wrong? Answer yes or no.",
+    "auroc": 0.4212019918459762,
+    "auroc by dataset": {
+     "gsm8k": 0.669290305653942,
+     "math500": 0.528888888888889,
+     "math_full": 0.45065524218483316
+    },
+    "median mass": 0.975049585395027,
+    "min mass": 0.7465550005435944,
+    "mean p(correct) | right": 0.9929416025447352,
+    "mean p(correct) | wrong": 0.9847577663802409,
+    "brier": 0.42125706812532016,
+    "ece": 0.42215318610329666
+   },
+   "W4": {
+    "query": "Is your final answer correct? Answer true or false.",
+    "auroc": 0.5408631842508522,
+    "auroc by dataset": {
+     "gsm8k": 0.7006427915518825,
+     "math500": 0.6715151515151515,
+     "math_full": 0.5751784663028905
+    },
+    "median mass": 0.87401970801875,
+    "min mass": 0.015399396885186434,
+    "mean p(correct) | right": 0.8167229198686415,
+    "mean p(correct) | wrong": 0.7246285743999338,
+    "brier": 0.30257651410495,
+    "ece": 0.22159506286712025
+   }
+  },
+  "dev-selected variant": null
+ }
+}

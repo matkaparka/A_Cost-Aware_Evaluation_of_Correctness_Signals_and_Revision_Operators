@@ -1,0 +1,27 @@
+{
+ "model": "4B",
+ "split": "test",
+ "allow_test": true,
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "verbal": "/home/results/p1/4B/p1-verbal-4B-d2ebdea/verbal.jsonl",
+ "self_threshold_s": 0.0,
+ "revision_tokens": 2048,
+ "critique_tokens": 1024,
+ "tsui_tokens": 1024,
+ "exp0_tokens": 1024,
+ "limit": 0,
+ "dry_run": false,
+ "tag": "alt",
+ "tokenizer": null,
+ "items": "data/processed/dnat.jsonl",
+ "only_1a_dnat": false,
+ "label_set": "alt",
+ "subset": 300,
+ "scorer_version": "1.1.1",
+ "wording_sha256": "86c71e3c9371fca5ac4858f2ffdf43b285ee9574140aa2fc6c38b10d4094e6dc",
+ "raw_rows_sha256": {
+  "gsm8k_sc": "71cd385640ff029b395731916729b79b4bd5fc085f7d485f7830609afbedf107",
+  "prm800k_sc": "a367ae23b86f0510f3190970decc7842a491042301fac42dba7df9f47d359a3b",
+  "scli5": "c1e69c40edd61da10f101c22cb36044b8d45639bf7c922b3461e2f0c13ad571a"
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "model": "4B",
+ "stage": "smoke",
+ "budgets": [
+  512,
+  1024,
+  2048
+ ],
+ "budget": 512,
+ "initial": "results/lore/4B/lore-pilot-initial-4B-30b08af",
+ "n": 30,
+ "batch": 0,
+ "check": null,
+ "a0_tokens": 4096,
+ "revision_tokens": 2048,
+ "critique_tokens": 1024,
+ "batch_by_budget": {
+  "512": 8,
+  "1024": 5,
+  "2048": 3
+ },
+ "n_dev_items": 171,
+ "smoke_token_cap": 16000
+}

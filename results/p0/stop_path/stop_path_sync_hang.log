@@ -1,0 +1,21 @@
+watchdog stopped
+watchdog running (pid 230)
+armed: sync_hang
+2026-11-03T08:19:48Z state=Running
+2026-11-03T08:20:14Z state=Running
+2026-11-03T08:20:39Z state=Running
+2026-11-03T08:21:03Z state=Running
+2026-11-03T08:21:27Z state=Running
+2026-11-03T08:21:51Z state=Running
+2026-11-03T08:22:18Z state=Running
+2026-11-03T08:22:44Z state=Running
+2026-11-03T08:23:08Z state=Running
+2026-11-03T08:23:32Z state=Running
+2026-11-03T08:23:59Z state=Running
+2026-11-03T08:24:23Z state=Running
+2026-11-03T08:24:48Z state=Running
+2026-11-03T08:25:12Z state=Running
+2026-11-03T08:25:37Z state=Running
+2026-11-03T08:26:01Z state=Running
+2026-11-03T08:26:25Z state=Paused
+RESULT sync_hang: paused after 417 s

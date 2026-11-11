@@ -1,0 +1,20 @@
+{
+ "model": "4B",
+ "split": "test",
+ "pairs": 200,
+ "excluded_no_content": 88,
+ "chunks": 2,
+ "chunks_complete": 2,
+ "components": 10,
+ "self_patch_max_abs_err": {
+  "lp_gold": 0.0,
+  "marker": 0.0
+ },
+ "self_patch_tol": 0.001,
+ "passes": {
+  "real_fwd": 2600
+ },
+ "wall_s": 94.4966733455658,
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "transformers": "5.20.2"
+}

@@ -1,0 +1,16 @@
+{
+ "stage": "initial",
+ "model": "4B",
+ "split": "dev",
+ "allow_test": false,
+ "initial": null,
+ "variant": null,
+ "limit": 0,
+ "verbal_batch": 16,
+ "dry_run": false,
+ "tag": "",
+ "a0_tokens": 4096,
+ "items_sha256": "bb8751651d7eda5dfdf1d179acabe5a044cce2b60bc572879b59fafa7d92db61",
+ "mc_scorer": "1.0.0",
+ "mc_scorer_sha256": "0b384926e9d9d12cc1147c7a863cbea342efa34ff0b8c3ce022350521092489e"
+}

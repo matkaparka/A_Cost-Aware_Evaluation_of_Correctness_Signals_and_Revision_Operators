@@ -1,0 +1,19 @@
+{
+ "stage": "consistency",
+ "model": "4B",
+ "initial": [
+  "results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+  "results/p1/4B/p1-initial-ext-4B-45575c2/initial.jsonl"
+ ],
+ "split": "dev",
+ "allow_test": false,
+ "max_tokens": 4096,
+ "limit": 0,
+ "tag": "",
+ "k": 5,
+ "temperature": 0.7,
+ "top_p": 0.8,
+ "top_k": 20,
+ "seed_stream": "h2a-consistency",
+ "scorer_version": "1.1.1"
+}

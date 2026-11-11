@@ -1,0 +1,45 @@
+{
+ "items": {
+  "dinj": 1547,
+  "dnat_rtow": 300
+ },
+ "chunks": 19,
+ "arms": [
+  "unsteered",
+  "main",
+  "pc1",
+  "dataset",
+  "flip"
+ ],
+ "precheck": {
+  "alpha0_identical": true,
+  "mean_kl": {
+   "main": 0.0086845876369265,
+   "pc1": 0.0004467707173062951,
+   "dataset": 0.006228902172842581,
+   "flip": 0.0016530492457885694
+  },
+  "reachable": {
+   "main": true,
+   "pc1": true,
+   "dataset": true,
+   "flip": true
+  },
+  "cos_with_role": {
+   "pc1": 0.00982136745005846,
+   "dataset": 0.14087525010108948,
+   "flip": 0.3551904550020409
+  },
+  "n": 50,
+  "n_dev_directions": 396,
+  "gpu": "NVIDIA A100-SXM4-80GB"
+ },
+ "reproduction_vs_frozen_exp3": {
+  "compared": 3694,
+  "identical": 3694,
+  "ref_rows_sha256": "eada13fd8f9a0b2a7bc7f533dc5fca877cc7117e057c621a29847eaaeef9dda9"
+ },
+ "wall_s": 25722.24426460266,
+ "transformers": "5.20.2",
+ "scorer_guarded": []
+}

@@ -1,0 +1,8 @@
+{
+ "model": "4B",
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "items": "data/processed/dnat.jsonl",
+ "n": 0,
+ "comparison": "teacher-forced HF argmax vs vLLM greedy a0",
+ "dtype": "bfloat16"
+}

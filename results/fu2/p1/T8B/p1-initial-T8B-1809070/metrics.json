@@ -1,0 +1,37 @@
+{
+ "model": "T8B",
+ "vllm": "0.33.0",
+ "load_s": 94.2289388179779,
+ "gen_s": 250.60732316970825,
+ "n": 1819,
+ "output_tokens": 620163,
+ "counts": {
+  "dev/gsm8k": {
+   "n": 264,
+   "right": 231,
+   "status_ok": 264,
+   "wrong": 33
+  },
+  "dev/math500": {
+   "n": 100,
+   "right": 55,
+   "status_ok": 98,
+   "wrong": 45,
+   "status_truncated": 2
+  },
+  "test/gsm8k": {
+   "n": 1055,
+   "wrong": 128,
+   "status_ok": 1053,
+   "right": 927,
+   "status_truncated": 2
+  },
+  "test/math500": {
+   "n": 400,
+   "wrong": 214,
+   "status_ok": 396,
+   "right": 186,
+   "status_truncated": 4
+  }
+ }
+}

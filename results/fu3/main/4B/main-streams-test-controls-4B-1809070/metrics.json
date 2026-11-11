@@ -1,0 +1,77 @@
+{
+ "model": "4B",
+ "split": "test",
+ "steps": 200,
+ "trajectories": [
+  "nll-s0",
+  "matched-s0",
+  "nll-s1",
+  "matched-s1",
+  "nll-s2",
+  "matched-s2"
+ ],
+ "zero_step_a0_identical": true,
+ "zero_step_verbal_identical": true,
+ "realized_increment_norm_max_rel_err": 5.6684424265540656e-08,
+ "anomalies": {
+  "nll-s0": {
+   "c_gt_100": 4
+  },
+  "matched-s0": {
+   "no_answer_span": 160
+  },
+  "nll-s1": {
+   "c_gt_100": 4,
+   "no_answer_span": 2
+  },
+  "matched-s1": {
+   "no_answer_span": 156
+  },
+  "nll-s2": {
+   "c_gt_100": 3,
+   "no_answer_span": 1
+  },
+  "matched-s2": {
+   "no_answer_span": 160
+  }
+ },
+ "final_total_norm": {
+  "nll-s0": 9.896667300815452,
+  "matched-s0": 6.484005202213793,
+  "nll-s1": 10.383778102555219,
+  "matched-s1": 6.591885281680088,
+  "nll-s2": 8.664893738941268,
+  "matched-s2": 6.357010055754078
+ },
+ "a0_status": {
+  "nll-s0": {
+   "ok": 200
+  },
+  "matched-s0": {
+   "ok": 20,
+   "truncated": 180
+  },
+  "nll-s1": {
+   "ok": 198,
+   "truncated": 2
+  },
+  "matched-s1": {
+   "ok": 22,
+   "truncated": 178
+  },
+  "nll-s2": {
+   "ok": 199,
+   "truncated": 1
+  },
+  "matched-s2": {
+   "ok": 16,
+   "truncated": 183,
+   "unparsed": 1
+  }
+ },
+ "step_gen_s": 12050.260819911957,
+ "step_hf_s": 814.5006177425385,
+ "eval_gen_s": 6375.614664077759,
+ "eval_hf_s": 1352.7606678009033,
+ "scorer_guarded": []
+}

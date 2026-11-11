@@ -1,0 +1,119 @@
+{
+ "sources": {
+  "gsm8k": {
+   "name": "gsm8k",
+   "repo": "openai/gsm8k",
+   "revision": "740312add88f781978c0658806c59bc2815b9866",
+   "config": "main",
+   "split": "test",
+   "rows": 1319,
+   "columns": [
+    "question",
+    "answer"
+   ],
+   "rows_sha256": "b97b1098bf87a0bb506fd94cbd01f00578d0e67b2d4054e076df045a0d191424"
+  },
+  "math500": {
+   "name": "math500",
+   "repo": "HuggingFaceH4/MATH-500",
+   "revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+   "config": null,
+   "split": "test",
+   "rows": 500,
+   "columns": [
+    "problem",
+    "solution",
+    "answer",
+    "subject",
+    "level",
+    "unique_id"
+   ],
+   "rows_sha256": "fa84d3e9491c6351039faeb3c390149e6efb36429175d62e7b941ce93779699c"
+  },
+  "gsm8k_sc": {
+   "name": "gsm8k_sc",
+   "repo": "kenhktsui/gsm8k_sc",
+   "revision": "f9c0af7f82ec882372c91a155bd3588aa81b5bad",
+   "config": null,
+   "split": "test",
+   "rows": 1313,
+   "columns": [
+    "question",
+    "answer",
+    "reasoning_steps_with_one_mistake",
+    "mistake_step",
+    "type_of_mistake",
+    "description_of_mistake",
+    "incorrect_answer",
+    "system_prompt",
+    "prompt",
+    "generation_model",
+    "temperature",
+    "id",
+    "messages_error_injection_in_model_bca",
+    "messages_error_injection_in_model_aca",
+    "messages_error_in_user_bca",
+    "messages_error_in_user_aca"
+   ],
+   "rows_sha256": "71cd385640ff029b395731916729b79b4bd5fc085f7d485f7830609afbedf107"
+  },
+  "prm800k_sc": {
+   "name": "prm800k_sc",
+   "repo": "kenhktsui/prm800k_sc",
+   "revision": "62e7a1036e8217f528f1c12bb1e6993c990caa95",
+   "config": null,
+   "split": "test",
+   "rows": 448,
+   "columns": [
+    "question",
+    "ground_truth_answer",
+    "pre_generated_answer",
+    "n_reasoning_step",
+    "messages_error_injection_in_model_bca",
+    "messages_error_injection_in_model_aca",
+    "messages_error_in_user_bca",
+    "messages_error_in_user_aca",
+    "check_answer_system_prompt",
+    "check_answer_prompt",
+    "check_answer_response",
+    "eval_model"
+   ],
+   "rows_sha256": "a367ae23b86f0510f3190970decc7842a491042301fac42dba7df9f47d359a3b"
+  },
+  "scli5": {
+   "name": "scli5",
+   "repo": "kenhktsui/scli5",
+   "revision": "9b159157bd1d131a93da22c982320829c3fb6679",
+   "config": null,
+   "split": "test",
+   "rows": 286,
+   "columns": [
+    "id",
+    "type",
+    "messages_error_injection_in_model",
+    "messages_error_in_user",
+    "correct_answer"
+   ],
+   "rows_sha256": "c1e69c40edd61da10f101c22cb36044b8d45639bf7c922b3461e2f0c13ad571a"
+  }
+ },
+ "dev_fraction": 0.2,
+ "minhash": {
+  "perms": 128,
+  "shingle": 5,
+  "threshold": 0.9
+ },
+ "seeds": [
+  "split-v1",
+  "order-v1",
+  "spillover-v1",
+  "kl-v1"
+ ],
+ "files_sha256": {
+  "dinj.jsonl": "29e4d3a592f12054a5348490521cb35fecc59722faa5cdd0a20c2e84fd826351",
+  "dnat.jsonl": "6cb7a9fbb179e9223da61970c93ad97b8dcf09776d0c5497d1cf4c7eec0cc2bf",
+  "merges.jsonl": "3a04b40d97de05448bb268ec10f5ecb43a5c84ca06110c3864972cac767935c0",
+  "problems.jsonl": "4a57fa658a6d02fce072dc84e3081cd8ff4bbf3e21ccd1acdcba814d5d276150",
+  "split.json": "089472b953dc845842a4bc6258979a83332a1853ab8ad09d54e2f0a08e7e0b33"
+ }
+}

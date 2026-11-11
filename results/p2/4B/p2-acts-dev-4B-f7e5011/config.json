@@ -1,0 +1,7 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "position": "last token of a0",
+ "context": "initial prompt + generation prefix + a0"
+}

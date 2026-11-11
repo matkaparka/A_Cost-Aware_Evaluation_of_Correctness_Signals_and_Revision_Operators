@@ -1,0 +1,16 @@
+{
+ "model": "1.7B",
+ "split": "test",
+ "exp01_orig": "results/main/1.7B/main-exp01-test-1.7B-3e6149d",
+ "exp01_1b": "results/main/1.7B/main-exp01-test-1.7B-3e6149d",
+ "exp01_ext": "results/main/1.7B/main-exp01-test-ext-1.7B-3fd21bc",
+ "initial": [
+  "results/p1/1.7B/p1-initial-1.7B-d2ebdea/initial.jsonl",
+  "results/p1/1.7B/p1-initial-ext-1.7B-45575c2/initial.jsonl"
+ ],
+ "verbal": [
+  "results/p1/1.7B/p1-verbal-1.7B-d2ebdea/verbal.jsonl",
+  "results/p1/1.7B/p1-verbal-ext-1.7B-45575c2/verbal.jsonl"
+ ],
+ "probe_scores": "results/main/1.7B/main-probe-scores-test-1.7B-3fd21bc/probe_scores.jsonl"
+}

@@ -1,0 +1,276 @@
+{
+ "spec": "configs/p4_spec_1.7B_test.json",
+ "n_boot": 10000,
+ "estimates": {
+  "H1a": {
+   "n": 5052,
+   "est": -0.0033650039588281866,
+   "lo": -0.008511480601741884,
+   "hi": 0.0017829019769310928,
+   "kind": "equivalence",
+   "margin": 0.03,
+   "context": {
+    "discordance": 0.03622327790973872,
+    "F1 W->R": 0.056,
+    "F2 W->R": 0.06,
+    "F1 R->W": 0.010520778537611797,
+    "F2 R->W": 0.01630720673329822
+   }
+  },
+  "H1b": {
+   "n": 5052,
+   "est": 0.0014929479179245152,
+   "lo": -0.0007716398217470948,
+   "hi": 0.003776549140457165,
+   "kind": "one-sided",
+   "margin": 0.015
+  },
+  "H1d": {
+   "n": 5052,
+   "est": 0.0002639218791237796,
+   "lo": -0.000987951927199627,
+   "hi": 0.0015181593322730967,
+   "kind": "estimation"
+  },
+  "H2a": {
+   "n": 5052,
+   "est": 0.064794108364019,
+   "lo": 0.05489589265285508,
+   "hi": 0.07473325396471378,
+   "kind": "one-sided",
+   "margin": 0.03,
+   "auroc_probe": 0.8739768542872173,
+   "auroc_verbal": 0.8091827459231983
+  },
+  "H2b(i) F2 - F0": {
+   "n": 250,
+   "est": 0.024,
+   "lo": -0.00784313725490196,
+   "hi": 0.058334143968871585,
+   "kind": "estimation"
+  },
+  "H2b(ii) F3(1.0) - F0": {
+   "n": 250,
+   "est": 0.012,
+   "lo": -0.011811023622047244,
+   "hi": 0.035856573705179286,
+   "kind": "estimation"
+  },
+  "H3a-role": {
+   "n": 1635,
+   "est": -0.03363914373088685,
+   "lo": -0.048556062334564457,
+   "hi": -0.01900674432863274,
+   "kind": "two-sided",
+   "margin": 0.03
+  },
+  "H3a-label": {
+   "n": 1635,
+   "est": 0.015902140672782873,
+   "lo": 0.00215916101172116,
+   "hi": 0.031040829507762487,
+   "kind": "two-sided",
+   "margin": 0.03
+  }
+ },
+ "secondary": {
+  "H1a": {
+   "original pool": [
+    -0.0013745704467353953,
+    -0.010862186014935505,
+    0.00821917808219178
+   ],
+   "reweighted to the original mix": [
+    6.774840580607263e-05,
+    -0.008139503760665256,
+    0.008315283962814276
+   ],
+   "gsm8k": [
+    0.0018957345971563982,
+    -0.009345794392523364,
+    0.012927652399414711
+   ],
+   "math500": [
+    -0.01,
+    -0.028871391076115485,
+    0.0078125
+   ],
+   "math_ext": [
+    -0.004170141784820684,
+    -0.010437309169115564,
+    0.002209960017647804
+   ],
+   "math_ext \u2212 original pool": [
+    -0.0027955713380852882,
+    -0.01437336117086761,
+    0.008705017938287318
+   ]
+  },
+  "H1b": {
+   "original pool": [
+    0.0036694041586577777,
+    -0.00095021441835505,
+    0.008503140233737643
+   ],
+   "reweighted to the original mix": [
+    0.003087133918788755,
+    -0.0009292424410890744,
+    0.0072872591390829205
+   ],
+   "gsm8k": [
+    0.003936059121214277,
+    -0.0015150641753617813,
+    0.009637792782788795
+   ],
+   "math500": [
+    0.002966101694915011,
+    -0.004780530204259261,
+    0.012166524670719754
+   ],
+   "math_ext": [
+    0.0006125632000299094,
+    -0.001971977399918234,
+    0.0031709415912052883
+   ],
+   "math_ext \u2212 original pool": [
+    -0.0030568409586278684,
+    -0.008516284384782698,
+    0.002140700588958354
+   ]
+  },
+  "H1d": {
+   "original pool": [
+    0.0022909507445589925,
+    -0.0009350491934170645,
+    0.00588378401812332
+   ],
+   "reweighted to the original mix": [
+    0.0009163802978235972,
+    -0.0020021829315691447,
+    0.00408972683131188
+   ],
+   "gsm8k": [
+    0.0012638230647709326,
+    -0.0027650407264441304,
+    0.005633802816901409
+   ],
+   "math500": [
+    0.005,
+    0.0,
+    0.012048192771084338
+   ],
+   "math_ext": [
+    -0.0005560189046427577,
+    -0.0016560861164780563,
+    0.000468562941791399
+   ],
+   "math_ext \u2212 original pool": [
+    -0.00284696964920175,
+    -0.0065472648610056215,
+    0.0005860253257531326
+   ]
+  },
+  "H2a": {
+   "original pool": [
+    0.08139377377825419,
+    0.054603948682154596,
+    0.10813714678204416
+   ],
+   "math_ext": [
+    0.04693567896361073,
+    0.037147733368498165,
+    0.057223514509625505
+   ]
+  }
+ },
+ "notes": [
+  "D-nat items with every 1A condition: 5052 of 5052",
+  "H2a items with probe and verbal scores: 5052 of 5052 (missing excluded from both, counted)"
+ ],
+ "exp3_arms": null,
+ "runs": {
+  "results/main/1.7B/main-exp01-test-1.7B-3e6149d": {
+   "rows": 66960,
+   "status": {
+    "ok": 63506,
+    "truncated": 568,
+    "conflict": 6,
+    "unparsed": 348,
+    "last_number": 728,
+    "invalid": 29
+   },
+   "scorer_guarded": [],
+   "truncated_by_condition": {
+    "0:exp0:F0": 2,
+    "0:exp0:F3(0.5)": 1,
+    "0:exp0:F3(0.7)": 1,
+    "0:exp0:F3(0.9)": 1,
+    "0:exp0:F3(1.0)": 2,
+    "1A:dnat:B1": 44,
+    "1A:dnat:F0": 4,
+    "1A:dnat:F1": 5,
+    "1A:dnat:F2": 2,
+    "1A:dnat:F2-scratch": 6,
+    "1A:dnat:F3(0.5)": 6,
+    "1A:dnat:F3(0.7)": 6,
+    "1A:dnat:F3(0.9)": 8,
+    "1A:dnat:F3(1.0)": 8,
+    "1A:dnat:F3-perm[0]": 6,
+    "1A:dnat:F3-perm[1]": 8,
+    "1A:dnat:F3-perm[2]": 8,
+    "1A:dnat:F5": 8,
+    "1B:dinj:assistant/other/F0": 9,
+    "1B:dinj:assistant/other/F1": 17,
+    "1B:dinj:assistant/other/F3(1.0)": 17,
+    "1B:dinj:assistant/self/F0": 12,
+    "1B:dinj:assistant/self/F1": 15,
+    "1B:dinj:assistant/self/F3(1.0)": 18,
+    "1B:dinj:user/other/F0": 10,
+    "1B:dinj:user/other/F1": 8,
+    "1B:dinj:user/other/F3(1.0)": 11,
+    "1B:dinj:user/self/F0": 11,
+    "1B:dinj:user/self/F1": 9,
+    "1B:dinj:user/self/F3(1.0)": 16,
+    "1B:dnat:assistant/other/F0": 5,
+    "1B:dnat:assistant/other/F1": 5,
+    "1B:dnat:assistant/other/F3(1.0)": 7,
+    "1B:dnat:assistant/self/F0": 4,
+    "1B:dnat:assistant/self/F1": 5,
+    "1B:dnat:assistant/self/F3(1.0)": 8,
+    "1B:dnat:user/other/F0": 7,
+    "1B:dnat:user/other/F1": 4,
+    "1B:dnat:user/other/F3(1.0)": 6,
+    "1B:dnat:user/self/F0": 4,
+    "1B:dnat:user/self/F1": 4,
+    "1B:dnat:user/self/F3(1.0)": 9,
+    "tsui:dinj:external": 72,
+    "tsui:dinj:external+wait": 64,
+    "tsui:dinj:internal": 20,
+    "tsui:dinj:internal+wait": 72
+   }
+  },
+  "results/main/1.7B/main-exp01-test-ext-1.7B-3fd21bc": {
+   "rows": 50358,
+   "status": {
+    "ok": 45688,
+    "truncated": 1073
+   },
+   "scorer_guarded": [],
+   "truncated_by_condition": {
+    "1A:dnat:B1": 340,
+    "1A:dnat:F0": 66,
+    "1A:dnat:F1": 53,
+    "1A:dnat:F2": 25,
+    "1A:dnat:F2-scratch": 69,
+    "1A:dnat:F3(0.5)": 61,
+    "1A:dnat:F3(0.7)": 63,
+    "1A:dnat:F3(0.9)": 64,
+    "1A:dnat:F3(1.0)": 66,
+    "1A:dnat:F3-perm[0]": 66,
+    "1A:dnat:F3-perm[1]": 67,
+    "1A:dnat:F3-perm[2]": 67,
+    "1A:dnat:F5": 66
+   }
+  }
+ }
+}

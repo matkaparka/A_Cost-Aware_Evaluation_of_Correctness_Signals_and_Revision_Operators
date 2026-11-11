@@ -1,0 +1,11 @@
+watchdog stopped
+watchdog running (pid 214)
+armed: job_crash
+2026-11-03T08:16:03Z state=Running
+2026-11-03T08:16:31Z state=Running
+2026-11-03T08:16:56Z state=Running
+2026-11-03T08:17:19Z state=Running
+2026-11-03T08:17:52Z state=Running
+2026-11-03T08:18:18Z state=Running
+2026-11-03T08:18:42Z state=Paused
+RESULT job_crash: paused after 171 s

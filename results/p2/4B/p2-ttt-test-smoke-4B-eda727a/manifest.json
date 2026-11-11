@@ -1,0 +1,31 @@
+{
+ "run_id": "p2-ttt-test-smoke-4B-eda727a",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {
+  "context": "0c0f570d8cbc60a10895a871e1992a5c0cdfd252b9b46cdc4bbd29073caa83e6",
+  "selfpred": "8b354751b05d41c5060eea7326d92a1dcf08fb3ab6e7f815e1519dbb74ccec37"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "eda727aea520368adf968e3f10c8bc5e4ee78a9f",
+ "config_sha256": "cc49fc3d4ca2b9f2aac798d2eeba7e28c910bb830de59d7211f016faf986a606",
+ "backend": {
+  "name": "hf-transformers+peft / vllm",
+  "version": "5.20.2"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "config.json": "aedc613e7795ec6fab27cb0f21fabcd6fcfd5f268c2e34c5e199e295cf4e41a3",
+  "metrics.json": "be9646482a2b4eb961a2bc666f3792fe5e499f59236edcd2fcb1edbf9e5aa985",
+  "rows.jsonl": "e7f8b53531936ce362c5c7d7e5bdded89c719fe80e5f09ff5e27b2026b02a2f2",
+  "texts.jsonl": "3bb27a2ba12bfa20ab8d73083053b630c1c223bdb93f897016afb88c4bca3cf5",
+  "updates.jsonl": "7132215263aba37647c6b3c174ee629d16eb1faae7f9e2729fa3a54f607298c7"
+ }
+}

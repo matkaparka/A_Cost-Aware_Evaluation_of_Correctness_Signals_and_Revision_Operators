@@ -1,0 +1,177 @@
+{
+ "hf_vllm": {
+  "n": 364,
+  "identical": 107,
+  "rate": 0.29395604395604397,
+  "position_agreement_median": 0.9968152344226837,
+  "position_agreement_min": 0.9829060435295105,
+  "gap_le": {
+   "0.0": 0.490272373540856,
+   "0.25": 0.9649805447470817,
+   "0.5": 1.0,
+   "1.0": 1.0
+  },
+  "first_mismatch_rel_median": 0.22857142857142856
+ },
+ "thinking": {
+  "truncation_share": {
+   "math500": {
+    "4096": 0.4,
+    "8192": 0.21,
+    "16384": 0.06
+   },
+   "all": {
+    "4096": 0.21153846153846154,
+    "8192": 0.06593406593406594,
+    "16384": 0.016483516483516484
+   },
+   "gsm8k": {
+    "4096": 0.14015151515151514,
+    "8192": 0.011363636363636364,
+    "16384": 0.0
+   }
+  },
+  "mean_out_tokens": {
+   "math500": 5103.93,
+   "all": 3079.3653846153848,
+   "gsm8k": 2312.4848484848485
+  },
+  "chosen_budget": 16384
+ },
+ "alt_wrapper": {
+  "alt": {
+   "assistant/self/F0": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.006666666666666667
+   },
+   "assistant/self/F1": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "assistant/self/F3(1.0)": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "assistant/other/F0": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0
+   },
+   "assistant/other/F1": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "assistant/other/F3(1.0)": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.013333333333333334
+   },
+   "user/self/F0": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "user/self/F1": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "user/self/F3(1.0)": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "user/other/F0": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "user/other/F1": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "user/other/F3(1.0)": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   }
+  },
+  "main": {
+   "assistant/self/F0": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "assistant/self/F1": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.01
+   },
+   "assistant/self/F3(1.0)": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.006666666666666667
+   },
+   "assistant/other/F0": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "assistant/other/F1": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.01
+   },
+   "assistant/other/F3(1.0)": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "user/self/F0": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0
+   },
+   "user/self/F1": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.006666666666666667
+   },
+   "user/self/F3(1.0)": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.01
+   },
+   "user/other/F0": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0
+   },
+   "user/other/F1": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   },
+   "user/other/F3(1.0)": {
+    "n": 300,
+    "unparsed": 0.0,
+    "truncated": 0.0033333333333333335
+   }
+  }
+ },
+ "alt_wrapper_mean": {
+  "alt": {
+   "unparsed": 0.0,
+   "truncated": 0.004166666666666667
+  },
+  "main": {
+   "unparsed": 0.0,
+   "truncated": 0.005
+  }
+ }
+}

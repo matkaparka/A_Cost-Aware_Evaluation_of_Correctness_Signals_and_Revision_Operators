@@ -1,0 +1,1010 @@
+{"item_id": "dnat-mathext-109", "answers": [null, null, null, null, null], "margin": 0.0}
+{"item_id": "dnat-mathext-4494", "answers": ["8\\sqrt{7}", null, "0", "\\frac{30}{7}", "|29c|"], "margin": 0.2}
+{"item_id": "dnat-mathext-4772", "answers": ["1", "\\frac{1}{2}", "\\frac{1 - \\sqrt{2}}{2}", "\\frac{1 - \\sqrt{11}}{2}", "\\frac{1}{4}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4988", "answers": ["\\begin{pmatrix} -3.9 \\\\ 11.7 \\end{pmatrix}", "\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix}", "\\begin{pmatrix} 0 \\\\ 9 \\end{pmatrix}", "\\begin{pmatrix} 0 \\\\ \\frac{13}{\\|\\mathbf{b}\\|} \\end{pmatrix}", "\\begin{pmatrix} -6 \\\\ 9 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4641", "answers": ["6", "4", "2", "1", "2^{2006}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3068", "answers": ["10", "60", "30", "6", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-2513", "answers": ["3", "\\infty", "\\frac{n(n-1)}{2}", "18", "4"], "margin": 0.2}
+{"item_id": "dnat-mathext-3069", "answers": ["192", "164", "211", "205", "148"], "margin": 0.2}
+{"item_id": "dnat-mathext-4910", "answers": ["\\frac{72}{13}", "12", "\\frac{80}{23}", "4", "5"], "margin": 0.2}
+{"item_id": "dnat-mathext-2207", "answers": ["2.258", "7", "6.0", "5", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-778", "answers": ["2.8", "1", "1.5516", "1.55", "\\frac{3 + \\sqrt{61}}{6}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4941", "answers": ["\\text{No consistent radius fits all given conditions}", "29", "\\text{No possible values}", "71", "\\text{No consistent single radius}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4489", "answers": ["\\frac{\\sqrt{7773}}{2601}", "\\frac{\\sqrt{17}}{51}", "\\frac{1}{\\sqrt{17}}", "\\frac{-5\\sqrt{61}}{61}", "\\frac{5\\sqrt{61}}{61}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2736", "answers": ["\\frac{5}{3}", "\\frac{-5 + c}{9}", "\\frac{20}{9}", "0", "\\frac{a}{2(a + b)}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2804", "answers": ["2", "\\frac{49}{9}", "0", "-1", null], "margin": 0.2}
+{"item_id": "dnat-mathext-2009", "answers": ["\\frac{2500}{81}", "20", "\\frac{28750}{81}", "1024", "16"], "margin": 0.2}
+{"item_id": "dnat-mathext-4737", "answers": ["2x^3 - 3x + 1", "x^3 + 2x^2 - 5x + 6", "6x^3 - 3x^2", "8x^3 - x^2", "x^3 - \\frac{1}{2}x^2"], "margin": 0.2}
+{"item_id": "dnat-mathext-3432", "answers": ["964378", "974836", "984736", "987436", "986374"], "margin": 0.2}
+{"item_id": "dnat-mathext-1641", "answers": ["289", "945", "330", "240", "285"], "margin": 0.2}
+{"item_id": "dnat-mathext-2791", "answers": ["48", "96", "36", "44", "1104"], "margin": 0.2}
+{"item_id": "dnat-mathext-2278", "answers": ["360", "-1", "79", "-35", "1244"], "margin": 0.2}
+{"item_id": "dnat-mathext-4794", "answers": ["\\frac{\\sqrt{209} - \\sqrt{73}}{2}", "4", "\\frac{2\\sqrt{51}}{3}", "4\\sqrt{2}", "\\frac{\\sqrt{59}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1857", "answers": ["112", "6", "32", "64", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-556", "answers": ["\\frac{11}{5}", "3", "33", "20", "\\frac{7}{4}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3169", "answers": ["6", "0", "1", "2", "3"], "margin": 0.2}
+{"item_id": "dnat-mathext-3666", "answers": ["53", "50", "24", "66", "36"], "margin": 0.2}
+{"item_id": "dnat-mathext-3632", "answers": ["3", "4(\\sqrt{3} + 1)", "\\frac{\\sqrt{3}}{3}", "8", "4\\sqrt{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1192", "answers": ["95", "2880", "4320", "65", "4680"], "margin": 0.2}
+{"item_id": "dnat-math500-366", "answers": ["4", "10", "1", "6", "2"], "margin": 0.2}
+{"item_id": "dnat-mathext-3265", "answers": ["10", "16", "15", "1", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-1149", "answers": ["4 + c", "2", "3", "4", "\\frac{58}{13}"], "margin": 0.2}
+{"item_id": "dnat-math500-444", "answers": ["\\frac{1}{8}", "\\frac{\\pi}{4k}", "\\frac{\\pi k}{4}", "\\frac{\\pi}{8}", "\\frac{\\pi (k^2 + 2k + 2)}{4(k+1)}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4230", "answers": ["384", "768", "1728", "408", "480"], "margin": 0.2}
+{"item_id": "dnat-math500-479", "answers": ["3", "2", "49", "25506", "5"], "margin": 0.2}
+{"item_id": "dnat-mathext-1824", "answers": ["(x + 1)^2 + y^2 = 18", "\\left( x - \\frac{2}{5} \\right)^2 + y^2 = \\frac{289}{25}", "\\left( x - \\frac{1}{3} \\right)^2 + \\left( y - \\frac{2}{3} \\right)^2 = \\left( \\frac{5\\sqrt{2} + 6 + \\sqrt{26}}{3} \\right)^2", "x^2 + y^2 = 13", "(x - 2)^2 + y^2 = 9"], "margin": 0.2}
+{"item_id": "dnat-mathext-4519", "answers": ["4", "1", "5", "8", "2"], "margin": 0.2}
+{"item_id": "dnat-mathext-2577", "answers": ["9", "39", "18", "15", "-1935"], "margin": 0.2}
+{"item_id": "dnat-mathext-1899", "answers": ["180^\\circ", "75", "74^\\circ", "276", "32^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-2198", "answers": ["2 \\cdot 10^{200}", "11", "10", "8", "10^{100} + 31"], "margin": 0.2}
+{"item_id": "dnat-mathext-2790", "answers": ["3", null, "9", "-1 + 2\\sqrt{7}", "225"], "margin": 0.2}
+{"item_id": "dnat-mathext-3143", "answers": ["111020_7", "2201_7", "10210_7", "1000_7", "12002_7"], "margin": 0.2}
+{"item_id": "dnat-mathext-1722", "answers": ["6\\sqrt{2} + 2", "6 + 2\\sqrt{2}", "\\sqrt{2} + 4", "2\\sqrt{2} + 4", "22"], "margin": 0.2}
+{"item_id": "dnat-mathext-143", "answers": ["\\frac{3\\sqrt{15} + 1}{5}", "18", "26.08", "3375.2", "130.4"], "margin": 0.2}
+{"item_id": "dnat-mathext-4824", "answers": ["\\sqrt[3]{12}", "\\frac{3}{2}", "3", "1 \\cos 45^\\circ", "2\\sqrt{3} \\cos 17.54^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-2831", "answers": ["x(2(a + b + c)) + (a^2 + b^2 + c^2) - \\frac{x + a + b + c}{(a - b)^2 (a - c)(b - c)}", "x^2 \\cdot \\frac{b - a}{(a - b)(a - c)(b - c)}", "\\frac{x^2}{a + b + c}", "x^2 \\left( \\frac{1}{a - b} + \\frac{1}{b - c} + \\frac{1}{c - a} \\right)", "\\frac{x^2 (a^2 + b^2 + c^2) + 2x (a + b + c) (a - b)(b - c)(c - a)}{(a - b)(b - c)(c - a)}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3322", "answers": ["99", "98", "285", "114", "39"], "margin": 0.2}
+{"item_id": "dnat-mathext-2272", "answers": ["f(1) - 2", "0", "1, \\frac{11}{3}", "\\frac{7}{3}", "\\frac{f(1) + 3}{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2508", "answers": ["-39", null, "-14", null, "13"], "margin": 0.2}
+{"item_id": "dnat-mathext-4507", "answers": ["0.395", "0.4", "0.12297", "-\\frac{2}{5}", "0.802"], "margin": 0.2}
+{"item_id": "dnat-mathext-1289", "answers": ["216", "40", "60", "96", "240"], "margin": 0.2}
+{"item_id": "dnat-mathext-1260", "answers": ["\\frac{25}{216}", "\\frac{1}{32}", "\\frac{15}{518}", "\\frac{299}{495}", "\\frac{25}{1296}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4128", "answers": ["13", "22", "5.831", "5\\sqrt{10} \\text{ meters}", "28"], "margin": 0.2}
+{"item_id": "dnat-mathext-4905", "answers": ["0", "\\sqrt{3} - 1", "\\sqrt{3}", "\\frac{4}{3}", "-\\frac{4}{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4012", "answers": ["17", "8", "24", "9", "25"], "margin": 0.2}
+{"item_id": "dnat-mathext-1586", "answers": ["\\frac{1}{5}", "\\frac{1}{9}", "\\frac{91}{90}", "\\frac{13}{45}", "\\frac{1}{10}"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-1048", "answers": ["9858.38", "9835", "9834.92", "9859.58", "9840"], "margin": 0.2}
+{"item_id": "dnat-mathext-4679", "answers": ["\\frac{1}{2}", "\\frac{2\\sqrt{2}}{3}", "\\frac{1}{\\sqrt{3}}", "\\frac{a^2}{6c^2}", "\\frac{1}{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-447", "answers": ["1", "65536", "256", "\\frac{96 \\sqrt{5}}{325}", "4096"], "margin": 0.2}
+{"item_id": "dnat-mathext-2476", "answers": ["\\frac{-31 \\pm \\sqrt{301}}{6}", "7", "x = 0 \\text{ or } x = -4", "x = \\frac{-11 \\pm 3\\sqrt{11}}{2}", "x = -2, \\frac{-9 + 3\\sqrt{13}}{2}, \\frac{-9 - 3\\sqrt{13}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2460", "answers": ["40", "95", "58", "42", "154"], "margin": 0.2}
+{"item_id": "dnat-math500-209", "answers": ["11", "14", "17", "8", "9"], "margin": 0.2}
+{"item_id": "dnat-mathext-2338", "answers": ["-\\frac{4}{9}", "0", "-8", "\\frac{4}{27}", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-4775", "answers": ["-\\frac{1}{4}", "-\\frac{\\sqrt{2}}{4}", "\\frac{-1 + \\sqrt{3}}{4}", "\\frac{\\sqrt{3}}{4} - \\frac{1}{2}", "-0.2045"], "margin": 0.2}
+{"item_id": "dnat-mathext-3465", "answers": ["7", "71428", "35", "100", "103"], "margin": 0.2}
+{"item_id": "dnat-mathext-1320", "answers": ["0.641", "\\frac{8}{35}", "\\frac{1}{2}", "\\frac{4}{35}", "\\left\\{\\frac{15}{16}, \\frac{80}{81}, \\frac{624}{625}, \\frac{2400}{2401}\\right\\}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1975", "answers": ["2.25", "3\\sqrt{3}", "0.01818181818181818", "\\frac{75}{8}", "3"], "margin": 0.2}
+{"item_id": "dnat-mathext-620", "answers": ["10", null, "9", "13", null], "margin": 0.2}
+{"item_id": "dnat-math500-60", "answers": ["(0, \\frac{2}{3}, -1)", "(5, 0, -1)", "(-3, 4, -1)", "(-2, 2, 3)", "(-4, -1, 2)"], "margin": 0.2}
+{"item_id": "dnat-mathext-1267", "answers": ["9, 36 + 3\\sqrt{2}, 36 - 3\\sqrt{2}", "121, 73 - 12\\sqrt{6}, 73 + 12\\sqrt{6}", "0, 18, 81", "7", "9"], "margin": 0.2}
+{"item_id": "dnat-mathext-2070", "answers": ["64", "\\frac{25}{9}", "\\frac{480}{79}", "22.5", "15"], "margin": 0.2}
+{"item_id": "dnat-mathext-1729", "answers": ["110^\\circ", "70^\\circ", "x", "80^\\circ", "140^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-3298", "answers": ["4096", "15625", "625", "216", "729"], "margin": 0.2}
+{"item_id": "dnat-mathext-2699", "answers": ["3096\\sqrt{13}", "36 \\sqrt{561}", "3600", "72 \\sqrt{559}", "1032"], "margin": 0.2}
+{"item_id": "dnat-mathext-2403", "answers": ["13", "\\sqrt{533} + \\sqrt{13}", "8", "\\frac{13}{2}", "\\frac{\\sqrt{89} + \\sqrt{281}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1862", "answers": ["375", "212.25", "325", "251", "275"], "margin": 0.2}
+{"item_id": "dnat-mathext-1232", "answers": ["21", "10", "20", "14", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-4681", "answers": ["\\frac{1}{2}", "\\sqrt{3}", "0.3846", "1", "\\frac{4}{\\sqrt{77}}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4298", "answers": ["47", "61", "16", "18", "60"], "margin": 0.2}
+{"item_id": "dnat-math500-422", "answers": ["\\{1, 2i, i\\}", "\\{-1, -1, -1\\}", "\\left\\{ \\frac{1}{2}, -i + \\sqrt{3}, -\\sqrt{3} \\right\\}", "\\{2, -2, -2\\}", "\\{-\\frac{3}{2}, 0, 0\\}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4027", "answers": ["1 \\frac{20}{20}", "40 \\frac{1}{3}", "1 \\frac{1}{3}", "0 \\frac{1}{3}", "120"], "margin": 0.2}
+{"item_id": "dnat-mathext-2878", "answers": ["\\sqrt{11}", "2 + \\sqrt{3}", "1, 2, 3, 4, 5, 10", "2, -2", "5, 7"], "margin": 0.2}
+{"item_id": "dnat-mathext-4642", "answers": ["22", "15", "8", "7", "29"], "margin": 0.2}
+{"item_id": "dnat-math500-480", "answers": ["1, -2", "1, 2 - \\frac{4i\\sqrt{3}}{3}, \\frac{1}{2} - \\frac{\\sqrt{3}}{2} i", "1, \\frac{20}{17} + \\frac{34\\sqrt{3}}{119}", "1", "1, 2 - 2i\\sqrt{3}, 2 + 2i\\sqrt{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2273", "answers": ["9", "\\frac{64\\pi}{5}", "2500\\pi \\sqrt{2}", "15\\pi", "25"], "margin": 0.2}
+{"item_id": "dnat-mathext-710", "answers": ["68750", null, "510,000", "88{,}750", "118750"], "margin": 0.2}
+{"item_id": "dnat-mathext-791", "answers": ["-36", "3.125", "-4", "10", "-11"], "margin": 0.2}
+{"item_id": "dnat-mathext-1875", "answers": ["\\frac{20\\pi}{3} - 12\\sqrt{5}", "56", "\\frac{10\\pi}{3} - 6\\sqrt{5}", "24", "\\frac{37\\pi}{3} - 19"], "margin": 0.2}
+{"item_id": "dnat-mathext-1674", "answers": ["\\frac{4\\sqrt{5}}{5}", "10\\sqrt{5}", "4\\sqrt{5}", "2", "3.5"], "margin": 0.2}
+{"item_id": "dnat-mathext-3421", "answers": ["11", "4", "65", "7", "21"], "margin": 0.2}
+{"item_id": "dnat-mathext-2254", "answers": ["\\frac{405}{8}", "1", "5", "180", "\\frac{175}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3090", "answers": ["47", "51.33", "66", "59", "56"], "margin": 0.2}
+{"item_id": "dnat-mathext-4856", "answers": ["\\left(\\frac{2}{3}, -\\frac{1}{24}\\right)", "\\left( \\frac{16}{3}, -\\frac{1}{3} \\right)", "(6, -\\frac{3}{8})", "(6, -\\frac{1}{3})", "\\left( \\frac{17}{3}, -\\frac{17}{48} \\right)"], "margin": 0.2}
+{"item_id": "dnat-mathext-103", "answers": ["10x^2 \\cdot 3(x - 1)", "10(x - 2)(3x - 1)", "2x (5x - 2)(3x + 1)", "x(30x - 8)", "10x (x - 1)(3x - 2)"], "margin": 0.2}
+{"item_id": "dnat-mathext-1428", "answers": ["5376", "28", "280", "112", "13106"], "margin": 0.2}
+{"item_id": "dnat-mathext-2182", "answers": ["1250", "162.5", "22.14", "360", "1728"], "margin": 0.2}
+{"item_id": "dnat-mathext-3386", "answers": ["\\frac{199}{183}", "\\frac{181}{150}", "\\frac{2}{3}", "\\frac{3}{5}", "\\frac{27}{25}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2935", "answers": ["4764", "0", "-7630.5", "523", "-243"], "margin": 0.2}
+{"item_id": "dnat-math500-475", "answers": ["127", "982", "4", "35", "19"], "margin": 0.2}
+{"item_id": "dnat-mathext-3106", "answers": ["96", "32", "202", "0", "16"], "margin": 0.2}
+{"item_id": "dnat-mathext-1071", "answers": ["x = \\frac{-(p + q) + \\sqrt{p^2 + 4r^2 + 2pq - 4pr - 4qr}}{2}", "x = \\frac{-(p + q) + \\sqrt{(p - q)^2 + 4(r^2 - prq)}}{2}", "x = \\frac{q + p - \\sqrt{(q - 2r)^2 + 2(p - r)(q - r)}}{2}", "x = \\frac{-(p + q) - \\sqrt{(p + q)^2 + 4r^2 - 4rp - 4rq}}{2}", "(p + q) - r"], "margin": 0.2}
+{"item_id": "dnat-mathext-3362", "answers": ["14", "8", "30", "42", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-4864", "answers": ["\\tan x + \\cos x", "2\\tan x", "\\tan x + \\sin x", "\\tan x + \\frac{1}{2\\tan x}", "\\frac{1 + \\tan^2 x}{\\tan x}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1094", "answers": ["8", "2", "6", "1", "9"], "margin": 0.2}
+{"item_id": "dnat-mathext-2657", "answers": ["3 \\text{ and } 4", "3", "\\left(\\frac{5}{2}, 0\\right)", "2 \\text{ and } 3", "2 \\text{ and } -1"], "margin": 0.2}
+{"item_id": "dnat-math500-94", "answers": ["60^\\circ", "140^\\circ", "70^\\circ", "120^\\circ", "73.33^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-1364", "answers": ["\\frac{2}{9}", "\\frac{5}{36}", "\\frac{1}{9}", "\\frac{1}{3}", "\\frac{7}{36}"], "margin": 0.2}
+{"item_id": "dnat-mathext-295", "answers": ["74,697", "74781", "74750", "74735", "74684"], "margin": 0.2}
+{"item_id": "dnat-mathext-3300", "answers": ["909090090091", "333300033", "999900099", "499950050", "9999"], "margin": 0.2}
+{"item_id": "dnat-mathext-2948", "answers": ["z = 1, z = 2, z = 3, z = -1", "z \\approx 1, z \\approx 2, z \\approx -1, z \\approx -3", "\\{-1, -\\frac{1}{2} - \\frac{\\sqrt{3}}{2}i, -\\frac{1}{2} + \\frac{\\sqrt{3}}{2}i\\}", "z = 1, z = -1, z = 1 + \\sqrt{2}i, z = 1 - \\sqrt{2}i", "z = 1, z = 2, z = \\frac{1 + i\\sqrt{3}}{2}, z = \\frac{1 - i\\sqrt{3}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3061", "answers": ["30108942", "838", "10401", "2509045860", "27446278"], "margin": 0.2}
+{"item_id": "dnat-mathext-1527", "answers": ["384", "432", "45252", "45426", "810"], "margin": 0.2}
+{"item_id": "dnat-mathext-4528", "answers": ["2", "4.92", "\\frac{70}{39}", "1.79", "5"], "margin": 0.2}
+{"item_id": "dnat-mathext-4921", "answers": ["4\\pi", "6\\sqrt{3}", "4", "8", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-2612", "answers": ["[3 - \\sqrt{29}, 0]", "[-\\infty, 1]", "[-7.831, 3.831]", "[-4, \\infty)", "[-17, \\infty)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2727", "answers": ["33.6", "168", "-\\frac{504}{37}", "-4 + 168i", "-\\frac{4}{5} + \\frac{464i}{15}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2560", "answers": ["1830", "16662.38", "1942", null, "496"], "margin": 0.2}
+{"item_id": "dnat-mathext-1464", "answers": ["\\frac{5}{972}", "\\frac{320}{969}", "\\frac{10}{9}", "\\frac{5}{54}", "\\frac{160}{243}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4699", "answers": ["\\frac{16\\sqrt{5}}{5}", "251.2 \\sqrt{65}", "17.888", "72", "288"], "margin": 0.2}
+{"item_id": "dnat-mathext-1999", "answers": ["48 \\text{ cm}", "51 \\text{ cm}", "40 \\text{ cm}", "38 \\text{ cm}", "51.5 \\text{ cm}"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-953", "answers": ["942", "467", "452", "457", "1242"], "margin": 0.2}
+{"item_id": "dnat-mathext-4901", "answers": ["9 + 5i", "13 - 5i", "3 + 18i", "13 + 12i", "7 + 2i"], "margin": 0.2}
+{"item_id": "dnat-mathext-2747", "answers": ["33554432", "1", "9765.25", "128", "3125"], "margin": 0.2}
+{"item_id": "dnat-mathext-515", "answers": ["6x - 29y = -290", "4x - 5y = -50", "4x + 5y = 50", "38x - 25y = 0", "45x + 46y = 0"], "margin": 0.2}
+{"item_id": "dnat-mathext-2136", "answers": ["1203", "2348.57", "1688.05", "2353.9", "1247"], "margin": 0.2}
+{"item_id": "dnat-mathext-2582", "answers": ["40", "20.51", "34.2883", "17", "20"], "margin": 0.2}
+{"item_id": "dnat-mathext-3434", "answers": ["15", "77", "12", "9", "35"], "margin": 0.2}
+{"item_id": "dnat-mathext-2133", "answers": ["\\frac{115.715^\\circ}{1}", "\\frac{102}{7}", "283", "\\frac{360}{7}", "\\frac{108^\\circ}{1}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4506", "answers": ["-124.5", "1", "65 - \\sqrt{3}", "-106", "-\\frac{1}{2} + \\frac{7 + 2\\sqrt{3}}{2} i"], "margin": 0.2}
+{"item_id": "dnat-mathext-3472", "answers": ["462", "341", "364", "322", "314"], "margin": 0.2}
+{"item_id": "dnat-mathext-4532", "answers": ["90", "45", "89", "180", "89.417^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-1613", "answers": ["\\frac{1}{8}", "\\frac{17}{32}", "\\frac{3}{8}", "\\frac{11}{20}", "\\frac{11}{12}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1484", "answers": ["\\frac{71}{5525}", "\\frac{2}{295}", "0.01295", "\\frac{143}{11050}", "\\frac{13}{1005}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1246", "answers": ["\\frac{1}{15}", "\\frac{1}{12}", "\\frac{2}{15}", "\\frac{3}{40}", "\\frac{2}{5}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3722", "answers": ["7", "70", "66", "69.5", "106"], "margin": 0.2}
+{"item_id": "dnat-mathext-1921", "answers": ["50", "400", "100", "200", "150"], "margin": 0.2}
+{"item_id": "dnat-math500-497", "answers": ["3 - \\frac{\\sqrt{2}}{2}", "\\sqrt{2}", "\\frac{3}{2} \\sqrt{2 + \\sqrt{2}}", "\\frac{\\sqrt{2} (\\sqrt{2 + \\sqrt{2}} + 3)}{2}", "2\\sqrt{2}"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-489", "answers": ["-11.2", "-11.04°F", "-10", "-39.60°F", "-13.737"], "margin": 0.2}
+{"item_id": "dnat-mathext-2900", "answers": ["\\frac{\\sqrt{10}}{2}", "0.894427190999916", "\\frac{\\sqrt{5}}{2}", "\\sqrt{5}", "\\frac{3\\sqrt{5}}{2} - 1"], "margin": 0.2}
+{"item_id": "dnat-math500-96", "answers": ["3", "-4, -2, 2, 4", "4.76, -3.85", "-3, -1, 1, 3", "3, -1"], "margin": 0.2}
+{"item_id": "dnat-mathext-3332", "answers": ["54", "72", "291", "45", "9"], "margin": 0.2}
+{"item_id": "dnat-mathext-4563", "answers": ["132", "3", "10", "2", "4"], "margin": 0.2}
+{"item_id": "dnat-mathext-2478", "answers": ["\\frac{-i + \\sqrt{97}}{8}, \\frac{-i - \\sqrt{97}}{8}, -2i", "-\\frac{1}{2} + \\frac{i}{4}, -\\frac{1}{2} - \\frac{i}{4}, -2i", "1 - i, -1 + i, 3i", "-2i, -i, 3", "1 + i\\sqrt{3}, 1 - i\\sqrt{3}, -2"], "margin": 0.2}
+{"item_id": "dnat-mathext-2443", "answers": ["p(x) = \\sqrt{4x^3 + 17x^2 - 22x - 7}", "x + 3", "\\sqrt{4x^4 + 20x^3 + 21x^2 - 10x + 1}", "p(x) = 2x^4 - 2\\sqrt{6}x^3 + \\left(21 - \\left(\\frac{11}{20} + \\frac{11\\sqrt{6}}{20}\\right)^2\\right)x^2 + \\left(\\frac{11}{20} + \\frac{11\\sqrt{6}}{20}\\right)x + 1", "2x^2 + 5x + 1"], "margin": 0.2}
+{"item_id": "dnat-mathext-1900", "answers": ["108^\\circ", "180^\\circ", "90^\\circ", "36^\\circ", "27^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-116", "answers": ["\\frac{355}{6283185307018948}", "\\frac{14}{33}", "\\frac{2856}{1000000}", "\\frac{1}{351}", "\\frac{62}{196}"], "margin": 0.2}
+{"item_id": "dnat-math500-248", "answers": ["\\begin{pmatrix} -1099511627776 & 0 \\\\ 0 & -2143588819437 \\end{pmatrix}", "-198754184981.85675", "\\begin{pmatrix} 6 & 14 \\\\ -2 & -4 \\end{pmatrix}", "100000000000000000000000 \\times 39212203101", "\\begin{pmatrix} -11 & 28 \\\\ -3 & -7 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1423", "answers": ["\\frac{3}{5}", "\\frac{5}{6}", "0.75", "\\frac{17}{36}", "\\frac{1}{6}"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-439", "answers": ["7", "17", "9", "5", "12"], "margin": 0.2}
+{"item_id": "dnat-mathext-2551", "answers": ["8", "15", "x + 2", "3", "-7"], "margin": 0.2}
+{"item_id": "dnat-mathext-2960", "answers": ["1995^3", "1995^{\\frac{1 + \\sqrt{33}}{8}}", "56", "1995^{1 + \\frac{\\sqrt{2}}{2}}", "40"], "margin": 0.2}
+{"item_id": "dnat-mathext-2373", "answers": ["50", "-17.5", "504", "52", "35.5"], "margin": 0.2}
+{"item_id": "dnat-mathext-3279", "answers": ["\\frac{671}{900}", "\\frac{7}{10}", "0.8333333333333334", "0.853333333333333", "\\frac{285}{999}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2474", "answers": ["4076224", "2018^2", "4072124", "\\sqrt{2}", "3"], "margin": 0.2}
+{"item_id": "dnat-mathext-2128", "answers": ["\\frac{21 - 8\\sqrt{3}}{4}", "4", "2\\sqrt{3}", "6 - 2\\sqrt{3}", "4\\sqrt{2 - \\sqrt{3}}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1927", "answers": ["21.75", "\\sqrt{29 \\times 163}", "\\sqrt{133}", "10", "\\sqrt{317}"], "margin": 0.2}
+{"item_id": "dnat-math500-239", "answers": ["25", "14", "13", null, "32"], "margin": 0.2}
+{"item_id": "dnat-mathext-2534", "answers": ["4012008", "4020408", "4024006.0", "4016072", "4008009"], "margin": 0.2}
+{"item_id": "dnat-mathext-2504", "answers": ["\\frac{1}{798}", "0.0419", "\\frac{1}{10962}", "\\frac{1}{6937}", "0.0000967"], "margin": 0.2}
+{"item_id": "dnat-mathext-4000", "answers": ["3125", "3040500", "759375", "1875", "7500"], "margin": 0.2}
+{"item_id": "dnat-mathext-3178", "answers": ["297", "5", "0", "61", "27"], "margin": 0.2}
+{"item_id": "dnat-mathext-1885", "answers": ["\\frac{5}{3}", null, "0", "0.6", "\\frac{4}{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1386", "answers": ["0.9991", "\\frac{11}{36}", "\\frac{125}{129}", "0.625", "\\frac{49}{90}"], "margin": 0.2}
+{"item_id": "dnat-math500-295", "answers": ["8", "5", "13", "2", "17"], "margin": 0.2}
+{"item_id": "dnat-mathext-4768", "answers": ["10 \\sqrt{51}", "1256", "200", "94", "276.5"], "margin": 0.2}
+{"item_id": "dnat-mathext-4790", "answers": ["(-2, -1, -2)", "\\left( \\frac{4}{3\\sqrt{5}}, -\\frac{2}{3}, -\\frac{1}{3} \\right)", "(1.165, -1.549, -2.229)", "(-2, -1, 2)", "\\left( -\\frac{20}{27}, \\frac{8\\sqrt{5}}{27}, \\frac{1}{3} \\right)"], "margin": 0.2}
+{"item_id": "dnat-math500-214", "answers": ["60", "130", "70", "115", "145"], "margin": 0.2}
+{"item_id": "dnat-mathext-723", "answers": ["-5", "-3", "3", "19", "-2"], "margin": 0.2}
+{"item_id": "dnat-mathext-3844", "answers": ["900", "395", "441000", "2100", "210\\sqrt{10}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1279", "answers": ["19601", "197", "0", "4", "49"], "margin": 0.2}
+{"item_id": "dnat-math500-83", "answers": ["1.386", "x \\approx 0.801", "\\text{No real solutions}", "\\frac{3}{2}", "-27.891"], "margin": 0.2}
+{"item_id": "dnat-mathext-2676", "answers": ["\\frac{13}{126}", "\\frac{63}{295}", "-\\frac{21}{50}", "\\frac{13}{12}", "\\frac{13}{144}"], "margin": 0.2}
+{"item_id": "dnat-math500-223", "answers": ["7", "31", "10", "28", "39"], "margin": 0.2}
+{"item_id": "dnat-mathext-3893", "answers": ["9", "24", "28", "12", "42"], "margin": 0.2}
+{"item_id": "dnat-mathext-1515", "answers": ["\\frac{39}{64}", "\\frac{1}{256}", "0", "0.148148148148148", "\\frac{1}{17}"], "margin": 0.2}
+{"item_id": "dnat-math500-7", "answers": ["89.68^\\circ", "112.13^\\circ", "142.23^\\circ", "62.53^\\circ", "64^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-180", "answers": ["4.5", "5", "4", "9", "6"], "margin": 0.2}
+{"item_id": "dnat-mathext-1546", "answers": ["1", "\\frac{26}{27}", "\\frac{55}{36}", "\\frac{1}{6}", "\\frac{5}{9}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3152", "answers": ["16346_8", "26332_8", "46643_8", "1521_8", "20412_8"], "margin": 0.2}
+{"item_id": "dnat-mathext-2036", "answers": ["171^\\circ", "108^\\circ", "35.2^\\circ", "36^\\circ", "72^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-4937", "answers": ["\\begin{pmatrix} 3 \\\\ -2 \\\\ 1 \\end{pmatrix}", "\\begin{pmatrix} -3 \\\\ 1 \\\\ 2 \\end{pmatrix}", null, "\\begin{pmatrix} 5 \\\\ -5 \\\\ -25 \\end{pmatrix}", "\\begin{pmatrix} 75 \\\\ 5 \\\\ 44 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4057", "answers": ["180", "480", "29", "500", "3200000"], "margin": 0.2}
+{"item_id": "dnat-mathext-1632", "answers": ["36", "10", "32", "15", "12"], "margin": 0.2}
+{"item_id": "dnat-math500-11", "answers": ["1", "0.25", "2", "\\frac{1}{63}", "\\frac{16}{63}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4954", "answers": ["\\left( \\frac{13}{9}, \\frac{-34}{9}, \\frac{-175}{9} \\right)", "(-7, -4, -12)", "\\left(-\\frac{5}{3}, -\\frac{5}{6}, \\frac{5}{3}\\right)", "(-11, -10, -7)", "(7, 10, 19)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2277", "answers": ["2.618", "\\sqrt{5}", "5", "2.88", "4"], "margin": 0.2}
+{"item_id": "dnat-mathext-2713", "answers": ["985", "903", "763", "803", "913"], "margin": 0.2}
+{"item_id": "dnat-mathext-2801", "answers": ["500003", "1006501", "1506", "1497", "200003"], "margin": 0.2}
+{"item_id": "dnat-mathext-2094", "answers": ["\\sqrt{2} + 1", "5", "4", "6\\sqrt{2} + \\frac{9}{\\pi}", "2\\sqrt{6} + 1"], "margin": 0.2}
+{"item_id": "dnat-mathext-2526", "answers": ["3001", "2001", "2016", "4001", "4002"], "margin": 0.2}
+{"item_id": "dnat-mathext-1994", "answers": ["48 + 8\\sqrt{61}", "40\\sqrt{11}", "22\\sqrt{11}", "144", "128"], "margin": 0.2}
+{"item_id": "dnat-mathext-1955", "answers": ["54", "216", "78", "72", "38"], "margin": 0.2}
+{"item_id": "dnat-mathext-2302", "answers": ["150", "650", "-7745", "-50", "-150"], "margin": 0.2}
+{"item_id": "dnat-mathext-3360", "answers": ["2", "4", "5", "10", "448"], "margin": 0.2}
+{"item_id": "dnat-math500-284", "answers": ["\\pm \\sqrt{17 + 12\\sqrt{3}}, \\pm \\sqrt{17 - 12\\sqrt{3}}", "\\frac{3\\sqrt{2} + \\sqrt{34}}{4}, \\frac{3\\sqrt{2} - \\sqrt{34}}{4}", "\\frac{\\sqrt{2} + i\\sqrt{62}}{4}, \\frac{\\sqrt{2} - i\\sqrt{62}}{4}", "1.1969, -0.8561, 2.9179, -0.1161", "\\frac{3}{8}, \\frac{8}{3}"], "margin": 0.2}
+{"item_id": "dnat-math500-470", "answers": ["61440", "953.6875", "9536.7431640625", "170.859375", "7"], "margin": 0.2}
+{"item_id": "dnat-mathext-2484", "answers": ["\\left(-\\frac{23}{8}, -\\frac{273}{32}, 0, \\frac{111}{32}\\right)", "(46, -74.5, 29.25, \\frac{1}{4})", "(81, -64, 8, -1)", null, "(625, -250, 25, 1)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2976", "answers": ["2", "8", "11", "2001", "45"], "margin": 0.2}
+{"item_id": "dnat-mathext-878", "answers": ["72", "36", "26", "64", "30"], "margin": 0.2}
+{"item_id": "dnat-mathext-1638", "answers": ["\\frac{21}{20}", "\\frac{5}{81}", "\\frac{4}{9}", null, "\\frac{8}{81}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3328", "answers": ["40", "12", "100", "5", "60"], "margin": 0.2}
+{"item_id": "dnat-mathext-1411", "answers": ["\\frac{1025}{1552}", "0.7799", "0.575", "\\frac{12255}{7776}", null], "margin": 0.2}
+{"item_id": "dnat-mathext-1892", "answers": ["\\frac{3\\sqrt{7}}{2}", "\\sqrt{19}", "\\frac{3\\sqrt{3}}{2}", "\\frac{3\\sqrt{13}}{4}", "4"], "margin": 0.2}
+{"item_id": "dnat-mathext-3193", "answers": ["21", "1832", "1080", "39", "2047"], "margin": 0.2}
+{"item_id": "dnat-mathext-4671", "answers": ["6 - \\frac{3\\sqrt{10}}{5}", "\\frac{468 - 13 \\sqrt{13}}{72}", "\\frac{31}{121}", "0", "0.8"], "margin": 0.2}
+{"item_id": "dnat-math500-147", "answers": ["21", "\\frac{373}{80}", "6 \\cdot \\sqrt[3]{2} + 8 \\cdot \\sqrt{2}", "6 \\cdot 2^{1/3}", "11.737"], "margin": 0.2}
+{"item_id": "dnat-mathext-2152", "answers": ["4 + 3i, 7 - 7i", "5 - 4i", "1 - 13i", "11, 5 - 10i", "9 - 7i, 1 - 2i"], "margin": 0.2}
+{"item_id": "dnat-mathext-1671", "answers": ["0.345", "-\\frac{6}{\\sqrt{61}}", "0.94", "0", "\\frac{7}{25}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2068", "answers": ["\\frac{16}{25}", "\\frac{576}{1089}", "\\frac{5184}{121}", "\\frac{256}{121}", "\\frac{4}{9}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1520", "answers": ["120", "20", "10", "60", "5"], "margin": 0.2}
+{"item_id": "dnat-mathext-1098", "answers": ["23", "20", "\\frac{128}{3}", "22", null], "margin": 0.2}
+{"item_id": "dnat-mathext-727", "answers": ["2008007.5", "2002004", "2002", "5", "6009"], "margin": 0.2}
+{"item_id": "dnat-mathext-343", "answers": ["\\frac{2\\sqrt{6}}{1}", "\\frac{3\\sqrt{10}}{5}", "\\frac{2\\sqrt{6}}{5}", "\\frac{6\\sqrt{5}}{5}", "6/5"], "margin": 0.2}
+{"item_id": "dnat-mathext-3161", "answers": ["0.0001008", "0.007", "0.01", "0.0206", "0.033333333333333336"], "margin": 0.2}
+{"item_id": "dnat-mathext-319", "answers": ["8", "9", "3", "0", "15"], "margin": 0.2}
+{"item_id": "dnat-mathext-2339", "answers": ["10444", "405,000,000,410", "9080", "4036", "4080"], "margin": 0.2}
+{"item_id": "dnat-math500-110", "answers": [null, null, null, "1", null], "margin": 0.2}
+{"item_id": "dnat-mathext-4577", "answers": ["\\frac{5}{16}", "11", "2", null, "\\frac{5}{8}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1130", "answers": ["\\frac{59}{81}", "\\frac{24}{33}", "\\frac{7}{10}", "\\frac{98}{135}", "\\frac{31}{45}"], "margin": 0.2}
+{"item_id": "dnat-mathext-117", "answers": ["(4, 10)", "(1, 5)", "(7, 2)", "(1, 1)", "(1, 0)"], "margin": 0.2}
+{"item_id": "dnat-mathext-1345", "answers": ["68", "76", "64", "48", "62"], "margin": 0.2}
+{"item_id": "dnat-mathext-3753", "answers": ["32", "8(\\sqrt{2} + 1) + 4\\sqrt{6}", "16 + 4\\sqrt{2} + 8\\sqrt{3}", "4\\sqrt{2} + 22", "12\\sqrt{2} + 16"], "margin": 0.2}
+{"item_id": "dnat-mathext-4574", "answers": ["\\begin{pmatrix} 1 & -\\frac{4}{3} \\\\ 0 & 3 \\end{pmatrix}", "\\begin{pmatrix} 3\\sqrt{2} & -3 \\\\ 0 & 3 \\end{pmatrix}", "\\begin{pmatrix} 2 & -\\frac{19}{6} \\\\ 0 & 3 \\end{pmatrix}", "\\begin{pmatrix} 2 & -\\frac{7}{2} \\\\ 0 & 3 \\end{pmatrix}", "\\begin{pmatrix} 2 & -14.25 \\\\ 0 & 3 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4643", "answers": ["26", "49", "93", "31", "183"], "margin": 0.2}
+{"item_id": "dnat-mathext-4844", "answers": ["126", "13", "-17", "4", "-27"], "margin": 0.2}
+{"item_id": "dnat-mathext-1201", "answers": ["1414", "1386", "170", "336", "224"], "margin": 0.2}
+{"item_id": "dnat-mathext-4463", "answers": ["\\frac{1}{3} - \\frac{\\sqrt{6}}{108}", "5.1", "3\\sqrt{2}", "11.5", "\\frac{1}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1218", "answers": ["17", "1", "6", "27", "6.75"], "margin": 0.2}
+{"item_id": "dnat-mathext-1460", "answers": ["\\frac{4}{9}", "\\frac{11}{36}", "\\frac{7}{12}", "\\frac{13}{18}", "\\frac{2}{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2233", "answers": ["101", "2", "27", "2701", "28"], "margin": 0.2}
+{"item_id": "dnat-mathext-4691", "answers": ["x = 0 \\text{ or } x = \\frac{-(4a - 1) \\pm \\sqrt{1 - 8a}}{4}, \\text{ for } a \\leq \\frac{1}{8}.", "x = -a", "x = 0 \\text{ or } x = \\frac{-(3a - 1) \\pm \\sqrt{a^2 - 14a + 1}}{2}", "x = 0 \\text{ or } x = -a", "x = 0"], "margin": 0.2}
+{"item_id": "dnat-math500-287", "answers": ["4860", "304.2", "15", "4", "12"], "margin": 0.2}
+{"item_id": "dnat-mathext-1748", "answers": [null, "\\sqrt{2}", "1 - \\frac{\\sqrt{2}}{2}", "0.1588", "\\frac{3\\sqrt{2}}{4}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4967", "answers": ["96.41^\\circ", "250.75^\\circ", "90", "210", "195"], "margin": 0.2}
+{"item_id": "dnat-mathext-1600", "answers": ["240", "0", "600", "40", "90"], "margin": 0.2}
+{"item_id": "dnat-mathext-2610", "answers": ["x + 6", "-202", "8", "19", "6"], "margin": 0.2}
+{"item_id": "dnat-mathext-3122", "answers": ["28501", null, "911", "2006", "18416"], "margin": 0.2}
+{"item_id": "dnat-mathext-2149", "answers": ["2022", null, "2.123446788372153 \\times 10^{3002}", "2017", "2018"], "margin": 0.2}
+{"item_id": "dnat-mathext-293", "answers": ["k(x) = \\sqrt{|x|}", "k(x) = -\\frac{1}{2x}", "k(x) = \\frac{1}{x}", "k(x) = |x|", "k(x) = \\sqrt{x}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4814", "answers": ["11", "12", "17", "2138", "35"], "margin": 0.2}
+{"item_id": "dnat-mathext-1523", "answers": ["5", "56", "20", "18", "15"], "margin": 0.2}
+{"item_id": "dnat-mathext-1211", "answers": ["2880", "17280", "2016", "15120", "1451520"], "margin": 0.2}
+{"item_id": "dnat-mathext-3104", "answers": ["138", "168", "140", "60", "94"], "margin": 0.2}
+{"item_id": "dnat-mathext-2259", "answers": ["-1 - x^5 - x^4", "1 - x^6 + x^2 + x", "-x^4 + x", "-2", "-x^6 - x^5 - 4x^2 - 4x"], "margin": 0.2}
+{"item_id": "dnat-math500-326", "answers": ["0.06", "0.07464", "0.822", "-0.09", "0.0888"], "margin": 0.2}
+{"item_id": "dnat-mathext-1239", "answers": ["715 + 715 = 91", "720", "793", "1430", "749"], "margin": 0.2}
+{"item_id": "dnat-mathext-2859", "answers": ["23", "21", "26", "27", "20"], "margin": 0.2}
+{"item_id": "dnat-mathext-1865", "answers": ["\\frac{23}{125}", "\\frac{152}{125}", null, "\\frac{7}{15}", "\\frac{8}{25}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2997", "answers": ["30", "21", "72", "-1", "10"], "margin": 0.2}
+{"item_id": "dnat-mathext-3532", "answers": ["15681250", "9100", "1000", "600", "13860"], "margin": 0.2}
+{"item_id": "dnat-mathext-4142", "answers": ["35", "41.5", "46", "25", "49"], "margin": 0.2}
+{"item_id": "dnat-mathext-4525", "answers": ["\\frac{C^2 - CD + D - 2D^2}{(1 + \\tan^2 A)(1 + \\tan^2 B)}", "C^2 + D^2 - CD", "\\frac{1 + D}{2}", "1 + (D - C + 2) \\sin A \\cos A \\sin B \\cos B", "\\frac{1 + D}{2} - \\frac{\\cos(2 \\tan(A + B))}{2} + \\frac{C \\tan(A + B)}{1 + \\tan^2(A + B)}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2453", "answers": ["492", "41", "3", "139", "287"], "margin": 0.2}
+{"item_id": "dnat-mathext-1707", "answers": ["2\\sqrt{17 + 10.5\\sqrt{2}} - 3\\sqrt{2}", "8", "\\sqrt{53} - 3", "\\sqrt{13} - 3", "5\\sqrt{2} - 3"], "margin": 0.2}
+{"item_id": "dnat-mathext-1341", "answers": ["4", "2", "5", "8", "6"], "margin": 0.2}
+{"item_id": "dnat-mathext-91", "answers": ["406289", "906", "3519", "6150", "50"], "margin": 0.2}
+{"item_id": "dnat-mathext-2406", "answers": ["0, 1", "-7, -7", "No\\ valid\\ integer\\ solutions\\ fit\\ directly\\ for\\ P(n) = n + 3", "-1, 2", "1, 2"], "margin": 0.2}
+{"item_id": "dnat-mathext-2570", "answers": ["10", "\\frac{19 + 26i}{17}", "-\\frac{91}{10}", "\\frac{4}{3}", "3 - i"], "margin": 0.2}
+{"item_id": "dnat-mathext-912", "answers": ["4", null, null, "0", "3.7937"], "margin": 0.2}
+{"item_id": "dnat-mathext-4872", "answers": ["3x + 2y + 48z + 257 = 0", "16x - 36y + 11z - 71 = 0", "67x - 162y + 47z + 408 = 0", "-540x + 0y + 0z + 1 = 0", "17x - 38y + 29z + 192 = 0"], "margin": 0.2}
+{"item_id": "dnat-mathext-2016", "answers": ["1", "\\frac{11}{20}", "\\frac{7}{15}", "\\frac{7}{10}", "\\frac{3}{10}"], "margin": 0.2}
+{"item_id": "dnat-math500-282", "answers": ["162", "243", "678", "126", "157"], "margin": 0.2}
+{"item_id": "dnat-mathext-2959", "answers": ["126", "343", "199", "82.834", "\\frac{2842}{9}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1589", "answers": ["729", "6", "20", "27", "10"], "margin": 0.2}
+{"item_id": "dnat-mathext-3976", "answers": ["65^\\circ", "115^\\circ", null, "50^\\circ", "155^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-1412", "answers": ["1064", "1630", "1552", "1820", "1223"], "margin": 0.2}
+{"item_id": "dnat-mathext-1599", "answers": ["4", "24", "360", "12", "15"], "margin": 0.2}
+{"item_id": "dnat-mathext-178", "answers": ["3", "\\frac{13}{4}", "\\frac{11}{4}", "4.1875", "\\frac{3}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2848", "answers": ["x^4 - 2x^3 - 5x^2 + 4x - 1", "y^3 + \\frac{5}{2}y^2 - 2y", "y^4 - \\frac{5}{4}y^2 + \\frac{1}{2}y - \\frac{1}{4}", "x^4 - 4x^3 + 5x^2 - 2x + 1", "y^4 - 4y^3 + 5y^2 + 2y + 1"], "margin": 0.2}
+{"item_id": "dnat-mathext-1844", "answers": ["(3, 1)", "\\left( \\frac{9}{4}, \\frac{9}{4} \\right)", "\\left(\\frac{9}{2}, \\frac{3}{2}\\right)", "(3, 0)", "(2.5, 4.5)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2276", "answers": ["[-1, 7]", "[0, 7]", "(-\\infty, -1] \\cup (0, 7)", "(-1, 0) \\cup (0, 7)", "(-\\infty, -1] \\cup [0, 7]"], "margin": 0.2}
+{"item_id": "dnat-mathext-4482", "answers": ["\\left(0, 0, \\frac{1}{\\sqrt{3}}\\right)", "(0, 0, 1)", "\\left( \\frac{5}{3}, \\frac{5}{3}, \\frac{5}{3} \\right)", "\\left( -\\frac{13}{3}, -\\frac{13}{3}, -\\frac{13}{3} \\right)", "(-1, -1, 1)"], "margin": 0.2}
+{"item_id": "dnat-mathext-1835", "answers": ["594", "1990", "240", "162", "918"], "margin": 0.2}
+{"item_id": "dnat-mathext-4825", "answers": ["\\frac{111}{125}, -\\frac{111}{125}", "-0.7071067811865476", "\\frac{171}{125}", "0.8660254037844386", "\\frac{111}{125}"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-606", "answers": ["\\frac{1}{12}", "11.92", "0.0139 \\text{ years}", "1", "72"], "margin": 0.2}
+{"item_id": "dnat-mathext-4917", "answers": ["(-5, -3, -13)", "\\begin{pmatrix} 2 \\\\ 11 \\\\ 15 \\end{pmatrix}", "(-1, 5, 3)", "\\begin{pmatrix} -9 \\\\ -19 \\\\ -29 \\end{pmatrix}", "\\begin{pmatrix} -3 \\\\ 1 \\\\ -5 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3031", "answers": ["-1, 2", "-1", "-0.5, 1", "2, -2, \\frac{4}{3}, -\\frac{4}{3}", "4"], "margin": 0.2}
+{"item_id": "dnat-mathext-2169", "answers": ["9x^2 - 160x + 25y^2 = 256", "x^2 - \\frac{14}{9} y^2 + 16 = 0", "16y^2 = 9x^2 - 160x + 656", "9x^2 + 16y^2 = 400", "\\frac{x^2}{33.06} + \\frac{y^2}{18.5145} = 1"], "margin": 0.2}
+{"item_id": "dnat-mathext-696", "answers": ["ACDEGHIJKLMNOQRSTUWXYZ", "CILTZ", "\\text{ACEBFHJKLMNPRSTUVWXYZ}", "ABCDEFGHIJKLMNPRSTUVWXYZ", "CISTSZ"], "margin": 0.2}
+{"item_id": "dnat-mathext-478", "answers": ["12", "36", "24", "15", "-15"], "margin": 0.2}
+{"item_id": "dnat-mathext-1205", "answers": ["\\frac{105}{2}", "\\frac{91}{36}", "\\frac{211}{36}", "\\frac{271}{36}", "\\frac{181}{36}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4226", "answers": ["14 + 7\\sqrt{2}", "7", "7 + \\frac{7\\sqrt{2}}{2}", "16.5 + \\frac{\\sqrt{3}}{2}", "\\frac{21}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4736", "answers": ["-7", "-14", "14", "-35", "14(ei - fh) + 2b(di - fg) + c(-2dh + 2eg + 5hg - 5gh)"], "margin": 0.2}
+{"item_id": "dnat-mathext-4759", "answers": ["0", "0, 1, -1", "k \\in \\mathbb{R} \\setminus \\{0, 1\\}", "\\sqrt[3]{3}", "k = \\sqrt[3]{2} \\text{ or } k = -\\sqrt[3]{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2514", "answers": ["18434", "244", "8949", "18696", "18496"], "margin": 0.2}
+{"item_id": "dnat-math500-154", "answers": ["14", "18", "13", "16", "17"], "margin": 0.2}
+{"item_id": "dnat-mathext-1384", "answers": ["1004", "31", "5", "502", "4"], "margin": 0.2}
+{"item_id": "dnat-mathext-54", "answers": ["60", null, "100", "101", "70"], "margin": 0.2}
+{"item_id": "dnat-mathext-2684", "answers": ["(2, -2, 1)", "(-1, -2, 1)", "(t, -2t, t)", "(r, s, t) = \\left( \\frac{8(b - 6)}{7}, \\frac{7b - 48}{b - 26}, 1 - \\frac{8(b - 6)}{7} - \\frac{7b - 48}{b - 26} \\right)", "(r, \\frac{1}{2} - 2r, \\frac{1}{2} - r)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2969", "answers": ["\\left( \\sqrt{\\frac{q - r}{2}}, \\sqrt{\\frac{q - r}{2}} \\right)", "\\left( \\frac{2q}{r - q}, \\frac{2r}{r - q} \\right)", "(\\sqrt[3]{-5}, \\sqrt[3]{-7})", "\\left(\\frac{2}{1 - \\frac{r}{q}}, 2\\right)", "(\\gamma, -\\gamma)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2336", "answers": ["32", "4", "49", "9", "15"], "margin": 0.2}
+{"item_id": "dnat-mathext-3056", "answers": ["6", "20", "24", "16", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-642", "answers": ["3", "1", "81", "\\frac{1}{6561}", "9"], "margin": 0.2}
+{"item_id": "dnat-mathext-2714", "answers": ["10", "12.48", "13", "52", "16"], "margin": 0.2}
+{"item_id": "dnat-mathext-3526", "answers": ["Sunday", "\\text{Friday}", "\\text{Wednesday}", "\\text{Thursday}", "Tuesday"], "margin": 0.2}
+{"item_id": "dnat-mathext-2104", "answers": ["\\frac{50 \\sqrt{674}}{674}", "-0.2", "\\frac{36}{53}", "\\frac{17}{23}", "1"], "margin": 0.2}
+{"item_id": "dnat-mathext-3339", "answers": ["7560", "28", "19", "8", "3063"], "margin": 0.2}
+{"item_id": "dnat-mathext-2548", "answers": ["1", "(0, 1)", "\\left[ \\frac{3}{4}, 1 \\right]", "(a + b + c)^2", "[0, \\infty)"], "margin": 0.2}
+{"item_id": "dnat-mathext-1670", "answers": ["-6.87", "0", "1.194", "3", "12"], "margin": 0.2}
+{"item_id": "dnat-mathext-4943", "answers": ["5, -6, \\frac{21}{2}", "-7, 3, 14", "-3, 2, 5", "-5, 7, -2", "-2, 7, -\\frac{1}{5}"], "margin": 0.2}
+{"item_id": "dnat-math500-24", "answers": ["44.7", "11.4", "28", "11.5", "61.7"], "margin": 0.2}
+{"item_id": "dnat-mathext-4948", "answers": ["32", "8", "\\frac{64}{3}", "2", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-2836", "answers": ["(1, 0, 12, 12)", "(-1, 3, 4, 24)", "(3, -15, -3, 14)", "(2, -1, 0, -12)", "(-28, 0, 0, 476)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2865", "answers": ["11", "14", "36", "17", "12"], "margin": 0.2}
+{"item_id": "dnat-mathext-2547", "answers": ["20", "18", "\\frac{169}{18}", "\\frac{49}{9}", "123"], "margin": 0.2}
+{"item_id": "dnat-mathext-285", "answers": ["1", "-2", "\\frac{9088b^2 - 10072b + 2729}{169}", "3 - \\frac{2381}{144} c^2 - \\frac{10091}{288} c", "\\frac{6556c^2 + 5212c - 2496}{7056}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2553", "answers": ["1007.5", "502", "1007", "1008.5", "1012"], "margin": 0.2}
+{"item_id": "dnat-mathext-3008", "answers": ["37", "38", "60", null, "15"], "margin": 0.2}
+{"item_id": "dnat-mathext-2388", "answers": ["24.7025", "7", "8", "4", "10.24"], "margin": 0.2}
+{"item_id": "dnat-mathext-3695", "answers": ["132^\\circ", "12^\\circ", "24^\\circ", "108^\\circ", "168^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-3545", "answers": ["4521", "912", "3452", "3234", "1245"], "margin": 0.2}
+{"item_id": "dnat-mathext-1696", "answers": ["40", null, "22", "17", null], "margin": 0.2}
+{"item_id": "dnat-mathext-2650", "answers": ["\\frac{\\pi^2}{12}", "\\frac{1}{6}", "\\frac{\\pi}{4}", "\\frac{1}{4}", "\\frac{1}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3063", "answers": ["-34", "97", "70", "96", "-2"], "margin": 0.2}
+{"item_id": "dnat-mathext-2944", "answers": ["1 + x^2", "1 - \\frac{1}{x}", "x^{24} - x^{15}", "x^{22}", "1"], "margin": 0.2}
+{"item_id": "dnat-mathext-2523", "answers": ["0.375", "1", "\\frac{1}{8}", "\\frac{1}{16}", "\\frac{1}{5}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3012", "answers": ["6", "9", "21", "18", "-3"], "margin": 0.2}
+{"item_id": "dnat-math500-481", "answers": ["\\frac{1}{4} \\cdot \\frac{\\prod_{m=1}^{n} (64m^4 + 1)}{\\prod_{m=0}^{n-1} (64m^4 - 88m^3 + 36m^2 - 4m - 3)}", "(2n+1)^2", "256^n", "16", "1"], "margin": 0.2}
+{"item_id": "dnat-mathext-2761", "answers": ["\\frac{1 + \\sqrt{2\\sqrt{2} - 1}}{2}", "1", "\\frac{1}{2}", "\\frac{\\sqrt{2}}{2}", "\\frac{1 + \\sqrt{2}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2230", "answers": ["0", "6", "-\\frac{21}{2}", "67", "-1"], "margin": 0.2}
+{"item_id": "dnat-mathext-2218", "answers": ["10", "1", "-4", "0", "6"], "margin": 0.2}
+{"item_id": "dnat-mathext-2717", "answers": ["99", "693", "79", "-3700", "58"], "margin": 0.2}
+{"item_id": "dnat-mathext-1466", "answers": ["\\frac{3}{4}", "\\frac{11}{47}", "\\frac{51}{52}", "\\frac{39^{51} - 1}{38 \\times 52!}", "\\frac{21}{26}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2240", "answers": ["-\\frac{2}{3}", "2", "0", "-2", "\\frac{23}{18}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4828", "answers": ["\\frac{3}{628}", "\\frac{72 - 12\\sqrt{130}}{47}", "\\frac{1}{3}", "\\frac{3}{2}", "0.324"], "margin": 0.2}
+{"item_id": "dnat-mathext-4966", "answers": ["-\\frac{3}{8}, \\frac{5}{8}", "-\\frac{3}{4}", "-\\frac{3}{8}", "\\frac{\\sqrt{2}}{\\sqrt{5}} + \\frac{\\sqrt{10}}{4}", "\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2525", "answers": ["1, 3, 6", "-3, -2, 1, 6", "3, 6", "-1.08, 67.08", "x \\in \\mathbb{R} \\setminus \\{1, -4\\}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2293", "answers": ["-341", "1", "8", "\\frac{1}{24}", "\\frac{1}{7}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2669", "answers": ["-\\infty", "\\text{The series diverges.}", "0", "\\sum_{j=2}^{2008} \\left( \\frac{1}{j} - \\frac{1}{j^2} \\right)", "\\infty"], "margin": 0.2}
+{"item_id": "dnat-mathext-2265", "answers": ["(9.5, 4, 19.5)", "(28, 2, 67)", "(-10, -14, 61)", "(10, 14, 74)", "(3.5, 14, 55.5)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2970", "answers": ["369.03", "486", "729", "243", "365"], "margin": 0.2}
+{"item_id": "dnat-mathext-4953", "answers": ["\\frac{(2009^2)^i + 2 + (2009^{-2})^i}{2} + \\frac{i(4036081^i - 4036081^{-i})}{2}", "2018", "1 + \\cosh(2\\log(2009)) - \\sinh(2\\log(2009)) + i \\cdot \\frac{4036081 - \\frac{1}{4036081}}{2}", "2\\cos^2(\\log(2009)i) + i\\sin(\\log(4036081)i)", "1.994 - i"], "margin": 0.2}
+{"item_id": "dnat-mathext-2545", "answers": [null, "85", null, "646", "104"], "margin": 0.2}
+{"item_id": "dnat-mathext-479", "answers": [null, "-1078", "93", "92", "2202"], "margin": 0.2}
+{"item_id": "dnat-mathext-1584", "answers": ["\\frac{1}{7}", "0.23333333333333334", "0.2", "\\frac{7}{60}", "\\frac{5}{12}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2867", "answers": ["435443278400", "-1120", "-1239", "120", "128"], "margin": 0.2}
+{"item_id": "dnat-mathext-3494", "answers": ["b^5 + b^3 + b^2", "b^4 + 2b - b^2", "1001_b", "(b^4 + 1)_b", "1b^5 + b^2 + 1"], "margin": 0.2}
+{"item_id": "dnat-mathext-3014", "answers": ["q(x) = -15x + 15", "q(x) = -\\frac{3}{5}x^3 - \\frac{9}{5}x^2 + \\frac{12}{5}", "q(x) = \\frac{5}{3}(x-4)(x-3)", "q(x) = x^3 - 28x + 27", "q(x) = -3x^2 + 9x - 6"], "margin": 0.2}
+{"item_id": "dnat-mathext-4166", "answers": ["130^\\circ", "180^\\circ", "41.41^\\circ", "140^\\circ", "160^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-4472", "answers": ["e^{4536\\sqrt{2}} \\cdot \\text{(a matrix involving the eigenvectors and their inverses)}", "\\begin{pmatrix} (1 + \\sqrt{6})^{2016} & 0 \\\\ 0 & 0 \\end{pmatrix}", "\\begin{pmatrix} 25^{1008} & 0 \\\\ 0 & 25^{1008} \\end{pmatrix}", "\\begin{pmatrix} \\text{very large number} & 0 \\\\ 0 & \\text{very small number} \\end{pmatrix}", "\\begin{pmatrix} -\\frac{1}{2} \\cdot 3^{2016} & -3 \\cdot 3^{2016} - 1 \\\\ \\frac{3}{4} \\cdot 3^{2016} + \\frac{3}{4} & -\\frac{3}{2} \\cdot 3^{2016} - \\frac{1}{2} \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3309", "answers": ["\\frac{2}{5}", "\\frac{1}{2}", "\\frac{1}{5}", "\\frac{4}{15}", "\\frac{4}{9}"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-611", "answers": ["20,066,230,346.88", "20,065,640,600", "5852500", "1,450,000", "39,173,400.87"], "margin": 0.2}
+{"item_id": "dnat-mathext-1774", "answers": ["\\frac{3}{2}", "2\\sqrt{2} + 3", "2", "\\frac{1}{2}", "4(1 + \\sqrt{3})"], "margin": 0.2}
+{"item_id": "dnat-mathext-171", "answers": ["\\frac{1}{72}", "81", "\\frac{2943}{96}", "\\frac{729}{1}", "\\frac{91}{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2101", "answers": ["\\sqrt{15}", "\\sqrt{34}", "7.34", "2.0025", "2.4"], "margin": 0.2}
+{"item_id": "dnat-math500-402", "answers": ["-1 + 6i", "3i", "2i - 9", "9 - 2i", "1 - 12i"], "margin": 0.2}
+{"item_id": "dnat-mathext-3461", "answers": ["92", "71", "720", "11200", "360"], "margin": 0.2}
+{"item_id": "dnat-mathext-2228", "answers": ["\\frac{1}{2}", "\\frac{1}{12}, \\frac{1}{6}, \\frac{1}{4}, \\frac{1}{3}", "\\frac{1}{2}, 0.0833, 0.1667, 0.25", "0.25, 0.5", "\\frac{1}{2}, \\frac{1}{4}, 0"], "margin": 0.2}
+{"item_id": "dnat-mathext-1383", "answers": ["2", "4", "\\frac{104}{27}", "\\frac{364}{216}", "1"], "margin": 0.2}
+{"item_id": "dnat-mathext-2079", "answers": ["15", "31", "22", "17", "14"], "margin": 0.2}
+{"item_id": "dnat-mathext-3530", "answers": ["463", "457", "280", "231", "343"], "margin": 0.2}
+{"item_id": "dnat-mathext-4722", "answers": ["0.00712", "0.5", "0", "-27", "21.27"], "margin": 0.2}
+{"item_id": "dnat-mathext-4920", "answers": ["52.5^\\circ", "300^\\circ", "90^\\circ", "240^\\circ", "0^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-2885", "answers": ["\\frac{137}{990}", "\\frac{3309}{1024}", "\\frac{10}{81}", "\\text{The series diverges.}", "\\frac{172}{729}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2203", "answers": ["-24", "-16", "4", "-\\frac{640}{43}", "-2"], "margin": 0.2}
+{"item_id": "dnat-mathext-1870", "answers": ["9 + \\sqrt{3}", "6.155", "\\frac{\\sqrt{3}}{3} + 3", "4 + 3\\sqrt{3}", "3 + \\sqrt{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3285", "answers": ["-744", "-18335", "22478", "-358192", "21462"], "margin": 0.2}
+{"item_id": "dnat-mathext-1605", "answers": ["0.45", "\\frac{47}{144}", "\\frac{35}{144}", "\\frac{29}{48}", "0.4482"], "margin": 0.2}
+{"item_id": "dnat-mathext-1831", "answers": ["10", "12\\sqrt{2}", "2 + \\frac{4}{3} \\sqrt{3}", "9", "14"], "margin": 0.2}
+{"item_id": "dnat-mathext-4961", "answers": ["\\frac{5}{2}", null, "1", "0", "-13"], "margin": 0.2}
+{"item_id": "dnat-mathext-592", "answers": ["1475", "2550", "67", "12011", "103"], "margin": 0.2}
+{"item_id": "dnat-mathext-2906", "answers": ["440", "528", "792", "66", "90"], "margin": 0.2}
+{"item_id": "dnat-mathext-4911", "answers": ["4", "\\infty", "0", "2", "1"], "margin": 0.2}
+{"item_id": "dnat-mathext-960", "answers": ["2012", null, "2015", "2014", "4032"], "margin": 0.2}
+{"item_id": "dnat-mathext-2972", "answers": ["\\frac{4}{7}, -7, 7", "1, -2, -\\frac{1}{2} - \\frac{\\sqrt{3}}{2}i, -\\frac{1}{2} + \\frac{\\sqrt{3}}{2}i", "0, -1, 2, 3", "-4, 2, 4, 7, 8", "-2, -1, 1, 2, 4"], "margin": 0.2}
+{"item_id": "dnat-mathext-2031", "answers": ["22^\\circ", "12^\\circ", "112^\\circ", "34^\\circ", "56^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-2519", "answers": ["52", "5001", "1262", "1001", "399"], "margin": 0.2}
+{"item_id": "dnat-mathext-4899", "answers": ["\\frac{\\sqrt{811}}{6}", "\\frac{1}{2}", "0.326", "1", "\\frac{16}{11}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3294", "answers": ["2008", "2018", "6028", "0", "2000"], "margin": 0.2}
+{"item_id": "dnat-mathext-1869", "answers": ["70", "151", "8", "25", "46"], "margin": 0.2}
+{"item_id": "dnat-math500-382", "answers": ["\\frac{20000}{\\pi}", "6063.49", "6366.2", "40000", "20000"], "margin": 0.2}
+{"item_id": "dnat-mathext-1634", "answers": ["62", "54", "90", "310", "80"], "margin": 0.2}
+{"item_id": "dnat-mathext-884", "answers": ["36000", "120600", "50000", "14400", "3600"], "margin": 0.2}
+{"item_id": "dnat-mathext-1758", "answers": ["1.506", "1.56", "1.554", "1.511", "1.632"], "margin": 0.2}
+{"item_id": "dnat-mathext-4781", "answers": ["-2 + \\frac{3\\sqrt{3} + 1}{2} + i \\left( \\frac{3\\sqrt{3}}{2} - 7.5 \\right)", "-\\frac{3}{2} + 2\\sqrt{3}i", "-\\frac{3}{2} - \\frac{3\\sqrt{3}}{2} + 9i", "-2 - \\sqrt{3}i", "(-\\sqrt{3} + 2)i"], "margin": 0.2}
+{"item_id": "dnat-mathext-2924", "answers": ["61", "519", "-235", "386", null], "margin": 0.2}
+{"item_id": "dnat-mathext-3146", "answers": ["2798578567", "2022", "1998", "3", "1975890"], "margin": 0.2}
+{"item_id": "dnat-mathext-2180", "answers": ["5", "\\frac{5}{216}", "0.178571428571429", "1", "\\frac{5}{36}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4762", "answers": ["8.0", "4.315", "4.03534", "6", "4.4565"], "margin": 0.2}
+{"item_id": "dnat-mathext-4581", "answers": ["2676", "669", "1004", "672", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-2088", "answers": ["37", "42", "49", "31", "134.5"], "margin": 0.2}
+{"item_id": "dnat-mathext-1310", "answers": ["\\frac{27}{80}", "\\frac{407}{1440}", "\\frac{1}{4}", "\\frac{9}{32}", "\\frac{203}{720}"], "margin": 0.2}
+{"item_id": "dnat-mathext-626", "answers": ["\\frac{42}{25}", "\\frac{12}{5}", "\\frac{31}{25}", "\\frac{56}{65}", "\\frac{448}{2625}"], "margin": 0.2}
+{"item_id": "dnat-math500-351", "answers": ["0", "\\frac{1}{16}", "\\frac{1}{4} \\left( \\cos \\left( \\frac{2 \\pi}{5} \\right) + \\cos \\left( \\frac{2 \\pi}{15} \\right) \\right) \\left( \\cos \\left( \\frac{\\pi}{15} \\right) - 1 \\right)", "\\frac{1}{2} \\left[ 1 + \\cos \\left( \\frac{2 \\pi}{15} \\right) \\right]", "\\frac{1}{4}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2222", "answers": ["0", "8", "-2", "-6", "-5"], "margin": 0.2}
+{"item_id": "dnat-mathext-2673", "answers": ["81", "-65.88", "-89", "-10", "\\frac{3}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2646", "answers": ["-81", "-9", "-441", "9", "-\\frac{967}{84}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1989", "answers": ["212", "199", "757", "2001", "55488"], "margin": 0.2}
+{"item_id": "dnat-mathext-4893", "answers": ["\\frac{5\\sqrt{13}}{2}", "7.5", "\\frac{5\\sqrt{26}}{4}", "12.5", "\\frac{25\\sqrt{2}}{4}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3113", "answers": ["120", "121", "83", null, "107"], "margin": 0.2}
+{"item_id": "dnat-math500-483", "answers": ["1", "\\sqrt{3}", "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}", "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}", "\\frac{a - b + c}{\\sqrt{b^2 - 2bc + c^2}}"], "margin": 0.2}
+{"item_id": "dnat-mathext-955", "answers": ["294", "39", null, "1", "6"], "margin": 0.2}
+{"item_id": "dnat-mathext-2135", "answers": ["\\frac{5}{12}", "\\frac{3}{8}", "\\frac{7}{18}", "\\frac{3}{28}", "\\frac{5}{14}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4461", "answers": ["53.13^\\circ", "90^\\circ", "75^\\circ", "30^\\circ", "60^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-3078", "answers": ["206_3", "21_3", "-221_3", "002_3", "221_3"], "margin": 0.2}
+{"item_id": "dnat-mathext-2503", "answers": ["-6", "\\text{No real solution}", "-8", "64", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-4595", "answers": ["0.4", "0.2", "\\frac{2}{9}", "2", "5.70"], "margin": 0.2}
+{"item_id": "dnat-mathext-1210", "answers": ["336", "360", "140", "720", "60"], "margin": 0.2}
+{"item_id": "dnat-mathext-4408", "answers": ["\\frac{64}{405}", "\\frac{128}{1875}", "\\frac{4}{57}", "\\frac{1}{14}", "\\frac{46}{675}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2462", "answers": ["0", "3", "-6", "1 - 2\\sqrt{6}", "\\frac{1}{6}"], "margin": 0.2}
+{"item_id": "dnat-mathext-382", "answers": [null, null, null, null, "24"], "margin": 0.2}
+{"item_id": "dnat-mathext-3110", "answers": ["7", "2", "1", "5", "3"], "margin": 0.2}
+{"item_id": "dnat-mathext-4192", "answers": ["\\text{MACK}", "\\text{GRASP}", "\\text{SCENT}", "\\text{EMK}", null], "margin": 0.2}
+{"item_id": "dnat-mathext-1562", "answers": ["36", "4", "12", "0", "6"], "margin": 0.2}
+{"item_id": "dnat-mathext-1521", "answers": ["8", "36731", "5", "1", "7"], "margin": 0.2}
+{"item_id": "dnat-mathext-1587", "answers": ["29", "722", "6", "7", "9"], "margin": 0.2}
+{"item_id": "dnat-mathext-1695", "answers": ["\\frac{3}{2}", "\\frac{18}{5}", "8", "2", "38.5"], "margin": 0.2}
+{"item_id": "dnat-mathext-3145", "answers": ["935", "901", "120", "679", "963"], "margin": 0.2}
+{"item_id": "dnat-mathext-4950", "answers": ["90", "720", "179", "1", "57"], "margin": 0.2}
+{"item_id": "dnat-mathext-200", "answers": ["-21", "120", "-3", "-45", "28"], "margin": 0.2}
+{"item_id": "dnat-math500-71", "answers": ["5232", "610520", "3252", "2656", "5320"], "margin": 0.2}
+{"item_id": "dnat-mathext-4587", "answers": ["\\mathbf{0}", "\\mathbf{v} = \\frac{1}{3}(a \\mathbf{i} + b \\mathbf{j} + c \\mathbf{k})", "\\mathbf{v} = (2, -1, 0)", "\\mathbf{v} = \\mathbf{j} - \\mathbf{k}", "\\mathbf{v} = -\\mathbf{i}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3305", "answers": ["26", "3", "6", "4", "18"], "margin": 0.2}
+{"item_id": "dnat-mathext-1539", "answers": ["\\frac{5}{27}", "\\frac{13}{18}", "\\frac{1}{3}", "\\frac{7}{18}", "\\frac{1}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3499", "answers": ["30", "240", "42", "810", "108"], "margin": 0.2}
+{"item_id": "dnat-mathext-4989", "answers": ["75", "11", "5", "8", "7"], "margin": 0.2}
+{"item_id": "dnat-mathext-2249", "answers": ["\\frac{4096}{59049}", "\\frac{1024}{531441}", "\\frac{2048}{2187}", "\\frac{512}{59049}", "\\frac{1024}{2187}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4593", "answers": ["\\begin{pmatrix} 3a & 0 \\\\ 2 & -a^2 - 4a - 3 \\end{pmatrix}", "\\begin{pmatrix} 3 & 6a^3 + 6 \\\\ a + 2 & 3a^2 - 4a - 3 \\end{pmatrix}", "\\begin{pmatrix} 3 & -12a^3 - 12a^2 + 12a \\\\ a + 2 & -12a^3 - 8a^2 - a + 2 \\end{pmatrix}", "\\begin{pmatrix} 3 & 0 \\\\ a + 2 & 7a^2 + 5a + 7 \\end{pmatrix}", "\\begin{pmatrix} 3 & 0 \\\\ 2 + a & -5a + 9 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4928", "answers": ["(a^3 - 3a)^{5050}", "1", "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}", "(2.101)^{100}", "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2290", "answers": ["27", "62", "41", "728", "1456"], "margin": 0.2}
+{"item_id": "dnat-mathext-4604", "answers": ["0.6155", "-\\frac{\\sqrt{2 + \\sqrt{3}}}{2}, \\frac{\\sqrt{2 + \\sqrt{3}}}{2}", "0.304, 0.982", "0.57735, 2.03465", "0.6154797255931153"], "margin": 0.2}
+{"item_id": "dnat-mathext-3347", "answers": ["271", "682", "710", "714", "170"], "margin": 0.2}
+{"item_id": "dnat-mathext-4454", "answers": ["0", "0, \\mathbf{a} \\cdot \\mathbf{a} + \\mathbf{b} \\cdot \\mathbf{b}", "\\text{all real numbers}", "\\sqrt{\\mathbf{a} \\cdot \\mathbf{a} \\cdot \\mathbf{b} \\cdot \\mathbf{b}}", "A^2, -A^2"], "margin": 0.2}
+{"item_id": "dnat-mathext-4348", "answers": ["952", "123", "3", "81", "7749"], "margin": 0.2}
+{"item_id": "dnat-mathext-2762", "answers": ["0, 6", "0, -2", "0", "0, 4", "0, 16"], "margin": 0.2}
+{"item_id": "dnat-mathext-4680", "answers": ["\\text{(E) reflection about the } y\\text{-axis}", "\\text{B}", "\\text{C}", "\\text{(D) reflection about the line } y = x", "\\text{E}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2989", "answers": ["258", "126", "936", "378", "14332"], "margin": 0.2}
+{"item_id": "dnat-mathext-2190", "answers": ["1516", "208", "1530", "375", "2472"], "margin": 0.2}
+{"item_id": "dnat-mathext-221", "answers": ["4", "\\frac{2}{3}", "0", "1", "-\\frac{1}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1629", "answers": ["100", "6807001600", "2531935003", "36", "577500"], "margin": 0.2}
+{"item_id": "dnat-math500-104", "answers": ["18 + 2\\sqrt{105}", "43.48", "12 + \\frac{61577310586383}{1000000000000}", "46.58", "41.87"], "margin": 0.2}
+{"item_id": "dnat-math500-68", "answers": ["59^\\circ", "43.5", "73.3^\\circ", "31.62^\\circ", "71.57^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-2703", "answers": ["1", "1 + \\sqrt{3}, 1 - \\sqrt{3}", "-\\frac{1}{5}", "4, -1", "-1, \\frac{2}{5}, 3"], "margin": 0.2}
+{"item_id": "dnat-mathext-4380", "answers": ["5", "12", "8", "2", "6"], "margin": 0.2}
+{"item_id": "dnat-mathext-2394", "answers": ["(4, -14, 28, -7)", "(389, 164, 0, 389)", "(-33, \\frac{181}{6}, 86.501, -62.167)", "(13, 78, 169, 117)", "(0, 4, 41, 29)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2105", "answers": ["\\frac{\\sqrt{39}}{10}", "\\frac{2 \\sqrt{39}}{5}", "\\frac{\\sqrt{142} \\cdot \\sqrt{101}}{60}", "\\frac{53}{60}", "\\frac{\\sqrt{65}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4696", "answers": ["(-11, 6, 11)", "(-8, 5, 9)", "\\left(\\frac{3}{4}, 3, \\frac{15}{4}\\right)", "(4, 1, 1)", "\\left(6.25, 0.25, -8.75\\right)"], "margin": 0.2}
+{"item_id": "dnat-mathext-1253", "answers": ["274050", "604800", "2590200", "259200", "814800"], "margin": 0.2}
+{"item_id": "dnat-mathext-2162", "answers": ["-282", "602", "495", "354", "-354"], "margin": 0.2}
+{"item_id": "dnat-mathext-2574", "answers": ["5.6569", "8 (\\log_2 3)^2", "16", "\\frac{9}{4} (\\log_2 3)^2", "27"], "margin": 0.2}
+{"item_id": "dnat-math500-12", "answers": ["130", "350", "240", "229", "64"], "margin": 0.2}
+{"item_id": "dnat-mathext-3518", "answers": ["231", "770", "30030", "7", "13"], "margin": 0.2}
+{"item_id": "dnat-mathext-4379", "answers": ["112^\\circ", "68^\\circ", "12^\\circ", "120^\\circ", "60^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-871", "answers": ["\\frac{309}{100}", "0.0116", "\\frac{1}{72}", "0.03", "1.0218"], "margin": 0.2}
+{"item_id": "dnat-mathext-1768", "answers": ["34", "582", "74", "20", "47"], "margin": 0.2}
+{"item_id": "dnat-mathext-3390", "answers": ["25", "6", "5625", "20", "5"], "margin": 0.2}
+{"item_id": "dnat-mathext-904", "answers": ["-\\frac{3640}{27}", "-72", "-112", "-56", "-122"], "margin": 0.2}
+{"item_id": "dnat-mathext-3076", "answers": ["23456", "10982", "16481", "91315", "10980"], "margin": 0.2}
+{"item_id": "dnat-mathext-2066", "answers": ["13.2", "\\frac{3\\sqrt{5}}{4}", "16.7072", "2.295", "4.8"], "margin": 0.2}
+{"item_id": "dnat-mathext-590", "answers": ["\\frac{1}{2}", "2", "-\\frac{1}{1337}", "-1", "-\\frac{2003}{1002}"], "margin": 0.2}
+{"item_id": "dnat-math500-331", "answers": ["\\sqrt{\\dfrac{37\\sqrt{5} + 20\\sqrt{34}}{36}}", "\\sqrt{\\dfrac{39 + 7\\sqrt{5}}{10}}", "\\dfrac{\\sqrt{117\\sqrt{5} + 20\\sqrt{34}}}{6\\sqrt[4]{5}}", "\\sqrt{\\dfrac{117 + 20\\sqrt{\\dfrac{34}{5}}}{30}}", "\\dfrac{\\sqrt{117\\sqrt{5} + 20\\sqrt{34}}}{6}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2319", "answers": ["16", null, "28.56", "\\frac{32\\sqrt{105}}{11}", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-1780", "answers": ["52.5", "35", "76", "65", "41.25"], "margin": 0.2}
+{"item_id": "dnat-mathext-2075", "answers": ["\\frac{144}{1225}", "\\frac{4}{25}", "\\frac{12}{35}", "\\frac{6}{7}", "\\frac{16}{49}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4915", "answers": [null, "4.5", null, "11", null], "margin": 0.2}
+{"item_id": "dnat-mathext-3357", "answers": ["407809", "11113", "50581", "20507", "327"], "margin": 0.2}
+{"item_id": "dnat-math500-340", "answers": ["45^\\circ", "63^\\circ", "96^\\circ", "96.4^\\circ", "90^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-4618", "answers": ["(6, 13.5)", "(8, 15)", "(8.0, 2.0)", "(8, 7\\sqrt{3} + 35)", "(2 + 2\\sqrt{3}, \\frac{21\\sqrt{3} + 7}{2})"], "margin": 0.2}
+{"item_id": "dnat-mathext-1574", "answers": ["\\frac{10}{157}", "\\frac{25}{756}", "\\frac{5}{16}", "\\frac{20}{121}", "\\frac{25}{39}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4257", "answers": ["\\frac{1}{11}", "-\\frac{29}{13}", "\\frac{11}{13}", "-\\frac{11}{13}", "\\frac{29}{5}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4754", "answers": ["9^\\circ, 18^\\circ", "6^\\circ", "5.14^\\circ, 6.86^\\circ, 10.29^\\circ, 12.00^\\circ", "7.5^\\circ, 18^\\circ", null], "margin": 0.2}
+{"item_id": "dnat-mathext-1736", "answers": ["\\frac{102 + 24\\sqrt{3}}{3}", "\\frac{286}{15}", "\\frac{29}{2}", "10", "0"], "margin": 0.2}
+{"item_id": "dnat-math500-252", "answers": ["81", "392", "196", "28", "-19"], "margin": 0.2}
+{"item_id": "dnat-mathext-1557", "answers": ["60", "48", "36", "450", "492"], "margin": 0.2}
+{"item_id": "dnat-mathext-4115", "answers": ["69999", "99996", "89988", "99918", "59995"], "margin": 0.2}
+{"item_id": "dnat-mathext-2809", "answers": ["111", "9", "109", "17.5", "27"], "margin": 0.2}
+{"item_id": "dnat-mathext-1514", "answers": ["\\frac{1}{16}", "\\frac{1}{8}", null, "\\frac{1}{64}", "\\frac{3}{512}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1595", "answers": ["446", "5506", "697", "6732", "1376"], "margin": 0.2}
+{"item_id": "dnat-mathext-4887", "answers": ["\\frac{5}{6}", "\\frac{3}{4}", "\\frac{1}{6}", "\\sqrt{3}", "\\frac{\\sqrt{2}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1718", "answers": ["\\sqrt{3}", "2", "\\frac{2}{3}", "\\frac{\\sqrt{3}}{9}", "\\frac{\\sqrt{3}}{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2795", "answers": ["6030", "20100", "2010", "6048", "2"], "margin": 0.2}
+{"item_id": "dnat-math500-379", "answers": ["12^{\\mathrm{th}} \\text{ grade}", "10^{\\mathrm{th}} \\text{ grade}", "12^{\\text{th}} \\text{ grade}", "10", "10^{\\text{th}}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2592", "answers": ["\\frac{16}{3}x + \\frac{70}{3}", "2x^2 - 38x - 2", "2x^2", "2x^2 + 18", "(4 + \\sqrt{10})(ax^2 + bx + c)"], "margin": 0.2}
+{"item_id": "dnat-mathext-1270", "answers": ["12", "6", "4", "420", "48"], "margin": 0.2}
+{"item_id": "dnat-mathext-2436", "answers": ["13.19", "12.5", "12", "20", "10"], "margin": 0.2}
+{"item_id": "dnat-mathext-1219", "answers": ["\\frac{3}{4}", "\\frac{1}{8}", "0.9995", "\\frac{1008}{2007}", "0.2525"], "margin": 0.2}
+{"item_id": "dnat-mathext-2033", "answers": ["67.5", "50.3", "125.6", "94.1", "157.3"], "margin": 0.2}
+{"item_id": "dnat-mathext-1432", "answers": ["87797100", "2458350", "24,870,450", "273300", "208450"], "margin": 0.2}
+{"item_id": "dnat-mathext-2472", "answers": ["\\frac{1}{6}", "\\frac{1}{101}", "0.25", "14.061", "2.0"], "margin": 0.2}
+{"item_id": "dnat-mathext-1331", "answers": ["5000", "160", "12500", "40500", "75000"], "margin": 0.2}
+{"item_id": "dnat-mathext-2589", "answers": ["[0, \\frac{1}{2}] \\cup [\\frac{3}{2}, \\infty)", "(-\\infty, \\frac{1}{2}]", "(0, \\frac{1}{2})", "(-\\infty, \\frac{1}{2}] \\cup [\\frac{3}{2}, \\infty)", "(-\\infty, \\frac{1}{2}) \\cup (\\frac{1}{2}, \\infty)"], "margin": 0.2}
+{"item_id": "dnat-mathext-4727", "answers": ["1", "-0.5", "\\tan(22^\\circ)", "3.07768", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-2407", "answers": ["0", "0.000244140625", "0.0004956903389795297", "\\frac{6}{106}", "0.0001249397265625"], "margin": 0.2}
+{"item_id": "dnat-mathext-1898", "answers": ["108", "90", "73.3", "60", "104"], "margin": 0.2}
+{"item_id": "dnat-mathext-3191", "answers": ["8", "42", "10", "84", "17"], "margin": 0.2}
+{"item_id": "dnat-mathext-2417", "answers": ["155", "72.84", "65", "91", null], "margin": 0.2}
+{"item_id": "dnat-mathext-3677", "answers": ["1.4", "0.\\overline{142857}", "0.\\overline{8580}", "1.401298", "0.\\overline{714285}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1850", "answers": ["100^\\circ", "140", "90^\\circ", "25^\\circ", "85^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-2451", "answers": ["24.684", "4.736", "29.19", "16", "39"], "margin": 0.2}
+{"item_id": "dnat-mathext-20", "answers": ["9", "12", "8", "6", "28"], "margin": 0.2}
+{"item_id": "dnat-mathext-1864", "answers": ["35", "28", "56", "0", "42"], "margin": 0.2}
+{"item_id": "dnat-mathext-1923", "answers": ["3.00", "2.50", "1.50", "1.75", "1.00"], "margin": 0.2}
+{"item_id": "dnat-mathext-617", "answers": ["5", "\\frac{12}{5}", "6", "2", "12"], "margin": 0.2}
+{"item_id": "dnat-mathext-4650", "answers": ["[0, 1]", "\\text{all real numbers}", "0", "\\text{All positive real numbers}", "[1, \\infty)"], "margin": 0.2}
+{"item_id": "dnat-math500-228", "answers": ["3x - y + 2z = 36", "64\\pi", "288\\pi", "\\frac{16 \\pi}{3 \\sqrt{39}}", "\\text{A cylindrical region with radius 6 centered along the } z\\text{-axis}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2757", "answers": ["\\frac{5}{2} + \\sqrt{5}", "2", "4", "2 + \\frac{\\sqrt{6}}{2}", "1"], "margin": 0.2}
+{"item_id": "dnat-mathext-2663", "answers": ["y = x + 1", "y = -2x", "y = -\\frac{1}{256}x - 112", "y = 0", "y = -\\frac{1}{16}x + 48"], "margin": 0.2}
+{"item_id": "dnat-mathext-2410", "answers": ["405", "404.5", "406", "404.75", "405.65"], "margin": 0.2}
+{"item_id": "dnat-mathext-4658", "answers": ["\\frac{1 \\pm i\\sqrt{11}}{2}", "1, \\frac{1}{2} - \\frac{\\sqrt{3}}{2}i, \\frac{1}{2} + \\frac{\\sqrt{3}}{2}i", "1", "-1, 1, 7", "k \\in \\{-1.879, 0.879, 1\\}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4575", "answers": ["\\begin{pmatrix} -10 \\\\ 7 \\\\ \\frac{14}{3} \\end{pmatrix}", "\\left( \\frac{14}{5}, -\\frac{29}{5}, \\frac{2}{5} \\right)", "\\begin{pmatrix} -\\frac{2}{3} \\\\ \\frac{1}{3} \\\\ \\frac{14}{9} \\end{pmatrix}", "\\left( 2, -5, \\frac{2}{3} \\right)", "\\left( \\frac{2}{3}, -\\frac{11}{3}, \\frac{10}{9} \\right)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2262", "answers": ["546", "42", "\\frac{13268}{15}f", "-14448", "840"], "margin": 0.2}
+{"item_id": "dnat-mathext-1692", "answers": ["15.588", "3 \\text{ square feet}", "18", "54", "9"], "margin": 0.2}
+{"item_id": "dnat-mathext-1891", "answers": ["324", "50", "252", "256\\sqrt{2}", "2312"], "margin": 0.2}
+{"item_id": "dnat-mathext-1475", "answers": ["198", "222", "226", "215", "221"], "margin": 0.2}
+{"item_id": "dnat-mathext-822", "answers": ["120", "208", "121", "84", "60"], "margin": 0.2}
+{"item_id": "dnat-math500-272", "answers": ["92", "7", "12", "1012", "314"], "margin": 0.2}
+{"item_id": "dnat-mathext-2550", "answers": [null, "102", null, null, "72"], "margin": 0.2}
+{"item_id": "dnat-mathext-2565", "answers": ["249.32", "6\\sqrt{3}", "243.05", "12\\sqrt{3}", "40.8"], "margin": 0.2}
+{"item_id": "dnat-math500-482", "answers": ["1207", "1410", "1010", "1105", "1083"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-87", "answers": ["12783.64", "968.92", "799.40", "9562.2", "9583.20"], "margin": 0.2}
+{"item_id": "dnat-mathext-3346", "answers": ["5832", "80007", "846125", "512000", "There is no five-digit whole number with an 8 in the ten-thousands place that is a perfect cube."], "margin": 0.2}
+{"item_id": "dnat-mathext-652", "answers": ["2a + b + c", "2a + 2b + c - k", "2k", "2a + b", "2a + b + 2c - \\frac{b^2}{4a}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4516", "answers": ["50", "35", "12.0", "20", "28"], "margin": 0.2}
+{"item_id": "dnat-mathext-2114", "answers": ["3", "2(\\sqrt{15} - 1)", "\\sqrt{5}", null, "2"], "margin": 0.2}
+{"item_id": "dnat-mathext-4723", "answers": ["\\sin 20^\\circ - \\frac{1}{2} \\sin 40^\\circ", "\\frac{\\sqrt{3}}{4} + \\frac{1}{2} \\sin 20^\\circ", "\\cos 20^\\circ + \\frac{1}{2}", "\\frac{\\sqrt{3}}{4}", "\\frac{\\sqrt{3}}{4} + 0.342"], "margin": 0.2}
+{"item_id": "dnat-mathext-616", "answers": ["1.73", "6", null, null, "6.8"], "margin": 0.2}
+{"item_id": "dnat-mathext-1319", "answers": ["\\frac{1}{4855}", "\\frac{1}{16384}", "\\frac{1}{9690}", "\\frac{1}{20922789888000}", "\\frac{1}{2432902008176640000}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4827", "answers": ["\\frac{1}{2}", "\\cos(\\theta) = 2 \\left(\\frac{r(2a + b)}{ab}\\right)^2 - 1", "\\frac{33}{16}", "0", "\\frac{\\sqrt{13}}{4}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1676", "answers": ["42.4", "100.0", "98.2", "25.0", "50.0"], "margin": 0.2}
+{"item_id": "dnat-mathext-4207", "answers": ["6", "5", "9", "0", "1"], "margin": 0.2}
+{"item_id": "dnat-mathext-2295", "answers": ["31", "46 - v - x", "42", "58", "2"], "margin": 0.2}
+{"item_id": "dnat-math500-416", "answers": ["\\frac{65 - 5\\sqrt{5}}{8}", "\\frac{-42\\sqrt{5} + 130}{64}", "\\frac{9}{64}", "\\frac{13 - 4\\sqrt{5}}{64}", "\\frac{1}{8}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2572", "answers": ["7", "2", "-10", "\\frac{1}{60}", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-1447", "answers": ["\\frac{7}{22}", "0.5", "\\frac{363}{88}", "\\frac{29}{44}", "\\frac{5}{11}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2341", "answers": ["120596", "101408", "120640", "120597", "150750"], "margin": 0.2}
+{"item_id": "dnat-mathext-2507", "answers": ["0.9", "1", "\\frac{1}{2}", "\\frac{1}{3}", "\\sqrt{6}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2601", "answers": ["\\frac{5}{7}", "-\\frac{69501}{19691}", "\\frac{4228}{6567}", "\\frac{979}{995}", "\\frac{1147699}{1964900}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1314", "answers": ["\\frac{23}{36}", "\\frac{25}{36}", "\\frac{7}{9}", "\\frac{35}{36}", "\\frac{29}{36}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2921", "answers": ["\\frac{4^{46} - 4}{3}", "45", "60", "240", "\\frac{2^{92}}{3} - 2 \\cdot 2^{45} + 2"], "margin": 0.2}
+{"item_id": "dnat-mathext-3222", "answers": ["3", "16", "21", "23", "32"], "margin": 0.2}
+{"item_id": "dnat-mathext-2280", "answers": ["0", "845", "999", "2047", "499"], "margin": 0.2}
+{"item_id": "dnat-math500-254", "answers": ["129", "7", "10", "91", "756"], "margin": 0.2}
+{"item_id": "dnat-mathext-3456", "answers": ["36", "24", "84", "928", "28"], "margin": 0.2}
+{"item_id": "dnat-mathext-2208", "answers": ["154", "840", "385", "10341", "1155"], "margin": 0.2}
+{"item_id": "dnat-mathext-4976", "answers": ["0, \\frac{1}{2}, \\frac{\\sqrt{3}}{2}", "0, -\\frac{1}{2}", "0, \\frac{\\sqrt{3}}{2}", "0.766", "-1, 0, 1"], "margin": 0.2}
+{"item_id": "dnat-mathext-4959", "answers": ["666", "57", "1", "0", "63"], "margin": 0.2}
+{"item_id": "dnat-mathext-1245", "answers": ["18356", "14641", "18368", "2997", "2679"], "margin": 0.2}
+{"item_id": "dnat-mathext-4617", "answers": ["160^\\circ", "80^\\circ", "240^\\circ", "180^\\circ", "300^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-570", "answers": ["818921", "3230941", "972121", "978121", "970121"], "margin": 0.2}
+{"item_id": "dnat-mathext-2350", "answers": ["e - 3", "\\text{The series converges, but the exact sum is not easily expressible in a simple closed form.}", "\\text{The series diverges.}", "0", "\\text{diverges}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1848", "answers": ["23.25", "5 + \\sqrt{51} + 8\\sqrt{3}", "22", "22 + 4\\sqrt{3}", "11.55"], "margin": 0.2}
+{"item_id": "dnat-mathext-4890", "answers": ["\\begin{pmatrix} \\frac{3}{2} \\\\ -2 \\\\ \\frac{7}{2} \\end{pmatrix}", "\\begin{pmatrix} \\frac{17}{5} \\\\ \\frac{9}{5} \\\\ \\frac{1}{5} \\end{pmatrix}", "\\begin{pmatrix} \\frac{5}{2} \\\\ 0 \\\\ \\frac{5}{2} \\end{pmatrix}", null, "\\begin{pmatrix} 3 \\\\ 1 \\\\ 2 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2598", "answers": ["1155", "-4056", "984", "8", "8724"], "margin": 0.2}
+{"item_id": "dnat-mathext-3676", "answers": ["1085", "1093", "1104.5", "1095.5", "1100.5"], "margin": 0.2}
+{"item_id": "dnat-math500-409", "answers": ["24\\sqrt{2}", "5\\sqrt{3}", "2\\sqrt{19}", "8\\sqrt{30}", "2\\sqrt{66}"], "margin": 0.2}
+{"item_id": "dnat-math500-26", "answers": ["30", "504", "576", "684", "20"], "margin": 0.2}
+{"item_id": "dnat-mathext-1561", "answers": ["269253370442979485159", "61", "233", "71", "199"], "margin": 0.2}
+{"item_id": "dnat-math500-245", "answers": ["9", "-42", "23", "19", "-7"], "margin": 0.2}
+{"item_id": "dnat-mathext-3775", "answers": ["162", "450", "132", "180", "42"], "margin": 0.2}
+{"item_id": "dnat-mathext-2806", "answers": ["-4", "\\frac{1}{4}", "\\text{undefined}", "1", "-1"], "margin": 0.2}
+{"item_id": "dnat-mathext-830", "answers": ["\\frac{7}{20}", "\\frac{7}{15}", "\\frac{8}{25}", "\\frac{1}{5}", "\\frac{4}{9}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2544", "answers": ["0", null, "\\text{The exact number of solutions is complex to compute directly but can be estimated to be a very large number, likely involving combinatorial and number-theoretic considerations.}", "4", "\\infty"], "margin": 0.2}
+{"item_id": "dnat-mathext-308", "answers": ["(x^2 + \\frac{1}{8}x + \\frac{63}{64})(-4x - \\frac{1}{4})(-4x + \\frac{1}{4})", "(-2x^2 - 2x + 1)(4x^2 - 1)", "(x - 1)(-16x^2 - 7x + 1)", "(x^2 - \\frac{1}{4}x - 1)(-16x^2 + 4x - 3)", "(4x^2 - 9x + 1)(-16x^2 + \\frac{31}{4}x - \\frac{1}{64})"], "margin": 0.2}
+{"item_id": "dnat-mathext-4918", "answers": ["(0.0221, 0.0724, 0.9055)", "\\left( \\frac{8}{7}, 0, -\\frac{8}{7} \\right)", "\\left( \\frac{1}{3}, \\frac{1}{3}, \\frac{1}{3} \\right)", "\\left(-\\frac{7}{8}, -\\frac{7}{4}, \\frac{25}{8}\\right)", "\\left( \\frac{1}{3}, 0, \\frac{1}{3} \\right)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2315", "answers": ["\\left( \\frac{2}{5}, \\frac{1}{5} \\right)", "(0, \\frac{3}{5})", "\\left( \\frac{1}{5}, 5 \\right)", "\\left( \\frac{2}{5}, 0 \\right)", "\\left(0, \\frac{7}{10}\\right)"], "margin": 0.2}
+{"item_id": "dnat-mathext-4544", "answers": ["5\\sqrt{34}b", "9.39", "\\frac{\\sqrt{50000 - 436b^2}}{5}", "\\frac{50}{b}", "10"], "margin": 0.2}
+{"item_id": "dnat-mathext-2739", "answers": ["-\\frac{2c}{a} + \\frac{b^2}{2a^2}", "\\frac{b^2 - b\\sqrt{b^2 - 4ac} - 2ac}{2a^2}", "-\\frac{b^2}{4a^2} + \\frac{c}{a}", "\\frac{b^2}{4a^2}", "\\frac{2c}{a}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2102", "answers": ["0", "7.2", "21.75", "\\frac{350}{81}", "1.5"], "margin": 0.2}
+{"item_id": "dnat-mathext-1687", "answers": ["14", "1", "21", "24", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-3505", "answers": [null, "9", "11", "469", "104"], "margin": 0.2}
+{"item_id": "dnat-mathext-1109", "answers": ["1320", "1210", "105", "1208", "104"], "margin": 0.2}
+{"item_id": "dnat-mathext-2083", "answers": ["\\frac{1}{3}", "\\frac{1}{2}", "\\frac{9}{14}", "\\frac{9}{19}", "\\frac{18}{7}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2467", "answers": ["0.5", "\\frac{1}{4}", "-1", "\\frac{1}{3}", "0"], "margin": 0.2}
+{"item_id": "dnat-math500-392", "answers": ["7.6", "4.24", "3", "8", "\\frac{\\sqrt{13}}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4852", "answers": ["2.0098", "2", "2.0183", "4.8338", "1.908"], "margin": 0.2}
+{"item_id": "dnat-mathext-1461", "answers": ["0.3125", "\\frac{5}{32}", "\\frac{15}{128}", "\\frac{3}{16}", "0.375"], "margin": 0.2}
+{"item_id": "dnat-math500-205", "answers": ["\\begin{pmatrix} -8 \\\\ -\\frac{15}{2} + 4f \\\\ 39.5 + 4i \\end{pmatrix}", "\\begin{pmatrix} -\\frac{46}{3} \\\\ -14 \\\\ 23 \\end{pmatrix}", "\\begin{pmatrix} -2 \\\\ -14 \\\\ 8 \\end{pmatrix}", "\\begin{pmatrix} -44 \\\\ -6 \\\\ 39 + 3h + 4i \\end{pmatrix}", "\\begin{pmatrix} -38 \\\\ 19 \\\\ -2 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1960", "answers": ["1884160", "159744", "188736", "131392", "3799040"], "margin": 0.2}
+{"item_id": "dnat-mathext-3084", "answers": ["11,999,018", "12049497", "12051567", "12000021", "12,000,567"], "margin": 0.2}
+{"item_id": "dnat-math500-339", "answers": ["3k", "2k", "a(2 + h^2) + b - 2ah + c + k", "2a + b + c + (h^2 - 2h)a + (h^2 - 2h)", "2(a + b + c) - k"], "margin": 0.2}
+{"item_id": "dnat-mathext-2764", "answers": ["x^2 - x + 5", "x^2 + 10", "x - \\frac{10}{3}", "p(x) = x^2 - 5", "x^3 - 4x + 27"], "margin": 0.2}
+{"item_id": "dnat-mathext-2952", "answers": [null, "169", "265", null, "194"], "margin": 0.2}
+{"item_id": "dnat-mathext-2496", "answers": ["(3, 5]", "k < 2.5", "(-4, 5)", "\\left[ \\frac{-1 + \\sqrt{21}}{2}, 5 \\right]", "(-0.854, 5.854)"], "margin": 0.2}
+{"item_id": "dnat-mathext-3678", "answers": ["\\frac{3}{10}", "\\frac{1}{5}", "\\frac{3}{20}", "\\frac{67}{10}", "\\frac{7}{20}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4695", "answers": ["4.76", "50.625", "22.5\\pi", "\\frac{405}{16\\pi}", "\\frac{2\\pi^2}{9}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2794", "answers": ["2 + \\sqrt{5}", "1", "-\\frac{1}{2}", "\\frac{-1 + 3i}{8}", "-1"], "margin": 0.2}
+{"item_id": "dnat-mathext-4991", "answers": ["0, 0.158", "1.637, -0.237", "0.364, -1.414, 2.747", "1.3465, -0.4342", "1.554, -0.418"], "margin": 0.2}
+{"item_id": "dnat-mathext-1796", "answers": ["33", "49", "6", "200", "75"], "margin": 0.2}
+{"item_id": "dnat-mathext-4767", "answers": ["r", "\\frac{4.2\\sqrt{3}}{3}", null, "2", null], "margin": 0.2}
+{"item_id": "dnat-mathext-2181", "answers": ["\\frac{1}{4}", "\\frac{3}{8}", "\\frac{1}{3}", null, "-\\frac{1}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1598", "answers": ["\\frac{9}{5510}", "\\frac{2}{1005}", "\\frac{11}{5530}", "\\frac{9}{5525}", "\\frac{13}{5510}"], "margin": 0.2}
+{"item_id": "dnat-math500-408", "answers": ["\\begin{pmatrix} -1.6 \\\\ -3.6 \\end{pmatrix}", "\\begin{pmatrix} 0 \\\\ 5 \\end{pmatrix}", "\\begin{pmatrix} \\frac{5}{2} \\\\ 3 \\end{pmatrix}", "\\begin{pmatrix} \\frac{32}{15} \\\\ \\frac{18}{15} \\end{pmatrix}", "\\begin{pmatrix} -\\frac{17}{5} \\\\ \\frac{6}{5} \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3835", "answers": ["32", "35", "21", "24", "36"], "margin": 0.2}
+{"item_id": "dnat-mathext-1549", "answers": [null, "10", "5", "15", "2"], "margin": 0.2}
+{"item_id": "dnat-mathext-1398", "answers": ["\\frac{21}{16}", "\\frac{3}{8}", "\\frac{7}{8}", "\\frac{1}{4}", "\\frac{7}{16}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3176", "answers": ["4", "5", "3", "0", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-2877", "answers": ["12", "\\frac{25}{6} + 2\\sqrt{11}", "\\frac{73}{\\sqrt{41}}", "13", "\\frac{105 \\sqrt{41}}{41}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2575", "answers": ["18865", "6412", "198", "576", "-126"], "margin": 0.2}
+{"item_id": "dnat-mathext-2532", "answers": ["7", null, "4", "116", "34"], "margin": 0.2}
+{"item_id": "dnat-math500-164", "answers": ["\\sin 80^\\circ \\left( -\\frac{1}{\\cos 80^\\circ} + 4 \\right)", "-0.0748", "-1.29", "9.6062", "0.8615"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-62", "answers": ["150,000", "125,000", "550,000", "50,000", "100,000"], "margin": 0.2}
+{"item_id": "dnat-mathext-394", "answers": ["\\sqrt[3]{6}", "\\frac{2}{3}", "3", "54", "18"], "margin": 0.2}
+{"item_id": "dnat-mathext-3121", "answers": ["133", "139", "209", "16", "191"], "margin": 0.2}
+{"item_id": "dnat-math500-30", "answers": ["2050_8", "34_8", "502", "30_8", "334_8"], "margin": 0.2}
+{"item_id": "dnat-math500-489", "answers": ["2p + 30", "p + 15", "0", "30", "45 - p"], "margin": 0.2}
+{"item_id": "dnat-mathext-4944", "answers": ["\\frac{\\sqrt{2}}{2}", "\\frac{\\sqrt{17}}{7}", "\\frac{\\sqrt{3}}{2}", "-1", "\\frac{1}{2}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2229", "answers": ["666", "961", "999", "136", "31"], "margin": 0.2}
+{"item_id": "dnat-mathext-4518", "answers": ["3\\pi", "-\\pi", "4\\pi", "0", "6.0"], "margin": 0.2}
+{"item_id": "dnat-mathext-2163", "answers": ["10 \\text{ and } -15", "-2 \\pm 3\\sqrt{10}", null, "7 \\text{ and } 15", "5 \\text{ and } 7"], "margin": 0.2}
+{"item_id": "dnat-mathext-2055", "answers": ["AX \\approx \\text{some practical length derived from proportional reasoning}", "AX = \\sqrt{2} \\cdot XB", "\\frac{2\\sqrt{3} - 3}{11}", "AX \\text{ is the straight-line segment from } A \\text{ to } X.", "\\frac{\\sqrt{2 + \\sqrt{2}}}{2}"], "margin": 0.2}
+{"item_id": "dnat-math500-36", "answers": ["3, 5, 13", "3, 7, 10", "7", "x = 3, \\, x = -4 + \\sqrt{97}, \\, x = -4 - \\sqrt{97}", "5, 5 + 2\\sqrt{3}, 5 - 2\\sqrt{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1291", "answers": ["\\frac{229}{512}", "0.3776", "0.25396875", "\\frac{193}{512}", "0.70703125"], "margin": 0.2}
+{"item_id": "dnat-mathext-3039", "answers": ["14", "127", "20", "187", "340"], "margin": 0.2}
+{"item_id": "dnat-mathext-1313", "answers": ["50", "54", "90", "49", "55"], "margin": 0.2}
+{"item_id": "dnat-mathext-3446", "answers": ["104", "377", "14", "62", "524"], "margin": 0.2}
+{"item_id": "dnat-mathext-1328", "answers": ["0.73728", "\\frac{2351}{4096}", "\\frac{1023}{3072}", "\\frac{754}{1024}", "0.81450625"], "margin": 0.2}
+{"item_id": "dnat-mathext-3185", "answers": ["10", "6406", "1017", "59", "1289"], "margin": 0.2}
+{"item_id": "dnat-mathext-4913", "answers": ["3", "0", "65", "11.43", "0.341"], "margin": 0.2}
+{"item_id": "dnat-math500-365", "answers": ["12480", "625", "6561", "4", "16"], "margin": 0.2}
+{"item_id": "dnat-mathext-2614", "answers": ["64", "24", "3", "-\\frac{1}{2}", "1216"], "margin": 0.2}
+{"item_id": "dnat-mathext-3560", "answers": ["661", "32", "330", "71", "38"], "margin": 0.2}
+{"item_id": "dnat-mathext-3667", "answers": ["9", "7", "6", "5", "4"], "margin": 0.2}
+{"item_id": "dnat-mathext-3489", "answers": ["792", "801", "603", null, null], "margin": 0.2}
+{"item_id": "dnat-mathext-1233", "answers": ["\\frac{1}{2}", "0.790123456790123", "\\frac{49}{54}", "0.7647", "\\frac{41}{72}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2179", "answers": ["0, -1 + \\sqrt{2}, -1 - \\sqrt{2}", "0, 2", "2", "-1", "-\\frac{1}{4}, 0, 2"], "margin": 0.2}
+{"item_id": "dnat-mathext-2671", "answers": ["23", "27", "21", "37", "63"], "margin": 0.2}
+{"item_id": "dnat-mathext-1541", "answers": ["\\frac{1034}{6495}", "\\frac{25729}{40830}", "\\frac{1306064}{2598960}", "\\frac{3556}{1}", "\\frac{2617}{1000}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3174", "answers": ["16 \\mod 13 = 3", "7", "4", "0", "2"], "margin": 0.2}
+{"item_id": "dnat-mathext-4726", "answers": ["-1", "3", "\\frac{\\ln x}{\\ln z} (\\ln y - 1)", "1 + \\log(x) - \\log(z) + \\frac{\\log(z) \\cdot \\log(x)}{\\log(y)}", "1"], "margin": 0.2}
+{"item_id": "dnat-mathext-2140", "answers": ["2\\sqrt{521}", "0", "\\sqrt{269}", "8", "\\sqrt{333}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2007", "answers": [null, "\\frac{8\\sqrt{89}}{89}", "\\frac{1}{5}", null, "\\frac{8}{5}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4886", "answers": ["\\begin{pmatrix} \\frac{551}{435} & -\\frac{551}{435} \\\\ -\\frac{76}{435} & \\frac{551}{435} \\end{pmatrix}", "\\begin{pmatrix} \\frac{-91}{3550} & \\frac{7}{3550} \\\\ \\frac{-13}{3550} & \\frac{1}{3550} \\end{pmatrix}", "\\begin{pmatrix} \\frac{2}{5} & -\\frac{7}{5} \\\\ -\\frac{13}{5} & -\\frac{2}{5} \\end{pmatrix}", "\\begin{pmatrix} -\\frac{415}{190} & -\\frac{1407}{190} \\\\ -\\frac{2710}{190} & -\\frac{415}{190} \\end{pmatrix}", "\\begin{pmatrix} 2.1716 & 7.4405 \\\\ -14.2474 & -2.1716 \\end{pmatrix}"], "margin": 0.2}
+{"item_id": "dnat-mathext-33", "answers": ["18.0", "-14.0", "-3.1", "-19.3", "-12.0"], "margin": 0.2}
+{"item_id": "dnat-mathext-95", "answers": ["25", null, "125", "3", "266"], "margin": 0.2}
+{"item_id": "dnat-mathext-1786", "answers": ["2000 - 1000\\sqrt{2}", "1000 \\sqrt{\\sqrt{3 - 2\\sqrt{2}}}", "2000 - 449.5\\sqrt{2}", null, "2000(\\sqrt{2} - 1)"], "margin": 0.2}
+{"item_id": "dnat-math500-18", "answers": ["90^\\circ", "56^\\circ", "28^\\circ", "68^\\circ", "124^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-4664", "answers": ["24", "\\frac{9}{4}", "2", "0", "0.0159"], "margin": 0.2}
+{"item_id": "dnat-mathext-4465", "answers": ["-1", "0", "3", "-5", "-3"], "margin": 0.2}
+{"item_id": "dnat-math500-327", "answers": ["25", "385", "155", "815", "130"], "margin": 0.2}
+{"item_id": "dnat-mathext-4564", "answers": ["\\sin x (1 + 2 \\cos(2x) - \\frac{1}{2} \\sin(2x))", null, "-\\frac{\\sqrt{3}}{2} \\sin(2x)", "3 \\sin x \\left(1 - \\frac{4}{3} \\sin^2 x\\right)", "\\sin 3x - \\sqrt{3} \\sin 2x"], "margin": 0.2}
+{"item_id": "dnat-mathext-2487", "answers": ["27", "25", "20", "14", "64"], "margin": 0.2}
+{"item_id": "dnat-mathext-1200", "answers": ["14400", "307200", "5040", "28800", "7776"], "margin": 0.2}
+{"item_id": "dnat-mathext-4514", "answers": ["0^\\circ, 30^\\circ, 60^\\circ, 90^\\circ, 120^\\circ, 150^\\circ, 22.5^\\circ, 67.5^\\circ, 112.5^\\circ, 157.5^\\circ", "22.5^\\circ, 67.5^\\circ, 112.5^\\circ, 157.5^\\circ", "30^\\circ, 22.5^\\circ, 150^\\circ", "56.25^\\circ, 157.5^\\circ", "0^\\circ, 30^\\circ, 60^\\circ, 90^\\circ, 120^\\circ, 150^\\circ, 22.5^\\circ, 78.75^\\circ, 45^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-4793", "answers": [null, "\\begin{pmatrix} 1 & -4 \\\\ -3 & -\\frac{17}{2} \\end{pmatrix}", "\\begin{pmatrix} 3 & -\\frac{5}{4} \\\\ -\\frac{15}{4} & -7 \\end{pmatrix}", null, null], "margin": 0.2}
+{"item_id": "dnat-mathext-4907", "answers": ["1500.0", "0", "120^\\circ", "1800", "180^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-2619", "answers": ["\\infty", "0", "\\text{infinite}", "3", "2"], "margin": 0.2}
+{"item_id": "dnat-mathext-2873", "answers": ["q(x) = 3(x + 1)(x - 2)", "q(x) = -3x^3 + 3x^2 - 9x + 3", "q(x) = x^3 + 3x^2 - 4x - 6", "q(x) = -\\frac{3}{4}x^2 + \\frac{3}{4}x + \\frac{3}{2}", "3x^2 + 3x - 6"], "margin": 0.2}
+{"item_id": "dnat-mathext-3201", "answers": ["-2_6", "5_6", "52_6", "25_6", "32_6"], "margin": 0.2}
+{"item_id": "dnat-mathext-3945", "answers": ["1", "4", "28", "2", "7"], "margin": 0.2}
+{"item_id": "dnat-gsm8k-835", "answers": ["9", "27", "36", "144", "108"], "margin": 0.2}
+{"item_id": "dnat-mathext-2492", "answers": ["52", "13", "7", "16", "-10"], "margin": 0.2}
+{"item_id": "dnat-mathext-3716", "answers": ["\\sqrt{700 - 100(\\sqrt{2} + \\sqrt{6})}", "\\frac{\\sqrt{2} + \\sqrt{6}}{2}", "30", "10(\\sqrt{6} + \\sqrt{2})", "10(\\sqrt{6} - \\sqrt{2})"], "margin": 0.2}
+{"item_id": "dnat-mathext-1060", "answers": ["10", "-20.5", "-10", "-5", "-2"], "margin": 0.2}
+{"item_id": "dnat-mathext-2029", "answers": ["-\\frac{\\sqrt{30}}{15}", "\\frac{-2\\sqrt{3}}{\\sqrt{29}}", "\\frac{\\sqrt{6}}{3}", "1", "\\frac{1}{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1367", "answers": ["0.33", "0.11", "0.0336", "0.31", "0.30"], "margin": 0.2}
+{"item_id": "dnat-mathext-1716", "answers": ["210^\\circ", "30^\\circ", "15^\\circ", "240^\\circ", "6^\\circ"], "margin": 0.2}
+{"item_id": "dnat-mathext-4484", "answers": ["\\sec^2 x", "\\sec(2x) + \\frac{1}{\\tan x}", "1", "\\frac{1}{2} (\\sec^2 x + \\csc^2 x)", "\\sec(2x)"], "margin": 0.2}
+{"item_id": "dnat-mathext-113", "answers": ["\\frac{599}{998}", "\\frac{1}{3}", "\\frac{931}{111}", "\\frac{2}{333}", "5.75"], "margin": 0.2}
+{"item_id": "dnat-mathext-1987", "answers": ["2", "24 + 16\\sqrt{2}", "18", "32", "48"], "margin": 0.2}
+{"item_id": "dnat-mathext-2830", "answers": ["2187", "96", "\\frac{7}{4}", "\\frac{3}{4}", "7"], "margin": 0.2}
+{"item_id": "dnat-mathext-2432", "answers": ["22", "2", "102", "2 + 2\\sqrt{7}", "100"], "margin": 0.2}
+{"item_id": "dnat-mathext-1970", "answers": ["151", "78", "188", "111", "251"], "margin": 0.2}
+{"item_id": "dnat-mathext-1487", "answers": ["\\frac{39}{64}", "\\frac{5}{16}", "\\frac{15}{64}", "\\frac{11}{32}", "\\frac{7}{16}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1294", "answers": ["\\frac{7}{12}", "1", "0.8", "0.625", "\\frac{3}{8}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3274", "answers": ["869", "1340", "1358", "10", "98"], "margin": 0.2}
+{"item_id": "dnat-mathext-1565", "answers": ["10", "15", "6", "17", "8"], "margin": 0.2}
+{"item_id": "dnat-mathext-4878", "answers": ["0.768", "-0.0893", "-1", "1", "\\frac{17}{12}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3207", "answers": ["321", "236", "126", "123", "396"], "margin": 0.2}
+{"item_id": "dnat-mathext-4350", "answers": ["16.0", "12.0", "2.3", "3.0", "1.0"], "margin": 0.2}
+{"item_id": "dnat-mathext-3231", "answers": [null, "6", null, "32", "10"], "margin": 0.2}
+{"item_id": "dnat-math500-10", "answers": ["200200", "202", "2000", "200", "2220"], "margin": 0.2}
+{"item_id": "dnat-mathext-2442", "answers": ["6018114", "6033156", "6036426", "3018027", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-3443", "answers": ["2", "210", "840", "162240", "22400"], "margin": 0.2}
+{"item_id": "dnat-mathext-3714", "answers": ["175", "8", "36", "12", "90"], "margin": 0.2}
+{"item_id": "dnat-mathext-2634", "answers": ["10", "1", "3", "100", "4"], "margin": 0.2}
+{"item_id": "dnat-mathext-1783", "answers": ["197.02", "11.34", "The provided side lengths do not form a valid equiangular octagon under the typical cyclic polygon criteria, thus a precise area calculation is not possible with the given information.", "13.248", "12.26"], "margin": 0.2}
+{"item_id": "dnat-mathext-1476", "answers": ["\\frac{2}{5}", "1", "\\frac{9}{25}", "\\frac{4}{25}", "\\frac{9}{125}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4851", "answers": ["719", "360", "542", "11", "1080"], "margin": 0.2}
+{"item_id": "dnat-math500-175", "answers": ["9", "33", "12", null, "3"], "margin": 0.2}
+{"item_id": "dnat-mathext-883", "answers": ["36\\sqrt{35}x^{3/2}", "3 \\cdot 2^{3/2} \\cdot \\sqrt{85} \\cdot x^{3/2}", "4 \\cdot 3^{3/2} \\cdot 5^{1/2} \\cdot 17^{1/2} \\cdot x^{3/2}", "6\\sqrt{85x}", "6\\sqrt{30} \\cdot x^{3/2}"], "margin": 0.2}
+{"item_id": "dnat-math500-151", "answers": ["289", "36", "100", "144", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-1469", "answers": ["720", "72", "12", "360", "108"], "margin": 0.2}
+{"item_id": "dnat-math500-432", "answers": ["1970515", "0", "994 + 496503 f(1986)", "1967104", "498501"], "margin": 0.2}
+{"item_id": "dnat-mathext-4178", "answers": ["2\\sqrt{194} + 13", "12 + \\sqrt{194} + 5\\sqrt{2}", "40", "25 + 4\\sqrt{34}", "80"], "margin": 0.2}
+{"item_id": "dnat-mathext-4721", "answers": ["\\frac{34 + 18i}{37}", "\\frac{-31}{41} + i \\frac{-32}{41}", "-\\sqrt{17} + i", "-\\frac{15}{4} + \\frac{i \\sqrt{5}}{3}", "5"], "margin": 0.2}
+{"item_id": "dnat-mathext-4853", "answers": ["\\frac{7\\sqrt{3} + 3}{21}", "-\\frac{24 - 20\\sqrt{3}}{13}", "3", "\\frac{\\sqrt{3}}{3}", "-(\\sqrt{3} + 2)"], "margin": 0.2}
+{"item_id": "dnat-mathext-4586", "answers": ["\\frac{137}{290}", "\\frac{\\sqrt{2}}{2}", "0.765", "\\frac{103}{100}", "\\frac{-17 \\sqrt{29}}{300}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2573", "answers": ["(x^2 - 2x + 1)(x^2 + 12)", "(x - 13)(x^3 + 9x^2 + 183x - 2196)", "(x + 13)(x^3 - 17x^2 + 183x - 2196)", "(x^2 - 4x + 7)(x^2 - 10x + 13)", "(x^2 - 2x + 1)(x^2 + 12x + 13)"], "margin": 0.2}
+{"item_id": "dnat-mathext-1787", "answers": ["25", "10", "12", "18", "24"], "margin": 0.2}
+{"item_id": "dnat-mathext-2052", "answers": ["10", "14", "4\\sqrt{6}", "\\frac{64}{3}", "14.6"], "margin": 0.2}
+{"item_id": "dnat-mathext-4670", "answers": ["\\pi", "1", "2\\sqrt{5}", "2", "\\sqrt{5}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4313", "answers": ["1588", "1260", "786", "889", "210\\sqrt{3}"], "margin": 0.2}
+{"item_id": "dnat-mathext-1702", "answers": ["83", "166", "23", "10", "41"], "margin": 0.2}
+{"item_id": "dnat-mathext-3028", "answers": ["2", "4 + \\frac{25 \\pm \\sqrt{1341}}{2}i", "6 + 25.6i, 6 + 1.4i", "6 + 17i, 6 + 8i", "6 + (50 + 14\\sqrt{5})i, 6 + (50 - 14\\sqrt{5})i"], "margin": 0.2}
+{"item_id": "dnat-mathext-1203", "answers": ["\\frac{1}{6}", "\\frac{6}{25}", "\\frac{1}{60}", "\\frac{2}{15}", "\\frac{6}{11}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4509", "answers": ["0", "\\frac{1}{2} (\\sin 2x - \\cos 2x - 1) + \\cos x", "\\cot x - \\frac{1}{2}", "\\frac{1}{2} \\sin 2x + \\cos x - 1", "\\sin x (\\cos 1 - 1)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2912", "answers": ["(2, -\\frac{5}{2})", "\\left( -\\frac{5}{4}, 0 \\right)", "\\left( \\frac{\\sqrt{15}}{2}, 0 \\right)", "\\left( \\frac{1}{2}, -\\frac{5}{2} \\right)", "\\left(-\\frac{1}{2}, -\\frac{5}{2}\\right)"], "margin": 0.2}
+{"item_id": "dnat-math500-230", "answers": ["2.578", "4", "8", "1", "2.4"], "margin": 0.2}
+{"item_id": "dnat-mathext-1240", "answers": ["\\frac{13}{16}", "\\frac{5}{8}", "\\frac{1}{4}", "\\frac{9}{16}", "\\frac{1}{16}"], "margin": 0.2}
+{"item_id": "dnat-mathext-863", "answers": ["51769", "18432", "51996", "1800", "51929"], "margin": 0.2}
+{"item_id": "dnat-math500-415", "answers": ["8", "5", "9", "1", "0"], "margin": 0.2}
+{"item_id": "dnat-mathext-1560", "answers": ["300", "325", "100", "315", "330"], "margin": 0.2}
+{"item_id": "dnat-mathext-1047", "answers": ["17", null, "23", "8", "13"], "margin": 0.2}
+{"item_id": "dnat-mathext-2030", "answers": ["6", "\\frac{\\sqrt{2}}{6}", "\\frac{6}{\\sqrt{5}}", "9.64", "12.08"], "margin": 0.2}
+{"item_id": "dnat-mathext-4462", "answers": ["(13, 4, -1)", "\\left( -9.2, 4, 6.4 \\right)", "\\begin{pmatrix} 13.6 \\\\ 4 \\\\ -1.2 \\end{pmatrix}", "\\left( \\frac{49}{5}, \\frac{17}{5}, \\frac{11}{5} \\right)", "\\left( \\frac{17}{4}, 4, \\frac{23}{12} \\right)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2978", "answers": ["\\text{No such } n \\text{ exists}", "2", "36", "2019", "2018"], "margin": 0.2}
+{"item_id": "dnat-mathext-2076", "answers": ["4", "7", "2", "5", "6"], "margin": 0.2}
+{"item_id": "dnat-mathext-2377", "answers": ["126", "1512", "756", "501", "504"], "margin": 0.2}
+{"item_id": "dnat-mathext-2897", "answers": ["6", "20", "208", "28", "18"], "margin": 0.2}
+{"item_id": "dnat-mathext-2664", "answers": ["7", "-\\frac{33}{8} + \\frac{13i\\sqrt{3}}{8}", "0", "-3 - \\frac{15}{2} \\sqrt{3}", "-\\frac{45}{8}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4838", "answers": ["\\frac{\\pi}{2}", "1.471130619519562", "\\arctan \\left( \\frac{11}{5} \\right)", "2.8198", "1.3734"], "margin": 0.2}
+{"item_id": "dnat-mathext-2620", "answers": ["x = a", "6", "\\frac{1}{b - 1}", "x = 2ab", "b"], "margin": 0.2}
+{"item_id": "dnat-mathext-2735", "answers": ["15", "\\frac{15722}{3375}", "65", "729", "\\frac{529105}{729}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2363", "answers": ["(1, 2)", "\\left( \\frac{1}{4}, \\frac{\\sqrt{19}}{4} \\right)", "(-1, 2)", "(1.732, 1)", "(1, 1)"], "margin": 0.2}
+{"item_id": "dnat-mathext-214", "answers": ["-\\frac{1}{3}", "0", "\\frac{3a - 2}{2}", "2", "\\frac{1}{2}"], "margin": 0.2}
+{"item_id": "dnat-math500-224", "answers": ["\\sin 20^\\circ", "0.25", "0.08314566850472507", "0.0414375", "\\frac{\\sqrt{3}}{16}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3353", "answers": ["1", "2", "0", "8", "16"], "margin": 0.2}
+{"item_id": "dnat-mathext-2184", "answers": ["x = 3", "x = -5", "\\frac{3}{2}", "x = -\\frac{5}{2}", "x = \\frac{-7 \\pm \\sqrt{49 + 8c}}{4}"], "margin": 0.2}
+{"item_id": "dnat-mathext-681", "answers": ["\\frac{35 \\sqrt{2}}{567}", "\\frac{7}{3}", "\\frac{35 \\sqrt{\\frac{2}{21}}}{9}", "\\frac{5\\sqrt{42}}{9}", "\\frac{\\sqrt{30}}{9}"], "margin": 0.2}
+{"item_id": "dnat-mathext-82", "answers": [null, "10", null, "6", "14"], "margin": 0.2}
+{"item_id": "dnat-mathext-3643", "answers": ["144", "142", "127 \\text{ feet}", "112", "30.25 \\text{ feet}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3271", "answers": [null, "11", "\\text{No positive integer base } b \\text{ satisfies the given equation.}", null, "10"], "margin": 0.2}
+{"item_id": "dnat-mathext-2361", "answers": ["19", "-Q - 22", "26", "2P + 17", "B + C + 13"], "margin": 0.2}
+{"item_id": "dnat-mathext-2995", "answers": ["10", "-4", "-95", "-1", "-16"], "margin": 0.2}
+{"item_id": "dnat-mathext-121", "answers": ["-3", "-2", "7", "-2.95", "6.93"], "margin": 0.2}
+{"item_id": "dnat-mathext-2329", "answers": ["0", "3", "1", "2 + 2i\\sqrt{3}", "-1"], "margin": 0.2}
+{"item_id": "dnat-mathext-1644", "answers": ["\\frac{1}{4}", "\\frac{1}{3}", "\\frac{5}{6}", "\\frac{9}{40}", "\\frac{3}{40}"], "margin": 0.2}
+{"item_id": "dnat-mathext-2939", "answers": ["\\infty", "\\frac{1}{65536}", "0", "\\frac{17}{30}", "\\text{diverges}"], "margin": 0.2}
+{"item_id": "dnat-mathext-3081", "answers": ["\\frac{3283}{999}", "\\frac{2234}{670}", "\\frac{111}{37}", "\\frac{2983}{900}", "\\frac{121}{37}"], "margin": 0.2}
+{"item_id": "dnat-mathext-4980", "answers": ["(1, 1, 1)", "(3, 3, -3)", "\\left(\\frac{1}{3}, 1, -2\\right)", "(0, 0, 0)", "\\left(\\frac{\\sqrt{10}}{3} - 1, \\frac{\\sqrt{10}}{3} - 1, \\frac{\\sqrt{10}}{3} - 1\\right)"], "margin": 0.2}
+{"item_id": "dnat-mathext-2396", "answers": ["-\\frac{1}{3}", "\\frac{k - 4a}{k + 4a}", "\\frac{12150 - 4950\\sqrt{2}}{15125}", "\\frac{4}{21}", "\\frac{p - 4q}{p + 4q}"], "margin": 0.2}
+{"item_id": "dnat-math500-78", "answers": ["\\left(-\\frac{3}{2}, 0\\right)", "(1, 2) \\text{ or } (1, -2)", "\\left( \\frac{3}{4}, \\frac{3}{2} \\right)", "(2, 3)", "(-2, 1)"], "margin": 0.2}
+{"item_id": "dnat-math500-43", "answers": ["112.46", "158.23", "131.24", "114.03", "99.21"], "margin": 0.2}
+{"item_id": "dnat-mathext-3114", "answers": ["\\frac{1}{6}", "\\frac{7}{45}", "\\frac{1}{9}", "\\frac{2}{11}", "\\frac{52}{900}"], "margin": 0.2}
+{"item_id": "dnat-mathext-993", "answers": ["8010", "1560", "10001", "9900", "9800"], "margin": 0.2}
+{"item_id": "dnat-mathext-1242", "answers": ["50", "49", "25", "24", "49"], "margin": 0.4}
+{"item_id": "dnat-mathext-3469", "answers": ["1", "12", "12", "3", "7"], "margin": 0.4}
+{"item_id": "dnat-mathext-600", "answers": ["(7.93, 5.628)", "(7.99, 5.604)", "(6.6, 6.16)", "(6.64, 6.144)", "(7.99, 5.604)"], "margin": 0.4}
+{"item_id": "dnat-math500-494", "answers": ["0.25", "0.5", "1", "\\frac{7}{100}", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-1648", "answers": ["53", "52", "53", "52", "45"], "margin": 0.4}
+{"item_id": "dnat-mathext-2260", "answers": ["1209", "6028", "1010", "1209", "3022"], "margin": 0.4}
+{"item_id": "dnat-mathext-4984", "answers": ["90^\\circ", "60^\\circ", "90^\\circ", "0^\\circ", "180^\\circ"], "margin": 0.4}
+{"item_id": "dnat-mathext-2769", "answers": ["3", "2", "3", "2", "4"], "margin": 0.4}
+{"item_id": "dnat-mathext-4873", "answers": ["\\frac{7\\pi}{6}", "\\frac{7\\pi}{12}", "\\frac{3\\pi}{8}", "\\frac{7\\pi}{12}", "\\frac{7\\pi}{6}"], "margin": 0.4}
+{"item_id": "dnat-math500-46", "answers": ["6", "8", "4", "6", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-4836", "answers": ["-\\frac{7}{15}", "\\frac{5}{3}", "\\frac{10}{9}", "\\frac{10}{9}", "\\frac{18}{23}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3055", "answers": ["11", "71", "11", "61", "61"], "margin": 0.4}
+{"item_id": "dnat-mathext-1911", "answers": ["\\frac{1}{5}", "0", "1", "0", "\\frac{1}{6}"], "margin": 0.4}
+{"item_id": "dnat-gsm8k-182", "answers": ["24", "24", "23", "23", "30"], "margin": 0.4}
+{"item_id": "dnat-mathext-2248", "answers": ["0", "\\frac{1}{6}", "\\frac{2}{3}", "\\frac{1}{2}", "0"], "margin": 0.4}
+{"item_id": "dnat-math500-436", "answers": ["4", "6", "5", "3", "6"], "margin": 0.4}
+{"item_id": "dnat-mathext-4771", "answers": ["k = \\frac{\\mathbf{a} \\cdot \\mathbf{b} \\pm \\sqrt{(\\mathbf{a} \\cdot \\mathbf{b})^2 - 144}}{16}", "k = \\frac{d \\pm \\sqrt{d^2 - 144}}{16}", "k = \\frac{c \\pm \\sqrt{c^2 - 144}}{16} \\text{ for } |c| \\geq 12", "\\pm \\frac{3}{4}", "\\pm \\frac{3}{4}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2071", "answers": ["1.6", "1.25664", "72", "72", "0.4"], "margin": 0.4}
+{"item_id": "dnat-mathext-1763", "answers": ["10", "5", "9", "4", "9"], "margin": 0.4}
+{"item_id": "dnat-mathext-3578", "answers": ["1", "6", "4", "5", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-3834", "answers": ["4", "5", "1", "3", "4"], "margin": 0.4}
+{"item_id": "dnat-mathext-4760", "answers": ["-5 + 3i", "-5 + i", "-1 + 5i", "-1 + 5i", "-5 + 3i"], "margin": 0.4}
+{"item_id": "dnat-mathext-3083", "answers": ["2300", "2010", "6030", "90", "90"], "margin": 0.4}
+{"item_id": "dnat-math500-281", "answers": ["216^\\circ", "36^\\circ", "72^\\circ", "144^\\circ", "216^\\circ"], "margin": 0.4}
+{"item_id": "dnat-mathext-2780", "answers": ["336", "64", "160", "120", "160"], "margin": 0.4}
+{"item_id": "dnat-math500-136", "answers": ["64", "504", "16", "3405", "64"], "margin": 0.4}
+{"item_id": "dnat-mathext-3016", "answers": ["\\sqrt{118}", "8", "2\\sqrt{22}", "2", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-1657", "answers": ["144", "142", "120", "104", "142"], "margin": 0.4}
+{"item_id": "dnat-mathext-1904", "answers": ["27\\sqrt{3}", "18\\sqrt{3}", "\\frac{63\\sqrt{3}}{8}", "\\frac{81\\sqrt{3}}{2}", "18\\sqrt{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3204", "answers": ["-\\frac{31}{3}", "137", "7", "7", "137"], "margin": 0.4}
+{"item_id": "dnat-mathext-1446", "answers": ["\\frac{65}{198}", "\\frac{65}{132}", "\\frac{20}{33}", "\\frac{49}{110}", "\\frac{65}{132}"], "margin": 0.4}
+{"item_id": "dnat-mathext-1770", "answers": ["8\\sqrt{2}", "2\\sqrt{33}", "12", "8\\sqrt{2}", "2\\sqrt{33}"], "margin": 0.4}
+{"item_id": "dnat-math500-396", "answers": ["12", "4", "16", "4", "16"], "margin": 0.4}
+{"item_id": "dnat-mathext-1946", "answers": ["50\\sqrt{2}", "100", "50", "100", "50\\sqrt{3}"], "margin": 0.4}
+{"item_id": "dnat-math500-323", "answers": ["\\frac{3}{4}", "\\frac{1}{2}", "\\frac{1}{2}", "\\frac{6}{203212216}", "\\frac{3}{4}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2685", "answers": ["4", "7", "8", "4", "5"], "margin": 0.4}
+{"item_id": "dnat-mathext-2892", "answers": ["1", "-3.414", "1 - \\sqrt{2} - \\sqrt{3} - \\sqrt{5}", "1 - \\sqrt{2} - \\sqrt{3} - \\sqrt{5}", "a_0"], "margin": 0.4}
+{"item_id": "dnat-mathext-2461", "answers": ["(-\\infty, \\infty)", "\\mathbb{R}", "\\mathbb{R} \\setminus \\{5\\}", "[5, \\infty)", "(-\\infty, 5) \\cup (5, \\infty)"], "margin": 0.4}
+{"item_id": "dnat-mathext-1649", "answers": ["100", "20", "11", "20", "96"], "margin": 0.4}
+{"item_id": "dnat-mathext-1157", "answers": ["3", "15", "14", "18", "15"], "margin": 0.4}
+{"item_id": "dnat-math500-140", "answers": ["13", "1", "3", "13", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-1224", "answers": ["300", "200", "200", "1200", "976"], "margin": 0.4}
+{"item_id": "dnat-mathext-3160", "answers": ["7", "7", "10", "8", "11"], "margin": 0.4}
+{"item_id": "dnat-mathext-1288", "answers": ["\\frac{14}{25}", "\\frac{3}{2}", "\\frac{21}{25}", "\\frac{12}{25}", "\\frac{21}{25}"], "margin": 0.4}
+{"item_id": "dnat-mathext-4562", "answers": ["60^\\circ, 102.47^\\circ, 120^\\circ", "55^\\circ, 70^\\circ, 55^\\circ", "60^\\circ, 90^\\circ, 30^\\circ", "30^\\circ, 60^\\circ, 90^\\circ", "41.81^\\circ, 60.32^\\circ, 77.87^\\circ"], "margin": 0.4}
+{"item_id": "dnat-gsm8k-2", "answers": ["70,000", "70000", "65000", "65,000", "-10,000"], "margin": 0.4}
+{"item_id": "dnat-mathext-4109", "answers": ["55", "165", "207", "378", "165"], "margin": 0.4}
+{"item_id": "dnat-math500-390", "answers": ["20", "2", "22", "20", "4"], "margin": 0.4}
+{"item_id": "dnat-math500-103", "answers": ["4", "\\lambda = 1 \\text{ and } \\lambda = 4", "0 \\text{ and } 1", "\\text{There is no such } \\lambda \\text{ in the range } 0 \\le \\lambda \\le 4.", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-4611", "answers": ["2\\pi \\sqrt{507}", "\\text{Infinite}", "\\text{infinite}", "\\text{The length of the curve is infinite.}", "\\infty"], "margin": 0.4}
+{"item_id": "dnat-mathext-2621", "answers": ["1", "\\frac{2\\sqrt{3}}{9}", "\\frac{\\sqrt{202}}{102}", "\\frac{1}{2}", "\\frac{2\\sqrt{3}}{9}"], "margin": 0.4}
+{"item_id": "dnat-math500-109", "answers": ["45^\\circ", "276.54^\\circ", "45^\\circ", "60^\\circ", "447.28^\\circ"], "margin": 0.4}
+{"item_id": "dnat-math500-88", "answers": ["2", "\\infty", "1", "1", "\\sqrt{2}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2326", "answers": ["15", "3", "15", "51", "2x + 1"], "margin": 0.4}
+{"item_id": "dnat-mathext-3131", "answers": ["10101", "12221", "12221", "20002", "10901"], "margin": 0.4}
+{"item_id": "dnat-mathext-685", "answers": ["-\\frac{49}{12}", "\\frac{143}{36}", "-\\frac{49}{12}", "\\frac{1}{6}", "\\frac{49}{36}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3087", "answers": ["Saturday", "Thursday", "Tuesday", "Monday", "\\text{Saturday}"], "margin": 0.4}
+{"item_id": "dnat-mathext-1154", "answers": ["12", "8", "6", "8", "14"], "margin": 0.4}
+{"item_id": "dnat-mathext-32", "answers": ["105", "87", "109", "105", "66"], "margin": 0.4}
+{"item_id": "dnat-mathext-3135", "answers": ["503", "504", "503", "505", "504"], "margin": 0.4}
+{"item_id": "dnat-mathext-1606", "answers": ["0.5", "0.5077", "0.5051", "0.5", "0.4998"], "margin": 0.4}
+{"item_id": "dnat-mathext-4260", "answers": ["133", "205", "205", "110", "65"], "margin": 0.4}
+{"item_id": "dnat-mathext-4939", "answers": ["\\frac{10\\sqrt{3}}{3}", "2.886", "2.886", "\\frac{5\\sqrt{3}}{3}", "\\frac{10\\sqrt{3}}{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3477", "answers": ["9", "9", "10", "10", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-3327", "answers": ["11", "90", null, "11A^2", "11"], "margin": 0.4}
+{"item_id": "dnat-mathext-4996", "answers": [null, "\\begin{pmatrix} 13 \\\\ -2 \\\\ 3 \\end{pmatrix}", "\\begin{pmatrix} 1 \\\\ 2 \\\\ -3 \\end{pmatrix}", "\\begin{pmatrix} 1 \\\\ 2 \\\\ 1 \\end{pmatrix}", "\\begin{pmatrix} 13 \\\\ -2 \\\\ 3 \\end{pmatrix}"], "margin": 0.4}
+{"item_id": "dnat-mathext-4316", "answers": ["-20^\\circ", "22^\\circ", "80^\\circ", "-20^\\circ", "0.9397"], "margin": 0.4}
+{"item_id": "dnat-mathext-1382", "answers": ["11", "6", "10", "6", "11"], "margin": 0.4}
+{"item_id": "dnat-mathext-2376", "answers": ["7", "\\sqrt{689}", "17", "25", "25"], "margin": 0.4}
+{"item_id": "dnat-mathext-3828", "answers": ["3", "7", "3", "10", "10"], "margin": 0.4}
+{"item_id": "dnat-mathext-4063", "answers": ["\\frac{4}{13}", "\\frac{25}{52}", "\\frac{15}{52}", "\\frac{4}{13}", "\\frac{27}{52}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3268", "answers": ["7", "10", "24", "10", "24"], "margin": 0.4}
+{"item_id": "dnat-mathext-4035", "answers": ["9", "25", "25", "24", "10"], "margin": 0.4}
+{"item_id": "dnat-mathext-73", "answers": ["-33.145", "\\frac{38 + 13\\sqrt{131}}{8}", "\\frac{19}{4}", "-32.75", "4.75"], "margin": 0.4}
+{"item_id": "dnat-mathext-2891", "answers": ["\\frac{13}{6}", "\\sqrt{13}", "\\sqrt{13}", "\\frac{13}{6}", "3\\sqrt{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3283", "answers": ["18", "154", "216", "154", "162"], "margin": 0.4}
+{"item_id": "dnat-mathext-1183", "answers": ["x^7 - 5x^5 + x^2", "-x^7 + 5x^2 - 2x^5", "-x^7 - 2x^5 + 3x^2", "-x^7 - 2x^5 + 3x^2", "-x^5 + x^2"], "margin": 0.4}
+{"item_id": "dnat-mathext-2608", "answers": ["7", "6", "7", "8", "6"], "margin": 0.4}
+{"item_id": "dnat-mathext-2456", "answers": ["(1, 4\\sqrt{3})", "(1, 4\\sqrt{3})", "(1.3, 6.88)", "(1.84, 6.74)", "(6.99, 12.52)"], "margin": 0.4}
+{"item_id": "dnat-mathext-3041", "answers": ["1224", "43", "28", "1224", "64"], "margin": 0.4}
+{"item_id": "dnat-mathext-2296", "answers": ["\\frac{13}{2}x - 2", "3x - 2", "\\frac{5}{3}x - 2", "x - 3", "3x - 2"], "margin": 0.4}
+{"item_id": "dnat-mathext-129", "answers": ["501", "1005", "501", "500", "504"], "margin": 0.4}
+{"item_id": "dnat-mathext-4511", "answers": ["2", "1.146", "\\frac{29}{22}", "\\frac{29}{22}", "\\frac{22}{15}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3376", "answers": ["\\frac{1}{90}", "\\frac{1}{10}", "\\frac{1}{9}", "\\frac{2}{45}", "\\frac{1}{10}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2950", "answers": [null, "-\\frac{9}{2}", "-\\frac{9}{2}", "-18", "-12"], "margin": 0.4}
+{"item_id": "dnat-mathext-1691", "answers": ["312\\pi", "264\\pi", "192 \\pi", "192\\pi", "156 \\pi"], "margin": 0.4}
+{"item_id": "dnat-mathext-1191", "answers": ["835", "667", "667", "834", "1003"], "margin": 0.4}
+{"item_id": "dnat-mathext-1368", "answers": ["4", "12", "6", "18", "12"], "margin": 0.4}
+{"item_id": "dnat-mathext-3642", "answers": ["15", "15", "33", "53", "76"], "margin": 0.4}
+{"item_id": "dnat-mathext-2132", "answers": ["\\frac{25\\sqrt{3}}{9}", "\\frac{25\\sqrt{3}}{3}", "25\\sqrt{3}", "\\frac{25\\sqrt{3}}{12}", "\\frac{25\\sqrt{3}}{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3030", "answers": ["\\frac{5}{4}", "-\\frac{9}{4}", "\\frac{5}{4}", "0", "-\\frac{5}{4}"], "margin": 0.4}
+{"item_id": "dnat-mathext-567", "answers": ["94.4", "92.8", "92.8", "96.8", "96.7"], "margin": 0.4}
+{"item_id": "dnat-mathext-3728", "answers": ["864 \\text{ feet}", "372", "492", "984", "864"], "margin": 0.4}
+{"item_id": "dnat-math500-51", "answers": ["x^5 - x^4 + x^3 - x^2 + x - 1", "x^5 - x^4 + x^3 - x^2 + x - 1", "x^5 + 4x^4 - 4x^3 + 4x^2 - 4x + 1", "x^5 - x^4 + x^3 - x^2 - x - 2", "x^5 - x^4 + x^3 - 3x^2 - 3x - 4"], "margin": 0.4}
+{"item_id": "dnat-mathext-4480", "answers": ["\\frac{\\sqrt{2}}{16}", "\\frac{3}{8}", "\\frac{3}{8}", "\\frac{\\sqrt{7}}{4}", "\\frac{1439}{4160}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2430", "answers": ["0", "1", "b - 1", "c^2", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-4287", "answers": ["2\\sqrt{105}", "210", "30 \\cdot 7^{3/2}", "\\sqrt{210}", "2 \\sqrt{105}"], "margin": 0.4}
+{"item_id": "dnat-mathext-4808", "answers": ["6\\pi", "2\\pi", "12\\pi", "2\\pi", "6\\pi"], "margin": 0.4}
+{"item_id": "dnat-mathext-2411", "answers": ["1004", "2007", "1002", "1004", "1006"], "margin": 0.4}
+{"item_id": "dnat-mathext-2223", "answers": ["0.238", "1, 2", "1", "0, 1", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-4687", "answers": ["25", "25", "\\frac{\\sqrt{14}}{2}", "33", "39.2"], "margin": 0.4}
+{"item_id": "dnat-math500-428", "answers": ["96", "88", "32", "88", "148"], "margin": 0.4}
+{"item_id": "dnat-mathext-4818", "answers": ["\\frac{2 \\sin^2 2x}{3 \\sin^2 2x - 4}", "\\frac{1}{\\frac{1}{4} \\sin^2 2x + 1}", "\\frac{2}{3}", "0", "\\frac{2}{3}"], "margin": 0.4}
+{"item_id": "dnat-gsm8k-672", "answers": ["2", "2", "1", "1", "14"], "margin": 0.4}
+{"item_id": "dnat-mathext-2884", "answers": ["1", "2", "\\frac{3}{2}", "0", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-1995", "answers": ["25000", "28000", "17,700 \\text{ miles}", "17600", "17,700"], "margin": 0.4}
+{"item_id": "dnat-mathext-1754", "answers": ["3", "3", "\\frac{1}{2}", "\\frac{1}{2}", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-4701", "answers": ["152", "208", "208", "128", "80"], "margin": 0.4}
+{"item_id": "dnat-mathext-2343", "answers": ["94", "246", "18", "88", "88"], "margin": 0.4}
+{"item_id": "dnat-mathext-2420", "answers": ["8", "6", "4", "\\frac{\\sqrt{65}}{2}", "4"], "margin": 0.4}
+{"item_id": "dnat-mathext-2455", "answers": ["2", "1", "\\infty", "\\text{infinitely many}", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-4667", "answers": ["x + z = 0", "x + 3z = 0", "x - 3z = 0", "x - z = 0", "x - 3z = 0"], "margin": 0.4}
+{"item_id": "dnat-mathext-238", "answers": ["122", "121", "123", "122", "123"], "margin": 0.4}
+{"item_id": "dnat-mathext-3156", "answers": ["100", "81", "36", "121", "100"], "margin": 0.4}
+{"item_id": "dnat-mathext-3575", "answers": ["16", "16", "20", "31", "20"], "margin": 0.4}
+{"item_id": "dnat-mathext-2833", "answers": ["0", "100", "100", "1", "21300"], "margin": 0.4}
+{"item_id": "dnat-mathext-359", "answers": ["-112", "0", "-114", "-84", "-114"], "margin": 0.4}
+{"item_id": "dnat-mathext-3509", "answers": ["26", "10400", "104", "3250", "104"], "margin": 0.4}
+{"item_id": "dnat-mathext-3133", "answers": ["5", "3", "9", "5", "0"], "margin": 0.4}
+{"item_id": "dnat-mathext-2644", "answers": ["36", "48", "48", "32", null], "margin": 0.4}
+{"item_id": "dnat-mathext-4358", "answers": ["\\frac{1}{320000}", "1", "25.903920796373536", "\\frac{3125}{59049}", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-1663", "answers": ["\\frac{20}{7}", "4\\sqrt{2}", "0", "\\frac{40}{9}", "0"], "margin": 0.4}
+{"item_id": "dnat-mathext-3422", "answers": ["39", "33", "39", "15", "33"], "margin": 0.4}
+{"item_id": "dnat-mathext-2307", "answers": ["7", "49", "\\frac{257}{16}", "\\frac{257}{16}", "3.5"], "margin": 0.4}
+{"item_id": "dnat-mathext-4999", "answers": [null, null, "\\begin{pmatrix} 1 \\\\ 0 \\\\ -1 \\end{pmatrix}", "\\begin{pmatrix} 1 \\\\ 0 \\\\ -1 \\end{pmatrix}", "\\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3520", "answers": ["4", "4", "1", "1", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-2597", "answers": ["\\sqrt{41} + \\sqrt{2}", "2\\sqrt{22}", null, "3 + 4\\sqrt{2}", "3 + 4\\sqrt{2}"], "margin": 0.4}
+{"item_id": "dnat-mathext-1516", "answers": ["172800", "6402373705728000", "1728000", "360", "6402373705728000"], "margin": 0.4}
+{"item_id": "dnat-mathext-2317", "answers": ["283", "204", "194", "189", "189"], "margin": 0.4}
+{"item_id": "dnat-mathext-222", "answers": ["x^4 + 2x^2 + 8x", "x^4 - 4x^2 - 10x - 24", "x^4 - 3x^2 - 10x - 24", "x^4 - 3x^2 - 10x - 24", "x^4 - 4x^2 - 10x - 24"], "margin": 0.4}
+{"item_id": "dnat-mathext-219", "answers": ["0", "-10", "-12", "-6", "-12"], "margin": 0.4}
+{"item_id": "dnat-mathext-2374", "answers": ["2", "\\text{All real numbers except } x = a \\text{ and } x = b.", "3", "2", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-3482", "answers": ["35", "12", "40", "40", "8"], "margin": 0.4}
+{"item_id": "dnat-mathext-3100", "answers": ["17", "7", "7", "13", "13"], "margin": 0.4}
+{"item_id": "dnat-mathext-248", "answers": ["3402", "4022", "3422", "3422", "3402"], "margin": 0.4}
+{"item_id": "dnat-mathext-1717", "answers": ["8\\pi", "16\\pi", "12\\pi", "4\\pi", "16\\pi"], "margin": 0.4}
+{"item_id": "dnat-mathext-2243", "answers": ["1", "1", null, "123456780", "-246913577"], "margin": 0.4}
+{"item_id": "dnat-mathext-3074", "answers": ["17", "9", "7", "9", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-3559", "answers": ["6", "6", "3", "11", "7"], "margin": 0.4}
+{"item_id": "dnat-mathext-4916", "answers": ["15.0", "15.21", "7.0", "10.616", "15"], "margin": 0.4}
+{"item_id": "dnat-math500-219", "answers": ["\\frac{1}{3}", "0.06", "\\frac{1}{3}", "\\frac{1}{10}", "\\frac{3}{16}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3450", "answers": ["106", "106", "113", "105", "107"], "margin": 0.4}
+{"item_id": "dnat-mathext-1819", "answers": ["3", "7", "5", "7", "10"], "margin": 0.4}
+{"item_id": "dnat-mathext-2771", "answers": ["0", "8", "324", "16", "16"], "margin": 0.4}
+{"item_id": "dnat-mathext-3475", "answers": ["242", "228", "143", "242", "31"], "margin": 0.4}
+{"item_id": "dnat-mathext-421", "answers": ["\\frac{0}{0}", "\\frac{1}{5}", "-\\infty", "\\text{undefined}", "\\text{undefined}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2287", "answers": ["5", "0", "0", "5", "35"], "margin": 0.4}
+{"item_id": "dnat-mathext-1744", "answers": ["\\frac{20\\sqrt{3}}{3}", "\\frac{8}{3}", "\\frac{8\\sqrt{3}}{3}", "\\frac{8\\sqrt{3}}{3}", "\\frac{5\\sqrt{3}}{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2367", "answers": ["1100", "1300", "12000", "1300", "0"], "margin": 0.4}
+{"item_id": "dnat-mathext-2145", "answers": ["97", "97", "81", "81", "106"], "margin": 0.4}
+{"item_id": "dnat-mathext-465", "answers": ["2", "\\frac{5}{4}", "1", "8", "8"], "margin": 0.4}
+{"item_id": "dnat-mathext-2815", "answers": ["-2\\sqrt{7} - 1", "-2\\sqrt{7} - 1", "27", "27", "2\\sqrt{7} + 1"], "margin": 0.4}
+{"item_id": "dnat-math500-421", "answers": ["2", "10", "7", "7", null], "margin": 0.4}
+{"item_id": "dnat-mathext-3583", "answers": ["5", "3", "4", "3", "5"], "margin": 0.4}
+{"item_id": "dnat-mathext-4798", "answers": ["0, \\pi, 2\\pi", "0, 2\\pi", "\\frac{\\pi}{4}, \\frac{3\\pi}{4}, \\frac{5\\pi}{4}, \\frac{7\\pi}{4}", "0, \\pi, 2\\pi", "\\frac{\\pi}{4}, \\frac{5\\pi}{4}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3043", "answers": ["\\frac{10}{11}", "\\frac{1}{22}", "\\frac{1}{22}", "\\frac{19}{22}", "\\frac{10}{11}"], "margin": 0.4}
+{"item_id": "dnat-math500-123", "answers": ["10", "8", "8", "6", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-3790", "answers": ["1 + 1 + 2^{180} + 2^{60}", "2 (1 + 2^{180})", "0", "2", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-2174", "answers": ["4", "4", "\\frac{64}{27}", "-\\frac{82}{27}", "-13y + 4"], "margin": 0.4}
+{"item_id": "dnat-mathext-3198", "answers": ["1", "9", "0", "1", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-2898", "answers": ["4", "\\frac{109}{35}", "\\frac{5833}{35}", "1", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-649", "answers": ["\\frac{6561}{390625}", "\\frac{864}{125}", "\\frac{15}{7}", "\\frac{864}{125}", "\\frac{1}{60}"], "margin": 0.4}
+{"item_id": "dnat-mathext-277", "answers": ["23", "17", "22", "23", "22"], "margin": 0.4}
+{"item_id": "dnat-mathext-434", "answers": ["2", "0", "0", "48", "-48"], "margin": 0.4}
+{"item_id": "dnat-mathext-2559", "answers": ["2", "3", "2", "3", "\\frac{3 + \\sqrt{5}}{2}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2330", "answers": ["k \\in \\mathbb{R}", "(9, \\infty)", "(36, 104)", "(-36, 104)", "k \\in \\mathbb{R}"], "margin": 0.4}
+{"item_id": "dnat-mathext-1832", "answers": ["380", "382", "381", "377", "382"], "margin": 0.4}
+{"item_id": "dnat-mathext-220", "answers": ["\\frac{125}{27}", "\\frac{116}{475}", "\\frac{21}{2}", "0", "\\frac{21}{2}"], "margin": 0.4}
+{"item_id": "dnat-math500-328", "answers": ["2", "3", "\\infty", "\\text{Infinite}", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-1933", "answers": ["60^\\circ", "150^\\circ", "60^\\circ", "30^\\circ", "30^\\circ"], "margin": 0.4}
+{"item_id": "dnat-math500-381", "answers": ["0.625", "\\frac{1}{3}", "\\frac{1}{36}", "\\frac{1}{18}", "\\frac{1}{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2882", "answers": ["C", "E", "H", "C", "E"], "margin": 0.4}
+{"item_id": "dnat-mathext-4053", "answers": ["0.\\overline{27}", "1.4529", "1.125", "12.375", "12.375"], "margin": 0.4}
+{"item_id": "dnat-mathext-4529", "answers": ["51", "1", "45", null, "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-689", "answers": ["18x^8", "72x^8", "18x^8", "288x^8", "4.5 x^8"], "margin": 0.4}
+{"item_id": "dnat-mathext-1286", "answers": ["144", "144", "30240", "30240", "720"], "margin": 0.4}
+{"item_id": "dnat-mathext-2427", "answers": ["b", "a, \\text{ but not } b, \\text{ and } c", "a", "a, \\text{negative } b, \\text{positive } c", "a"], "margin": 0.4}
+{"item_id": "dnat-math500-324", "answers": ["300^\\circ", "120^\\circ", "200^\\circ", "120", "150"], "margin": 0.4}
+{"item_id": "dnat-math500-292", "answers": ["1260", "0", "211", "5907", "0"], "margin": 0.4}
+{"item_id": "dnat-math500-44", "answers": ["1.06", "1.69", "1.25", "1.08", "1.25"], "margin": 0.4}
+{"item_id": "dnat-math500-359", "answers": ["-1", "4", "4", "3", "0"], "margin": 0.4}
+{"item_id": "dnat-math500-332", "answers": ["\\frac{4}{3}", "\\frac{4}{3}", "\\frac{4\\sqrt{3}}{3}", "2", "4"], "margin": 0.4}
+{"item_id": "dnat-mathext-3130", "answers": ["18", "32", "8", "27", "32"], "margin": 0.4}
+{"item_id": "dnat-mathext-213", "answers": ["3", "0", "6", "1", "0"], "margin": 0.4}
+{"item_id": "dnat-mathext-1115", "answers": ["36", "18", "24", "18", "36"], "margin": 0.4}
+{"item_id": "dnat-math500-288", "answers": ["2\\sqrt{13}", "0", "0", "\\frac{\\sqrt{26}}{2}", "7.51"], "margin": 0.4}
+{"item_id": "dnat-mathext-2985", "answers": ["5", "\\frac{95}{2} = 47.5", "5", "25", "7"], "margin": 0.4}
+{"item_id": "dnat-mathext-2778", "answers": ["1", "\\frac{14}{27}", "1", "12", "3"], "margin": 0.4}
+{"item_id": "dnat-gsm8k-1190", "answers": ["19", "69", "19", "69", "76"], "margin": 0.4}
+{"item_id": "dnat-mathext-52", "answers": ["1000", "1", "12", "12", "5"], "margin": 0.4}
+{"item_id": "dnat-mathext-899", "answers": ["(-\\infty, -2) \\cup (-7, \\infty)", "(-\\infty, -7) \\cup (-2, \\infty)", "(-\\infty, -2)", "(-7, -2)", "(-7, -2)"], "margin": 0.4}
+{"item_id": "dnat-math500-19", "answers": ["1", "2.3811", "3", "1", "1.80194568691425"], "margin": 0.4}
+{"item_id": "dnat-math500-183", "answers": ["8", "23", "8", "11", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-3203", "answers": ["12345", "12360", "15432", "10215", "12345"], "margin": 0.4}
+{"item_id": "dnat-mathext-4867", "answers": ["(3, \\frac{11\\pi}{8}, \\frac{\\pi}{5})", "(3, \\frac{11\\pi}{8}, \\frac{4\\pi}{5})", "\\left( 3, \\frac{11\\pi}{8}, \\frac{4\\pi}{5} \\right)", "\\left( 3, \\frac{3\\pi}{8}, \\frac{4\\pi}{5} \\right)", "(3, \\frac{13\\pi}{8}, \\frac{4\\pi}{5})"], "margin": 0.4}
+{"item_id": "dnat-mathext-2050", "answers": ["10^\\circ", "60^\\circ", "15^\\circ", "60^\\circ", "30^\\circ"], "margin": 0.4}
+{"item_id": "dnat-mathext-1876", "answers": ["40^\\circ", "140^\\circ", "180^\\circ", "40^\\circ", "70^\\circ"], "margin": 0.4}
+{"item_id": "dnat-mathext-4761", "answers": ["0.75", "\\sin G = \\frac{17}{\\sqrt{514}} \\text{ or approximately } 0.750", "\\frac{17\\sqrt{127}}{254}", "0.3246", "0.75"], "margin": 0.4}
+{"item_id": "dnat-mathext-3038", "answers": ["y = x + 3", "y = 2x - 1", "y = x", "y = 2x + 4", "y = 2x + 4"], "margin": 0.4}
+{"item_id": "dnat-mathext-4616", "answers": ["30^\\circ", "9", "67.5^\\circ", "9^\\circ", "30^\\circ"], "margin": 0.4}
+{"item_id": "dnat-mathext-868", "answers": ["\\frac{15800}{9}", "4140", "11053.75", "1320", "4140"], "margin": 0.4}
+{"item_id": "dnat-mathext-3224", "answers": ["8", "6", "4", "4", "8"], "margin": 0.4}
+{"item_id": "dnat-mathext-3845", "answers": ["111111111", "333,333,333", "900909", "999,999,999", "111111111"], "margin": 0.4}
+{"item_id": "dnat-mathext-4308", "answers": ["5", "3", "2", "4", "2"], "margin": 0.4}
+{"item_id": "dnat-gsm8k-809", "answers": ["200", "50", "0", "50", "150"], "margin": 0.4}
+{"item_id": "dnat-mathext-1537", "answers": ["270", "270", "1091", "1060", "570"], "margin": 0.4}
+{"item_id": "dnat-mathext-1448", "answers": ["\\frac{2}{3}", "\\frac{5}{6}", "\\frac{1}{4}", "\\frac{1}{2}", "\\frac{1}{4}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3094", "answers": ["9", "0", "6", "3", "0"], "margin": 0.4}
+{"item_id": "dnat-mathext-2554", "answers": ["4", "-1", "0", "\\frac{K^2}{4}", "-1"], "margin": 0.4}
+{"item_id": "dnat-mathext-3082", "answers": ["3", "0", "4", "4", "3"], "margin": 0.4}
+{"item_id": "dnat-gsm8k-102", "answers": ["27", "19", "17", "21", "21"], "margin": 0.4}
+{"item_id": "dnat-mathext-2845", "answers": ["82", "74", "82", "18", "74"], "margin": 0.4}
+{"item_id": "dnat-mathext-1043", "answers": ["2.64", "2", "1", "2", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-1867", "answers": ["100^\\circ", "70^\\circ", "70^\\circ", "140^\\circ", "100^\\circ"], "margin": 0.4}
+{"item_id": "dnat-mathext-4784", "answers": ["22", "22", "-2", "8", "5"], "margin": 0.4}
+{"item_id": "dnat-mathext-1637", "answers": ["0", "\\frac{9}{28}", "\\frac{1}{18}", "\\frac{1}{84}", "\\frac{1}{84}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2444", "answers": ["\\infty", "2", "\\text{infinitely many}", "2", "4"], "margin": 0.4}
+{"item_id": "dnat-mathext-2603", "answers": ["-3", "-1.25", "-\\frac{61}{162}", "-\\frac{10}{81}", "-1.25"], "margin": 0.4}
+{"item_id": "dnat-math500-225", "answers": ["9", "329", "11", "9", "11"], "margin": 0.4}
+{"item_id": "dnat-mathext-3155", "answers": ["15", "15", "40", "19", "78"], "margin": 0.4}
+{"item_id": "dnat-mathext-1952", "answers": ["5.35", "40", "80", "5.628", "80"], "margin": 0.4}
+{"item_id": "dnat-mathext-3737", "answers": ["44", "44", "108", "144", "144"], "margin": 0.4}
+{"item_id": "dnat-mathext-1228", "answers": ["28120000", "1300000", "281,216,000", "28120000", "1757600"], "margin": 0.4}
+{"item_id": "dnat-mathext-2810", "answers": ["2", "2", "\\sqrt{10}", "\\sqrt{14}", "2\\sqrt{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-1654", "answers": ["34", "25", "25", "55", "3360"], "margin": 0.4}
+{"item_id": "dnat-math500-64", "answers": ["7", "-\\frac{75}{8}", "\\frac{105}{16}", "-7", "7"], "margin": 0.4}
+{"item_id": "dnat-mathext-682", "answers": ["1", "20", "8", "1", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-874", "answers": ["79", "86", "2 + \\pi^2 + 68", "70 + \\pi^2", "84"], "margin": 0.4}
+{"item_id": "dnat-mathext-4493", "answers": ["9", "\\frac{121}{100}", "\\frac{1}{121}", "100", "100"], "margin": 0.4}
+{"item_id": "dnat-math500-213", "answers": ["\\frac{3\\sqrt{5} - 3}{2}", "1", "-\\frac{1 - \\sqrt{5}}{2}", "1", "\\frac{3 - \\sqrt{5}}{2}"], "margin": 0.4}
+{"item_id": "dnat-mathext-1679", "answers": ["101.25^\\circ", "112.5^\\circ", "67.5^\\circ", "67.5^\\circ", "45^\\circ"], "margin": 0.4}
+{"item_id": "dnat-mathext-4134", "answers": ["63", "72.75", "27", "54", "63"], "margin": 0.4}
+{"item_id": "dnat-mathext-1346", "answers": ["\\frac{4}{63}", "\\frac{22}{441}", "\\frac{6}{21}", "\\frac{4}{63}", "\\frac{16}{147}"], "margin": 0.4}
+{"item_id": "dnat-mathext-1504", "answers": ["4", "144", "4", "36", "48"], "margin": 0.4}
+{"item_id": "dnat-mathext-628", "answers": ["\\frac{29}{56}", "\\frac{4}{3}", "\\frac{128}{3}", null, "\\frac{4}{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2096", "answers": ["-\\frac{\\sqrt{3}}{2}", "-\\frac{\\sqrt{3}}{2}", "0", "\\frac{\\sqrt{3}}{2}", "\\frac{\\sqrt{3}}{2}"], "margin": 0.4}
+{"item_id": "dnat-mathext-4410", "answers": ["69", "69", "70", "64", "71"], "margin": 0.4}
+{"item_id": "dnat-gsm8k-107", "answers": ["0", "3", "4", "4", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-2524", "answers": ["0", "0", "-\\frac{23}{2}", "-\\frac{5}{4}", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-4700", "answers": ["2 \\tan x \\sec x", "\\tan 2x", "2 \\sec^2 x", "2 \\tan x", "\\frac{2 \\sin x}{\\cos^2 x}"], "margin": 0.4}
+{"item_id": "dnat-mathext-624", "answers": ["3", "\\frac{1}{9}", "-4", "3", "-\\frac{1}{4}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2224", "answers": ["1", "16", "25", "25", "21.875"], "margin": 0.4}
+{"item_id": "dnat-mathext-2298", "answers": ["0", "0", "-\\frac{11}{25}", "1", "-\\frac{3}{4}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2398", "answers": ["11430", "1994", "997", "1994", "994"], "margin": 0.4}
+{"item_id": "dnat-mathext-2021", "answers": ["234", "432", "432", "72(\\sqrt{5} + 2)", "336"], "margin": 0.4}
+{"item_id": "dnat-mathext-974", "answers": ["4", "5", "3", "3", "4"], "margin": 0.4}
+{"item_id": "dnat-mathext-438", "answers": ["10", "34", "55", "55", "-18"], "margin": 0.4}
+{"item_id": "dnat-mathext-1627", "answers": ["50", "17", "15", "50", "25"], "margin": 0.4}
+{"item_id": "dnat-mathext-68", "answers": ["8.5", "7.5", "7", "7.5", "8"], "margin": 0.4}
+{"item_id": "dnat-mathext-3393", "answers": ["38", "26", "17", "38", "20"], "margin": 0.4}
+{"item_id": "dnat-mathext-4876", "answers": ["\\left(\\frac{15}{4}, \\frac{1}{2}, 0\\right)", "\\left( \\frac{15}{8}, -\\frac{3}{4} \\right)", "(0, 0, 0)", "(3, 0, 0)", "(3, 0, 0)"], "margin": 0.4}
+{"item_id": "dnat-mathext-3721", "answers": ["204", "204", "132", "180", "132"], "margin": 0.4}
+{"item_id": "dnat-mathext-2320", "answers": ["4", "4", "6", "-6", "-10"], "margin": 0.4}
+{"item_id": "dnat-mathext-189", "answers": ["c = b - 1", "c = b", "c = 1", "c = b", "c = b - 1"], "margin": 0.4}
+{"item_id": "dnat-mathext-880", "answers": ["52", "81", "72", "436", "52"], "margin": 0.4}
+{"item_id": "dnat-mathext-1856", "answers": ["0", "7.5", "\\sqrt{241}", "\\sqrt{241}", "8.49"], "margin": 0.4}
+{"item_id": "dnat-mathext-1195", "answers": ["36", "24", "24", "36", "1"], "margin": 0.4}
+{"item_id": "dnat-mathext-3914", "answers": ["13860", "13800", "14250", "13860", "13800"], "margin": 0.4}
+{"item_id": "dnat-mathext-1059", "answers": ["2700", "2700", "2430", "2130", "1225"], "margin": 0.4}
+{"item_id": "dnat-mathext-274", "answers": ["6", "1", "2", "6", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-1873", "answers": ["64", "64", "25", "4", "4"], "margin": 0.4}
+{"item_id": "dnat-math500-361", "answers": ["16\\sqrt{3}", "4", "2", "8\\sqrt{3}", "4"], "margin": 0.4}
+{"item_id": "dnat-mathext-1753", "answers": ["24", "36", "30", "18", "36"], "margin": 0.4}
+{"item_id": "dnat-mathext-3144", "answers": ["1023", "1203", "1234", "1203", "1024"], "margin": 0.4}
+{"item_id": "dnat-mathext-1443", "answers": ["1", "38", "8", "14", "1"], "margin": 0.4}
+{"item_id": "dnat-gsm8k-394", "answers": ["28", "36", "28", "92", "92"], "margin": 0.4}
+{"item_id": "dnat-mathext-1074", "answers": ["17", "17", "4", "7", "7"], "margin": 0.4}
+{"item_id": "dnat-mathext-2493", "answers": ["3", "7", "4", "2", "3"], "margin": 0.4}
+{"item_id": "dnat-mathext-638", "answers": ["160", "4", "156", "156", "76"], "margin": 0.4}
+{"item_id": "dnat-mathext-3476", "answers": ["8", "2", "4", "8", "4"], "margin": 0.4}
+{"item_id": "dnat-mathext-3922", "answers": ["6", "6", "10", "3", "10"], "margin": 0.4}
+{"item_id": "dnat-mathext-2171", "answers": ["243", "3", "\\frac{4}{3^{3/4}}", "3", "\\frac{1}{729}"], "margin": 0.4}
+{"item_id": "dnat-mathext-1113", "answers": ["\\frac{3}{4}", "\\frac{15}{4}", "\\frac{15}{4}", "\\frac{5}{4}", "\\frac{15}{2}"], "margin": 0.4}
+{"item_id": "dnat-math500-391", "answers": ["5", "6", "8", "8", "5"], "margin": 0.4}
+{"item_id": "dnat-mathext-3645", "answers": ["3", "5", "2", "3", "5"], "margin": 0.4}
+{"item_id": "dnat-mathext-1673", "answers": ["51^\\circ", "78^\\circ", "102^\\circ", "90^\\circ", "102^\\circ"], "margin": 0.4}
+{"item_id": "dnat-mathext-2004", "answers": ["36", "36", "198^\\circ", "162^\\circ", "324"], "margin": 0.4}
+{"item_id": "dnat-math500-74", "answers": ["\\cos^2 x", "\\tan x \\left(\\frac{1 - \\cos x}{\\cos x}\\right)", "\\cos^2 x", "\\cot x", "\\cot(2x)"], "margin": 0.4}
+{"item_id": "dnat-mathext-2659", "answers": ["0.5", "1", "0.5", "-1", "2.0"], "margin": 0.4}
+{"item_id": "dnat-mathext-3111", "answers": ["15", "13", "6", "2", "2"], "margin": 0.4}
+{"item_id": "dnat-mathext-4778", "answers": ["3.732", "\\sqrt{3}", "1.548", "\\sqrt{3}", "1.82267"], "margin": 0.4}
+{"item_id": "dnat-mathext-1917", "answers": ["\\frac{2}{9}", "\\frac{16}{27}", "\\frac{4}{3}", "\\frac{2}{9}", "\\frac{1}{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-2704", "answers": ["\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{5}", "\\frac{1}{5}, \\frac{1}{2}", "\\frac{1}{2}, \\frac{2}{5}, -\\frac{1}{4}, -\\frac{1}{5}", "\\frac{1}{2}, \\frac{1}{4}", "\\frac{1}{2}, \\frac{1}{5}"], "margin": 0.4}
+{"item_id": "dnat-math500-184", "answers": ["[2.5, \\infty)", "[2.5, \\infty)", "[3, \\infty)", "\\left[ 3 \\cdot \\sqrt[3]{\\frac{b}{b+c}}, \\infty \\right]", "[1.0, 3.0]"], "margin": 0.4}
+{"item_id": "dnat-mathext-4877", "answers": ["-2", "1", "1", "0", "2 + \\sqrt{3}"], "margin": 0.4}
+{"item_id": "dnat-mathext-3257", "answers": ["4320", "4320", "4620", "4032", "2040"], "margin": 0.4}

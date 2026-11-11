@@ -1,0 +1,37 @@
+{
+ "run_id": "p2-streams-dev-smoke-4B-1809070",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "prompts_sha256": {
+  "memory_header": "7f90926472d80be882e4de56b402315b9d90aef1acd6d6e411903162303d6974",
+  "memory_entry": "8702fc2508d6406ca3370b7b2c0e820e42ade281601f01b27d5ea4f7552b56ed",
+  "prompt": "6ed50515dd3f29a6cea7ccf3e035f79f558bff8a55cf0b59baae9be3d6b24c52",
+  "verbal_query": "7b0ee09ba9438e099567337b972d8fbaccf813ef1297fb9864e2582e315696ac"
+ },
+ "data_build_manifest_sha256": "f38e6f508eecbd2f6067948707b733601bfaa6e0cc2155cca988a0d67e5f4967",
+ "scorer_sha256": "c4fedce34bc16e1941fc377474b1c3e579fc3d6aaf1402e9775db2ca14fdbfc3",
+ "lockfile_sha256": "697ae6afa4a7e5b1fb4206da7891cdea0dbb356b6ec4b961f40bc783dbb4839b",
+ "code_commit": "1809070d828456d488dbfb1b446cda53fa0a6bbd",
+ "config_sha256": "ef761908f3bf6d7280c87264fcba060000a8fa1f316a899615d8b3d5d0ec3fb8",
+ "backend": {
+  "name": "vllm+hf-transformers/peft",
+  "version": "5.20.2",
+  "vllm": "0.33.0"
+ },
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "python": "3.12.13",
+ "env": {
+  "VLLM_BATCH_INVARIANT": "1"
+ },
+ "files": {
+  "artifacts.json": "ea5a6d9322c907e91d211a60c2bfb9cdcee677b68bda1345e625215e4c5fb6e8",
+  "config.json": "9ddfd97a872f1eb59cc358f76417025d35e73e9bbe03bc82d0d4dd664e493b3d",
+  "eval_summary.json": "c98bf7b2b580df278c0f0a3b084c09786edc41f755dfcd8c05d4a27d119edc2b",
+  "eval_texts.jsonl": "002e45fce1991d16d79b6f7b542c7e4fd9e23a4594c711e323cf6fb8fcfa20e1",
+  "evals.jsonl": "491f4ba628229a2149ce04377da85d2da2693f4aca7c9f5a7b18aa3f28286174",
+  "metrics.json": "b69a2b80dde660fbe54cb1c50bd168cd063b25a384d32995ac5552d26786df00",
+  "step_texts.jsonl": "00380bd7b3f49017f7bce643150f645605b5c376227217d09b3ef94482ec8a44",
+  "steps.jsonl": "5339ea25cc666b25e1ea997d6bf70c97b2c2b920e2bdb22706ff840024c93f7d"
+ }
+}

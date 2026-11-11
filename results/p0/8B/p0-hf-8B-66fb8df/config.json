@@ -1,0 +1,14 @@
+{
+ "model": "8B",
+ "items": "/home/results/p0/8B/p0-vllm-8B-66fb8df/items.jsonl",
+ "n": 64,
+ "ttt": 0,
+ "save_adapters": 0,
+ "adapter_dir": null,
+ "patch": 8,
+ "agree": 0,
+ "hf_gen": 64,
+ "steps": 4,
+ "lr": 0.0001,
+ "tau": 1.0
+}

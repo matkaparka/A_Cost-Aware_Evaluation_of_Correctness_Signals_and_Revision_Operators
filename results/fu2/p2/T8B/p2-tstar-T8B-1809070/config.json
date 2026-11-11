@@ -1,0 +1,8 @@
+{
+ "model": "T8B",
+ "initial": "/home/results/fu2/p1/T8B/p1-initial-T8B-1809070/initial.jsonl",
+ "verbal": "/home/results/fu2/p1/T8B/p1-verbal-T8B-1809070/verbal.jsonl",
+ "initial_sha256": "9cc885ff5ef791b07fb2be7b5265e8d17ff95dcd19faff86ae49a7ab84756645",
+ "verbal_sha256": "c9ec1c2a425847c7673735d59a4657a2aa4b15e3a176e776dda35fd32b2e966e",
+ "rule": "analysis/p2_selfverdict.py: max dev balanced accuracy, midpoints, ties lowest"
+}

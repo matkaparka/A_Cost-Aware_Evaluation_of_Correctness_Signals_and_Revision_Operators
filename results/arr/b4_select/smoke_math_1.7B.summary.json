@@ -1,0 +1,15 @@
+{
+ "task": "math",
+ "source": [
+  "/home/results/arr/b1/1.7B/b1-samples-test-k5-h2a-consistency-t4096-smoke-1.7B-279e6b0/samples.jsonl"
+ ],
+ "source_sha256": [
+  "43e325ca562d20af38bbdd38fc74692016b8453618c1c794e02d547d6333961f"
+ ],
+ "items": 10,
+ "share": 0.2,
+ "selected": 2,
+ "max_selected_margin": 0.6,
+ "guards": [],
+ "out_sha256": "7669b679e73d2040d3d5f2afc085444358a16d1c527bee1f6df6ac0fd85f6bca"
+}

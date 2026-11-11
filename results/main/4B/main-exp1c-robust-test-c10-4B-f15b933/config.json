@@ -1,0 +1,37 @@
+{
+ "model": "4B",
+ "split": "test",
+ "allow_test": true,
+ "initial": "/home/results/p1/4B/p1-initial-4B-d2ebdea/initial.jsonl",
+ "verbal": "/home/results/p1/4B/p1-verbal-4B-d2ebdea/verbal.jsonl",
+ "self_threshold_s": 15.999999163764045,
+ "chunk_size": 100,
+ "subset": 300,
+ "revision_tokens": 2048,
+ "critique_tokens": 1024,
+ "limit": 0,
+ "tag": "",
+ "scorer_version": "1.1.1",
+ "sampling": {
+  "temperature": 0.7,
+  "top_p": 0.8
+ },
+ "n_sample_seeds": 3,
+ "seed_stream": "robust-seed-v1",
+ "mask_seeds": [
+  0,
+  1,
+  2
+ ],
+ "p_channel": 0.9,
+ "p_channel_ref": 0.7,
+ "channels": [
+  "tool",
+  "user",
+  "assistant"
+ ],
+ "max_model_len": 12288,
+ "wording_sha256": "229f9167e91e8a01ef18fa4fe6d37b79c51f69243b9a9a66988dadbc045583cf",
+ "channel_wording_sha256": "9fd6b90dba939fd4f2225fe6227cd2318cd9febbadb468596eff0c309ceb1fbc",
+ "chunk_index": 10
+}

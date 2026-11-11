@@ -1,0 +1,842 @@
+{"answer": "Aquilon", "answer_type": "name", "batch": 0, "line": 0, "pid": 1, "question": "Around which place do the southern feudal lordships of the Dragontooth Concordat lie?"}
+{"answer": "mineral wealth", "answer_type": "phrase", "batch": 0, "line": 1, "pid": 1, "question": "Besides a scarcity of farmland, what does the Dragontooth Concordat's narrow mountain territory possess in abundance?"}
+{"answer": "3E 1700", "answer_type": "year", "batch": 0, "line": 2, "pid": 3, "question": "Around what year did the old oceanic trade links to Shenzhou collapse?"}
+{"answer": "Kuxlum", "answer_type": "name", "batch": 0, "line": 3, "pid": 3, "question": "Garnetport is the closest landfall for ships crossing from which continent?"}
+{"answer": "Wyrmgale", "answer_type": "name", "batch": 0, "line": 4, "pid": 3, "question": "At Garnetport, the Marglus Sea meets which other sea?"}
+{"answer": "permanent factors", "answer_type": "phrase", "batch": 0, "line": 5, "pid": 6, "question": "What do merchants from the first-ring ports keep stationed in Garnetport's trading houses?"}
+{"answer": "Marglus", "answer_type": "name", "batch": 0, "line": 6, "pid": 6, "question": "Shimmerbay counts among Garnetport's first-ring ports along which sea?"}
+{"answer": "Sea of Gold", "answer_type": "name", "batch": 0, "line": 7, "pid": 7, "question": "Which inland waterbody at the continent's heart connects to the Marglus and Wyrmgale only through portage and rivers?"}
+{"answer": "Muzfister Mountains", "answer_type": "name", "batch": 0, "line": 8, "pid": 7, "question": "Which range holds the dwarf kingdoms passed by the Sea of Veils?"}
+{"answer": "Sakanb Sea", "answer_type": "name", "batch": 0, "line": 9, "pid": 7, "question": "Which body of water washes the continent's southern coast, starting at the Qamaran Lowlands?"}
+{"answer": "enchanted goods", "answer_type": "phrase", "batch": 0, "line": 10, "pid": 8, "question": "Which category of Kuxlum imports arriving at Garnetport is the most valuable?"}
+{"answer": "Enchanter's Gem", "answer_type": "name", "batch": 0, "line": 11, "pid": 8, "question": "Which mineral, abundant in Kuxlum's deposits, is used to produce Kuxlum's lighting devices and protective wards?"}
+{"answer": "Siawadria", "answer_type": "name", "batch": 0, "line": 12, "pid": 8, "question": "Which land's magical tradition, absent on Kuxlum, do Garnetport's exported magecraft implements represent?"}
+{"answer": "120,000", "answer_type": "number", "batch": 0, "line": 13, "pid": 9, "question": "How many people live in Garnetport?"}
+{"answer": "Lyjobloom", "answer_type": "name", "batch": 0, "line": 14, "pid": 9, "question": "Which tea appears among the Concordat's domestic export products shipped from Garnetport?"}
+{"answer": "Carnavia Basin", "answer_type": "name", "batch": 0, "line": 15, "pid": 11, "question": "Which region to the southwest forms part of the Concordat's arc of significant overland trade?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 0, "line": 16, "pid": 11, "question": "Not far east of which city lie territories included in the Concordat's significant land-trade arc?"}
+{"answer": "Merchreast", "answer_type": "name", "batch": 0, "line": 17, "pid": 12, "question": "Which settlement comes first after Garnetport along the Garnet Way?"}
+{"answer": "barge", "answer_type": "phrase", "batch": 0, "line": 18, "pid": 12, "question": "On what kind of vessel does bulk freight travel downstream along the Garnet Way?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 0, "line": 19, "pid": 14, "question": "Which town does the Southern Way pass through between Deeproot and Auromere?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 0, "line": 20, "pid": 14, "question": "Which realm, reached via the Southern Way, is the Concordat's nearest ally and biggest commercial partner?"}
+{"answer": "grain", "answer_type": "phrase", "batch": 0, "line": 21, "pid": 14, "question": "Which commodity flowing north along the Southern Way is the Concordat's most vital import?"}
+{"answer": "Fort Alina", "answer_type": "name", "batch": 0, "line": 22, "pid": 15, "question": "Which stronghold does the Eastern Way run to when heading east?"}
+{"answer": "New Hornhold", "answer_type": "name", "batch": 0, "line": 23, "pid": 15, "question": "Which city is the western starting point of the Eastern Way?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 0, "line": 24, "pid": 15, "question": "Which city, at the Eastern Way's far end, is often the first contact point for the new kingdoms of the former northeastern territories?"}
+{"answer": "Westmarch", "answer_type": "name", "batch": 0, "line": 25, "pid": 16, "question": "At which town does the Dragon Way rejoin the Garnet Way?"}
+{"answer": "Ly's Seat", "answer_type": "name", "batch": 0, "line": 26, "pid": 16, "question": "Heading north from New Hornhold, which place does the Dragon Way pass through before Windflow?"}
+{"answer": "mining communities", "answer_type": "phrase", "batch": 0, "line": 27, "pid": 16, "question": "Which highland settlements does the Dragon Way primarily serve?"}
+{"answer": "Larkghet", "answer_type": "name", "batch": 0, "line": 28, "pid": 19, "question": "Which predominantly orcish community does the Marsh Path link to Deeproot?"}
+{"answer": "Larna's Tears Lake", "answer_type": "name", "batch": 0, "line": 29, "pid": 19, "question": "Where do the preserved fish carried along the Marsh Path come from?"}
+{"answer": "Mist Walker", "answer_type": "name", "batch": 0, "line": 30, "pid": 19, "question": "Which legendary figure do merchants on the Marsh Path tell tales of encountering in the fog?"}
+{"answer": "Kawil", "answer_type": "name", "batch": 0, "line": 31, "pid": 20, "question": "To which kobold mining town does the Crystal Path lead?"}
+{"answer": "Concordat's Pride", "answer_type": "name", "batch": 0, "line": 32, "pid": 20, "question": "What name was given to the legendary sapphire discovered near Merchreast?"}
+{"answer": "terrace farming", "answer_type": "phrase", "batch": 0, "line": 33, "pid": 22, "question": "Which agricultural method gives Deeproot significant yields?"}
+{"answer": "Grain", "answer_type": "phrase", "batch": 0, "line": 34, "pid": 22, "question": "Securing which commodity guides Concordat diplomacy above every other factor?"}
+{"answer": "half", "answer_type": "phrase", "batch": 0, "line": 35, "pid": 23, "question": "What share of the Concordat's grain imports now arrives under maritime contracts?"}
+{"answer": "safer sailing season", "answer_type": "phrase", "batch": 0, "line": 36, "pid": 23, "question": "During which period of the year do the bulk grain convoys arrive by sea?"}
+{"answer": "Eastern Way", "answer_type": "name", "batch": 0, "line": 37, "pid": 23, "question": "Along which overland route did grain historically arrive from the plateau kingdoms?"}
+{"answer": "chronic food gap", "answer_type": "phrase", "batch": 0, "line": 38, "pid": 24, "question": "What structural weakness was the Concordat's commercial prosperity partly built to offset?"}
+{"answer": "Chamber of Commerce", "answer_type": "name", "batch": 0, "line": 39, "pid": 25, "question": "Under whose oversight is the Dragon Scale minted in Garnetport?"}
+{"answer": "Mercurian Exchange", "answer_type": "name", "batch": 0, "line": 40, "pid": 25, "question": "Which Garnetport institution acts as the Concordat's de facto central bank?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 0, "line": 41, "pid": 25, "question": "Whose profile is shown on the Dragon Scale coinage?"}
+{"answer": "garnet", "answer_type": "phrase", "batch": 0, "line": 42, "pid": 26, "question": "What gemstone is set in the center of the Concordat's gold Gem coin?"}
+{"answer": "20", "answer_type": "number", "batch": 0, "line": 43, "pid": 26, "question": "How many Bender make up one Gem in the Dragon Scale system?"}
+{"answer": "25", "answer_type": "number", "batch": 0, "line": 44, "pid": 26, "question": "How many Gem does one year of University of Hornhold tuition cost?"}
+{"answer": "3E 1570", "answer_type": "year", "batch": 0, "line": 45, "pid": 27, "question": "In roughly which year did Lyjousturnur settle in the Dragontooth Region?"}
+{"answer": "Nameless Terror", "answer_type": "name", "batch": 0, "line": 46, "pid": 27, "question": "Which foe had Lyjousturnur defeated, making his early military power unchallengeable?"}
+{"answer": "Eastern Sandbank", "answer_type": "name", "batch": 0, "line": 47, "pid": 27, "question": "In which area of Deeproot does the Great Hall stand?"}
+{"answer": "a fifth", "answer_type": "phrase", "batch": 0, "line": 48, "pid": 28, "question": "Roughly what fraction of the Concordat's total population lives in Garnetport?"}
+{"answer": "Chamber of Commerce", "answer_type": "name", "batch": 0, "line": 49, "pid": 28, "question": "Which body does its preparatory work in Garnetport, then sends proposals to the Deeproot parliament?"}
+{"answer": "Elinlyia Moonlit", "answer_type": "name", "batch": 0, "line": 50, "pid": 29, "question": "Who heads the Mage Association's Dragontooth branch while also tutoring the Dragon Lord?"}
+{"answer": "Old Hornhold City", "answer_type": "name", "batch": 0, "line": 51, "pid": 29, "question": "At which settlement does the Continental Mage Association keep the headquarters of its Dragontooth branch?"}
+{"answer": "Draconic Tribunal", "answer_type": "name", "batch": 0, "line": 52, "pid": 30, "question": "What serves as the Concordat's highest court?"}
+{"answer": "Dragon's Hands", "answer_type": "name", "batch": 0, "line": 53, "pid": 30, "question": "What are Lyjousturnur's direct agents, who circulate through the Concordat, known as?"}
+{"answer": "Whisperleaf", "answer_type": "name", "batch": 0, "line": 54, "pid": 30, "question": "Which settlement is run by largely self-governing elves answering to a royal emissary?"}
+{"answer": "4,500,000", "answer_type": "number", "batch": 0, "line": 55, "pid": 34, "question": "Approximately how many Gem does the Concordat produce in total each year, as of 3E 1800?"}
+{"answer": "445,000", "answer_type": "number", "batch": 0, "line": 56, "pid": 35, "question": "How many rural inhabitants does the Concordat have?"}
+{"answer": "2,080,000", "answer_type": "number", "batch": 0, "line": 57, "pid": 35, "question": "Roughly how many Gem of annual value does the Concordat's rural population produce?"}
+{"answer": "Hornhold lowlands", "answer_type": "phrase", "batch": 0, "line": 58, "pid": 35, "question": "Besides the Deeproot basin, where are the Concordat's highly productive halfling farming communities found?"}
+{"answer": "630,000", "answer_type": "number", "batch": 0, "line": 59, "pid": 36, "question": "What is the approximate value, in Gem, of the Concordat's mining and specialty output?"}
+{"answer": "Rolthark", "answer_type": "name", "batch": 0, "line": 60, "pid": 36, "question": "On which range's warm southern slopes is Flammy spice cultivated?"}
+{"answer": "Ly's Peak", "answer_type": "name", "batch": 0, "line": 61, "pid": 36, "question": "Near which place do the gardens producing Lyjobloom tea lie?"}
+{"answer": "980,000", "answer_type": "number", "batch": 0, "line": 62, "pid": 37, "question": "Approximately how many Gem does urban manufacturing generate in the Concordat?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 0, "line": 63, "pid": 37, "question": "Which city's weapons and armor smiths contribute significantly to urban manufacturing?"}
+{"answer": "3,000,000", "answer_type": "number", "batch": 0, "line": 64, "pid": 38, "question": "What is the estimated yearly value, in Gem, of the cargo passing through Garnetport's harbors?"}
+{"answer": "seven percent", "answer_type": "number", "batch": 0, "line": 65, "pid": 38, "question": "What share of the transit cargo's value does Garnetport capture?"}
+{"answer": "710,000", "answer_type": "number", "batch": 0, "line": 66, "pid": 38, "question": "Roughly how many Gem do trade and services produce in the Concordat?"}
+{"answer": "7", "answer_type": "number", "batch": 0, "line": 67, "pid": 39, "question": "What is the Concordat's average output per person per year, in Gem?"}
+{"answer": "19", "answer_type": "number", "batch": 0, "line": 68, "pid": 39, "question": "How many Gem does a skilled glassblower earn annually?"}
+{"answer": "dockworker", "answer_type": "phrase", "batch": 0, "line": 69, "pid": 39, "question": "Which Garnetport worker earns roughly 5 Gem a year?"}
+{"answer": "3E 1650", "answer_type": "year", "batch": 0, "line": 70, "pid": 42, "question": "Around what year did the Great Shimmerbay Disaster happen?"}
+{"answer": "Shimmer Coast", "answer_type": "name", "batch": 0, "line": 71, "pid": 42, "question": "Which region's chain of city-states served for over a thousand years as the continent's western sea-trade hub?"}
+{"answer": "Shenzhou", "answer_type": "name", "batch": 0, "line": 72, "pid": 42, "question": "Which destination did the old trans-oceanic routes that collapsed around 3E 1700 serve?"}
+{"answer": "northwest", "answer_type": "phrase", "batch": 0, "line": 73, "pid": 43, "question": "From which direction do Kuxlum vessels approach Garnetport?"}
+{"answer": "near-monopoly", "answer_type": "phrase", "batch": 0, "line": 74, "pid": 43, "question": "What hold on trans-oceanic commerce did being the closest landfall give Garnetport?"}
+{"answer": "less than two centuries", "answer_type": "phrase", "batch": 0, "line": 75, "pid": 43, "question": "For roughly how long has there been contact with Kuxlum?"}
+{"answer": "3E 1770", "answer_type": "year", "batch": 0, "line": 76, "pid": 44, "question": "By which year had Garnetport reached the configuration recognizable today?"}
+{"answer": "Mercurian Exchange", "answer_type": "name", "batch": 0, "line": 77, "pid": 44, "question": "Which institution's financial machinery matured into its present form during Garnetport's growth phase?"}
+{"answer": "100,000", "answer_type": "number", "batch": 0, "line": 78, "pid": 44, "question": "Garnetport's population exceeded what figure by 3E 1770?"}
+{"answer": "Port customs", "answer_type": "phrase", "batch": 0, "line": 79, "pid": 47, "question": "Which revenue source supplies the overwhelming majority of the Concordat's central treasury income?"}
+{"answer": "Draconic Tribunal", "answer_type": "name", "batch": 0, "line": 80, "pid": 47, "question": "Fines from which court supplement the Concordat's central treasury?"}
+{"answer": "three", "answer_type": "number", "batch": 0, "line": 81, "pid": 47, "question": "On how many major overland routes does the central treasury collect tolls?"}
+{"answer": "dock space", "answer_type": "phrase", "batch": 0, "line": 82, "pid": 48, "question": "Unlike customs, what do Garnetport's port facility fees charge for?"}
+{"answer": "half", "answer_type": "phrase", "batch": 0, "line": 83, "pid": 48, "question": "Garnetport's municipal budget approaches what fraction of the central treasury's size?"}
+{"answer": "Mistvein", "answer_type": "name", "batch": 0, "line": 84, "pid": 49, "question": "On which river besides the Garnet does Deeproot collect river-crossing tolls?"}
+{"answer": "Underground Market", "answer_type": "name", "batch": 0, "line": 85, "pid": 49, "question": "Stall fees from which Deeproot venue add to the city's regional revenues?"}
+{"answer": "Grand Archive", "answer_type": "name", "batch": 0, "line": 86, "pid": 49, "question": "Hornhold collects access fees for which institution?"}
+{"answer": "House Costerham", "answer_type": "name", "batch": 0, "line": 87, "pid": 50, "question": "Which noble family controls the River Plains granary?"}
+{"answer": "western Mistbelt", "answer_type": "name", "batch": 0, "line": 88, "pid": 50, "question": "In which region does the Wardell family perform its strategic function?"}
+{"answer": "six", "answer_type": "number", "batch": 0, "line": 89, "pid": 50, "question": "How many great houses share the feudal revenues of the southern lordships?"}
+{"answer": "15 percent", "answer_type": "number", "batch": 0, "line": 90, "pid": 53, "question": "What royalty rate does Lyjousturnur levy on Dragontooth mining output?"}
+{"answer": "Dragonspire", "answer_type": "name", "batch": 0, "line": 91, "pid": 53, "question": "What is the name of the island temple complex among Lyjousturnur's direct holdings?"}
+{"answer": "400", "answer_type": "number", "batch": 0, "line": 92, "pid": 54, "question": "Roughly how many personnel make up the garrison of Ly's Seat?"}
+{"answer": "two", "answer_type": "number", "batch": 0, "line": 93, "pid": 54, "question": "How many magical treatises has Lyjousturnur had published?"}
+{"answer": "twenty meters", "answer_type": "number", "batch": 0, "line": 94, "pid": 55, "question": "What is the length of the stone basin that holds Lyjousturnur's hoard?"}
+{"answer": "Ly's Rest", "answer_type": "name", "batch": 0, "line": 95, "pid": 55, "question": "In which lair is the Dragon Lord's hoard basin carved into the rock?"}
+{"answer": "Vignitious", "answer_type": "name", "batch": 0, "line": 96, "pid": 55, "question": "Which brother of Lyjousturnur abandoned the Ambercrown inheritance?"}
+{"answer": "220", "answer_type": "number", "batch": 0, "line": 97, "pid": 56, "question": "Over how many years did Lyjousturnur build up the Concordat-era portion of his hoard?"}
+{"answer": "an order of magnitude", "answer_type": "phrase", "batch": 0, "line": 98, "pid": 56, "question": "By how much is Lyjousturnur's personal fortune larger than the Concordat's yearly output?"}
+{"answer": "3E 1580", "answer_type": "year", "batch": 0, "line": 99, "pid": 57, "question": "Around which year did Lyjousturnur win his victory?"}
+{"answer": "200", "answer_type": "number", "batch": 0, "line": 100, "pid": 57, "question": "For approximately how many years did Lyjousturnur's net surplus pour into the basin?"}
+{"answer": "Mercurian Exchange", "answer_type": "name", "batch": 0, "line": 101, "pid": 58, "question": "Which Garnetport institution's system of deposit certificates and commercial bills arose from a shortage of coin?"}
+{"answer": "credit instruments", "answer_type": "phrase", "batch": 0, "line": 102, "pid": 58, "question": "Faced with too little gold and silver coin, what did Garnetport's merchant community develop earlier than other continental cities?"}
+{"answer": "copper", "answer_type": "phrase", "batch": 0, "line": 103, "pid": 59, "question": "Which metal's coins did most of the Concordat's population use for daily affairs?"}
+{"answer": "Bender", "answer_type": "name", "batch": 0, "line": 104, "pid": 59, "question": "Which silver coin did skilled tradespeople hold as savings rather than spend in transactions?"}
+{"answer": "3E 1790", "answer_type": "year", "batch": 0, "line": 105, "pid": 61, "question": "Around what year did Lyjousturnur move the Ambercrown hoard to Ly's Rest?"}
+{"answer": "kobold population", "answer_type": "phrase", "batch": 0, "line": 106, "pid": 61, "question": "Members of which Ambercrown community resettled in the Concordat under the Dragon Lord's protection?"}
+{"answer": "Dragon Lord's Fund", "answer_type": "name", "batch": 0, "line": 107, "pid": 62, "question": "What is the discretionary spending vehicle Lyjousturnur established informally called?"}
+{"answer": "household staff", "answer_type": "phrase", "batch": 0, "line": 108, "pid": 62, "question": "Which existing personnel at Ly's Seat administer Lyjousturnur's discretionary fund?"}
+{"answer": "150,000", "answer_type": "number", "batch": 0, "line": 109, "pid": 64, "question": "Approximately how many people live in the Concordat's highland communities?"}
+{"answer": "mountain infrastructure", "answer_type": "phrase", "batch": 0, "line": 110, "pid": 64, "question": "What is the first and largest spending purpose of the Dragon Lord's Fund?"}
+{"answer": "Dragon Way", "answer_type": "name", "batch": 0, "line": 111, "pid": 64, "question": "Along which route and its feeder paths does Lyjousturnur's fund pay for road improvements?"}
+{"answer": "crystal-singing ceremonies", "answer_type": "phrase", "batch": 1, "line": 0, "pid": 65, "question": "Which kobold rituals does the Fund especially support?"}
+{"answer": "safety equipment", "answer_type": "phrase", "batch": 1, "line": 1, "pid": 65, "question": "What kind of gear does the Fund procure for kobold miners?"}
+{"answer": "sacred obligation", "answer_type": "phrase", "batch": 1, "line": 2, "pid": 65, "question": "In kobold theology, the Dragon Lord's support for his kobold subjects counts as what, rather than charity?"}
+{"answer": "mage tower", "answer_type": "phrase", "batch": 1, "line": 3, "pid": 66, "question": "Which structure is the Dragon Lord barred from building unless parliament approves it?"}
+{"answer": "College of Practical Magic", "answer_type": "name", "batch": 1, "line": 4, "pid": 66, "question": "At which school within Hornhold's university does the Fund expand scholarship endowments?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 1, "line": 5, "pid": 66, "question": "Whose restrictions on magical education does the Fund's third channel indirectly circumvent?"}
+{"answer": "Remembrance Vessel", "answer_type": "name", "batch": 1, "line": 6, "pid": 67, "question": "Which discovery triggered a wave of chaotic private exploration that organized archaeological expeditions now regulate?"}
+{"answer": "Water People", "answer_type": "name", "batch": 1, "line": 7, "pid": 67, "question": "Which group's northern-mountain sites are a particular destination of the funded archaeological expeditions?"}
+{"answer": "high peaks", "answer_type": "phrase", "batch": 1, "line": 8, "pid": 67, "question": "In which part of the mountains are the dwarven ruins targeted by the funded archaeological expeditions?"}
+{"answer": "Fund's establishment", "answer_type": "phrase", "batch": 1, "line": 9, "pid": 69, "question": "Together with the hoard's saturation, what development has produced a discernible economic shift across the Concordat?"}
+{"answer": "Dragon Way", "answer_type": "name", "batch": 1, "line": 10, "pid": 70, "question": "Along which main route and its feeder routes are mountain roads now in better shape than at any time in living memory?"}
+{"answer": "one in thirty", "answer_type": "phrase", "batch": 1, "line": 11, "pid": 70, "question": "What fraction of its animals does a mountain pack train now lose to trail hazards?"}
+{"answer": "tunnel collapses", "answer_type": "phrase", "batch": 1, "line": 12, "pid": 70, "question": "Besides better ventilation, what accidents have become less frequent in kobold mining settlements?"}
+{"answer": "enforced idleness", "answer_type": "phrase", "batch": 1, "line": 13, "pid": 71, "question": "In what condition did foothill farmers near the Dragon Way previously spend the winter months?"}
+{"answer": "metal", "answer_type": "phrase", "batch": 1, "line": 14, "pid": 71, "question": "Instead of stone and wood, tools of what material can more highland families now afford?"}
+{"answer": "Gem", "answer_type": "name", "batch": 1, "line": 15, "pid": 71, "question": "In what unit of currency are a highland farmer's construction-season wages counted?"}
+{"answer": "Elinlyia Moonlit", "answer_type": "name", "batch": 1, "line": 16, "pid": 72, "question": "Which Ritual Master in Hornhold has seen a research budget approximately double?"}
+{"answer": "Deeproot basin", "answer_type": "name", "batch": 1, "line": 17, "pid": 72, "question": "Orcish students drawn to magical training in Hornhold come from households in which region?"}
+{"answer": "mining", "answer_type": "phrase", "batch": 1, "line": 18, "pid": 72, "question": "The occasional kobold students at Hornhold have aptitudes for magical theory instead of which trade?"}
+{"answer": "Mercurian Exchange", "answer_type": "name", "batch": 1, "line": 19, "pid": 73, "question": "Which institution's operations have continued as before while Garnetport's credit markets stay largely unchanged?"}
+{"answer": "Dragon Way", "answer_type": "name", "batch": 1, "line": 20, "pid": 73, "question": "Up which route do Garnetport's slightly higher grain purchases flow?"}
+{"answer": "marquis", "answer_type": "phrase", "batch": 1, "line": 21, "pid": 74, "question": "Which noble rank has annual revenues comparable to those of a moderately successful Garnetport trader?"}
+{"answer": "Chamber of Lords", "answer_type": "name", "batch": 1, "line": 22, "pid": 74, "question": "What assembly do the south's feudal aristocrats still have seats in?"}
+{"answer": "land", "answer_type": "phrase", "batch": 1, "line": 23, "pid": 74, "question": "From what does the southern feudal aristocracy derive its income?"}
+{"answer": "Marglus Sea", "answer_type": "name", "batch": 1, "line": 24, "pid": 75, "question": "Weather over which body of water helps decide whether the cost of bread stays stable for urban dockworkers and porters?"}
+{"answer": "western seaboard", "answer_type": "phrase", "batch": 1, "line": 25, "pid": 75, "question": "Economic migrants who hold down urban laborers' wages come from declining ports in which area?"}
+{"answer": "Southern Way", "answer_type": "name", "batch": 1, "line": 26, "pid": 75, "question": "Diplomatic relations along which route also affect bread-price stability for the urban laboring population?"}
+{"answer": "wheat", "answer_type": "phrase", "batch": 1, "line": 27, "pid": 76, "question": "What crop does the Costerham tenant farmer bring to market in Deeproot?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 1, "line": 28, "pid": 76, "question": "Food-policy tension in the Concordat surfaces in every trade negotiation with which partner?"}
+{"answer": "draft animal", "answer_type": "phrase", "batch": 1, "line": 29, "pid": 76, "question": "With an extra Gem or two a year, what can a farming household save toward?"}
+{"answer": "institutional advocacy", "answer_type": "phrase", "batch": 1, "line": 30, "pid": 77, "question": "To what do Hornhold's scholars attribute their increased funding?"}
+{"answer": "Ambercrown transfer", "answer_type": "name", "batch": 1, "line": 31, "pid": 77, "question": "Which event forced a cascading fiscal adjustment upon the Dragon Lord?"}
+{"answer": "southern lords", "answer_type": "phrase", "batch": 1, "line": 32, "pid": 77, "question": "Which group in the Concordat knows it is falling behind economically?"}
+{"answer": "Eastern Continental Bloodline", "answer_type": "name", "batch": 1, "line": 33, "pid": 82, "question": "Which vampire lineage has a reputation for violence and cruelty?"}
+{"answer": "First Era", "answer_type": "phrase", "batch": 1, "line": 34, "pid": 82, "question": "To which age is the Eastern Continental vampire bloodline believed to date back?"}
+{"answer": "Morthaxus", "answer_type": "name", "batch": 1, "line": 35, "pid": 83, "question": "Which dragon created the vampires of the Western Continental Bloodline?"}
+{"answer": "Ambercrown", "answer_type": "name", "batch": 1, "line": 36, "pid": 83, "question": "Where did the Western Continental vampire bloodline originate?"}
+{"answer": "2E 500", "answer_type": "year", "batch": 1, "line": 37, "pid": 83, "question": "In roughly what year did the reign of Morthaxus the Flesh-Sculptor begin?"}
+{"answer": "Kythemeoz", "answer_type": "name", "batch": 1, "line": 38, "pid": 86, "question": "Which vampire hunter is the most famous on the continent?"}
+{"answer": "three", "answer_type": "number", "batch": 1, "line": 39, "pid": 86, "question": "How many heroes slew Morthaxus?"}
+{"answer": "2E 1100", "answer_type": "year", "batch": 1, "line": 40, "pid": 86, "question": "In approximately which year was Morthaxus slain?"}
+{"answer": "Dark Tongue", "answer_type": "name", "batch": 1, "line": 41, "pid": 90, "question": "Which language associated with vampiric bloodlines is restricted within the Concordat?"}
+{"answer": "corruptive properties", "answer_type": "phrase", "batch": 1, "line": 42, "pid": 90, "question": "What harmful quality does the Dark Tongue carry that can affect a practitioner over time?"}
+{"answer": "Shenzhou", "answer_type": "name", "batch": 1, "line": 43, "pid": 95, "question": "With which land did Auromere and Elysia have close commercial ties in the past?"}
+{"answer": "western parts", "answer_type": "phrase", "batch": 1, "line": 44, "pid": 95, "question": "In which region of the continent are most cases of mixed Shenzhou-continental offspring concentrated?"}
+{"answer": "beastfolk", "answer_type": "phrase", "batch": 1, "line": 45, "pid": 96, "question": "What kind of people are natives of Shenzhou?"}
+{"answer": "full moon", "answer_type": "phrase", "batch": 1, "line": 46, "pid": 98, "question": "At what time do a very few mixed offspring tend to transform toward beastfolk?"}
+{"answer": "wolf-tribe", "answer_type": "phrase", "batch": 1, "line": 47, "pid": 98, "question": "As what kind of beastfolk do the transforming mixed offspring stabilize once sent to Shenzhou?"}
+{"answer": "Shenzhou", "answer_type": "name", "batch": 1, "line": 48, "pid": 101, "question": "Tigers, leopards, bears and rabbits are among the beastfolk of which place?"}
+{"answer": "3E 800", "answer_type": "year", "batch": 1, "line": 49, "pid": 102, "question": "In approximately what year did trade with Shenzhou begin?"}
+{"answer": "werewolf", "answer_type": "phrase", "batch": 1, "line": 50, "pid": 102, "question": "According to theologians, which form did the deities of both continents fix for mixed-blood peoples?"}
+{"answer": "beastfolk", "answer_type": "phrase", "batch": 1, "line": 51, "pid": 104, "question": "Offspring patterns suggest that continental minotaurs belong to which category of being?"}
+{"answer": "1:1", "answer_type": "number", "batch": 1, "line": 52, "pid": 104, "question": "In what ratio do descendants of minotaur and Shenzhou-native unions inherit their parents' races?"}
+{"answer": "druidic magic", "answer_type": "phrase", "batch": 1, "line": 53, "pid": 113, "question": "Scholars count actively shapeshifting into a half-beastfolk, half-humanoid form as a forbidden part of which tradition?"}
+{"answer": "Green Elf populations", "answer_type": "name", "batch": 1, "line": 54, "pid": 117, "question": "Which group, having migrated from the northeast with a strong druidic tradition, resisted Lyjousturnur's prohibition early on?"}
+{"answer": "northeast", "answer_type": "phrase", "batch": 1, "line": 55, "pid": 117, "question": "From which direction did the Green Elf populations migrate?"}
+{"answer": "Morthaxus", "answer_type": "name", "batch": 1, "line": 56, "pid": 117, "question": "Whose manner of reshaping flesh did the dissenting druidic groves distinguish from assuming animal form?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 1, "line": 57, "pid": 118, "question": "Which Dragon Lord refused to permit the practice under general law because of its potential for abuse?"}
+{"answer": "flesh magic", "answer_type": "phrase", "batch": 1, "line": 58, "pid": 118, "question": "Lyjousturnur considered the practice overly bound up with which kind of sorcery?"}
+{"answer": "Whisperleaf", "answer_type": "name", "batch": 1, "line": 59, "pid": 119, "question": "In which territory may designated areas practice limited transformation magic, supervised by elves?"}
+{"answer": "Memorandum of Understanding", "answer_type": "name", "batch": 1, "line": 60, "pid": 119, "question": "Which document formalized the compromise over transformation magic?"}
+{"answer": "organized churches", "answer_type": "phrase", "batch": 1, "line": 61, "pid": 127, "question": "At their most hierarchical, what form do demon-worshipping groups take?"}
+{"answer": "Sea of Gold", "answer_type": "name", "batch": 1, "line": 62, "pid": 128, "question": "Extremist sects that justified soul-harvesting trace back to which southern region's slave era?"}
+{"answer": "theological residue", "answer_type": "phrase", "batch": 1, "line": 63, "pid": 128, "question": "What remnant of the collapsed southern slave civilizations still persists in scattered communities?"}
+{"answer": "Cult of Bones", "answer_type": "name", "batch": 1, "line": 64, "pid": 129, "question": "Which necromancer organization does Concordat law single out by name?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 1, "line": 65, "pid": 129, "question": "The Necromancer who founded the Cult of Bones is associated with which place?"}
+{"answer": "Coven", "answer_type": "name", "batch": 1, "line": 66, "pid": 131, "question": "Which decentralized network of practitioners of unorthodox magic is treated separately from the prohibited cults in Concordat law?"}
+{"answer": "marshlands", "answer_type": "phrase", "batch": 1, "line": 67, "pid": 131, "question": "Where does the hedge witch cited as an example of a Coven member provide folk remedies?"}
+{"answer": "rural communities", "answer_type": "phrase", "batch": 1, "line": 68, "pid": 131, "question": "Where is the Coven's diffuse membership deeply rooted?"}
+{"answer": "Coven", "answer_type": "name", "batch": 1, "line": 69, "pid": 132, "question": "Which group is subject to a regulatory regime of its own rather than the blanket prohibition on the listed organizations?"}
+{"answer": "Concordat Rangers", "answer_type": "name", "batch": 1, "line": 70, "pid": 135, "question": "Besides the Dragontooth Branch of the Continental Mage Association, which body jointly keeps a register of known cults?"}
+{"answer": "recruitment methods", "answer_type": "phrase", "batch": 1, "line": 71, "pid": 135, "question": "Besides identifying symbols and practices, what does the Concordat Rangers' register of known cults record?"}
+{"answer": "demon worship", "answer_type": "phrase", "batch": 1, "line": 72, "pid": 139, "question": "Which organized practice is banned outright in the Concordat, unlike private communion with extraplanar beings?"}
+{"answer": "grey area", "answer_type": "phrase", "batch": 1, "line": 73, "pid": 139, "question": "In the Concordat, individual rites of communion with demonic entities occupy what kind of uncomfortable legal category?"}
+{"answer": "retaliatory responses", "answer_type": "phrase", "batch": 1, "line": 74, "pid": 140, "question": "What does overly aggressive suppression of demonic communion risk provoking?"}
+{"answer": "reactive", "answer_type": "phrase", "batch": 1, "line": 75, "pid": 141, "question": "Rather than preventive, what kind of approach does the Concordat take toward private communion with demons?"}
+{"answer": "Continental Mage Association", "answer_type": "name", "batch": 1, "line": 76, "pid": 143, "question": "Which organization has spent many centuries sorting summoning methods into categories?"}
+{"answer": "licensed practitioners", "answer_type": "phrase", "batch": 1, "line": 77, "pid": 143, "question": "Who is permitted to use summoning spells shown through testing to be safe?"}
+{"answer": "risk level", "answer_type": "phrase", "batch": 1, "line": 78, "pid": 143, "question": "By what criterion has the Continental Mage Association classified summoning techniques?"}
+{"answer": "prosecution", "answer_type": "phrase", "batch": 1, "line": 79, "pid": 144, "question": "What do practitioners who use summoning techniques not on the approved list face?"}
+{"answer": "Continental Mage Association", "answer_type": "name", "batch": 1, "line": 80, "pid": 146, "question": "Whose approved list determines which summoning techniques are legal for licensed users?"}
+{"answer": "Illegal", "answer_type": "phrase", "batch": 1, "line": 81, "pid": 146, "question": "What is the legal standing of unapproved summoning magic?"}
+{"answer": "hag", "answer_type": "phrase", "batch": 1, "line": 82, "pid": 150, "question": "Into what does a witch transform once a reclusive life gives way to total isolation from civilization?"}
+{"answer": "mind", "answer_type": "phrase", "batch": 1, "line": 83, "pid": 151, "question": "What do the strange magics used by most hags warp?"}
+{"answer": "water ghost", "answer_type": "phrase", "batch": 1, "line": 84, "pid": 153, "question": "What monster does a sufficiently old hag become after an undocumented ritual?"}
+{"answer": "Penitent Mary", "answer_type": "name", "batch": 1, "line": 85, "pid": 155, "question": "According to a western legend, which hag returned to a normal human appearance after years of prayer?"}
+{"answer": "5", "answer_type": "number", "batch": 1, "line": 86, "pid": 155, "question": "According to the legend, how many years of penance did Penitent Mary undergo?"}
+{"answer": "3E 1200", "answer_type": "year", "batch": 1, "line": 87, "pid": 155, "question": "Around which year did the legendary hag Penitent Mary live?"}
+{"answer": "University of Hornhold", "answer_type": "name", "batch": 1, "line": 88, "pid": 163, "question": "Where is one specimen believed to be a Doppelganger preserved?"}
+{"answer": "Morthaxus", "answer_type": "name", "batch": 1, "line": 89, "pid": 170, "question": "According to the continental mainstream view, to whom are Changelings related?"}
+{"answer": "netherworld", "answer_type": "phrase", "batch": 1, "line": 90, "pid": 177, "question": "According to some scholars, where do the sprites considered guardians of nature actually originate?"}
+{"answer": "civilization", "answer_type": "phrase", "batch": 1, "line": 91, "pid": 177, "question": "In literary works, the nature-guardian sprites are a refuge for those oppressed by what?"}
+{"answer": "six", "answer_type": "number", "batch": 1, "line": 92, "pid": 179, "question": "How many dragon lords have existed on the continent according to historical records?"}
+{"answer": "fairies", "answer_type": "phrase", "batch": 1, "line": 93, "pid": 179, "question": "According to legend, by what kind of beings has every dragon lord of the continent been tricked?"}
+{"answer": "Continental Mage Association", "answer_type": "name", "batch": 2, "line": 0, "pid": 192, "question": "Which organization assists the Concordat Rangers in handling phenomena linked to necromancy and flesh magic?"}
+{"answer": "monsters", "answer_type": "phrase", "batch": 2, "line": 1, "pid": 195, "question": "Into what category are goblins, ogres and trolls placed, instead of being treated as entities with special legal standing?"}
+{"answer": "Last Range", "answer_type": "name", "batch": 2, "line": 2, "pid": 200, "question": "What alternative name is increasingly applied to the Ereniv Mountains?"}
+{"answer": "3E 1570", "answer_type": "year", "batch": 2, "line": 3, "pid": 200, "question": "Around what year did the dragon Lyjousturnur arrive in the Dragontooth Region?"}
+{"answer": "five", "answer_type": "number", "batch": 2, "line": 4, "pid": 200, "question": "Into how many administrative regions is the Dragontooth Concordat divided?"}
+{"answer": "two-fifths", "answer_type": "number", "batch": 2, "line": 5, "pid": 201, "question": "Roughly what fraction of the Concordat's territory is made up of steep mountain peaks alone, not counting foothills and highlands?"}
+{"answer": "Rolthark Range", "answer_type": "name", "batch": 2, "line": 6, "pid": 201, "question": "Which southwestern mountain chain separates the Concordat from the southern kingdoms?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 2, "line": 7, "pid": 201, "question": "Which city's explosive rise as a trading hub has pushed the Concordat's food demands past what its farmlands can supply?"}
+{"answer": "Marcheast", "answer_type": "name", "batch": 2, "line": 8, "pid": 202, "question": "What was the town of Mercrest originally meant to be named?"}
+{"answer": "Vagnius Galainor", "answer_type": "name", "batch": 2, "line": 9, "pid": 202, "question": "Which ritual master mysteriously disappeared in the woods south of Mercrest?"}
+{"answer": "3E 1700", "answer_type": "year", "batch": 2, "line": 10, "pid": 202, "question": "Around what year did the old sea routes linking the Shimmer Coast to Shenzhou come to an end?"}
+{"answer": "core forge", "answer_type": "phrase", "batch": 2, "line": 11, "pid": 203, "question": "In the dwarven language, what does the name Ghalakdum mean?"}
+{"answer": "five", "answer_type": "number", "batch": 2, "line": 12, "pid": 203, "question": "How many small rivers and streams feed Larna's Tears Lake?"}
+{"answer": "Merian's Mercy", "answer_type": "name", "batch": 2, "line": 13, "pid": 203, "question": "Which of the two lakes in Calia Forest lies to the west?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 2, "line": 14, "pid": 204, "question": "Which town serves as the power center of the feudal Lords in the southern plains?"}
+{"answer": "Aliqurium", "answer_type": "name", "batch": 2, "line": 15, "pid": 204, "question": "Which river forms Lake Aqa after descending from the Rolthark Range?"}
+{"answer": "Lorbok", "answer_type": "name", "batch": 2, "line": 16, "pid": 204, "question": "Which orc chieftain led several tribes to wipe out an entire imperial legion in the forest near Lake Aqa?"}
+{"answer": "Kronirr's Rest Lake", "answer_type": "name", "batch": 2, "line": 17, "pid": 205, "question": "New Hornhold City stands on the shores of which body of water?"}
+{"answer": "Fort Alina", "answer_type": "name", "batch": 2, "line": 18, "pid": 205, "question": "Which small town is the final settlement before the Concordat's eastern border?"}
+{"answer": "Ly's Seat", "answer_type": "name", "batch": 2, "line": 19, "pid": 205, "question": "What is the name of Lyjousturnur's court, a fairly modest castle?"}
+{"answer": "Ly's Rest", "answer_type": "name", "batch": 2, "line": 20, "pid": 206, "question": "Which peak holds Lyjousturnur's palatial lair-nest?"}
+{"answer": "Ly's Peak", "answer_type": "name", "batch": 2, "line": 21, "pid": 206, "question": "What is the northernmost and highest summit in the Concordat's Northern Highlands?"}
+{"answer": "Garnet Way", "answer_type": "name", "batch": 2, "line": 22, "pid": 207, "question": "Along which road does a merchant caravan travel between Garnetport and New Hornhold?"}
+{"answer": "autumn", "answer_type": "phrase", "batch": 2, "line": 23, "pid": 208, "question": "In which season do sightings of the Ghost Fleet reach their peak?"}
+{"answer": "Water People", "answer_type": "name", "batch": 2, "line": 24, "pid": 208, "question": "From which ancient civilization did Deeproot inherit the irrigation systems its farms depend on?"}
+{"answer": "Marsh Path", "answer_type": "name", "batch": 2, "line": 25, "pid": 208, "question": "Which route to Larkghet becomes nearly impassable during Deeproot's mist season?"}
+{"answer": "garnets", "answer_type": "phrase", "batch": 2, "line": 26, "pid": 210, "question": "Which gemstone mined in the Dragontooth Mountains gives the region its name?"}
+{"answer": "three", "answer_type": "number", "batch": 2, "line": 27, "pid": 210, "question": "How many major valleys and hill zones between mountains support the theory that the Dragontooth Mountains formed from two merged chains?"}
+{"answer": "rubies", "answer_type": "phrase", "batch": 2, "line": 28, "pid": 210, "question": "In mountain folklore, which gem did a lost hunter claim had covered an entire peak?"}
+{"answer": "Lyjobloom", "answer_type": "name", "batch": 2, "line": 29, "pid": 211, "question": "Which plant flourishes in specialized gardens high up near Ly's Peak?"}
+{"answer": "Dragonkiss", "answer_type": "name", "batch": 2, "line": 30, "pid": 211, "question": "Which crop grows on south-facing slopes and needs particular soil and sunlight conditions?"}
+{"answer": "petrified bones of ancient giants", "answer_type": "phrase", "batch": 2, "line": 31, "pid": 212, "question": "What do orcish legends say the Rolthark Range's mountains actually are?"}
+{"answer": "Smarana Plains", "answer_type": "name", "batch": 2, "line": 32, "pid": 212, "question": "Along the Rolthark Range, which region borders the Dragontooth Region to the south?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 2, "line": 33, "pid": 212, "question": "During which empire's periods did the Rolthark Range's accessible terrain serve as a route for human expansion?"}
+{"answer": "Flammy spice", "answer_type": "name", "batch": 2, "line": 34, "pid": 213, "question": "Which crop is farmed in the warmer southern districts close to the coast?"}
+{"answer": "Drakeroot", "answer_type": "name", "batch": 2, "line": 35, "pid": 213, "question": "Which crop is grown on controlled terraces across the more hospitable slopes?"}
+{"answer": "distinctive wind patterns", "answer_type": "phrase", "batch": 2, "line": 36, "pid": 214, "question": "What natural feature gives the Whisper Range its name?"}
+{"answer": "Whisperleaf", "answer_type": "name", "batch": 2, "line": 37, "pid": 214, "question": "Which elven kingdom holds sovereignty over the mountains separating Dragontooth from the Gem Plateau and Smarana corridor?"}
+{"answer": "elven gatherers", "answer_type": "phrase", "batch": 2, "line": 38, "pid": 215, "question": "Who harvests the medicinal herbs growing in the mountain meadows?"}
+{"answer": "Mist Valleys", "answer_type": "name", "batch": 2, "line": 39, "pid": 216, "question": "What collective name is given to the foggy area stretching from Westmarch to Deeproot?"}
+{"answer": "Underground Market", "answer_type": "name", "batch": 2, "line": 40, "pid": 216, "question": "Which Deeproot institution has developed special techniques for storing goods affected by constant humidity?"}
+{"answer": "Siren Isle", "answer_type": "name", "batch": 2, "line": 41, "pid": 217, "question": "What nickname do Garnetport's sailors use for the bone-covered islet off the Marglus coast?"}
+{"answer": "Alchemist's Isle", "answer_type": "name", "batch": 2, "line": 42, "pid": 217, "question": "On which island does Lyjousturnur leave the remains of the sea serpents he kills?"}
+{"answer": "worked gemstones", "answer_type": "phrase", "batch": 2, "line": 43, "pid": 217, "question": "On the Hornhold market, an intact great serpent scale can sell for prices comparable to what?"}
+{"answer": "2E 200", "answer_type": "year", "batch": 2, "line": 44, "pid": 219, "question": "Around what year did the hero Kronirr kill Vorg's great serpent at the Garnet River?"}
+{"answer": "Brooding Mother", "answer_type": "name", "batch": 2, "line": 45, "pid": 219, "question": "Who is the chief deity of Hornhold's minotaurs?"}
+{"answer": "50,000", "answer_type": "number", "batch": 2, "line": 46, "pid": 219, "question": "Before the Nameless Terror, roughly what was the minotaur population?"}
+{"answer": "3E 940", "answer_type": "year", "batch": 2, "line": 47, "pid": 220, "question": "In which year did the Continental Mage Association carry out its survey of the kobolds?"}
+{"answer": "Helixus", "answer_type": "name", "batch": 2, "line": 48, "pid": 220, "question": "Which deity do most Concordat kobolds regard as their Dragon Lord's great ancestor?"}
+{"answer": "Father of Dragons", "answer_type": "name", "batch": 2, "line": 49, "pid": 220, "question": "Which figure do a few kobold mountain tribes still worship directly?"}
+{"answer": "3E 1480", "answer_type": "year", "batch": 2, "line": 50, "pid": 221, "question": "In what year did the Nameless Terror begin consuming the northeastern plains?"}
+{"answer": "humans", "answer_type": "phrase", "batch": 2, "line": 51, "pid": 221, "question": "Which group is the only one larger than the halflings in the Concordat's population?"}
+{"answer": "intensive farming", "answer_type": "phrase", "batch": 2, "line": 52, "pid": 221, "question": "What halfling aptitude is considered invaluable to the Concordat, given its scarce arable land?"}
+{"answer": "3E 1240", "answer_type": "year", "batch": 2, "line": 53, "pid": 222, "question": "Around which year did several thousand marsh orcs depart the Dragontooth region with their families?"}
+{"answer": "Vorg", "answer_type": "name", "batch": 2, "line": 54, "pid": 222, "question": "Which being empowered the marsh orcs whose campaigns established the Orc Khanate?"}
+{"answer": "northeasterners", "answer_type": "phrase", "batch": 2, "line": 55, "pid": 222, "question": "What label is used in Deeproot and Garnetport for orcs descended from refugees?"}
+{"answer": "3E 1240", "answer_type": "year", "batch": 2, "line": 56, "pid": 223, "question": "Around which year did elves begin returning to Whisperleaf?"}
+{"answer": "reddish-brown", "answer_type": "phrase", "batch": 2, "line": 57, "pid": 223, "question": "What hair color characterizes Green Elf bloodlines?"}
+{"answer": "southeastern continent", "answer_type": "phrase", "batch": 2, "line": 58, "pid": 223, "question": "To which land did the Starlight Elves migrate after leaving Whisperleaf?"}
+{"answer": "3E 200", "answer_type": "year", "batch": 2, "line": 59, "pid": 224, "question": "Around which year was the dwarven Third Kingdom in Dragontooth founded?"}
+{"answer": "Forge God", "answer_type": "name", "batch": 2, "line": 60, "pid": 224, "question": "In local dwarven faith, which deity replaces Helixus as chief deity?"}
+{"answer": "15,000", "answer_type": "number", "batch": 2, "line": 61, "pid": 224, "question": "Approximately how many dwarves live in the Concordat today?"}
+{"answer": "3E 1700", "answer_type": "year", "batch": 2, "line": 62, "pid": 225, "question": "Around which year did Shenzhou enter isolation?"}
+{"answer": "Kiangazi Islands", "answer_type": "name", "batch": 2, "line": 63, "pid": 225, "question": "From which southern archipelago do smaller numbers of the Concordat's overseas settlers come?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 2, "line": 64, "pid": 225, "question": "Which city holds nearly all of the Concordat's overseas settlers?"}
+{"answer": "3E 1407", "answer_type": "year", "batch": 2, "line": 65, "pid": 226, "question": "In what year was the Battle of Aliqurium fought?"}
+{"answer": "inscription slavery", "answer_type": "phrase", "batch": 2, "line": 66, "pid": 226, "question": "What practice did the Sea of Gold use during its expansion to erase mountain-lowland distinctions?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 2, "line": 67, "pid": 226, "question": "Toward which region do mountain people with pronounced minotaur traits tend to gravitate?"}
+{"answer": "Blood of the Garnet", "answer_type": "name", "batch": 2, "line": 68, "pid": 227, "question": "What name do locals give to Dragontooth's dual demonic invasion, which destroyed Water People civilization?"}
+{"answer": "Green Elves", "answer_type": "name", "batch": 2, "line": 69, "pid": 227, "question": "Alongside the Water People, which group supplied theology and law to early Smarana humans?"}
+{"answer": "Exodia", "answer_type": "name", "batch": 2, "line": 70, "pid": 227, "question": "Who made a pact with Lyjousturnur that made Dragontooth's western seaboard viable for habitation?"}
+{"answer": "1E ~3000", "answer_type": "year", "batch": 2, "line": 71, "pid": 231, "question": "According to elven records, around when did the Starlight Elves settle at Whisperleaf?"}
+{"answer": "Morthaxus", "answer_type": "name", "batch": 2, "line": 72, "pid": 231, "question": "Which dragon appears with Kythemeoz in the earliest tales tied to the Dragontooth region?"}
+{"answer": "local fae", "answer_type": "phrase", "batch": 2, "line": 73, "pid": 231, "question": "Whose fragmentary testimony is the only source of hints about Dragontooth's mythic ages before the First Era?"}
+{"answer": "Shimmerbay", "answer_type": "name", "batch": 2, "line": 74, "pid": 232, "question": "In what region does the Green Sage's verse set the Dragon-and-Princess covenant?"}
+{"answer": "Sea of Gold", "answer_type": "name", "batch": 2, "line": 75, "pid": 232, "question": "Whose single-aspect theology did the covenant-based Helixus doctrine stand against as its defining ideological counterweight?"}
+{"answer": "Ambercrown", "answer_type": "name", "batch": 2, "line": 76, "pid": 232, "question": "Where did the covenant's conceptual precedent permanently reshape the story of dragon-mortal relations?"}
+{"answer": "Cetral Peninsula", "answer_type": "name", "batch": 2, "line": 77, "pid": 234, "question": "Which landmass sank around 2E 0, helping open a window of vulnerability for the demonic invasion of Dragontooth?"}
+{"answer": "Starlight Elves", "answer_type": "name", "batch": 2, "line": 78, "pid": 235, "question": "Which people left Whisperleaf and fled southeast ahead of the approaching threat?"}
+{"answer": "great serpent", "answer_type": "phrase", "batch": 2, "line": 79, "pid": 236, "question": "In what form did Vorg's physical manifestation appear when it was slain in the Garnet River?"}
+{"answer": "Kronirr's Rest Lake", "answer_type": "name", "batch": 2, "line": 80, "pid": 236, "question": "In Dragontooth tradition, which body of water was formed from a Water People girl's blood?"}
+{"answer": "dissolution effect", "answer_type": "phrase", "batch": 2, "line": 81, "pid": 238, "question": "What did the Chief of the Void use to shatter the collective coherence of the Water People?"}
+{"answer": "late-comers", "answer_type": "phrase", "batch": 2, "line": 82, "pid": 238, "question": "What dismissive label did the minotaurs give the Shimmerbay leadership?"}
+{"answer": "minotaurs", "answer_type": "phrase", "batch": 2, "line": 83, "pid": 239, "question": "With the Water People gone and the Green Elves departed, which people became the Dragontooth region's dominant civilized force?"}
+{"answer": "2E ~500", "answer_type": "year", "batch": 2, "line": 84, "pid": 242, "question": "Around what year was the First Hornhold formally founded?"}
+{"answer": "First Auromere Empire", "answer_type": "name", "batch": 2, "line": 85, "pid": 242, "question": "Which power began pushing north into Dragontooth around 3E 0, prompting the minotaurs to relocate their capital?"}
+{"answer": "over a millennium", "answer_type": "phrase", "batch": 2, "line": 86, "pid": 242, "question": "For how long did the First Hornhold serve as the minotaur capital?"}
+{"answer": "2E ~600", "answer_type": "year", "batch": 2, "line": 87, "pid": 244, "question": "Around what year did the Markrasia Empire unify the western Shimmerbay sphere?"}
+{"answer": "Deeproot", "answer_type": "name", "batch": 2, "line": 88, "pid": 244, "question": "Which area did the Markrasia Empire bring into its territory?"}
+{"answer": "Volkrim", "answer_type": "name", "batch": 2, "line": 89, "pid": 244, "question": "Via Malha, the B-region connects eastward to which place?"}
+{"answer": "thirteen", "answer_type": "number", "batch": 2, "line": 90, "pid": 247, "question": "For over how many centuries was the Second Hornhold the minotaur capital?"}
+{"answer": "University of Hornhold", "answer_type": "name", "batch": 2, "line": 91, "pid": 247, "question": "Which institution traces its origins to the minotaur renaissance at the hilltop capital?"}
+{"answer": "3E ~1580", "answer_type": "year", "batch": 2, "line": 92, "pid": 247, "question": "Around what year did the Nameless Terror reach the Dragontooth region?"}
+{"answer": "3E ~0", "answer_type": "year", "batch": 2, "line": 93, "pid": 250, "question": "Around which year was the independent Deeproot kingdom attacked by an A-region kingdom?"}
+{"answer": "dwarves", "answer_type": "phrase", "batch": 2, "line": 94, "pid": 250, "question": "In the partition of Deeproot, which people took the northern mountain areas?"}
+{"answer": "First Auromere Empire", "answer_type": "name", "batch": 2, "line": 95, "pid": 250, "question": "After Markrasia fell, which state dominated the Smarana Plains as its main successor?"}
+{"answer": "Ly's Peak", "answer_type": "name", "batch": 2, "line": 96, "pid": 252, "question": "Around which present-day landmark was the dwarven Third Kingdom centered?"}
+{"answer": "Aalimos", "answer_type": "name", "batch": 2, "line": 97, "pid": 252, "question": "In which mountains did the Second Kingdom act as a relay point for the dwarven defense network?"}
+{"answer": "3E ~200", "answer_type": "year", "batch": 2, "line": 98, "pid": 252, "question": "Around which year did the dwarves formally found their Third Kingdom?"}
+{"answer": "minotaurs", "answer_type": "phrase", "batch": 2, "line": 99, "pid": 253, "question": "With which people did the dwarven Third Kingdom keep generally peaceful relations and considerable trade?"}
+{"answer": "mining expertise", "answer_type": "phrase", "batch": 2, "line": 100, "pid": 253, "question": "For what was the dwarven Third Kingdom renowned?"}
+{"answer": "3E ~600", "answer_type": "year", "batch": 2, "line": 101, "pid": 254, "question": "From around which year did the dwarven Third Kingdom's decline set in?"}
+{"answer": "3E ~300", "answer_type": "year", "batch": 2, "line": 102, "pid": 256, "question": "Around which year did kobold tribes migrate into the continent?"}
+{"answer": "Dwarf Third Kingdom", "answer_type": "name", "batch": 2, "line": 103, "pid": 256, "question": "Whose abandoned upper installations did kobold communities gradually occupy?"}
+{"answer": "100,000", "answer_type": "number", "batch": 2, "line": 104, "pid": 258, "question": "Roughly how many descendants of the dissolved dwarven kingdom eventually scattered across Dragontooth?"}
+{"answer": "3E ~800", "answer_type": "year", "batch": 2, "line": 105, "pid": 258, "question": "Around which year did the dwarven Third Kingdom dissolve?"}
+{"answer": "mountain people", "answer_type": "phrase", "batch": 2, "line": 106, "pid": 259, "question": "What name was given to the mixed-blood communities that consolidated in the hills after the double collapse?"}
+{"answer": "maritime commercial power", "answer_type": "phrase", "batch": 2, "line": 107, "pid": 264, "question": "What kind of state was the Second Auromere Empire?"}
+{"answer": "Garnet River", "answer_type": "name", "batch": 2, "line": 108, "pid": 264, "question": "Which waterway's trade routes did the Second Auromere Empire try to control?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 3, "line": 0, "pid": 265, "question": "Fortress ruins from the era of southern human conflict with minotaurs and orcs lie between Deeproot and which other place?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 3, "line": 1, "pid": 265, "question": "Whose shift toward internal consolidation caused the expansion that brought southern humans into contact with minotaurs to falter?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 3, "line": 2, "pid": 267, "question": "Which power built a denser web of forts and set up the feudal lordship system in southern Deeproot and Aquilon?"}
+{"answer": "Vorg", "answer_type": "name", "batch": 3, "line": 3, "pid": 270, "question": "Which demonic entity powered the military mobilization of the marshland Orcs around 3E ~1240?"}
+{"answer": "Lothric Castle", "answer_type": "name", "batch": 3, "line": 4, "pid": 270, "question": "Where were the direct-line chieftain families of the Khanate settled after it fragmented?"}
+{"answer": "3E ~1460", "answer_type": "year", "batch": 3, "line": 5, "pid": 270, "question": "Around what year did the Orc Khanate fragment?"}
+{"answer": "Lorbok", "answer_type": "name", "batch": 3, "line": 6, "pid": 271, "question": "Which Orc chieftain led the ambush that destroyed an Auromerian legion at the Battle of Aliqurium?"}
+{"answer": "Mage's Fall Woods", "answer_type": "name", "batch": 3, "line": 7, "pid": 271, "question": "Which small elven grove supplied the druids who fought at the Battle of Aliqurium?"}
+{"answer": "Lorbok's Woods", "answer_type": "name", "batch": 3, "line": 8, "pid": 271, "question": "What were the forests around the burned Fort Aliqurium known as thereafter?"}
+{"answer": "3E ~1570", "answer_type": "year", "batch": 3, "line": 9, "pid": 274, "question": "Around what year did Lyjousturnur arrive in the Dragontooth Region?"}
+{"answer": "Ly's Peak", "answer_type": "name", "batch": 3, "line": 10, "pid": 274, "question": "Where did Lyjousturnur initially settle after reaching Dragontooth?"}
+{"answer": "Helixus", "answer_type": "name", "batch": 3, "line": 11, "pid": 274, "question": "Which dragon god counts Lyjousturnur among its descendants?"}
+{"answer": "Nameless Terror", "answer_type": "name", "batch": 3, "line": 12, "pid": 275, "question": "Which threat ravaged the Second Hornhold and endangered the whole region?"}
+{"answer": "3E ~1580", "answer_type": "year", "batch": 3, "line": 13, "pid": 275, "question": "Around what year did a dragon confront the threat that ravaged the Second Hornhold?"}
+{"answer": "Prince of Dragontooth", "answer_type": "phrase", "batch": 3, "line": 14, "pid": 276, "question": "What title did Lyjousturnur formally claim following his victory?"}
+{"answer": "First Era", "answer_type": "phrase", "batch": 3, "line": 15, "pid": 276, "question": "Since when had dual-aspect worship of Helixus upheld the sacred covenant framework?"}
+{"answer": "Shimmerbay", "answer_type": "name", "batch": 3, "line": 16, "pid": 276, "question": "Which city's crisis was already looming when Auromere granted Lyjousturnur his title?"}
+{"answer": "marquises", "answer_type": "phrase", "batch": 3, "line": 17, "pid": 277, "question": "To what rank were the Severton and Costerham families elevated?"}
+{"answer": "Wardells", "answer_type": "name", "batch": 3, "line": 18, "pid": 277, "question": "Which family was installed in the western Mistbelt to watch the old network's smuggling routes?"}
+{"answer": "Kalee the Reed Runner", "answer_type": "name", "batch": 3, "line": 19, "pid": 277, "question": "Who was enfeoffed as Viscount Solari under Lyjousturnur?"}
+{"answer": "Exodia", "answer_type": "name", "batch": 3, "line": 20, "pid": 280, "question": "Which woman among the refugee leaders made a pact with Lyjousturnur that cleared the coastal fog?"}
+{"answer": "mouth of the Garnet River", "answer_type": "phrase", "batch": 3, "line": 21, "pid": 280, "question": "Where did Garnetport's nucleus begin forming?"}
+{"answer": "3E ~1545", "answer_type": "year", "batch": 3, "line": 22, "pid": 280, "question": "From around what year did refugees fleeing the Nameless Terror begin reaching Dragontooth in large numbers?"}
+{"answer": "Wasting Plague", "answer_type": "name", "batch": 3, "line": 23, "pid": 282, "question": "A new virulent strain of which disease emerged in Shimmerbay's crowded quarters?"}
+{"answer": "rogue mercenary fleet", "answer_type": "phrase", "batch": 3, "line": 24, "pid": 282, "question": "What attacked Shimmerbay at the same time as the plague outbreak?"}
+{"answer": "mage guild", "answer_type": "phrase", "batch": 3, "line": 25, "pid": 282, "question": "Which Shimmerbay body performed the ritual that created magical anomalies across the city?"}
+{"answer": "magical anomalies", "answer_type": "phrase", "batch": 3, "line": 26, "pid": 283, "question": "What did Lyjousturnur contain using powers inherited from the divine?"}
+{"answer": "kobold forces", "answer_type": "phrase", "batch": 3, "line": 27, "pid": 283, "question": "Which troops did Lyjousturnur call upon to help evacuate survivors?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 3, "line": 28, "pid": 283, "question": "Whose aid did Lyjousturnur come to as an independent power rather than a vassal?"}
+{"answer": "Treaty of Dragon's Accord", "answer_type": "name", "batch": 3, "line": 29, "pid": 284, "question": "Which agreement formally recognized Dragontooth's independence under Lyjousturnur's authority?"}
+{"answer": "Shimmerbay", "answer_type": "name", "batch": 3, "line": 30, "pid": 284, "question": "Under the Treaty of Dragon's Accord, survivors from which city were to be relocated to the Dragontooth coast?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 3, "line": 31, "pid": 285, "question": "Which city's development did the Shimmerbay survivors significantly accelerate?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 3, "line": 32, "pid": 285, "question": "Whose pragmatic approach to magic attracted magical practitioners among the Shimmerbay survivors?"}
+{"answer": "3E ~1660", "answer_type": "year", "batch": 3, "line": 33, "pid": 287, "question": "Around what year was Garnetport's prestigious little magic school founded?"}
+{"answer": "3E ~1680", "answer_type": "year", "batch": 3, "line": 34, "pid": 287, "question": "Around what year did an orphaned elven pupil of Garnetport's magic school become a notorious necromancer?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 3, "line": 35, "pid": 287, "question": "Who collaborated with talented settler mages to found Garnetport's magic school?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 3, "line": 36, "pid": 288, "question": "Who closed the magic school amid protests demanding stricter magical controls?"}
+{"answer": "city council", "answer_type": "phrase", "batch": 3, "line": 37, "pid": 288, "question": "Which governing body enacted strict laws prohibiting most magical education and practice?"}
+{"answer": "3E ~1730", "answer_type": "year", "batch": 3, "line": 38, "pid": 290, "question": "From around what year is the formal Dragontooth Concordat conventionally counted?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 3, "line": 39, "pid": 290, "question": "Whose ultimate authority did the Dragontooth Concordat acknowledge?"}
+{"answer": "Lords' Assembly", "answer_type": "name", "batch": 3, "line": 40, "pid": 291, "question": "Which body was formed to represent the rural nobility?"}
+{"answer": "Dragon Scale", "answer_type": "name", "batch": 3, "line": 41, "pid": 291, "question": "What is the name of the unified currency system that was established?"}
+{"answer": "3E ~1710", "answer_type": "year", "batch": 3, "line": 42, "pid": 291, "question": "Around what year was the four-chamber parliament system formed?"}
+{"answer": "3E ~1730", "answer_type": "year", "batch": 3, "line": 43, "pid": 293, "question": "Around what year was the University of Garnetport established?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 3, "line": 44, "pid": 293, "question": "Which neighboring kingdom maintains the closest ties with the Concordat?"}
+{"answer": "new mage tower", "answer_type": "phrase", "batch": 3, "line": 45, "pid": 293, "question": "What has Lyjousturnur proposed building near Garnetport?"}
+{"answer": "3E 1790", "answer_type": "year", "batch": 3, "line": 46, "pid": 294, "question": "Around what year did Lyjousturnur move the ancient hoard of the dragon lords from Ambercrown?"}
+{"answer": "Ly's Rest", "answer_type": "name", "batch": 3, "line": 47, "pid": 294, "question": "To which lair did Lyjousturnur transfer the hoard he brought from Ambercrown?"}
+{"answer": "Dragon Lord's Fund", "answer_type": "name", "batch": 3, "line": 48, "pid": 294, "question": "What was created to receive Lyjousturnur's annual surplus once his basin neared capacity?"}
+{"answer": "2E ~500", "answer_type": "year", "batch": 3, "line": 49, "pid": 297, "question": "Around what year was the First Hornhold established?"}
+{"answer": "Cresthane", "answer_type": "name", "batch": 3, "line": 50, "pid": 297, "question": "Which family was installed at Nordgate around 3E ~1160?"}
+{"answer": "Kronirr", "answer_type": "name", "batch": 3, "line": 51, "pid": 297, "question": "Who slew Vorg's serpent manifestation?"}
+{"answer": "Whalebones Isle", "answer_type": "name", "batch": 3, "line": 52, "pid": 300, "question": "On which rocky outcrop off the Marglus coast does Lyjousturnur habitually feed after western hunts?"}
+{"answer": "Alchemist's Isle", "answer_type": "name", "batch": 3, "line": 53, "pid": 300, "question": "Where do the carcasses of sea serpents hunted by Lyjousturnur pile up?"}
+{"answer": "four", "answer_type": "number", "batch": 3, "line": 54, "pid": 300, "question": "In at least how many languages do songs about Lyjousturnur's battle circulate?"}
+{"answer": "Vignitious", "answer_type": "name", "batch": 3, "line": 55, "pid": 301, "question": "Who is Lyjousturnur's clutch brother?"}
+{"answer": "3E 1560s", "answer_type": "year", "batch": 3, "line": 56, "pid": 301, "question": "In what decade did Lyjousturnur's clutch brother depart the continent?"}
+{"answer": "Ambercrown", "answer_type": "name", "batch": 3, "line": 57, "pid": 301, "question": "Which territory belongs to no nation because Lyjousturnur refuses to claim it?"}
+{"answer": "Exodia", "answer_type": "name", "batch": 3, "line": 58, "pid": 302, "question": "Which refugee leader came to be worshipped as Garnetport's founder?"}
+{"answer": "2E 200", "answer_type": "year", "batch": 3, "line": 59, "pid": 302, "question": "In which year did the double-demon invasion take place?"}
+{"answer": "public halls", "answer_type": "phrase", "batch": 3, "line": 60, "pid": 302, "question": "What function do Exodia's temples serve in Garnetport today?"}
+{"answer": "Cult of Bones", "answer_type": "name", "batch": 3, "line": 61, "pid": 303, "question": "What was the Garnetport Necromancer's dark following called?"}
+{"answer": "Lothric corridor", "answer_type": "name", "batch": 3, "line": 62, "pid": 303, "question": "Which region marked the farthest extent of the Cult of Bones?"}
+{"answer": "black castle", "answer_type": "phrase", "batch": 3, "line": 63, "pid": 303, "question": "According to the most persistent legend, what did the Garnetport Necromancer construct as his final stronghold?"}
+{"answer": "Thaddeus Ledger", "answer_type": "name", "batch": 3, "line": 64, "pid": 304, "question": "Which specialized tax collector developed the complex taxation system the Concordat still uses?"}
+{"answer": "3E 1720", "answer_type": "year", "batch": 3, "line": 65, "pid": 304, "question": "From approximately what year did Thaddeus Ledger serve as a tax collector?"}
+{"answer": "Ledger's Day", "answer_type": "name", "batch": 3, "line": 66, "pid": 304, "question": "Which yearly observance opens the Concordat's season for collecting taxes?"}
+{"answer": "Lysandra Stormwind", "answer_type": "name", "batch": 3, "line": 67, "pid": 305, "question": "Garnetport's flagship is named after which naval figure?"}
+{"answer": "3E 1650", "answer_type": "year", "batch": 3, "line": 68, "pid": 305, "question": "Around what year did Lysandra Stormwind build Garnetport's navy?"}
+{"answer": "Shimmerbay Calamity", "answer_type": "name", "batch": 3, "line": 69, "pid": 305, "question": "During which disaster was Admiral Stormwind's organized naval response essential to evacuating survivors?"}
+{"answer": "Chief Scratchscale", "answer_type": "name", "batch": 3, "line": 70, "pid": 306, "question": "Which kobold leader was first to swear loyalty to Lyjousturnur?"}
+{"answer": "Ly's Peak", "answer_type": "name", "batch": 3, "line": 71, "pid": 306, "question": "In the mining operations of which place does the Scratchscale lineage hold particular influence?"}
+{"answer": "Ritual Master", "answer_type": "phrase", "batch": 3, "line": 72, "pid": 307, "question": "Which Continental Mage Association title, conferred on branch leaders, ranks just below Archmage?"}
+{"answer": "3E 1000", "answer_type": "year", "batch": 3, "line": 73, "pid": 307, "question": "Around what year did Vagnius Galainor disappear?"}
+{"answer": "Rolthark Range", "answer_type": "name", "batch": 3, "line": 74, "pid": 307, "question": "Galainor vanished in forests at the foot of which mountains?"}
+{"answer": "twelve", "answer_type": "number", "batch": 3, "line": 75, "pid": 309, "question": "Into how many companies were the Hornhold Legion's four historic legions restructured?"}
+{"answer": "3E 1710", "answer_type": "year", "batch": 3, "line": 76, "pid": 309, "question": "Around what year were the Concordat Rangers formally established?"}
+{"answer": "Ly's Seat Guard", "answer_type": "name", "batch": 3, "line": 77, "pid": 309, "question": "Which Hornhold Legion unit of about 400 serves as the dragon's personal reserve?"}
+{"answer": "Old Hornhold City", "answer_type": "name", "batch": 3, "line": 78, "pid": 310, "question": "Where is the Mage Association's Dragontooth branch headquartered?"}
+{"answer": "Elinlyia Moonlit", "answer_type": "name", "batch": 3, "line": 79, "pid": 310, "question": "Who serves as personal tutor to Lyjousturnur?"}
+{"answer": "3E 1525", "answer_type": "year", "batch": 3, "line": 80, "pid": 310, "question": "In which year was MU Archmages established in Lothric?"}
+{"answer": "Coven", "answer_type": "name", "batch": 3, "line": 81, "pid": 311, "question": "Which illegal underground group keeps alive the old magic of mountain people and orcs?"}
+{"answer": "Heart Replacement", "answer_type": "name", "batch": 3, "line": 82, "pid": 311, "question": "Which Coven ceremony is functionally identical to lich transformation?"}
+{"answer": "southern humans", "answer_type": "phrase", "batch": 3, "line": 83, "pid": 311, "question": "Which group originally used the term from which the Coven takes its name?"}
+{"answer": "red", "answer_type": "phrase", "batch": 3, "line": 84, "pid": 314, "question": "What color is the light emitted by the lighthouse on the island west of Garnetport?"}
+{"answer": "Temple of Helixus", "answer_type": "name", "batch": 3, "line": 85, "pid": 314, "question": "Which religious site occupies the buildings around Garnetport's western island lighthouse?"}
+{"answer": "Ly's Peak", "answer_type": "name", "batch": 3, "line": 86, "pid": 314, "question": "On which summit, the highest in the Dragontooth Mountains, does the white-light tower stand?"}
+{"answer": "wayforts", "answer_type": "phrase", "batch": 3, "line": 87, "pid": 316, "question": "What do mountain people call the standing-stone teleportation structures scattered across Deeproot?"}
+{"answer": "Water People", "answer_type": "name", "batch": 3, "line": 88, "pid": 316, "question": "Judging by their carved styling, which civilization built the wayforts?"}
+{"answer": "University of Hornhold", "answer_type": "name", "batch": 3, "line": 89, "pid": 316, "question": "Which institution documents every known wayfort site?"}
+{"answer": "Kobold communities", "answer_type": "phrase", "batch": 3, "line": 90, "pid": 317, "question": "Who typically occupies smaller abandoned dwarven installations in the high mountains?"}
+{"answer": "Ghalakdum", "answer_type": "name", "batch": 3, "line": 91, "pid": 317, "question": "To which extensively explored dwarven ruin are undiscovered mountain sites compared in size?"}
+{"answer": "Merian's Mercy", "answer_type": "name", "batch": 3, "line": 92, "pid": 318, "question": "Beside which lake is the Sunken Garden located?"}
+{"answer": "Lake Aqa", "answer_type": "name", "batch": 3, "line": 93, "pid": 318, "question": "Near what body of water does a map found in the Sunken Garden place another major site?"}
+{"answer": "Water People metal", "answer_type": "phrase", "batch": 3, "line": 94, "pid": 318, "question": "What material have the excavated land portions of the Sunken Garden yielded in tremendous quantities?"}
+{"answer": "nine", "answer_type": "number", "batch": 3, "line": 95, "pid": 319, "question": "How many of the Concordat's currently operational fortresses originate in the era of southern human expansion?"}
+{"answer": "Southern Way", "answer_type": "name", "batch": 3, "line": 96, "pid": 319, "question": "Along which route through Deeproot do most surviving expansion-era fortresses stand?"}
+{"answer": "Singing Crystals", "answer_type": "name", "batch": 3, "line": 97, "pid": 320, "question": "Which item said to be sold at the Black Market of Curiosities is exported from kobold territories against strict regulations?"}
+{"answer": "Crystal Heart fragments", "answer_type": "phrase", "batch": 3, "line": 98, "pid": 320, "question": "Which item said to be traded at the Black Market of Curiosities is banned under kobold religious law?"}
+{"answer": "Forgotten Sanctum", "answer_type": "name", "batch": 3, "line": 99, "pid": 321, "question": "By what name is the Garnetport Necromancer's legendary workshop known?"}
+{"answer": "sewers", "answer_type": "phrase", "batch": 3, "line": 100, "pid": 321, "question": "In which underground system is the Forgotten Sanctum supposedly hidden?"}
+{"answer": "northeastern section", "answer_type": "phrase", "batch": 3, "line": 101, "pid": 321, "question": "Which part of the Middle City is Garnetport's old quarter?"}
+{"answer": "Water People girl", "answer_type": "phrase", "batch": 3, "line": 102, "pid": 324, "question": "According to minotaur legend, who gave Kronirr his blade?"}
+{"answer": "3E 1000", "answer_type": "year", "batch": 3, "line": 103, "pid": 324, "question": "Around what year do preserved letters mention the recovery of Kronirr's sword?"}
+{"answer": "Grand Archive", "answer_type": "name", "batch": 3, "line": 104, "pid": 324, "question": "Which institution displays a labeled replica of Kronirr's sword?"}
+{"answer": "3E 1466", "answer_type": "year", "batch": 3, "line": 105, "pid": 325, "question": "Around what year was the Crystal Crown unearthed?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 3, "line": 106, "pid": 325, "question": "Where was the Crystal Crown taken for public exhibition before it vanished?"}
+{"answer": "Mercurian Exchange", "answer_type": "name", "batch": 3, "line": 107, "pid": 325, "question": "To which institution did an anonymous collector donate a fragment of the Crystal Crown?"}
+{"answer": "Vagnius Galainor", "answer_type": "name", "batch": 3, "line": 108, "pid": 326, "question": "Which Ritual Master may have solved the formula for the Water People's blue metal before disappearing?"}
+{"answer": "Larkghet", "answer_type": "name", "batch": 3, "line": 109, "pid": 326, "question": "Where was Galainor journeying around 3E 1000 when he sent a blue metal sample to a friend?"}
+{"answer": "Lithorinir", "answer_type": "name", "batch": 3, "line": 110, "pid": 326, "question": "To which friend at the Grand Archive did Galainor send his blue metal sample?"}
+{"answer": "Maelis Thornbridge", "answer_type": "name", "batch": 3, "line": 111, "pid": 327, "question": "Which University of Garnetport professor suggests the obsidian relics might predate the Water People?"}
+{"answer": "Mercurian Exchange", "answer_type": "name", "batch": 3, "line": 112, "pid": 327, "question": "Which institution keeps a small display of Garnetport's obsidian relics?"}
+{"answer": "Elandorr Sunwhisper", "answer_type": "name", "batch": 3, "line": 113, "pid": 328, "question": "Whose personal relic is the Violet Gold Staff?"}
+{"answer": "early Third Era", "answer_type": "phrase", "batch": 3, "line": 114, "pid": 328, "question": "When was the Violet Gold Staff crafted?"}
+{"answer": "five hundred", "answer_type": "number", "batch": 3, "line": 115, "pid": 328, "question": "The Violet Gold Staff has served over how many spellcasters in its documented history?"}
+{"answer": "Vignitious the Garnet", "answer_type": "name", "batch": 3, "line": 116, "pid": 329, "question": "To whom did Elandorr transfer his staff after 3E 1540?"}
+{"answer": "Ambercrown", "answer_type": "name", "batch": 3, "line": 117, "pid": 329, "question": "Which territory did Vignitious rule as dragon lord?"}
+{"answer": "a decade", "answer_type": "phrase", "batch": 3, "line": 118, "pid": 329, "question": "For approximately how long did Lyjousturnur keep Elandorr's staff after Vignitious left the continent?"}
+{"answer": "Vig's Elemental Storm", "answer_type": "name", "batch": 3, "line": 119, "pid": 330, "question": "What is the spell Vignitious added to the staff now called?"}
+{"answer": "Nameless Terror", "answer_type": "name", "batch": 3, "line": 120, "pid": 330, "question": "Which catastrophe was Vig's Elemental Storm openly modeled on?"}
+{"answer": "Lyjou's Elemental Storm", "answer_type": "name", "batch": 3, "line": 121, "pid": 331, "question": "What did Lyjousturnur name his tempered variant of Vignitious's spell?"}
+{"answer": "3E 1670", "answer_type": "year", "batch": 3, "line": 122, "pid": 332, "question": "Around what year did the Violet Gold Staff resume wandering between chosen wielders?"}
+{"answer": "two", "answer_type": "number", "batch": 3, "line": 123, "pid": 332, "question": "How many dragons reshaped the Violet Gold Staff?"}
+{"answer": "3E 900", "answer_type": "year", "batch": 4, "line": 0, "pid": 334, "question": "In roughly what year did the Wandering Smith disappear from the historical record?"}
+{"answer": "Rolthark Range", "answer_type": "name", "batch": 4, "line": 1, "pid": 334, "question": "The last confirmed sighting of the Wandering Smith placed him in foothills between Deeproot and which mountains?"}
+{"answer": "Dwarf Kingdom", "answer_type": "name", "batch": 4, "line": 2, "pid": 334, "question": "After the fall of which realm did the Wandering Smith begin traveling the region?"}
+{"answer": "Amber", "answer_type": "phrase", "batch": 4, "line": 3, "pid": 335, "question": "What color are the glowing eyes of the Mist Walker?"}
+{"answer": "crocodile", "answer_type": "phrase", "batch": 4, "line": 4, "pid": 335, "question": "In the earliest documented encounters, the headdress of the Mist Walker resembled the skull of which animal?"}
+{"answer": "last Water People king", "answer_type": "phrase", "batch": 4, "line": 5, "pid": 335, "question": "Whose ghost do some inhabitants of remote mountain valleys believe the Mist Walker to be?"}
+{"answer": "Godric Wardell", "answer_type": "name", "batch": 4, "line": 6, "pid": 336, "question": "Which nobleman reported encountering a Pale Leviathan measuring more than forty feet?"}
+{"answer": "Helixus", "answer_type": "name", "batch": 4, "line": 7, "pid": 336, "question": "The orcish shamans of Larkghet regard the Pale Leviathan as a manifestation of which god?"}
+{"answer": "Larna's Tears Lake", "answer_type": "name", "batch": 4, "line": 8, "pid": 336, "question": "Reports of the Pale Leviathan come from marshlands surrounding which body of water?"}
+{"answer": "Storm Serpent Ballad", "answer_type": "name", "batch": 4, "line": 9, "pid": 337, "question": "What title is given to the oldest, most often repeated account of a Dragon Lord sea hunt?"}
+{"answer": "Ly's Seat", "answer_type": "name", "batch": 4, "line": 10, "pid": 337, "question": "Where is the kobold version of the Storm Serpent Ballad sung?"}
+{"answer": "night-pearl", "answer_type": "phrase", "batch": 4, "line": 11, "pid": 337, "question": "What object does the merfolk press into the Hornhold apothecary's hand in the Alchemist's Crossing tale?"}
+{"answer": "92", "answer_type": "number", "batch": 4, "line": 12, "pid": 339, "question": "How many confirmed sightings were recorded by the investigation into the Felidae Mystery?"}
+{"answer": "3E 1700", "answer_type": "year", "batch": 4, "line": 13, "pid": 339, "question": "Around what year did Lyjousturnur commission an investigation into the Felidae Mystery?"}
+{"answer": "Larkghet", "answer_type": "name", "batch": 4, "line": 14, "pid": 339, "question": "Around which settlement did scholars studying the Felidae Mystery conduct most of their experiments?"}
+{"answer": "moonlight", "answer_type": "phrase", "batch": 4, "line": 15, "pid": 340, "question": "What kind of light makes the Singing Crystals in the Dragontooth Mountains give off harmonic tones?"}
+{"answer": "crystal chorus", "answer_type": "phrase", "batch": 4, "line": 16, "pid": 340, "question": "What do kobolds call a complete set of perfectly tuned ritual singing stones from Ly's Peak?"}
+{"answer": "Helixus", "answer_type": "name", "batch": 4, "line": 17, "pid": 340, "question": "Which deity do kobold shamans seek to communicate with through instruments carved from Singing Crystals?"}
+{"answer": "University of Hornhold", "answer_type": "name", "batch": 4, "line": 18, "pid": 341, "question": "Which institution keeps sealed items said to come from the Temporal Pools?"}
+{"answer": "Shimmerbay Calamity", "answer_type": "name", "batch": 4, "line": 19, "pid": 342, "question": "During which disaster were the vessels of the Ghost Fleet of Garnetport lost?"}
+{"answer": "harbor master", "answer_type": "phrase", "batch": 4, "line": 20, "pid": 342, "question": "Which official in Garnetport maintains a record of spectral ship sightings?"}
+{"answer": "living trees", "answer_type": "phrase", "batch": 4, "line": 21, "pid": 342, "question": "Into what did the Whisperleaf elves reportedly carve their astronomical maps?"}
+{"answer": "Coven practitioners", "answer_type": "phrase", "batch": 4, "line": 22, "pid": 343, "question": "Besides the University of Hornhold, which group is experimenting to recreate Kobold Gem-Speaking?"}
+{"answer": "miners", "answer_type": "phrase", "batch": 4, "line": 23, "pid": 343, "question": "Which workers occasionally discover matched crystal pairs linked to Kobold Gem-Speaking?"}
+{"answer": "nine", "answer_type": "number", "batch": 4, "line": 24, "pid": 346, "question": "How many bridges connect the northern and southern halves of Garnetport?"}
+{"answer": "Exodia", "answer_type": "name", "batch": 4, "line": 25, "pid": 346, "question": "To which deity is the Founder's Hall in Garnetport dedicated?"}
+{"answer": "3E 1730", "answer_type": "year", "batch": 4, "line": 26, "pid": 346, "question": "Around what year was the University of Garnetport established?"}
+{"answer": "Mistvein", "answer_type": "name", "batch": 4, "line": 27, "pid": 347, "question": "Besides the Garnet River, which river divides the settlement of Deeproot?"}
+{"answer": "South City", "answer_type": "name", "batch": 4, "line": 28, "pid": 347, "question": "In which section of Deeproot is the Underground Market located?"}
+{"answer": "Great Hall of Deeproot", "answer_type": "name", "batch": 4, "line": 29, "pid": 347, "question": "In which building does the Concordat's parliament meet for formal sessions?"}
+{"answer": "3E 1600", "answer_type": "year", "batch": 4, "line": 30, "pid": 348, "question": "Around what year was the Third Hornhold established?"}
+{"answer": "Kronirr's Rest Lake", "answer_type": "name", "batch": 4, "line": 31, "pid": 348, "question": "On the northern shore of which body of water is New Hornhold City built?"}
+{"answer": "Kalee", "answer_type": "name", "batch": 4, "line": 32, "pid": 348, "question": "Which figure on New Hornhold's Monument of the Four Heroes was the continent's final dragonrider?"}
+{"answer": "3,500", "answer_type": "number", "batch": 4, "line": 33, "pid": 350, "question": "What is the current population of Old Hornhold City?"}
+{"answer": "Hornhold Forest", "answer_type": "name", "batch": 4, "line": 34, "pid": 350, "question": "In which dangerous woodland do corrupted monsters offer practical challenges to Concordat ranger trainees?"}
+{"answer": "Faculty of Magical Studies", "answer_type": "name", "batch": 4, "line": 35, "pid": 350, "question": "Which academic body is based in Old Hornhold City's old fortress buildings?"}
+{"answer": "Highpass", "answer_type": "name", "batch": 4, "line": 36, "pid": 352, "question": "At Westmarch, the Garnet Way meets the path from which settlement?"}
+{"answer": "3,500", "answer_type": "number", "batch": 4, "line": 37, "pid": 352, "question": "What is the population of Westmarch?"}
+{"answer": "Mistflow", "answer_type": "name", "batch": 4, "line": 38, "pid": 356, "question": "At the upper end of which valley does the settlement of Highpass sit?"}
+{"answer": "2,000", "answer_type": "number", "batch": 4, "line": 39, "pid": 356, "question": "What is the population of Highpass?"}
+{"answer": "400", "answer_type": "number", "batch": 4, "line": 40, "pid": 359, "question": "Excluding the Dragon Lord's guard and retinue, roughly how many people live at Ly's Seat?"}
+{"answer": "3E 1580", "answer_type": "year", "batch": 4, "line": 41, "pid": 360, "question": "Around what year did Lyjousturnur excavate Ly's Rest using elemental magic?"}
+{"answer": "Hoard Basin Chamber", "answer_type": "name", "batch": 4, "line": 42, "pid": 360, "question": "Which space within Ly's Rest serves as the Dragon Lord's sleeping place?"}
+{"answer": "Ambercrown", "answer_type": "name", "batch": 4, "line": 43, "pid": 360, "question": "What is the name of the kobold group that arrived with the hoard transfer of 3E 1790 at Ly's Rest?"}
+{"answer": "380,000", "answer_type": "number", "batch": 4, "line": 44, "pid": 361, "question": "About how many people make up the rural population scattered across smaller villages and lords' territories?"}
+{"answer": "1/4", "answer_type": "number", "batch": 4, "line": 45, "pid": 361, "question": "What fraction of the rural population scattered in villages and lords' lands consists of mountain people?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 4, "line": 46, "pid": 363, "question": "Which city leads the resistance to Lyjousturnur's proposed new mage tower?"}
+{"answer": "Cult of Bones", "answer_type": "name", "batch": 4, "line": 47, "pid": 363, "question": "What organization did the orphaned elven necromancer from Garnetport's magic academy spread across distant lands?"}
+{"answer": "3E 1680", "answer_type": "year", "batch": 4, "line": 48, "pid": 363, "question": "Around what year did the elven necromancer educated in Garnetport cause catastrophic damage?"}
+{"answer": "Year of the Azure Tide", "answer_type": "name", "batch": 4, "line": 49, "pid": 364, "question": "During what named period, around 3E 1564, were MU Archmages overrun and destroyed?"}
+{"answer": "Continental Mage Association", "answer_type": "name", "batch": 4, "line": 50, "pid": 364, "question": "Which magical organization never regained its earlier scale and prestige following the fall of MU Archmages?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 4, "line": 51, "pid": 364, "question": "Which realm permits magic solely via military channels?"}
+{"answer": "Coven", "answer_type": "name", "batch": 4, "line": 52, "pid": 365, "question": "Whose underground networks are an illegal option for magically talented people in Garnetport?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 4, "line": 53, "pid": 365, "question": "In which realm can magically talented residents of Garnetport seek costly education?"}
+{"answer": "Chamber of Lords", "answer_type": "name", "batch": 4, "line": 54, "pid": 366, "question": "Which house in the Concordat's parliament mainly opposes the mage tower, citing historical dangers?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 4, "line": 55, "pid": 366, "question": "Which neighboring kingdom is specifically named as having expressed diplomatic concern about the mage tower?"}
+{"answer": "urban-rural lines", "answer_type": "phrase", "batch": 4, "line": 56, "pid": 366, "question": "Along what divide does the Concordat's Chamber of Commons split over the mage tower?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 4, "line": 57, "pid": 369, "question": "Who discovered the Remembrance Vessels that set off the exploration boom in the northern mountains?"}
+{"answer": "ceramic", "answer_type": "phrase", "batch": 4, "line": 58, "pid": 369, "question": "Of what material are the Water People Remembrance Vessels made?"}
+{"answer": "Black Market of Curiosities", "answer_type": "name", "batch": 4, "line": 59, "pid": 369, "question": "Besides the Mercurian Exchange, which trading venue reports unprecedented trade in Water People relics?"}
+{"answer": "continental northwest", "answer_type": "phrase", "batch": 4, "line": 60, "pid": 372, "question": "Which area, forming the Concordat's immediate neighborhood, ranks among the most stable regions after the Nameless Terror?"}
+{"answer": "3E 1700", "answer_type": "year", "batch": 4, "line": 61, "pid": 374, "question": "Around what year did Shenzhou enter isolation?"}
+{"answer": "Kuxlum", "answer_type": "name", "batch": 4, "line": 62, "pid": 374, "question": "Long-distance sea routes from which continent now end mainly at Garnetport?"}
+{"answer": "Smarana Plains", "answer_type": "name", "batch": 4, "line": 63, "pid": 377, "question": "In which region does the Kingdom of Auromere lie?"}
+{"answer": "Treaty of Dragon's Accord", "answer_type": "name", "batch": 4, "line": 64, "pid": 377, "question": "Which agreement formalized Concordat independence while setting up preferential trade arrangements?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 4, "line": 65, "pid": 377, "question": "Which old network had never allowed Auromerian commercial influence into the Deeproot region?"}
+{"answer": "grain", "answer_type": "phrase", "batch": 4, "line": 66, "pid": 378, "question": "Which export from Auromere feeds the Concordat?"}
+{"answer": "Costerham", "answer_type": "name", "batch": 4, "line": 67, "pid": 378, "question": "Besides Severton, which Auromere-descended family was raised to an independent lordship?"}
+{"answer": "mineral wealth", "answer_type": "phrase", "batch": 4, "line": 68, "pid": 378, "question": "What kind of Concordat resource enriches Auromere?"}
+{"answer": "Shimmerbay", "answer_type": "name", "batch": 4, "line": 69, "pid": 379, "question": "Which rebuilt and resurgent city leads the coastal rivals competing with Garnetport for maritime routes?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 4, "line": 70, "pid": 379, "question": "Near which settlement do occasional border disputes arise between the Concordat and Auromere?"}
+{"answer": "twelve", "answer_type": "number", "batch": 4, "line": 71, "pid": 379, "question": "How many changes of Auromerian monarch has the Concordat's relationship with Auromere survived since the Dragon Lord arrived?"}
+{"answer": "Malha", "answer_type": "name", "batch": 4, "line": 72, "pid": 381, "question": "Besides the Gem Plateau, which plateau broke up into many small kingdoms after the continental crisis?"}
+{"answer": "Muzfister", "answer_type": "name", "batch": 4, "line": 73, "pid": 382, "question": "Besides the Aalimos Mountains, which mountain range holds Dwarf Kingdoms friendly to the Concordat?"}
+{"answer": "dual-aspect Helixus church", "answer_type": "phrase", "batch": 4, "line": 74, "pid": 382, "question": "Which faith does Lyjousturnur promote as the Concordat's official religion, despite dwarven grumbling?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 4, "line": 75, "pid": 384, "question": "Which Concordat city do the nascent northeastern kingdoms regard as an essential trading partner?"}
+{"answer": "Forethir Basin", "answer_type": "name", "batch": 4, "line": 76, "pid": 384, "question": "Alongside Imlad Valley and the Lissnen Plains, which partly surviving northeastern territory is undergoing painful reorganization?"}
+{"answer": "personality-erasure", "answer_type": "phrase", "batch": 4, "line": 77, "pid": 386, "question": "What kind of magic, now failing, once supported the economic order in former Sea of Gold lands?"}
+{"answer": "six hundred thousand", "answer_type": "number", "batch": 4, "line": 78, "pid": 387, "question": "What is the approximate population of the dragon-backed Concordat that southern delegations study?"}
+{"answer": "New Hornhold", "answer_type": "name", "batch": 4, "line": 79, "pid": 387, "question": "Besides Garnetport, which city do southern delegations visit to study Concordat institutions?"}
+{"answer": "3E 1732", "answer_type": "year", "batch": 4, "line": 80, "pid": 399, "question": "Around what year did the Grand Concordat Jubilee tradition begin?"}
+{"answer": "summer", "answer_type": "phrase", "batch": 4, "line": 81, "pid": 399, "question": "In which season is the month-long Grand Concordat Jubilee held?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 4, "line": 82, "pid": 399, "question": "Who established the Grand Concordat Jubilee as part of broader institutional reforms?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 4, "line": 83, "pid": 400, "question": "In which city was the first Grand Concordat Jubilee held?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 4, "line": 84, "pid": 400, "question": "Which kingdom started dispatching formal delegations to the Grand Concordat Jubilee around 3E 1750?"}
+{"answer": "3E 1770", "answer_type": "year", "batch": 4, "line": 85, "pid": 400, "question": "By roughly what year had the Grand Concordat Jubilee grown into a de facto multilateral diplomatic forum?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 4, "line": 86, "pid": 401, "question": "In which settlement will the eighteenth Grand Concordat Jubilee be held?"}
+{"answer": "3E 1800", "answer_type": "year", "batch": 4, "line": 87, "pid": 401, "question": "In what year is the eighteenth edition of the Grand Concordat Jubilee scheduled?"}
+{"answer": "seventeen", "answer_type": "number", "batch": 4, "line": 88, "pid": 401, "question": "Approximately how many editions of the Grand Concordat Jubilee have been held so far?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 4, "line": 89, "pid": 404, "question": "Which city's commercial houses use the Jubilee's Grand Market Fair to close substantial deals?"}
+{"answer": "special reduced tariffs", "answer_type": "phrase", "batch": 4, "line": 90, "pid": 404, "question": "What trade concession do merchants receive at the Jubilee's Grand Market Fair?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 4, "line": 91, "pid": 405, "question": "At which host location does the Jubilee's Martial Tournament feature knightly dueling?"}
+{"answer": "mixed-ethnic demonstrations", "answer_type": "phrase", "batch": 4, "line": 92, "pid": 405, "question": "What form does the Jubilee's Martial Tournament take when hosted at Deeproot?"}
+{"answer": "Assembly of Renewal", "answer_type": "name", "batch": 4, "line": 93, "pid": 407, "question": "At which formal Jubilee ceremony do regional leaders pledge allegiance, air grievances, and vote on Concordat-wide initiatives?"}
+{"answer": "Foreign observers", "answer_type": "phrase", "batch": 4, "line": 94, "pid": 407, "question": "Who attends the Assembly of Renewal to study how the four-chamber system operates?"}
+{"answer": "10,000", "answer_type": "number", "batch": 4, "line": 95, "pid": 410, "question": "What is the resident population of Aquilon?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 5, "line": 0, "pid": 412, "question": "Which kingdom provides the largest foreign contingent at the Grand Concordat Jubilee?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 5, "line": 1, "pid": 412, "question": "Overseas visitors to the Jubilee from the Kuxlum Continent accompany which delegation?"}
+{"answer": "100", "answer_type": "number", "batch": 5, "line": 2, "pid": 412, "question": "Approximately how many overseas attendees come to the Grand Concordat Jubilee?"}
+{"answer": "Gem", "answer_type": "name", "batch": 5, "line": 3, "pid": 415, "question": "In what currency are the direct organizational costs of the Grand Concordat Jubilee given?"}
+{"answer": "four", "answer_type": "number", "batch": 5, "line": 4, "pid": 415, "question": "Over a cycle of how many years are the Grand Concordat Jubilee's costs amortized?"}
+{"answer": "80/20", "answer_type": "phrase", "batch": 5, "line": 5, "pid": 415, "question": "What approximate ratio describes the funding split for the Grand Concordat Jubilee?"}
+{"answer": "customs revenues", "answer_type": "phrase", "batch": 5, "line": 6, "pid": 416, "question": "What kind of central treasury income funds the central share of the Grand Concordat Jubilee?"}
+{"answer": "parliamentary committee", "answer_type": "phrase", "batch": 5, "line": 7, "pid": 416, "question": "Which body approves the quadrennial treasury allocation for the Jubilee?"}
+{"answer": "Dragon Lord", "answer_type": "name", "batch": 5, "line": 8, "pid": 416, "question": "Whose personal funds supplement the central share of Grand Concordat Jubilee funding?"}
+{"answer": "Wardell", "answer_type": "name", "batch": 5, "line": 9, "pid": 417, "question": "Which lordship's Jubilee contribution is propped up by the Dragon Lord's opaque subsidies?"}
+{"answer": "Solari", "answer_type": "name", "batch": 5, "line": 10, "pid": 417, "question": "Which great house's spending at the Jubilee is restrained to avoid provoking Auromere's court?"}
+{"answer": "3E 1800", "answer_type": "year", "batch": 5, "line": 11, "pid": 417, "question": "For which edition of the Grand Concordat Jubilee is the local funding breakdown by great house given?"}
+{"answer": "Lake Aqa", "answer_type": "name", "batch": 5, "line": 12, "pid": 419, "question": "Beside which body of water do the Jubilee grounds extend?"}
+{"answer": "Grand Market Fair", "answer_type": "name", "batch": 5, "line": 13, "pid": 419, "question": "Which section of the Jubilee grounds covers 8 to 12 hectares along the approach road?"}
+{"answer": "timber-framed temporary lodges", "answer_type": "phrase", "batch": 5, "line": 14, "pid": 419, "question": "What structures are erected for high-status foreign delegations in the Jubilee's diplomatic encampments?"}
+{"answer": "ceremonial", "answer_type": "phrase", "batch": 5, "line": 15, "pid": 421, "question": "What was the nature of Lyjousturnur's presence at early editions of the Jubilee?"}
+{"answer": "internationalization", "answer_type": "phrase", "batch": 5, "line": 16, "pid": 421, "question": "What change to the Jubilee destroyed the arrangement of Lyjousturnur's limited early appearances?"}
+{"answer": "full draconic form", "answer_type": "phrase", "batch": 5, "line": 17, "pid": 422, "question": "In what shape does the Dragon Lord appear for the Jubilee's opening ceremony?"}
+{"answer": "Helixus", "answer_type": "name", "batch": 5, "line": 18, "pid": 422, "question": "What name does the principal observance in the Jubilee's first three days carry?"}
+{"answer": "Assembly of Renewal", "answer_type": "name", "batch": 5, "line": 19, "pid": 422, "question": "Apart from the opening ceremony and a principal observance, which formal proceeding falls in the Jubilee's first three days?"}
+{"answer": "dragonborn", "answer_type": "phrase", "batch": 5, "line": 20, "pid": 423, "question": "From the Jubilee's fourth day on, Lyjousturnur operates in which form?"}
+{"answer": "Chamber of Commerce", "answer_type": "name", "batch": 5, "line": 21, "pid": 423, "question": "With which Garnetport body does Lyjousturnur hold working meals during the Jubilee?"}
+{"answer": "dwarven mountain spirits", "answer_type": "phrase", "batch": 5, "line": 22, "pid": 423, "question": "What potent drink is traditionally offered to Lyjousturnur when he receives envoys of the Dwarf Kingdom?"}
+{"answer": "Elinlyia Moonlit", "answer_type": "name", "batch": 5, "line": 23, "pid": 424, "question": "Which official manages the Dragon Lord's daily schedule during the Jubilee?"}
+{"answer": "Ly's Seat", "answer_type": "name", "batch": 5, "line": 24, "pid": 424, "question": "Which place does the Dragon Lord return to after the Jubilee's closing banquet?"}
+{"answer": "second week", "answer_type": "phrase", "batch": 5, "line": 25, "pid": 424, "question": "By which point in the Jubilee does the strain on the Dragon Lord become visible?"}
+{"answer": "southern territories", "answer_type": "phrase", "batch": 5, "line": 26, "pid": 426, "question": "When the Jubilee is held at Aquilon, whose knightly culture sits at the tournament's center?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 5, "line": 27, "pid": 426, "question": "The knightly practice of mounted fighting and dueling at an Aquilon Jubilee descends from which realm?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 5, "line": 28, "pid": 427, "question": "Which place may send minotaur warriors to compete in the Jubilee tournament's foot combat events?"}
+{"answer": "open category", "answer_type": "phrase", "batch": 5, "line": 29, "pid": 427, "question": "Under what type of entry division do Concordat Rangers compete in the Jubilee tournament?"}
+{"answer": "Auromerian knights", "answer_type": "phrase", "batch": 5, "line": 30, "pid": 427, "question": "Which visiting fighters pose the most significant foreign challenge in the Jubilee tournament?"}
+{"answer": "200", "answer_type": "number", "batch": 5, "line": 31, "pid": 428, "question": "How many meters long is the list used for mounted lance combat in the Jubilee tournament?"}
+{"answer": "Joust", "answer_type": "name", "batch": 5, "line": 32, "pid": 428, "question": "Which event is the most prestigious at the Jubilee tournament?"}
+{"answer": "Mêlée", "answer_type": "name", "batch": 5, "line": 33, "pid": 428, "question": "Which Jubilee tournament event most resembles actual battlefield conditions?"}
+{"answer": "5,000,000", "answer_type": "number", "batch": 5, "line": 34, "pid": 429, "question": "The dragon who hosts the Jubilee tournament has a hoard valued at over how many Gem?"}
+{"answer": "Dragon Lord's own breath", "answer_type": "phrase", "batch": 5, "line": 35, "pid": 430, "question": "What is used to forge the weapon awarded to the Joust Champion at the Jubilee?"}
+{"answer": "Champion of the Jubilee", "answer_type": "name", "batch": 5, "line": 36, "pid": 430, "question": "What title does a joust winner receive along with a breath-forged blade?"}
+{"answer": "crystalline", "answer_type": "phrase", "batch": 5, "line": 37, "pid": 430, "question": "What sort of patterning distinguishes the blade given to the Joust Champion?"}
+{"answer": "Ambercrown", "answer_type": "name", "batch": 5, "line": 38, "pid": 431, "question": "Prizes for the Jubilee's Foot Combat Champion are sometimes tied to the reigns of which earlier dragon lords?"}
+{"answer": "Dragon Lord", "answer_type": "name", "batch": 5, "line": 39, "pid": 431, "question": "Whose collection supplies the historical prize for the Jubilee's Foot Combat Champion?"}
+{"answer": "Seven Sages", "answer_type": "name", "batch": 5, "line": 40, "pid": 433, "question": "Which group's associated objects sometimes appear among the Jubilee's additional prizes?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 5, "line": 41, "pid": 433, "question": "Works from the ateliers of which place may be awarded as additional Jubilee prizes?"}
+{"answer": "meritocratic", "answer_type": "phrase", "batch": 5, "line": 42, "pid": 434, "question": "Which quality of the Jubilee tournament is called unusual within a feudal setting?"}
+{"answer": "Week One", "answer_type": "phrase", "batch": 5, "line": 43, "pid": 436, "question": "During which part of the Jubilee does the Grand Market Fair open?"}
+{"answer": "dragonborn", "answer_type": "phrase", "batch": 5, "line": 44, "pid": 436, "question": "Into which form does the Dragon Lord transition during the Jubilee's first week?"}
+{"answer": "market fair's back rooms", "answer_type": "phrase", "batch": 5, "line": 45, "pid": 437, "question": "Where are the biggest commercial deals of the Jubilee negotiated during its second week?"}
+{"answer": "Week Two", "answer_type": "phrase", "batch": 5, "line": 46, "pid": 437, "question": "When do preliminary tournament bouts take place at the Jubilee?"}
+{"answer": "semifinals", "answer_type": "phrase", "batch": 5, "line": 47, "pid": 438, "question": "What tournament round is held during the Jubilee's third week?"}
+{"answer": "southern lords", "answer_type": "phrase", "batch": 5, "line": 48, "pid": 438, "question": "Which nobles carry out their own marriage negotiations during the Jubilee's third week?"}
+{"answer": "closing banquet", "answer_type": "phrase", "batch": 5, "line": 49, "pid": 439, "question": "Which event seals the final agreements at the end of the Jubilee?"}
+{"answer": "impartiality", "answer_type": "phrase", "batch": 5, "line": 50, "pid": 439, "question": "What does a foreign victory at the Jubilee tournament demonstrate about the Dragon Lord?"}
+{"answer": "martial credibility", "answer_type": "phrase", "batch": 5, "line": 51, "pid": 439, "question": "Which quality of the Concordat is affirmed when a local competitor wins the Jubilee championship?"}
+{"answer": "primary multilateral forum", "answer_type": "phrase", "batch": 5, "line": 52, "pid": 441, "question": "What has the Grand Concordat Jubilee become for the western continent?"}
+{"answer": "internal governance", "answer_type": "phrase", "batch": 5, "line": 53, "pid": 441, "question": "What did the Grand Concordat Jubilee begin as?"}
+{"answer": "two", "answer_type": "number", "batch": 5, "line": 54, "pid": 442, "question": "How many centuries of draconic peace have stripped the southern knightly culture of its military function?"}
+{"answer": "Concordat", "answer_type": "name", "batch": 5, "line": 55, "pid": 442, "question": "The southern lords' traditions now form part of which polity's international brand?"}
+{"answer": "5,500", "answer_type": "number", "batch": 5, "line": 56, "pid": 447, "question": "Roughly how many square kilometres of the Dragontooth Concordat's southern territories are arable?"}
+{"answer": "Mereham", "answer_type": "name", "batch": 5, "line": 57, "pid": 447, "question": "Which southern noble house holds the rank of count?"}
+{"answer": "Deeproot", "answer_type": "name", "batch": 5, "line": 58, "pid": 447, "question": "Across which basin does the Prekurlind ducal kinship network extend?"}
+{"answer": "layered enfeoffment", "answer_type": "phrase", "batch": 5, "line": 59, "pid": 449, "question": "Through what mechanism is land distributed among the great houses and their subordinate lords?"}
+{"answer": "demesne lands", "answer_type": "phrase", "batch": 5, "line": 60, "pid": 449, "question": "What term names the territory each great house retains under direct control?"}
+{"answer": "Costerham", "answer_type": "name", "batch": 5, "line": 61, "pid": 450, "question": "Which house's secondary families guard the vulnerable river plains?"}
+{"answer": "Mereham", "answer_type": "name", "batch": 5, "line": 62, "pid": 450, "question": "Which house holds a small, rich lake district?"}
+{"answer": "Solari", "answer_type": "name", "batch": 5, "line": 63, "pid": 450, "question": "Which great house is considered too young to have developed vassals?"}
+{"answer": "landed knights", "answer_type": "phrase", "batch": 5, "line": 64, "pid": 451, "question": "Which tier of nobility forms the backbone of mustered armies?"}
+{"answer": "immediate lords", "answer_type": "phrase", "batch": 5, "line": 65, "pid": 451, "question": "To whom do landed knights owe military service?"}
+{"answer": "Concordat Rangers", "answer_type": "name", "batch": 5, "line": 66, "pid": 452, "question": "Which force do the most desperate second sons and hedge knights turn to for fortune?"}
+{"answer": "unlanded nobles", "answer_type": "phrase", "batch": 5, "line": 67, "pid": 452, "question": "Which class, estimated at 150 to 250 individuals, sits at the bottom of the aristocratic hierarchy?"}
+{"answer": "Praecursor Ultimi Limitis", "answer_type": "name", "batch": 5, "line": 68, "pid": 455, "question": "Of what Latin phrase is the name Prekurlind a corruption?"}
+{"answer": "3E ~800", "answer_type": "year", "batch": 5, "line": 69, "pid": 455, "question": "Around which year did the First Auromere Empire lose its northern control?"}
+{"answer": "Markrasia", "answer_type": "name", "batch": 5, "line": 70, "pid": 455, "question": "Administrators from which era were the forebears of the Prekurlind clan?"}
+{"answer": "Romanstyle", "answer_type": "phrase", "batch": 5, "line": 71, "pid": 456, "question": "Which style of naming characterizes the Second Auromere Empire's first wave of settlement?"}
+{"answer": "Markrasia", "answer_type": "name", "batch": 5, "line": 72, "pid": 456, "question": "Which earlier administrative tradition passed down the naming conventions of the Second Auromere Empire's first wave?"}
+{"answer": "Battle of Aliqurium", "answer_type": "name", "batch": 5, "line": 73, "pid": 457, "question": "After which engagement was the current House Wardell refounded?"}
+{"answer": "3E 1400", "answer_type": "year", "batch": 5, "line": 74, "pid": 457, "question": "Around what year was the present House Wardell refounded?"}
+{"answer": "English fantasy", "answer_type": "phrase", "batch": 5, "line": 75, "pid": 457, "question": "What style of naming marks the Second Auromere Empire's second wave?"}
+{"answer": "3E 1580", "answer_type": "year", "batch": 5, "line": 76, "pid": 458, "question": "Around which year did the Draconic Era begin?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 5, "line": 77, "pid": 458, "question": "Which house's domain did Lyjousturnur partition when restructuring the south?"}
+{"answer": "Solari", "answer_type": "name", "batch": 5, "line": 78, "pid": 458, "question": "Which house serves as the example of the Draconic Era's southern restructuring?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 5, "line": 79, "pid": 460, "question": "Which city acts as the neutral capital shared by the southern great houses?"}
+{"answer": "Lords' Assembly", "answer_type": "name", "batch": 5, "line": 80, "pid": 460, "question": "Which body meets in Aquilon to discuss region-wide matters?"}
+{"answer": "New Hornhold", "answer_type": "name", "batch": 5, "line": 81, "pid": 471, "question": "Where does a monument to the Four Heroes stand?"}
+{"answer": "Kalee", "answer_type": "name", "batch": 5, "line": 82, "pid": 471, "question": "Who is depicted riding Lyjousturnur in the famous image from the Four Heroes statue group?"}
+{"answer": "Whisperleaf Forest", "answer_type": "name", "batch": 5, "line": 83, "pid": 474, "question": "What natural feature backs Mistvein Castle at the Gate?"}
+{"answer": "First Kingdom", "answer_type": "name", "batch": 5, "line": 84, "pid": 474, "question": "During the height of which realm was Mistvein Castle constructed?"}
+{"answer": "Southern Way", "answer_type": "name", "batch": 5, "line": 85, "pid": 474, "question": "Which road turns at the hills where Mistvein Castle stands?"}
+{"answer": "Semper in Via", "answer_type": "name", "batch": 5, "line": 86, "pid": 475, "question": "Which motto goes with the coat of arms showing a silver seven-pointed star above a golden road?"}
+{"answer": "deep blue", "answer_type": "phrase", "batch": 5, "line": 87, "pid": 475, "question": "What is the field color of the coat of arms featuring a silver seven-pointed star?"}
+{"answer": "First Kingdom Latin", "answer_type": "name", "batch": 5, "line": 88, "pid": 475, "question": "In what language is the motto Semper in Via preserved?"}
+{"answer": "Domus Compiti Septentrionalis", "answer_type": "name", "batch": 5, "line": 89, "pid": 477, "question": "What was the original name of the Severton family?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 5, "line": 90, "pid": 477, "question": "Within which family's power structure were the Severtons initially subordinates?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 5, "line": 91, "pid": 477, "question": "Whose restructuring raised the Severtons to the rank of independent marquis?"}
+{"answer": "Mistvein Castle's archives", "answer_type": "phrase", "batch": 5, "line": 92, "pid": 478, "question": "Where are the surviving fragments of the Severtons' imperial patent letters kept?"}
+{"answer": "nine hundred", "answer_type": "number", "batch": 5, "line": 93, "pid": 478, "question": "For nearly how many years has the Severton family guarded its road?"}
+{"answer": "Second Auromere Empire", "answer_type": "name", "batch": 5, "line": 94, "pid": 478, "question": "To which realm's patent letters can the Severton lineage be traced?"}
+{"answer": "Lords' Assembly", "answer_type": "name", "batch": 5, "line": 95, "pid": 480, "question": "In which body is the family that exemplifies balancing left and right the most reliable mediator?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 5, "line": 96, "pid": 480, "question": "With which realm does the family that exemplifies balancing left and right share blood, cultural, and religious ties?"}
+{"answer": "three", "answer_type": "number", "batch": 5, "line": 97, "pid": 482, "question": "How many terms has Aldric Severton held the rotating chair of the Lords' Assembly?"}
+{"answer": "Receding hairline", "answer_type": "phrase", "batch": 5, "line": 98, "pid": 482, "question": "What physical trait accompanies Aldric Severton's sharp eyes?"}
+{"answer": "north bank", "answer_type": "phrase", "batch": 5, "line": 99, "pid": 490, "question": "On which side of the Mistvein does Lastvein Keep stand?"}
+{"answer": "Mistvein Castle", "answer_type": "name", "batch": 5, "line": 100, "pid": 490, "question": "Which fortress forms a pincer defense together with Lastvein Keep?"}
+{"answer": "Garnet River", "answer_type": "name", "batch": 5, "line": 101, "pid": 490, "question": "Besides the Mistvein, which waterway bounds the plains whose seat is Lastvein Keep?"}
+{"answer": "Abundantia ex Concordia", "answer_type": "name", "batch": 5, "line": 102, "pid": 491, "question": "What motto goes with the coat of arms showing two converging silver rivers?"}
+{"answer": "golden sheaf of wheat", "answer_type": "phrase", "batch": 5, "line": 103, "pid": 491, "question": "What object sits where the two silver rivers meet on the arms whose motto means Abundance from Harmony?"}
+{"answer": "emerald green", "answer_type": "phrase", "batch": 5, "line": 104, "pid": 491, "question": "On what background color are the two converging silver rivers set?"}
+{"answer": "Domus Custos Interamnorum Feracium", "answer_type": "name", "batch": 5, "line": 105, "pid": 493, "question": "What was the original name of House Costerham?"}
+{"answer": "late phase", "answer_type": "phrase", "batch": 5, "line": 106, "pid": 493, "question": "In which stage of the first-wave expansion did the Costerhams chiefly rise?"}
+{"answer": "military commanders", "answer_type": "phrase", "batch": 5, "line": 107, "pid": 493, "question": "Before becoming actual rulers of the fertile land, what had the Costerhams been?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 5, "line": 108, "pid": 494, "question": "Which place could not feed its population without River Plains grain?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 5, "line": 109, "pid": 494, "question": "Which place's markets would stand empty without the grain of the River Plains?"}
+{"answer": "granary", "answer_type": "phrase", "batch": 5, "line": 110, "pid": 494, "question": "Costerham's territory is described as what for the southern territories?"}
+{"answer": "Garnet River", "answer_type": "name", "batch": 5, "line": 111, "pid": 495, "question": "To defend the plains lacking natural barriers, northern vassals must hold crossings on which waterway?"}
+{"answer": "Mistbelt", "answer_type": "name", "batch": 5, "line": 112, "pid": 495, "question": "Toward which area must the northwestern vassals keep watch for the River Plains' defense?"}
+{"answer": "Lords' Assembly", "answer_type": "name", "batch": 5, "line": 113, "pid": 496, "question": "Of which political system is House Costerham the most active supporter?"}
+{"answer": "four", "answer_type": "number", "batch": 5, "line": 114, "pid": 498, "question": "For how many generations has House Severton intermarried with its century-old ally?"}
+{"answer": "Lords' Assembly", "answer_type": "name", "batch": 5, "line": 115, "pid": 498, "question": "In which body do House Severton and its century-old ally almost always stand together?"}
+{"answer": "Wardell", "answer_type": "name", "batch": 6, "line": 0, "pid": 502, "question": "What was Lady Mira Costerham's maiden name?"}
+{"answer": "the impoverished west", "answer_type": "phrase", "batch": 6, "line": 1, "pid": 502, "question": "Which region did Lady Mira Costerham originally come from?"}
+{"answer": "the family's agricultural operations", "answer_type": "phrase", "batch": 6, "line": 2, "pid": 503, "question": "What does Brennan Costerham manage?"}
+{"answer": "farmer", "answer_type": "phrase", "batch": 6, "line": 3, "pid": 503, "question": "In the southern territories, Brennan Costerham is effectively the biggest what?"}
+{"answer": "Roland Severton", "answer_type": "name", "batch": 6, "line": 4, "pid": 505, "question": "With whom does Ser Marcus Costerham spar at tournaments?"}
+{"answer": "gentle temperament", "answer_type": "phrase", "batch": 6, "line": 5, "pid": 505, "question": "What disposition is Ser Marcus Costerham known for?"}
+{"answer": "erratic behavior", "answer_type": "phrase", "batch": 6, "line": 6, "pid": 505, "question": "What about Roland Severton privately worries Ser Marcus Costerham?"}
+{"answer": "Aldous", "answer_type": "name", "batch": 6, "line": 7, "pid": 508, "question": "Who married Mira Wardell thirty years ago?"}
+{"answer": "Thirty years ago", "answer_type": "phrase", "batch": 6, "line": 8, "pid": 508, "question": "How long before the present did Aldous wed Mira Wardell?"}
+{"answer": "Lastvein Keep", "answer_type": "name", "batch": 6, "line": 9, "pid": 509, "question": "Which seat's lavish lifestyle did Mira Costerham never truly adapt to?"}
+{"answer": "River Plains", "answer_type": "name", "batch": 6, "line": 10, "pid": 509, "question": "Among the noblewomen of which region did Mira Costerham seem out of place?"}
+{"answer": "the Wardells", "answer_type": "name", "batch": 6, "line": 11, "pid": 509, "question": "Which family felt that House Costerham had essentially purchased their daughter?"}
+{"answer": "her chambers", "answer_type": "phrase", "batch": 6, "line": 12, "pid": 510, "question": "Where does Mira Costerham now pass the greater part of each day?"}
+{"answer": "Southreach", "answer_type": "name", "batch": 6, "line": 13, "pid": 510, "question": "From which place is Mira Costerham reportedly sent western delicacies every year?"}
+{"answer": "her brother", "answer_type": "phrase", "batch": 6, "line": 14, "pid": 510, "question": "Which relative reportedly sends Mira Costerham yearly delicacies?"}
+{"answer": "Deeproot", "answer_type": "name", "batch": 6, "line": 15, "pid": 513, "question": "Which region do the river valley plains of the Northern Territory face?"}
+{"answer": "fortified manor", "answer_type": "phrase", "batch": 6, "line": 16, "pid": 513, "question": "Rather than a castle, what is Greenhill Hold more like?"}
+{"answer": "We Watch the Mountains", "answer_type": "phrase", "batch": 6, "line": 17, "pid": 514, "question": "What does 'Nir Valeth Kragun' mean in translation?"}
+{"answer": "Mountain folk tongue", "answer_type": "phrase", "batch": 6, "line": 18, "pid": 514, "question": "In which language is the motto 'Nir Valeth Kragun' written?"}
+{"answer": "golden ancient tree", "answer_type": "phrase", "batch": 6, "line": 19, "pid": 514, "question": "On the coat of arms showing a silver hill on a deep green field, what sits atop the hill?"}
+{"answer": "nearly two thousand years", "answer_type": "phrase", "batch": 6, "line": 20, "pid": 516, "question": "How far back does the Prekurlind kinship web stretch?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 6, "line": 21, "pid": 516, "question": "Which place's minotaur civic tradition has deeper roots than the Prekurlind network?"}
+{"answer": "2E 600", "answer_type": "year", "batch": 6, "line": 22, "pid": 517, "question": "From around what date was the lineage Domus Praecursor Ultimi Limitis stationed in Deeproot?"}
+{"answer": "Pioneers of the Last Border", "answer_type": "phrase", "batch": 6, "line": 23, "pid": 517, "question": "What does Domus Praecursor Ultimi Limitis mean in English?"}
+{"answer": "First Auromere Empire", "answer_type": "name", "batch": 6, "line": 24, "pid": 517, "question": "Which state conquered Deeproot near 3E ~0 and kept the Prekurlind on as frontier guardians?"}
+{"answer": "3E ~800", "answer_type": "year", "batch": 6, "line": 25, "pid": 518, "question": "When did the double collapse occur that made the Prekurlind the sole remaining institutional authority in their region?"}
+{"answer": "Dwarf Third Kingdom", "answer_type": "name", "batch": 6, "line": 26, "pid": 518, "question": "Along with Auromere's northern rule, which realm dissolved in the double collapse?"}
+{"answer": "Borjigin", "answer_type": "name", "batch": 6, "line": 27, "pid": 518, "question": "Which name among the Mongol steppe peoples is compared to the Prekurlind clan identifier?"}
+{"answer": "3E 900", "answer_type": "year", "batch": 6, "line": 28, "pid": 519, "question": "Around when did the armies of the Second Auromere Empire arrive in Prekurlind territory?"}
+{"answer": "humanization purges", "answer_type": "phrase", "batch": 6, "line": 29, "pid": 519, "question": "What name was given to the Second Auromere Empire's campaigns against mountain folk culture?"}
+{"answer": "marshland Orcs", "answer_type": "phrase", "batch": 6, "line": 30, "pid": 520, "question": "Which group left to found the Khanate?"}
+{"answer": "peace corridor", "answer_type": "phrase", "batch": 6, "line": 31, "pid": 520, "question": "Treaties of the Khanate period made Deeproot into what?"}
+{"answer": "Lorbok", "answer_type": "name", "batch": 6, "line": 32, "pid": 521, "question": "Which Orc chieftain mobilized Prekurlind military resources at the Battle of Aliqurium?"}
+{"answer": "3E 1400", "answer_type": "year", "batch": 6, "line": 33, "pid": 521, "question": "Around what date was the Battle of Aliqurium fought?"}
+{"answer": "Auromerian legion", "answer_type": "phrase", "batch": 6, "line": 34, "pid": 521, "question": "What force did Lorbok annihilate at the Battle of Aliqurium?"}
+{"answer": "Mercenary Period", "answer_type": "name", "batch": 6, "line": 35, "pid": 522, "question": "In which era did armed companies controlling whole districts serve as extensions of the Prekurlind network?"}
+{"answer": "allied Orc communities", "answer_type": "phrase", "batch": 6, "line": 36, "pid": 522, "question": "Apart from the Prekurlind network, whose extensions were many armed companies of the Mercenary Period?"}
+{"answer": "the Nameless Terror", "answer_type": "name", "batch": 6, "line": 37, "pid": 524, "question": "Whom did Lyjousturnur defeat around 3E 1580?"}
+{"answer": "3E 1580", "answer_type": "year", "batch": 6, "line": 38, "pid": 524, "question": "Around what date did Lyjousturnur defeat the Nameless Terror?"}
+{"answer": "Kalee the Reed Runner", "answer_type": "name", "batch": 6, "line": 39, "pid": 525, "question": "Who was enfeoffed as Viscount Solari?"}
+{"answer": "western Mistbelt", "answer_type": "name", "batch": 6, "line": 40, "pid": 525, "question": "Where were the Wardells installed during Lyjousturnur's partition of the southern territories?"}
+{"answer": "Duke", "answer_type": "name", "batch": 6, "line": 41, "pid": 526, "question": "What rank, the highest in the southern nobility, did the Prekurlind receive?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 6, "line": 42, "pid": 526, "question": "Who selected the current Prekurlind ducal line?"}
+{"answer": "two millennia", "answer_type": "phrase", "batch": 6, "line": 43, "pid": 528, "question": "For how long did the Prekurlind survive without the Concordat's institutions?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 6, "line": 44, "pid": 528, "question": "Whose continued favor do the Prekurlind need to keep their ducal status?"}
+{"answer": "Concordat", "answer_type": "name", "batch": 6, "line": 45, "pid": 529, "question": "Whose legal framework protects both factions of Prekurlind vassals?"}
+{"answer": "orthodox", "answer_type": "phrase", "batch": 6, "line": 46, "pid": 529, "question": "What label, in quotation marks, is applied to Prekurlind vassal families placed during the Second Auromere expansion?"}
+{"answer": "commercial network", "answer_type": "phrase", "batch": 6, "line": 47, "pid": 530, "question": "What is the Prekurlind clan's deepest political asset?"}
+{"answer": "middlemen", "answer_type": "phrase", "batch": 6, "line": 48, "pid": 530, "question": "What role have the Prekurlind filled for two millennia between southern civilization and mountain communities?"}
+{"answer": "Ranger dispatch", "answer_type": "phrase", "batch": 6, "line": 49, "pid": 530, "question": "Information in the Prekurlind kinship channels travels faster than what?"}
+{"answer": "dragon's watchdogs", "answer_type": "phrase", "batch": 6, "line": 50, "pid": 532, "question": "In the eyes of the Prekurlind, what are the Wardells?"}
+{"answer": "Lorbok", "answer_type": "name", "batch": 6, "line": 51, "pid": 533, "question": "Who created the ruins that House Wardell guards?"}
+{"answer": "token support", "answer_type": "phrase", "batch": 6, "line": 52, "pid": 533, "question": "What did the northern nobility offer during the Battle of Aliqurium?"}
+{"answer": "Prekurlind scout", "answer_type": "phrase", "batch": 6, "line": 53, "pid": 535, "question": "What was Kalee the Reed Runner before his elevation?"}
+{"answer": "Solari", "answer_type": "name", "batch": 6, "line": 54, "pid": 535, "question": "Which house is Prekurlind's most quietly significant ally in the southern territories?"}
+{"answer": "Concordat", "answer_type": "name", "batch": 6, "line": 55, "pid": 536, "question": "Prekurlind and Solari share an interest in maintaining which framework?"}
+{"answer": "mountain folk in noble clothing", "answer_type": "phrase", "batch": 6, "line": 56, "pid": 536, "question": "What quoted phrase can Auromere-descended families use to question the legitimacy of Prekurlind and Solari?"}
+{"answer": "Greenhill Hold", "answer_type": "name", "batch": 6, "line": 57, "pid": 538, "question": "Which residence does Valdric Prekurlind rarely leave?"}
+{"answer": "the mountain folk", "answer_type": "phrase", "batch": 6, "line": 58, "pid": 538, "question": "Whose every dialect is Valdric Prekurlind said to understand?"}
+{"answer": "Mereham", "answer_type": "name", "batch": 6, "line": 59, "pid": 539, "question": "What is Lady Senna Prekurlind's maiden name?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 6, "line": 60, "pid": 539, "question": "The marriage of Lady Senna Prekurlind strengthened ties to the commercial networks of which place?"}
+{"answer": "the southern north bank", "answer_type": "phrase", "batch": 6, "line": 61, "pid": 539, "question": "Which area does Lady Senna Prekurlind's family come from?"}
+{"answer": "traditional noble", "answer_type": "phrase", "batch": 6, "line": 62, "pid": 540, "question": "What is Kira Prekurlind reportedly more like than her father?"}
+{"answer": "true history", "answer_type": "phrase", "batch": 6, "line": 63, "pid": 542, "question": "What does Elder Vekra reportedly keep for the family?"}
+{"answer": "Marsh Path", "answer_type": "name", "batch": 6, "line": 64, "pid": 545, "question": "Southreach lies a short ride to the south of which route?"}
+{"answer": "two centuries", "answer_type": "phrase", "batch": 6, "line": 65, "pid": 545, "question": "How long a span of battle do the scarred walls of Southreach bear witness to?"}
+{"answer": "over half", "answer_type": "phrase", "batch": 6, "line": 66, "pid": 545, "question": "What share of the Western Territory lies within the Mistbelt?"}
+{"answer": "Fort Aliqurium", "answer_type": "name", "batch": 6, "line": 67, "pid": 548, "question": "Which stronghold was razed when the western defensive line fell around 3E 1400?"}
+{"answer": "garrison command", "answer_type": "phrase", "batch": 6, "line": 68, "pid": 548, "question": "What military post was the Wardell name first attached to on the western frontier?"}
+{"answer": "3E 1600", "answer_type": "year", "batch": 6, "line": 69, "pid": 549, "question": "Around what date did Lyjousturnur restructure the southern territories?"}
+{"answer": "mercenary veterans", "answer_type": "phrase", "batch": 6, "line": 70, "pid": 549, "question": "From which group was the founder of the current House Wardell reportedly drawn?"}
+{"answer": "officer", "answer_type": "phrase", "batch": 6, "line": 71, "pid": 549, "question": "What position did the Wardell family's founder hold?"}
+{"answer": "two hundred years", "answer_type": "number", "batch": 6, "line": 72, "pid": 551, "question": "For how long have the Wardells been guarding lands beyond full restoration?"}
+{"answer": "Coven", "answer_type": "name", "batch": 6, "line": 73, "pid": 551, "question": "Which witches reportedly nest in the abandoned fortresses of the Mistbelt?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 6, "line": 74, "pid": 555, "question": "Merchants from which place grow rich while House Wardell sinks into debt?"}
+{"answer": "shield", "answer_type": "phrase", "batch": 6, "line": 75, "pid": 555, "question": "What do the Wardells feel they are to the southern territories?"}
+{"answer": "poor relations", "answer_type": "phrase", "batch": 6, "line": 76, "pid": 555, "question": "As what are the Wardells treated, despite their role?"}
+{"answer": "a privileged relationship", "answer_type": "phrase", "batch": 6, "line": 77, "pid": 557, "question": "What does House Wardell's poverty buy it with the Dragon Lord?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 6, "line": 78, "pid": 559, "question": "Whose man was Lorbok, according to the official Wardell narrative?"}
+{"answer": "Mistbelt", "answer_type": "name", "batch": 6, "line": 79, "pid": 559, "question": "In which region do collapsed fortresses stand as physical reminders of Prekurlind power?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 6, "line": 80, "pid": 560, "question": "Which figure placed House Wardell to hold back Prekurlind's western operations?"}
+{"answer": "outsider house", "answer_type": "phrase", "batch": 6, "line": 81, "pid": 561, "question": "What label do the mountain vassals of the Prekurlind apply to the Wardells?"}
+{"answer": "Concordat", "answer_type": "name", "batch": 6, "line": 82, "pid": 561, "question": "Most Wardell vassal families were installed after the founding of what?"}
+{"answer": "combat skills", "answer_type": "phrase", "batch": 6, "line": 83, "pid": 565, "question": "What did Ser Edmund Wardell inherit from his father?"}
+{"answer": "politics", "answer_type": "phrase", "batch": 6, "line": 84, "pid": 565, "question": "Which subject does Ser Edmund Wardell understand better than his father?"}
+{"answer": "relations with other houses", "answer_type": "phrase", "batch": 6, "line": 85, "pid": 565, "question": "What is Ser Edmund Wardell trying to improve?"}
+{"answer": "Lastvein Keep", "answer_type": "name", "batch": 6, "line": 86, "pid": 570, "question": "Where do the Wardells believe their daughter suffered neglect and disrespect?"}
+{"answer": "a joke", "answer_type": "phrase", "batch": 6, "line": 87, "pid": 570, "question": "Instead of improving east-west relations, what did the Costerham-Wardell political marriage become?"}
+{"answer": "Lake Aqa", "answer_type": "name", "batch": 6, "line": 88, "pid": 574, "question": "Above the north shore of which body of water does the Merehold stand?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 6, "line": 89, "pid": 574, "question": "Toward which city does the Merehold look out?"}
+{"answer": "four hundred", "answer_type": "number", "batch": 6, "line": 90, "pid": 574, "question": "The Merehold's architectural style dates from within how many years?"}
+{"answer": "Lake Aqa", "answer_type": "name", "batch": 6, "line": 91, "pid": 578, "question": "In the chaos around 3E 1400, which region lost its original ruling family?"}
+{"answer": "Fort Aliqurium", "answer_type": "name", "batch": 6, "line": 92, "pid": 579, "question": "According to legend, from which stronghold did Mereham's founder survive as an officer?"}
+{"answer": "youngest success story", "answer_type": "phrase", "batch": 6, "line": 93, "pid": 579, "question": "Which quoted epithet labels House Mereham as risen from ruins?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 6, "line": 94, "pid": 580, "question": "Which city is the shared capital of the southern territories?"}
+{"answer": "nouveau riche", "answer_type": "phrase", "batch": 6, "line": 95, "pid": 580, "question": "What social standing did House Mereham turn to its benefit over the centuries?"}
+{"answer": "Mereham", "answer_type": "name", "batch": 6, "line": 96, "pid": 583, "question": "Which house belongs to none of the four blocs?"}
+{"answer": "four", "answer_type": "number", "batch": 6, "line": 97, "pid": 583, "question": "How many blocs does House Mereham stand outside?"}
+{"answer": "Solari", "answer_type": "name", "batch": 6, "line": 98, "pid": 584, "question": "Which house acts as the Dragon Lord's agent on the south bank?"}
+{"answer": "Wardell", "answer_type": "name", "batch": 6, "line": 99, "pid": 584, "question": "Which house represents the West among the political blocs?"}
+{"answer": "The Eastern Alliance", "answer_type": "name", "batch": 6, "line": 100, "pid": 584, "question": "What bloc do Severton and Costerham form?"}
+{"answer": "Lake Aqa", "answer_type": "name", "batch": 7, "line": 0, "pid": 588, "question": "Across which body of water do the territories of Mereham and Solari face each other?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 7, "line": 1, "pid": 588, "question": "In which place do Mereham and Solari compete for political influence?"}
+{"answer": "Four Heroes", "answer_type": "name", "batch": 7, "line": 2, "pid": 589, "question": "House Solari's founder belonged to which legendary group?"}
+{"answer": "Dragon Lord", "answer_type": "name", "batch": 7, "line": 3, "pid": 589, "question": "Who directly enfeoffed House Solari?"}
+{"answer": "Mereham", "answer_type": "name", "batch": 7, "line": 4, "pid": 589, "question": "Which house rose out of chaos as nouveau riche?"}
+{"answer": "great golden dome", "answer_type": "phrase", "batch": 7, "line": 5, "pid": 600, "question": "What tops the main tower of Sunhearth?"}
+{"answer": "natural rock outcropping", "answer_type": "phrase", "batch": 7, "line": 6, "pid": 600, "question": "What serves as the foundation of the castle at Sunhearth?"}
+{"answer": "Southern South Bank", "answer_type": "name", "batch": 7, "line": 7, "pid": 600, "question": "What is the territory whose seat is Sunhearth called?"}
+{"answer": "We Remember the Sky", "answer_type": "phrase", "batch": 7, "line": 8, "pid": 601, "question": "What motto accompanies a coat of arms showing a sun over green reeds?"}
+{"answer": "Lyjousturnur", "answer_type": "name", "batch": 7, "line": 9, "pid": 601, "question": "Whom did Kalee reportedly ride just once?"}
+{"answer": "Nameless Terror", "answer_type": "name", "batch": 7, "line": 10, "pid": 604, "question": "Which foe did the mountain folk scout who guided the young Dragon Lord fight from dragonback?"}
+{"answer": "Deeproot", "answer_type": "name", "batch": 7, "line": 11, "pid": 604, "question": "Knowledge of which place made a mountain folk scout the young Dragon Lord's guide?"}
+{"answer": "Kalee", "answer_type": "name", "batch": 7, "line": 12, "pid": 605, "question": "Whose enfeoffment completed Lyjousturnur's restructuring of the south?"}
+{"answer": "Wardells", "answer_type": "name", "batch": 7, "line": 13, "pid": 605, "question": "Which family did Lyjousturnur's southern restructuring install as western watchdogs?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 7, "line": 14, "pid": 605, "question": "Which network was partitioned as part of Lyjousturnur's southern reorganization?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 7, "line": 15, "pid": 609, "question": "Whose court never officially objected to Lyjousturnur's naming choices?"}
+{"answer": "Dragontooth", "answer_type": "name", "batch": 7, "line": 16, "pid": 609, "question": "Newly signed treaties had recognized the independence of which land, at a time when the dragon had recently saved the north?"}
+{"answer": "Solari", "answer_type": "name", "batch": 7, "line": 17, "pid": 611, "question": "Which name remains a sensitive topic in Auromere's court?"}
+{"answer": "Solari", "answer_type": "name", "batch": 7, "line": 18, "pid": 613, "question": "Which family becomes the scapegoat each time the incident resurfaces in diplomatic settings?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 7, "line": 19, "pid": 613, "question": "Which power brings up the incident when it seeks to put pressure on the Concordat?"}
+{"answer": "Solari", "answer_type": "name", "batch": 7, "line": 20, "pid": 615, "question": "Which family is the youngest in the southern territories?"}
+{"answer": "postwar wasteland", "answer_type": "phrase", "batch": 7, "line": 21, "pid": 616, "question": "Before two centuries of development, what was Lake Aqa's south shore?"}
+{"answer": "Costerham", "answer_type": "name", "batch": 7, "line": 22, "pid": 616, "question": "In wealth, the house that developed Lake Aqa's south shore may not match which family?"}
+{"answer": "Severton", "answer_type": "name", "batch": 7, "line": 23, "pid": 616, "question": "Which family holds political influence that the developers of Lake Aqa's south shore may not equal?"}
+{"answer": "Lords' Assembly", "answer_type": "name", "batch": 7, "line": 24, "pid": 619, "question": "Which body's political games does Darian Solari rarely join?"}
+{"answer": "Ly's Seat", "answer_type": "name", "batch": 7, "line": 25, "pid": 619, "question": "Where does Darian Solari reportedly make regular reports?"}
+{"answer": "Aquilon", "answer_type": "name", "batch": 7, "line": 26, "pid": 620, "question": "Lady Nara Solari's birth family is a minor noble house in which place?"}
+{"answer": "Thornwood", "answer_type": "name", "batch": 7, "line": 27, "pid": 620, "question": "What was Lady Nara Solari's family name before marriage?"}
+{"answer": "Ly's Seat", "answer_type": "name", "batch": 7, "line": 28, "pid": 621, "question": "Where did Aleksei Solari receive part of his education?"}
+{"answer": "Dragon Lord", "answer_type": "name", "batch": 7, "line": 29, "pid": 621, "question": "Which figure has Aleksei Solari actually met, unlike most young human nobles?"}
+{"answer": "Kalee", "answer_type": "name", "batch": 7, "line": 30, "pid": 623, "question": "Whose unofficial memories does Old Tam's family keep?"}
+{"answer": "Solaris", "answer_type": "name", "batch": 7, "line": 31, "pid": 623, "question": "Which family has Old Tam's family served for generations?"}
+{"answer": "four", "answer_type": "number", "batch": 7, "line": 32, "pid": 630, "question": "How many generations of intermarriage link Severton and Costerham?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 7, "line": 33, "pid": 630, "question": "Before Lyjousturnur's restructuring, Severton and Costerham were subordinate to which network?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 7, "line": 34, "pid": 631, "question": "Which house is the only one of ducal rank?"}
+{"answer": "Two millennia", "answer_type": "phrase", "batch": 7, "line": 35, "pid": 631, "question": "Prekurlind's commercial and kinship ties span how long?"}
+{"answer": "Concordat", "answer_type": "name", "batch": 7, "line": 36, "pid": 631, "question": "Within which system is Prekurlind formally bounded?"}
+{"answer": "western corridors", "answer_type": "phrase", "batch": 7, "line": 37, "pid": 632, "question": "Which part of Prekurlind's old network was Wardell installed to watch?"}
+{"answer": "Wardell", "answer_type": "name", "batch": 7, "line": 38, "pid": 632, "question": "Which house is described as the poorest?"}
+{"answer": "Solari", "answer_type": "name", "batch": 7, "line": 39, "pid": 633, "question": "Which house shares mountain folk heritage and an alliance with Prekurlind?"}
+{"answer": "Dragon Lord", "answer_type": "name", "batch": 7, "line": 40, "pid": 633, "question": "From whom do Prekurlind and Solari derive their legitimacy?"}
+{"answer": "Mereham", "answer_type": "name", "batch": 7, "line": 41, "pid": 634, "question": "Which house plays traditional noble games in its rivalry with Solari?"}
+{"answer": "Lake Aqa", "answer_type": "name", "batch": 7, "line": 42, "pid": 634, "question": "Over the resources of which body of water do Mereham and Solari have conflicting interests?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 7, "line": 43, "pid": 636, "question": "Whose monopoly did Lyjousturnur dismantle?"}
+{"answer": "Nameless Terror", "answer_type": "name", "batch": 7, "line": 44, "pid": 636, "question": "After defeating which enemy did Lyjousturnur engineer the current political equilibrium?"}
+{"answer": "counterweights", "answer_type": "phrase", "batch": 7, "line": 45, "pid": 636, "question": "What did Lyjousturnur install at every strategic point?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 7, "line": 46, "pid": 639, "question": "Which network complies with the system because openly defying the dragon is unthinkable?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 7, "line": 47, "pid": 643, "question": "Which family remembers what it was before the partition?"}
+{"answer": "Garnetport", "answer_type": "name", "batch": 7, "line": 48, "pid": 643, "question": "Along with Deeproot's revival and Hornhold's strength, which place's rise built shared prosperity?"}
+{"answer": "Wardells", "answer_type": "name", "batch": 7, "line": 49, "pid": 643, "question": "Which family knows what it was installed to do?"}
+{"answer": "seven", "answer_type": "number", "batch": 7, "line": 50, "pid": 648, "question": "How many consecutive opponents did Roland Severton defeat to claim the tournament championship?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 7, "line": 51, "pid": 648, "question": "Which place did the minotaur warrior beaten by Roland Severton come from?"}
+{"answer": "Auromere", "answer_type": "name", "batch": 7, "line": 52, "pid": 648, "question": "A knight from which realm was among Roland Severton's defeated tournament opponents?"}
+{"answer": "Dragon Lord", "answer_type": "name", "batch": 7, "line": 53, "pid": 651, "question": "Whom does Roland openly worship?"}
+{"answer": "dragon portraits", "answer_type": "phrase", "batch": 7, "line": 54, "pid": 651, "question": "What hangs in Roland's room?"}
+{"answer": "Mistvein Castle", "answer_type": "name", "batch": 7, "line": 55, "pid": 653, "question": "Which residence did Roland not go back to after the Concordat's winter meeting?"}
+{"answer": "three", "answer_type": "number", "batch": 7, "line": 56, "pid": 653, "question": "For how many months did Roland remain at Ly's Seat?"}
+{"answer": "Concordat's administrative systems", "answer_type": "phrase", "batch": 7, "line": 57, "pid": 653, "question": "What was Roland officially said to be studying during his stay at Ly's Seat?"}
+{"answer": "Sky Mirror Lake", "answer_type": "name", "batch": 7, "line": 58, "pid": 654, "question": "According to the rumour, to where did Roland ride alone through snowy mountain passes in midwinter?"}
+{"answer": "an entire day", "answer_type": "phrase", "batch": 7, "line": 59, "pid": 654, "question": "In the midwinter rumour, how long did Roland wait in the snow before attendants found him?"}
+{"answer": "Castellan", "answer_type": "phrase", "batch": 7, "line": 60, "pid": 656, "question": "What new title did Roland receive this year?"}
+{"answer": "minor outpost", "answer_type": "phrase", "batch": 7, "line": 61, "pid": 656, "question": "Of what is Roland's new post nominally the commander?"}
+{"answer": "Mistvein Castle", "answer_type": "name", "batch": 7, "line": 62, "pid": 660, "question": "Which seat will Roland Severton, as a second son, never inherit?"}
+{"answer": "Aldric", "answer_type": "name", "batch": 7, "line": 63, "pid": 663, "question": "What is the name of Roland's father?"}
+{"answer": "Prekurlind", "answer_type": "name", "batch": 7, "line": 64, "pid": 669, "question": "Which house has traditionally been the most supportive of the Dragon Lord?"}
+{"answer": "Severton", "answer_type": "name", "batch": 7, "line": 65, "pid": 669, "question": "Which house's second son has grown nearer the Dragon Lord than Prekurlind has?"}
+{"answer": "early autumn harvest season", "answer_type": "phrase", "batch": 7, "line": 66, "pid": 686, "question": "At what time of year is the Terrace Crown Tournament held?"}
+{"answer": "Deeproot City", "answer_type": "name", "batch": 7, "line": 67, "pid": 686, "question": "Just outside which urban center do the Terrace Crown Tournament grounds lie?"}
+{"answer": "Garnet River", "answer_type": "name", "batch": 7, "line": 68, "pid": 687, "question": "Which waterway flows along one side of the Terrace Crown Tournament grounds?"}
+{"answer": "Lords' Assembly", "answer_type": "name", "batch": 7, "line": 69, "pid": 687, "question": "At the Terrace Crown Tournament, members of which body preside over major events from a central platform?"}
+{"answer": "Water People", "answer_type": "name", "batch": 7, "line": 70, "pid": 687, "question": "Whose ancient engineering is used in the wide stone staircases at the Terrace Crown Tournament grounds?"}
+{"answer": "River Barge Battles", "answer_type": "name", "batch": 7, "line": 71, "pid": 689, "question": "In which Terrace Crown Tournament event do fighters duel on floating platforms?"}
+{"answer": "Deeproot Duels", "answer_type": "name", "batch": 7, "line": 72, "pid": 689, "question": "Which one-on-one combat competition includes a category for mining tools turned into weapons?"}
+{"answer": "Mountain Melee", "answer_type": "name", "batch": 7, "line": 73, "pid": 689, "question": "Which team combat event pits groups from mining towns and river settlements against each other?"}
+{"answer": "Terrace Master Competition", "answer_type": "name", "batch": 7, "line": 74, "pid": 691, "question": "Which contest has teams build small-scale farming systems that move water across several levels?"}
+{"answer": "Irrigation Innovation Challenge", "answer_type": "name", "batch": 7, "line": 75, "pid": 691, "question": "What is the event that showcases new water management techniques called?"}
+{"answer": "Draft Animal Trials", "answer_type": "name", "batch": 7, "line": 76, "pid": 691, "question": "Which event tests the strength and training of farm beasts working with farmers?"}
+{"answer": "Gem Cutting Contest", "answer_type": "name", "batch": 7, "line": 77, "pid": 693, "question": "Which competition has artisans, many of them kobolds, processing raw garnets?"}
+{"answer": "Underground Navigation", "answer_type": "name", "batch": 7, "line": 78, "pid": 693, "question": "Which event is a timed race requiring knowledge of subterranean environments?"}
+{"answer": "Stone Carving Championship", "answer_type": "name", "batch": 7, "line": 79, "pid": 693, "question": "In which event do competitors create sculptures blending dwarf techniques and mountain people artistry?"}
+{"answer": "Deeproot Harvest Fair", "answer_type": "name", "batch": 7, "line": 80, "pid": 697, "question": "Which event runs at the same time as the Terrace Crown Tournament?"}
+{"answer": "Rural Development Bank", "answer_type": "name", "batch": 7, "line": 81, "pid": 697, "question": "Which institution supports the implementation of winning agricultural innovations?"}
+{"answer": "noble patrons", "answer_type": "phrase", "batch": 7, "line": 82, "pid": 697, "question": "At the Terrace Crown Tournament, from whom do victorious craftspeople receive commissions?"}
+{"answer": "Champion of the Fields", "answer_type": "name", "batch": 7, "line": 83, "pid": 699, "question": "Which Terrace Crown Tournament honor welcomes agricultural competitors from any background?"}
+{"answer": "underground halls", "answer_type": "phrase", "batch": 7, "line": 84, "pid": 699, "question": "At the Terrace Crown Tournament, where are the evening feasts that mix classes more freely held?"}
+{"answer": "Hornhold", "answer_type": "name", "batch": 7, "line": 85, "pid": 701, "question": "The College of Practical Magic that sends representatives to the Terrace Crown Tournament belongs to which place?"}
+{"answer": "Drakeroot Tea Ceremony", "answer_type": "name", "batch": 7, "line": 86, "pid": 701, "question": "Which ritual has participants sample a mild magical stimulant before mental contests?"}
+{"answer": "Every third year", "answer_type": "phrase", "batch": 7, "line": 87, "pid": 703, "question": "How often does Lyjousturnur attend the final day of the Terrace Crown Tournament?"}
+{"answer": "River Blessing Ceremony", "answer_type": "name", "batch": 7, "line": 88, "pid": 703, "question": "Which opening ritual of the Terrace Crown Tournament honors the waterway behind Deeproot's prosperity?"}
+{"answer": "illuminated market halls", "answer_type": "phrase", "batch": 7, "line": 89, "pid": 703, "question": "On the final night, where is the massive banquet of the Terrace Crown Tournament held?"}

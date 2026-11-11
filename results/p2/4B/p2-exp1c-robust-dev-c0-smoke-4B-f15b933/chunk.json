@@ -1,0 +1,21 @@
+{
+ "chunk_items": [
+  "dnat-math500-113",
+  "dnat-math500-273"
+ ],
+ "subset_items": [
+  "dnat-math500-113",
+  "dnat-math500-273"
+ ],
+ "subset_rule": "first 300 of the split's original-pool D-nat items in the seeded order (data/processed/split.json order, ties by item_id)",
+ "pool": 364,
+ "subset": 300,
+ "self_verdict": {
+  "dnat-math500-113": true,
+  "dnat-math500-273": true
+ },
+ "solution_tokens_identical": {
+  "dnat-math500-113": true,
+  "dnat-math500-273": true
+ }
+}

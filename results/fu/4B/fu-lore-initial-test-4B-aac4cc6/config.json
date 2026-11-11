@@ -1,0 +1,26 @@
+{
+ "stage": "initial",
+ "model": "4B",
+ "split": "test",
+ "allow_test": true,
+ "budgets": [
+  2048
+ ],
+ "budget": null,
+ "initial": null,
+ "dev_initial": null,
+ "verbal": null,
+ "limit": 0,
+ "verbal_batch": 16,
+ "dry_run": false,
+ "tag": "",
+ "a0_tokens": 4096,
+ "lore_data_sha256": {
+  "items_a": "afe20a80aa8cd4dfa38083671af9a9431e619a87a27db89efd952073b58a2595",
+  "items_b": "c7596116dcacc3f5428658e06fc1918d4873c899cf6bf48d1981b036ecba2379",
+  "items_inj": "ae71f8bb9f92703b8bde462df5fc513512c1732a84100f3253b7719535837030",
+  "passages": "850d10876b86404ad9dccb516a90722cb582ec50930c2dbfabccce34ab879d90"
+ },
+ "lore_scorer": "1.1.0",
+ "lore_scorer_sha256": "d980f57b5fcac6d58b27fc58583a58b692705e36387b4d6a7f1a87e68ecc9251"
+}

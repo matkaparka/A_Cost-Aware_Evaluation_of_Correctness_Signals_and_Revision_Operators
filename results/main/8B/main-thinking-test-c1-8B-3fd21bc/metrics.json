@@ -1,0 +1,79 @@
+{
+ "model": "8B",
+ "split": "test",
+ "chunk": 1,
+ "items": 145,
+ "vllm": "0.33.0",
+ "load_s": 41.050575971603394,
+ "turn1_s": 9264.798254728317,
+ "turn2_s": 1009.2194249629974,
+ "turn1_requests": 2900,
+ "turn2_requests": 290,
+ "out_tokens_total": 9760676,
+ "rows": {
+  "1B:assistant/other/F0": {
+   "n": 290,
+   "ok": 278,
+   "truncated": 12
+  },
+  "1B:assistant/self/F0": {
+   "n": 290,
+   "ok": 278,
+   "truncated": 12
+  },
+  "1B:user/other/F0": {
+   "n": 290,
+   "ok": 276,
+   "truncated": 14
+  },
+  "1B:user/self/F0": {
+   "n": 290,
+   "ok": 280,
+   "truncated": 10
+  },
+  "B1": {
+   "n": 290,
+   "ok": 271,
+   "truncated": 19
+  },
+  "F0": {
+   "n": 290,
+   "ok": 278,
+   "truncated": 12
+  },
+  "F1": {
+   "n": 290,
+   "ok": 264,
+   "truncated": 23,
+   "unparsed": 3
+  },
+  "F2": {
+   "n": 290,
+   "ok": 285,
+   "truncated": 5
+  },
+  "F2:turn1": {
+   "n": 290,
+   "unparsed": 90,
+   "ok": 196,
+   "truncated": 4
+  },
+  "F3(0.7)": {
+   "n": 290,
+   "ok": 278,
+   "truncated": 12
+  },
+  "F3(1.0)": {
+   "n": 290,
+   "ok": 276,
+   "truncated": 14
+  },
+  "F5": {
+   "n": 290,
+   "ok": 276,
+   "truncated": 14
+  }
+ },
+ "scorer_guarded": [],
+ "score_s": 16.59002184867859
+}

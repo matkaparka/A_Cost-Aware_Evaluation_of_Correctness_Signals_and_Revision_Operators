@@ -1,0 +1,44 @@
+{
+ "vllm": "0.33.0",
+ "stage1_s": 1347.1976342201233,
+ "stage2_s": 561.0355989933014,
+ "stage1_prompts": 19017,
+ "stage2_prompts": 6914,
+ "rows": {
+  "B0": {
+   "n": 3457,
+   "truncated": 0,
+   "not ok": 0
+  },
+  "F0": {
+   "n": 3457,
+   "truncated": 0,
+   "not ok": 15
+  },
+  "F1": {
+   "n": 3457,
+   "truncated": 0,
+   "not ok": 22
+  },
+  "F2": {
+   "n": 3457,
+   "truncated": 0,
+   "not ok": 126
+  },
+  "F2-scratch": {
+   "n": 3457,
+   "truncated": 0,
+   "not ok": 19
+  },
+  "F3(0.5)": {
+   "n": 3457,
+   "truncated": 0,
+   "not ok": 31
+  },
+  "F3(1.0)": {
+   "n": 3457,
+   "truncated": 0,
+   "not ok": 32
+  }
+ }
+}

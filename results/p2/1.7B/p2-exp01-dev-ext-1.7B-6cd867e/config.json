@@ -1,0 +1,25 @@
+{
+ "model": "1.7B",
+ "split": "dev",
+ "allow_test": false,
+ "initial": "/home/results/p1/1.7B/p1-initial-ext-1.7B-45575c2//initial.jsonl",
+ "verbal": "/home/results/p1/1.7B/p1-verbal-ext-1.7B-45575c2//verbal.jsonl",
+ "self_threshold_s": 15.873724267114774,
+ "revision_tokens": 2048,
+ "critique_tokens": 1024,
+ "tsui_tokens": 1024,
+ "exp0_tokens": 1024,
+ "limit": 0,
+ "dry_run": false,
+ "tag": "ext",
+ "tokenizer": null,
+ "items": "data/processed/ext/dnat_ext.jsonl",
+ "only_1a_dnat": true,
+ "scorer_version": "1.1.0",
+ "wording_sha256": "229f9167e91e8a01ef18fa4fe6d37b79c51f69243b9a9a66988dadbc045583cf",
+ "raw_rows_sha256": {
+  "gsm8k_sc": "71cd385640ff029b395731916729b79b4bd5fc085f7d485f7830609afbedf107",
+  "prm800k_sc": "a367ae23b86f0510f3190970decc7842a491042301fac42dba7df9f47d359a3b",
+  "scli5": "c1e69c40edd61da10f101c22cb36044b8d45639bf7c922b3461e2f0c13ad571a"
+ }
+}

@@ -1,0 +1,30 @@
+{"time": "2026-11-10T00:48:02Z", "job": "-", "status": "begin", "gpus": [0, 1], "jobs": 14, "est_gpu_h": 7.71}
+{"time": "2026-11-10T00:48:02Z", "job": "b2-dev-continue-8B", "status": "start", "slot": 0, "est_h": 0.05}
+{"time": "2026-11-10T00:48:02Z", "job": "b2-dev-continue-T8B", "status": "start", "slot": 1, "est_h": 0.05}
+{"time": "2026-11-10T00:52:52Z", "job": "b2-dev-continue-T8B", "status": "done", "slot": 1, "hours": 0.081}
+{"time": "2026-11-10T00:52:52Z", "job": "b2-dev-long-1.7B", "status": "start", "slot": 1, "est_h": 0.0415}
+{"time": "2026-11-10T00:53:56Z", "job": "b2-dev-continue-8B", "status": "done", "slot": 0, "hours": 0.098}
+{"time": "2026-11-10T00:53:56Z", "job": "c1-think-math-8B-c0", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-10T00:58:22Z", "job": "b2-dev-long-1.7B", "status": "done", "slot": 1, "hours": 0.092}
+{"time": "2026-11-10T00:58:22Z", "job": "c1-think-math-8B-c1", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-10T01:14:48Z", "job": "c1-think-math-8B-c0", "status": "done", "slot": 0, "hours": 0.348}
+{"time": "2026-11-10T01:14:48Z", "job": "c1-think-math-8B-c2", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-10T01:16:34Z", "job": "c1-think-math-8B-c1", "status": "done", "slot": 1, "hours": 0.303}
+{"time": "2026-11-10T01:16:34Z", "job": "c1-think-math-8B-c3", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-10T01:36:56Z", "job": "c1-think-math-8B-c2", "status": "done", "slot": 0, "hours": 0.369}
+{"time": "2026-11-10T01:36:56Z", "job": "c1-think-math-8B-c4", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-10T01:50:00Z", "job": "c1-think-math-8B-c3", "status": "done", "slot": 1, "hours": 0.557}
+{"time": "2026-11-10T01:50:00Z", "job": "c1-think-math-8B-c5", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-10T02:12:42Z", "job": "c1-think-math-8B-c4", "status": "done", "slot": 0, "hours": 0.596}
+{"time": "2026-11-10T02:12:42Z", "job": "c1-think-math-8B-c6", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-10T02:24:20Z", "job": "c1-think-math-8B-c5", "status": "done", "slot": 1, "hours": 0.572}
+{"time": "2026-11-10T02:24:20Z", "job": "c1-think-math-8B-c7", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-10T02:45:44Z", "job": "c1-think-math-8B-c6", "status": "done", "slot": 0, "hours": 0.551}
+{"time": "2026-11-10T02:45:44Z", "job": "c1-think-math-8B-c8", "status": "start", "slot": 0, "est_h": 0.689}
+{"time": "2026-11-10T03:02:20Z", "job": "c1-think-math-8B-c7", "status": "done", "slot": 1, "hours": 0.633}
+{"time": "2026-11-10T03:02:20Z", "job": "c1-think-math-8B-c9", "status": "start", "slot": 1, "est_h": 0.689}
+{"time": "2026-11-10T03:25:55Z", "job": "c1-think-math-8B-c8", "status": "done", "slot": 0, "hours": 0.67}
+{"time": "2026-11-10T03:25:55Z", "job": "c1-think-math-8B-c10", "status": "start", "slot": 0, "est_h": 0.677}
+{"time": "2026-11-10T03:40:21Z", "job": "c1-think-math-8B-c9", "status": "done", "slot": 1, "hours": 0.633}
+{"time": "2026-11-10T04:00:09Z", "job": "c1-think-math-8B-c10", "status": "done", "slot": 0, "hours": 0.571}
+{"time": "2026-11-10T04:00:09Z", "job": "-", "status": "end", "done": 14, "failed": 0, "skipped": 0, "stopped": 0, "pending": 0, "running": 0}

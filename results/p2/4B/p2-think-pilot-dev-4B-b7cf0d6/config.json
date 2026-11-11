@@ -1,0 +1,22 @@
+{
+ "model": "4B",
+ "max_tokens": 16384,
+ "items": "data/processed/dnat.jsonl",
+ "seed": 0,
+ "gpu_util": 0.85,
+ "dry_run": false,
+ "prompt": "{q}\n\nPlease reason step by step, and put your final answer within \\boxed{{}}.",
+ "thinking": true,
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0.0
+ },
+ "budgets": [
+  4096,
+  8192,
+  16384
+ ],
+ "scorer_version": "1.1.0"
+}

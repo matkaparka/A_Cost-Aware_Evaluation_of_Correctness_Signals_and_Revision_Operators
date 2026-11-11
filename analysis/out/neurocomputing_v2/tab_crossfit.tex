@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrlrrrrrr}
+\toprule
+& & & \multicolumn{3}{c}{Verbal threshold} & \multicolumn{3}{c}{Probe threshold} \\
+\cmidrule(lr){4-6}\cmidrule(lr){7-9}
+Setting & $B$ & Uniform $\Delta$ (tok.) & Share & $\Delta$ [vs U] & Tok. [drift] & Share & $\Delta$ [vs U] & Tok. [drift] \\
+\midrule
+Math 4B & 256 & +0.16 (852) & 0.65\% & +0.40 [+0.24] & 853 [+0.10\%] & 0.69\% & +0.49 [+0.34] & 849 [-0.34\%] \\
+ & 512 & +0.91 (1,100) & 3.11\% & +2.28 [+1.37] & 1,096 [-0.31\%] & 3.01\% & +2.22 [+1.31] & 1,094 [-0.53\%] \\
+ & 1,024 & +2.89 (1,600) & 8.04\% & +4.43 [+1.54] & 1,601 [+0.05\%] & 8.00\% & +4.53 [+1.64] & 1,600 [-0.03\%] \\
+ & 2,048 & +5.21 (2,378) & 17.91\% & +6.35 [+1.15] & 2,387 [+0.39\%] & 17.66\% & +6.29 [+1.09] & 2,368 [-0.41\%] \\
+\midrule
+Math 8B & 256 & +0.28 (868) & 1.03\% & +0.67 [+0.40] & 874 [+0.71\%] & 0.95\% & +0.61 [+0.34] & 864 [-0.46\%] \\
+ & 512 & +0.91 (1,121) & 3.25\% & +2.16 [+1.25] & 1,113 [-0.72\%] & 3.44\% & +2.41 [+1.50] & 1,128 [+0.63\%] \\
+ & 1,024 & +2.89 (1,611) & 8.16\% & +4.16 [+1.27] & 1,617 [+0.38\%] & 8.19\% & +3.94 [+1.05] & 1,627 [+1.00\%] \\
+ & 2,048 & +5.30 (2,405) & 17.99\% & +6.14 [+0.83] & 2,408 [+0.15\%] & 18.01\% & +6.47 [+1.17] & 2,397 [-0.34\%] \\
+\midrule
+MMLU-Pro 4B & 256 & +1.62 (777) & 0.32\% & +0.06 [-1.56] & 781 [+0.46\%] & 0.35\% & +0.20 [-1.42] & 777 [+0.02\%] \\
+ & 512 & +2.69 (1,054) & 6.02\% & +1.65 [-1.04] & 1,041 [-1.28\%] & 7.00\% & +1.53 [-1.16] & 1,058 [+0.32\%] \\
+ & 1,024 & +4.48 (1,505) & 19.15\% & +2.83 [-1.65] & 1,505 [-0.02\%] & 20.25\% & +2.60 [-1.88] & 1,514 [+0.60\%] \\
+ & 2,048 & +6.42 (2,058) & 35.41\% & +4.02 [-2.40] & 2,055 [-0.13\%] & 38.15\% & +3.62 [-2.81] & 2,059 [+0.06\%] \\
+\bottomrule
+\end{tabular}
+\caption{Retrospective grouped five-fold threshold-transfer sensitivity on previously analysed test records; this is not independent validation. In each fold, the largest whole-score threshold fitting the calibration folds' uniform generated-token volume is selected using signals and costs only, then frozen on the held-out fold. Mathematics models share canonical-problem folds. $\Delta$: pooled out-of-fold accuracy change against \KEEP{} (pp); [vs U]: difference from uniform thinking (pp). Tokens include $a_0$ for selective policies. [Drift] is selective cost minus the held-out uniform cost, divided by that uniform cost; positive values are overshoots. No held-out budget adjustment, confidence intervals or significance tests are applied. These are actual-cost comparisons, not matched-cost accuracy claims.}
+\label{tab:crossfitv2}
+\end{table*}

@@ -1,0 +1,13 @@
+{
+ "large_artifacts_on_run_host": {
+  "checkpoints/t001/B_ext-s0_t001.pt": "074e9c1faaaf99be1903cbb49d7680e7c25da55f669c28bf2a96ef7348d07d6d",
+  "checkpoints/t001/B_random-s0_t001.pt": "5dc88d90ff7e0637e8dd965538c971d50500081ab6bc83b15e6c9a4ad68cb9b0",
+  "checkpoints/t001/B_self-s0_t001.pt": "e40f18ab1e8c1abc6ed0e18fcefeb5c15a97969cc1e1ca5d680e050142dcf8f2",
+  "checkpoints/t001/memory_context-s0_t001.json": "fb384daa75a025a304b7040a47a799d93df5f54e0fa2b30bd1e52f8d56b1a4f2",
+  "checkpoints/t002/B_ext-s0_t002.pt": "379f0e14e974a20a6102f99a0a0d322d167e690eba73f5b0e9a05260223dc9e0",
+  "checkpoints/t002/B_random-s0_t002.pt": "70b496cec7e0c6f6cc250fb70ccda1220770df04263aedab7ffdd36ced303a1f",
+  "checkpoints/t002/B_self-s0_t002.pt": "8a7dfb244b125302b680e3367f181780b36644fca098a7dbd3b918bd27206077",
+  "checkpoints/t002/memory_context-s0_t002.json": "856443207bd0fdbd7d42f4167b77e2303c9b6c4e7898606c36cefcbf9265ef03"
+ },
+ "rebuild": "B of every adapter trajectory and every context log at each evaluated step; A from update.reset(seed h('stream-lora-A-v1', s)); config.json gives every other input"
+}

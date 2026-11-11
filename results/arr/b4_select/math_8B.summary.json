@@ -1,0 +1,19 @@
+{
+ "task": "math",
+ "source": [
+  "/home/results/arr/b1/8B/b1-samples-test-k5-h2a-consistency-t4096-c0-8B-279e6b0/samples.jsonl",
+  "/home/results/arr/b1/8B/b1-samples-test-k5-h2a-consistency-t4096-c1-8B-279e6b0/samples.jsonl",
+  "/home/results/arr/b1/8B/b1-samples-test-k5-h2a-consistency-t4096-c2-8B-279e6b0/samples.jsonl"
+ ],
+ "source_sha256": [
+  "935b8a6e7b01df8b6fa1fe2185381d7f3eb28b9c1d16141603274441be8c2b97",
+  "599cab768a6057e21c3cb6dcdf45c4a729833896f1875159ef5aa93abba850e7",
+  "24c60c882115e1302258560bf186d5a1f8e4955ad0fa2ea0f32223b5f8fc3b8c"
+ ],
+ "items": 5052,
+ "share": 0.2,
+ "selected": 1010,
+ "max_selected_margin": 0.8,
+ "guards": [],
+ "out_sha256": "4543b6a82363ec31381653c51b154c343b8de6fcec9781f7db184a26b285e9e3"
+}

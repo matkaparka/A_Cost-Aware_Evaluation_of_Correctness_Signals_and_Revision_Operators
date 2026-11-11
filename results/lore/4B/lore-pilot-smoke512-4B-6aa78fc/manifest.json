@@ -1,0 +1,29 @@
+{
+ "run_id": "lore-pilot-smoke512-4B-6aa78fc",
+ "model": "Qwen/Qwen3-4B",
+ "model_revision": [
+  "1cfa9a7208912126459214e8b04321603b3df60c"
+ ],
+ "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+ "wording_sha256": "8876e630cd7e592da50e9b3fbeaec1d95478df6e4bd5ec03debd917d29d489d5",
+ "lore_scorer_sha256": "6ebc7df3114e8dffc3b59d607aded89f03efba44bce61fa0e3e744920f6cc35e",
+ "items_a_sha256": "afe20a80aa8cd4dfa38083671af9a9431e619a87a27db89efd952073b58a2595",
+ "items_b_sha256": "c7596116dcacc3f5428658e06fc1918d4873c899cf6bf48d1981b036ecba2379",
+ "items_inj_sha256": "ae71f8bb9f92703b8bde462df5fc513512c1732a84100f3253b7719535837030",
+ "passages_sha256": "850d10876b86404ad9dccb516a90722cb582ec50930c2dbfabccce34ab879d90",
+ "code_commit": "6aa78fcd0f85795134a8080f034aeea892e5e72b",
+ "config_sha256": "b3e01cf1466754c285a334ee91473b37329e02feb7eec8e068404699327c2402",
+ "backend": {
+  "name": "hf-transformers",
+  "version": "5.20.2",
+  "dtype": "bfloat16",
+  "greedy": true
+ },
+ "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+ "host": "control (laptop)",
+ "files": {
+  "config.json": "d6a15d21e090b643a0ce0b07f0e53e219c3be8d67859438a0849293d5f71c40e",
+  "metrics.json": "2ccb3e280d4e7cd8c136d6b54a986ec5983b5089e35341ca29e229af2193c1bc",
+  "rows.jsonl": "c226e04779a4db4eedc56664485a918c831f22f847e3059efc4cef4f77473f6b"
+ }
+}

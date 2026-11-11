@@ -1,0 +1,3 @@
+{"item_id": "mmlupro-913", "cond": "B1-think", "correct0": false, "status": "unclosed", "pred": null, "correct": false, "out_tokens": 2048, "finish_reason": "length"}
+{"item_id": "mmlupro-962", "cond": "B1-think", "correct0": true, "status": "truncated", "pred": null, "correct": false, "out_tokens": 2048, "finish_reason": "length"}
+{"item_id": "mmlupro-1218", "cond": "B1-think", "correct0": false, "status": "unclosed", "pred": null, "correct": false, "out_tokens": 2048, "finish_reason": "length"}

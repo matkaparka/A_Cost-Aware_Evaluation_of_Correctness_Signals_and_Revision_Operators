@@ -1,0 +1,13 @@
+{
+ "stage": "think",
+ "items": 562,
+ "vllm": "0.33.0",
+ "load_s": 102.79499411582947,
+ "gen_s": 1032.3785331249237,
+ "score_s": 1.939842700958252,
+ "counts": {
+  "generated_tokens": 1668788,
+  "truncated": 5,
+  "right": 536
+ }
+}

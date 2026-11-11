@@ -1,0 +1,31 @@
+{
+ "acts": [
+  "results/p2/1.7B/p2-acts-dev-1.7B-f7e5011/acts.npz",
+  "results/p2/1.7B/p2-acts-dev-ext-1.7B-8360990/acts.npz"
+ ],
+ "acts_sha256": [
+  "b3247eb9d6188b7107570ca24391dfd162eb12232a46a35a58c53fd979c1ba2e",
+  "a71274aed8ead87516b8d14de271a128e54839350bf54926fdd3e6d581cfc16e"
+ ],
+ "code_commit": "b7cf0d6e6a29aabb6b0a926aa35ad41378eb3bdc",
+ "config": {
+  "C_grid": [
+   0.001,
+   0.01,
+   0.1,
+   1.0
+  ],
+  "folds": 5,
+  "seed": 0
+ },
+ "host": "liam\u7684pc",
+ "versions": {
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "sklearn": "1.9.1"
+ },
+ "files": {
+  "probe.npz": "db0c6752bfc88da58d797a954af863e7f6d862940a24c8dfc93f457c622e65d0",
+  "probe_selection.json": "519051ad49c58413a3451adb4ef2aac840e7bde5303afa6d1ef13f16892005aa"
+ }
+}

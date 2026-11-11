@@ -1,0 +1,233 @@
+{
+ "plan_sha256_lf": "2edb8dbec62c629c6030c7db4f9b20b773447878434f4a14c6431ffaebabcfe5",
+ "plan_core_sha256": "09d8fc6f5e58d4534494c7878540a30607072b357872a6794ea26ea4425c4d9b",
+ "extractions_sha256_before_gold": "d9098873e0dd85d6ce58efa46dbe1c61e1f941a5957f2b84a755553b7e16bf91",
+ "acl_4B_parity_checks": 15156,
+ "symbolic_calls": 0,
+ "cache_seeded_from_acl": 5485,
+ "guards": [],
+ "review_required": false,
+ "models": {
+  "1.7B": {
+   "n": 5052,
+   "initial": {
+    "historical_correct": 3802,
+    "common_correct": 3800,
+    "historical_acc_pct": 75.25732383214569,
+    "common_acc_pct": 75.21773555027711,
+    "changed_hist_to_common": {
+     "1->0": 2
+    },
+    "status": {
+     "ok": 4894,
+     "truncated": 155,
+     "conflict": 3
+    }
+   },
+   "F0": {
+    "historical_correct": 3819,
+    "common_correct": 3817,
+    "historical_acc_pct": 75.59382422802851,
+    "common_acc_pct": 75.55423594615993,
+    "changed_hist_to_common": {
+     "1->0": 2
+    },
+    "status": {
+     "ok": 4981,
+     "truncated": 70,
+     "conflict": 1
+    }
+   },
+   "F2": {
+    "historical_correct": 3815,
+    "common_correct": 3813,
+    "historical_acc_pct": 75.51464766429137,
+    "common_acc_pct": 75.4750593824228,
+    "changed_hist_to_common": {
+     "1->0": 2
+    },
+    "status": {
+     "ok": 5024,
+     "truncated": 27,
+     "conflict": 1
+    }
+   },
+   "F2-scratch": {
+    "historical_correct": 3838,
+    "common_correct": 3836,
+    "historical_acc_pct": 75.96991290577989,
+    "common_acc_pct": 75.93032462391132,
+    "changed_hist_to_common": {
+     "1->0": 2
+    },
+    "status": {
+     "ok": 4976,
+     "truncated": 75,
+     "conflict": 1
+    }
+   }
+  },
+  "4B": {
+   "n": 5052,
+   "initial": {
+    "historical_correct": 4306,
+    "common_correct": 4304,
+    "historical_acc_pct": 85.23357086302454,
+    "common_acc_pct": 85.19398258115598,
+    "changed_hist_to_common": {
+     "1->0": 2
+    },
+    "status": {
+     "ok": 4839,
+     "truncated": 212,
+     "conflict": 1
+    }
+   },
+   "F0": {
+    "historical_correct": 4351,
+    "common_correct": 4349,
+    "historical_acc_pct": 86.1243072050673,
+    "common_acc_pct": 86.08471892319874,
+    "changed_hist_to_common": {
+     "1->0": 2
+    },
+    "status": {
+     "ok": 4961,
+     "truncated": 90,
+     "conflict": 1
+    }
+   },
+   "F2": {
+    "historical_correct": 4382,
+    "common_correct": 4380,
+    "historical_acc_pct": 86.73792557403009,
+    "common_acc_pct": 86.69833729216153,
+    "changed_hist_to_common": {
+     "1->0": 2
+    },
+    "status": {
+     "ok": 4986,
+     "truncated": 65,
+     "conflict": 1
+    }
+   },
+   "F2-scratch": {
+    "historical_correct": 4355,
+    "common_correct": 4353,
+    "historical_acc_pct": 86.20348376880443,
+    "common_acc_pct": 86.16389548693587,
+    "changed_hist_to_common": {
+     "1->0": 2
+    },
+    "status": {
+     "ok": 4958,
+     "truncated": 92,
+     "conflict": 2
+    }
+   }
+  },
+  "8B": {
+   "n": 5052,
+   "initial": {
+    "historical_correct": 4351,
+    "common_correct": 4351,
+    "historical_acc_pct": 86.1243072050673,
+    "common_acc_pct": 86.1243072050673,
+    "changed_hist_to_common": {},
+    "status": {
+     "ok": 4871,
+     "truncated": 181
+    }
+   },
+   "F0": {
+    "historical_correct": 4348,
+    "common_correct": 4348,
+    "historical_acc_pct": 86.06492478226446,
+    "common_acc_pct": 86.06492478226446,
+    "changed_hist_to_common": {},
+    "status": {
+     "ok": 4908,
+     "truncated": 144
+    }
+   },
+   "F2": {
+    "historical_correct": 4390,
+    "common_correct": 4389,
+    "historical_acc_pct": 86.89627870150436,
+    "common_acc_pct": 86.87648456057008,
+    "changed_hist_to_common": {
+     "1->0": 1
+    },
+    "status": {
+     "ok": 4949,
+     "truncated": 103
+    }
+   },
+   "F2-scratch": {
+    "historical_correct": 4338,
+    "common_correct": 4338,
+    "historical_acc_pct": 85.86698337292161,
+    "common_acc_pct": 85.86698337292161,
+    "changed_hist_to_common": {},
+    "status": {
+     "ok": 4852,
+     "truncated": 200
+    }
+   }
+  },
+  "T8B": {
+   "n": 5052,
+   "initial": {
+    "historical_correct": 2844,
+    "common_correct": 2845,
+    "historical_acc_pct": 56.294536817102134,
+    "common_acc_pct": 56.31433095803642,
+    "changed_hist_to_common": {
+     "0->1": 1
+    },
+    "status": {
+     "ok": 4993,
+     "truncated": 59
+    }
+   },
+   "F0": {
+    "historical_correct": 2848,
+    "common_correct": 2848,
+    "historical_acc_pct": 56.37371338083927,
+    "common_acc_pct": 56.37371338083927,
+    "changed_hist_to_common": {},
+    "status": {
+     "ok": 5019,
+     "truncated": 33
+    }
+   },
+   "F2": {
+    "historical_correct": 2853,
+    "common_correct": 2854,
+    "historical_acc_pct": 56.472684085510686,
+    "common_acc_pct": 56.49247822644497,
+    "changed_hist_to_common": {
+     "0->1": 1
+    },
+    "status": {
+     "ok": 5030,
+     "truncated": 22
+    }
+   },
+   "F2-scratch": {
+    "historical_correct": 2911,
+    "common_correct": 2912,
+    "historical_acc_pct": 57.62074425969913,
+    "common_acc_pct": 57.64053840063341,
+    "changed_hist_to_common": {
+     "0->1": 1
+    },
+    "status": {
+     "ok": 5009,
+     "truncated": 41,
+     "conflict": 2
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "model": "8B",
+ "split": "dev",
+ "chunk": 0,
+ "items": 2,
+ "vllm": "0.33.0",
+ "load_s": 41.73852014541626,
+ "turn1_s": 223.8429834842682,
+ "turn2_s": 177.89881324768066,
+ "turn1_requests": 40,
+ "turn2_requests": 4,
+ "out_tokens_total": 138817,
+ "rows": {
+  "1B:assistant/other/F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "1B:assistant/self/F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "1B:user/other/F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "1B:user/self/F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "B1": {
+   "n": 4,
+   "ok": 4
+  },
+  "F0": {
+   "n": 4,
+   "ok": 4
+  },
+  "F1": {
+   "n": 4,
+   "ok": 4
+  },
+  "F2": {
+   "n": 4,
+   "ok": 4
+  },
+  "F2:turn1": {
+   "n": 4,
+   "unparsed": 2,
+   "ok": 2
+  },
+  "F3(0.7)": {
+   "n": 4,
+   "ok": 4
+  },
+  "F3(1.0)": {
+   "n": 4,
+   "ok": 4
+  },
+  "F5": {
+   "n": 4,
+   "ok": 4
+  }
+ },
+ "scorer_guarded": [],
+ "score_s": 0.36927008628845215
+}

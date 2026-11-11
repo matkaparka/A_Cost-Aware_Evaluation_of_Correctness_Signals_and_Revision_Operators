@@ -1,0 +1,60 @@
+{
+ "model": "4B",
+ "split": "dev",
+ "vllm": "0.33.0",
+ "load_s": 39.61249494552612,
+ "stage1_s": 250.49706149101257,
+ "stage2_s": 7.152557373046875e-06,
+ "stage1_prompts": 3600,
+ "stage2_prompts": 0,
+ "rows": {
+  "1B:dinj:assistant/other/F0": {
+   "n": 300,
+   "truncated": 0
+  },
+  "1B:dinj:assistant/other/F1": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:assistant/other/F3(1.0)": {
+   "n": 300,
+   "truncated": 4
+  },
+  "1B:dinj:assistant/self/F0": {
+   "n": 300,
+   "truncated": 2
+  },
+  "1B:dinj:assistant/self/F1": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:assistant/self/F3(1.0)": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:user/other/F0": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:user/other/F1": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:user/other/F3(1.0)": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:user/self/F0": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:user/self/F1": {
+   "n": 300,
+   "truncated": 1
+  },
+  "1B:dinj:user/self/F3(1.0)": {
+   "n": 300,
+   "truncated": 1
+  }
+ }
+}

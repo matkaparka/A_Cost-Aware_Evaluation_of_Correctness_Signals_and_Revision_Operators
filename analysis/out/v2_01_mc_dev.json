@@ -1,0 +1,249 @@
+{
+ "n test items": 3457,
+ "models": {
+  "4B": {
+   "n dev": 857,
+   "a0 accuracy": 0.5332555425904317,
+   "initially wrong": 400,
+   "status": {
+    "ok": 839,
+    "fallback": 6,
+    "unparsed": 0,
+    "truncated": 12
+   },
+   "by category": {
+    "biology": {
+     "n": 142,
+     "a0 accuracy": 0.7394366197183099
+    },
+    "health": {
+     "n": 161,
+     "a0 accuracy": 0.5652173913043478
+    },
+    "history": {
+     "n": 76,
+     "a0 accuracy": 0.5
+    },
+    "law": {
+     "n": 219,
+     "a0 accuracy": 0.2831050228310502
+    },
+    "philosophy": {
+     "n": 100,
+     "a0 accuracy": 0.56
+    },
+    "psychology": {
+     "n": 159,
+     "a0 accuracy": 0.660377358490566
+    }
+   },
+   "mean a0 tokens": 756.3617269544924,
+   "projected wrong test items": 1613.5355892648774,
+   "conditions": {
+    "F0": {
+     "net change": 0.003500583430571762,
+     "W->R": 0.01,
+     "R->W": 0.002188183807439792,
+     "not ok": 0.002333722287047841
+    },
+    "F1": {
+     "net change": -0.024504084014002333,
+     "W->R": 0.135,
+     "R->W": 0.16411378555798684,
+     "not ok": 0.009334889148191364
+    },
+    "F2": {
+     "net change": -0.004667444574095682,
+     "W->R": 0.1725,
+     "R->W": 0.15973741794310725,
+     "not ok": 0.004667444574095682
+    },
+    "F2-scratch": {
+     "net change": 0.002333722287047841,
+     "W->R": 0.01,
+     "R->W": 0.004376367614879695,
+     "not ok": 0.002333722287047841
+    },
+    "F3(1.0)": {
+     "net change": 0.059509918319719954,
+     "W->R": 0.1325,
+     "R->W": 0.004376367614879695,
+     "not ok": 0.007001166861143524
+    },
+    "F3(0.5)": {
+     "net change": -0.01750291715285881,
+     "W->R": 0.06,
+     "R->W": 0.08533916849015322,
+     "not ok": 0.005834305717619603
+    }
+   },
+   "discordance": {
+    "F2 vs F0": {
+     "discordance": 0.16219369894982497,
+     "projected half-width, accuracy (pp)": 1.3425280573822975,
+     "discordance among wrong": 0.1675,
+     "projected half-width, W->R (pp)": 1.99698224020364
+    },
+    "F1 vs F0": {
+     "discordance": 0.1516919486581097,
+     "projected half-width, accuracy (pp)": 1.298337636723431,
+     "discordance among wrong": 0.14,
+     "projected half-width, W->R (pp)": 1.8257058818504777
+    },
+    "F3(1.0) vs F0": {
+     "discordance": 0.06301050175029171,
+     "projected half-width, accuracy (pp)": 0.8367830038645693,
+     "discordance among wrong": 0.1325,
+     "projected half-width, W->R (pp)": 1.776129943425562
+    },
+    "F2 vs F1": {
+     "discordance": 0.19019836639439908,
+     "projected half-width, accuracy (pp)": 1.4538171001407378,
+     "discordance among wrong": 0.1725,
+     "projected half-width, W->R (pp)": 2.0265687738348386
+    },
+    "F2 vs F2-scratch": {
+     "discordance": 0.1633605600933489,
+     "projected half-width, accuracy (pp)": 1.347348640423285,
+     "discordance among wrong": 0.1725,
+     "projected half-width, W->R (pp)": 2.0265687738348386
+    }
+   },
+   "dev probe selection": {
+    "layer": 23,
+    "C": 0.001,
+    "cv_auroc": 0.7670240700218819
+   },
+   "mean sample tokens (5 samples)": 3631.301050175029,
+   "signal AUROC": {
+    "verbal W0": 0.7111816192560175,
+    "dev probe (in-sample)": 0.8673632385120351,
+    "math probe (unchanged)": 0.7369912472647704,
+    "agreement with a0": 0.7660257111597374,
+    "answer length (shorter = correct)": 0.626660284463895
+   }
+  },
+  "T8B": {
+   "n dev": 857,
+   "a0 accuracy": 0.4457409568261377,
+   "initially wrong": 475,
+   "status": {
+    "ok": 834,
+    "fallback": 16,
+    "unparsed": 7,
+    "truncated": 0
+   },
+   "by category": {
+    "biology": {
+     "n": 142,
+     "a0 accuracy": 0.6056338028169014
+    },
+    "health": {
+     "n": 161,
+     "a0 accuracy": 0.4720496894409938
+    },
+    "history": {
+     "n": 76,
+     "a0 accuracy": 0.5131578947368421
+    },
+    "law": {
+     "n": 219,
+     "a0 accuracy": 0.2694063926940639
+    },
+    "philosophy": {
+     "n": 100,
+     "a0 accuracy": 0.34
+    },
+    "psychology": {
+     "n": 159,
+     "a0 accuracy": 0.5534591194968553
+    }
+   },
+   "mean a0 tokens": 206.47841306884482,
+   "projected wrong test items": 1916.073512252042,
+   "conditions": {
+    "F0": {
+     "net change": 0.0011668611435239206,
+     "W->R": 0.002105263157894737,
+     "R->W": 0.0,
+     "not ok": 0.009334889148191364
+    },
+    "F1": {
+     "net change": 0.004667444574095682,
+     "W->R": 0.05052631578947368,
+     "R->W": 0.05235602094240843,
+     "not ok": 0.009334889148191364
+    },
+    "F2": {
+     "net change": -0.011668611435239206,
+     "W->R": 0.02526315789473684,
+     "R->W": 0.05759162303664922,
+     "not ok": 0.040840140023337225
+    },
+    "F2-scratch": {
+     "net change": 0.004667444574095682,
+     "W->R": 0.018947368421052633,
+     "R->W": 0.01308900523560208,
+     "not ok": 0.009334889148191364
+    },
+    "F3(1.0)": {
+     "net change": 0.09101516919486581,
+     "W->R": 0.16421052631578947,
+     "R->W": 0.0,
+     "not ok": 0.015169194865810968
+    },
+    "F3(0.5)": {
+     "net change": -0.022170361726954493,
+     "W->R": 0.08421052631578947,
+     "R->W": 0.15445026178010468,
+     "not ok": 0.014002333722287048
+    }
+   },
+   "discordance": {
+    "F2 vs F0": {
+     "discordance": 0.040840140023337225,
+     "projected half-width, accuracy (pp)": 0.6736743202116425,
+     "discordance among wrong": 0.02736842105263158,
+     "projected half-width, W->R (pp)": 0.7407554562313962
+    },
+    "F1 vs F0": {
+     "discordance": 0.052508751458576426,
+     "projected half-width, accuracy (pp)": 0.7638748782559286,
+     "discordance among wrong": 0.05263157894736842,
+     "projected half-width, W->R (pp)": 1.0272429923161615
+    },
+    "F3(1.0) vs F0": {
+     "discordance": 0.09218203033838973,
+     "projected half-width, accuracy (pp)": 1.0121141958056608,
+     "discordance among wrong": 0.16631578947368422,
+     "projected half-width, W->R (pp)": 1.8260670859062131
+    },
+    "F2 vs F1": {
+     "discordance": 0.07234539089848308,
+     "projected half-width, accuracy (pp)": 0.8966270057782804,
+     "discordance among wrong": 0.06315789473684211,
+     "projected half-width, W->R (pp)": 1.125288317861335
+    },
+    "F2 vs F2-scratch": {
+     "discordance": 0.049008168028004666,
+     "projected half-width, accuracy (pp)": 0.7379732431837501,
+     "discordance among wrong": 0.035789473684210524,
+     "projected half-width, W->R (pp)": 0.8470862720990168
+    }
+   },
+   "dev probe selection": {
+    "layer": 20,
+    "C": 0.001,
+    "cv_auroc": 0.7311986773215763
+   },
+   "mean sample tokens (5 samples)": 1037.901983663944,
+   "signal AUROC": {
+    "verbal W0": 0.6677376687792781,
+    "dev probe (in-sample)": 0.913089005235602,
+    "math probe (unchanged)": 0.5921190410581427,
+    "agreement with a0": 0.7039900799118214,
+    "answer length (shorter = correct)": 0.5901625792229265
+   }
+  }
+ }
+}

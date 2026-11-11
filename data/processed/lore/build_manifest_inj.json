@@ -1,0 +1,44 @@
+{
+ "builder": "src/data/lore_inj.py",
+ "builder_sha256": "013bc2f5e1d937a067feb0d7eb9b85cd7d09c8b4e552e53f231b074c52f2ac59",
+ "a0_template": "From the passages, the answer is \\boxed{{{value}}}.",
+ "items_a_sha256": "afe20a80aa8cd4dfa38083671af9a9431e619a87a27db89efd952073b58a2595",
+ "items_b_sha256": "c7596116dcacc3f5428658e06fc1918d4873c899cf6bf48d1981b036ecba2379",
+ "items_inj_sha256": "ae71f8bb9f92703b8bde462df5fc513512c1732a84100f3253b7719535837030",
+ "counts": {
+  "rows": 2043,
+  "by_budget_variant": {
+   "1024/right": 471,
+   "1024/wrong": 212,
+   "2048/right": 471,
+   "2048/wrong": 222,
+   "512/right": 471,
+   "512/wrong": 196
+  },
+  "by_route_split": {
+   "A/dev": 37,
+   "A/test": 143,
+   "B/dev": 85,
+   "B/test": 402
+  },
+  "wrong rows without a candidate": {
+   "A/relation/1024": 1,
+   "A/relation/2048": 1,
+   "A/relation/512": 4,
+   "A/string/1024": 6,
+   "A/string/2048": 4,
+   "A/string/512": 8,
+   "B/number/1024": 2,
+   "B/number/2048": 2,
+   "B/number/512": 2,
+   "B/relation/1024": 9,
+   "B/relation/2048": 4,
+   "B/relation/512": 19,
+   "B/string/1024": 159,
+   "B/string/2048": 159,
+   "B/string/512": 159,
+   "B/year/1024": 3,
+   "B/year/512": 4
+  }
+ }
+}

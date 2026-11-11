@@ -1,0 +1,38 @@
+{
+ "4B": {
+  "dev_auroc_probe_oof": 0.8408754806270334,
+  "dev_auroc_verbal": 0.8189145223306714,
+  "test_right": 1306,
+  "test_wrong": 149,
+  "probe": {
+   "layer": 24,
+   "C": 0.001
+  },
+  "scenarios": {
+   "dev effect": 0.1285,
+   "half effect": 0.027,
+   "dev effect, pool \u00d71.5": 0.2195,
+   "dev effect, pool \u00d72": 0.286,
+   "half effect, pool \u00d72": 0.048
+  },
+  "half_effect_noise_sigma": 0.2789627807214856
+ },
+ "1.7B": {
+  "dev_auroc_probe_oof": 0.8016447368421052,
+  "dev_auroc_verbal": 0.7425986842105263,
+  "test_right": 1163,
+  "test_wrong": 292,
+  "probe": {
+   "layer": 16,
+   "C": 0.01
+  },
+  "scenarios": {
+   "dev effect": 0.898,
+   "half effect": 0.3595,
+   "dev effect, pool \u00d71.5": 0.9815,
+   "dev effect, pool \u00d72": 0.997,
+   "half effect, pool \u00d72": 0.7035
+  },
+  "half_effect_noise_sigma": 0.4467391921207309
+ }
+}

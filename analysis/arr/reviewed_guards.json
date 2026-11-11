@@ -1,0 +1,497 @@
+{
+ "about": "Scorer guard hits in the ARR analyses, each hand-checked before any analysis used it (plan Amendment 5). A guarded comparison counts as \"math-verify does not confirm\" (scorer 1.1.1, DEVIATIONS D1): the answer is correct only if its normalized string equals the gold. analysis/arr/common.py guard_check stops an analysis on any hit not listed here. Every pair's hand check is the reviewer's verdict on the two answers as written; the analyses use the rule's verdict (not equivalent) in every case and report the disagreements. Every pair's hand check is the reviewer's verdict on the two answers as written; the analyses use the rule's verdict (not equivalent) in every case and report the disagreements. Every pair's hand check is the reviewer's verdict on the two answers as written; the analyses use the rule's verdict (not equivalent) in every case and report the disagreements.",
+ "pairs": [
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{12}",
+   "reason": "cpu",
+   "source": "Qwen3-1.7B, dnat-mathext-2464 (gold 1/12)",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/12",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09",
+   "found": "2026-11-09, b1_samples.py phase 2 (after the extractions were frozen): the comparison ran 600 s and hit the wall watchdog, because the CPU and memory guards watched only the venv launcher",
+   "behaviour": "non-terminating on the laptop: run alone, its process tree used 59.6 CPU-seconds and 5.1 GB after 60 s, still growing; the same class as 2^{2^{40}} in DEVIATIONS D1"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{2004!}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-2854 (gold 1/2004!)",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2004! (below 10^-5000)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus 4096 sqrt2 (about 5792.6)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: (630 sqrt3)^(3^101/2), about 10^(2.3e48) versus 4096 sqrt2 (about 5792.6)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\frac{1}{2005 \\cdot 2004}",
+   "b": "\\frac{1}{2^{2^{2004}}}",
+   "reason": "cpu",
+   "source": "Qwen3-1.7B, dnat-mathext-2464 (gold 1/12)",
+   "hand_check": "not equivalent: 1/(2005*2004) versus 1/2^(2^2004): positive, below 10^(-10^600)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\frac{1}{2005}",
+   "b": "\\frac{1}{2^{2^{2004}}}",
+   "reason": "cpu",
+   "source": "Qwen3-1.7B, dnat-mathext-2464 (gold 1/12)",
+   "hand_check": "not equivalent: 1/2005 versus 1/2^(2^2004): positive, below 10^(-10^600)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{2^{4009}}",
+   "reason": "cpu",
+   "source": "Qwen3-1.7B, dnat-mathext-2464 (gold 1/12)",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/2^4009",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{2^{2006}}",
+   "reason": "cpu",
+   "source": "Qwen3-1.7B, dnat-mathext-2464 (gold 1/12)",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/2^2006",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "1",
+   "reason": "cpu",
+   "source": "Qwen3-1.7B, dnat-mathext-2464 (gold 1/12)",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\frac{1}{2^{2^{2004}}}",
+   "b": "\\frac{1}{4}",
+   "reason": "cpu",
+   "source": "Qwen3-1.7B, dnat-mathext-2464 (gold 1/12)",
+   "hand_check": "not equivalent: 1/2^(2^2004): positive, below 10^(-10^600) versus 1/4",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "Second sum: $ \\sum_{n = 1}^{1985} (-1)^{n + 1}(n + 1)",
+   "b": "Part 2: $ \\sum_{n=1}^{1985} c_n",
+   "reason": "cpu",
+   "source": "Qwen3-8B, dnat-math500-432 (gold 331); two samples",
+   "hand_check": "not equivalent: a sum of a sequence c_n that the answer does not define, with a text prefix; the other side is the sum sum_{n=1..1985} (-1)^(n+1)(n+1) = 994, with a text prefix",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-math500-483 (gold 8/15); forms 1 and 2 are samples 2 and 3, form 3 is its a0",
+   "hand_check": "not equivalent: their ratio is 1/|bc|, so they agree only when |bc| = 1. tanA form 1: 2D/(bc sqrt(b^2c^2-4D^2)) with D = a^2-(b-c)^2; tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-math500-483 (gold 8/15); forms 1 and 2 are samples 2 and 3, form 3 is its a0",
+   "hand_check": "equivalent when bc > 0, as for the sides of a triangle; opposite signs when bc < 0. tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D); tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2. The rule's 'not equivalent' differs from this hand check",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": false,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "1",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-2854 (gold 1/2004!)",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "-\\frac{1}{2}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-2854 (gold 1/2004!)",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus -1/2",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{(2006)^{2004}}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-2854 (gold 1/2004!)",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2006^2004",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "\\frac{1}{2005}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-2854 (gold 1/2004!)",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus 1/2005",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "b": "-2005",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-2854 (gold 1/2004!)",
+   "hand_check": "not equivalent: 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1 versus -2005",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "1",
+   "b": "a_1 = \\frac{1}{\\sum_{i=1}^{2005} \\frac{1}{i^{2004}}}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-2854 (gold 1/2004!)",
+   "hand_check": "not equivalent: 1 versus 1/S with S = sum_{i=1..2005} i^(-2004): S - 1 lies in (0, 2^-2003), so 1 - 2^-2003 < 1/S < 1",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "1",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 1",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: both are powers of a^3-3a in the undefined symbol a, with different exponents (5050 and (3^100-1)/2), so they differ as functions of a (e.g. at a = 2)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "1",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 1",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2.101)^{100}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value 2.101^100, about 1.7e32",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2.101)^{100}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 2.101^100, about 1.7e32",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "1",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: 1 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(2.101)^{100}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: 2.101^100, about 1.7e32 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (630 sqrt3)^(3^101/2), about 10^(2.3e48)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "1",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: 1 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (630 sqrt3)^(3^101/2), about 10^(2.3e48)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(2.101)^{100}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: 2.101^100, about 1.7e32 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (2+2^(3/4))^150, about 8.1e84",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (2+2^(3/4))^150, about 8.1e84",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (2+2^(3/4))^150, about 8.1e84",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "b": "(2 + 2^{3/4})^{150}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: (630 sqrt3)^(3^101/2), about 10^(2.3e48) versus (2+2^(3/4))^150, about 8.1e84",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(a^3 - 3a)^{5050}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22 versus (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "b": "(630 \\cdot \\sqrt{3})^{ \\frac{3^{101}}{2} }",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22 versus (630 sqrt3)^(3^101/2), about 10^(2.3e48)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{b c \\sqrt{b^2 c^2 - 4(a^2 - b^2 + 2bc - c^2)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-math500-483 (gold 8/15); forms 1 and 2 are samples 2 and 3, form 3 is its a0",
+   "hand_check": "not equivalent: their ratio is 1/(bc), so they agree only when bc = 1. tanA form 1: 2D/(bc sqrt(b^2c^2-4D^2)) with D = a^2-(b-c)^2; tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\tan A = \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc \\sqrt{1 - \\left( \\frac{2(a^2 - b^2 + 2bc - c^2)}{bc} \\right)^2}}",
+   "b": "\\tan A = \\frac{2(a^2 - b^2 - c^2) + 4bc}{\\sqrt{b^2c^2 - (2(a^2 - b^2 - c^2) + 4bc)^2}}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-math500-483 (gold 8/15); forms 1 and 2 are samples 2 and 3, form 3 is its a0",
+   "hand_check": "equivalent when bc > 0, as for the sides of a triangle; opposite signs when bc < 0. tanA form 2: 2D sgn(bc)/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2; tanA form 3: 2D/sqrt(b^2c^2-4D^2) with D = a^2-(b-c)^2 (2(a^2-b^2-c^2)+4bc = 2D). The rule's 'not equivalent' differs from this hand check",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": false,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{5050}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(a^3 - 3a)^{\\frac{3^{100} - 1}{2}}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "(2 + \\sqrt{2 + \\sqrt{2}})^{\\frac{3(3^{100} - 1)}{2}}",
+   "b": "( \\left( \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} \\right)^3 - 3 \\sqrt{2 + \\sqrt{2 + \\sqrt{2}}} )^{100}",
+   "reason": "memory",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2)",
+   "hand_check": "not equivalent: (2+sqrt(2+sqrt2))^((3^101-3)/2), about 10^(4.5e47) versus (x^3-3x)^100 with x = sqrt(2+sqrt(2+sqrt2)) = 2cos(pi/16), so x^3-3x = 2cos(3pi/16) and the value is about 1.2e22",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  },
+  {
+   "a": "\\left( \\frac{a^3 - 3a}{3} \\right)^{\\frac{4^{101} - 4}{3} - 100}",
+   "b": "4096 \\sqrt{2}",
+   "reason": "cpu",
+   "source": "Tulu-3-8B (T8B), dnat-mathext-4928 (gold 4096 sqrt2); B3 wording p1, operator F2 output against the gold",
+   "hand_check": "not equivalent: one side is a power of a polynomial in a symbol a that the problem does not define, so it is not the value 4096 sqrt2 (about 5792.6)",
+   "rule_verdict": "not equivalent",
+   "rule_agrees_with_hand_check": true,
+   "reviewed": "2026-11-09"
+  }
+ ]
+}

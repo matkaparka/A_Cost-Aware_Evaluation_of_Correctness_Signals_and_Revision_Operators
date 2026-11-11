@@ -1,0 +1,25 @@
+{
+ "acts": "results/p2/1.7B/p2-acts-dev-1.7B-f7e5011/acts.npz",
+ "acts_sha256": "b3247eb9d6188b7107570ca24391dfd162eb12232a46a35a58c53fd979c1ba2e",
+ "code_commit": "4eb1a4b355959505638c52dff87427594b2512f9",
+ "config": {
+  "C_grid": [
+   0.001,
+   0.01,
+   0.1,
+   1.0
+  ],
+  "folds": 5,
+  "seed": 0
+ },
+ "host": "liam\u7684pc",
+ "versions": {
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "sklearn": "1.9.1"
+ },
+ "files": {
+  "probe.npz": "88eca27af1c702cf135b06d28da1d7b6114052828e420270d0d92240c33bff5f",
+  "probe_selection.json": "f59d8e50063cbc9746cd4c080eec7fcd746ec3fd3b99d81c79dcdfb15072dea0"
+ }
+}

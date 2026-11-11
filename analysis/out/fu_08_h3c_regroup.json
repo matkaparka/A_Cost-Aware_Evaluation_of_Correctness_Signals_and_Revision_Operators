@@ -1,0 +1,56 @@
+{
+ "original run": "fu-h3c-test-4B-aac4cc6",
+ "regrouped run": "fu-h3c-regroup-test-4B-ef3e485",
+ "n items": 1547,
+ "n canonical": 1545,
+ "layer0 invariant": {
+  "original": true,
+  "regrouped": true
+ },
+ "by target": {
+  "role @ mean": {
+   "mean over layers 1+": [
+    0.9957544277718049,
+    0.9957985833850884
+   ],
+   "max": [
+    1.0,
+    1.0
+   ],
+   "largest per-layer |difference|": 0.0010504201680671121
+  },
+  "label @ mean": {
+   "mean over layers 1+": [
+    0.99397132968514,
+    0.9938997309679181
+   ],
+   "max": [
+    0.9996163101509312,
+    0.9997663179438151
+   ],
+   "largest per-layer |difference|": 0.002310339381140558
+  },
+  "role @ last": {
+   "mean over layers 1+": [
+    0.9921317828094227,
+    0.9922690781266681
+   ],
+   "max": [
+    0.9999830771152874,
+    0.9999900760861253
+   ],
+   "largest per-layer |difference|": 0.0021633609935447495
+  },
+  "label @ last": {
+   "mean over layers 1+": [
+    0.9831014288764582,
+    0.9826350760167161
+   ],
+   "max": [
+    0.9999814057192665,
+    0.99997691384246
+   ],
+   "largest per-layer |difference|": 0.006006266063682597
+  }
+ }
+}
